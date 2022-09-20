@@ -8,10 +8,7 @@ before_script: |
 pages:
   stage: deploy
   script: |
-    #./Build.sh
-    cd ./public
-    tiddlywiki ./index.html --rendertiddler $:/core/templates/alltiddlers.template.html Static.html text/plain
-    mv ./output/* ./
+    ./Build.sh
   artifacts:
     paths:
     - public
