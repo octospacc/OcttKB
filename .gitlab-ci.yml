@@ -11,6 +11,7 @@ pages:
     #./Build.sh
     cd ./public
     tiddlywiki . --rendertiddler $:/core/templates/alltiddlers.template.html Static.html text/plain
+    mv ./output/* ./
   artifacts:
     paths:
     - public
