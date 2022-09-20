@@ -10,7 +10,7 @@ pages:
   script: |
     #./Build.sh
     cd ./public
-    tiddlywiki . --rendertiddler $:/core/templates/alltiddlers.template.html Static.html text/plain
+    tiddlywiki ./index.html --rendertiddler $:/core/templates/alltiddlers.template.html Static.html text/plain
     mv ./output/* ./
   artifacts:
     paths:
