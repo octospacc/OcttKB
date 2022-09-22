@@ -9,6 +9,7 @@ pages:
   stage: deploy
   script: |
     ./Build.sh
+    ./DeployOld.sh
   artifacts:
     paths:
     - public
