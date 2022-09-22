@@ -18,7 +18,7 @@ jobs:
     - name: Build
       run: |
         sudo apt update
-        sudo apt install -y npm
+        sudo apt install -y wget npm
         sudo npm install -g tiddlywiki
         ./Build.sh
 
