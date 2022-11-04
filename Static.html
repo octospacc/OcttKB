@@ -3145,11 +3145,20 @@ color:#333353;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fww
 for any purpose, even commercially.</p><p>The licensor cannot revoke these freedoms as long as you follow the license terms.</p><h3 class=""><strong>Under the following terms:</strong></h3><p><strong>Attribution</strong> — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</p><p><strong>ShareAlike</strong> — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.</p><p><strong>No additional restrictions</strong> — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p><h3 class=""><strong>Notices:</strong></h3><p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.</p><p>No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p></div>
 </div>
 </a><a name="Dashboard">
-<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists " data-tags="" data-tiddler-title="Dashboard" role="article"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><button aria-expanded="false" aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span><h2 class="tc-title">Dashboard</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class=" tc-reveal" hidden="true"></div><div class=" tc-reveal"><div class="tc-subtitle"><a class="tc-tiddlylink tc-tiddlylink-missing" href="#"></a> 4th November 2022 at 7:10pm</div></div><div class=" tc-reveal"><div class="tc-tags-wrapper"></div></div><div class="tc-tiddler-body tc-reveal"><p><iframe src="data:text/html;utf8,
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists " data-tags="" data-tiddler-title="Dashboard" role="article"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><button aria-expanded="false" aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span><h2 class="tc-title">Dashboard</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class=" tc-reveal" hidden="true"></div><div class=" tc-reveal"><div class="tc-subtitle"><a class="tc-tiddlylink tc-tiddlylink-missing" href="#"></a> 4th November 2022 at 7:49pm</div></div><div class=" tc-reveal"><div class="tc-tags-wrapper"></div></div><div class="tc-tiddler-body tc-reveal"><p><iframe src="data:text/html;utf8,
+&lt;!-- &lt;CONTENT&gt; ---&gt;
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
+Body {
+	Text-Align: Center;
+}
+
+Ul {
+	Text-Align: Left;
+}
+
 .MainDiv {
 	Width: 100vw;
 	Height: 100wh;
@@ -3157,13 +3166,26 @@ for any purpose, even commercially.</p><p>The licensor cannot revoke these freed
 &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;h2&gt;Bookmarks&lt;/h2&gt;
+&lt;h2 id=&quot;Clock&quot;&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3&gt;Bookmarks&lt;/h3&gt;
 &lt;div id=&quot;MainDiv&quot;&gt;&lt;/div&gt;
 &lt;script&gt;
 const URLs = [
 	&quot;whoogle-eur.herokuapp.com&quot;,
 	&quot;invidious.nerdvpn.de&quot;,
 ];
+
+function SetTime() {
+	let Time = new Date();
+	let h = Time.getHours();
+	let m = Time.getMinutes();
+	let s = Time.getSeconds();
+	h = h &lt; 10 ? &quot;0&quot;+h : h;
+	m = m &lt; 10 ? &quot;0&quot;+m : m;
+	s = s &lt; 10 ? &quot;0&quot;+s : s;
+	Clock.textContent = h + &quot;:&quot; + m + &quot;:&quot; + s;
+};
 
 let UlURLs = &quot;&quot;;
 for (let i=0; i&lt;URLs.length; i++) {
@@ -3174,9 +3196,14 @@ for (let i=0; i&lt;URLs.length; i++) {
 	UlURLs += &quot;&lt;li&gt;&lt;a href=\&quot;&quot; + URL + &quot;\&quot;&gt;&quot; + URL + &quot;&lt;/a&gt;&lt;/li&gt;&quot;;
 };
 MainDiv.innerHTML += &quot;&lt;ul&gt;&quot; + UlURLs + &quot;&lt;/ul&gt;&quot;;
+
+setInterval(() =&gt; {
+	SetTime();
+}, 150);
 &lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
+&lt;!-- &lt;/CONTENT&gt; ---&gt;
 " style="Margin:0px; Padding:0px; Width:100vw; Height:100vh;"></iframe></p></div>
 </div>
 </a><a name="English">
