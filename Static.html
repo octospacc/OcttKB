@@ -3150,11 +3150,50 @@ color:#333353;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fww
 for any purpose, even commercially.</p><p>The licensor cannot revoke these freedoms as long as you follow the license terms.</p><h3 class=""><strong>Under the following terms:</strong></h3><p><strong>Attribution</strong> — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</p><p><strong>ShareAlike</strong> — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.</p><p><strong>No additional restrictions</strong> — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p><h3 class=""><strong>Notices:</strong></h3><p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.</p><p>No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p></div>
 </div>
 </a><a name="Dashboard.html">
-<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists " data-tags="" data-tiddler-title="Dashboard.html" role="article"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><button aria-expanded="false" aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span><h2 class="tc-title">Dashboard.html</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class=" tc-reveal" hidden="true"></div><div class=" tc-reveal"><div class="tc-subtitle"><a class="tc-tiddlylink tc-tiddlylink-missing" href="#"></a> 7th November 2022 at 8:04pm</div></div><div class=" tc-reveal"><div class="tc-tags-wrapper"></div></div><div class="tc-tiddler-body tc-reveal"><p><iframe frameBorder="0" placeholder="test" src="data:text/html;utf8,
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists " data-tags="" data-tiddler-title="Dashboard.html" role="article"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><button aria-expanded="false" aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span><h2 class="tc-title">Dashboard.html</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class=" tc-reveal" hidden="true"></div><div class=" tc-reveal"><div class="tc-subtitle"><a class="tc-tiddlylink tc-tiddlylink-missing" href="#"></a> 7th November 2022 at 10:30pm</div></div><div class=" tc-reveal"><div class="tc-tags-wrapper"></div></div><div class="tc-tiddler-body tc-reveal"><p><iframe frameBorder="0" placeholder="test" src="data:text/html;utf8,
 &lt;!--&lt;EXTRACT:Dashboard.html&gt;---&gt;
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
+&lt;style&gt;
+/* CSS from https://www.w3schools.com/howto/howto_js_dropdown.asp */
+.dropbtn {
+  /*background-color: 3498DB;
+  color: white;*/
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+  /*background-color: 2980B9;*/
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /*background-color: f1f1f1;*/
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content span {
+  color: black;
+  padding: 8px 8px;
+  cursor: pointer;
+  display: block;
+}
+.dropdown a:hover {/*background-color: ddd;*/}
+.dropbtn:hover ~ .dropdown-content,
+.dropdown-content:hover {
+	display: block;
+    position: relative;
+}
+&lt;/style&gt;
 &lt;style&gt;
 Body {
 	Text-Align: Center;
@@ -3169,6 +3208,7 @@ A {
 Ul {
 	Text-Align: Left;
 	List-Style: None;
+	Column-Count: 1;
 }
 Li {
 	Line-Height: 1.75em;
@@ -3194,29 +3234,38 @@ Li {
 &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;h2 id=&quot;ClockTime&quot; class=&quot;Margin4&quot;&gt;&lt;/h2&gt;
-&lt;p id=&quot;ClockDate&quot; class=&quot;Margin4&quot;&gt;&lt;/p&gt;
+&lt;div id=&quot;ClockDiv&quot; style=&quot;&quot;&gt;
+	&lt;h2 id=&quot;ClockTime&quot; class=&quot;Margin4&quot;&gt;&lt;/h2&gt;
+	&lt;p id=&quot;ClockDate&quot; class=&quot;Margin4&quot;&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;hr&gt;
-&lt;input type=&quot;text&quot; id=&quot;Search&quot;&gt;&lt;button&gt;Search&lt;/button&gt;
+
+&lt;!--
+&lt;div class=&quot;dropdown&quot;&gt;
+  &lt;button class=&quot;dropbtn&quot; id=&quot;drp&quot;&gt;Search&lt;/button&gt;
+  &lt;div id=&quot;myDropdown&quot; class=&quot;dropdown-content&quot;&gt;
+    &lt;span onclick=&quot;drp.textContent=`Whoogle`&quot;&gt;Whoogle&lt;/span&gt;
+    &lt;span onclick=&quot;drp.textContent=`Invidious`&quot;&gt;Invidious&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+---&gt;
+&lt;div id=&quot;SearchBar&quot;&gt;
+	&lt;div class=&quot;Dropdown&quot;&gt;
+		
+	&lt;/div&gt;
+	&lt;input type=&quot;text&quot; id=&quot;SearchInput&quot;&gt;
+&lt;!--
+	&lt;button&gt;Search&lt;/button&gt;
+---&gt;
+&lt;/div&gt;
 &lt;ul id=&quot;BookmarksList&quot;&gt;&lt;/ul&gt;
-&lt;!--&lt;div id=&quot;MainDiv&quot;&gt;&lt;/div&gt;---&gt;
+
 &lt;script&gt;
-/* https://stackoverflow.com/a/2998874 */
-function ZeroPad(Num, Pad) {
-	var Zero = Pad - Num.toString().length + 1;
-	return Array(+(Zero &gt; 0 &amp;&amp; Zero)).join(&quot;0&quot;) + Num;
-};
-function TimePad(Num) {
-	return ZeroPad(Num, 2);
+const SearchEngines = {
+	&quot;Whoogle&quot;: &quot;https://whoogle-eur.herokuapp.com/search?q=&quot;
 };
 
-/*
-const URLs = [
-	&quot;whoogle-eur.herokuapp.com&quot;,
-	&quot;invidious.nerdvpn.de&quot;,
-];
-*/
-let Bookmarks = `
+const Bookmarks = `
 https://cryptpad.devol.it/drive CryptPad;
 https://www.deepl.com/translator DeepL;
 https://gitea.it Gitea;
@@ -3235,6 +3284,15 @@ https://www.wikipedia.org Wikipedia;
 https://mail.yahoo.com Yahoo Mail;
 `;
 
+/* https://stackoverflow.com/a/2998874 */
+function ZeroPad(Num, Pad) {
+	var Zero = Pad - Num.toString().length + 1;
+	return Array(+(Zero &gt; 0 &amp;&amp; Zero)).join(&quot;0&quot;) + Num;
+};
+function TimePad(Num) {
+	return ZeroPad(Num, 2);
+};
+
 function SetTime() {
 	let Time = new Date();
 	let Y = Time.getFullYear();
@@ -3244,11 +3302,6 @@ function SetTime() {
 	let h = TimePad(Time.getHours());
 	let m = TimePad(Time.getMinutes());
 	let s = TimePad(Time.getSeconds());
-	/*
-	h = h &lt; 10 ? &quot;0&quot;+h : h;
-	m = m &lt; 10 ? &quot;0&quot;+m : m;
-	s = s &lt; 10 ? &quot;0&quot;+s : s;
-	*/
 	ClockTime.textContent = h + &quot;:&quot; + m + &quot;:&quot; + s;
 	ClockDate.textContent = Y + &quot;-&quot; + M + &quot;-&quot; + D;
 };
@@ -3262,34 +3315,35 @@ function LoadBookmarks() {
 			let Split = Item.indexOf(&quot; &quot;);
 			let Href = Item.substring(0, Split);
 			let Name = Item.substring(Split+1);
-			/*UlURLs += &quot;&lt;li&gt;&lt;a href=\&quot;&quot; + Href + &quot;\&quot;&gt;&lt;img class=\&quot;TextLineImg\&quot; src=\&quot;&quot; + Href + &quot;/favicon.ico&quot; + &quot;\&quot;&gt;&quot; + Name + &quot;&lt;/a&gt;&lt;/li&gt;&quot;;*/
-			UlURLs += &quot;&lt;li&gt;&lt;a href=\&quot;&quot; + Href + &quot;\&quot; target=\&quot;_blank\&quot; rel=\&quot;noopener\&quot;&gt;&lt;img class=\&quot;TextLineImg\&quot; src=\&quot;https://icons.duckduckgo.com/ip3/&quot; + Href.replace(/^https?:\/\//, &quot;&quot;).split(&quot;/&quot;)[0] + &quot;.ico&quot; + &quot;\&quot;&gt;&quot; + Name + &quot;&lt;/a&gt;&lt;/li&gt;&quot;;
+			UlURLs += `&lt;li&gt;&lt;a href=&quot;` + Href + `&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img class=&quot;TextLineImg&quot; src=&quot;https://icons.duckduckgo.com/ip3/` + Href.replace(/^https?:\/\//, &quot;&quot;).split(&quot;/&quot;)[0] + `.ico` + `&quot;&gt;` + Name + `&lt;/a&gt;&lt;/li&gt;`;
 		};
 	};
-/*
-for (let i=0; i&lt;URLs.length; i++) {
-	let URL = URLs[i];
-	if (!URL.startsWith(&quot;http://&quot;) &amp;&amp; !URL.startsWith(&quot;https://&quot;)) {
-		URL = &quot;https://&quot; + URL;
-	};
-	UlURLs += &quot;&lt;li&gt;&lt;img src=\&quot;https://icons.duckduckgo.com/ip3/&quot; + URL + &quot;.ico&quot; + &quot;\&quot;&gt;&lt;a href=\&quot;&quot; + URL + &quot;\&quot;&gt;&quot; + URL + &quot;&lt;/a&gt;&lt;/li&gt;&quot;;
-};
-*/
-	/*MainDiv.innerHTML += &quot;&lt;ul&gt;&quot; + UlURLs + &quot;&lt;/ul&gt;&quot;;*/
 	BookmarksList.innerHTML += UlURLs;
+};
+
+function LoadSearchEngines() {
+	for (let i=0; i&lt;SearchEngines.length; i++) {
+		
+	};
 };
 
 function ClockDateToggle() {
 	ClockDate.hidden = !ClockDate.hidden;
 };
-ClockTime.onclick = ClockDateToggle;
-ClockDate.onclick = ClockDateToggle;
+ClockDiv.onclick = ClockDateToggle;
+
+SearchInput.onkeydown = function(e) {
+	if (e.keyCode == 13 &amp;&amp; !Generated) {
+		window.open(SearchEngines[&quot;Whoogle&quot;] + SearchInput.value);
+	};
+};
 
 setInterval(() =&gt; {
 	SetTime();
 }, 150);
 
 LoadBookmarks();
+LoadSearchEngines();
 &lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
