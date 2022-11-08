@@ -1079,7 +1079,11 @@ a.tc-tiddlylink:hover {
 		transition:  min-height 128ms ease-in-out, padding-top 128ms ease-in-out, padding-bottom 128ms ease-in-out;
 	}
 	
-	.tc-story-river {
+	.tc-sidebar-header {
+			min-height: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+		}.tc-story-river {
 		position: relative;
 		padding: 0;
 	}
@@ -1105,6 +1109,8 @@ a.tc-tiddlylink:hover {
 		top: 0px;
 		width: 770px;
 		padding: 42px 42px 42px 42px;
+	}.tc-story-river {
+		width: calc(100% - 0px);
 	}.tc-story-river.tc-static-story-river {
 		margin-right: 0;
 		padding-right: 42px;
@@ -1680,6 +1686,8 @@ z-index: 100;
 		padding: 28px 42px 42px 42px;
 		width: 686px;
 		border-radius: 2px;
+	}.tc-tiddler-frame {
+		width: 100%;
 	}.tc-tiddler-info {
 		margin: 0 -42px 0 -42px;
 	}
@@ -1866,6 +1874,12 @@ z-index: 100;
 	}body.tc-body .tc-storyview-zoomin-tiddler {
 		width: 100%;
 		width: calc(100% - 42px);
+	}.tc-story-river {
+		padding-right: 3em;
+		margin-right: 0;
+	}body.tc-body .tc-storyview-zoomin-tiddler {
+		width: 100%;
+		width: calc(100% - 84px);
 	}}/*
 ** Toolbar buttons
 */.tc-page-controls svg.tc-image-new-button {
@@ -3156,7 +3170,7 @@ color:#333353;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fww
 for any purpose, even commercially.</p><p>The licensor cannot revoke these freedoms as long as you follow the license terms.</p><h3 class=""><strong>Under the following terms:</strong></h3><p><strong>Attribution</strong> — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</p><p><strong>ShareAlike</strong> — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.</p><p><strong>No additional restrictions</strong> — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p><h3 class=""><strong>Notices:</strong></h3><p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.</p><p>No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p></div>
 </div>
 </a><a name="Dashboard.html">
-<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists  tc-tagged-i18n%3Aen tc-tagged-Code" data-tags="i18n:en Code" data-tiddler-title="Dashboard.html" role="article"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><button aria-expanded="false" aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span><h2 class="tc-title">Dashboard.html</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class=" tc-reveal" hidden="true"></div><div class=" tc-reveal"><div class="tc-subtitle"><a class="tc-tiddlylink tc-tiddlylink-missing" href="#"></a> 7th November 2022 at 10:55pm</div></div><div class=" tc-reveal"><div class="tc-tags-wrapper"><span class="tc-tag-list-item" data-tag-title="Code"><span aria-expanded="false" class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists  tc-tagged-i18n%3Aen tc-tagged-Code" data-tags="i18n:en Code" data-tiddler-title="Dashboard.html" role="article"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><button aria-expanded="false" aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fpermalink" title="Set browser address bar to a direct link to this tiddler"></button><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span><h2 class="tc-title">Dashboard.html</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class=" tc-reveal" hidden="true"></div><div class=" tc-reveal"><div class="tc-subtitle"><a class="tc-tiddlylink tc-tiddlylink-missing" href="#"></a> 8th November 2022 at 10:13am</div></div><div class=" tc-reveal"><div class="tc-tags-wrapper"><span class="tc-tag-list-item" data-tag-title="Code"><span aria-expanded="false" class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
 fill:#333353;
 color:#333353;">Code</span><span class="tc-drop-down tc-reveal" hidden="true"></span></span><span class="tc-tag-list-item" data-tag-title="i18n:en"><span aria-expanded="false" class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
 fill:#333353;
@@ -3167,7 +3181,7 @@ color:#333353;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fww
 &lt;head&gt;
 &lt;style&gt;
 /* CSS from https://www.w3schools.com/howto/howto_js_dropdown.asp */
-.dropbtn {
+.DropdownBtn {
   /*background-color: 3498DB;
   color: white;*/
   padding: 8px;
@@ -3178,11 +3192,11 @@ color:#333353;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fww
 .dropbtn:hover, .dropbtn:focus {
   /*background-color: 2980B9;*/
 }
-.dropdown {
+.Dropdown {
   position: relative;
   display: inline-block;
 }
-.dropdown-content {
+.DropdownBody {
   display: none;
   position: absolute;
   /*background-color: f1f1f1;*/
@@ -3191,17 +3205,17 @@ color:#333353;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fww
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-.dropdown-content span {
+.DropdownBody Span {
   color: black;
   padding: 8px 8px;
   cursor: pointer;
   display: block;
 }
-.dropdown a:hover {/*background-color: ddd;*/}
-.dropbtn:hover ~ .dropdown-content,
-.dropdown-content:hover {
+.Dropdown Span:Hover {/*background-color: ddd;*/}
+.DropdownBtn:Hover ~ .DropdownBody,
+.DropdownBody:Hover {
 	display: block;
-    position: relative;
+	position: relative;
 }
 &lt;/style&gt;
 &lt;style&gt;
@@ -3261,7 +3275,8 @@ Li {
 ---&gt;
 &lt;div id=&quot;SearchBar&quot;&gt;
 	&lt;div class=&quot;Dropdown&quot;&gt;
-		
+		&lt;button class=&quot;DropdownBtn&quot;&gt;Search&lt;/button&gt;
+		&lt;div class=&quot;DropdownBody&quot;&gt;&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;input type=&quot;text&quot; id=&quot;SearchInput&quot; onclick=&quot;this.select();&quot;&gt;
 &lt;!--
@@ -3335,6 +3350,7 @@ function LoadBookmarks() {
 function LoadSearchEngines() {
 	for (let i=0; i&lt;SearchEngines.length; i++) {
 		
+		DropdownBody.innerHTML += &quot;&quot;;
 	};
 };
 
