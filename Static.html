@@ -1079,7 +1079,11 @@ a.tc-tiddlylink:hover {
 		transition:  min-height 128ms ease-in-out, padding-top 128ms ease-in-out, padding-bottom 128ms ease-in-out;
 	}
 	
-	.tc-story-river {
+	.tc-sidebar-header {
+			min-height: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+		}.tc-story-river {
 		position: relative;
 		padding: 0;
 	}
@@ -1105,6 +1109,8 @@ a.tc-tiddlylink:hover {
 		top: 0px;
 		width: 770px;
 		padding: 24px 24px 24px 24px;
+	}.tc-story-river {
+		width: calc(100% - 0px);
 	}.tc-story-river.tc-static-story-river {
 		margin-right: 0;
 		padding-right: 42px;
@@ -1680,6 +1686,8 @@ z-index: 100;
 		padding: 28px 42px 42px 42px;
 		width: 686px;
 		border-radius: 2px;
+	}.tc-tiddler-frame {
+		width: 100%;
 	}.tc-tiddler-info {
 		margin: 0 -42px 0 -42px;
 	}
@@ -1866,6 +1874,12 @@ z-index: 100;
 	}body.tc-body .tc-storyview-zoomin-tiddler {
 		width: 100%;
 		width: calc(100% - 42px);
+	}.tc-story-river {
+		padding-right: 24px; /* Right side screen padding with sidebar closed sets here*/
+		margin-right: 0;
+	}body.tc-body .tc-storyview-zoomin-tiddler {
+		width: 100%;
+		width: calc(100% - 84px);
 	}}/*
 ** Toolbar buttons
 */.tc-page-controls svg.tc-image-new-button {
