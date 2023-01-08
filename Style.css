@@ -70,8 +70,12 @@ Error message and password prompt
 .tc-password-wrapper input {
 	width: 100%;
 }
+:Root {
+	--HeadingColor0: #c061cb;
+}
+
 .MediaWikiEmbed {
-	Border-Left: 3px Solid #c061cb;
+	Border-Left: 3px Solid Var(--HeadingColor0);
 	Padding-Left: 8px;
 }
 .MediaWikiEmbed-From {
