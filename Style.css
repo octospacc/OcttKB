@@ -78,7 +78,7 @@ Error message and password prompt
 	Border-Left: 3px Solid Var(--HeadingColor0);
 	Padding-Left: 8px;
 }
-.MediaWikiEmbed-From {
+.Embed-From .MediaWikiEmbed-From {
 	Font-Size: Small;
 	Font-Style: Italic;
 }
