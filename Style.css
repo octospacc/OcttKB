@@ -82,9 +82,9 @@ Error message and password prompt
 	Div.tc-sidebar-header Div[hidden="true"] ~ Section.tc-story-river {
 		/*Margin-Right: 0px;*/
 	}
-}
-Div.tc-tiddler-frame {
-	Padding: 24px 32px 24px 32px;
+	Div.tc-tiddler-frame {
+		Padding: 24px 32px 24px 32px;
+	}
 }
 
 Div.tc-tiddler-frame,
@@ -106,13 +106,4 @@ Div.tc-tiddler-body P iFrame {
 .Embed-From .MediaWikiEmbed-From {
 	Font-Size: Small;
 	Font-Style: Italic;
-}
-.tc-tiddler-frame .tc-titlebar button {
-opacity: 0;
-transition: opacity .5s ease-in-out;
-}
-.tc-tiddler-frame:hover .tc-titlebar button {
-zoom: 1;
-filter: alpha(opacity=100);
-opacity: 1;
 }
