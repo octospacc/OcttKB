@@ -70,37 +70,28 @@ Error message and password prompt
 .tc-password-wrapper input {
 	width: 100%;
 }
-:Root {
-	--HeadingColor0: #c061cb;
-}
-
-@media (min-width: 960px) {
-	Section.tc-story-river {
-		Padding: 24px 24px 24px 24px;
-		/*Margin-Right: 280px;*/
+@media (min-width: ) {
+	.tc-sidebar-scrollable {
+		padding-left: 0px;
+		padding-right: 0px;
 	}
-	Div.tc-sidebar-header Div[hidden="true"] ~ Section.tc-story-river {
-		/*Margin-Right: 0px;*/
+	.tc-story-river {
+		padding: 20px 20px 20px 20px;
 	}
-	Div.tc-tiddler-frame {
-		Padding: 24px 32px 24px 32px;
-	}
-}
-
-Div.tc-tiddler-frame,
+	.tc-tiddler-frame {
+		padding: 24px 32px 24px 32px;
+	}.tc-story-river {
+		margin-right: 280px;
+	}}Div.tc-tiddler-frame,
 Div.tc-tiddler-body P iFrame {
 	Box-Shadow: 2px 2px 12px RGBA(128, 128, 128, 0.5);
 }
 Div.tc-tiddler-body P iFrame {
 	Border: None;
-}
-
-.DirList-Title, .DirList-Title * {
+}.DirList-Title, .DirList-Title * {
 	Font-Style: Normal !Important;
-}
-
-.MediaWikiEmbed {
-	Border-Left: 4px Solid Var(--HeadingColor0);
+}.MediaWikiEmbed {
+	Border-Left: 4px Solid #c061cb;;
 	Padding-Left: 1em /*8px*/;
 }
 .Embed-From .MediaWikiEmbed-From {
