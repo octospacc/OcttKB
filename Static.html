@@ -1104,7 +1104,7 @@ a.tc-tiddlylink:hover {
 		left: 0px;
 		top: 0px;
 		width: 770px;
-		padding: 24px 24px 24px 24px;
+		padding: 42px 42px 42px 42px;
 	}.tc-story-river.tc-static-story-river {
 		margin-right: 0;
 		padding-right: 42px;
@@ -1855,14 +1855,14 @@ z-index: 100;
 		width: auto;
 		left: 0;
 		margin-left: 0px;
-		margin-right: 300px;
+		margin-right: 320px;
 	}.tc-tiddler-frame {
 		width: 100%;
 	}.tc-sidebar-scrollable {
 		left: auto;
 		bottom: 0;
 		right: 0;
-		width: 300px;
+		width: 320px;
 	}body.tc-body .tc-storyview-zoomin-tiddler {
 		width: 100%;
 		width: calc(100% - 42px);
@@ -3056,15 +3056,48 @@ Placeholder for a more thorough refinement of Snow White
 	--HeadingColor0: #c061cb;
 }
 
+@media (min-width: 960px) {
+	Section.tc-story-river {
+		Padding: 24px 24px 24px 24px;
+		/*Margin-Right: 280px;*/
+	}
+	Div.tc-sidebar-header Div[hidden="true"] ~ Section.tc-story-river {
+		/*Margin-Right: 0px;*/
+	}
+}
+Div.tc-tiddler-frame {
+	Padding: 24px 32px 24px 32px;
+}
+
+Div.tc-tiddler-frame,
+Div.tc-tiddler-body P iFrame {
+	Box-Shadow: 2px 2px 12px RGBA(128, 128, 128, 0.5);
+}
+Div.tc-tiddler-body P iFrame {
+	Border: None;
+}
+
+.DirList-Title, .DirList-Title * {
+	Font-Style: Normal !Important;
+}
+
 .MediaWikiEmbed {
-	Border-Left: 3px Solid Var(--HeadingColor0);
-	Padding-Left: 8px;
+	Border-Left: 4px Solid Var(--HeadingColor0);
+	Padding-Left: 1em /*8px*/;
 }
 .Embed-From .MediaWikiEmbed-From {
 	Font-Size: Small;
 	Font-Style: Italic;
 }
-
+.tc-tiddler-frame .tc-titlebar button {
+opacity: 0;
+transition: opacity .5s ease-in-out;
+}
+.tc-tiddler-frame:hover .tc-titlebar button {
+zoom: 1;
+filter: alpha(opacity=100);
+opacity: 1;
+}
 </style>
 </head>
 <body class="tc-body">
@@ -3263,9 +3296,9 @@ From
 </div></p></div>
 </div>
 </a><a name="Apps">
-<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists  tc-tagged-TableOfContents" data-tags="TableOfContents" data-tiddler-title="Apps" role="article"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><button aria-expanded="false" aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div><span class=" tc-reveal"><button aria-label="fold tiddler" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Ffold" title="Fold the body of this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span><h2 class="tc-title">Apps</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class="tc-reveal"></div><div class=" tc-reveal"><div class="tc-subtitle"><a class="tc-tiddlylink tc-tiddlylink-missing" href="#"></a> 9th January 2023 at 4:15pm</div></div><div class=" tc-reveal"><div class="tc-tags-wrapper"><span class="tc-tag-list-item" data-tag-title="TableOfContents"><span aria-expanded="false" class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists  tc-tagged-TableOfContents" data-tags="TableOfContents" data-tiddler-title="Apps" role="article"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><button aria-expanded="false" aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div><span class=" tc-reveal"><button aria-label="fold tiddler" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Ffold" title="Fold the body of this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span><h2 class="tc-title">Apps</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class="tc-reveal"></div><div class=" tc-reveal"><div class="tc-subtitle"><a class="tc-tiddlylink tc-tiddlylink-missing" href="#"></a> 10th January 2023 at 4:57pm</div></div><div class=" tc-reveal"><div class="tc-tags-wrapper"><span class="tc-tag-list-item" data-tag-title="TableOfContents"><span aria-expanded="false" class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
 fill:#333353;
-color:#333353;">TableOfContents</span><span class="tc-drop-down tc-reveal" hidden="true"></span></span></div></div><div class="tc-tiddler-body tc-reveal"><p><h2>Directory Listing</h2>
+color:#333353;">TableOfContents</span><span class="tc-drop-down tc-reveal" hidden="true"></span></span></div></div><div class="tc-tiddler-body tc-reveal"><p><h2 class="DirList-Title">Directory Listing</h2>
 
 <ul>
 
@@ -5120,7 +5153,7 @@ From
 </div></p></div>
 </div>
 </a><a name="TableOfContents">
-<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists  tc-tagged-%24%3A%2Ftags%2FSideBar" data-tags="$:/tags/SideBar" data-tiddler-title="TableOfContents" role="article"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><button aria-expanded="false" aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div><span class=" tc-reveal"><button aria-label="fold tiddler" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Ffold" title="Fold the body of this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span><h2 class="tc-title">TableOfContents</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class="tc-reveal"></div><div class=" tc-reveal"><div class="tc-subtitle"><a class="tc-tiddlylink tc-tiddlylink-missing" href="#"></a> 10th January 2023 at 3:06pm</div></div><div class=" tc-reveal"><div class="tc-tags-wrapper"><span class="tc-tag-list-item" data-tag-title="$:/tags/SideBar"><span aria-expanded="false" class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists  tc-tagged-%24%3A%2Ftags%2FSideBar" data-tags="$:/tags/SideBar" data-tiddler-title="TableOfContents" role="article"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><button aria-expanded="false" aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div><span class=" tc-reveal"><button aria-label="fold tiddler" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Ffold" title="Fold the body of this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span><h2 class="tc-title">TableOfContents</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class="tc-reveal"></div><div class=" tc-reveal"><div class="tc-subtitle"><a class="tc-tiddlylink tc-tiddlylink-missing" href="#"></a> 10th January 2023 at 3:28pm</div></div><div class=" tc-reveal"><div class="tc-tags-wrapper"><span class="tc-tag-list-item" data-tag-title="$:/tags/SideBar"><span aria-expanded="false" class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
 fill:#333353;
 color:#333353;">$:/tags/SideBar</span><span class="tc-drop-down tc-reveal" hidden="true"></span></span></div></div><div class="tc-tiddler-body tc-reveal"><p><div>
 <a class="tc-tiddlylink tc-tiddlylink-resolves" href="#OcttKB" style="
@@ -5141,11 +5174,87 @@ fill:#333353;
 color:#333353;">Tech</span><span class="tc-drop-down tc-reveal" hidden="true"></span></span></div></div><div class="tc-tiddler-body tc-reveal"><p>Some useful or at least miscellaneous nice-to-know tech resources.</p><ul><li><a class="tc-tiddlylink-external" href="https://www.textualize.io" rel="noopener noreferrer" target="_blank">Textualize</a>: Curses but better</li><li><a class="tc-tiddlylink-external" href="https://readhacker.news/c/5mzeZ" rel="noopener noreferrer" target="_blank">C++ by Example</a></li></ul><h3 class=""><strong>Web Frameworks</strong></h3><h4 class=""><strong>Metro (Windows 8) Style</strong></h4><ul><li><a class="tc-tiddlylink-external" href="https://github.com/ryanlowdermilk/metro-tile" rel="noopener noreferrer" target="_blank">https://github.com/ryanlowdermilk/metro-tile</a></li><li><a class="tc-tiddlylink-external" href="https://metroui.org.ua/intro.html" rel="noopener noreferrer" target="_blank">https://metroui.org.ua/intro.html</a></li><li><a class="tc-tiddlylink-external" href="http://www.drewgreenwell.com/projects/metrojs/themes" rel="noopener noreferrer" target="_blank">http://www.drewgreenwell.com/projects/metrojs/themes</a></li><li><a class="tc-tiddlylink-external" href="https://github.com/tholman/tileJs" rel="noopener noreferrer" target="_blank">https://github.com/tholman/tileJs</a></li></ul></div>
 </div>
 </a><a name="TiddlyWiki Hacks">
-<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists  tc-tagged-TiddlyWiki tc-tagged-i18n%3Aen" data-tags="TiddlyWiki i18n:en" data-tiddler-title="TiddlyWiki Hacks" role="article"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><button aria-expanded="false" aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div><span class=" tc-reveal"><button aria-label="fold tiddler" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Ffold" title="Fold the body of this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span><h2 class="tc-title">TiddlyWiki Hacks</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class="tc-reveal"></div><div class=" tc-reveal"><div class="tc-subtitle"><a class="tc-tiddlylink tc-tiddlylink-missing" href="#"></a> 8th January 2023 at 7:36pm</div></div><div class=" tc-reveal"><div class="tc-tags-wrapper"><span class="tc-tag-list-item" data-tag-title="i18n:en"><span aria-expanded="false" class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+<div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists  tc-tagged-TiddlyWiki tc-tagged-i18n%3Aen" data-tags="TiddlyWiki i18n:en" data-tiddler-title="TiddlyWiki Hacks" role="article"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><button aria-expanded="false" aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div><span class=" tc-reveal"><button aria-label="fold tiddler" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Ffold" title="Fold the body of this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span><h2 class="tc-title">TiddlyWiki Hacks</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class="tc-reveal"></div><div class=" tc-reveal"><div class="tc-subtitle"><a class="tc-tiddlylink tc-tiddlylink-missing" href="#"></a> 10th January 2023 at 5:03pm</div></div><div class=" tc-reveal"><div class="tc-tags-wrapper"><span class="tc-tag-list-item" data-tag-title="i18n:en"><span aria-expanded="false" class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
 fill:#333353;
 color:#333353;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2060%2030%22%20width%3D%221200%22%20height%3D%22600%22%3E%0A%3CclipPath%20id%3D%22t%22%3E%0A%09%3Cpath%20d%3D%22M30%2C15%20h30%20v15%20z%20v15%20h-30%20z%20h-30%20v-15%20z%20v-15%20h30%20z%22%2F%3E%0A%3C%2FclipPath%3E%0A%3Cpath%20d%3D%22M0%2C0%20v30%20h60%20v-30%20z%22%20fill%3D%22%2300247d%22%2F%3E%0A%3Cpath%20d%3D%22M0%2C0%20L60%2C30%20M60%2C0%20L0%2C30%22%20stroke%3D%22%23fff%22%20stroke-width%3D%226%22%2F%3E%0A%3Cpath%20d%3D%22M0%2C0%20L60%2C30%20M60%2C0%20L0%2C30%22%20clip-path%3D%22url(%23t)%22%20stroke%3D%22%23cf142b%22%20stroke-width%3D%224%22%2F%3E%0A%3Cpath%20d%3D%22M30%2C0%20v30%20M0%2C15%20h60%22%20stroke%3D%22%23fff%22%20stroke-width%3D%2210%22%2F%3E%0A%3Cpath%20d%3D%22M30%2C0%20v30%20M0%2C15%20h60%22%20stroke%3D%22%23cf142b%22%20stroke-width%3D%226%22%2F%3E%0A%3C%2Fsvg%3E%0A">i18n:en</span><span class="tc-drop-down tc-reveal" hidden="true"></span></span><span class="tc-tag-list-item" data-tag-title="TiddlyWiki"><span aria-expanded="false" class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
 fill:#333353;
-color:#333353;">TiddlyWiki</span><span class="tc-drop-down tc-reveal" hidden="true"></span></span></div></div><div class="tc-tiddler-body tc-reveal"><h3 class="">Macros</h3><ul><li>$:/Macros/*</li></ul><h3 class="">Theming</h3><ul><li>$:/Styles/*</li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2Fpalettes%2FOctt%20Light">$:/palettes/Octt Light</a></li></ul><h3 class="">Modified system files</h3><ul><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FStaticBanner">$:/StaticBanner</a> (Shown as banner in statically exported pages)</li><li><a class="tc-tiddlylink tc-tiddlylink-shadow tc-tiddlylink-resolves" href="#%24%3A%2Fcore%2Ftemplates%2Fstatic.content">$:/core/templates/static.content</a> (Shown as static HTML content in the standard TiddlyWiki file)</li><li><a class="tc-tiddlylink tc-tiddlylink-shadow tc-tiddlylink-resolves" href="#%24%3A%2Fcore%2Ftemplates%2Fexporters%2FStaticRiver">$:/core/templates/exporters/StaticRiver</a> (Added meta viewport for correct viewing on mobile)</li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2Fthemes%2Ftiddlywiki%2Fvanilla">$:/themes/tiddlywiki/vanilla</a> (Changed paddings)</li></ul></div>
+color:#333353;">TiddlyWiki</span><span class="tc-drop-down tc-reveal" hidden="true"></span></span></div></div><div class="tc-tiddler-body tc-reveal"><h3 class="">Macros</h3><blockquote><div><h4 class="DirList-Title">Directory Listing of <a class="tc-tiddlylink tc-tiddlylink-missing" href="#%24%3A%2FMacros">$:/Macros</a>/</h4>
+
+<ul>
+
+	<li>
+		<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FMacros%2Fb64TidUriEnc.js">
+			<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FMacros%2Fb64TidUriEnc.js">$:/Macros/b64TidUriEnc.js</a>
+		</a>
+	</li>
+
+	<li>
+		<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FMacros%2FDirectory">
+			<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FMacros%2FDirectory">$:/Macros/Directory</a>
+		</a>
+	</li>
+
+	<li>
+		<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FMacros%2Fi18n">
+			<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FMacros%2Fi18n">$:/Macros/i18n</a>
+		</a>
+	</li>
+
+	<li>
+		<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FMacros%2Fltabs">
+			<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FMacros%2Fltabs">$:/Macros/ltabs</a>
+		</a>
+	</li>
+
+	<li>
+		<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FMacros%2FMain">
+			<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FMacros%2FMain">$:/Macros/Main</a>
+		</a>
+	</li>
+
+	<li>
+		<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FMacros%2FMediaWiki">
+			<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FMacros%2FMediaWiki">$:/Macros/MediaWiki</a>
+		</a>
+	</li>
+
+	<li>
+		<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FMacros%2FMediaWikiEmbedInternal.js">
+			<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FMacros%2FMediaWikiEmbedInternal.js">$:/Macros/MediaWikiEmbedInternal.js</a>
+		</a>
+	</li>
+
+	<li>
+		<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FMacros%2FMusic%20Archiving%20Status">
+			<a class="tc-tiddlylink tc-tiddlylink-missing" href="#%24%3A%2FMacros%2FMusic">$:/Macros/Music</a> Archiving Status
+		</a>
+	</li>
+
+</ul>
+</div></blockquote><h3 class="">Theming</h3><blockquote><div><h4 class="DirList-Title">Directory Listing of <a class="tc-tiddlylink tc-tiddlylink-missing" href="#%24%3A%2FStyles">$:/Styles</a>/</h4>
+
+<ul>
+
+	<li>
+		<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FStyles%2FMain.css">
+			<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FStyles%2FMain.css">$:/Styles/Main.css</a>
+		</a>
+	</li>
+
+	<li>
+		<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FStyles%2Fonhover-toolbar-styles.css">
+			<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FStyles%2Fonhover-toolbar-styles.css">$:/Styles/onhover-toolbar-styles.css</a>
+		</a>
+	</li>
+
+	<li>
+		<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FStyles%2FRibbon.xml">
+			<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FStyles%2FRibbon.xml">$:/Styles/Ribbon.xml</a>
+		</a>
+	</li>
+
+</ul>
+</div></blockquote><ul><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2Fpalettes%2FOctt%20Light">$:/palettes/Octt Light</a></li></ul><h3 class="">Modified system files</h3><ul><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FStaticBanner">$:/StaticBanner</a> (Shown as banner in statically exported pages)</li><li><a class="tc-tiddlylink tc-tiddlylink-shadow tc-tiddlylink-resolves" href="#%24%3A%2Fcore%2Ftemplates%2Fstatic.content">$:/core/templates/static.content</a> (Shown as static HTML content in the standard TiddlyWiki file)</li><li><a class="tc-tiddlylink tc-tiddlylink-shadow tc-tiddlylink-resolves" href="#%24%3A%2Fcore%2Ftemplates%2Fexporters%2FStaticRiver">$:/core/templates/exporters/StaticRiver</a> (Added meta viewport for correct viewing on mobile)</li><li><strike><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2Fthemes%2Ftiddlywiki%2Fvanilla">$:/themes/tiddlywiki/vanilla</a> (Changed paddings)</strike></li></ul></div>
 </div>
 </a><a name="TiddlyWiki:en">
 <div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists  tc-tagged-TiddlyWiki tc-tagged-i18n%3Aen" data-tags="TiddlyWiki i18n:en" data-tiddler-title="TiddlyWiki:en" role="article"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><button aria-expanded="false" aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div><span class=" tc-reveal"><button aria-label="fold tiddler" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Ffold" title="Fold the body of this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span><h2 class="tc-title">TiddlyWiki:en</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class="tc-reveal"></div><div class=" tc-reveal"><div class="tc-subtitle"><a class="tc-tiddlylink tc-tiddlylink-missing" href="#"></a> 10th January 2023 at 2:09pm</div></div><div class=" tc-reveal"><div class="tc-tags-wrapper"><span class="tc-tag-list-item" data-tag-title="i18n:en"><span aria-expanded="false" class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;

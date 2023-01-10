@@ -74,11 +74,45 @@ Error message and password prompt
 	--HeadingColor0: #c061cb;
 }
 
+@media (min-width: 960px) {
+	Section.tc-story-river {
+		Padding: 24px 24px 24px 24px;
+		/*Margin-Right: 280px;*/
+	}
+	Div.tc-sidebar-header Div[hidden="true"] ~ Section.tc-story-river {
+		/*Margin-Right: 0px;*/
+	}
+}
+Div.tc-tiddler-frame {
+	Padding: 24px 32px 24px 32px;
+}
+
+Div.tc-tiddler-frame,
+Div.tc-tiddler-body P iFrame {
+	Box-Shadow: 2px 2px 12px RGBA(128, 128, 128, 0.5);
+}
+Div.tc-tiddler-body P iFrame {
+	Border: None;
+}
+
+.DirList-Title, .DirList-Title * {
+	Font-Style: Normal !Important;
+}
+
 .MediaWikiEmbed {
-	Border-Left: 3px Solid Var(--HeadingColor0);
-	Padding-Left: 8px;
+	Border-Left: 4px Solid Var(--HeadingColor0);
+	Padding-Left: 1em /*8px*/;
 }
 .Embed-From .MediaWikiEmbed-From {
 	Font-Size: Small;
 	Font-Style: Italic;
+}
+.tc-tiddler-frame .tc-titlebar button {
+opacity: 0;
+transition: opacity .5s ease-in-out;
+}
+.tc-tiddler-frame:hover .tc-titlebar button {
+zoom: 1;
+filter: alpha(opacity=100);
+opacity: 1;
 }
