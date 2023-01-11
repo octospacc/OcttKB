@@ -70,7 +70,15 @@ Error message and password prompt
 .tc-password-wrapper input {
 	width: 100%;
 }
-@media (min-width: ) {
+dd:before {
+	content: "»";
+}
+ul dl {
+	margin-left: 8px;
+}
+ul dl dd {
+	margin-left: 24px;
+}@media (min-width: ) {
 	.tc-sidebar-scrollable {
 		padding-left: 0px;
 		padding-right: 0px;
@@ -79,14 +87,20 @@ Error message and password prompt
 		padding: 20px 20px 20px 20px;
 	}
 	.tc-tiddler-frame {
-		padding: 24px 32px 24px 32px;
+		padding: 20px /*24px 32px 24px 32px*/;
+		margin-bottom: 20px;
 	}.tc-story-river {
 		margin-right: 280px;
-	}}Div.tc-tiddler-frame,
-Div.tc-tiddler-body P iFrame {
+	}}section.tc-story-river {
+	padding-bottom: 0px;
+}
+section.tc-story-river ~ p {
+	display: none;
+}div.tc-tiddler-frame,
+div.tc-tiddler-body p iframe {
 	Box-Shadow: 2px 2px 12px RGBA(128, 128, 128, 0.5);
 }
-Div.tc-tiddler-body P iFrame {
+div.tc-tiddler-body p iframe {
 	Border: None;
 }.DirList-Title, .DirList-Title * {
 	Font-Style: Normal !Important;
