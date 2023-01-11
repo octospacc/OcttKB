@@ -108,9 +108,17 @@ div.tc-tiddler-body p iframe {
 	Border-Left: 4px Solid #c061cb;;
 	Padding-Left: 1em /*8px*/;
 }
-.Embed-From .MediaWikiEmbed-From {
+.Embed-From .MediaWikiEmbed-From, .EmbedFrom .MediaWikiEmbedFrom {
 	Font-Size: Small;
-	Font-Style: Italic;
+	Font-Style: Italic !Important;
 }.Separator-Right:Last-Of-Type {
 	Display: None;
+}a.StartHere-Button {
+  font-size: smaller;
+  text-decoration: none !important;
+  user-select: none;
+}
+a.StartHere-Button > span {
+  position: relative;
+  top: -10px;
 }
