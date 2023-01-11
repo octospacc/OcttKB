@@ -97,4 +97,6 @@ Div.tc-tiddler-body P iFrame {
 .Embed-From .MediaWikiEmbed-From {
 	Font-Size: Small;
 	Font-Style: Italic;
+}.Separator-Right:Last-Of-Type {
+	Display: None;
 }
