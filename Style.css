@@ -70,7 +70,15 @@ Error message and password prompt
 .tc-password-wrapper input {
 	width: 100%;
 }
-dd:before {
+.MediaWikiEmbed, .MediaWikiEmbedBlock {
+  Border-Left: 4px Solid #c061cb;;
+  Padding-Left: 1em /*8px*/;
+}.MediaWikiEmbedCover { float: right; }
+.MediaWikiEmbedCover > * { max-height: 50vh; }.EmbedFrom, .Embed-From,
+.MediaWikiEmbed-From, .MediaWikiEmbedFrom {
+  Font-Size: Smaller;
+  Font-Style: Italic;
+}dd:before {
 	content: "»";
 }
 ul dl {
@@ -104,13 +112,6 @@ div.tc-tiddler-body p iframe {
 	Border: None;
 }.DirList-Title, .DirList-Title * {
 	Font-Style: Normal !Important;
-}.MediaWikiEmbed {
-	Border-Left: 4px Solid #c061cb;;
-	Padding-Left: 1em /*8px*/;
-}
-.Embed-From .MediaWikiEmbed-From, .EmbedFrom .MediaWikiEmbedFrom {
-	Font-Size: Small;
-	Font-Style: Italic !Important;
 }.Separator-Right:Last-Of-Type {
 	Display: None;
 }a.StartHere-Button {
