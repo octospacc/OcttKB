@@ -74,7 +74,7 @@ Error message and password prompt
   Border-Left: 4px Solid #c061cb;;
   Padding-Left: 1em /*8px*/;
 }.MediaWikiEmbedCover { float: right; }
-.MediaWikiEmbedCover > * { max-height: 50vh; }.EmbedFrom, .Embed-From,
+.MediaWikiEmbedCover > * { max-height: 35vh /*50vh*/; }.EmbedFrom, .Embed-From,
 .MediaWikiEmbed-From, .MediaWikiEmbedFrom {
   Font-Size: Smaller;
   Font-Style: Italic;
@@ -110,6 +110,8 @@ div.tc-tiddler-body p iframe {
 }
 div.tc-tiddler-body p iframe {
 	Border: None;
+}.tc-tiddler-frame {
+  border-radius: 4px;
 }.DirList-Title, .DirList-Title * {
 	Font-Style: Normal !Important;
 }.Separator-Right:Last-Of-Type {
