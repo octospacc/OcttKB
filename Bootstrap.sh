@@ -10,19 +10,11 @@ tiddlywiki \
 # Move the exported folder to a better location
 mv ./Output.tmp/\$_/OcttKB/Repo ./Repo.tmp
 
-# Prepare the special files already present in the repo for the next step
-cd ./Repo
-for File in *.sh
-do
-	mv "$File" "$File.sh.txt.sh"
-done
-cd ..
-
-# Rename all extracted scripts to have a correct extension
+# Rename all extracted scripts to have a correct extension (remove .txt suffix)
 cd ./Repo.tmp
 for File in *.sh.txt
 do
-	mv "$File" "$File.sh"
+	echo mv "$File" "${File/.txt}"
 done
 cd ..
 
@@ -34,4 +26,4 @@ mv ./Repo.tmp/* ./Repo/
 # Move everything to the working directory and on to the next step
 mv ./Repo/* ./
 chmod +x *.sh
-./Main.sh.txt.sh
+./Main.sh
