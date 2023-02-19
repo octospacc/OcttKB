@@ -14,7 +14,7 @@ mv ./Output.tmp/\$_/OcttKB/Repo ./Repo.tmp
 cd ./Repo.tmp
 for File in *.sh.txt
 do
-	echo mv "$File" "${File/.txt}"
+	mv "$File" "${File/.txt}"
 done
 cd ..
 
