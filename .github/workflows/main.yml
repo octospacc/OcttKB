@@ -20,8 +20,9 @@ jobs:
         sudo apt update
         sudo apt install -y wget npm
         sudo npm install -g tiddlywiki
-        ./Build.sh
-        ./DeployOld.sh
+        ./Bootstrap.sh
+        #./Build.sh
+        #./DeployOld.sh
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
