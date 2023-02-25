@@ -2,15 +2,15 @@ image: alpine:latest
 
 before_script: |
   apk update
-  apk add wget npm
+  apk add wget npm python3 py3-pip
   npm install -g tiddlywiki
+  sudo pip3 install beautifulsoup4
 
 pages:
   stage: deploy
   script: |
     ./Bootstrap.sh
-    #./Build.sh
-    #./DeployOld.sh
+    
   artifacts:
     paths:
     - public

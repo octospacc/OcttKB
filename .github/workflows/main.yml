@@ -1,4 +1,4 @@
-name: Build and Deploy with TiddlyWiki
+name: OcttKB
 
 on:
   push:
@@ -18,11 +18,10 @@ jobs:
     - name: Build
       run: |
         sudo apt update
-        sudo apt install -y wget npm
+        sudo apt install -y wget npm python3 python3-pip
         sudo npm install -g tiddlywiki
-        ./Bootstrap.sh
-        #./Build.sh
-        #./DeployOld.sh
+        sudo pip3 install beautifulsoup4
+        bash ./Bootstrap.sh
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
