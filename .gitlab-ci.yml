@@ -2,17 +2,15 @@ image: alpine:latest
 
 before_script: |
   apk update
-  apk add wget npm python3 py3-pip
+  apk add git wget npm python3 py3-pip
   npm install -g tiddlywiki
   pip3 install beautifulsoup4 html5lib
 
 pages:
   stage: deploy
   script: |
-    ./Bootstrap.sh
-    
+    ash ./Bootstrap.sh
+    sh ./GitLab.Main.sh
   artifacts:
     paths:
     - public
-  rules:
-    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH

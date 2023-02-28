@@ -23,7 +23,6 @@ cd ..
 mv ./Repo/* ./Repo.tmp/
 mv ./Repo.tmp/* ./Repo/
 
-# Move everything to the working directory and on to the next step
+# Move everything to the working directory, ready for the next steps
 mv ./Repo/* ./
 chmod +x *.sh
-./Main.sh
