@@ -1,0 +1,11 @@
+tags: 
+title: $:/plugins/kookma/refnotes/macros/stretch-text
+type: text/vnd.tiddlywiki
+
+\define tmpTidDetails() $:/temp/refnotes/library/$(currentTiddler)$
+
+\define stretchText(text, title:"...")
+<$button class="tc-btn-invisible">$title$
+<$action-listops $tiddler=<<tmpTidDetails>> $field="text" $subfilter="+[toggle[show]]" />
+</$button>&nbsp;<$reveal type="match" stateTitle=<<tmpTidDetails>> sateField=text text="show">$text$</$reveal>
+\end

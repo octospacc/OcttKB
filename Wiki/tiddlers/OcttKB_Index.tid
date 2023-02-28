@@ -1,0 +1,24 @@
+caption: Index
+created: 20230109112202970
+creator: Octt
+list-before: $:/core/ui/SideBar/Open
+modified: 20230227073351066
+modifier: Octt
+tags: $:/tags/SideBar
+title: OcttKB/Index
+
+{{$:/OcttKB/StartButton}}
+
+{{$:/OcttKB/ToC}}
+
+<!-- caption: {{$:/language/SideBar/Contents/Caption}} --->
+
+; Other things
+: [[🖍️ Comments? Issues? PRs?|https://gitlab.com/octtspacc/OcttKB/-/issues]]
+: [[🏳️‍🌈 Translate this site (Google)|https://translate.google.com/translate?sl=en&tl=it&hl=en&u=https://kb.octt.eu.org&client=webapp]]
+
+{{$:/OcttKB/LicensingButtons}}
+
+<br>
+
+''Last edit at'' {{$:/OcttKB/LastEditTime}}

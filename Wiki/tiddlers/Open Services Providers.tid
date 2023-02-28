@@ -1,0 +1,90 @@
+created: 20230108195546523
+modified: 20230206111552312
+modifier: Octt
+tags: Internet $:/i18n:en
+title: Open Services Providers
+
+The following entities host miscellaneous useful open-source Internet services for the public. Some are classifiable as [[pubnixes|Pubnix:en]].
+
+* [[adminForge|https://services.adminforge.de]]
+* [[Artemis|https://artemislena.eu/services]]
+* [[Bączek|https://baczek.me/decentralisation]]
+* [[Brotherbear Den|https://stuehieyr.com]]
+* [[bus-hit.me|https://bus-hit.me/#services]]
+* [[dcs0|https://dcs0.hu]]
+* [[CachyOS|https://github.com/CachyOS/CachyOS-services/blob/master/README.md]]
+* [[Devol|https://devol.it]]
+* [[dhusch.de|https://dhusch.de]]
+* [[Disroot|https://disroot.org/en]]
+* [[domain.glass|https://domain.glass]]
+* [[Drivet|https://drivet.xyz/services]]
+* [[envs.net|https://envs.net]]
+* [[Esmail EL BoB|https://esmailelbob.xyz/en]]
+* [[Epic Site|https://epicsite.xyz]]
+* [[Freedit|https://freedit-org.github.io/status]]
+* [[foss.wtf|https://foss.wtf]]
+* [[Garuda Linux|https://start.garudalinux.org]]
+* [[GGC-Project|https://www.ggc-project.de/index.html#services]]
+* [[Hostux|https://hostux.network/en]]
+* [[Jae.fi|https://jae.fi/#public-services]]
+* [[kavin.rocks|https://kavin.rocks]]
+* [[LibertaCasa|https://liberta.casa]]
+* [[Lunar.ICU|https://service.lunar.icu]]
+* [[ManaSiWibi|https://manasiwibi.com/public-instance-services]]
+* [[Mask.sh|https://mask.sh]]
+* [[Miaoute (4201337.xyz)|https://4201337.xyz]]
+* [[Ming Di Leom (mdleom.com)|https://mdleom.com/about/#Services]]
+* [[Mico Hautaluoma (mha.fi)|https://mha.fi/services]]
+* [[mint.lgbt|https://mint.lgbt]]
+* [[namazso|https://namazso.eu]]
+* [[Odyssey346|https://odyssey346.dev/posts/selfhost]]
+* [[Plausibility|https://plausibility.cloud]]
+* [[Plus St|https://plus.st]]
+* [[PrivacyDev|https://privacydev.net/services.html]]
+* [[Privex+PrivacyTools|https://www.privex.io/articles/privacy-frontends]]
+* [[Project Segfault|https://projectsegfau.lt]]
+* [[Puffyan|https://puffyan.us]]
+* [[PussTheCat.org|https://pussthecat.org]]
+* [[Riseup|https://riseup.net]]
+* [[Riverside Rocks|https://riverside.rocks]]
+* [[rtrace.io|https://status.rtrace.io]]
+* [[Stetsed's Selfhosted (selfhostable.net)|https://dash.selfhostable.net]]
+* [[Services FACiLes|https://facil.services]]
+* [[Seth For Privacy|https://status.sethforprivacy.com]]
+* [[Slipfox Network Suite|https://slipfox.xyz]]
+* [[Snopyta|https://snopyta.org]]
+* [[Strongthany|https://blog.strongthany.cc/about/#other-strongservices]]
+* [[The Froth Zone|https://status.froth.zone]]
+* [[The kitty zone|https://thekitty.zone]]
+* [[Tiekötter|https://www.tiekoetter.com/en/services]]
+* [[Tildeverse|https://tildeverse.org]]
+* [[Tinfoil-hat.net|https://tinfoil-hat.net]]
+* [[Tokhmi|https://status.tokhmi.xyz]]
+* [[TotalDarkness|https://totaldarkness.net]]
+* [[TROM.tf|https://trom.tf]]
+* [[~vern|https://vern.cc]]
+* [[Voring.me|https://status.voring.me]]
+* [[weblibre.org|https://weblibre.org]]
+* [[whatever.social|https://whatever.social]]
+* [[YuruVerse (funami.tech)|https://funami.tech]]
+* [[zaggy.nl|https://zaggy.nl]]
+
+!!! Specific single offerings
+
+* [[CryptPad|CryptPad:en]]: [[📃 Curated List|https://cryptpad.org/instances]]
+
+* [[SearX/SearXNG|SearX:en]] (Metasearch engine): [[📃 Curated List|https://searx.space]] | [[priv.au|https://priv.au]]
+
+* [[Whoogle|Whoogle:en]]: [[📃 Curated List|https://github.com/benbusby/whoogle-search#public-instances]]
+
+* [[Lingva|Lingva:en]]: [[📃 Curated List|https://github.com/TheDavidDelta/lingva-translate#instances]]
+
+* [[Libreddit|Libreddit:en]]: [[📃 Curated List|https://github.com/libreddit/libreddit-instances/blob/master/instances.md]]
+
+* [[Teddit|Teddit:en]]: [[📃 Curated List|https://codeberg.org/teddit/teddit#instances]]
+
+* [[Nitter|Nitter:en]] (Twitter frontend): [[📃 Curated List|https://xnaas.github.io/nitter-instances]]
+
+* [[Invidious|Invidious:en]]: [[📃 Curated List|https://api.invidious.io]] <!--| [[com.sb|https://y.com.sb]], [[flokinet.to|https://invidious.flokinet.to]], [[lidarshield|https://invidious.lidarshield.cloud]], [[ggtyler.dev|https://iv.ggtyler.dev]], [[melmac.space|https://iv.melmac.space]], [[nerdvpn.de|https://invidious.nerdvpn.de]], [[priv.au|https://vid.priv.au]], [[Silur.me|https://invidious.silur.me]]--->
+
+* [[Piped|Piped:en]]: [[📃 Curated List|https://github.com/TeamPiped/Piped/wiki/Instances]]

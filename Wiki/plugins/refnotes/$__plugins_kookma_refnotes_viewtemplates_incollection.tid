@@ -1,0 +1,8 @@
+list: incollection
+tags: $:/tags/Refnotes/Template
+title: $:/plugins/kookma/refnotes/viewtemplates/incollection
+type: text/vnd.tiddlywiki
+
+\define mainFields() bibtex-title bibtex-author bibtex-year bibtex-booktitle bibtex-editor bibtex-publisher bibtex-doi bibtex-entry-type
+
+<$transclude tiddler="$:/plugins/kookma/refnotes/viewtemplates/helper" mode=block/>

@@ -1,0 +1,50 @@
+created: 20230110102736164
+creator: Octt
+modified: 20230218213028496
+modifier: Octt
+tags: $:/tags/Macro
+title: $:/Macros/MediaWiki/Main
+
+<!--
+[<<]MediaWiki[>>]
+| Embed sections of an article from a MediaWiki server.
+| [<<]MediaWiki "Article" "Full Domain OR Wikipedia Subdomain" "Section Filtering" "Cover Media"[>>]
+--->
+
+\define MediaWiki(Article Domain Sections Cover)
+<div class="MediaWikiEmbed MediaWikiEmbedBlock">
+<div class="EmbedFrom MediaWikiEmbedFrom">
+  From <$set name="FullDomain" filter="[[$Domain$]regexp[\.]then[$Domain$]else[$Domain$.Wikipedia.org]]">
+  <$macrocall $name="ExtMediaWikiAnchor" Article="$Article$" Domain=<<FullDomain>>/>
+  </$set>
+</div>
+<div class="MediaWikiEmbedCover">
+  <<MediaWikiGetCover "$Article$" "$Domain$" "$Cover$">>
+</div>
+<div class="MediaWikiEmbedContent">
+  <<MediaWikiEmbedInternal "$Article$" "$Domain$" "$Sections$">>
+</div>
+</div>
+\end
+
+\define ExtMediaWikiAnchor(Article, Domain) [[$Domain$/$Article$|https://$Domain$/wiki/$Article$]]
+
+\define WikipediaLink(Article, Subdomain) [[$Article$|https://$Subdomain$.wikipedia.org/wiki/$Article$]]
+\define WikipediaLink-(Article, Subdomain) [[$Article$ - Wikipedia|https://$Subdomain$.wikipedia.org/wiki/$Article$]]
+
+<!--
+<a href={{{[[$Article$]search-replace:g[ ],[_]prepend[https://$Subdomain$.wikipedia.org/]]}}}>$Article$</a>
+-->
+
+\define WikipediaFrame(Article, Subdomain:"en")
+<<iFrame "https://$Subdomain$.m.wikipedia.org/wiki/$Article$">>
+\end
+\define wikipediaframe(Article, Subdomain) <<WikipediaFrame "$Article$" "$Subdomain$">>
+
+\define ^WikipediaFrame(Article, Subdomain, Title:"Wikipedia")
+<details class="tw-details">
+  <summary><strong>$Title$</strong></summary>
+  <<WikipediaFrame "$Article$" "$Subdomain$">>
+</details>
+\end
+\define ^wikipediaframe(Article, Subdomain, Title) <<^WikipediaFrame "$Article$" "$Subdomain$" "$Title$">>

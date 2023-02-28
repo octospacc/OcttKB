@@ -1,0 +1,22 @@
+created: 20230217100639349
+creator: Octt
+modified: 20230217120134167
+modifier: Octt
+tags: Web
+title: Web Browser
+
+<<^wikipediaframe "Web Browser">>
+
+!!! [ext[//Chromium.org]]
+
+; Forks
+: [[Ungoogled Chromium|https://github.com/ungoogled-software]]
+: [ext[//Bromite.org]]
+
+!!! [ext[//Firefox.com]]
+
+* https://www.maketecheasier.com/install-addon-firefox-android/
+
+; Forks
+: [ext[//LibreWolf.net]]
+: Fennec F-Droid

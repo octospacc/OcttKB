@@ -1,0 +1,61 @@
+created: 20230217221957113
+creator: Octt
+modified: 20230217221957113
+modifier: Octt
+tags: 
+title: Android/Development
+
+!!! ''Development''
+
+!!!! ''Apps'' and the likes
+
+; Lego block development: 
+: [[Sketchware Pro|https://sketchware-pro.ga/]] - //Open-source mod of the proprietary and discontinued Sketchware app, for developing directly on Android// - [[[Git|https://github.com/Sketchware-Pro/]]]
+: [[MIT App Inventor|https://appinventor.mit.edu/]] - //Before Sketchware, we had this//
+
+; Minimalist development
+: [[How can I build an Android apk without Gradle on the command line?|https://stackoverflow.com/questions/41132753/how-can-i-build-an-android-apk-without-gradle-on-the-command-line]]
+: [[Tiny Android Template|https://github.com/jbendtsen/tiny-android-template]] - //Minimalist Android Project w/o Gradle//
+: <div>
+
+* [[How to do Android development faster without Gradle|https://authmane512.medium.com/how-to-do-android-development-faster-without-gradle-9046b8c1cf68]] - (Old, not recommended, use the above instead) [[[Git|https://github.com/authmane512/android-project-template]]]
+** Old version of this, has some useful insights: [[How to make Android apps without IDE from command line|https://authmane512.medium.com/how-to-build-an-apk-from-command-line-without-ide-7260e1e22676]]
+</div>
+
+; Classic development
+: <div>
+
+* [[Android Studio|https://developer.android.com/studio]] by Google - Also includes the Android Emulator and some other tools - Warning: IntelliSense is very broken (at least for me)
+** [[Why is Android Studio so buggy and Android development so frustrating?|https://libreddit.kavin.rocks/r/androiddev/comments/yocva7/why_is_android_studio_so_buggy_and_android/]]
+</div>
+
+; Classic development, directly on an Android:
+: With these apps it's also easy to compile for very old API targets, unlike Gradle or Android Studio where it's basically impossible today
+: [[Anacode IDE|http://www.anacodeide.com/home]] - [<<GPlayLink com.majosoft.anacode>>] - The app is freemium and apparently gives you 5-minute waits between build attempts after you build idk how many times (3? 5?)
+: AIDE //IDE for Android// - [<<GPlayLink com.aide.ui>>] - This app is freemium but honestly unusable without paying the montly/annual fee (for example, you can't save code you edit after a while); ''grab patch for [[Lucky Patcher]]'' [[here|https://patch.chelpus.com/custom-patch-for-aide-ide-for-android-java-c++/3.2.210316]] or [[here|https://patch.chelpus.com/custom-patch-for-aide-ide/3.2.210316]] (I don't understand why the app name is different)
+
+; Guides, Snippets, Problems
+: <div>
+
+* [[Add custom headers to WebView resource requests|https://stackoverflow.com/questions/7610790/add-custom-headers-to-webview-resource-requests-android]]
+* [[Using headers from a WebView.load(...) response|https://gist.github.com/kmerrell42/b4ff31733c562a3262ee9a42f5704a89]]
+* [[Intercept and override HTTP requests from WebView|https://stackoverflow.com/questions/4780899/intercept-and-override-http-requests-from-webview]]
+** [[Intercept all requests in WebView on Android|https://medium.com/@madmuc/intercept-all-network-traffic-in-webkit-on-android-9c56c9262c85]]
+** [[Intercepting and Blocking Requests|https://joshuatz.com/posts/2021/webview-intercepting-and-blocking-requests/]]
+</div>
+: [[Android Icon Size guide for Android 6 Marshmallow|https://www.creativefreedom.co.uk/icon-designers-blog/android-icon-size-guide/]]
+: <div>
+
+* [[why setCanceledOnTouchOutside(false) doesn't work in Alert builder?|https://stackoverflow.com/questions/13526690/why-setcanceledontouchoutsidefalse-doesnt-work-in-alert-builder]]
+* [[How to prevent a dialog from closing when a button is clicked|https://stackoverflow.com/questions/2620444/how-to-prevent-a-dialog-from-closing-when-a-button-is-clicked]]
+</div>
+
+!!!! ''Hacking / Modding''
+
+* ''[[Apktool|https://ibotpeaches.github.io/Apktool/]]'' - //A tool for reverse engineering Android apk files// - [[[Git|https://github.com/iBotPeaches/Apktool]]]
+* ''APK Editor'' - //Edit APK Files inside your Android phone! Enjoy Hacking!// - [[[APKPure|https://m.apkpure.com/apk-editor-android/com.gmail.heagoo.apkeditor]]] [[[Uptodown|https://apk-editor.en.uptodown.com/android]]] - Can do about the same things as Apktool, but it's an Android app. It's apparently abandonware, and the pro version has more features. - [[[Pro (ApkBe)|https://en.apkbe.com/app/com.gmail.heagoo.apkeditor.pro]]]
+** The same developer offers other various apps that may be of related interest (also abandoned).
+* ''jadx'' - //Dex to Java decompiler// - [[[Git|https://github.com/skylot/jadx]]]
+
+; Problems, Snippets, Guides
+: [[Reverse Engineering and Analyzing Android Apps: A Step-by-Step Guide|https://medium.com/@asmaeziani47/reverse-engineering-and-analyzing-android-apps-a-step-by-step-guide-67b8af9bf152]]

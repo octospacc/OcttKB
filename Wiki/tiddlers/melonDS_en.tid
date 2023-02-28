@@ -1,0 +1,13 @@
+created: 20220923104738517
+modified: 20230206111552207
+modifier: Octt
+tags: Emulation Nintendo NDS Gaming $:/i18n:en
+title: melonDS:en
+
+[[melonDS|https://melonds.kuribo64.net]] is (sort of) a libre [[Nintendo DS|Nintendo DS:en]] emulator.
+
+[img[https://raw.githubusercontent.com/melonDS-emu/melonDS/master/res/icon/melon_128x128.png]]
+
+Over the years of development, the emulator had time to become a mature melon.
+
+Today, while it still needs a lot of work before being complete, it's considered the best NDS emulator available, at least on PC.

@@ -1,0 +1,66 @@
+created: 20221008141221923
+modified: 20230206111552123
+modifier: Octt
+tags: Snippets $:/i18n:en
+title: FFmpeg/Snippets
+
+!! Flags
+
+* Specify an input file: `-i ${File}`
+* Framerate: `-r ${r}`, `-framerate ${r}` (//use both because one sometimes doesn't work//)
+
+
+!!! Filter Flags
+
+//These are specified by prefixing an argument://
+
+* Audio: `-filter:a` or `-af`
+* Video: `-filter:v` or `-vf`
+
+!!!! Audio Filters
+
+* Volume: `volume=`
+** `±{n}dB`: Adding or Subtracting to absolute value in dB
+** `{%/100}`: Target percentage divided by 100 (e.g: //150% -> 1.5//)
+
+* Detecting volume details: `volumedetect -f null /dev/null` (just prints to console)
+
+!!!! Video Filters
+
+* Scaling: `scale=${w}:${h}`
+* [[Cropping|https://video.stackexchange.com/questions/4563/how-can-i-crop-a-video-with-ffmpeg]]: `crop=${w}:${h}:${x}:${y}`
+
+
+!!! Audio/Video Flags
+
+//These are specified as `-flag:a` or `-flag:v`.//
+
+* Bitrate: `-b:{a|v} ${n}{k|m|...}`
+* Codec: `-c:{a|v} ${codec}`
+
+!!!! Audio Flags
+
+* Audio channels: `-ac ${n}`
+
+
+!! Codecs List
+
+!!! Special
+
+* `copy`: Copy data stream without re-encoding (if supported by container)
+
+!!! Audio Codecs
+
+* `libopus`
+
+!!! Video Codecs
+
+* `h263`, `h264`, `libx265`
+* `libvpx-vp8`, `libvpx-vp9`
+* `libaom-av1`
+
+
+!! Tips
+
+* [[Trim Video|https://shotstack.io/learn/use-ffmpeg-to-trim-video]]
+* [[Image+Audio -> Video|https://superuser.com/questions/1041816/combine-one-image-one-audio-file-to-make-one-video-using-ffmpeg]]

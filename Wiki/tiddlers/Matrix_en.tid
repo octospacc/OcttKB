@@ -1,0 +1,20 @@
+created: 20230114154554721
+creator: Octt
+modified: 20230206211012904
+modifier: Octt
+tags: Internet TODO $:/i18n:en
+title: Matrix:en
+
+<<MediaWiki Matrix_(protocol) en 2>>
+
+* https://matrix.org/
+* https://github.com/matrix-org
+
+!!! ''Resources''
+
+* ''[[maubot|https://maubot.xyz/]]'' - //A plugin-based Matrix bot system// - [[[GitHub|https://github.com/maubot]]] [[[GitLab (CI)|https://mau.dev/maubot]]] [<<MatrixLink "#maubot:maunium.net">>] [[[Docs|https://docs.mau.fi/]]]
+
+!!!! ''Bridges''
+
+* All by ''mautrix'': https://github.com/mautrix - [[[Docs|https://docs.mau.fi/]]]
+* All by ''mx-puppet'': https://gitlab.com/mx-puppet

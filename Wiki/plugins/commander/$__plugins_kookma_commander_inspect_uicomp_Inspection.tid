@@ -1,0 +1,10 @@
+caption: Inspect
+tags: $:/tags/Commander/InspectOps
+title: $:/plugins/kookma/commander/inspect/uicomp/Inspection
+type: text/vnd.tiddlywiki
+
+<$macrocall 
+ $name=compInspect
+ filter=<<searchfilter>>
+ stateTiddler="commander"
+/>

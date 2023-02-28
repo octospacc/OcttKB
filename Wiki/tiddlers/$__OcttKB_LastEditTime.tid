@@ -1,0 +1,13 @@
+created: 20230117113707614
+creator: Octt
+modified: 20230225105823358
+modifier: Octt
+tags: 
+title: $:/OcttKB/LastEditTime
+
+\whitespace trim
+<$list filter="[![$:/StoryList]![$:/HistoryList]!prefix[$:/temp/]!prefix[$:/state]get[modified]!prefix[NaN]!sort[]limit[1]]" variable="modified">
+  <$list filter="[modified<modified>]">
+    <$text text={{{[{!!modified}format:date[YYYY-0MM-0DD, 0hh:0mm]]}}}/>
+  </$list>
+</$list>

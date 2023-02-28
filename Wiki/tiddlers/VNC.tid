@@ -1,0 +1,12 @@
+created: 20230205142158067
+creator: Octt
+modified: 20230205144518639
+modifier: Octt
+tags: TODO Protocol
+title: VNC
+
+!!! ''Clients''
+
+!!!! ''Android''
+
+* ''AVNC'': [[Git|https://github.com/gujjwal00/avnc]] | <<FDroidLink com.gaurav.avnc>> | <<GPlayLink com.gaurav.avnc>>

@@ -1,0 +1,11 @@
+created: 20230113102628101
+modified: 20230206111552185
+modifier: Octt
+tags: TODO Fediverse $:/i18n:en
+title: Lemmy:en
+
+<<MediaWiki Lemmy_(software) en 1>>
+
+* Website: [[join-lemmy.org|https://join-lemmy.org]]
+* Git: [[github.com/LemmyNet/lemmy|https://github.com/LemmyNet]]
+* Developer's Instance: [[lemmy.ml|https://lemmy.ml]]

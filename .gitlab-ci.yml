@@ -2,15 +2,10 @@ image: alpine:latest
 
 before_script: |
   apk update
-  apk add git wget npm python3 py3-pip
+  apk add git wget npm
   npm install -g tiddlywiki
-  pip3 install beautifulsoup4 html5lib
 
-pages:
-  stage: deploy
+Sync:
+  stage: Sync
   script: |
-    ash ./Bootstrap.sh
     sh ./GitLab.Main.sh
-  artifacts:
-    paths:
-    - public

@@ -1,0 +1,13 @@
+created: 20230111223018169
+creator: Octt
+icon: 💣
+modified: 20230225113355715
+modifier: Octt
+tags: TODO Puzzle $:/i18n:en Game Generic $:/Games
+title: Minesweeper
+
+<<^wikipediaframe "Minesweeper (video game)" en>>
+
+!! ''Gamin' Time''
+
+<<iFrameFixed "https://vuesweeper.netlify.app">>

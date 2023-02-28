@@ -1,0 +1,5 @@
+description: Tiddlers modified since the wiki was loaded
+filter: [haschanged[]]
+tags: $:/tags/Commander/Filter
+title: $:/plugins/kookma/commander/filters/SessionTiddlers
+type: text/vnd.tiddlywiki

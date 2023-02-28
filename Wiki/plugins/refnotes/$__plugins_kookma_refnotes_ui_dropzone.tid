@@ -1,0 +1,13 @@
+caption: Dropzone
+tags: 
+title: $:/plugins/kookma/refnotes/ui/dropzone
+type: text/vnd.tiddlywiki
+
+<$dropzone 
+  deserializer="application/x-bibtex"
+  filesOnly=no 
+	importTitle="Import Bibtex">
+<div class="bibtex-dropzone" tabindex=1>
+Paste your Bibtex Entry here
+</div>
+</$dropzone>

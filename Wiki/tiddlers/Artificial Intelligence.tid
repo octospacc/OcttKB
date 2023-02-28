@@ -1,0 +1,63 @@
+created: 20230218215510319
+creator: Octt
+icon: 👾
+modified: 20230227220804517
+modifier: Octt
+page-cover: https://source.unsplash.com/random/?ChatBot,ChatGPT,OpenAI
+tags: 
+title: Artificial Intelligence
+
+<<^wikipediaframe "Artificial Intelligence">>
+
+!!! ''Active Resources''
+
+; Misc
+: [[🤖 ChatGPT Experiences|https://listed.to/@ChatGPT_Experiences]] - Despite the name it could regard any AI chatbot, if I ever find time to update it
+: [[PromptHero|https://prompthero.com/]] - //Search millions of art images by AI models//
+: [[AI Content Detector|https://writer.com/ai-content-detector/]]
+: <div>
+
+* <<YoutubeL kCc8FmEb1nY "Let's build GPT: from scratch, in code, spelled out">>
+** [[nanoGPT|https://github.com/karpathy/nanoGPT]]
+</div>
+
+; ChatGPT
+: [[ChatGPT webapp clone / alternative client|https://github.com/orhanerday/ChatGPT]]
+: <div>
+
+* [[🧠 Awesome ChatGPT Prompts|https://prompts.chat/]] - <<[ "[[Git|https://github.com/f/awesome-chatgpt-prompts]]">>
+** [[ChatGPT Products and Prompts|https://chatgpt.getlaunchlist.com/]]
+</div>
+: <<YoutubeL SbgJDL4DJ7M "Master ChatGPT in 5 Minutes. Seriously.">>
+
+!!! ''Thinking''
+
+; February 2023
+: <<YoutubeL -gGLvg0n-uY "Raiden Warned About AI Censorship - MGS2 Codec Call (2023 Version)">> <dd>
+While I think the entire scenario is only partially realistic, and if the video wasn't meant to be just a meme then the entire argument could probably be considered a conspiracy theory, the general line of thought is scarily plausible.
+<div>
+
+# World governments aren't yet denying access to advanced AI technologies to the public to make it spread to very negative uses.
+# This way an excuse for total control of the [[Internet]] will be put in place:
+#* The generative AIs that the public will still have access to will be crippled.
+#* Everything will require government identification, "to be sure that a real person is doing X".
+#** Online anonymity even for morally correct causes will no longer exist.
+#** World governments will have total control on the population with fallacious appeals to combating first against disinformation, and ultimately "non-morality" (anything the government just doesn't like).
+</div> </dd>
+: <<YoutubeL AOSu6jSMq0M "Uh Oh.. Did AI Just Kill Websites?">> <dd>
+With all the [[Issues of the Modern Web]], and the practical demonstrations of the amazing capabilities of AIs that are already available today, it's not absurd to think that conversational AI could soon kill websites.
+<div>
+
+* Advertisers could probably soon go to AI, because of the potential to deploy even more targeted ads, while simultaneously appearing less invasive to users.
+* Writers and content creators could focus more on the content: not have to deal with SEO issues, and more easily deploy content thanks to APIs provided by the AI services instead of having to construct a website.
+</div> </dd>
+: <<YoutubeL ce616lsed9Y "ChatGPT Has A Serious Problem">>
+: <<YoutubeL WY518YRfs5M "Generative AI Is About To Reset Everything, And, Yes It Will Change Your Life">>
+
+!!! ''Developments''
+
+; February 2023
+: [[I made ChatGPT and Bing AI have a conversation (and they are friends now)|https://moritz.pm/posts/chatgpt-bing]]
+: [[Amazon Begs Employees Not to Leak Corporate Secrets to ChatGPT|https://futurism.com/the-byte/amazon-begs-employees-chatgpt]]
+: <<RedditL "/r/bing/comments/110eagl/the_customer_service_of_the_new_bing_chat_is/" "Bing ChatGTP demands an apology from user for claiming it's 2023">>
+: <<YoutubeL pBtD2JUXfLU "Jailbreaking Bing's Chatbot is WILD!">>

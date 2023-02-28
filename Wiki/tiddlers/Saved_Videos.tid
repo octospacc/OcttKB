@@ -1,0 +1,47 @@
+created: 20230208223358132
+creator: Octt
+modified: 20230227215152813
+modifier: Octt
+tags: 
+title: Saved/Videos
+
+\define y(ID, Title) <<YouTubeLink "$ID$" "$Title$">>
+
+; Cicalone Simone
+: <<y drlRLXqOVo8 "Abbiamo Preso il criminale che ci ha Aggredito con un Coltello alla Stazione Termini">> <dd>
+Fa pensare molto il momento del video sottotitolato con "Mondo al contrario: criminali che chiamano la polizia", in cui con la (fattualmente falsa) scusa che la squadra di Cicalone lo stesse minacciando, il criminale fa cenno ad una vicina pattuglia di venire a risolvere la situazione... il criminale ha chiamato la polizia, non Cicalone, assurdo.
+</dd>
+
+; GioPizzi
+: <<y 8FvSyETGz-Q "Questa è la (nostra) guerra">> <dd>
+Nell'anniversario dell'inizio della guerra in Ucraina del 2022, un'analisi su tutto ciò che è girato attorno ad essa. Dai motivi effettivi del perché sia iniziata, come mai le reazioni esterne sono state quelle che abbiamo visto, e infine cosa bisognerebbe imparare dalla tragedia, perché riguarda costantemente anche noi che viviamo fisicamente fuori dal conflitto.
+</dd>
+
+; I did a thing
+: <<y o8sj7uxLg88 "I made an illegal home security system!">> <dd>
+In the video a solution for house security is created using a paintball gun, some servomotors, and a PC running a face detection program. When any face is detected, the gun is made to turn to face the person, and then shoot them.
+</dd>
+: <<y SYZUBG-YLc0 "I made hermit crabs armor then released them!">>
+
+; Johnny Harris
+: <<y u550Si9rNv4 "Inside Putin's Censorship War: How These YouTubers Are Fighting Back">>
+: <<y aBppb2quqkE "The International Date Line, Explained">>
+
+; Louis Rossmann
+: <<y KGszSj0BLeg "Mainstream media catching onto the 'you own nothing' culture shift">> <dd>
+Commentary of Charlie Warzel's article on The Atlantic "[[My Printer Is Extorting Me|https://www.theatlantic.com/technology/archive/2023/02/home-printer-digital-rights-management-hp-instant-ink-subscription/672913/]]". An analysis on how anti-consumer [[DRM]] and subscription models are becoming so problematic that now even more mainstream media is starting to shed some light on the issue.
+</dd>
+
+; yotobi
+: <<y 68Dod4aE7Qs "Un trauma chiamato 'Ultimo Minuto'">> <dd>
+Analisi di un vecchio programma televisivo che non conoscevo, che metteva in scena ricreazioni di fatti pericolosi e/o tragici realmente avvenuti come scherzi, facendo recitare persone prese alla buona e vedendo la reazione di quelle che, pensando siano reali, vanno incontro agli incidenti.
+</dd>
+
+; ...
+: <<y BW32yUEymvU "Rekka Bellum and Devine Lu Linvega, Hundred Rabbits - XOXO Festival (2019)">>
+: <<y baKCC2uTbRc "Stop Procrastinating With Note-Taking Apps Like Obsidian, Roam, Logseq">>
+: <<y T0TZcdry1p4 "MS-DOS tutorial, or cure for insomnia?">>
+: <<y 6avJHaC3C2U "The Art of Code - Dylan Beattie">>
+: <<y zpq9irl2yE4 "The PC turbo button mystery finally solved! [VWestlife]">>
+: <<y 2L2qHfNnXB4 "NixOS: a sales pitch">>
+: <<y JuB08kwQUDk "1. Cronache marxiane: Marx aveva ragione?">>

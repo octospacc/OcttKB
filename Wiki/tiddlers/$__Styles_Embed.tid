@@ -1,0 +1,52 @@
+created: 20230112154615238
+creator: Octt
+modified: 20230225112834333
+modifier: Octt
+tags: $:/tags/Stylesheet
+title: $:/Styles/Embed
+
+\define --HeadingColor0() #c061cb;
+
+.iFrameNormal, .iFrame100 {
+  Margin: 0px;
+  Padding: 0px;
+  Background: #eeeeff/*#ddddff*/;
+  Width: 100vw;
+}
+.iFrameNormal { Height: 90vh; }
+.iFrame100 { Height: 100vh; }
+
+.MediaWikiEmbed, .MediaWikiEmbedBlock {
+  Border-Left: 4px Solid <<--HeadingColor0>>;
+  Padding-Left: 1em /*8px*/;
+}
+
+.MediaWikiEmbedCover { float: right; }
+.MediaWikiEmbedCover > * { max-height: 35vh /*50vh*/; }
+
+.EmbedFrom, .Embed-From,
+.MediaWikiEmbed-From, .MediaWikiEmbedFrom {
+  Font-Size: Smaller;
+  Font-Style: Italic;
+  /* Don't make the link go over the "fullscreen" checkbox+label */
+  max-width: calc(100% - 9em);
+}
+
+/* input.Checkbox-Btn:after { content: attr(label); } */
+
+.Embed-Fullscreen-Btn { float: right; font-style: revert; margin-top: -2em; }
+label.Embed-Fullscreen-Btn { margin-right: 2.5em; }
+input.Embed-Fullscreen-Btn { width: 2em; height: 2em; }
+
+/* TODO: Different top: positioning based on if mobile or desktop view is active, and if sidebar is open or closed (2em for mobile and sidebar closed, ~0.64em for the rest) */
+input.Embed-Fullscreen-Btn:checked,
+input.Embed-Fullscreen-Btn:checked ~ label,
+input.Embed-Fullscreen-Btn:checked ~ iframe
+{ position: absolute; z-index: 99999; top: 2em/*0.64em*/; right: 0px; }
+
+input.Embed-Fullscreen-Btn:checked ~ iframe {
+  height: calc(100vh - 2em);
+  left: 0px;
+  right: unset;
+  min-width: calc(100vw - 40px);
+}

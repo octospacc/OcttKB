@@ -1,0 +1,35 @@
+created: 20230112112905496
+creator: Octt
+modified: 20230216115703349
+modifier: Octt
+tags: $:/i18n:en Wiki
+title: MediaWiki
+type: 
+
+<<MediaWiki MediaWiki en 4>>
+
+!! ''Resources''
+
+!!! ''Tools''
+
+* by [[WikiTeam|https://archive.org/details/wikiteam]] - //Tools for downloading and preserving wikis. We archive wikis, from Wikipedia to tiniest.<<fnote "As of 2020, WikiTeam has preserved more than 250,000 wikis.">>// - <<[ "[[Git WikiTeam|https://github.com/WikiTeam]]">>
+** Modern WIP versions by [[mediawiki-client-tools|https://github.com/mediawiki-client-tools]]
+*** [[mediawiki-scraper|https://github.com/mediawiki-client-tools/mediawiki-scraper]] - //ongoing project to port the legacy wikiteam toolset to Python 3 and PyPI to make it more accessible//
+
+!!! ''Help and Learning''
+
+* [Web book] [[Working with MediaWiki|https://workingwithmediawiki.com/]] - 2nd edition, updated for 2022, by Yaron Koren
+
+* [[Help:Export|https://m.mediawiki.org/wiki/Help:Export]]
+** [[Manual:Backing up a wiki|https://m.mediawiki.org/wiki/Manual:Backing_up_a_wiki]]
+*** [[How to back up a MediaWiki server hosted on a remote Debian machine|https://gist.github.com/MichaelCurrie/a36bb5746a19e4b77160296baa14365d]]
+** [[Manual:Parameters to Special:Export|https://m.mediawiki.org/wiki/Manual:Parameters_to_Special:Export]]
+*** [[Manual:$wgExportAllowAll|https://m.mediawiki.org/wiki/Manual:$wgExportAllowAll]]
+
+!!! ''Extensions''
+
+* [[Translate|https://m.mediawiki.org/wiki/Extension:Translate]] - //Used to translate software (?) and to manage multilingual wikis in a sensible way//
+
+!!! ''Development''
+
+* <<ExtMediaWikiAnchor "API:Get_the_contents_of_a_page" mediawiki.org>>

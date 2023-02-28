@@ -1,0 +1,21 @@
+created: 20230124112022156
+creator: Octt
+modified: 20230124191516599
+modifier: Octt
+tags: 
+title: $:/Styles/View/9-99-Hacks
+
+<!--
+<<script off>>
+<script>
+/*
+<$text text=<<currentTiddler>>/>
+*/
+/*
+document.querySelector('.tc-story-river > div[data-tiddler-title=""]')
+console.log();
+*/
+</script>
+<<script off>>
+-->
+<!--<<TiddlerViewShowBreadcrumbs>>-->

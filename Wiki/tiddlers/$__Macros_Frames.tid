@@ -1,0 +1,76 @@
+created: 20230111212908327
+creator: Octt
+modified: 20230221203911149
+modifier: Octt
+tags: $:/tags/Macro
+title: $:/Macros/Frames
+
+\whitespace trim
+
+\define iFrame100Style()
+Margin:    0px;
+Padding:   0px;
+Width:   100vw;
+Height:  100vh;
+\end
+
+\define EmbedFromLine(Link)
+<p class="Embed-From EmbedFrom">Embed of [[$Link$]]</p>
+\end
+
+\define iFrame(Src, Class:"iFrameNormal", Attrs)
+<<EmbedFromLine "$Src$">>
+<input class="NoSelect Checkbox-Btn Embed-Fullscreen-Btn" type="checkbox" label="Fullscreen"/>
+<label class="NoSelect Checkbox-Btn Embed-Fullscreen-Btn">Fullscreen</label>
+<iframe class="$Class$" frameborder="0" $Attrs$ src="$Src$"></iframe>
+\end
+
+\define iframe(src, class, attrs) <<iFrame "$src$" "$class$" "$attrs$">>
+
+\define ^iFrame(Src, FrameClass, Attrs, Title, Heading, DetailsClass) <$macrocall $name="Details" Content=<<iFrame "$Src$" "$FrameClass$" "$Attrs$">> Summary="$Title$" Heading="$Heading$" Class="$DetailsClass$"/>
+
+\define ^iframe(src, frameclass, attrs, title, heading, detailsClass) <$macrocall $name="details" content=<<iframe "$src$" "$frameclass$" "$attrs$">> summary="$title$" heading="$heading$" class="$detailsclass$"/>
+
+\define iFrameFixed(Src, Class:"iFrameNormal", Attrs) <<iFrame "$Src$" "$Class$" 'scrolling="no" $Attrs$'>>
+
+\define iFrameBypassFixed(Src, Class:"iFrameNormal", Attrs) <<iFrameBypass "$Src$" "$Class$" 'scrolling="no" $Attrs$'>>
+\define iFrameFixedBypass(Src, Class:"iFrameNormal", Attrs) <<iFrameBypass "$Src$" "$Class$" 'scrolling="no" $Attrs$'>>
+
+\define iFrameBypass(Src, Class:"iFrameNormal", Attrs)
+<<EmbedFromLine "$Src$">>
+<iframe class="$Class$" frameborder="0" $Attrs$ src='
+data:text/html;utf8,
+<!DOCTYPE html>
+<!-- Code from X-Frame-Bypass: <https://github.com/niutech/x-frame-bypass> --->
+<html>
+<head>
+  <style>
+    html, body { overflow: hidden; }
+    html, body, iframe { margin: 0px; padding: 0px; width: 100%; height: 100%; border: none; }
+  </style>
+  <script src="https://octospacc.gitlab.io/pastebin/custom-elements-builtin.0.6.5.min.js"></script>
+  <script src="https://octospacc.gitlab.io/pastebin/x-frame-bypass.js" type="module"></script>
+</head>
+<body><iframe frameborder="0" is="x-frame-bypass" src="$Src$"></iframe></body>
+</html>
+'></iframe>
+\end
+
+\define iFrame100(Src)
+<<EmbedFromLine "$Src$">>
+<iframe style=<<iFrame100Style>> frameborder="0" src="$Src$"></iframe>
+\end
+
+\define iFrame100NoScroll(Src)
+<<EmbedFromLine "$Src$">>
+<iframe style=<<iFrame100Style>> frameborder="0" src="$Src$" scrolling="no"></iframe>
+\end
+
+\define iFrame100UriDirect(Src)
+<iframe style=<<iFrame100Style>> frameborder="0" src=$Src$></iframe>
+\end
+
+\define iFrame100Tid(Tid)
+<<EmbedFromLine "$Tid$">>
+<<iFrame100UriDirect """<<b64TidUriEnc "$Tid$">>""">>
+\end

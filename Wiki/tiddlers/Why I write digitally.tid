@@ -1,0 +1,22 @@
+created: 20230208191321640
+creator: Octt
+modified: 20230209144050752
+modifier: Octt
+tags: Octt Writing Information Digital VS
+title: Why I write digitally
+
+* Data is generally safer in the long term.
+** Digital writing is often prone to information loss in the very short term in ways that paper is not (e.g: PC crashing while you write, phone falling out of your hands while writing and ending up with a dead display)...
+** ...but with proper automatic synchronization and backups solutions, in the long term computerized information is at a lesser risk:
+*** Case study: both my [[sitoctt]] and [[OcttKB]] save to their respective Git repos in the cloud; If all my devices with recent offline copies break, I don't lose the data; Those repos are mirrored to 2 other separate Git providers, minimizing the risk for if some go down someday; All are publicly accessible, so I can re-download the data even if I were to lose all my login details for all my accounts; Everyone can potentially make and distribute copies, more people have the data so it's harder for it to disappear from the face of the Earth.
+*** Compare this to a paper [[Notebook]]: if something happens to it, all your data is gone.
+
+* Faster and easier both to initially write new information, and also to then make adjustments. Updating data is continuous and flawless.
+** I can write much faster on a latin-alphabet keyboard than what I can by handwriting in the latin alphabet.
+** It's easier to do special formatting: Font styles, millions of colors, animations, backgrounds, navigations.
+
+* Data is indexable, searchable, and shareable fast, in both simple and infinitely complex ways, and fast.
+** [[Zettelkasten]] is much more doable with computers, even if it was born on paper
+** Never losing information (especially small snippets) after some time because of paper being too disorganized to search in.
+*** On paper, it's impossible to do full-text, as OCR systems are still pretty immature and high in computing cost, not to mention the overhead needed to feed a picture of the handwritten paper to the computer.
+** Can make the information available to everyone via the Internet, with pure text content being very easy to transfer, and also accessible for consumption to people who can't read with their eyes

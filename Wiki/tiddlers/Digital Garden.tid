@@ -1,0 +1,26 @@
+created: 20230217224333827
+creator: Octt
+icon: 🍀
+modified: 20230227205943686
+modifier: Octt
+page-cover: https://source.unsplash.com/random/?digital-garden
+tags: 
+title: Digital Garden
+
+I still haven't yet understood what are the exact connotations of this term.
+
+* Defined as something you slowly curate over time with focus on the fact itself and not on the ultimate outcome/result
+* It's definitely the opposite of a blog (no posts strictly related to date, preferably many small ideas, ...)
+* Is a digital garden a [[Wiki]]? A [[Personal Knowledge Base]] with [[Zettelkasten]] method? Static [[Website]] with many "classic-style" WIP pages? A personal [[Notebook]] left open to the public to read?
+
+; Explanations, Demos, Discussions
+: <<YoutubeL TDqsr3MNTTc "What is a Digital Garden? Everything you need to know 🌱">>
+: <div>
+
+; <<YoutubeL Hn6_4ZzcpiY "Digital Gardening: Explained">>
+: //A digital garden is an online space at the intersection of a notebook and a blog, where digital gardeners share seeds of thoughts to be cultivated in public.//
+</div>
+: <<YoutubeL v8CBE7jPPTk "🪴 How To Grow Your Own Digital Garden with Maggie Appleton">>
+
+; Tools
+: [[garden 🌱|https://digital-garden.dev/]] - starter kit for making a more blog-oriented digital garden - <<[ "[[Git|https://github.com/inadeqtfuturs/garden]]">>

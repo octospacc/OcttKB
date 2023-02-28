@@ -1,0 +1,12 @@
+created: 20230203224049687
+creator: Octt
+modified: 20230227210614687
+modifier: Octt
+tags: $:/i18n:en Knowledge
+title: Personal Knowledge Base
+
+<<^wikipediaframe "Personal knowledge base" en>>
+
+; Tools
+: [[Feather Wiki|https://feather.wiki/]] - //A single-file HTML wiki in ~50 KB// - <<[ "[[Git|https://codeberg.org/Alamantus/FeatherWiki]]">>
+: [[TiddlyWiki]]

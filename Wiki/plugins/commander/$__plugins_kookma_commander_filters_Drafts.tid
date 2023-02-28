@@ -1,0 +1,5 @@
+description: {{$:/language/Filters/Drafts}}
+filter: [has[draft.of]sort[title]]
+tags: $:/tags/Commander/Filter
+title: $:/plugins/kookma/commander/filters/Drafts
+type: text/vnd.tiddlywiki

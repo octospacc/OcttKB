@@ -1,0 +1,41 @@
+created: 20230129125013039
+creator: Octt
+modified: 20230225183227850
+modifier: Octt
+tags: 
+title: $:/Macros/Breadcrumbs/Main
+
+\whitespace trim
+
+\define cp() javascript:(navigator.clipboard.writeText("$(currentTiddler)$"))
+
+\define MakeViewBreadcrumbs()
+<span class="View-Breadcrumbs">
+<!--
+<a class="Inline-Icon" href="javascript:(alert('TODO copy title to clipboard'))">{{$:/core/images/folder}}</a>
+-->
+<$set name="Caller" value=<<currentTiddler>>><!--
+--><$list filter="[<currentTiddler>split[/]limit[-1]]" counter="Index"><!--
+  --><span class="Path-Elem" data-path-elem=<<currentTiddler>>><!--
+    --><$link to={{{[<Caller>split[/]limit<Index>join[/]]}}}><!--
+      --><<currentTiddler>><!--
+    --></$link><!--
+  --></span><!--
+  --><span class="Inline-Sep"><!--
+    --><span>/</span><!--
+  --></span><!--
+--></$list><!--
+--></$set><!--
+--><$set name="Tiddler" value={{{[<currentTiddler>split[/]last[]]}}}><!--
+  --><span class="Path-Elem" data-path-elem=<<Tiddler>>><!--
+    --><details><!--
+      --><summary><!--
+        --><$text text=<<Tiddler>>/><!--
+      --></summary><!--
+      --><<DirTreeList>><!--
+    --></details><!--
+  --></span><!--
+--></$set><!--
+--><a href=<<cp>> class="Path-Copy">▪️</a><!--
+--></span>
+\end

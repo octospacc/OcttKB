@@ -1,0 +1,10 @@
+{
+    "author": "Gk0Wk",
+    "description": "Repos for CPL",
+    "name": "CPL Repo",
+    "plugin-type": "plugin",
+    "title": "$:/plugins/Gk0Wk/CPL-Repo",
+    "version": "2022.12.28",
+    "revision": "0",
+    "bag": "default"
+}

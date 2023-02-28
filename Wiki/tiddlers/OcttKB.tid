@@ -1,0 +1,67 @@
+created: 20220920160811383
+creator: Octt
+icon: 🐙
+modified: 20230227224258057
+modifier: Octt
+tags: Meta $:/ToC $:/i18n:en Octt
+title: OcttKB
+
+!! Welcome to my Personal {[[Personal Knowledge Base]] \ Public Notebook}!
+
+General information about the site will soon be available. Licensing information is available [[here|OcttKB/Licensing]]. This is "OcttKB" because I'm [[Octt]].
+
+Apart from the usual [[TiddlyWiki]] ones, there are many methods of navigation on this wiki. For one, try clicking on the big name line on top of of this [[OcttKB]] tiddler.
+
+!!! ''Tips''
+* Click on different parts of the title of an open tiddler to navigate in a folder-like structure, when other folders or tiddlers are present as children of the current tiddler.
+* Click on tag pills, often as present on top of a tiddler frame, just below the title, to navigate to all tiddlers that are tagged with that tag.
+** Unlike with folders, a tiddler can have many tags at the same time, allowing for non-linear navigation.
+
+!!! ''Table of Contents''
+{{$:/OcttKB/ToC}}
+
+!!! ''External Links''
+
+; ''My Hub'', Global Home Page: [[Hub.Octt.EU.org|https://hub.octt.eu.org]]
+: Links to my blog, webapps, and social profiles
+
+* ''KB Git Repo'' (deploy scripts, + limited commit history): [[GitLab.com/octtspacc/OcttKB|https://gitlab.com/octtspacc/OcttKB]]
+** Mirrors (don't send issues/PRs there): [[GitHub.com|https://github.com/octospacc/OcttKB]] | [[Gitea.it|https://gitea.it/octospacc/OcttKB]]
+
+//<small>Note: The KB is also served in plain, unencrypted HTTP at the `http` 5th-level subdomain: `http://http.kb.octt.eu.org`.</small>//
+
+!!! ''Tags''
+{{$:/OcttKB/TagCloud}}
+<!--
+<span style="Line-Height:2em;">
+<$list filter="[tags[]!is[system]]">
+<span style="Padding:2px;">
+<$macrocall $name="tag" tag={{!!caption}}/>
+</span>
+</$list>
+</span>
+-->
+<!--
+<<list-links filter:"[!is[system]tags[]]">>
+-->
+
+<!--
+<br>
+-->
+<details class="tw-details">
+  <summary>
+    <h3 style="display: inline; font-style: bold;">
+      All Tiddlers
+    </h3>
+  </summary>
+  {{$:/OcttKB/AllTiddlers}}
+</details>
+<!--
+<br>
+-->
+
+<hr><br>
+
+(Partial) [[Copyright © 2022, OctoSpacc|OcttKB/Licensing]] || OcttKB is powered by [[TiddlyWiki|TiddlyWiki]].
+
+<small>//As with any TiddlyWiki, you can make your own changes right here and save them locally for yourself.//</small>

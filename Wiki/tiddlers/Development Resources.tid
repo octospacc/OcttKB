@@ -1,0 +1,16 @@
+created: 20230216222435750
+creator: Octt
+modified: 20230216223121525
+modifier: Octt
+tags: 
+title: Development Resources
+
+; Learning
+: [[Baeldung|https://www.baeldung.com/]]
+: [[DigitalOcean Tutorials|https://www.digitalocean.com/community/tutorials]]
+: [[Rollbar Tutorials|https://rollbar.com/blog/category/tutorials/]]
+: [[W3Schools|https://www.w3schools.com/]]
+
+; Code search
+: [[grep.app|https://grep.app/]]
+: [[Tabnine|https://www.tabnine.com/code/]]

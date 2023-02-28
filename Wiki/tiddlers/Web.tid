@@ -1,0 +1,24 @@
+created: 20230203214532694
+creator: Octt
+modified: 20230227074804938
+modifier: Octt
+tags: Internet
+title: Web
+
+<<^wikipediaframe World_Wide_Web en>>
+
+!! ''Resources''
+
+* [[Can I use|https://caniuse.com/]]
+* ''[[World Wide Web Consortium|https://www.w3.org/]]'' - //international community that develops open standards to ensure the long-term growth of the Web// - [[[Wikipedia|https://en.wikipedia.org/wiki/World_Wide_Web_Consortium]]]
+
+!!! ''Tools''
+
+* [[Browserling|https://www.browserling.com/]] | [[BrowserStack|https://www.browserstack.com/?ref=caniuse-source&caniuse_source=brand-asset]] - For testing web app and sites on different browsers, straight online
+* ''[[ReplayWeb.page|https://replayweb.page/]]'' - //Serverless Web Archive Replay directly in the browser// - [[[Git|https://github.com/webrecorder/replayweb.page]]]
+* ''[[W3C Markup Validation Service|https://validator.w3.org/]]'' - //Check the markup (HTML, XHTML, …) of Web documents// - [[[Other similar tools|https://w3c.github.io/developers/tools/]]]
+
+!!! ''Analytics''
+
+* ''[[GoatCounter|https://www.goatcounter.com/]]'' - //Easy analytics. Open-source, self-hostable, GDPR-compliant. No tracking of personal data, and works without JS// - [[[Git|https://github.com/arp242/goatcounter]]]
+* //Others: https://github.com/newTendermint/awesome-analytics | https://github.com/pluja/awesome-privacy#analytics //

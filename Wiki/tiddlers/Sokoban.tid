@@ -1,0 +1,19 @@
+created: 20230114151517618
+creator: Octt
+icon: 📦
+modified: 20230225113208567
+modifier: Octt
+page-cover: https://source.unsplash.com/random/?Box,Cardboard
+tags: Puzzle $:/i18n:en Game Generic $:/Games
+title: Sokoban
+
+<<^wikipediaframe Sokoban>>
+
+!! ''Gamin' Time''
+
+<<iFrameFixed "https://sokobanz.vercel.app">>
+
+!! ''Implementations''
+
+* ''🧩 Sokoban game and automated puzzle solver (healeycodes)'': [[Web|https://sokobanz.vercel.app]] | [[Git|https://github.com/healeycodes/sokoban]]
+* 🐇 ''SokoBun'': [[Web|https://mewesk.github.io/sokobun]] | [[Git|https://github.com/MewesK/sokobun]]

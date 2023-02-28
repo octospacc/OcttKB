@@ -1,0 +1,33 @@
+created: 20230111090705398
+creator: Octt
+modified: 20230218175557484
+modifier: Octt
+tags: $:/tags/ViewTemplate
+title: $:/Styles/View/5-10-Missing.xml
+
+\whitespace trim
+
+<$list filter="[all[current]!is[system]is[missing]]" variable=~>
+<!-- <$list filter="[all[current]is[missing]]" variable=~> -->
+  <!--<$button>
+    Great features todo!-->
+<!--
+    <$action-setfield object-type="todo"/>
+    Make Todo
+--->
+  <!--</$button>-->
+
+  <$macrocall $name="^WikipediaFrame" Article=<<currentTiddler>>/>
+
+  <!--<br><br>-->
+
+  <details class="tw-details">
+    <summary>
+      Directory Listing
+    </summary>
+    <!-- <$macrocall $name="tree_" prefix=<<__currentTiddler__>>/> -->
+    <!-- <$macrocall $name="tree_" prefix={{{[<currentTiddler>append[/]]}}}/> -->
+    <!-- <<DirTreeList>> -->
+  </details>
+
+</$list>

@@ -1,0 +1,11 @@
+created: 20230124190137826
+creator: Octt
+list-after: $:/core/ui/ViewTemplate/title
+modified: 20230225182506517
+modifier: Octt
+tags: $:/tags/ViewTemplate
+title: $:/Styles/View/2-10-Breadcrumbs.xml
+
+\whitespace trim
+<!-- <<%ViewBreadcrumbs>> -->
+<!-- <<i18nBreadcrumbsNamespaceLabelStrip>> -->

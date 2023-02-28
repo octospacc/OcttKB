@@ -1,0 +1,32 @@
+created: 20180925155320737
+creator: Thomas Elmiger
+modified: 20230208225527686
+modifier: Octt
+tags: $:/tags/Stylesheet
+title: $:/plugins/telmiger/details/colours.css
+
+/* details and summary colours */
+
+details.tw-details {
+   background-color: <<colour tiddler-info-tab-background>>;
+   color: <<colour foreground>>;
+}
+
+details.tw-details summary {
+   background-color: <<colour dropdown-tab-background>>;
+}
+
+details.tw-details.notification summary {
+    background-color: <<colour notification-background>>;
+    /* TW leaves color undefined/uses foreground */
+}
+
+details.tw-details.warning summary {
+    background-color: #ffbbaf;
+    color: #000;
+}
+
+details.tw-details.success summary {
+    background-color: #88edc5;
+    color: #000;
+}

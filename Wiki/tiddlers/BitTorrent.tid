@@ -1,0 +1,19 @@
+created: 20220923190200484
+creator: Octt
+modified: 20230221224256764
+modifier: Octt
+tags: Internet BitTorrent P2P $:/i18n:en
+title: BitTorrent
+
+''BitTorrent'' is an open [[peer-to-peer|peer-to-peer:en]] file sharing protocol. It is expecially common among the [[free sharing]] community.
+
+Its only requirement for each user is a client application, meaning that efficiently sharing with BitTorrent is effectively free, since a beefy server isn't needed to make the content circulate.
+
+For this reason, the protocol is most commonly used to share large files that have a lot of people requesting them, such as movies, operating systems, and videogames.
+
+This kind of information would be usually expensive to share using a traditional client-server infrastructure, but with BitTorrent every client can seed (send) data to other requesting clients, exponentially optimizing delivery.
+
+!!! ''Clients''
+* ''[[Transmission|https://transmissionbt.com/]]'' (Desktop, CLI) - <<[ "[[Git|https://github.com/transmission]]">>
+* ''[[qBittorrent|https://www.qbittorrent.org]]'' (Desktop, CLI) - <<[ "[[Git|https://github.com/qbittorrent]]">>
+* ''LibreTorrent'' (Android) - <<[ "[[Git|https://github.com/proninyaroslav/libretorrent]]">> [<<FDroidLink org.proninyaroslav.libretorrent>>] [<<GPlayLink org.proninyaroslav.libretorrent>>]

@@ -1,0 +1,182 @@
+created: 20230108190740128
+creator: Octt
+modified: 20230226205516333
+modifier: Octt
+tags: $:/tags/Stylesheet
+title: $:/Styles/Main
+
+\define --HeadingColor0() #c061cb;
+
+\define sidebarbreakpoint()
+<$text text={{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}/>
+\end
+
+\define if-fluid-fixed(text,hiddenSidebarText)
+<$reveal state="$:/themes/tiddlywiki/vanilla/options/sidebarlayout" type="match" text="fluid-fixed">
+$text$
+<$reveal state="$:/state/sidebar" type="nomatch" text="yes" default="yes">
+$hiddenSidebarText$
+</$reveal>
+</$reveal>
+\end
+
+/* Override the font used for icon display by the the <$:/plugins/Gk0Wk/notionpage-covericon> plugin, and then also apply it to the :after of .tc-tiddlylink anchors, for consistency.
+We override adding a "sans-serif" to the start due to a spacing bug (?) */
+.gk0wk-notionpagebg-icon1,
+.gk0wk-notionpagebg-icon2,
+a[class="tc-tiddlylink tc-tiddlylink-resolves"]:after {
+  font-family: sans-serif, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols;
+}
+
+/* Definition lists */
+dd:before { content: '»'; margin-right: 8px; vertical-align: top; }
+dl { margin-left: 8px; }
+dl > dd { margin-left: 24px; }
+dl > dd > div {
+  display: inline-block;
+  max-width: calc(100% - 1.5em);
+}
+dl > dd > div > ul, dl > dd > div > ol {
+  padding-left: 1.5em/*1em*/;
+}
+div:not(.tc-tiddler-body) > dl > dt { margin-top: unset; }
+
+/* Mobile */
+@media (max-width: <<sidebarbreakpoint>>) {
+  .tc-sidebar-scrollable .tc-sidebar-header { padding-top: 0px; }
+}
+
+/* Desktop */
+@media (min-width: <<sidebarbreakpoint>>) {
+  .tc-sidebar-scrollable {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .tc-story-river {
+    padding: {{$:/Config/OcttKB/Tweaks/Starlight/.tc-story-river Padding}};
+  }
+  .tc-tiddler-frame {
+    padding: 20px /*24px 32px 24px 32px*/;
+    margin-bottom: 20px;
+  }
+
+<<if-fluid-fixed text:"""
+  .tc-story-river {
+     margin-right: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth}};
+  }
+""" hiddenSidebarText:"""
+  .tc-story-river {
+    margin-right: 0px;
+    padding-right: 24px;
+  }
+""">>
+}
+
+Div.View-Breadcrumbs
+{ margin: 4px; padding: 4px; }
+
+/* Inserting HTML content with tag $:/tags/AboveStory causes excess padding on top of the story river; Setting display none breaks that HTML, so we just tweak position */ 
+.tc-page-container .tc-story-river > .story-backdrop { position: absolute; }
+
+
+/* Reduce top padding of sidebar */
+.tc-sidebar-scrollable { padding-top: 12px; }
+.tc-sidebar-scrollable .tc-sidebar-header .tc-reveal .tc-site-subtitle { padding-right: 4em; }
+
+.tc-story-river { padding-bottom: 0px; }
+.tc-story-river ~ p { display: none; }
+
+.tc-tiddler-frame,
+.tc-tiddler-body p iframe {
+  Box-Shadow: 2px 2px 12px RGBA(128, 128, 128, 0.5);
+}
+
+.tc-tiddler-body p iframe { Border: None; }
+.tc-tiddler-frame { border-radius: 4px; }
+.tc-modal-body { max-height: 75vh /*60vh*/; }
+
+.tc-sidebar-scrollable .tc-sidebar-tabs-main .tc-more-sidebar .tc-tab-content { overflow: visible; }
+
+/* Large tag selection menu, optimized for desktop + nicer tag button */
+.tc-edit-tags .tc-edit-add-tag .tc-block-tags-dropdown {
+  position: revert;
+  white-space: revert;
+}
+.tc-edit-tags .tc-edit-add-tag .tc-block-tags-dropdown a {
+  display: inline-block;
+  border-radius: 1em;
+}
+
+.DirList-Title, .DirList-Title * { Font-Style: Normal !Important; }
+.Separator-Right:last-of-type { Display: None; }
+
+.StartHere-Button {
+  font-size: x-large /*smaller*/;
+  text-decoration: none !important;
+  user-select: none;
+}
+.StartHere-Button > img {
+  width: 122px;
+  image-rendering: pixelated;
+}
+.StartHere-Button > span {
+  position: relative;
+  top: -20px /*-10px*/;
+}
+
+Img.Img90, .Img90 Img {
+  Max-Width: 90%;
+  Max-Height: 90vh;
+}
+
+.tc-sidebar-scrollable .tc-sidebar-header .tc-page-controls .tc-popup .tc-drop-down { min-width: auto; }
+
+.tc-story-river > .tc-tiddler-frame .tc-subtitle { margin: 4px; padding: 4px; }
+
+/* Customized sidebar button */
+.tc-topbar.tc-topbar-right {
+  bottom: 10px;
+  right: 10px;
+  top: unset;
+}
+.tc-topbar.tc-topbar-right > button {
+  background: RGBA(0,0,0,0.64);
+  border-radius: 4px;
+}
+.tc-topbar.tc-topbar-right > button > svg > g { fill: white; }
+
+details.tw-details > summary > * { display: inline; }
+
+input[type="range"] { min-width: 8em; }
+
+input.Edit-Text-Full { width: 100% !important; }
+
+.tc-tiddler-body details:hover {
+  Box-Shadow: 2px 2px 12px RGBA(128, 128, 128, 0.5);
+}
+.tc-tiddler-body details:hover > iframe {
+  Box-Shadow: none;
+}
+
+.tc-tiddler-body ul:hover,
+.tc-tiddler-body ol:hover,
+.tc-tiddler-body dd:hover {
+  Box-Shadow: 2px 2px 12px RGBA(128, 128, 128, 0.5);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 4px;
+}
+ul, ol, dd { transition: 0.3s; }
+
+.ibox-btn {
+  max-width: 35%;
+  max-height: 50vh;
+}
+.ibox-btn img {
+  width: 100% !important;
+}
+
+.tc-modal {
+  width: 80%;
+  left: calc((100% - 80%) / 2);
+}

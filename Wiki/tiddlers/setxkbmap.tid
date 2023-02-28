@@ -1,0 +1,15 @@
+created: 20230218213620804
+creator: Octt
+modified: 20230218215242136
+modifier: Octt
+tags: 
+title: setxkbmap
+
+''setxkbmap'' is a [[CLI]] tool for setting many global keyboard options under [[Xorg]].
+
+; Show current settings
+: `setxkbmap -query`
+
+; Setting a compose key
+: Needed to type lefty accents (è) or more special symbols when using US layout or similar
+: `setxkbmap -option "compose:{ralt|rwin|...}"`

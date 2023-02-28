@@ -1,0 +1,20 @@
+created: 20221018083042590
+modified: 20230206111552141
+modifier: Octt
+tags: Snippets $:/i18n:en
+title: Git/Snippets
+
+!!! ''Commands (+ Flags/Tips)''
+
+* `clone ${URL}`: Clone (download) a repo to the computer storage
+** `--depth=${n}`: Explicitly specify how many commits to download (starting from latest)
+
+* `add ${Path}`: Update Git's internal list of tracked files. This should be issued (ideally for the root directory, `.`) before trying to commit after creating/deleting/moving/renaming files/folders.
+** A `.gitignore` file, containing a list of files or folder paths (one per line) can be created in a repo's root, to make the `add` command ignore those: they won't be tracked by Git, and thus won't be committed or pushed. Note: adding already tracked paths to `.gitignore` doesn't make it so they stop being tracked, they must be manually be deleted and then the `add` command issued again.
+
+* `config`
+** `credential.helper store`
+
+!!! ''Miscellaneous Flags''
+
+* `--global`: Apply a config command to the global user configuration (omitting applies to current directory if it is a Git repo)

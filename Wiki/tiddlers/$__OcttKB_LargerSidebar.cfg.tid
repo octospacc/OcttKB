@@ -1,0 +1,16 @@
+created: 20230208220901786
+creator: Octt
+modified: 20230208222343118
+modifier: Octt
+tags: 
+title: $:/OcttKB/LargerSidebar.cfg
+
+<$checkbox
+  tiddler="$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth"
+  field="text"
+  checked="50vw"
+  unchecked="280px"
+  default="280px"
+>
+  Larger Sidebar
+</$checkbox>

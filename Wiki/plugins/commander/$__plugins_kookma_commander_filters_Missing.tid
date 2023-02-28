@@ -1,0 +1,5 @@
+description: {{$:/language/Filters/Missing}}
+filter: [all[missing]sort[title]]
+tags: $:/tags/Commander/Filter
+title: $:/plugins/kookma/commander/filters/Missing
+type: text/vnd.tiddlywiki

@@ -1,0 +1,29 @@
+created: 20230219153505142
+creator: Octt
+modified: 20230219191248808
+modifier: Octt
+tags: $:/tags/Stylesheet
+title: $:/Styles/LinkIcon
+
+<!-- Code originally from <https://linkstyle.tiddlyspot.com/>, adapted by me to work just with icons -->
+
+<!-- Notes: 
+   - Anchor classes are selected via strict HTML attributes to avoid things like custom buttons from being stylized where they shouldn't; we will then need another rule to look for an explicit class to stylize other elements
+   - Currently this assumes that the icon field of a tiddler can only have an emoji, never an image URL
+-->
+
+\define linkstyle()
+<$set name="uri" value=<<makedatauri """$(tid)$""" "text/plain">> >
+<$list variable="urititle" filter="""[<uri>removeprefix[data:text/plain,]]""">
+<style>
+a[href="#<<urititle>>"][class='tc-tiddlylink tc-tiddlylink-resolves']:after { content: ' <<icon>>'; }
+</style>
+</$list>
+</$set>
+\end
+
+<$list filter="""[has[linkstyle]] [has[linkstyle-before]] [has[linkstyle-after]] [has[icon]]""">
+<$vars tid={{!!title}} icon={{!!icon}}>
+<<linkstyle>>
+</$vars>
+</$list>

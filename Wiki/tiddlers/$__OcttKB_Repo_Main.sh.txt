@@ -1,0 +1,3 @@
+#!/bin/sh
+sh ./Build.sh
+sh ./DeployOld.sh || true

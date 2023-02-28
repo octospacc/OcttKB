@@ -1,0 +1,5 @@
+description: {{$:/language/Filters/RecentTiddlers}}
+filter: [!is[system]has[modified]!sort[modified]limit[50]]
+tags: $:/tags/Commander/Filter
+title: $:/plugins/kookma/commander/filters/RecentTiddlers
+type: text/vnd.tiddlywiki

@@ -1,0 +1,20 @@
+created: 20221202224129631
+modified: 20230206111552224
+modifier: Octt
+tags: Snippets $:/i18n:en
+title: netcat/Normal Shell
+
+From https://unix.stackexchange.com/a/345628:
+
+Run on host to spawn a network-attached shell (requires bash due to coproc):
+
+```bash
+coproc netcat -l -p $PORT
+exec bash <&${COPROC[0]} >&${COPROC[1]} 2>&1
+```
+
+Run on client to connect to host:
+
+```sh
+nc $ADDRESS $PORT
+```

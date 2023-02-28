@@ -1,0 +1,30 @@
+created: 20230207213320932
+creator: Octt
+modified: 20230216224530424
+modifier: Octt
+tags: Microsoft Proprietary OS
+title: Windows
+
+<<MediaWiki Microsoft_Windows en 4>>
+
+!! ''Resources'' for the platform
+
+!!! ''Distros''
+
+* [[Hiren’s BootCD PE|https://www.hirensbootcd.org/]] - //Modern edition of Hiren’s BootCD, based on Windows 10 PE x64, developed by fans// - Also distributes [[the old HBCD|https://www.hirensbootcd.org/old-versions/]]
+* [[Bob.Omb’s Modified Win10PEx64|https://www.aioboot.com/en/bob-ombs-modified-win10pex64/]]
+** Seen on [[Endermanch]]: <<YoutubeL LUaCmmWXum4 "Running Windows 10 on a DVD disc">>
+* [[Windows 10 Ameliorated|https://ameliorated.info/]] - //Windows 10 minus the spyware plus added stability and security.//
+** Seen on [[Linus Tech Tips]]: <<YoutubeL nwkiU6GG-YU "We fixed Windows 10 - Microsoft will HATE this!">>
+
+!!! ''Programs''
+
+* [[Calmira|http://www.calmira.net/]] - //Alternate shell available for Windows 3.1x and up that has an appearance resembling more modern Windows versions//
+* [[Chris Titus Tech's Windows Utility|https://github.com/ChrisTitusTech/winutil]] - //Install Programs, do Debloats, Tweaks, Fixes, Updates//
+* [[NTLite|https://www.ntlite.com/]] - //Local control for editing Windows images and deployments, for IT professionals/enthusiasts//
+* [[Microsoft PowerToys|https://learn.microsoft.com/en-us/windows/powertoys/]] - //Utilities for power users to tune Windows for greater productivity// - [[[Git|https://github.com/microsoft/PowerToys]]]
+* [[Sysinternals|https://learn.microsoft.com/en-us/sysinternals/]] - //Utilities to help manage, troubleshoot and diagnose Windows systems and applications (+ many useful resources)//
+* [[TweakUI|https://en.wikipedia.org/wiki/Tweak_UI]]
+** [[TweakUIX|https://www.builtbybel.com/apps/tweak-uix]] - //Tweak UI Replica// - [[[Git|https://github.com/builtbybel/TweakUIX]]]
+* [[Wallpaper Engine|https://wallpaperengine.io/]] - //Use stunning live wallpapers on your Windows desktop// - [[[Steampowered|https://store.steampowered.com/app/431960/Wallpaper_Engine/]]]
+* [[Winaero Tweaker|https://winaerotweaker.com/]] - //Tweaking normally inaccessible UI features on modern Windows//

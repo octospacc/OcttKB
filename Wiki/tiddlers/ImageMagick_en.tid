@@ -1,0 +1,11 @@
+created: 20230117104437158
+modified: 20230206111552161
+modifier: Octt
+tags: $:/i18n:en
+title: ImageMagick:en
+
+<<MediaWiki ImageMagick en 1>>
+
+!! ''Resources''
+* https://stackoverflow.com/questions/49899547/imagemagik-convert-pdf-to-pdf-without-doing-anything#49900085
+* https://stackoverflow.com/questions/15384879/imagemagick-using-more-than-2gb-of-memory-to-convert-pdf-files

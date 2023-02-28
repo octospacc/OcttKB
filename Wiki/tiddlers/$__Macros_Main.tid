@@ -1,0 +1,84 @@
+created: 20220920092322164
+creator: Octt
+modified: 20230225143600076
+modifier: Octt
+tags: $:/tags/Macro
+title: $:/Macros/Main
+
+\whitespace trim
+
+<!-- Wrap any text in potentially markuppable characters, sanifying markup first -->
+\define [(Text, L:"[", R:"]") <span><span>$L$</span><span>$Text$</span><span>$R$</span></span>
+
+
+<!-- My macro to provide HTML <details> -->
+
+\define Details(Content, Summary:"Details", Heading:"0", Class:"tw-details")
+<details class="$Class$">
+<summary><h$Heading$><strong>$Summary$</strong></h$Heading$></summary>
+$Content$
+</details>
+\end
+
+\define details(content, summary:"Details", heading:"0", class:"tw-details") <<Details "$content$" "$summary$" "$heading$" "$class$">>
+
+<!-- -- -- -->
+
+
+<!-- Transclude with clickable link --->
+\define #:(Name)
+<style>
+.Transcluding > h1,
+.Transcluding > h2,
+.Transcluding > h3,
+.Transcluding > h4,
+.Transcluding > h5,
+.Transcluding > h6 {
+Display: Inline;
+}
+</style>
+<div class="Transcluding">
+[[#|$Name$]]
+{{$Name$}}
+</div>
+\end
+
+<!-- Transclude with tobibeer/inc macro inside an HTML <details> element -->
+\define {<(Tiddler, Heading:"0")
+<details class="tw-details">
+  <summary>
+    <h$Heading$ style="display: inline;">
+      ''$Tiddler$''
+    </h$Heading$>
+  </summary>
+  <<{ "$Tiddler$">>
+</details>
+\end
+\define {^(Tiddler, Heading) <<{< "$Tiddler$" "$Heading$">>
+
+<!-- Link to currentTiddler --->
+\define lself() [[$(currentTiddler)$]]
+\define #lself() [[#|$(currentTiddler)$]]
+
+<!-- Field Checkbox --->
+\define x#(Field Text)
+<$checkbox field="$Field$" checked="true" unchecked="false" default="false"> $Text$</$checkbox>
+\end
+
+\define Table(Rows) <table class="Octt-Table" style="Width:100%;"><style>.Octt-Table tr:nth-child(odd){background-color:#EEEEEE;}</style>$Rows$</table>
+
+\define ColorText(Text Foreground)
+<span style="Color:$Foreground$;">$Text$</span>
+\end
+
+\define ColorSpan(Text Background)
+<span style="Color:#FFFFFF; Background-Color:$Background$;">$Text$</span>
+\end
+
+\define LImg(Src Href Alt)
+<a rel="noopener noreferrer" target="_blank" href="$Href$"><img src="$Src$" alt="$Alt$"></a>
+\end
+
+\define StrAppend(Str Suffix Prefix) $Prefix$$Str$$Suffix$
+
+\define iboxL(img, caption) <<ibox "$img$" "$caption$ <span>[</span>[[Source|$img$]]<span>]</span>">>

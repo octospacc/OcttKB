@@ -1,0 +1,32 @@
+created: 20221105125144413
+modified: 20230206111552149
+modifier: Octt
+tags: Snippets $:/i18n:en
+title: GnuPG/Snippets
+
+!!! ''Commands (+ Flags/Tips)''
+* `--list-keys`: List installed keys.
+* `--import Public.pgp`: Import someone's public key.
+* `--gen-key`: Generate a new keypair, with default options.
+* `--full-generate-key`: Generate a new keypair, customizing all the options.
+* `--edit-key {FINGERPRINT}`: Edit the internal data of a key.
+* `--output Revoke.pgp --gen-revoke {FINGERPRINT}`: Generate and output the revoke certificate for a key.
+* `--output Public.pgp --export {USER@EMAIL}`: Export a public key file.
+* ⚠️ `--output Private.pgp --export-secret-key {USER@EMAIL}`: Export a private key file.
+* ⚠️ `--output BackupPrivate.pgp --export-secret-keys --export-options export-backup {USER@EMAIL}`: Export private key(s) in backup format.
+* `--import-options restore --import BackupPrivate.pgp`
+
+!!!! ''`--edit-key` Commands''
+* `list`: List identities of the keys.
+* `uid {n}`: Select an identity to operate on.
+* `notation`: Write new notations inside the key; Prepend a dash (`-`) when typing a notations to remove it from the key, if present; Type just `none` to delete all notations.
+* `save`: Write changes to the key and quit.
+
+!!!! ''`--export` Flags''
+* `--armor`: Explicitly export as ASCII-armored, aka in text format.
+
+!!! ''Configuration Options''
+
+//These are usually inserted one-per-line in `~/gpg.conf`.//
+
+* `keyserver {URL}`

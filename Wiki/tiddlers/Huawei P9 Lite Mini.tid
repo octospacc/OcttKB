@@ -1,0 +1,24 @@
+created: 20230205143543756
+creator: Octt
+modified: 20230219105015345
+modifier: Octt
+tags: Android Huawei
+title: Huawei P9 Lite Mini
+
+<<iFrameBypass "https://www.gsmarena.com/huawei_p9_lite_mini-8833.php">>
+
+* No custom ROMs have ever been made for this device
+* We ported TWRP but without working storage decryption
+* The headphone jack port is detective
+* The integrated GPU is fake/emulated (Snapdragon 425)
+** Still don't understand if this is Qualcomm's fault, or Huawei's for not installing proper drivers
+
+; Product names:
+: Europe: Huawei Y6 Pro 2017
+: Other: Huawei P9 Lite Mini
+
+; Codename: selina
+
+; Model numbers:
+: Europe: SLA-L02
+: Other: SLA-L22

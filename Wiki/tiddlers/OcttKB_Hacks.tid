@@ -1,0 +1,33 @@
+created: 20220920160642961
+creator: Octt
+modified: 20230219103824938
+modifier: Octt
+tags: TiddlyWiki OcttKB $:/i18n:en
+title: OcttKB/Hacks
+
+; Macros
+: <<dirtreelist $:/Macros>>
+<!-- > <<TDirList $:/Macros 4>> -->
+
+; Theming
+: <<dirtreelist $:/Styles>>
+: [[$:/palettes/Octt Light]]
+<!-- > <<TDirList $:/Styles 4>> -->
+
+!!! Modified system and plugin files
+
+; $:/StaticBanner
+: (Shown as banner in statically exported pages)
+
+; $:/core/templates/static.content
+: (Shown as static HTML content in the standard TiddlyWiki file)
+
+; $:/core/templates/exporters/StaticRiver
+: (Added meta viewport for correct viewing on mobile) [[[Pull Request|https://github.com/Jermolene/TiddlyWiki5/pull/6953]]]
+
+; $:/plugins/kookma/refnotes/ui/bibtexlibrary
+: Remove this applet from the sidebar since I don't use it
+
+<!--
+* ~~$:/themes/tiddlywiki/vanilla (Changed paddings)~~
+-->

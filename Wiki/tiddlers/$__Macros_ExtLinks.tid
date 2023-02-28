@@ -1,0 +1,26 @@
+created: 20230215192523775
+creator: Octt
+modified: 20230216195443146
+modifier: Octt
+tags: $:/tags/Macro
+title: $:/Macros/ExtLinks
+
+\define MyWARC(Id, Type:"content") <small><<[ "[[OcttArchive|https://articles.octt.eu.org/bookmark/$Id$/$Type$]]">></small>
+\define mywarc(id, type:"content") <<MyWARC "$id$" "$type$">>
+
+\define RedditLink(Path, Title:"Reddit") [[$Title$|https://old.reddit.com/$Path$]]
+\define RedditL(Path, Title:"Reddit") <<RedditLink "$Path$" "$Title$">>
+
+\define YouTubeLink(Id, Title:"YouTube", Prefix:"watch?v=") [[$Title$|https://youtube.com/$Prefix$$Id$]]
+\define YoutubeLink(Id, Title:"YouTube", Prefix:"watch?v=") <<YouTubeLink "$Id$" "$Title$" "$Prefix$">>
+\define YouTubeL(Id, Title:"YouTube", Prefix:"watch?v=") <<YouTubeLink "$Id$" "$Title$" "$Prefix$">>
+\define YoutubeL(Id, Title:"YouTube", Prefix:"watch?v=") <<YouTubeLink "$Id$" "$Title$" "$Prefix$">>
+
+\define TwitterLink(Path, Title:"Twitter") [[$Title$|https://twitter.com/$Path$]]
+
+\define MatrixLink(ID, Title:"Matrix") [[$Title$|https://matrix.to/#/$ID$]]
+
+
+\define FDroidLink(Package, Title:"F-Droid") [[$Title$|https://f-droid.org/en/packages/$Package$]]
+
+\define GPlayLink(Package, Title:"GPlay") [[$Title$|https://play.google.com/store/apps/details?id=$Package$]]
