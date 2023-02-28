@@ -9,5 +9,6 @@
     "name": "DetailsWidget",
     "plugin-type": "plugin",
     "source": "https://tid.li/tw5/plugins.html",
-    "version": "0.7.6"
+    "version": "0.7.6",
+    "dependents": ""
 }

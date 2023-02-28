@@ -1,3 +1,5 @@
+Note: source must always be credited, and thus it's not ideal to use this macro directly. Please use the <<MediaWiki>> wrapper macro instead, as it provides a link to the source automatically. (This feature is implemented in its own non-JS macro to make at least the URL show on static wiki exports.)
+See [[$: /Macros/MediaWiki]] for usage of this macro.
 created: 20230108190340455
 creator: Octt
 modified: 20230124213837502
