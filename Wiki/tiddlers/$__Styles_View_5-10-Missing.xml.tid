@@ -1,6 +1,6 @@
 created: 20230111090705398
 creator: Octt
-modified: 20230218175557484
+modified: 20230228222918606
 modifier: Octt
 tags: $:/tags/ViewTemplate
 title: $:/Styles/View/5-10-Missing.xml
@@ -27,7 +27,7 @@ title: $:/Styles/View/5-10-Missing.xml
     </summary>
     <!-- <$macrocall $name="tree_" prefix=<<__currentTiddler__>>/> -->
     <!-- <$macrocall $name="tree_" prefix={{{[<currentTiddler>append[/]]}}}/> -->
-    <!-- <<DirTreeList>> -->
+    <<DirTreeList>>
   </details>
 
 </$list>

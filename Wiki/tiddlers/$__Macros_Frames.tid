@@ -1,6 +1,6 @@
 created: 20230111212908327
 creator: Octt
-modified: 20230221203911149
+modified: 20230228224933898
 modifier: Octt
 tags: $:/tags/Macro
 title: $:/Macros/Frames
@@ -55,6 +55,7 @@ data:text/html;utf8,
 </html>
 '></iframe>
 \end
+
 
 \define iFrame100(Src)
 <<EmbedFromLine "$Src$">>

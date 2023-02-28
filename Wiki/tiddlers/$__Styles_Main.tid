@@ -1,6 +1,6 @@
 created: 20230108190740128
 creator: Octt
-modified: 20230226205516333
+modified: 20230228224231083
 modifier: Octt
 tags: $:/tags/Stylesheet
 title: $:/Styles/Main
@@ -78,7 +78,6 @@ Div.View-Breadcrumbs
 /* Inserting HTML content with tag $:/tags/AboveStory causes excess padding on top of the story river; Setting display none breaks that HTML, so we just tweak position */ 
 .tc-page-container .tc-story-river > .story-backdrop { position: absolute; }
 
-
 /* Reduce top padding of sidebar */
 .tc-sidebar-scrollable { padding-top: 12px; }
 .tc-sidebar-scrollable .tc-sidebar-header .tc-reveal .tc-site-subtitle { padding-right: 4em; }
@@ -96,6 +95,12 @@ Div.View-Breadcrumbs
 .tc-modal-body { max-height: 75vh /*60vh*/; }
 
 .tc-sidebar-scrollable .tc-sidebar-tabs-main .tc-more-sidebar .tc-tab-content { overflow: visible; }
+
+.tc-unfold-banner {
+  width: calc(100% - 8px);
+  margin-left: -16px;
+  margin-top: -8px;
+}
 
 /* Large tag selection menu, optimized for desktop + nicer tag button */
 .tc-edit-tags .tc-edit-add-tag .tc-block-tags-dropdown {

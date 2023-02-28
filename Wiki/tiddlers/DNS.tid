@@ -1,13 +1,17 @@
 created: 20230209103557956
 creator: Octt
-modified: 20230209172822428
+modified: 20230228230000660
 modifier: Octt
 tags: Internet
 title: DNS
 
-<<MediaWiki Domain_Name_System en 4>>
+<<^wikipediaframe "Domain Name System">>
 
-List of DNS servers (including <<WikipediaLink "DNS over TLS" en " ">>, easily usable on [[Android]] >= 9):
+* [[Bizarre and Unusual Uses of DNS [FOSDEM23]|https://fosdem.org/2023/schedule/event/dns_bizarre_and_unusual_uses_of_dns/]] - //Rule 53: If you can think of it, someone's done it in the DNS//
+
+!!! ''List of some DNS servers''
+
+(including <<WikipediaLink "DNS over TLS" en " ">>, easily usable on [[Android]] >= 9):
 
 ; 🇺🇸 ''[[Cloudflare|https://1.1.1.1/]]'' (avoid):
 : <<WikipediaLink- "1.1.1.1" en>>

@@ -1,8 +1,9 @@
+.URL: https://librex.octt.eu.org
 caption: Browser
 created: 20230225105917089
 creator: Octt
 list-after: Map
-modified: 20230228113322272
+modified: 20230228225126748
 modifier: Octt
 tags: $:/tags/SideBar
 title: $:/OcttKB/WebBrowser
@@ -10,5 +11,5 @@ title: $:/OcttKB/WebBrowser
 <small>Yo dawg, I heard you like web browsers, so I put a browser inside this wiki, so that you can browse the web while you use your browser to browse the wiki from your browser!
 <small>If the CORS machine doesn't break again, that is...</small>
 </small>
-
-<<iFrameBypass "https://librex.octt.eu.org">>
+<$edit-text class="Edit-Text-Full" tiddler="$:/OcttKB/WebBrowser" field=".URL" />
+<$macrocall $name="iFrameBypass" Src={{$:/OcttKB/WebBrowser!!.URL}} Class="iFrameFitX iFrameFullY"/>
