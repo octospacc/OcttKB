@@ -6,6 +6,6 @@ before_script: |
   npm install -g tiddlywiki
 
 Sync:
-  stage: Sync
+  stage: deploy
   script: |
     sh ./GitLab.Main.sh
