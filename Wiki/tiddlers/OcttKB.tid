@@ -1,16 +1,18 @@
 created: 20220920160811383
 creator: Octt
 icon: 🐙
-modified: 20230227224258057
+modified: 20230301115209743
 modifier: Octt
-tags: Meta $:/ToC $:/i18n:en Octt
+tags: $:/ToC $:/i18n:en Octt
 title: OcttKB
 
 !! Welcome to my Personal {[[Personal Knowledge Base]] \ Public Notebook}!
 
-General information about the site will soon be available. Licensing information is available [[here|OcttKB/Licensing]]. This is "OcttKB" because I'm [[Octt]].
+General information about the site will soon be available. Licensing information is available [[here|OcttKB/Licensing]]. This is "OcttKB" because I'm [[Octt]]. With this thing, I'm [[learning and thinking in public|https://www.swyx.io/learn-in-public]].
 
+<!--
 Apart from the usual [[TiddlyWiki]] ones, there are many methods of navigation on this wiki. For one, try clicking on the big name line on top of of this [[OcttKB]] tiddler.
+-->
 
 !!! ''Tips''
 * Click on different parts of the title of an open tiddler to navigate in a folder-like structure, when other folders or tiddlers are present as children of the current tiddler.

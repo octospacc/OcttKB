@@ -1,6 +1,6 @@
 created: 20230129125013039
 creator: Octt
-modified: 20230225183227850
+modified: 20230301114546538
 modifier: Octt
 tags: 
 title: $:/Macros/Breadcrumbs/Main
@@ -11,9 +11,6 @@ title: $:/Macros/Breadcrumbs/Main
 
 \define MakeViewBreadcrumbs()
 <span class="View-Breadcrumbs">
-<!--
-<a class="Inline-Icon" href="javascript:(alert('TODO copy title to clipboard'))">{{$:/core/images/folder}}</a>
--->
 <$set name="Caller" value=<<currentTiddler>>><!--
 --><$list filter="[<currentTiddler>split[/]limit[-1]]" counter="Index"><!--
   --><span class="Path-Elem" data-path-elem=<<currentTiddler>>><!--
@@ -36,6 +33,6 @@ title: $:/Macros/Breadcrumbs/Main
     --></details><!--
   --></span><!--
 --></$set><!--
---><a href=<<cp>> class="Path-Copy">▪️</a><!--
+--><a href=<<cp>> class="Path-Copy" title="Copy path to Clipboard">▪️</a><!--
 --></span>
 \end
