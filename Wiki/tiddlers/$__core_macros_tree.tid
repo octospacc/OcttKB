@@ -1,6 +1,6 @@
 created: 20230126190001604
 creator: Octt
-modified: 20230126193558598
+modified: 20230301211813834
 modifier: Octt
 tags: $:/tags/Macro
 title: $:/core/macros/tree
@@ -55,13 +55,17 @@ title: $:/core/macros/tree
 </ol>
 \end
 
-\define tree_(prefix:"", separator:"/")
+<!-- Below was edited from original -->
+
+\define tree-show-title-true(prefix) <span><$text text=<<__prefix__>>/></span>
+
+\define tree_(prefix:"", separator:"/", show-title:"true")
 \whitespace trim
 <div class="tc-tree">
-<span><$text text=<<__prefix__>>/></span>
-<div>
-<$macrocall $name="tree-node" prefix=<<__prefix__>> separator=<<__separator__>>/>
-</div>
+  <$macrocall $name="tree-show-title-$show-title$" prefix=<<__prefix__>> />
+  <div>
+    <$macrocall $name="tree-node" prefix=<<__prefix__>> separator=<<__separator__>>/>
+  </div>
 </div>
 \end
 

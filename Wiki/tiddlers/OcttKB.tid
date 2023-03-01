@@ -1,7 +1,7 @@
 created: 20220920160811383
 creator: Octt
 icon: 🐙
-modified: 20230301115209743
+modified: 20230301213130738
 modifier: Octt
 tags: $:/ToC $:/i18n:en Octt
 title: OcttKB
@@ -15,9 +15,9 @@ Apart from the usual [[TiddlyWiki]] ones, there are many methods of navigation o
 -->
 
 !!! ''Tips''
-* Click on different parts of the title of an open tiddler to navigate in a folder-like structure, when other folders or tiddlers are present as children of the current tiddler.
 * Click on tag pills, often as present on top of a tiddler frame, just below the title, to navigate to all tiddlers that are tagged with that tag.
 ** Unlike with folders, a tiddler can have many tags at the same time, allowing for non-linear navigation.
+* Click on different parts of the title of an open tiddler to navigate between children, both in a folder-like structure (other tiddlers present as path children of the current one, thanks to slash (`/`) separation), and with the tag structure (tiddlers tagged with the name of the current one).
 
 !!! ''Table of Contents''
 {{$:/OcttKB/ToC}}
