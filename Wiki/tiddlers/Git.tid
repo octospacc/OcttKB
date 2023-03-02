@@ -1,22 +1,27 @@
 created: 20230202231537773
 creator: Octt
-modified: 20230221223426728
+modified: 20230302112950037
 modifier: Octt
 tags: Libre
 title: Git
 
 <<^wikipediaframe Git en>>
 
-!!! Self-hostable servers
-* Git-SCM: https://git-scm.com/
-* GitLab: https://about.gitlab.com/install/
-* Gitea: https://gitea.io/
-* sr.ht: https://man.sr.ht/installation.md
+!!! ''Apps''
+* [[GitJournal|https://gitjournal.io/]] - //Mobile first Markdown Notes integrated with Git// - <<[ "[[Git|https://github.com/GitJournal]]">>
 
-!!! Gratis SaaS servers
-* 🇺🇸 [[GitHub]]
-* 🇺🇸 https://GitLab.com
-* 🇪🇺 https://Gitea.it
-* 🇪🇺 https://Codeberg.org
-* 🇦🇺 https://BitBucket.org
-* https://NotABug.org
+!!! ''Servers''
+
+; Self-hostable servers
+: ''Git-SCM'': https://git-scm.com/
+: ''GitLab'': https://about.gitlab.com/install/
+: ''Gitea'': https://gitea.io/
+: ''sr.ht'': https://man.sr.ht/installation.md
+
+; Gratis SaaS servers
+: 🇺🇸 [[GitHub]]
+: 🇺🇸 [[GitLab.com|https://gitlab.com]]
+: 🇪🇺 [[Gitea.it|https://gitea.it]]
+: 🇪🇺 [[Codeberg|https://codeberg.org]] (Gitea)
+: 🇦🇺 [[BitBucket|https://bitbucket.org]]
+: https://NotABug.org

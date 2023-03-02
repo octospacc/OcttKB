@@ -1,11 +1,13 @@
 created: 20230208223358132
 creator: Octt
-modified: 20230301115840234
+modified: 20230302114758516
 modifier: Octt
 tags: 
 title: Saved/Videos
 
 \define y(ID, Title) <<YouTubeLink "$ID$" "$Title$">>
+
+Videos I want to save or comment but don't fit into specific categories.
 
 ; Cicalone Simone
 : <<y drlRLXqOVo8 "Abbiamo Preso il criminale che ci ha Aggredito con un Coltello alla Stazione Termini">> <dd>
@@ -50,9 +52,5 @@ Life and experience of the 2 [[HundredRabbits]], how they got to live on a boat 
 : <<y T0TZcdry1p4 "MS-DOS tutorial, or cure for insomnia?">>
 : <<y 6avJHaC3C2U "The Art of Code - Dylan Beattie">>
 : <<y zpq9irl2yE4 "The PC turbo button mystery finally solved! [VWestlife]">>
-
-: <<y 2L2qHfNnXB4 "NixOS: a sales pitch">> <dd>
-A 20-minutes introduction from the ground-up to [[Nix]] and [[NixOS]].
-</dd>
 
 : <<y JuB08kwQUDk "1. Cronache marxiane: Marx aveva ragione?">>
