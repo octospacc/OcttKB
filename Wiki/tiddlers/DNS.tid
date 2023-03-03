@@ -7,7 +7,11 @@ title: DNS
 
 <<^wikipediaframe "Domain Name System">>
 
-* [[Bizarre and Unusual Uses of DNS [FOSDEM23]|https://fosdem.org/2023/schedule/event/dns_bizarre_and_unusual_uses_of_dns/]] - //Rule 53: If you can think of it, someone's done it in the DNS//
+; Tools
+: [[DNS Toys|https://www.dns.toys/]] - //Useful utilities and services over DNS//
+
+; Misc
+: [[Bizarre and Unusual Uses of DNS [FOSDEM23]|https://fosdem.org/2023/schedule/event/dns_bizarre_and_unusual_uses_of_dns/]] - //Rule 53: If you can think of it, someone's done it in the DNS//
 
 !!! ''List of some DNS servers''
 
