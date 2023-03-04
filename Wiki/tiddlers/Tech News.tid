@@ -2,9 +2,15 @@ created: 20220922204301052
 modified: 20230206111552156
 modifier: Octt
 tags: Reading Tech $:/i18n:en
-title: Hacking News
+title: Tech News
 
-Interesting news I collect from the hacky tech Internet sphere (HN primarily, but not exclusively).
+Interesting news I collect from the hacky tech Internet sphere (HN primarily, but not exclusively), that don't fit into other tiddlers.
+
+; February 2023
+: [[I'm a Stanford professor who's studied organizational behavior for decades. The widespread layoffs in tech are more because of copycat behavior than necessary cost-cutting.|https://www.businessinsider.com/stanford-professor-mass-layoffs-caused-by-social-contagion-companies-imitating-2023-2]]
+: [[Even hackers are reportedly getting laid off by organized crime groups|https://www.businessinsider.com/hackers-ransomware-getting-laid-off-amid-better-cybersecurity-report-2023-2]] - //As cybersecurity improves, one hacker group laid off 45 employees//
+
+!!! ''Older''
 
 * [[TOTP tokens on my wrist with the smartest dumb watch|https://blog.singleton.io/posts/2022-10-17-otp-on-wrist]]
 * [[Boeing 787s must be turned off and on every 51 days to prevent 'misleading data' being shown to pilots|https://www.theregister.com/2020/04/02/boeing_787_power_cycle_51_days_stale_data]]

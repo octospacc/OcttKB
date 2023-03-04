@@ -32,15 +32,19 @@ a[class="tc-tiddlylink tc-tiddlylink-resolves"]:after {
 dd:before { content: '»'; margin-right: 8px; vertical-align: top; }
 dl { margin-left: 8px; }
 dl > dd { margin-left: 24px; }
-dl > dd > div {
+dl > dd > div,
+dl > dd > dt {
   display: inline-block;
   max-width: calc(100% - 1.5em);
 }
-dl > dd > div > ul, dl > dd > div > ol {
+dl > dd > div > ul,
+dl > dd > div > ol {
   padding-left: 1.5em/*1em*/;
 }
 div:not(.tc-tiddler-body) > dl > dt,
-dd > div > p { margin-bottom: unset; }
+dd > div > p {
+  margin-bottom: unset;
+}
 dd > div > ul { margin-top: unset; }
 
 /* Mobile */
