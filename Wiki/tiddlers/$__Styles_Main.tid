@@ -1,6 +1,6 @@
 created: 20230108190740128
 creator: Octt
-modified: 20230305000108981
+modified: 20230305200300455
 modifier: Octt
 tags: $:/tags/Stylesheet
 title: $:/Styles/Main
@@ -32,6 +32,7 @@ a[class="tc-tiddlylink tc-tiddlylink-resolves"]:after {
 dd:before { content: '»'; margin-right: 8px; vertical-align: top; }
 dl { margin-left: 8px; }
 dl > dd { margin-left: 24px; }
+dd > p,
 dl > dd > div,
 dl > dd > dt {
   display: inline-block;
@@ -43,7 +44,7 @@ dl > dd > div > ol {
 }
 div:not(.tc-tiddler-body) > dl > dt,
 dd > p,
-dd > div > p, {
+dd > div > p {
   margin-bottom: unset !important;
 }
 dd > div > ul { margin-top: unset; }
