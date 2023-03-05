@@ -1,6 +1,6 @@
 created: 20230215192523775
 creator: Octt
-modified: 20230216195443146
+modified: 20230305221555052
 modifier: Octt
 tags: $:/tags/Macro
 title: $:/Macros/ExtLinks
@@ -10,6 +10,8 @@ title: $:/Macros/ExtLinks
 
 \define RedditLink(Path, Title:"Reddit") [[$Title$|https://old.reddit.com/$Path$]]
 \define RedditL(Path, Title:"Reddit") <<RedditLink "$Path$" "$Title$">>
+
+\define HackernewsL(Id, Title:"HN") [[$Title$|https://news.ycombinator.com/item?id=$Id$]]
 
 \define YouTubeLink(Id, Title:"YouTube", Prefix:"watch?v=") [[$Title$|https://youtube.com/$Prefix$$Id$]]
 \define YoutubeLink(Id, Title:"YouTube", Prefix:"watch?v=") <<YouTubeLink "$Id$" "$Title$" "$Prefix$">>

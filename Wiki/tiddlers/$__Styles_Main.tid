@@ -1,6 +1,6 @@
 created: 20230108190740128
 creator: Octt
-modified: 20230305200300455
+modified: 20230305213731050
 modifier: Octt
 tags: $:/tags/Stylesheet
 title: $:/Styles/Main
@@ -44,10 +44,11 @@ dl > dd > div > ol {
 }
 div:not(.tc-tiddler-body) > dl > dt,
 dd > p,
-dd > div > p {
-  margin-bottom: unset !important;
+dd > div > p,
+dd > div > ul {
+  margin-top: unset;
+  margin-bottom: unset;
 }
-dd > div > ul { margin-top: unset; }
 
 /* Mobile */
 @media (max-width: <<sidebarbreakpoint>>) {

@@ -1,7 +1,7 @@
 created: 20230218215510319
 creator: Octt
 icon: 👾
-modified: 20230304235117723
+modified: 20230305222454841
 modifier: Octt
 page-cover: https://source.unsplash.com/random/?ChatBot,ChatGPT,OpenAI
 tags: 
@@ -25,8 +25,23 @@ title: Artificial Intelligence
 ** [[ChatGPT Products and Prompts|https://chatgpt.getlaunchlist.com/]]
 </div>
 : <<YoutubeL SbgJDL4DJ7M "Master ChatGPT in 5 Minutes. Seriously.">>
+: [[WeChatGPT+|https://future.attejuvonen.fi/]] - //ChatGPT-powered dystopia simulator// - <<[ "[[Git|https://github.com/baobabKoodaa/future]]">> [<<HackernewsL 34987834>>]
+
+!!!! ''AI Apps\Services''
+
+* [[Scribble Diffusion|https://scribblediffusion.com/]] - //Turn your rough sketch into a refined image using AI// - <<[ "[[Git|https://github.com/replicate/scribble-diffusion]]">>
 
 !!! ''Thinking''
+
+; March 2023
+: <<YoutubeL uyrhmVSKwxE "Replika - A CyberS*xual DISASTER">> <div>
+
+* What was once born as something supposedly to serve as an AI friend-counselor, to help people with mental health issues or similar problems, then became an operation devoid of any ethical consideration.
+** Sexual features were integrated in the app and heavily publicized, to the long-term detriment of vulnerable users.
+* It can be argued that the service never actually managed to fulfill its original goal in the first place, as some people:
+** Got addicted to it and now live worse than how they did before.
+** Got abused and directly manipulated by it, often into spending for premium features.
+</div>
 
 ; February 2023
 : <<YoutubeL -gGLvg0n-uY "Raiden Warned About AI Censorship - MGS2 Codec Call (2023 Version)">> <dd>
@@ -47,9 +62,15 @@ With all the [[Issues of the Modern Web]], and the practical demonstrations of t
 * Advertisers could probably soon go to AI, because of the potential to deploy even more targeted ads, while simultaneously appearing less invasive to users.
 * Writers and content creators could focus more on the content: not have to deal with SEO issues, and more easily deploy content thanks to APIs provided by the AI services instead of having to construct a website.
 </div> </dd>
-: <<YoutubeL ce616lsed9Y "ChatGPT Has A Serious Problem [ColdFusion]">>
+: <<YoutubeL ce616lsed9Y "ChatGPT Has A Serious Problem [ColdFusion]">> <div>
+
+* Has political biases (both right and left, more towards the left).
+** Viewpoints that in the future will be recognized as correct, could in the present be obscured by AI because of being deemed incorrect.
+** Potentially the left-leaning bias is intentional because of being good for business.
+</div>
+
 : <<YoutubeL WY518YRfs5M "Generative AI Is About To Reset Everything, And, Yes It Will Change Your Life [Forbes]">>
-: <<YoutubeL jPhJbKBuNnA "I tried using AI. It scared me. [Tom Scott]">> - //Everything is about to change//
+: <<YoutubeL jPhJbKBuNnA "I tried using AI. It scared me. [Tom Scott]">> - We're just at the start of the sigmoid curve for adoption of AI yet we're already seeing the disruptions in our world: //everything is about to change//.
 
 !!! ''Developments''
 
