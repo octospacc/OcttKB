@@ -1,20 +1,28 @@
 created: 20230114154554721
 creator: Octt
-modified: 20230206211012904
+modified: 20230304234007036
 modifier: Octt
 tags: Internet TODO $:/i18n:en
 title: Matrix:en
 
-<<MediaWiki Matrix_(protocol) en 2>>
+\define ElementGit(Repo:"") [[Git|https://github.com/vector-im/$Repo$]]
+
+<<^wikipediaframe "Matrix (protocol)" en>>
 
 * https://matrix.org/
 * https://github.com/matrix-org
 
-!!! ''Resources''
+; Clients
+: [[Element|https://element.io/]] - Flagship client; Web-Desktop and Mobile are different codebases - [<<ElementGit>>]
+: [[Hydrogen|https://hydrogen.element.io/]] - (WIP by Element team) //Lightweight matrix client with legacy and mobile browser support// - [<<ElementGit hydrogen-web>>]
+: [[FluffyChat|https://fluffychat.im/]] - //open source, nonprofit and cute matrix messenger app// <<[ "[[Git|https://gitlab.com/famedly/fluffychat]]">>
 
-* ''[[maubot|https://maubot.xyz/]]'' - //A plugin-based Matrix bot system// - [[[GitHub|https://github.com/maubot]]] [[[GitLab (CI)|https://mau.dev/maubot]]] [<<MatrixLink "#maubot:maunium.net">>] [[[Docs|https://docs.mau.fi/]]]
+; Servers
+: [[Synapse|https://matrix.org/docs/projects/server/synapse]] - //Matrix.org’s reference server// - <<[ "[[Git|https://github.com/matrix-org/synapse]]">>
 
-!!!! ''Bridges''
+; Bots
+: ''[[maubot|https://maubot.xyz/]]'' - //A plugin-based Matrix bot system// - <<[ "[[GitHub|https://github.com/maubot]]">> <<[ "[[GitLab (CI)|https://mau.dev/maubot]]">> [<<MatrixLink "#maubot:maunium.net">>] <<[ "[[Docs|https://docs.mau.fi/]]">>
 
-* All by ''mautrix'': https://github.com/mautrix - [[[Docs|https://docs.mau.fi/]]]
-* All by ''mx-puppet'': https://gitlab.com/mx-puppet
+; Bridges
+: All by ''mautrix'': https://github.com/mautrix - <<[ "[[Docs|https://docs.mau.fi/]]">>
+: All by ''mx-puppet'': https://gitlab.com/mx-puppet
