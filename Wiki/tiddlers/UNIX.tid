@@ -1,0 +1,10 @@
+created: 20230202232344991
+creator: Octt
+modified: 20230306165053956
+modifier: Octt
+tags: $:/i18n:en
+title: UNIX
+
+<<^wikipediaframe Unix>>
+
+* [[MINIX From Scratch|https://github.com/o-oconnell/minixfromscratch]] - //Development and compilation setup for the book version of MINIX 3//

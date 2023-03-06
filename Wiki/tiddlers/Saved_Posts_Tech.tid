@@ -1,11 +1,11 @@
 created: 20220922205247845
 creator: Octt
-modified: 20230305224450897
+modified: 20230306170344589
 modifier: Octt
 tags: 
 title: Saved/Posts/Tech
 
-Some light posts about tech (mostly microblog basically) I need to save and don't know where to fit. (Not all are there, some are in private Mastodon bookmarks).
+Some light posts about tech (microblog/forum basically) I need to save and don't know where to fit. (Not all are there, some are in private Mastodon bookmarks).
 
 ; 2023/02/25
 : [[If you drag an emoji family with a string size of 11 into an input with maxlength=10, one of the children will disappear.|https://mastodon.social/@simevidas/109919980697679274]]
@@ -15,3 +15,6 @@ Some light posts about tech (mostly microblog basically) I need to save and don'
 
 ; 2023/02/23
 : <<HackernewsL 34913596 "Do not store any funds in PayPal or use them for anything critical">>.
+
+; 2023/02/20
+: <<HackernewsL 34865695 "What are these strange random strings spamming my blog?">>
