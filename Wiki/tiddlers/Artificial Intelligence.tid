@@ -30,6 +30,7 @@ title: Artificial Intelligence
 
 !!!! ''AI Apps\Services''
 
+* [[Patterns|https://www.patterns.app/]] - //next-generation platform for AI and data applications//
 * [[Phind|https://www.phind.com/]] - //The AI search engine for developers//
 * [[Scribble Diffusion|https://scribblediffusion.com/]] - //Turn your rough sketch into a refined image using AI// - <<[ "[[Git|https://github.com/replicate/scribble-diffusion]]">>
 
@@ -78,6 +79,9 @@ With all the [[Issues of the Modern Web]], and the practical demonstrations of t
 : <<YoutubeL jPhJbKBuNnA "I tried using AI. It scared me. [Tom Scott]">> - We're just at the start of the sigmoid curve for adoption of AI yet we're already seeing the disruptions in our world: //everything is about to change//.
 
 !!! ''Developments''
+
+; March 2023
+: <<TwitterLink DYtweetshere/status/1631349179934203904 "AI can now teach itself to use an API">>.
 
 ; February 2023
 : [[Voice.ai Stole Open-Source Code, Banned Developer Who Informed Them About This|https://www.theinsaneapp.com/2023/02/voice-ai-stole-open-source-code.html]].

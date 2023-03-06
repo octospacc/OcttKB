@@ -5,6 +5,8 @@ modifier: Octt
 tags: $:/tags/Macro
 title: $:/Macros/ExtLinks
 
+\define WiktionaryL(Word, Subdomain:"en") [[$Word$|https://$Subdomain$.wiktionary.org/wiki/$Word$]]
+
 \define MyWARC(Id, Type:"content") <small><<[ "[[OcttArchive|https://articles.octt.eu.org/bookmark/$Id$/$Type$]]">></small>
 \define mywarc(id, type:"content") <<MyWARC "$id$" "$type$">>
 
@@ -26,3 +28,5 @@ title: $:/Macros/ExtLinks
 \define FDroidLink(Package, Title:"F-Droid") [[$Title$|https://f-droid.org/en/packages/$Package$]]
 
 \define GPlayLink(Package, Title:"GPlay") [[$Title$|https://play.google.com/store/apps/details?id=$Package$]]
+
+\define FlathubLink(Package, Title:"Flathub") [[$Title$|https://flathub.org/apps/details/$Package$]]

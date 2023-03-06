@@ -7,7 +7,7 @@ pull() {
 
 push() {
 	git add .
-	git commit -m "Manual push"
+	git commit -m "Manual push $(date)"
 	git push
 }
 

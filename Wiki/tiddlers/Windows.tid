@@ -23,6 +23,7 @@ title: Windows
 * [[Chris Titus Tech's Windows Utility|https://github.com/ChrisTitusTech/winutil]] - //Install Programs, do Debloats, Tweaks, Fixes, Updates//
 * [[NTLite|https://www.ntlite.com/]] - //Local control for editing Windows images and deployments, for IT professionals/enthusiasts//
 * [[Microsoft PowerToys|https://learn.microsoft.com/en-us/windows/powertoys/]] - //Utilities for power users to tune Windows for greater productivity// - [[[Git|https://github.com/microsoft/PowerToys]]]
+* [[Sandboxie|https://sandboxie-plus.com/sandboxie/]] - //Open Source sandbox-based isolation software// - <<[ "[[Git|https://github.com/sandboxie-plus]]">> <<[ "[[Old Git|https://github.com/sandboxie]]">>
 * [[Sysinternals|https://learn.microsoft.com/en-us/sysinternals/]] - //Utilities to help manage, troubleshoot and diagnose Windows systems and applications (+ many useful resources)//
 * [[TweakUI|https://en.wikipedia.org/wiki/Tweak_UI]]
 ** [[TweakUIX|https://www.builtbybel.com/apps/tweak-uix]] - //Tweak UI Replica// - [[[Git|https://github.com/builtbybel/TweakUIX]]]

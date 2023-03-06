@@ -15,10 +15,11 @@ title: Web
 !!! ''Tools''
 
 * [[Browserling|https://www.browserling.com/]] | [[BrowserStack|https://www.browserstack.com/?ref=caniuse-source&caniuse_source=brand-asset]] - For testing web app and sites on different browsers, straight online
-* ''[[ReplayWeb.page|https://replayweb.page/]]'' - //Serverless Web Archive Replay directly in the browser// - [[[Git|https://github.com/webrecorder/replayweb.page]]]
+* ''[[ReplayWeb.page|https://replayweb.page/]]'' - //Serverless Web Archive Replay directly in the browser// - <<[ "[[Git|https://github.com/webrecorder/replayweb.page]]">>
+* [[TabFS|https://omar.website/tabfs/]] - //browser extension that mounts your browser tabs as a filesystem on your computer// - <<[ "[[Git|https://github.com/osnr/TabFS]]">>
 * ''[[W3C Markup Validation Service|https://validator.w3.org/]]'' - //Check the markup (HTML, XHTML, …) of Web documents// - [[[Other similar tools|https://w3c.github.io/developers/tools/]]]
 
 !!! ''Analytics''
 
-* ''[[GoatCounter|https://www.goatcounter.com/]]'' - //Easy analytics. Open-source, self-hostable, GDPR-compliant. No tracking of personal data, and works without JS// - [[[Git|https://github.com/arp242/goatcounter]]]
+* ''[[GoatCounter|https://www.goatcounter.com/]]'' - //Easy analytics. Open-source, self-hostable, GDPR-compliant. No tracking of personal data, and works without JS// - <<[ "[[Git|https://github.com/arp242/goatcounter]]">>
 * //Others: https://github.com/newTendermint/awesome-analytics | https://github.com/pluja/awesome-privacy#analytics //
