@@ -1,9 +1,18 @@
 created: 20230124112022156
 creator: Octt
-modified: 20230124191516599
+modified: 20230307194005027
 modifier: Octt
 tags: 
 title: $:/Styles/View/9-99-Hacks
+
+\define MainScript()
+<<script script="
+var Title = `$(currentTiddler)$`.replaceAll();
+var Select = `.tc-tiddler-frame[data-tiddler-title='$(currentTiddler)$']`;
+Tiddlers = document.querySelectorAll(Select);
+alert(Tiddlers);
+">>
+\end
 
 <!--
 <<script off>>
@@ -19,3 +28,4 @@ console.log();
 <<script off>>
 -->
 <!--<<TiddlerViewShowBreadcrumbs>>-->
+<!-- <<MainScript>> -->

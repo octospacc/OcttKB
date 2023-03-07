@@ -1,6 +1,6 @@
 created: 20230108190740128
 creator: Octt
-modified: 20230305213731050
+modified: 20230307191744793
 modifier: Octt
 tags: $:/tags/Stylesheet
 title: $:/Styles/Main
@@ -26,28 +26,6 @@ We override adding a "sans-serif" to the start due to a spacing bug (?) */
 .gk0wk-notionpagebg-icon2,
 a[class="tc-tiddlylink tc-tiddlylink-resolves"]:after {
   font-family: sans-serif, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols;
-}
-
-/* Definition lists */
-dd:before { content: '»'; margin-right: 8px; vertical-align: top; }
-dl { margin-left: 8px; }
-dl > dd { margin-left: 24px; }
-dd > p,
-dl > dd > div,
-dl > dd > dt {
-  display: inline-block;
-  max-width: calc(100% - 1.5em);
-}
-dl > dd > div > ul,
-dl > dd > div > ol {
-  padding-left: 1.5em/*1em*/;
-}
-div:not(.tc-tiddler-body) > dl > dt,
-dd > p,
-dd > div > p,
-dd > div > ul {
-  margin-top: unset;
-  margin-bottom: unset;
 }
 
 /* Mobile */

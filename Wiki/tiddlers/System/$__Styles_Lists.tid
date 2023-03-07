@@ -1,0 +1,29 @@
+created: 20230307191735805
+creator: Octt
+modified: 20230307192825025
+modifier: Octt
+tags: $:/tags/Stylesheet
+title: $:/Styles/Lists
+
+/* Definition lists */
+dd:before { content: '»'; margin-right: 8px; vertical-align: top; }
+dl { margin-left: 8px; }
+dl > dd { margin-left: 24px; }
+dl > dd > p,
+dl > dd > div,
+dl > dd > dt {
+  display: inline-block;
+  max-width: calc(100% - 1.5em);
+}
+/*
+dl > dd > div > ul,
+dl > dd > div > ol {
+  padding-left: 16px;
+}*/
+div:not(.tc-tiddler-body) > dl > dt,
+dd > p,
+dd > div > p,
+dd > div > ul {
+  margin-top: unset;
+  margin-bottom: unset;
+}
