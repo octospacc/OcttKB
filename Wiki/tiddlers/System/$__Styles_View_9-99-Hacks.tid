@@ -1,31 +1,29 @@
 created: 20230124112022156
 creator: Octt
-modified: 20230307194005027
+modified: 20230307214438744
 modifier: Octt
-tags: 
+tags: $:/tags/ViewTemplate
 title: $:/Styles/View/9-99-Hacks
 
 \define MainScript()
+\whitespace trim
 <<script script="
-var Title = `$(currentTiddler)$`.replaceAll();
-var Select = `.tc-tiddler-frame[data-tiddler-title='$(currentTiddler)$']`;
-Tiddlers = document.querySelectorAll(Select);
-alert(Tiddlers);
+
+if (true) {
+  var Query = decodeURIComponent('Please summarize the following article into concise key bullet points: ${URL}. Write the points as objective, generalized declarations that stand by themselves. Do not write them as to explain what the author thinks subjectively. Do not leave any point as unclear: each point must not lead the reader to asking any %22why%22; questions. Avoid boilerplate and repetitions.');
+  var Title = `$(currentTiddler)$`.replaceAll(`'`, '&apos;');
+  var Select = `.tc-tiddler-frame[data-tiddler-title='${Title}']`;
+  var Tiddlers = document.querySelectorAll(Select);
+  Tiddlers.forEach(function(El){
+    El.querySelectorAll('a.tc-tiddlylink-external').forEach(function(Link){
+      var AiLink = document.createElement('span');
+      AiLink.className = 'AiLink';
+      AiLink.innerHTML = `<sup>[<a rel='noopener noreferrer' target='_blank' href='https://www.bing.com/search?q=${encodeURIComponent(Query.replace('${URL}', Link.href))}'>AI</a>]</sup>`;
+      Link.after(AiLink);
+    });
+  });
+};
 ">>
 \end
 
-<!--
-<<script off>>
-<script>
-/*
-<$text text=<<currentTiddler>>/>
-*/
-/*
-document.querySelector('.tc-story-river > div[data-tiddler-title=""]')
-console.log();
-*/
-</script>
-<<script off>>
--->
-<!--<<TiddlerViewShowBreadcrumbs>>-->
-<!-- <<MainScript>> -->
+<<MainScript>>

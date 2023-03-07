@@ -1,6 +1,6 @@
 created: 20230108190740128
 creator: Octt
-modified: 20230307191744793
+modified: 20230307215827258
 modifier: Octt
 tags: $:/tags/Stylesheet
 title: $:/Styles/Main
@@ -98,6 +98,8 @@ Div.View-Breadcrumbs
   display: inline-block;
   border-radius: 1em;
 }
+
+.AiLink { opacity: 0.40; }
 
 .DirList-Title, .DirList-Title * { Font-Style: Normal !Important; }
 .Separator-Right:last-of-type { Display: None; }

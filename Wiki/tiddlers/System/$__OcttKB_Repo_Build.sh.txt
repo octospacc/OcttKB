@@ -8,12 +8,5 @@ tiddlywiki \
 	--rendertiddler $:/core/templates/static.template.css Style.css text/plain \
 	--rendertiddler $:/core/templates/alltiddlers.template.html Static.html text/plain
 
-# Fix errors in the resulting HTML
-cat << EOF | python3
-from bs4 import BeautifulSoup;
-from re import sub;
-File = 'Static.html'
-def Fix1(m): return f'<details><a name="{m.group(1)}"></a><summary>{m.group(2)}</summary>';
-Source = str(BeautifulSoup(open(File, 'r'), 'html5lib'));
-open(File, 'w').write(sub('<details><a name="(.+)"><summary>(.+)<\/summary>\s*<\/a>', Fix1, Source));
-EOF
+# Apply patches to the static HTML
+python3 ../PatchStatic.py
