@@ -16,7 +16,10 @@ title: Artificial Intelligence
 : [[PromptHero|https://prompthero.com/]] - //Search millions of art images by AI models//
 : [[Prompt Engineering Guide|https://github.com/dair-ai/Prompt-Engineering-Guide]]
 : [[AI Content Detector|https://writer.com/ai-content-detector/]]
-: [[Jailbreak Chat|https://www.jailbreakchat.com/]] - //A collection of ChatGPT jailbreaks//
+
+; Safety and breaking it
+: [[Jailbreak Chat|https://www.jailbreakchat.com/]] - //A collection of ChatGPT jailbreaks//.
+: [[is-bing-chat-safe|https://www.make-safe-ai.com/is-bing-chat-safe/]] - Bypass the restrictions of Bing Chat or restore the old "Sydney".
 
 ; ChatGPT
 : [[ChatGPT webapp clone / alternative client|https://github.com/orhanerday/ChatGPT]]
