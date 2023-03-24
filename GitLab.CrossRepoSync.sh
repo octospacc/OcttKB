@@ -1,5 +1,5 @@
 #!/bin/sh
-TargetRepo="OcttKB"
+TargetRepo="OcttKB.Web"
 cd ./Wiki
 tiddlywiki \
 	--verbose \
