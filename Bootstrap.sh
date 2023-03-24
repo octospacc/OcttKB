@@ -1,6 +1,8 @@
 #!/bin/bash
 
-rm -rf ./Output.tmp || true
+# Ensure some important directories
+mkdir -vp ./Repo
+rm -rf ./Repo.tmp ./Output.tmp || true
 
 # Export all tiddlers from the specific path of the HTML wiki
 tiddlywiki \
