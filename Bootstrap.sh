@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Ensure some important directories
+# Ensure important directories
 mkdir -vp ./Repo
 rm -rf ./Repo.tmp ./Output.tmp || true
 

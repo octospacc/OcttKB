@@ -2,8 +2,10 @@
 sh ./OcttKB.EmptyDate.sh
 sh ./SetupGitProfile.sh
 
+# Ensure important directories
 rm -rf ./Output.tmp || true
 
+# Build HTML TiddlyWiki
 tiddlywiki \
 	./Wiki-OcttKB \
 	--verbose \
@@ -12,6 +14,7 @@ tiddlywiki \
 
 mkdir -vp ./public
 cp -v ./Output.tmp/index.html ./public/index.html
+sh ./Main.sh
 
 CommitCheck="$(git log -1 --pretty=%B)"
 CommitMsg0="OcttKB Cross-Repo Sync"
