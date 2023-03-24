@@ -3,7 +3,7 @@ sh ./OcttKB.EmptyDate.sh
 sh ./SetupGitProfile.sh
 
 tiddlywiki \
-	./Wiki \
+	./Wiki-OcttKB \
 	--verbose \
 	--output ./Output.tmp \
 	--rendertiddler "$:/core/save/all" "index.html" "text/plain"
