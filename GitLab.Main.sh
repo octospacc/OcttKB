@@ -2,6 +2,8 @@
 sh ./OcttKB.EmptyDate.sh
 sh ./SetupGitProfile.sh
 
+rm -rf ./Output.tmp || true
+
 tiddlywiki \
 	./Wiki-OcttKB \
 	--verbose \
