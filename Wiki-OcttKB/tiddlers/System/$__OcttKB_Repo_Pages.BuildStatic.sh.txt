@@ -1,0 +1,12 @@
+#!/bin/sh
+cd ./public
+
+# Build single-page no-JS wiki
+tiddlywiki \
+  --load ./index.html \
+  --output ./ \
+  --rendertiddler $:/core/templates/static.template.css Style.css text/plain \
+  --rendertiddler $:/core/templates/alltiddlers.template.html Static.html text/plain
+
+# Apply patches to the static HTML
+python3 ../PatchStatic.py

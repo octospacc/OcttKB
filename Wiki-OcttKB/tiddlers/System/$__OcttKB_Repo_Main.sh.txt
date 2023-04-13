@@ -1,3 +1,4 @@
 #!/bin/sh
-sh ./Build.sh
-sh ./DeployOld.sh || true
+. ./Lib.*.sh
+sh ./Pages.BuildStatic.sh
+sh ./Pages.DeployOld.sh
