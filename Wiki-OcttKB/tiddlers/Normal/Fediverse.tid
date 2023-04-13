@@ -1,6 +1,6 @@
 created: 20230114124144464
 creator: Octt
-modified: 20230221193249477
+modified: 20230413072833583
 modifier: Octt
 tags: TODO $:/i18n:en
 title: Fediverse
@@ -28,7 +28,7 @@ Explore [[Fediverse Observer|https://hometown.fediverse.observer]], [[Fediverse.
 !!! ''Other''
 
 * [[Epicyon|https://epicyon.net]] [[[Git|https://gitlab.com/bashrc2/epicyon]]] - //Designed for simplicity and accessibility, includes calendar, news and sharing economy features//
-* [[Friendica|Friendica:en]]
+* [[Friendica|Friendica]]
 * [[Lemmy|Lemmy:en]] [[[Git|https://github.com/ernestwisniewski/kbin]], [[Dev Instance|https://dev.karab.in]]] - //🐀 A link aggregator and forum for the fediverse//
 * [[/kbin|https://kbin.pub]] - //Fediverse of content//
 

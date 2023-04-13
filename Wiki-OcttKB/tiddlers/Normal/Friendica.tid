@@ -1,0 +1,23 @@
+created: 20230113105935789
+creator: Octt
+modified: 20230413072833570
+modifier: Octt
+tags: Fediverse $:/i18n:en
+title: Friendica
+
+<<^wikipediaframe Friendica en>>
+
+!! ''API''
+
+The official API documentation is disorganized and possibly lacks some information, so I need to build my own while I build my custom client.
+
+Login is possible via basic [[HTTP]] authentication.
+
+!!! ''Endpoints''
+
+Endpoints are present for clients implementing the Mastodon and Twitter protocols, as well as Friendica's own client-to-server protocol, but we only care about this last one.
+
+All Friendica endpoints are available at the `/api/` namespace, they return [[JSON]] data by default.
+
+* `/search`
+** `q=`Query
