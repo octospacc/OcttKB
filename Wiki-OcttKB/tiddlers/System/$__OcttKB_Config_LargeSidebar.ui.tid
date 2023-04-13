@@ -1,9 +1,9 @@
 created: 20230208220901786
 creator: Octt
-modified: 20230208222343118
+modified: 20230413093657545
 modifier: Octt
-tags: 
-title: $:/OcttKB/LargerSidebar.cfg
+tags: $:/GlobalOption
+title: $:/OcttKB/Config/LargeSidebar.ui
 
 <$checkbox
   tiddler="$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth"

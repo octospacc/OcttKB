@@ -1,15 +1,15 @@
 created: 20230124112022156
 creator: Octt
-modified: 20230307214438744
+modified: 20230413085126714
 modifier: Octt
 tags: $:/tags/ViewTemplate
 title: $:/Styles/View/9-99-Hacks
 
-\define MainScript()
+\define AiLinks(Enabled:1)
 \whitespace trim
 <<script script="
 
-if (true) {
+if ('$(Enabled)$' == 1) {
   var Query = decodeURIComponent('Please summarize the following article into concise key bullet points: ${URL}. Write the points as objective, generalized declarations that stand by themselves. Do not write them as to explain what the author thinks subjectively. Do not leave any point as unclear: each point must not lead the reader to asking any %22why%22; questions. Avoid boilerplate and repetitions.');
   var Title = `$(currentTiddler)$`.replaceAll(`'`, '&apos;');
   var Select = `.tc-tiddler-frame[data-tiddler-title='${Title}']`;
@@ -26,4 +26,6 @@ if (true) {
 ">>
 \end
 
-<<MainScript>>
+<$set name=Enabled value={{$:/OcttKB/Config/AiLinks.ui!!Enabled}}>
+<<AiLinks>>
+</$set>

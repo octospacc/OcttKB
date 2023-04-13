@@ -6,6 +6,7 @@
         "tiddlywiki/github-fork-ribbon",
         "tiddlywiki/highlight",
         "tiddlywiki/internals",
+        "tiddlywiki/markdown",
         "tiddlywiki/qrcode"
     ],
     "themes": [

@@ -1,9 +1,9 @@
 created: 20230113095118172
 creator: Octt
-modified: 20230206111552110
+modified: 20230413085714108
 modifier: Octt
-tags: TODO App $:/i18n:en
-title: Eruda:en
+tags: App $:/i18n:en
+title: Eruda
 
 ''[[Eruda|https://eruda.liriliri.io]]'' is an open-source JavaScript applet for Web browsers, created to bring developer tools to those that lack them (like mobile ones). It provides the following features (from the project's README):
 
