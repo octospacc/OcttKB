@@ -1,9 +1,5 @@
 #!/bin/sh
 
-ToLower(){
-  echo "$1" | tr "[:upper:]" "[:lower:]"
-}
-
 GitPush(){
   git add .
   git commit -m "$1"
