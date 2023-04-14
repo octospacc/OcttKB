@@ -4,6 +4,12 @@ ToLower(){
   echo "$1" | tr "[:upper:]" "[:lower:]"
 }
 
+GitPush(){
+  git add .
+  git commit -m "$1"
+  git push
+}
+
 SetupGitProfile(){
   git config --global user.email "$GitUserEmail"
   git config --global user.name "$GitUserName"
