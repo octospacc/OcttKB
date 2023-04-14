@@ -1,6 +1,6 @@
 #!/bin/sh
-sh ./OcttKB.EmptyDate.sh
-sh ./SetupGitProfile.sh
+. ./Src.*.sh || true
+sh ./OcttKB.EmptyDate.sh || true
 
 # Ensure important directories
 rm -rf ./Output.tmp || true
@@ -16,6 +16,5 @@ mkdir -vp ./public
 cp -v ./Output.tmp/index.html ./public/index.html
 sh ./Main.sh
 
-CommitCheck="$(git log -1 --pretty=%B)"
-CommitMsg0="OcttKB Cross-Repo Sync"
-[ "$CommitCheck" != "$CommitMsg0 (HTML to Raw)" ] && [ "$CommitCheck" != "$CommitMsg0 (Raw to HTML)" ] && sh ./GitLab.CrossRepoSync.sh || true
+SetupGitProfile
+TryCrossRepoSync
