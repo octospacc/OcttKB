@@ -15,6 +15,3 @@ tiddlywiki \
 mkdir -vp ./public
 cp -v ./Output.tmp/index.html ./public/index.html
 sh ./Main.sh
-
-SetupGitProfile
-TryCrossRepoSync
