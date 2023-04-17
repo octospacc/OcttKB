@@ -1,7 +1,10 @@
 created: 20220920114844259
 creator: Octt
-modified: 20230414102607463
+modified: 20230417101959753
 modifier: Octt
 title: $:/themes/tiddlywiki/vanilla/metrics/sidebarwidth
 
-280px
+<$set name=Enabled value={{$:/OcttKB/Config/LargeSidebar.ui!!Enabled}}>
+{{{[<Enabled>compare[0]then[280px]]}}}
+{{{[<Enabled>compare[1]then[50vw]]}}}
+</$set>

@@ -1,7 +1,7 @@
 Enabled: 1
 created: 20230413083119554
 creator: Octt
-modified: 20230413124203473
+modified: 20230417102138503
 modifier: Octt
 tags: $:/GlobalOption
 title: $:/OcttKB/Config/AiLinks.ui
@@ -10,7 +10,6 @@ title: $:/OcttKB/Config/AiLinks.ui
   field="Enabled"
   checked="1"
   unchecked="0"
-  default="1"
 >
   Bing AI Links
 </$checkbox>

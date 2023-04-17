@@ -1,16 +1,15 @@
+Enabled: 0
 created: 20230208220901786
 creator: Octt
-modified: 20230413093657545
+modified: 20230417102143337
 modifier: Octt
 tags: $:/GlobalOption
 title: $:/OcttKB/Config/LargeSidebar.ui
 
 <$checkbox
-  tiddler="$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth"
-  field="text"
-  checked="50vw"
-  unchecked="280px"
-  default="280px"
+  field="Enabled"
+  checked="1"
+  unchecked="0"
 >
   Larger Sidebar
 </$checkbox>
