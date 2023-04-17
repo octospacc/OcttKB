@@ -1,0 +1,18 @@
+#!/bin/sh
+. ./Src.*.sh || true
+
+# Update time of last edit
+sh ./OcttKB.EmptyDate.sh || true
+
+# Ensure important directories
+rm -rf ./Output.tmp || true
+
+# Build HTML TiddlyWiki SPA
+tiddlywiki \
+	./Wiki-OcttKB \
+	--verbose \
+	--output ./Output.tmp \
+	--rendertiddler "$:/core/save/all" "index.html" "text/plain"
+
+mkdir -vp ./public
+mv -v ./Output.tmp/index.html ./public/index.html
