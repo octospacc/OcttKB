@@ -1,14 +1,20 @@
 created: 20230221204801305
 creator: Octt
-modified: 20230227205201140
+modified: 20230425100156329
 modifier: Octt
 tags: 
 title: Web/Development
 
+!!! ''Misc''
+
+* [[web.dev|https://web.dev/]] - //Guidance to build modern web experiences that work on any browser//
+* [[Go Make Things|https://gomakethings.com/]] - //how to build a simpler, more resilient web//
+** [[The Vanilla JS Toolkit|https://vanillajstoolkit.com/]] - //tools and snippets for working with JavaScript//
+
 !!! ''References''
 
 ; Misc
-: [[web.dev|https://web.dev/]] - //Guidance to build modern web experiences that work on any browser//
+: [[Window: postMessage()|https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage]]
 
 ; DOM querying
 : [[Find all text nodes in HTML page|https://stackoverflow.com/a/10730777]]
