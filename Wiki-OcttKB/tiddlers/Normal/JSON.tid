@@ -1,8 +1,11 @@
 created: 20230202225750547
 creator: Octt
-modified: 20230413072916135
+modified: 20230429224405395
 modifier: Octt
 tags: $:/i18n:en
 title: JSON
 
 <<^WikipediaFrame JSON en>>
+
+* [[JSON Editor Online|https://jsoneditoronline.org]] + formatter, filterer, querier - <<[ "[[Git|https://github.com/josdejong/jsoneditor]]">>
+* [[JMESPath|https://jmespath.org/]] - cross-platform //query language for JSON// - <<[ "[[Git|https://github.com/jmespath]]">>

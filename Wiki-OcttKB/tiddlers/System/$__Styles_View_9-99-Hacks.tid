@@ -1,6 +1,6 @@
 created: 20230124112022156
 creator: Octt
-modified: 20230413085126714
+modified: 20230429202157475
 modifier: Octt
 tags: $:/tags/ViewTemplate
 title: $:/Styles/View/9-99-Hacks
@@ -8,6 +8,7 @@ title: $:/Styles/View/9-99-Hacks
 \define AiLinks(Enabled:1)
 \whitespace trim
 <<script script="
+try {
 
 if ('$(Enabled)$' == 1) {
   var Query = decodeURIComponent('Please summarize the following article into concise key bullet points: ${URL}. Write the points as objective, generalized declarations that stand by themselves. Do not write them as to explain what the author thinks subjectively. Do not leave any point as unclear: each point must not lead the reader to asking any %22why%22; questions. Avoid boilerplate and repetitions.');
@@ -23,6 +24,8 @@ if ('$(Enabled)$' == 1) {
     });
   });
 };
+
+} catch(e) { ErrAtLine(e); };
 ">>
 \end
 

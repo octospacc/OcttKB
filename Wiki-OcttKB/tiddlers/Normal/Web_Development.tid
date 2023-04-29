@@ -1,15 +1,15 @@
 created: 20230221204801305
 creator: Octt
-modified: 20230429191254121
+modified: 20230429215115349
 modifier: Octt
 tags: 
 title: Web/Development
 
 !!! ''Misc''
 
-* [[web.dev|https://web.dev/]] - //Guidance to build modern web experiences that work on any browser//
+* [[web.dev|https://web.dev/]] - //Guidance to build modern web experiences that work on any browser// (?)
 * [[Go Make Things|https://gomakethings.com/]] - //how to build a simpler, more resilient web//
-** [[The Vanilla JS Toolkit|https://vanillajstoolkit.com/]] - //tools and snippets for working with JavaScript//
+** [[The Vanilla JS Toolkit|https://vanillajstoolkit.com/]] - //tools and snippets for working with JavaScript// (libraries, functions, polyfills, learning)
 
 !!! ''References''
 
