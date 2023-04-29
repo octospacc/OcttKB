@@ -5,8 +5,10 @@ exports.startup = function() {
 try {
 
 // https://stackoverflow.com/a/63958411
-String.prototype.replaceAllTxt = function replaceAll(search, replace) {
-  return this.split(search).join(replace);
+if (!String.prototype.replaceAll) {
+  String.prototype.replaceAll = function replaceAll(search, replace) {
+    return this.split(search).join(replace);
+  };
 };
 
 } catch(e) {

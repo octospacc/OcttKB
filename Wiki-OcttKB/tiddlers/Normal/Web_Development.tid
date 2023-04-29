@@ -1,6 +1,6 @@
 created: 20230221204801305
 creator: Octt
-modified: 20230428191549029
+modified: 20230429191254121
 modifier: Octt
 tags: 
 title: Web/Development
@@ -15,6 +15,7 @@ title: Web/Development
 
 ; Misc
 : [[Window: postMessage()|https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage]]
+: [[Proxy Auto-Configuration (PAC) file|https://developer.mozilla.org/en-US/docs/Web/HTTP/Proxy_servers_and_tunneling/Proxy_Auto-Configuration_PAC_file]]
 
 ; DOM querying
 : [[Find all text nodes in HTML page|https://stackoverflow.com/a/10730777]]
@@ -25,35 +26,14 @@ title: Web/Development
 : [[Prepend/append childNode to beginning/end of element|https://stackoverflow.com/a/45656684]]
 : [[Replace a DOM Element|https://www.javascripttutorial.net/dom/manipulating/replace-a-dom-element/]]
 
-!!! ''Frameworks''
-
-* ''[[Alpine.js|https://alpinejs.dev/]]'' - //Rugged, minimal<<fnote "15 attributes, 6 properties, 2 methods">> framework for composing JavaScript behavior in the markup// - [[[Git|https://github.com/alpinejs/alpine]]]
-** [[HyperJS|https://js.hyperui.dev/]] - //Collection of Alpine JS components// - <<[ "[[Git|https://github.com/markmead/hyperjs]]">> 
-* ''[[Electron|https://www.electronjs.org/]]'' - //Build cross-platform desktop apps with JavaScript, HTML, and CSS// - [[[Git|https://github.com/electron]]]
-* ''[[React|https://reactjs.org/]]'' - //Building UI-oriented apps with [[JSX|https://en.wikipedia.org/wiki/JSX_(JavaScript)]]// - [[[Git|https://github.com/facebook/react]]]
-** ''[[React Native|https://reactnative.dev/]]'' - //Compiling ReactJS apps to native ones// - [[[Git|https://github.com/facebook/react-native]]]
-* ''[[Tauri|https://tauri.app/]]'' - //Use Rust to build desktop and mobile apps with a web frontend// - [[[Git|https://github.com/tauri-apps/]]]
-
-!!! ''Tools''
-
-
-
-!!!! ''Tools/Libraries''
+!!! ''Tools and similar''
 
 * https://github.com/csstools/oldie - //tranforms CSS to be compatible with old Internet Explorer//
+* [[CORS Anywhere|https://github.com/Rob--W/cors-anywhere]] - //Server proxy which adds CORS headers to the request//
 
-; Minification
-: ~~[[node-minify|https://github.com/srod/node-minify]] - //Light Node.js module and CLI app that compress javascript, css and html files//~~
-: [[UglifyJS|https://lisperator.net/uglifyjs/]] - //JavaScript parser / mangler / compressor / beautifier// - <<[ "[[Git|https://github.com/mishoo/UglifyJS]]">>
-
-!!!!! ''Polyfills''
-
-These are for adding newer APIs to older browsers when making a webapp that uses them.
-
-* [[ECMAScript Shims|https://github.com/es-shims]] - Collection of compliant shims
-* [[core-js|https://github.com/zloirock/core-js]] - Pure JS Standard Library reimplementation
-* [[FileSaver.js|https://github.com/eligrey/FileSaver.js]] - //An HTML5 saveAs() FileSaver implementation//
-* [[srcdoc-polyfill|https://github.com/jugglinmike/srcdoc-polyfill]] - //A shim for the iFrame "srcdoc" attribute//
+!!!! Minification
+* ~~[[node-minify|https://github.com/srod/node-minify]] - //Light Node.js module and CLI app that compress javascript, css and html files//~~
+* [[UglifyJS|https://lisperator.net/uglifyjs/]] - //JavaScript parser / mangler / compressor / beautifier// - <<[ "[[Git|https://github.com/mishoo/UglifyJS]]">>
 
 !!! ''Misc''
 

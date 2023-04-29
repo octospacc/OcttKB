@@ -1,0 +1,27 @@
+created: 20230429182925276
+creator: Octt
+modified: 20230429185355199
+modifier: Octt
+tags: 
+title: JavaScript/Libraries
+
+Note: some are still in [[Web/Development]]
+
+!!! ''Single-purpose''
+
+* [[FileSaver.js|https://github.com/eligrey/FileSaver.js]] - //An HTML5 saveAs() FileSaver implementation//
+
+!!! ''Do-all''
+
+* [[jQuery|https://jquery.com/]] - //write less, do more// for general operations
+** Has optional libraries for selectors and UI - <<[ "[[Git|https://github.com/jquery]]">>
+* [[Licia|https://licia.liriliri.io/]] - //utility library to get daily works done// - <<[ "[[Git|https://github.com/liriliri/licia]]">>
+* [[Lodash|https://lodash.com/]] - More modern fork of Underscore, useful for working with data objects - <<[ "[[Git|https://github.com/lodash]]">>
+
+!!! ''Polyfills''
+
+These are for adding newer APIs to older browsers when making a webapp that uses them.
+
+* [[ECMAScript Shims|https://github.com/es-shims]] - Collection of compliant shims
+* [[core-js|https://github.com/zloirock/core-js]] - Pure JS Standard Library reimplementation
+* [[srcdoc-polyfill|https://github.com/jugglinmike/srcdoc-polyfill]] - //A shim for the iFrame "srcdoc" attribute//

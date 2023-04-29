@@ -24,12 +24,12 @@ try {
   if (!Text) {
     Text = '<p>An error occurred while trying to extract the content. Close and reopen this <i>tiddler</i> to retry, or click the link to open the source in a new tab.</p>'
   };
-  Text = Text.replaceAllTxt('\n', '').replaceAllTxt('<p class="mw-empty-elt"></p>', '');
+  Text = Text.replaceAll('\n', '').replaceAll('<p class="mw-empty-elt"></p>', '');
   if (Sections != 0) {
     for (let i=1; i<=6; i++) {
-      Text = Text.replaceAllTxt(`</p><h${i}>`, `</p><!--:PARAGRAPH:--->\n<h${i}>`);
+      Text = Text.replaceAll(`</p><h${i}>`, `</p><!--:PARAGRAPH:--->\n<h${i}>`);
     };
-    Text = Text.replaceAllTxt(`</p><p>`, `</p><!--:PARAGRAPH:---><p>`);
+    Text = Text.replaceAll(`</p><p>`, `</p><!--:PARAGRAPH:---><p>`);
     //Text = Text.split('<!--:PARAGRAPH:--->').slice(0, Max+1).join('');
     //Text = Text.split('<p>').slice(0, Max+1).join('<p>');
     if (Sections < 0) {
