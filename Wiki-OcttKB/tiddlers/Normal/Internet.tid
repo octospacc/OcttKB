@@ -1,8 +1,15 @@
 created: 20230203214625941
 creator: Octt
-modified: 20230209151028671
+modified: 20230501101706563
 modifier: Octt
 tags: $:/i18n:en
 title: Internet
 
-<<MediaWiki Internet en 4>>
+<<^wikipediaframe Internet en>>
+
+(Specific Web resources are under [[Web]].)
+
+!!! ''Tools''
+
+* [[Aria2]]
+* [[Wget|https://www.gnu.org/software/wget/]] - Internet downloader utility

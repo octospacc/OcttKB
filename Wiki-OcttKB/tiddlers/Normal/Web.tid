@@ -1,6 +1,6 @@
 created: 20230203214532694
 creator: Octt
-modified: 20230227074804938
+modified: 20230501102436616
 modifier: Octt
 tags: Internet
 title: Web
@@ -14,7 +14,8 @@ title: Web
 
 !!! ''Tools''
 
-* [[Browserling|https://www.browserling.com/]] | [[BrowserStack|https://www.browserstack.com/?ref=caniuse-source&caniuse_source=brand-asset]] - For testing web app and sites on different browsers, straight online
+* [[Browserling|https://www.browserling.com/]] | [[BrowserStack|https://www.browserstack.com/?ref=caniuse-source&caniuse_source=brand-asset]] | [[LambdaTest|https://www.lambdatest.com/]] - For testing web app and sites on different browsers, straight online
+* [[HTTrack|https://www.httrack.com/]] - //Website copier, offline browser// - <<[ "[[Git|https://github.com/xroche/httrack]]">>
 * ''[[ReplayWeb.page|https://replayweb.page/]]'' - //Serverless Web Archive Replay directly in the browser// - <<[ "[[Git|https://github.com/webrecorder/replayweb.page]]">>
 * [[TabFS|https://omar.website/tabfs/]] - //browser extension that mounts your browser tabs as a filesystem on your computer// - <<[ "[[Git|https://github.com/osnr/TabFS]]">>
 * ''[[W3C Markup Validation Service|https://validator.w3.org/]]'' - //Check the markup (HTML, XHTML, …) of Web documents// - [[[Other similar tools|https://w3c.github.io/developers/tools/]]]
