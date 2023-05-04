@@ -1,7 +1,7 @@
 created: 20230209150101862
 creator: Octt
 icon: 💅
-modified: 20230307220803864
+modified: 20230504100653939
 modifier: Octt
 page-cover: https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19
 tags: Web
@@ -15,4 +15,5 @@ title: CSS
 
 !!! ''Amazing''
 
-* [[After Dark Screensavers in CSS|https://www.bryanbraun.com/after-dark-css/]] - <<[ "[[Git|https://github.com/bryanbraun/after-dark-css]]">>
+* [[Pure CSS Minesweeper|https://codepen.io/bali_balo/pen/BLJONZ?editors=1100]]
+* [[Spinning Diagrams with CSS|https://x.st/spinning-diagrams-with-css]]

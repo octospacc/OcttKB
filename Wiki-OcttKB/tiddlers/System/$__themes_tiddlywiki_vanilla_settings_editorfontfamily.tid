@@ -1,5 +1,7 @@
 created: 20230108190537471
-modified: 20230108190537471
+creator: Octt
+modified: 20230504092928717
+modifier: Octt
 title: $:/themes/tiddlywiki/vanilla/settings/editorfontfamily
 
-"SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace
+"Roboto","SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace

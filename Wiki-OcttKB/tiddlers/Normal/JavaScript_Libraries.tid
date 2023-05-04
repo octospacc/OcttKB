@@ -1,6 +1,6 @@
 created: 20230429182925276
 creator: Octt
-modified: 20230429185355199
+modified: 20230504093532061
 modifier: Octt
 tags: 
 title: JavaScript/Libraries
@@ -24,4 +24,6 @@ These are for adding newer APIs to older browsers when making a webapp that uses
 
 * [[ECMAScript Shims|https://github.com/es-shims]] - Collection of compliant shims
 * [[core-js|https://github.com/zloirock/core-js]] - Pure JS Standard Library reimplementation
-* [[srcdoc-polyfill|https://github.com/jugglinmike/srcdoc-polyfill]] - //A shim for the iFrame "srcdoc" attribute//
+* [[srcdoc-polyfill|https://github.com/jugglinmike/srcdoc-polyfill]] - //shim for the iFrame "srcdoc" attribute//
+* [[CSS Checkbox Hack|https://github.com/jamesl1001/checkbox-hack-polyfill]]
+* [[<details>|https://github.com/rstacruz/details-polyfill]]
