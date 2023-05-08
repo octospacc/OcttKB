@@ -4,4 +4,4 @@ modified: 20230504092928717
 modifier: Octt
 title: $:/themes/tiddlywiki/vanilla/settings/editorfontfamily
 
-"Roboto","SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace
+"Roboto Mono","SFMono-Regular",Consolas,"Liberation Mono","Lucida Console",Menlo,Courier,monospace

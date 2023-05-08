@@ -1,0 +1,24 @@
+created: 20220921195911403
+creator: Octt
+modified: 20230225114104719
+modifier: Octt
+tags: Archiving Music
+title: $:/Octt/Music Archiving Status/(Misc)
+
+<$importvariables filter="$:/Macros [[$:/Macros/Music Archiving Status]]">
+
+<<Table """
+<<r "FÜGENE 01">>
+<<r "FÜGENE 02">>
+<<r "FÜGENE 03">>
+<<r "FÜGENE 04">>
+<<r "FÜGENE Remixes">>
+<<r "SPD GAR 001">>
+<<r "SPD GAR 002">>
+<<r "SPD GAR 003">>
+<<r "STYLEY! Vol. 1">>
+<<r "STYLEY! Vol. 2">>
+<<r "STYLEY! Vol. 3">>
+<<r "STYLEY! Vol. 4">>
+<<r "PopSlinger (Original Soundtrack)">>
+""">>

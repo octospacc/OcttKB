@@ -1,17 +1,17 @@
-BEST BEFORE 1998 - GotAny: true
-Concrete Jungle - GotAny: true
-Desired - GotAny: true
-Lovestory - GotAny: true
-Momo Club - GotAny: true
-PLASTIC WHATEVER - GotAny: true
-The Sweetest Dream - GotAny: true
-Timeless - GotAny: true
+.Music BEST BEFORE 1998 | GotAny: true
+.Music Concrete Jungle | GotAny: true
+.Music Desired | GotAny: true
+.Music Lovestory | GotAny: true
+.Music Momo Club | GotAny: true
+.Music PLASTIC WHATEVER | GotAny: true
+.Music The Sweetest Dream | GotAny: true
+.Music Timeless | GotAny: true
 created: 20220923061532177
 creator: Octt
-memory tape - GotAny: true
+.Music memory tape | GotAny: true
 modified: 20230225114241028
 modifier: Octt
-nineteen - GotAny: true
+.Music nineteen | GotAny: true
 tags: Archiving Music
 title: $:/Octt/Music Archiving Status/Desired
 
@@ -30,6 +30,7 @@ title: $:/Octt/Music Archiving Status/Desired
 <<r "Every Part of Me Loves You Bae">>
 <<r "Eyes On Me">>
 <<r "Fairy Tale">>
+<<r FRESH>>
 <<r "Get Rdy">>
 <<r Heaven>>
 <<r "Honey Bunny">>

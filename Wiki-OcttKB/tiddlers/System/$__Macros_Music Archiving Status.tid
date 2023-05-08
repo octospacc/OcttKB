@@ -6,9 +6,9 @@ title: $:/Macros/Music Archiving Status
 \define r(Title Notes)
 <tr>
 <td>$Title$</td>
-<td><<x# "$Title$ - GotAny">></td>
-<td><<x# "$Title$ - GotLossless">></td>
-<td><<x# "$Title$ - UploadedLossless:Archive.org">></td>
+<td><<x# ".Music $Title$ | GotAny">></td>
+<td><<x# ".Music $Title$ | GotLossless">></td>
+<td><<x# ".Music $Title$ | UploadedLossless:Archive.org">></td>
 <td>$Notes$</td>
 </tr>
 \end

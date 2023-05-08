@@ -1,0 +1,18 @@
+created: 20220923061532177
+creator: Octt
+modified: 20230225114241028
+modifier: Octt
+tags: Archiving Music
+title: $:/Octt/Music Archiving Status/Macross 82-99
+
+<$importvariables filter="$:/Macros [[$:/Macros/Music Archiving Status]]">
+
+!!! Macross 82-99 || [[Bandcamp|https://macross82-99.bandcamp.com/music]]
+
+<<Table """
+<<r "SAILORWAVE I">>
+<<r "SAILORWAVE II">>
+<<r "SAILORWAVE III">>
+<<r "Shibuya Meltdown">>
+<<r "Summer Touch">>
+""">>
