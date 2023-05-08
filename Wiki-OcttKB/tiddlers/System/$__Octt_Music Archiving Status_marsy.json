@@ -5,7 +5,7 @@
         "text": "<$importvariables filter=\"$:/Macros [[$:/Macros/Music Archiving Status]]\">\n\n!!! marsy || [[Bandcamp|https://marsy.bandcamp.com/music]]\n\n<<Table \"\"\"\n<<r ACTION>>\n<<r \"actual content\">>\n<<r \"ANIME GROOVES PART I\">>\n<<r \"ANIME GROOVES PART II\">>\n<<r Classics>>\n<<r \"CLIMAX (single)\">>\n<<r DREAMY>>\n<<r \"ELECTROLYZE (single)\">>\n<<r \"ELECTROLYZE (2022 VER.)\">>\n<<r Her>>\n<<r \"Her (2022 Remastered)\">>\n<<r \"Kyary Collection\">>\n<<r MARIYASTEP!>>\n<<r \"MARSY/SELF TITLED\" \"Got for free from BOGUS COLLECTIVE\">>\n<<r \"my childhood\">>\n<<r Orenji>>\n<<r \"Rock ya feet!\">>\n<<r \"Rude Buster\">>\n<<r \"She Loves Me\">>\n<<r spring>>\n<<r \"STROBE LIGHT (feat. Hatsune Miku)\">>\n<<r Superheroes>>\n<<r Sweet-Sides>>\n<<r \"Sweet-Sides (2022 Remastered)\">>\n\"\"\">>",
         "tags": "Music Archiving",
         "title": "$:/Octt/Music Archiving Status/marsy",
-        "modified": "20230225114316080",
+        "modified": "20230508210926263",
         ".Music ACTION | GotAny": "true",
         ".Music ACTION | GotLossless": "true",
         ".Music ACTION | UploadedLossless:Archive.org": "true",
@@ -75,6 +75,7 @@
         ".Music CLIMAX (single) | GotLossless": "true",
         ".Music CLIMAX (single) | UploadedLossless:Archive.org": "true",
         ".Music STROBE LIGHT (feat. Hatsune Miku) | UploadedLossless:Archive.org": "true",
-        "modifier": "Octt"
+        "modifier": "Octt",
+        "type": "text/vnd.tiddlywiki"
     }
 ]

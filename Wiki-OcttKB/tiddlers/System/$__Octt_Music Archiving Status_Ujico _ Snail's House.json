@@ -5,7 +5,7 @@
         "text": "<$importvariables filter=\"$:/Macros [[$:/Macros/Music Archiving Status]]\">\n\n!!! Ujico / Snail's House | [[Bandcamp|https://0101.bandcamp.com/music]]\n\n<<Table \"\"\"\n<<r Balloons>>\n<<r \"Biscuit Funk\">>\n<<r BLITZ>>\n<<r \"Candy Dash (VIP)\">>\n<<r \"Christmas of a Wandering Ghost\">>\n<<r \"Dream Castle EP\">>\n<<r [FLOWERS]>>\n<<r Imaginarium>>\n<<r Journey>>\n<<r \"Kawaii Collective\">>\n<<r Kitty>>\n<<r \"L'été\">>\n<<r \"Love Magic\">>\n<<r \"love songs\">>\n<<r \"Love Story\">>\n<<r \".｡:+*mal d'amour.｡:+*\">>\n<<r \"Magical Holiday\">>\n<<r \"Ordinary Songs 1\">>\n<<r \"Ordinary Songs 2\">>\n<<r \"Ordinary Songs 3\">>\n<<r \"Ordinary Songs 4\">>\n<<r \"Ordinary Songs 5\">>\n<<r \"Pâtisserie Snail\">>\n<<r \"Pixel Galaxy\">>\n<<r PIXELIZE>>\n<<r scenery>>\n<<r \"Snailchan Adventure\">>\n<<r Snö>>\n<<r Storyteller>>\n<<r SUPERGIRL>>\n<<r \"Sweety Sweety\">>\n<<r Twinklestar>>\n<<r \"ujbeats vol.1\">>\n<<r \"ujbeats vol.2\">>\n<<r \"Warp Star\">>\n<<r ~WonderWorld>>\n<<r \"エイリアン☆ポップ I\">>\n<<r \"エイリアン☆ポップ II\">>\n<<r \"エイリアン☆ポップ III\">>\n<<r 妖>>\n<<r \"空中都市\">>\n<<r \"ドリームPrincess (Dream Princess) feat. 初音ミク\">>\n<<r \"LADY'S ONLY Remixed by Snail's House - Digital Tattoo (Snail's House Remix)\">>\n\"\"\">>",
         "tags": "Archiving Music",
         "title": "$:/Octt/Music Archiving Status/Ujico \\ Snail's House",
-        "modified": "20230225114024938",
+        "modified": "20230508210913111",
         ".Music Balloons | GotLossless": "true",
         ".Music Balloons | UploadedLossless:Archive.org": "true",
         ".Music LADY'S ONLY Remixed by Snail's House - Digital Tattoo (Snail's House Remix) | GotLossless": "true",
@@ -72,6 +72,10 @@
         ".Music 空中都市 | GotAny": "true",
         ".Music [FLOWERS] | GotAny": "true",
         ".Music Storyteller | GotAny": "true",
-        "modifier": "Octt"
+        "modifier": "Octt",
+        ".Music Biscuit Funk | GotAny": "true",
+        ".Music PIXELIZE | GotAny": "true",
+        ".Music ujbeats vol.2 | GotAny": "true",
+        "type": "text/vnd.tiddlywiki"
     }
 ]

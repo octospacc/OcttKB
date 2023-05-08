@@ -1,14 +1,16 @@
 created: 20220921110925268
-modified: 20220925154843964
+creator: Octt
+modified: 20230508205815755
+modifier: Octt
 tags: Archiving Music
 title: Music Archiving Status
 
 <table style="Width:100%;">
 <tr style="Position:Sticky;">
 <th>Album</th>
-<th>Got Any?</th>
-<th>Got Verified Lossless?</th>
-<th>Uploaded on Archive.org?</th>
+<th>Got <br/> Any?</th>
+<th>Got <br/> Verified Lossless?</th>
+<th>Uploaded <br/> on Archive.org?</th>
 <th>Notes</th>
 </tr>
 </table>

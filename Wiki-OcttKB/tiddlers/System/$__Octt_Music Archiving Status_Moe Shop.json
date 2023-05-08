@@ -2,10 +2,10 @@
     {
         "created": "20220922051649658",
         "creator": "Octt",
-        "text": "<$importvariables filter=\"$:/Macros [[$:/Macros/Music Archiving Status]]\">\n\n!!! Moe Shop || [[Bandcamp|https://moeshop.bandcamp.com/music]]\n\n<<Table \"\"\"\n<<r Cerise>>\n<<r \"Charm (w/ Puniden)\">>\n<<r Highlight>>\n<<r \"Identity (w/ SEIJ)\">>\n<<r \"Love Taste (w/ Jamie Paige & Shiki)\">>\n<<r \"Love Taste Remixes\">>\n<<r \"Moe Moe\">>\n<<r \"Moshi Moshi\">>\n<<r \"Natural (w/ Ace Hashimoto)\">>\n<<r \"Pastel (w/ Snail's House)\">>\n<<r \"Pure Pure\">>\n<<r \"the new flying witch groove\">>\n<<r \"the new moe groove\">>\n<<r \"Want You\">>\n<<r \"WONDER POP\">>\n<<r \"WWW (feat. EDOGA-SULLIVAN)\">>\n<<r \"fusq - Blush (ft. MYLK) (Moe Shop Remix)\">>\n<<r \"Hentai Dude - Tokyo Chopp [ft. Shiki(TMNS)] (Moe Shop Remix)\">>\n\"\"\">>",
+        "text": "<$importvariables filter=\"$:/Macros [[$:/Macros/Music Archiving Status]]\">\n\n!!! Moe Shop || [[Bandcamp|https://moeshop.bandcamp.com/music]]\n\n<<Table \"\"\"\n<<r Cerise>>\n<<r \"Charm (w/ Puniden)\">>\n<<r \"GHOST FOOD (w/TORIENA)\">>\n<<r Highlight>>\n<<r \"Identity (w/ SEIJ)\">>\n<<r \"Love Taste (w/ Jamie Paige & Shiki)\">>\n<<r \"Love Taste Remixes\">>\n<<r \"Moe Moe\">>\n<<r \"Moshi Moshi\">>\n<<r \"Natural (w/ Ace Hashimoto)\">>\n<<r \"Pastel (w/ Snail's House)\">>\n<<r \"Pure Pure\">>\n<<r \"the new flying witch groove\">>\n<<r \"the new moe groove\">>\n<<r \"Want You\">>\n<<r \"WONDER POP\">>\n<<r \"WWW (feat. EDOGA-SULLIVAN)\">>\n<<r \"fusq - Blush (ft. MYLK) (Moe Shop Remix)\">>\n<<r \"Hentai Dude - Tokyo Chopp [ft. Shiki(TMNS)] (Moe Shop Remix)\">>\n\"\"\">>",
         "tags": "Archiving Music",
         "title": "$:/Octt/Music Archiving Status/Moe Shop",
-        "modified": "20230225114333883",
+        "modified": "20230508210918871",
         ".Music Blush (ft. MYLK) (Moe Shop Remix) | GotAny": "true",
         ".Music Cerise | GotAny": "true",
         ".Music Charm (w/ Puniden) | GotAny": "true",
@@ -53,6 +53,8 @@
         ".Music fusq - Blush (ft. MYLK) (Moe Shop Remix) | GotAny": "true",
         ".Music fusq - Blush (ft. MYLK) (Moe Shop Remix) | GotLossless": "true",
         ".Music fusq - Blush (ft. MYLK) (Moe Shop Remix) | UploadedLossless:Archive.org": "true",
-        "modifier": "Octt"
+        "modifier": "Octt",
+        ".Music GHOST FOOD (w/TORIENA) | GotAny": "true",
+        "type": "text/vnd.tiddlywiki"
     }
 ]

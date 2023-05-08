@@ -2,6 +2,8 @@
 .Music 52 days of autumn | GotLossless: false
 .Music ADORE ADORE ADORE | GotAny: true
 .Music ADORE ADORE ADORE | GotLossless: false
+.Music Anime Wav Groove Vol. 1&2 | GotAny: true
+.Music Anime Wav Groove Vol. 1&2 | GotLossless: true
 .Music FUTURE GROOVE PRODUCT | GotAny: true
 .Music FUTURE GROOVE PRODUCT | GotLossless: false
 .Music Float Islands | GotAny: true
@@ -20,10 +22,11 @@
 .Music android52 presents WELCOME NEW GALAXY | GotLossless: false
 created: 20220921195911403
 creator: Octt
-modified: 20230225114104719
+modified: 20230508210814990
 modifier: Octt
 tags: Archiving Music
 title: $:/Octt/Music Archiving Status/Android52
+type: text/vnd.tiddlywiki
 
 <$importvariables filter="$:/Macros [[$:/Macros/Music Archiving Status]]">
 

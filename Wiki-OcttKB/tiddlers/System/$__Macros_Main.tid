@@ -1,6 +1,6 @@
 created: 20220920092322164
 creator: Octt
-modified: 20230301202125785
+modified: 20230508211722265
 modifier: Octt
 tags: $:/tags/Macro
 title: $:/Macros/Main
@@ -75,10 +75,12 @@ Display: Inline;
 <span style="Color:#FFFFFF; Background-Color:$Background$;">$Text$</span>
 \end
 
+\define StrAppend(Str, Suffix, Prefix) $Prefix$$Str$$Suffix$
+
 \define LImg(Src, Href, Alt)
 <a rel="noopener noreferrer" target="_blank" href="$Href$"><img src="$Src$" alt="$Alt$"></a>
 \end
 
-\define StrAppend(Str, Suffix, Prefix) $Prefix$$Str$$Suffix$
-
 \define iboxL(img, caption) <<ibox "$img$" "$caption$ <span>[</span>[[Source|$img$]]<span>]</span>">>
+
+\define #[(Title, Link) <<[ "[[$Title$|$Link$]]">>

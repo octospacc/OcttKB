@@ -1,6 +1,6 @@
 created: 20230216222435750
 creator: Octt
-modified: 20230216223121525
+modified: 20230508215528967
 modifier: Octt
 tags: 
 title: Development Resources
@@ -9,6 +9,7 @@ title: Development Resources
 : [[Baeldung|https://www.baeldung.com/]]
 : [[DigitalOcean Tutorials|https://www.digitalocean.com/community/tutorials]]
 : [[Rollbar Tutorials|https://rollbar.com/blog/category/tutorials/]]
+: [[MDN Web Docs|https://developer.mozilla.org/en-US/]] (Mozilla)
 : [[W3Schools|https://www.w3schools.com/]]
 
 ; Code search

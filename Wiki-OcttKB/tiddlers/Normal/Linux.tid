@@ -1,0 +1,22 @@
+created: 20230111153758951
+creator: Octt
+modified: 20230508215346231
+modifier: Octt
+tags: $:/i18n:en UNIX
+title: Linux
+
+<<^wikipediaframe Linux en>>
+
+!! ''Docs''
+
+* [[The Linux Kernel documentation|https://docs.kernel.org/]]
+
+!!! ''Manpages''
+
+* on [[linux die|https://linux.die.net/]]
+* or, simplified: [[tldr pages|https://tldr.sh/]] --- <<#[ Git "https://github.com/tldr-pages">>
+
+!!! ''Misc''
+
+* LDP (obsolete?)
+** [[The Network Administrators' Guide|https://tldp.org/LDP/nag/]]

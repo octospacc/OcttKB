@@ -1,6 +1,7 @@
 created: 20230114124144464
 creator: Octt
-modified: 20230413072833583
+icon: 
+modified: 20230508213321092
 modifier: Octt
 tags: TODO $:/i18n:en
 title: Fediverse
@@ -10,7 +11,11 @@ title: Fediverse
 
 !! ''List of Platforms''
 
-Explore [[Fediverse Observer|https://hometown.fediverse.observer]], [[Fediverse.Party|https://fediverse.party]], or read below.
+Tip: these sites list many public instances for many platforms.
+
+* [[Fediverse.Party|https://fediverse.party]] --- <<#[ Git "https://codeberg.org/fediverse/fediparty">>
+* [[Fediverse Observer|https://fediverse.observer]]
+* [[Fediverse Explorer (h4kor)|https://h4kor.github.io/fediverse-explorer/]] --- Graph view of instances
 
 !!! ''Media''
 
@@ -35,6 +40,13 @@ Explore [[Fediverse Observer|https://hometown.fediverse.observer]], [[Fediverse.
 !!! ''Coming Soon''
 
 * [[Goldfish Social|https://github.com/Goldfish-Social/Goldfish]]
+
+
+!! ''Posts and Users''
+
+* [[Fediverse Explorer (stefanbohacek)|https://stefanbohacek.com/project/fediverse-explorer/]] --- //Browse most recent public posts across the fediverse by hashtag//
+* [[fediverse.info|https://fediverse.info/]] --- Directory of suggested profiles
+
 
 !! ''Other''
 
