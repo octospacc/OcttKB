@@ -1,6 +1,6 @@
 created: 20220920092322164
 creator: Octt
-modified: 20230508211722265
+modified: 20230513223932628
 modifier: Octt
 tags: $:/tags/Macro
 title: $:/Macros/Main
@@ -84,3 +84,4 @@ Display: Inline;
 \define iboxL(img, caption) <<ibox "$img$" "$caption$ <span>[</span>[[Source|$img$]]<span>]</span>">>
 
 \define #[(Title, Link) <<[ "[[$Title$|$Link$]]">>
+\define [#(Title, Link) <$macrocall $name="#[" Title="$Title$" Link="$Link$"/>
