@@ -352,6 +352,16 @@ a[href="#HTML"][class='tc-tiddlylink tc-tiddlylink-resolves']:after { content: '
 
 
 
+a[href="#Internet"][class='tc-tiddlylink tc-tiddlylink-resolves']:after { content: ' 🌐'; }
+
+
+
+
+
+
+
+
+
 a[href="#Italiano"][class='tc-tiddlylink tc-tiddlylink-resolves']:after { content: ' $:/languages/it-IT/icon'; }
 
 
@@ -477,7 +487,25 @@ a[href="#Watch"][class='tc-tiddlylink tc-tiddlylink-resolves']:after { content: 
 
 
 
-/* Definition lists */
+
+
+
+
+
+a[href="#Web"][class='tc-tiddlylink tc-tiddlylink-resolves']:after { content: ' 🕸️'; }
+
+
+
+
+.tc-tiddler-body ul:hover,
+.tc-tiddler-body ol:hover,
+.tc-tiddler-body dd:hover {
+  Box-Shadow: 2px 2px 12px RGBA(128, 128, 128, 0.5);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 4px;
+}
+ul, ol, dd { transition: 0.3s; }.tc-tiddler-body li { padding-top: 4px; }/* Definition lists */
 dd:before { content: '»'; margin-right: 8px; vertical-align: top; }
 dl { margin-left: 8px; }
 dl > dd { margin-left: 24px; }
@@ -498,7 +526,8 @@ dd > div > p,
 dd > div > ul {
   margin-top: unset;
   margin-bottom: unset;
-}/* Override the font used for icon display by the the <$:/plugins/Gk0Wk/notionpage-covericon> plugin, and then also apply it to the :after of .tc-tiddlylink anchors, for consistency.
+}
+/* Override the font used for icon display by the the <$:/plugins/Gk0Wk/notionpage-covericon> plugin, and then also apply it to the :after of .tc-tiddlylink anchors, for consistency.
 We override adding a "sans-serif" to the start due to a spacing bug (?) */
 .gk0wk-notionpagebg-icon1,
 .gk0wk-notionpagebg-icon2,
@@ -578,15 +607,7 @@ a[class="tc-tiddlylink tc-tiddlylink-resolves"]:after {
 }
 .tc-tiddler-body details:hover > iframe {
   Box-Shadow: none;
-}.tc-tiddler-body ul:hover,
-.tc-tiddler-body ol:hover,
-.tc-tiddler-body dd:hover {
-  Box-Shadow: 2px 2px 12px RGBA(128, 128, 128, 0.5);
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-right: 4px;
-}
-ul, ol, dd { transition: 0.3s; }.ibox-btn {
+}.ibox-btn {
   max-width: 35%;
   max-height: 50vh;
 }
