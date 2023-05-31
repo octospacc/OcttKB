@@ -1,7 +1,7 @@
 created: 20220920160811383
 creator: Octt
 icon: 🐙
-modified: 20230301213130738
+modified: 20230531084944123
 modifier: Octt
 tags: $:/ToC $:/i18n:en Octt
 title: OcttKB
@@ -28,7 +28,9 @@ Apart from the usual [[TiddlyWiki]] ones, there are many methods of navigation o
 : Links to my blog, webapps, and social profiles
 
 * ''KB Git Repo'' (deploy scripts, + limited commit history): [[GitLab.com/octtspacc/OcttKB|https://gitlab.com/octtspacc/OcttKB]]
-** Mirrors (don't send issues/PRs there): [[GitHub.com|https://github.com/octospacc/OcttKB]] | [[Gitea.it|https://gitea.it/octospacc/OcttKB]]
+** Mirrors (''don't send issues/PRs'' there): [[GitHub.com|https://github.com/octospacc/OcttKB]] | [[Gitea.it|https://gitea.it/octospacc/OcttKB]]
+
+* ''Public Statistics'': [[https://octtkb.goatcounter.com/]]
 
 //<small>Note: The KB is also served in plain, unencrypted HTTP at the `http` 5th-level subdomain: `http://http.kb.octt.eu.org`.</small>//
 

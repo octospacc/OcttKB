@@ -1,9 +1,21 @@
 created: 20230307191735805
 creator: Octt
-modified: 20230307192825025
+modified: 20230531085347943
 modifier: Octt
 tags: $:/tags/Stylesheet
 title: $:/Styles/Lists
+
+.tc-tiddler-body ul:hover,
+.tc-tiddler-body ol:hover,
+.tc-tiddler-body dd:hover {
+  Box-Shadow: 2px 2px 12px RGBA(128, 128, 128, 0.5);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 4px;
+}
+ul, ol, dd { transition: 0.3s; }
+
+.tc-tiddler-body li { padding-top: 4px; }
 
 /* Definition lists */
 dd:before { content: '»'; margin-right: 8px; vertical-align: top; }

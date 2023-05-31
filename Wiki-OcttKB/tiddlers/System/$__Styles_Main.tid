@@ -1,6 +1,6 @@
 created: 20230108190740128
 creator: Octt
-modified: 20230307215827258
+modified: 20230531085205140
 modifier: Octt
 tags: $:/tags/Stylesheet
 title: $:/Styles/Main
@@ -151,16 +151,6 @@ input.Edit-Text-Full { width: 100% !important; }
 .tc-tiddler-body details:hover > iframe {
   Box-Shadow: none;
 }
-
-.tc-tiddler-body ul:hover,
-.tc-tiddler-body ol:hover,
-.tc-tiddler-body dd:hover {
-  Box-Shadow: 2px 2px 12px RGBA(128, 128, 128, 0.5);
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-right: 4px;
-}
-ul, ol, dd { transition: 0.3s; }
 
 .ibox-btn {
   max-width: 35%;
