@@ -1,6 +1,6 @@
 created: 20230111153758951
 creator: Octt
-modified: 20230530105854963
+modified: 20230531082831421
 modifier: Octt
 tags: $:/i18n:en UNIX
 title: Linux
@@ -27,3 +27,4 @@ title: Linux
 ** [[Flathub|https://flathub.org/]] --- Official build and distribution service for Flatpak applications --- <<[ "[[Git|https://github.com/flathub]]">>
 
 * [[Wine|https://www.winehq.org/]] --- //Compatibility layer for running Windows applications on POSIX-compliant systems//
+** [[WineZGUI|https://github.com/fastrizwaan/WineZGUI]] --- //Wine GUI using Zenity - Play and Share!// --- <<#[ Flatpak "https://github.com/fastrizwaan/flatpak-wine">>
