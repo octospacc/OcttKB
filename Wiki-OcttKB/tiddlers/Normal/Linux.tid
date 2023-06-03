@@ -1,6 +1,6 @@
 created: 20230111153758951
 creator: Octt
-modified: 20230531082831421
+modified: 20230603231347845
 modifier: Octt
 tags: $:/i18n:en UNIX
 title: Linux
@@ -21,6 +21,8 @@ title: Linux
 * LDP (obsolete?)
 ** [[The Network Administrators' Guide|https://tldp.org/LDP/nag/]]
 
+* [[SquashFS|https://tldp.org/HOWTO/SquashFS-HOWTO/whatis.html]], [[DwarFS|https://github.com/mhx/dwarfs]]
+
 !! ''Tools''
 
 * [[Flatpak|https://flatpak.org/]] --- //Linux application sandboxing and distribution framework// --- <<[ "[[Git|https://github.com/flatpak]]">>
@@ -28,3 +30,4 @@ title: Linux
 
 * [[Wine|https://www.winehq.org/]] --- //Compatibility layer for running Windows applications on POSIX-compliant systems//
 ** [[WineZGUI|https://github.com/fastrizwaan/WineZGUI]] --- //Wine GUI using Zenity - Play and Share!// --- <<#[ Flatpak "https://github.com/fastrizwaan/flatpak-wine">>
+

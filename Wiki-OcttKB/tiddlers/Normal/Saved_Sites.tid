@@ -1,6 +1,6 @@
 created: 20230223222804008
 creator: Octt
-modified: 20230508214437798
+modified: 20230603231144329
 modifier: Octt
 tags: 
 title: Saved/Sites
@@ -34,4 +34,5 @@ Some personal ones could be defined as "[[digital gardens|Digital Garden]]".
 * [[XXIIVV|https://wiki.xxiivv.com/]] --- <<[ "[[Git|https://github.com/XXIIVV/oscean]]">>
 
 !!! Mess-leaning <small>(often the most creative)</small>
-*
+* [[samy.pl|https://samy.pl/]] - Website full of easter eggs by the same <<YoutubeL OJ1pEAdFLP8 "person who once hacked MySpace">>.
+** One easter egg is the client source code is hidden as a binary-encoded string represented by spaces and tabs; The server providing the data uses something (headers? but also other stuff) to only serve the real HTML to a browser; curl/wget without all the browser headers (and a browser after a reload in `view-source:` ?) get a fake HTML. <<#[ "Older but more in-depth analysis" "https://t.me/ioctt/19280">>

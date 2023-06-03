@@ -1,0 +1,38 @@
+created: 20230603231547125
+creator: Octt
+modified: 20230603234352061
+modifier: Octt
+tags: 
+title: SEB 3.5.0 on Linux (VM Bypass)
+
+Having the need of running Safe Exam Browser while I've only got GNU+Linux on my laptop and desktop, I had to look for alternative solutions.
+
+* There is no linux-native full SEB application, it's only for Windows and macOS.
+* Running SEB on WinPE is unfeasible as it needs to install many runtime dependencies, it's too slow to do that while booted into the live system, and on my 4 GB laptop the ramdisk is not big enough.
+* SEB by default detects and blocks virtual machines.
+** This option can be changed in the local configuration file, but when starting an exam the configuration loaded from the server takes precedence over the local one.
+** SEB 3.5.0 added an hard-to-break anti-tampering mechanism, where the LMS server verifies if the client is altered and won't let you take exams; patching the few needed modules won't work.
+
+Turns out only way to work around the issue is to make a relatively stealth VM.
+
+By analyzing the SEB for Windows source code, we can see some important files and methods:
+
+* [[VirtualMachineDetector.cs:IsVirtualMachine()|https://github.com/SafeExamBrowser/seb-win-refactoring/blob/11b10e8e4524c1fe65b6c3db7d12e172facf322c/SafeExamBrowser.SystemComponents/VirtualMachineDetector.cs#L49]]: Clearly the main place where VM detection is happening
+
+Also, by referring to various strings in the source code and [[issue #268|https://github.com/SafeExamBrowser/seb-win-refactoring/issues/268#issuecomment-994586854]], we can see that in VMs a bug occurs where 0 displays are detected. This must be accounted for after succeeding in concealing the VM from the program. A good start is in this class and method, which checks for displays and throws errors if necessary:
+
+* [[DisplayMonitorOperation.cs:CheckDisplayConfiguration()|https://github.com/SafeExamBrowser/seb-win-refactoring/blob/11b10e8e4524c1fe65b6c3db7d12e172facf322c/SafeExamBrowser.Runtime/Operations/DisplayMonitorOperation.cs#L51]]
+
+[TODO]
+
+!! VM Setup
+
+We choose VMWare Workstation 17 (latest version) as it lets a few important options be customized. First I created a VM with close-to-suggested settings (the primary ones don't matter here).
+
+Then I modified the network card settings [TODO]
+
+After this, I installed Windows 10 (a build from 2019 I have on a burned DVD always at hand). No VMWare tools have been installed.
+
+!! Hardening Windows
+
+[TODO] (https://pastebin.com/XEn7BykP)
