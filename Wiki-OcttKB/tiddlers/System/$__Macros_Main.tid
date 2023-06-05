@@ -1,6 +1,6 @@
 created: 20220920092322164
 creator: Octt
-modified: 20230513223932628
+modified: 20230605214618218
 modifier: Octt
 tags: $:/tags/Macro
 title: $:/Macros/Main
@@ -45,8 +45,10 @@ Display: Inline;
 
 <!-- Transclude with tobibeer/inc macro inside an HTML <details> element -->
 \define {<(Tiddler, Heading:"0")
+\whitespace trim
 <details class="tw-details">
   <summary>
+    [[_|$Tiddler$]]&nbsp;
     <h$Heading$ style="display: inline;">
       ''$Tiddler$''
     </h$Heading$>
@@ -55,6 +57,7 @@ Display: Inline;
 </details>
 \end
 \define {^(Tiddler, Heading) <<{< "$Tiddler$" "$Heading$">>
+\define ^{(Tiddler, Heading) <<{< "$Tiddler$" "$Heading$">>
 
 <!-- Link to currentTiddler --->
 \define lself() [[$(currentTiddler)$]]

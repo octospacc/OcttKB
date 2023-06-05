@@ -1,6 +1,6 @@
 created: 20230217144723956
 creator: Octt
-modified: 20230217182259634
+modified: 20230605213310925
 modifier: Octt
 tags: 
 title: Virtual Machine
@@ -9,7 +9,7 @@ title: Virtual Machine
 
 ; Virtualization Software
 : [[QEMU]] - Usually accelerated with [[KVM|https://www.linux-kvm.org/]]
-: [[Oracle VirtualBox VM|https://www.virtualbox.org/]]
+: [[Oracle VirtualBox]]
 : [[VMWare|https://www.vmware.com/]] - If you need a //Workstation Pro// license key for free, just [[look on YouTube|https://www.youtube.com/results?search_query=vmware+workstation+pro+license+key&sp=EgIIBQ%253D%253D]] (''don't trust keygens or hacked EXEs'', there are videos that just show you the key on the screen)
 
 ; Cloud Virtualization

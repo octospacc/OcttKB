@@ -1,6 +1,6 @@
 created: 20230108190740128
 creator: Octt
-modified: 20230531085205140
+modified: 20230605214117998
 modifier: Octt
 tags: $:/tags/Stylesheet
 title: $:/Styles/Main
@@ -163,4 +163,8 @@ input.Edit-Text-Full { width: 100% !important; }
 .tc-modal {
   width: 80%;
   left: calc((100% - 80%) / 2);
+}
+
+.tb-inc > .tb-inc-controls.tc-tiddler-controls > button {
+	font-size: 150%;
 }

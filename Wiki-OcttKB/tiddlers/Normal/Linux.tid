@@ -1,6 +1,6 @@
 created: 20230111153758951
 creator: Octt
-modified: 20230603231347845
+modified: 20230605215508182
 modifier: Octt
 tags: $:/i18n:en UNIX
 title: Linux
@@ -25,7 +25,7 @@ title: Linux
 
 !! ''Tools''
 
-* [[Flatpak|https://flatpak.org/]] --- //Linux application sandboxing and distribution framework// --- <<[ "[[Git|https://github.com/flatpak]]">>
+* [[Flatpak|https://flatpak.org/]] --- //Linux application sandboxing and distribution framework// --- <<[# Git "https://github.com/flatpak">> <<[# "Dev Docs" "https://docs.flatpak.org/en/latest/">>
 ** [[Flathub|https://flathub.org/]] --- Official build and distribution service for Flatpak applications --- <<[ "[[Git|https://github.com/flathub]]">>
 
 * [[Wine|https://www.winehq.org/]] --- //Compatibility layer for running Windows applications on POSIX-compliant systems//
