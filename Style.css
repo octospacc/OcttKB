@@ -616,6 +616,8 @@ a[class="tc-tiddlylink tc-tiddlylink-resolves"]:after {
 }.tc-modal {
   width: 80%;
   left: calc((100% - 80%) / 2);
+}.tb-inc > .tb-inc-controls.tc-tiddler-controls > button {
+	font-size: 150%;
 }
 /* This has to be redone basically from scratch because there are issues with position:fixed without editing the tiddler frame z-index, which can't be done via CSS only (no parent selector) */
 
