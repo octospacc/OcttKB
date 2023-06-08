@@ -1,0 +1,10 @@
+created: 20230608141508649
+creator: Octt
+modified: 20230608141827170
+modifier: Octt
+tags: 
+title: Windows/Advanced
+
+* <<YoutubeL vAb00RYFThE "Hide your VM using Registry and WMI tricks">>
+* [[Get Windows System Information via WMI Command-line (WMIC)|https://www.lisenet.com/2014/get-windows-system-information-via-wmi-command-line-wmic/]]
+* [[Using PowerShell to View and Change BIOS Settings (WMI)|https://woshub.com/powershell-view-change-bios-settings/]]

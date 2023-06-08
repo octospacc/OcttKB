@@ -1,6 +1,6 @@
 created: 20230217221957113
 creator: Octt
-modified: 20230217221957113
+modified: 20230608135904091
 modifier: Octt
 tags: 
 title: Android/Development
@@ -59,3 +59,4 @@ title: Android/Development
 
 ; Problems, Snippets, Guides
 : [[Reverse Engineering and Analyzing Android Apps: A Step-by-Step Guide|https://medium.com/@asmaeziani47/reverse-engineering-and-analyzing-android-apps-a-step-by-step-guide-67b8af9bf152]]
+: [[Flashing Stock or Custom Firmware with Heimdall (on linux)|https://www.simernes.com/?p=279]]

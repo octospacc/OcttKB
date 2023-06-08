@@ -1,10 +1,14 @@
 created: 20230202232344991
 creator: Octt
-modified: 20230306165053956
+modified: 20230608141303707
 modifier: Octt
 tags: $:/i18n:en
-title: UNIX
+title: Unix
 
 <<^wikipediaframe Unix>>
 
 * [[MINIX From Scratch|https://github.com/o-oconnell/minixfromscratch]] - //Development and compilation setup for the book version of MINIX 3//
+
+!!! ''How-to''
+
+* [[Make subdirectory writable by anyone even if parent folder is not|https://unix.stackexchange.com/a/490082]]

@@ -1,6 +1,6 @@
 created: 20230217150049780
 creator: Octt
-modified: 20230223215751180
+modified: 20230608141353147
 modifier: Octt
 tags: Emulation Libre
 title: QEMU
@@ -11,3 +11,7 @@ title: QEMU
 <<^wikipediaframe QEMU>>
 
 A software integrating QEMU as an [[Android]] app is [[Limbo PC Emulator|https://virtualmachinery.weebly.com/]] ([[Git|https://github.com/limboemu/limbo]]).
+
+!!! ''How-to''
+
+* [[Really Simple Network Bridging With qemu|https://spad.uk/really-simple-network-bridging-with-qemu/]]
