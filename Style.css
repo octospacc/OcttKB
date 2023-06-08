@@ -140,7 +140,9 @@ Error message and password prompt
 
 .tc-static-story-river > .tc-tiddler-frame > .tc-tiddler-title details > summary,
 .View-Breadcrumbs details > summary {
+  width: fit-content;
   list-style: none;
+  cursor: pointer;
 }
 
 tc-table-of-contents
