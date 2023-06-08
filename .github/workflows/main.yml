@@ -22,7 +22,7 @@ jobs:
         sudo npm install -g tiddlywiki
         sudo pip3 install beautifulsoup4 html5lib
         bash ./Bootstrap.sh
-        sh ./GitHub.Main.sh
+        bash ./Deploy.Main.sh
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4

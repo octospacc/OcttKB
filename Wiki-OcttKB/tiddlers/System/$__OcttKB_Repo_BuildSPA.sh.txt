@@ -2,7 +2,7 @@
 . ./Src.*.sh || true
 
 # Update time of last edit
-sh ./OcttKB.EmptyDate.sh || true
+sh ./EmptySetDate.sh || true
 
 # Ensure important directories
 rm -rf ./Output.tmp || true

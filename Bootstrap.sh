@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e # Exit on any error
 
 # Ensure important directories
 mkdir -vp ./Repo
@@ -25,7 +26,7 @@ cd ..
 
 # Move the files of this repo to overwrite the extracted ones, then move everything back
 # This is so, if present, files from the repo are preferred, if needed in case of emergency
-mv ./Repo/* ./Repo.tmp/
+mv ./Repo/* ./Repo.tmp/ || true
 mv ./Repo.tmp/* ./Repo/
 
 # Move everything to the working directory, ready for the next CI steps

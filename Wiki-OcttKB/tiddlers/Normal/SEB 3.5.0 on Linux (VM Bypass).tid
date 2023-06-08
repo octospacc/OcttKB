@@ -35,4 +35,10 @@ After this, I installed Windows 10 (a build from 2019 I have on a burned DVD alw
 
 !! Hardening Windows
 
+In this case "hardening" is meant as enhancing the privacy of our Windows against third-party apps, which we need to evade VM detection; we don't mean it as making the system more secure or robust for an exam purpose, which is something neutral to us (we as examinees don't care about it, it does neither benefit nor harm us).
+
 [TODO] (https://pastebin.com/XEn7BykP)
+
+!! No abuse
+
+Be careful of only using this information if you actually need to run SEB on Linux or have other issues. Do not abuse the guide to create a VM for doing the exam and then getting out of it mid-session to use the host system normally and cheat. The procedure is not intended for cheating and if we start using it to do that, examiners will push for the holes that allow VM detection to be patched. If we only use it for valid reasons of OS compatibility, likely no one will protest and we will not be forced to use an OS we don't like as host on our computers. If you have to cheat at the written exam then you will fail the oral exam anyways, so study and don't use this method for cheating.

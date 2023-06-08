@@ -18,9 +18,9 @@ TryCrossRepoSync(){
   CommitMsg0="$("OcttKB Cross-Repo Sync" | ToLower)"
   [ "$CommitCheck" != "$CommitMsg0 (html to raw)" ] && \
   [ "$CommitCheck" != "$CommitMsg0 (raw to html)" ] && \
-  [ "$CommitCheck" != "$CommitMsg0 (htm to raw)" ] && \
-  [ "$CommitCheck" != "$CommitMsg0 (raw to htm)" ] && \
-  [ "$CommitCheck" != "$CommitMsg0 (web to raw)" ] && \
-  [ "$CommitCheck" != "$CommitMsg0 (raw to web)" ] && \
+  [ "$CommitCheck" != "$CommitMsg0 (htm to raw)"  ] && \
+  [ "$CommitCheck" != "$CommitMsg0 (raw to htm)"  ] && \
+  [ "$CommitCheck" != "$CommitMsg0 (web to raw)"  ] && \
+  [ "$CommitCheck" != "$CommitMsg0 (raw to web)"  ] && \
     sh ./GitLab.CrossRepoSync.sh || true
 }
