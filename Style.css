@@ -374,6 +374,16 @@ a[href="#Italiano"][class='tc-tiddlylink tc-tiddlylink-resolves']:after { conten
 
 
 
+a[href="#Linux"][class='tc-tiddlylink tc-tiddlylink-resolves']:after { content: ' 🐧'; }
+
+
+
+
+
+
+
+
+
 a[href="#Minesweeper"][class='tc-tiddlylink tc-tiddlylink-resolves']:after { content: ' 💣'; }
 
 
