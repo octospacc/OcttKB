@@ -1,0 +1,37 @@
+created: 20230129125013039
+creator: Octt
+modified: 20230301212518124
+modifier: Octt
+tags: 
+title: $:/Macros/Breadcrumbs/Main
+
+\define cp() javascript:(navigator.clipboard.writeText("$(currentTiddler)$"))
+
+\define MakeViewBreadcrumbs()
+\whitespace trim
+<span class="View-Breadcrumbs">
+<$set name="Caller" value=<<currentTiddler>>>
+<$list filter="[<currentTiddler>split[/]limit[-1]]" counter="Index">
+  <span class="Path-Elem" data-path-elem=<<currentTiddler>>>
+    <$link to={{{[<Caller>split[/]limit<Index>join[/]]}}}>
+      <<currentTiddler>>
+    </$link>
+  </span>
+  <span class="Inline-Sep">
+    <span>/</span>
+  </span>
+</$list>
+</$set>
+<$set name="Tiddler" value={{{[<currentTiddler>split[/]last[]]}}}>
+  <span class="Path-Elem" data-path-elem=<<Tiddler>>>
+    <details>
+      <summary>
+        <$text text=<<Tiddler>>/>
+      </summary>
+      <$macrocall $name="tiddlertree" tag=<<currentTiddler>>/>
+    </details>
+  </span>
+</$set>
+<a href=<<cp>> class="Path-Copy" title="Copy path to Clipboard">▪️</a>
+</span>
+\end

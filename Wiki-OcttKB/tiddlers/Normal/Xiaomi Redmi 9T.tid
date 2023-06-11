@@ -1,0 +1,14 @@
+created: 20230205143148006
+creator: Octt
+modified: 20230207191007063
+modifier: Octt
+tags: Android Xiaomi
+title: Xiaomi Redmi 9T
+
+<<iFrameBypass "https://www.gsmarena.com/xiaomi_redmi_9t-10670.php">>
+<!-- <<iFrameBypass "https://html.duckduckgo.com/html?q=! Redmi 9T site:gsmarena.com">> -->
+
+!!! ''Resources'' (for `lime`, tested working on `lemon`)
+
+* [[TWRP 3.5.A10 Unofficial (BETA)|https://forum.xda-developers.com/t/recovery-3-5-a10-twrp-unnoficial-for-lime-redmi9t-beta.4233045/]] - [[[Download latest|https://androidfilehost.com/?fid=2188818919693773061]]] [[[Git|https://github.com/geoanto555/android_device_xiaomi_lime]]]
+* [[Project Elixir (Android 13)|https://forum.xda-developers.com/t/rom-12-1-juice-chime-project-elixir-v2-x-official.4413741/]] - [[[Downloads|https://www.pling.com/p/1723537/]]]

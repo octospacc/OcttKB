@@ -1,0 +1,15 @@
+created: 20230417102242544
+creator: Octt
+modified: 20230417204700055
+modifier: Octt
+tags: FTP SFTP HTTP BitTorrent ToDo
+title: Aria2
+
+
+* https://github.com/aria2
+
+!!!! ''Wrappers, Frontends''
+
+* [[AriaNg|https://github.com/mayswind/AriaNg]] - //Modern web frontend making aria2 easier to use//
+** [[Personal fork|https://github.com/octospacc/AriaNg-Fork/releases]]
+* [[aria2p|https://github.com/pawamoy/aria2p]] - //Command-line tool and library to interact with an aria2c daemon process//

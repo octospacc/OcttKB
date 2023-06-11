@@ -1,0 +1,10 @@
+created: 20230129122910743
+creator: Octt
+modified: 20230217224817401
+modifier: Octt
+title: $:/core/ui/ViewTemplate/title/default
+
+\whitespace trim
+<h2 class="tc-title">
+<$view field="title"/>
+</h2>

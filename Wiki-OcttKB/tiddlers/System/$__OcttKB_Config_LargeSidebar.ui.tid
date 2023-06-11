@@ -1,0 +1,15 @@
+Enabled: 0
+created: 20230208220901786
+creator: Octt
+modified: 20230530102728783
+modifier: Octt
+tags: $:/GlobalOption
+title: $:/OcttKB/Config/LargeSidebar.ui
+
+<$checkbox
+  field="Enabled"
+  checked="1"
+  unchecked="0"
+>
+  Larger Sidebar
+</$checkbox>

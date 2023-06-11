@@ -1,0 +1,13 @@
+{
+    "title": "$:/plugins/tobibeer/base64",
+    "description": "base64 encoding and decoding for ~TiddlyWiki",
+    "author": "Tobias Beer",
+    "version": "0.5.0",
+    "core-version": ">=5.1.9",
+    "source": "https://github.com/tobibeer/tw5-base64",
+    "documentation": "https://tobibeer.github.io/tw5-base64",
+    "plugin-type": "plugin",
+    "requires": "",
+    "list": "readme",
+    "dependents": ""
+}

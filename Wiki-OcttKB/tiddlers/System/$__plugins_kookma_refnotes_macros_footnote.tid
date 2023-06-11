@@ -1,0 +1,15 @@
+created: 20230215222519299
+creator: Octt
+modified: 20230215224927935
+modifier: Octt
+tags: $:/tags/Macro
+title: $:/plugins/kookma/refnotes/macros/footnote
+type: text/vnd.tiddlywiki
+
+<!--
+  Modifications from original:
+  - Added square brackets enclosing
+-->
+\define fnote(note)
+<span><sup>[</sup><div class="refnotes-tooltip refnotes-footnote"><div class="refnotes-tooltiptext">$note$</div></div><sup>]</sup></span>
+\end

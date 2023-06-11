@@ -1,0 +1,30 @@
+created: 20220927210105087
+modified: 20230206111552166
+modifier: Octt
+tags: Snippets $:/i18n:en
+title: Internet Archive/Download bulk items (Wget)
+
+Source: https://blog.archive.org/2012/04/26/downloading-in-bulk-using-wget
+
+!!! Prerequisites
+
+# Obtain [[Wget|https://www.gnu.org/software/wget]];
+
+# (Optional) For large collections, Install "Copy Selected Links" extension [[For Firefox|https://addons.mozilla.org/en-US/firefox/addon/copy-selected-links]];
+
+!!! Action
+
+# In a text file, Write a list of all item ids to be downloaded (the part after `/details/` in the URL);
+
+## Easy way to do this for collections: Select all links in the browser, Right-Click > Copy selected links, Paste in a text editor, Find all instances of `https://archive.org/details/`, replace with //nothing//, Save.
+
+# Use the following command:
+```sh
+wget -r -H -nc -np -nH --cut-dirs=1 -e robots=off -l1 -i <Path-to-text-file> -B 'http://archive.org/download/'
+```
+
+!!!! Useful arguments
+
+* Whitelist or Blacklist mode for list of extensions (preceded by `.` (dot), separated by `,` (comma); Example: `.avif,.7z`)
+** `-A <Extensions>`: Whitelist
+** `-R <Extensions>`: Blacklist

@@ -1,0 +1,32 @@
+.Music Bigger Grooves | GotAny: true
+.Music CLUB 84 x Macross 82-99 | GotAny: true
+.Music Cyber Love | GotAny: true
+.Music Disco's Revenge | GotAny: true
+.Music Gimme Love | GotAny: true
+.Music I'll Never Love Again | GotAny: true
+.Music K.K. House (Remix) | GotAny: true
+.Music Loving U | GotAny: true
+.Music Neon Vectors x Macross 82-99 | GotAny: true
+created: 20220923061532177
+creator: Octt
+modified: 20230508210855367
+modifier: Octt
+tags: Archiving Music
+title: $:/Octt/Music Archiving Status/Neon Vectors
+type: text/vnd.tiddlywiki
+
+<$importvariables filter="$:/Macros [[$:/Macros/Music Archiving Status]]">
+
+!!! Neon Vectors || [[Bandcamp|https://neonvectors.bandcamp.com/music]]
+
+<<Table """
+<<r "Bigger Grooves">>
+<<r "CLUB 84 x Macross 82-99">>
+<<r "Cyber Love">>
+<<r "Disco's Revenge">>
+<<r "Gimme Love">>
+<<r "I'll Never Love Again">>
+<<r "K.K. House (Remix)">>
+<<r "Loving U">>
+<<r "Neon Vectors x Macross 82-99">>
+""">>

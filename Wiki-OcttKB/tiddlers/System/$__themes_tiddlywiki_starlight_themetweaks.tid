@@ -1,0 +1,10 @@
+caption: Star Tweaks
+created: 20230110204807987
+modified: 20230110205238423
+tags: $:/tags/ControlPanel/Appearance
+title: $:/themes/tiddlywiki/starlight/themetweaks
+
+<!--
+Demo of a control panel tab dynamically loaded with a theme.
+--->
+{{$:/OcttKB/Tweaks/Starlight.cfg}}

@@ -1,0 +1,26 @@
+#!/bin/sh
+
+GitPush(){
+  git add .
+  git commit -m "$1"
+  git push
+}
+
+SetupGitProfile(){
+  git config --global user.email "$GitUserEmail"
+  git config --global user.name "$GitUserName"
+  git config --global credential.helper store
+  echo "https://$GitUserName:$GitPassword@gitlab.com" > ~/.git-credentials
+}
+
+TryCrossRepoSync(){
+  CommitCheck="$(git log -1 --pretty=%B | ToLower)"
+  CommitMsg0="$("OcttKB Cross-Repo Sync" | ToLower)"
+  [ "$CommitCheck" != "$CommitMsg0 (html to raw)" ] && \
+  [ "$CommitCheck" != "$CommitMsg0 (raw to html)" ] && \
+  [ "$CommitCheck" != "$CommitMsg0 (htm to raw)"  ] && \
+  [ "$CommitCheck" != "$CommitMsg0 (raw to htm)"  ] && \
+  [ "$CommitCheck" != "$CommitMsg0 (web to raw)"  ] && \
+  [ "$CommitCheck" != "$CommitMsg0 (raw to web)"  ] && \
+    sh ./GitLab.CrossRepoSync.sh || true
+}

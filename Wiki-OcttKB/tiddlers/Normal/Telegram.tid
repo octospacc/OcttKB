@@ -1,0 +1,11 @@
+created: 20230206204937437
+creator: Octt
+modified: 20230513221303926
+modifier: Octt
+tags: ToDo
+title: Telegram
+
+<<^wikipediaframe Telegram_(software) en>>
+
+* [[Teledrive|https://github.com/mgilangjanuar/teledrive]] --- //The cloud drive alternative using Telegram API//
+* [[Telegram Index (Fork)|https://github.com/octospacc/TelegramIndex-Fork]] - //Python web app to index telegram chats and serve its files for download over HTTP//

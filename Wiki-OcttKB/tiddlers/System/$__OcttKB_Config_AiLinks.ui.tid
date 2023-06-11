@@ -1,0 +1,15 @@
+Enabled: 0
+created: 20230413083119554
+creator: Octt
+modified: 20230429202841556
+modifier: Octt
+tags: $:/GlobalOption
+title: $:/OcttKB/Config/AiLinks.ui
+
+<$checkbox
+  field="Enabled"
+  checked="1"
+  unchecked="0"
+>
+  Bing AI Links
+</$checkbox>

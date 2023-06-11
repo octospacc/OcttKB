@@ -1,0 +1,52 @@
+created: 20220926113710012
+modified: 20230108195259126
+tags: $:/tags/Macro
+title: $:/Macros/i18n
+
+\define i18n-target()
+<$list filter="[[$(currentTiddler)$]tags[]prefix[i18n:]split[:]last[]]">
+	<span style="Padding:8px;">
+		<<currentTiddler>>
+	</span>
+</$list>
+\end
+
+\define i18n()
+<style>
+	/* Rainbow gradient from https://stackoverflow.com/a/63302468 */
+	.LanguageBox {
+		Border: Solid Black 1px;
+		Padding: 4px;
+		Background: Linear-Gradient(
+			90deg,
+			RGBA(255, 0, 0, 1) 0%,
+			RGBA(255, 154, 0, 1) 10%,
+			RGBA(208, 222, 33, 1) 20%,
+			RGBA(79, 220, 74, 1) 30%,
+			RGBA(63, 218, 216, 1) 40%,
+			RGBA(47, 201, 226, 1) 50%,
+			RGBA(28, 127, 238, 1) 60%,
+			RGBA(95, 21, 242, 1) 70%,
+			RGBA(186, 12, 248, 1) 80%,
+			RGBA(251, 7, 217, 1) 90%,
+			RGBA(255, 0, 0, 1) 100%
+		);
+	}
+	.LanguageBox > Div {
+		Border: Solid Black 1px;
+		Padding: 4px;
+		Font-Size: Larger;
+		Text-Align: Center;
+		Background: White;
+	}
+</style>
+<div class="LanguageBox"><div>
+	<$vars id={{!!i18n}}>
+		<$list filter="[!is[system]contains:i18n<id>]">
+			<$link>
+				<$macrocall $name="i18n-target"/>
+			</$link>
+		</$list>
+	</$vars>
+</div></div>
+\end

@@ -1,0 +1,24 @@
+created: 20221107225602829
+modified: 20230206111552101
+modifier: Octt
+tags: $:/i18n:en
+title: Email Settings
+
+!!! ''Outlook''
+* ''Username'': Full Email Address (e.g. `example@outlook.com`)
+* ''Password'': Standard Account Password
+* ''Server'': `smtp-mail.outlook.com`
+* ''Ports'':
+** ''TLS'': `587`
+** ''No Encryption'': `25`
+* ''Daily Limits'': 250 Mails, or [verification needed] 100 different Recipients
+
+!!! ''Yahoo Mail''
+
+* ''Username'': Full Email Address (e.g. `example@yahoo.com`)
+* ''Password'': App Password; Must be set from Yahoo's account security settings
+* ''Server'': `smtp.mail.yahoo.com`
+* Ports: 465 (With SSL)
+** ''SSL'': `465`
+** ''TLS'': `587`
+* ''Daily Limits''<sup>[verification needed]</sup>: 500 Mails, or 100 Connections

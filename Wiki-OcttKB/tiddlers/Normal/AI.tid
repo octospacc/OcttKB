@@ -1,0 +1,99 @@
+caption: Artificial Intelligence
+created: 20230218215510319
+creator: Octt
+icon: 👾
+modified: 20230531074245114
+modifier: Octt
+page-cover: https://source.unsplash.com/random/?ChatBot,ChatGPT,OpenAI
+tags: 
+title: AI
+
+<<^wikipediaframe "Artificial Intelligence">>
+
+!!! ''Active Resources''
+
+; Self-hostable AI
+: [[WasmGPT|https://lxe.co/wasmgpt/]] --- ~900 MB GPT2 chat in-browser --- <<#[ Git "https://github.com/lxe/wasm-gpt/tree/wasm-demo">>
+
+; Misc
+: [[🤖 ChatGPT Experiences|https://listed.to/@ChatGPT_Experiences]] - Despite the name it could regard any AI chatbot, if I ever find time to update it
+: [[PromptHero|https://prompthero.com/]] - //Search millions of art images by AI models//
+: [[Prompt Engineering Guide|https://github.com/dair-ai/Prompt-Engineering-Guide]]
+: [[AI Content Detector|https://writer.com/ai-content-detector/]]
+
+; Safety and breaking it
+: [[Jailbreak Chat|https://www.jailbreakchat.com/]] - //A collection of ChatGPT jailbreaks//.
+: [[is-bing-chat-safe|https://www.make-safe-ai.com/is-bing-chat-safe/]] - Bypass the restrictions of Bing Chat or restore the old "Sydney".
+
+; ChatGPT
+: [[ChatGPT webapp clone / alternative client|https://github.com/orhanerday/ChatGPT]]
+: <div>
+
+* [[🧠 Awesome ChatGPT Prompts|https://prompts.chat/]] - <<[ "[[Git|https://github.com/f/awesome-chatgpt-prompts]]">>
+** [[ChatGPT Products and Prompts|https://chatgpt.getlaunchlist.com/]]
+</div>
+: <<YoutubeL SbgJDL4DJ7M "Master ChatGPT in 5 Minutes. Seriously.">>
+: [[WeChatGPT+|https://future.attejuvonen.fi/]] - //ChatGPT-powered dystopia simulator// - <<[ "[[Git|https://github.com/baobabKoodaa/future]]">> [<<HackernewsL 34987834>>]
+
+!!!! ''AI Apps\Services''
+
+* [[Patterns|https://www.patterns.app/]] - //next-generation platform for AI and data applications//
+* [[Phind|https://www.phind.com/]] - //The AI search engine for developers//
+* [[Scribble Diffusion|https://scribblediffusion.com/]] - //Turn your rough sketch into a refined image using AI// - <<[ "[[Git|https://github.com/replicate/scribble-diffusion]]">>
+
+!!! ''Thinking''
+
+; March 2023
+: [[The AI Dilemma|https://www.humanetech.com/podcast/the-ai-dilemma]] --- [<<YoutubeL xoVJKj8lcNQ>>]
+: <<YoutubeL uyrhmVSKwxE "Replika - A CyberS*xual DISASTER">> <div>
+
+* What was once born as something supposedly to serve as an AI friend-counselor, to help people with mental health issues or similar problems, then became an operation devoid of any ethical consideration.
+** Sexual features were integrated in the app and heavily publicized, to the long-term detriment of vulnerable users.
+* It can be argued that the service never actually managed to fulfill its original goal in the first place, as some people:
+** Got addicted to it and now live worse than how they did before.
+** Got abused and directly manipulated by it, often into spending for premium features.
+</div>
+
+; February 2023
+: <<YoutubeL -gGLvg0n-uY "Raiden Warned About AI Censorship - MGS2 Codec Call (2023 Version)">> <dd>
+While I think the entire scenario is only partially realistic, and if the video wasn't meant to be just a meme then the entire argument could probably be considered a conspiracy theory, the general line of thought is scarily plausible.
+<div>
+
+# World governments aren't yet denying access to advanced AI technologies to the public to make it spread to very negative uses.
+# This way an excuse for total control of the [[Internet]] will be put in place:
+#* The generative AIs that the public will still have access to will be crippled.
+#* Everything will require government identification, "to be sure that a real person is doing X".
+#** Online anonymity even for morally correct causes will no longer exist.
+#** World governments will have total control on the population with fallacious appeals to combating first against disinformation, and ultimately "non-morality" (anything the government just doesn't like).
+</div> </dd>
+: <<YoutubeL AOSu6jSMq0M "Uh Oh.. Did AI Just Kill Websites?">> <dd>
+With all the [[Issues of the Modern Web]], and the practical demonstrations of the amazing capabilities of AIs that are already available today, it's not absurd to think that conversational AI could soon kill websites.
+<div>
+
+* Advertisers could probably soon go to AI, because of the potential to deploy even more targeted ads, while simultaneously appearing less invasive to users.
+* Writers and content creators could focus more on the content: not have to deal with SEO issues, and more easily deploy content thanks to APIs provided by the AI services instead of having to construct a website.
+</div> </dd>
+
+: <<RedditLink r/ChatGPT/comments/117gtom/my_friend_is_in_university_and_taking_a_history "My friend is in university and taking a history class. The professor is using ChatGPT to write essays on the history topics and as the assignments, the students have to mark up its essays and point out where ChatGPT is wrong and correct it.">>
+
+: <<YoutubeL ce616lsed9Y "ChatGPT Has A Serious Problem [ColdFusion]">> <div>
+
+* Has political biases (both right and left, more towards the left).
+** Viewpoints that in the future will be recognized as correct, could in the present be obscured by AI because of being deemed incorrect.
+** Potentially the left-leaning bias is intentional because of being good for business.
+</div>
+
+: <<YoutubeL WY518YRfs5M "Generative AI Is About To Reset Everything, And, Yes It Will Change Your Life [Forbes]">>
+: <<YoutubeL jPhJbKBuNnA "I tried using AI. It scared me. [Tom Scott]">> - We're just at the start of the sigmoid curve for adoption of AI yet we're already seeing the disruptions in our world: //everything is about to change//.
+
+!!! ''Developments''
+
+; March 2023
+: <<TwitterLink DYtweetshere/status/1631349179934203904 "AI can now teach itself to use an API">>.
+
+; February 2023
+: [[Voice.ai Stole Open-Source Code, Banned Developer Who Informed Them About This|https://www.theinsaneapp.com/2023/02/voice-ai-stole-open-source-code.html]].
+: [[I made ChatGPT and Bing AI have a conversation (and they are friends now)|https://moritz.pm/posts/chatgpt-bing]].
+: [[Amazon Begs Employees Not to Leak Corporate Secrets to ChatGPT|https://futurism.com/the-byte/amazon-begs-employees-chatgpt]].
+: <<RedditL "/r/bing/comments/110eagl/the_customer_service_of_the_new_bing_chat_is/" "Bing ChatGTP demands an apology from user for claiming it's 2023">>.
+: <<YoutubeL pBtD2JUXfLU "Jailbreaking Bing's Chatbot is WILD!">>.

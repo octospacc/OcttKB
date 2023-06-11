@@ -1,0 +1,34 @@
+created: 20230113230249689
+creator: Octt
+modified: 20230221221847294
+modifier: Octt
+tags: App $:/i18n:en
+title: Standard Notes
+
+An encrypted open-source notes app with a very clean UX.
+
+* Website: [[standardnotes.com|https://standardnotes.com]]
+* Git Repos: [[github.com/standardnotes|https://github.com/standardnotes]]
+
+!!! ''Listed''
+
+''Listed'' is a blogging platform developed by the Standard Notes team, that strongly integrates into the app.
+
+* Website: [[listed.to|https://listed.to]]
+
+!!! ''Other''
+
+; [[Using Standard Notes as a Personal Knowledge Base|https://technosoof.wordpress.com/2020/04/10/using-standard-notes-as-a-personal-knowledge-base/]] - <<mywarc 466>>
+: Need of coping with lack of text-search scoped to only the current note. <dd>
+Browser's integrated search is a decent solution.
+</dd>
+: No actual hyperlinks will force you to manually craft a compact GUID system. <dd>
+GUIDs can't be changed later, so using dates + single letters for types is a needed thing.
+</dd> <dd>
+Separating drafts from normal notes, WIP, etc... is optimal too.
+</dd>
+
+; [[Why Encrypted - Standard Notes|https://standardnotes.com/why-encrypted]] - <<mywarc 409>>
+: Today's popular tech is far from private by default.
+: The lack of actual privacy often makes us self-censor, making us lose ourselves in our writing.
+: When you get privacy, and finally //write like it's nobody's business//, you will have peace of mind.

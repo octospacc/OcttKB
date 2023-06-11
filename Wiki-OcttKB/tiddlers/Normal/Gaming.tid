@@ -1,0 +1,10 @@
+created: 20230116202756249
+creator: Octt
+modified: 20230209150524865
+modifier: Octt
+tags: $:/i18n:en
+title: Gaming
+
+<<MediaWiki Video_game en 2>>
+
+* All games I mentioned on this KB: <$macrocall $name="tag" tag="Game" />

@@ -1,0 +1,56 @@
+tags: $:/tags/Macro
+title: $:/plugins/kookma/refnotes/macros/showabbrs
+type: text/vnd.tiddlywiki
+
+\define showabbrs(filter:"[<currentTiddler>]", dtiddler:"Glossary", title:"Empty", emptyMessage:"")
+<$wikify name="indexes" text=<<find-all-items>> > 
+<$macrocall $name="abbr-list" indexes=<<indexes>> dtiddler=<<__dtiddler__>>  title=<<__title__>> emptyMessage=<<__emptyMessage__>> />
+</$wikify>
+\end
+
+\define patterndb() \[\[|\]\]
+\define pattern()  ('.*?'|".*?"|\S+)
+\define output-item(p)
+<$list filter="""[<__p__>search-replace:g:regexp<patterndb>,["]]""" variable=pars>
+<$list filter="""[<pars>trim[]!prefix[dict:]search-replace[term:],[]splitregexp<pattern>trim[]!is[blank]!prefix[dict:]first[]]""">
+<$text text=<<currentTiddler>>/>
+</$list>
+<$list filter="""[<pars>trim[]prefix[dict:]search-replace[term:],[]splitregexp<pattern>trim[]!is[blank]!prefix[dict:]last[]]""">
+<$text text=<<currentTiddler>>/>
+</$list>
+</$list>
+\end
+
+\define find-all-items()
+<$list filter=<<__filter__>> >
+<$macrocall $name="find" text={{!!text}} begin="<<abbr " end=">>" output="output-item"/>
+</$list>
+\end
+
+
+\define abbr-list(dtiddler, indexes, title:"Empty", emptyMessage:"")
+<$list filter="[<indexes>limit[1]]" variable=null emptyMessage=<<__emptyMessage__>> ><!-- check to see if there is any abbreviations -->
+<$reveal tag="div" type="nomatch" default="Empty" text=<<__title__>> >
+<h2><$text text=<<__title__>> /></h2>
+</$reveal>
+<table class="refnotes-table-borderless">
+<$list filter="""[subfilter<__indexes__>]""" variable="item">
+<tr>
+<td class="refnotes-abbr-term"><$text text=<<item>> /></td>
+<td>
+ <$set name="term" tiddler=<<__dtiddler__>>  index=<<item>>  emptyValue=<<term-not-found>> >
+   <<term>>
+ </$set>
+</td>
+</tr>
+</$list>
+</table>
+</$list>
+\end
+
+
+\define term-not-found()
+<span class="refnotes-abbr-term-not-found">Term not found</span>
+\end
+
+

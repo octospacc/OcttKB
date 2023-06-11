@@ -1,0 +1,10 @@
+created: 20221104183123144
+modified: 20230206111552181
+modifier: Octt
+tags: $:/i18n:en
+title: Keyoxide:en
+
+''Keyoxide'' is a libre, self-hostable tool to create and verify online identities, like different profiles, through cryptography.
+
+* Website, docs, and official instance: https://keyoxide.org
+* Source code: https://codeberg.org/keyoxide

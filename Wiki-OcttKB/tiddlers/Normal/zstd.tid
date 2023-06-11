@@ -1,0 +1,20 @@
+created: 20230215194409423
+creator: Octt
+modified: 20230225142017281
+modifier: Octt
+tags: Libre Algorithm Compression [[Meta Inc]]
+title: zstd
+
+Most efficient compression algorithm available today.
+
+At the maximux compression setting, it has:
+
+* Compression ratio just a bit worse than lzma, better than deflate.
+* Decompression speed much higher than lzma or deflate.
+
+<<iboxL "https://raw.githubusercontent.com/facebook/zstd/master/doc/images/DCspeed5.png">>
+
+<<^WikipediaFrame zstd en>>
+
+* https://facebook.github.io/zstd/
+* https://github.com/facebook/zstd

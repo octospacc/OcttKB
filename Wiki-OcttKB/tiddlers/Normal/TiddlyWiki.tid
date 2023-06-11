@@ -1,0 +1,62 @@
+created: 20220924193842295
+creator: Octt
+icon: 🐈
+modified: 20230530104344609
+modifier: Octt
+page-cover: https://source.unsplash.com/random/?computer-cat
+tags: TiddlyWiki Wiki Zettelkasten Libre
+title: TiddlyWiki
+
+\define TwLL(Tid) [[$Tid$|https://tiddlywiki.com/#$Tid$]]
+
+\define TwL(List)
+|
+<$list filter="$List$">
+  <$macrocall $name="TwLL" Tid=<<currentTiddler>> />
+  |
+</$list>
+\end
+
+[[TiddlyWiki|https://tiddlywiki.com]] is the software upon which this website is built.
+
+It is a libre, JavaScript-rich, non-linear notebook, that can well adapt to anyone's way of building a logically interconnected information database.
+
+<<^wikipediaframe TiddlyWiki en>>
+
+; What I like
+: All your content and app runtime can stay inside a single HTML file; it will probably work fine in browsers in the decades to come.
+: The base software runs both in the web browser (ES5 or higher?) and [[Node.js]]; the latter makes it possibile to export tiddlers to  a file system programmatically, generate static sites, etc...
+: Feature-rich and powerful out of the box, with (up to a certain point) high extensibility.
+: Big community, meaning you can often get help with problems, and many third-party plugins are available.
+: The default configuration works fine on mobile devices, unlike what happens with some plugins.
+
+; What I don't like
+: The Widgets/Filters/Macros systems is based on proprietary paradigms; they are made to allow people without programming experience to do great things, but are cumbersome and hard to learn if you already have common programming experience.
+: [[JavaScript]] extensions are cumbersome, requiring a page reload to work after an edit
+: It's not easy, or sometimes it's not possibile, to extend TiddlyWiki with just pure JavaScript, and trying to do so always requires ugly hacks.
+: Widgets and Filters are essentially an interpreted language working on top of an interpreted language (JS); Since even the app core makes heavy use of them, it suffers from microlags even on modern devices, and can be's almost unusable on very old ones.
+: No built-in tiddler compression and decompression means the HTML file is big by default (~2.3 MB as of v5.2.3) and can get worse with many plugins, causing slow loading and saving if done from and to a network location.
+
+!! ''Useful Resources''
+
+* Official Git Repos: [[TiddlyWiki5 Source|https://github.com/Jermolene/TiddlyWiki5]], [[Others|https://github.com/TiddlyWiki]]
+* Official Docs: [[Standard|https://tiddlywiki.com]], [[Dev|https://tiddlywiki.com/dev]]
+* [[Links Aggregator|https://links.tiddlywiki.org]]
+* [[Grok TiddlyWiki|https://groktiddlywiki.com]] - //Build a deep, lasting understanding of TiddlyWiki//
+* [[TiddlyWiki Toolmap|https://dynalist.io/d/zUP-nIWu2FFoXH-oM7L7d9DM]]
+
+<<{< TiddlyWiki/ThirdParty>>
+
+!!! ''Useful Documentation or Articles''
+* <<TwL " DateFormat ">>
+* <<TwL " [[Filter Operators]] ">>
+* <<TwL " MacroCallWidget SetWidget VarsWidget">>
+* <<TwL " EditTextWidget RangeWidget CheckboxWidget">>
+* <<TwL " [[Table-of-Contents Macros (Examples)]] ">>
+* [[How to Use Unicode Character (emoji) as Icon of Tags|https://dmitryrck.com/unicode-character-icon-of-tags-tiddlywiki/]] <<TwL " [[How to create a custom tiddler icon rule]] ">>
+* [[How To Use Tiddlywiki as a Static Site Generator|https://rpdillon.net/how-to-use-tiddlywiki-as-a-static-site-generator.html]]
+
+<<{< TiddlyWiki/Notes 3>>
+
+!! ''Notes/Personal''
+* [[OcttKB/WIP]]

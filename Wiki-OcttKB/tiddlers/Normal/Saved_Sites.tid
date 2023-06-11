@@ -1,0 +1,39 @@
+created: 20230223222804008
+creator: Octt
+modified: 20230605212940946
+modifier: Octt
+tags: 
+title: Saved/Sites
+
+List of some Internet sites (Web and also other protocols) I want to save, for some reason or another. Sometimes they have interesting content, others I just like the aesthetic, or navigation experience. All here are miscellaneous, look in subpages for categories.
+
+Some personal ones could be defined as "[[digital gardens|Digital Garden]]".
+
+!!! ''[[Blog]]-leaning''
+* [[sitoctt]]
+* [[Akalanka Ekanayake Blog|https://blog.akalanka.uk/]] --- It's a curious blog, mainly deals with IT subject but the theme/style looks like a fashion blog lmao
+* [[Eli Grey|https://eligrey.com/]]
+* [[Gianmarco Gargiulo|https://gianmarco.gg]]
+* [[Read the Tea Leaves|https://nolanlawson.com/]] --- //Software and other dark arts, by Nolan Lawson//
+* [[λ ryan. himmelwright. net|https://ryan.himmelwright.net/]]
+* [[Simon Willison’s Weblog|https://simonwillison.net/]] --- <<[ "[[Git|https://github.com/simonw/simonwillisonblog]]">>
+* [[There oughta be...|https://there.oughta.be/]] --- //A collection of overcomplicated devices nobody needs//
+
+!!! ''[[Book]]-leaning''
+* [[Ledom Software|https://ledomsoft.com]]
+* [[Hundred Rabbits|https://100r.co/]] --- <<[ "[[Git|https://github.com/hundredrabbits/100r.co]]">>
+
+!!! ''[[Wiki]]-leaning''
+* [[WikiHands|https://wikihands.github.io]]
+* [[WikiSpacc]]
+* Andrea Minini PKB: [[.com|https://www.andreaminini.com]], [[.org|https://www.andreaminini.org]]
+** [[How (by Okpedia)|https://how.okpedia.org/]] --- //Tutorials and Solutions KB// --- (apparently a separate wiki of the same person above, also multi-language)
+* [[Computer Science Mojo|https://csmojo.com]] --- //David's Notes on coding, software and computer science// --- <<[ "[[Git|https://github.com/zhenyufu/zhenyufu.github.io]]">>
+* [[Maggie Appleton|https://maggieappleton.com/]] --- <<[ "[[Git|https://github.com/MaggieAppleton/maggieappleton.com-V2]]">>
+* [[rdpillon|https://rpdillon.net/]] --- //Rick's Home Online//
+* [[wiki.nikiv.dev|https://wiki.nikiv.dev/]] --- <<[ "[[Git|https://github.com/nikitavoloboev/knowledge]]">>
+* [[XXIIVV|https://wiki.xxiivv.com/]] --- <<[ "[[Git|https://github.com/XXIIVV/oscean]]">>
+
+!!! Mess-leaning <small>(often the most creative)</small>
+* [[samy.pl|https://samy.pl/]] - Website full of easter eggs by the same <<YoutubeL OJ1pEAdFLP8 "person who once hacked MySpace">>.
+** One easter egg is the client source code is hidden as a binary-encoded string represented by spaces and tabs; The server providing the data uses something (headers? but also other stuff) to only serve the real HTML to a browser; curl/wget without all the browser headers (and a browser after a reload in `view-source:` ?) get a fake HTML. <<#[ "Older but more in-depth analysis" "https://t.me/ioctt/19280">>

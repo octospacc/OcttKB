@@ -1,0 +1,4 @@
+created: 20221104182610250
+list: $:/core/ui/Buttons/more-tiddler-actions $:/core/ui/Buttons/info $:/core/ui/Buttons/new-here $:/core/ui/Buttons/new-journal-here $:/core/ui/Buttons/clone $:/core/ui/Buttons/export-tiddler $:/core/ui/Buttons/delete $:/core/ui/Buttons/fold $:/core/ui/Buttons/permalink $:/plugins/tiddlywiki/text-slicer/ui/slice-toolbar-button $:/core/ui/Buttons/edit $:/core/ui/Buttons/permaview $:/core/ui/Buttons/open-window $:/core/ui/Buttons/close-others $:/plugins/tiddlywiki/qrcode/ViewToolbarButton $:/core/ui/Buttons/close $:/core/ui/Buttons/fold-others $:/core/ui/Buttons/fold-bar
+modified: 20221109160746501
+title: $:/tags/ViewToolbar

@@ -1,0 +1,18 @@
+#!/bin/sh
+mkdir -p ./public
+cd ./public
+
+# Build single-page no-JS wiki
+tiddlywiki \
+  --load ./index.html \
+  --output ./ \
+  --rendertiddler $:/core/templates/static.template.css Style.css text/plain \
+  --rendertiddler $:/core/templates/alltiddlers.template.html Static.html text/plain
+
+# Apply patches to the static HTML
+python3 ../PatchStatic.py ./Static.html
+
+# Deploy copies of immediately previous versions
+Url="https://kb.octt.eu.org"
+wget -O ./-1.html "$Url"         || true
+wget -O ./-2.html "$Url/-1.html" || true

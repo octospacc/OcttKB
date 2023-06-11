@@ -1,0 +1,27 @@
+created: 20230110181206539
+modified: 20230110182005662
+tags: 
+title: $:/OcttKB/TagCloud
+
+\import [[$:/ThirdParty/TiddlyTools/FilterGenerators/TagCloud]]
+
+\define config()  $:/config/TiddlyTools/TagCloud
+\define options() $:/state/popup/tagcloud
+\define default_min()   0.75
+\define default_step()  0.25
+\define default_max()   3.00
+\define default_group() 5
+
+<style>
+.tc-tag-label { white-space: normal !important; }
+.tc-tag-list-item { padding: 2px; }
+   .tt-tagcloud input        { width:auto !important; }
+   .tt-tagcloud input.option { width:3em  !important; text-align:right; }
+</style>
+
+<div class="tt-tagcloud">
+<!--<<tagcloud_select>>--->
+<!--<$set name=taglist filter="[<config>get[taglist]enlist-input[]]">--->
+<$set name=taglist filter="[tags[]!is[system]]">
+<!--<<tagcloud_summary>>--->
+<<tagcloud_show>>

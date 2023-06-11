@@ -1,0 +1,39 @@
+.Music FÜGENE 01 | GotAny: true
+.Music FÜGENE 02 | GotAny: true
+.Music FÜGENE 03 | GotAny: true
+.Music FÜGENE 04 | GotAny: true
+.Music FÜGENE Remixes | GotAny: true
+.Music PopSlinger (Original Soundtrack) | GotAny: true
+.Music PopSlinger (Original Soundtrack) | GotLossless: true
+.Music SPD GAR 001 | GotAny: true
+.Music SPD GAR 002 | GotAny: true
+.Music SPD GAR 003 | GotAny: true
+.Music STYLEY! Vol. 1 | GotAny: true
+.Music STYLEY! Vol. 2 | GotAny: true
+.Music STYLEY! Vol. 3 | GotAny: true
+.Music STYLEY! Vol. 4 | GotAny: true
+created: 20220921195911403
+creator: Octt
+modified: 20230508213259800
+modifier: Octt
+tags: Archiving Music
+title: $:/Octt/Music Archiving Status/(Misc)
+type: text/vnd.tiddlywiki
+
+<$importvariables filter="$:/Macros [[$:/Macros/Music Archiving Status]]">
+
+<<Table """
+<<r "FÜGENE 01">>
+<<r "FÜGENE 02">>
+<<r "FÜGENE 03">>
+<<r "FÜGENE 04">>
+<<r "FÜGENE Remixes">>
+<<r "SPD GAR 001">>
+<<r "SPD GAR 002">>
+<<r "SPD GAR 003">>
+<<r "STYLEY! Vol. 1">>
+<<r "STYLEY! Vol. 2">>
+<<r "STYLEY! Vol. 3">>
+<<r "STYLEY! Vol. 4">>
+<<r "[[PopSlinger (Original Soundtrack)|https://neoncityrecords.bandcamp.com/album/popslinger-original-soundtrack]]">>
+""">>

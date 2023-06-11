@@ -1,0 +1,22 @@
+created: 20141211131633372
+creator: Tobias Beer
+modified: 20230225142836580
+modifier: Octt
+tags: $:/tags/Macro
+title: $:/ThirdParty/tobibeer/ibox
+
+\define ibox(image, caption, template:"$:/ThirdParty/tobibeer/ibox/Lightbox", btn-class:"ibox-btn", direct)
+<$reveal type=match text="" default="$direct$"><$button class="$btn-class$"><$action-sendmessage $message="tm-modal" $param="$template$" image="$image$" caption="$caption$"/><$image source="$image$"/></$button></$reveal><$reveal type=nomatch text="" default="$direct$"><$button class="$btn-class$"><$action-sendmessage $message="tm-modal" $param="$image$"/><$image source="$image$"/></$button></$reveal><style>
+.ibox-btn {
+  padding: 5px;
+}
+
+.ibox-btn img {
+  width: 150px;
+}
+
+.tc-modal .tc-modal-body > div > img {
+  width: 100%;
+}
+</style>
+\end

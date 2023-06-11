@@ -1,0 +1,13 @@
+created: 20230429190756464
+creator: Octt
+modified: 20230429190812234
+modifier: Octt
+tags: 
+title: JavaScript/Frameworks
+
+* ''[[Alpine.js|https://alpinejs.dev/]]'' - //Rugged, minimal<<fnote "15 attributes, 6 properties, 2 methods">> framework for composing JavaScript behavior in the markup// - [[[Git|https://github.com/alpinejs/alpine]]]
+** [[HyperJS|https://js.hyperui.dev/]] - //Collection of Alpine JS components// - <<[ "[[Git|https://github.com/markmead/hyperjs]]">> 
+* ''[[Electron|https://www.electronjs.org/]]'' - //Build cross-platform desktop apps with JavaScript, HTML, and CSS// - [[[Git|https://github.com/electron]]]
+* ''[[React|https://reactjs.org/]]'' - //Building UI-oriented apps with [[JSX|https://en.wikipedia.org/wiki/JSX_(JavaScript)]]// - [[[Git|https://github.com/facebook/react]]]
+** ''[[React Native|https://reactnative.dev/]]'' - //Compiling ReactJS apps to native ones// - [[[Git|https://github.com/facebook/react-native]]]
+* ''[[Tauri|https://tauri.app/]]'' - //Use Rust to build desktop and mobile apps with a web frontend// - [[[Git|https://github.com/tauri-apps/]]]

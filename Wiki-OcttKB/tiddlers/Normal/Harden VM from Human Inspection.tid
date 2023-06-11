@@ -1,0 +1,57 @@
+created: 20230611175832034
+creator: Octt
+modified: 20230611191622421
+modifier: Octt
+tags: [[Virtual Machine]] ToDo
+title: Harden VM from Human Inspection
+
+In some situations in which using a virtual machine to perform certain tasks isn't allowed, or could simply raise suspicion, hardening the VM to avoid manual human inspection could be necessary.
+
+!! Pop!_OS Host + VMWare
+
+!!! Preparations
+
+Ensure the configured guest OS runs at the same screen resolution as the host system, to avoid black borders and/or stretching.
+
+If this is not possible for some reason:
+
+# In the guest OS, choose a resolution with the closest aspect ratio possible to the host.
+# With the VM still booted in Workstation, go to View > Autosize: Stretch Guest.
+# Configure font and UI scaling in the guest OS to satisfactory levels (good size for you and minimal blurring).
+
+!!! Startup measures
+
+In case the inspector asks you to reboot the machine, it's useful to have it immediately start up in the VM, without other UIs or logos beforehand.
+
+* No bootup logos or logs: this should already be the default on Pop!_OS I think.
+* User autologin: Users > Your user > Automatic Login.
+* Better desktop: Since the desktop could show for a split second on login, set a fully black background to reduce visible screen flashing: Background > Add picture, and select a fully black image file.
+
+!!!! VM autostartup
+
+We need the VM to autostart and avoid showing the desktop, or VMWare BIOS logo.
+
+# Install this package from APT: `wmctrl`
+# Make sure this line is present in the file `$HOME/.vmware/preferences`: `pref.vmplayer.fullscreen.nobar = "TRUE"`
+
+First, create a new profile in `gnome-terminal`, name it something unique, for example "VmWrapperTerminal".
+
+Finally, go to Startup Applications > Add, and create a new item with whatever name and the following command:
+
+```sh
+sh -c 'gnome-terminal --full-screen --title=VmWrapperTerminal --profile=VmWrapperTerminal --command "sleep 20" & sleep 5; wmctrl -r VmWrapperTerminal -b add,above; vmplayer --fullscreen "/path/to/your/VM/VM.vmx"'
+```
+
+This command first creates a full-screen gnome-terminal window, using our prepared profile and, importantly, with an unique name (to avoid confusion, you can set it equal to the special profile name). The window starts as non-blocking and simply runs a `sleep` command of enough seconds to make sure that our VM will start up and will have already gone past the VMWare BIOS logo; it will close itself after the fact. A few second wait is used immediately after this for good measure (making sure the window is spawned), and then our terminal window is made as "Always on top". Finally, the VM begins startup behind the black terminal window.
+
+Make sure to set the terminal window title, terminal profile name, terminal window wait, and VM .vmx path according to your needs and system configuration.
+
+!!! Misc desktop tweaks
+
+* No notifications: Notifications > Do Not Disturb.
+* Never turn off: Power > Screen Blank: Never; Automatic Suspend: Off.
+* Ensure you have no running applications that could spawn pop-up windows (e.g: Telegram Desktop, Steam, ...)
+
+!! This is not perfect!
+
+In the current explanations, there are a few holes. While even an expert inspector could never know for sure that you are using a VM, they could still see that something strange is going on on the computer and be suspicious. It's your responsibility to never show too much.

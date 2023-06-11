@@ -1,0 +1,27 @@
+created: 20230217100639349
+creator: Octt
+modified: 20230228113128982
+modifier: Octt
+tags: Web
+title: Web Browser
+
+<<^wikipediaframe "Web Browser">>
+
+!!! [[Chromium|https://chromium.org]]
+
+; Forks
+: [[Ungoogled Chromium|https://github.com/ungoogled-software]]
+: [[Bromite|https://bromite.org]] (Android)
+
+!!! [[Firefox|https://firefox.com]]
+
+* https://www.maketecheasier.com/install-addon-firefox-android/
+
+; Forks
+: [[LibreWolf|https://librewolf.net]] (Desktop)
+: <<FDroidLink org.mozilla.fennec_fdroid "Fennec F-Droid">> (Android)
+: [[CENO Browser|https://censorship.no/en/index.html]] (Android) - //Short for censorship.no!, is the world’s first mobile browser that side-steps current Internet censorship methods. Its peer-to-peer backbone allows people to access and share web information in and across regions where connectivity has been interrupted or compromised.// - <<[ "[[Git|https://gitlab.com/censorship-no]]">>
+
+!!! <<FlathubLink org.gnome.Epiphany "Epiphany">>
+
+* https://gitlab.gnome.org/GNOME/epiphany

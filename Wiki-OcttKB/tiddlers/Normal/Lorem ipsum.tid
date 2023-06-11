@@ -1,0 +1,10 @@
+created: 20230221193426944
+creator: Octt
+modified: 20230413090605856
+modifier: Octt
+tags: $:/Apps Latin
+title: Lorem ipsum
+
+<<^wikipediaframe "Lorem ipsum">>
+
+<<^iFrame "https://www.lipsum.com/feed/html" Title:"5 paragraphs of Lorem ipsum">>

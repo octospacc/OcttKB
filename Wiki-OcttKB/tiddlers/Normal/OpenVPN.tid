@@ -1,0 +1,12 @@
+created: 20230213172417684
+creator: Octt
+modified: 20230213173140940
+modifier: Octt
+tags: VPN Libre
+title: OpenVPN
+
+<<MediaWiki OpenVPN en 5>>
+
+* https://openvpn.net/
+* https://github.com/OpenVPN
+* [[Android]] Client: [<<FDroidLink de.blinkt.openvpn>>] [<<GPlayLink de.blinkt.openvpn>>] [[[Git|https://github.com/schwabe/ics-openvpn]]]

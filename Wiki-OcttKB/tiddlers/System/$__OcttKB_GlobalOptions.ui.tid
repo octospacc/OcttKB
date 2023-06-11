@@ -1,0 +1,27 @@
+created: 20230413080548417
+creator: Octt
+list-before: $:/core/ui/SideBarSegments/search
+modified: 20230413124924940
+modifier: Octt
+tags: $:/tags/SideBarSegment
+title: $:/OcttKB/GlobalOptions.ui
+
+<details class=tw-details>
+<summary>
+  <b>Options</b>
+  (<$set name=NumTotal filter_="[has:field[Enabled]count[]]" filter="[tag[$:/GlobalOption]count[]]">
+    <$set name=NumEnabled filter="[tag[$:/GlobalOption]Enabled[1]count[]]">
+      <<NumEnabled>>/<<NumTotal>>
+    </$set>
+  </$set>)
+</summary>
+<style>
+  label {
+    display: inline-block;
+    width: 100%;
+  }
+</style>
+{{$:/OcttKB/Config/LargeSidebar.ui}}
+<br/><br/>
+{{$:/OcttKB/Config/AiLinks.ui}}
+</details>

@@ -1,0 +1,4 @@
+#!/bin/sh
+. ./Src.*.sh || true
+SetupGitProfile
+TryCrossRepoSync

@@ -1,0 +1,16 @@
+created: 20230206190107127
+creator: Octt
+modified: 20230221223445734
+modifier: Octt
+tags: Git Proprietary
+title: GitHub
+
+* https://GitHub.com
+
+<<^wikipediaframe GitHub en>>
+
+!!! ''Tools''
+
+* [[nightly.link|https://nightly.link]] - //Downloads the latest "nightly" build/artifact from a continuous testing workflow without logging in// - [[[Git|https://github.com/oprypin/nightly.link]]]
+* [[utterances 🔮|https://utteranc.es/]] - //lightweight comments widget built on GitHub ''Issues''// - <<[ "[[Git|https://github.com/utterance]]">>
+* [[giscus 💎|https://giscus.app/]] - //lightweight comments widget built on GitHub ''Discussions''// - <<[ "[[Git|https://github.com/giscus]]">>

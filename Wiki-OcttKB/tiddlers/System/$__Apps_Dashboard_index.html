@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+:Root {
+	--BodyMargin: 8px;
+}
+
+Body {
+	Text-Align: Center;
+	User-Select: None;
+	Font-Family: Sans-Serif;
+	Margin: Var(--BodyMargin);
+}
+
+A {
+	Color: #000000;
+	Text-Decoration: None;
+}
+Ul {
+	Text-Align: Left;
+	List-Style: None;
+	Column-Count: 1;
+	Margin-Top: 8px;
+	Margin-Bottom: 8px;
+	Padding-Left: 0px;
+	Padding-Right: 0px;
+}
+Li {
+	Line-Height: 1.75em;
+	Font-Size: Larger;
+	Padding-Left: 8px;
+	Padding-Right: 8px;
+}
+Li:Hover {
+	Background: LightGray;
+}
+
+.SimpleList Li {
+	Width: Fit-Content;
+	White-Space: NoWrap;
+}
+
+.TextLineImg {
+	Width: 1em;
+	Height: 1em;
+	Vertical-Align: Text-Top;
+	Padding-Right: 8px;
+}
+.Margin4 {
+	Margin: 4px;
+}
+
+.Dropdown {
+	/*Position: Relative;*/
+	/*Display: Inline-Block;*/
+}
+.DropdownBtn {
+	Cursor: Pointer;
+	Background: LightGray;
+	Color: Black;
+}
+.DropdownBody {
+	Display: None;
+	Position: Absolute;
+	Width: Max-Content;
+	Background: White;
+	Box-Shadow: 0px 8px 8px 0px RGBA(0,0,0,0.2);
+	Z-Index: 1;
+}
+.DropdownBtn:Hover ~ .DropdownBody,
+.DropdownBody:Hover {
+	Display: Block;
+	/*Position: Absolute;*/
+}
+.Dropdown Li {
+	Cursor: Pointer;
+	Text-Align: Center;
+}
+.SearchDiv {
+	Width: Max-Content;
+}
+.DropdownBtn, Input[Type="Text"] {
+	Font-Size: Larger;
+}
+</style>
+</head>
+<body>
+<div id="ClockDiv" style="/*Margin: Calc(Var(--BodyMargin) * -1); Background:Black; Color: White;*/">
+	<h2 id="ClockTime" class="Margin4"></h2>
+	<p id="ClockDate" class="Margin4"></p>
+</div>
+<hr>
+<table id="SearchDiv"><tr>
+<td>
+	<div class="Dropdown">
+		<button class="DropdownBtn" id="EnginesBtn" style="Width:Max-Content;"><img id="EnginesCurrentIcon" class="TextLineImg" style="Vertical-Align:Sub;"><span id="EnginesCurrent"></span></button>
+		<div class="DropdownBody" id="EnginesDropdown">
+			<ul id="EnginesList"></ul>
+		</div>
+	</div>
+</td><td style="Width:100%;">
+	<input type="text" id="SearchInput" onfocus="this.select();" style="Width:Calc(100% - Var(--BodyMargin));">
+</td>
+</tr></table>
+<ul id="BookmarksList" class="SimpleList"></ul>
+
+<script>
+const SearchEngines = {
+	"Whoogle": "https://www.whoogle.click/search?q=",
+	"Wikipedia [<tt>EN</tt>]": "https://en.wikipedia.org/w/index.php?search=",
+	"Wikipedia [<tt>IT</tt>]": "https://it.wikipedia.org/w/index.php?search=",
+	"Invidious": "https://invidious.baczek.me/search?q=",
+	"WordReference [<tt>EN-&gt;IT</tt>]": "https://www.wordreference.com/enit/",
+	"WordReference [<tt>IT-&gt;EN</tt>]": "https://www.wordreference.com/iten/"
+};
+
+const Bookmarks = `
+http://octt.ddns.net:8017 FreshRSS;
+http://octt.ddns.net:8036 Wallabag;
+https://cryptpad.devol.it/drive CryptPad;
+https://www.deepl.com/translator DeepL;
+https://gitea.it Gitea;
+https://github.com GitHub;
+https://gitlab.com GitLab;
+https://librespeed.org LibreSpeed;
+https://odysee.com Odysee;
+https://www.openstreetmap.org OpenStreetMap;
+https://app.standardnotes.com Standard Notes;
+https://temp-mail.org/en Temp Mail;
+https://voidlinux.org/packages Void Linux/Packages;
+https://www.wikipedia.org Wikipedia;
+https://mail.yahoo.com Yahoo Mail;
+`;
+
+function GetImgAverageColor(Img) {
+	const colorThief = new ColorThief();
+	if (Img.complete) {
+		return colorThief.getColor(Img);
+	} else {
+		image.addEventListener("load", function() {
+			return colorThief.getColor(Img);
+		});
+	};
+};
+
+/* https://stackoverflow.com/a/2998874 */
+function ZeroPad(Num, Pad) {
+	var Zero = Pad - Num.toString().length + 1;
+	return Array(+(Zero > 0 && Zero)).join("0") + Num;
+};
+function TimePad(Num) {
+	return ZeroPad(Num, 2);
+};
+
+function SetTime() {
+	let Time = new Date();
+	let Y = Time.getFullYear();
+	let M = TimePad(Time.getMonth() + 1);
+	let D = TimePad(Time.getDate()); /* Month day */
+	let N = Time.getDay(); /* Week day */
+	let h = TimePad(Time.getHours());
+	let m = TimePad(Time.getMinutes());
+	let s = TimePad(Time.getSeconds());
+	ClockTime.textContent = h + ":" + m + ":" + s;
+	ClockDate.textContent = Y + "-" + M + "-" + D;
+};
+
+function GetFavicon(URL) {
+	return "https://icons.duckduckgo.com/ip3/" + URL.replace(/^https?:\/\//, "").split("/")[0] + ".ico";
+};
+function GetLineFavicon(URL) {
+	return '<img class="TextLineImg" src="' + GetFavicon(URL) + '">'
+};
+
+function LoadBookmarks() {
+	let UlURLs = "";
+	let List = Bookmarks.trim().split(";");
+	for (let i=0; i<List.length; i++) {
+		let Item = List[i].trim();
+		if (Item) {
+			let Split = Item.indexOf(" ");
+			let Href = Item.substring(0, Split);
+			let Name = Item.substring(Split+1);
+			UlURLs += '<li><a href="' + Href + '" target="_blank" rel="noopener">' + GetLineFavicon(Href) + Name + '</a></li>';
+		};
+	};
+	BookmarksList.innerHTML += UlURLs;
+};
+
+function LoadSearchEngines() {
+	EnginesCurrent.innerHTML = Object.keys(SearchEngines)[0];
+	EnginesCurrentIcon.src = GetFavicon(SearchEngines[EnginesCurrent.innerHTML]);
+	Object.keys(SearchEngines).forEach(function(Key) {
+		EnginesList.innerHTML += "<li onclick=\"EnginesCurrent.innerHTML=`" + Key + "`; EnginesCurrentIcon.src=`" + GetFavicon(SearchEngines[Key]) + "`;\">" + GetLineFavicon(SearchEngines[Key]) + Key + "</li>";
+	});
+};
+
+function ClockDateToggle() {
+	ClockDate.hidden = !ClockDate.hidden;
+};
+ClockDiv.onclick = ClockDateToggle;
+
+SearchInput.onkeydown = function(e) {
+	if (e.keyCode == 13) {
+		// Only open search URL if textbox contains text, else open parent path (often site root)
+		window.open(SearchInput.value ? SearchEngines[EnginesCurrent.innerHTML] + SearchInput.value : SearchEngines[EnginesCurrent.innerHTML].split("/").slice(0,-1).join("/"));
+	};
+};
+
+EnginesBtn.onclick = function() {
+	
+};
+EnginesBtn.onmouseenter = function() {
+	
+};
+EnginesBtn.onmouseleave = function() {
+	
+};
+
+setInterval(() => {
+	SetTime();
+}, 150);
+
+LoadBookmarks();
+LoadSearchEngines();
+</script>
+</body>
+</html>

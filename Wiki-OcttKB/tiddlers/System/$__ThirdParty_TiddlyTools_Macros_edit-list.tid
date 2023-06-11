@@ -1,0 +1,454 @@
+created: 20191214071309583
+creator: EricShulman
+modified: 20230109220547803
+modifier: EricShulman
+tags: $:/tags/Macro TiddlyTools
+title: $:/ThirdParty/TiddlyTools/Macros/edit-list
+
+\define edit-list(
+         id:"",         tiddler:"",        field:"text",      index:"",  timestamp:"yes",
+    default:"",     placeholder:"",      tooltip:"",           type:"",      width:"15em",
+     filter:"",            find:"",         goto:"no",      confirm:"no",    focus:"no",
+ focusPopup:"",    cancelPopups:"no",  listwidth:"100%", listheight:"10",  stretch:"no",
+       show:"no",      fontsize:"100%",   colors:"no",     multiple:"no",     view:"<<item>>", mobile:"auto"
+)
+\whitespace trim
+\define filter() $filter$
+<!----------------->
+<!-- ENVIRONMENT -->
+<!----------------->
+<$vars   tid={{{ [[$tiddler$]!match[]else<currentTiddler>] }}} re="[^a-zA-Z0-9\-\_]">
+<$vars    id={{{ [[$index$]!match[]else[$field$]] +[addprefix[/]addprefix<tid>addsuffix[_$id$]] }}}>
+<$vars    id={{{ [<id>search-replace[$:/],[]search-replace:g:regexp<re>,[_]addsuffix<qualify>search-replace:g:[--],[-]search-replace:g:[__],[_]] }}}>
+<$vars modal={{{ [[$:/state/modal/edit-list/]addsuffix<id>]  }}}>
+<$vars popup={{{ [[$:/state/popup/edit-list/]addsuffix<id>]  }}}>
+<$vars popup={{{ [<filter>!match[]] [[$type$]match[calendar]] +[limit[1]then[$show$]match[no]then<popup>]  }}}>
+<$vars minmax={{{ [[$:/state/popup/edit-list/minmax/]addsuffix<id>] }}}>
+<!--------------->
+<!-- VARIABLES -->
+<!--------------->
+<$vars
+       field={{{ [[$index$]match[]then[$field$]else[]] }}}     index="""$index$"""     timestamp="""$timestamp$""" goto_button={{{ [[$goto$]match[yes]] }}}
+     default="""$default$""" placeholder="""$placeholder$""" tooltip="""$tooltip$"""       width={{{ [[$width$]match[auto]then[15em]else[$width$]] }}}
+      filter=<<filter>>             find="""$find$"""        confirm="""$confirm$"""   listwidth={{{ [[$listwidth$]match[fit]then[auto]else[$listwidth$]] }}}
+  listheight="""$listheight$"""     show="""$show$"""       fontsize="""$fontsize$"""    stretch={{{ [[$stretch$]match[yes]then[auto]else[$stretch$]] }}}
+       focus="""$focus$"""    focusPopup={{{ [[$focusPopup$]!match[]then<popup>else[$focusPopup$]] }}} multiple={{{ [[$multiple$]match[yes]] }}}
+    calendar={{{ [[$type$]match[calendar]then[TiddlyTools/Time/Calendar]is[tiddler]then[yes]] }}}
+        type={{{ [[$type$]match[calendar]then[TiddlyTools/Time/Calendar]is[missing]then[date]else[$type$]] }}}
+        show={{{ [[$type$]match[calendar]then[TiddlyTools/Time/Calendar]is[missing]then[no]else[$show$]] }}}
+>
+<!------------------->
+<!-- ABBREVIATIONS -->
+<!------------------->
+<$vars
+   openpopup="""
+      <$action-deletetiddler $filter="[prefix[$:/state/popup/edit-list/]] -[prefix[$:/state/popup/edit-list/currentitem/]] -[<minmax>]"/>
+      <$action-setfield $tiddler=<<popup>> text="show"/>"""
+   closepopup="""
+      <$action-deletetiddler $filter="[<popup>]"/>"""
+   gotoinput="""
+      <$action-sendmessage $message="tm-focus-selector" $param={{{ [[.editlist_input_]addsuffix<id>] }}}/>"""
+   gotoselect="""
+      <$action-sendmessage $message="tm-focus-selector" $param={{{ [[.editlist_popup_select_]addsuffix<id>] }}}/>"""
+   startmodal="""
+      <$list filter="[<confirm>match[yes]then<modal>!is[tiddler]]"><$action-setfield $tiddler=<<tid>> title=<<modal>>/>"""
+   maximize="""
+      <$action-setfield $tiddler=<<minmax>> hmax="yes" vmax="yes"/>"""
+   minimize="""
+      <$action-deletetiddler $filter="[<minmax>]"/>"""
+   input="""
+      <$eventcatcher  $focusin="<$list filter='[<focusPopup>!match[]]'><<openpopup>></$list><<startmodal>>">
+      <$eventcatcher $focusout="<$list filter='[<modal>!is[tiddler]]'><<closepopup>></$list>">
+      <$edit-text tiddler={{{ [<modal>is[tiddler]else<tid>] }}} class={{{ [[tc-popup-handle editlist_input editlist_input_]addsuffix<id>] }}}
+         tag="input" type=<<type>> field=<<field>> index=<<index>> default=<<default>> placeholder=<<placeholder>> cancelPopups="$cancelPopups$"
+         focus={{{ [<modal>is[tiddler]then[yes]else<focus>] }}} focusPopup={{{ [[$focusPopup$]!match[yes]then[$focusPopup$]] }}}/>"""
+   select="""
+      <$eventcatcher  $focusin="<<openpopup>><<startmodal>>">
+      <$eventcatcher $focusout="<$list filter='[<modal>!is[tiddler]]'><<closepopup>></$list>">
+      <$eventcatcher    $click="<$list filter='[<modal>!is[tiddler]then<multiple>!match[yes]]'><<closepopup>><<goto>></$list>">
+      <<editlist_select_showheading>>
+      <$select tiddler={{{ [<modal>is[tiddler]else<tid>] }}} field=<<field>> index=<<index>> multiple=<<multiple>>
+         class={{{ [[editlist_select editlist_popup_select_]addsuffix<id>] }}} size={{{ [<minmax>get[vmax]match[yes]then[2]] ~[<listheight>regexp[^\d+$]!match[1]else[2]] }}}>
+         <<editlist_select_showlist>>"""
+   option="""
+      <$vars fg={{{ [enlist<dark>match<item>then[white;]else[black;]] }}}>
+      <$vars colors={{{ [[$colors$]match[yes]then[background-color:]addsuffix<item>addsuffix[;color:]addsuffix<fg>] }}}>
+      <option style=<<colors>> value=<<item>> title=<<item>>> $view$ </option>"""
+   dark="""
+      Black Blue DarkBlue DarkGreen DarkOliveGreen DarkSlateBlue DarkSlateGrey DimGrey ForestGreen Grey Indigo Maroon MediumBlue MidnightBlue Navy Purple"""
+   save="""
+      <$list filter="[<modal>is[tiddler]]">
+      <$vars newval={{{ [<modal>getindex<index>] ~[<modal>get<field>] }}}>
+      <$action-setfield $timestamp=<<timestamp>> $tiddler=<<tid>> $field=<<field>> $index=<<index>> $value=<<newval>>/>
+      <$list filter="[<newval>match[]]"><<clear>></$list>"""
+   clear="""
+      <$action-setfield $timestamp=<<timestamp>> $tiddler=<<tid>> $field=<<field>> $index=<<index>> $value=""/><!-- WFFL -->
+      <$action-deletetiddler $tiddler=<<currentitem>>/>
+      <<closepopup>><<gotoinput>>"""
+   done="""
+      <$action-deletetiddler $filter="[<modal>] [<popup>]"/>"""
+   goto="""
+      <$list filter="[[$goto$]match[yes]]">
+      <$vars tid={{{ [<modal>is[tiddler]else<tid>] }}}>
+      <$list filter="[<multiple>!match[yes]]"><$action-navigate $to={{{ [<tid>getindex<index>] ~[<tid>get<field>] }}}/></$list>
+      <$list filter="[<multiple>match[yes]]" ><$list filter="[<tid>getindex<index>] ~[<tid>get<field>] +[enlist-input[]]"><$action-navigate/></$list></$list>"""
+   reset="""
+      <$list filter="[<modifier>match[shift]]"><$action-setfield $timestamp=<<timestamp>> $tiddler=<<tid>> $field=<<field>> $index=<<index>>/></$list>
+      <$list filter="[<index>!match[]then<tid>get[text]match[{}]]">
+      <$action-setfield $timestamp=<<timestamp>> $tiddler=<<tid>> $field="text"/>
+      <$action-setfield $timestamp=<<timestamp>> $tiddler=<<tid>> $field="type"/>"""
+>
+<!-------------------->
+<!-- MOBILE LISTBOX -->
+<!-------------------->
+<$vars
+   currentitem=
+      {{{ [[$:/state/popup/edit-list/currentitem/]addsuffix<id>] }}}
+   showitem="""
+      <$list filter='[<sel>!match[]]' emptyMessage="<input type=checkbox tabindex=-1/>"><input type=checkbox checked=yes tabindex=-1/></$list>
+      <$text text=$view$/>"""
+   toggleitem="""
+      <$list filter='[<multiple>!match[yes]]'><$action-setfield $tiddler=<<curr>> $field=<<field>> $index=<<index>> $value={{{ [<sel>match[]then<item>] }}}/></$list>
+      <$list filter='[<multiple>match[yes]]' ><$action-listops  $tiddler=<<curr>> $field=<<field>> $index=<<index>> $subfilter='+[toggle<item>]'           /></$list>"""
+   trackitem="""
+      <$action-setfield $tiddler=<<currentitem>> offset=<<i>> item=<<item>>/>"""
+   gotoitem="""
+      <$vars i={{{ [<currentitem>get[offset]else<i>] }}}>
+      <$vars i={{{ [<count>!match[]then<i>min<count>max[1]else<i>] }}}>
+      <$action-sendmessage $message="tm-focus-selector" $param={{{ [[.editlist_popup_select_]addsuffix<id>addsuffix[_]addsuffix<i>] }}}/>
+      <$action-deletetiddler $tiddler=<<currentitem>>/>"""
+   select_mobile="""
+      <$eventcatcher  $focusin="<<openpopup>><<startmodal>>">
+      <$eventcatcher $focusout="<$list filter='[<modal>!is[tiddler]]'><<closepopup>></$list>">
+      <$eventcatcher    $click="<$list filter='[<modal>!is[tiddler]then<multiple>!match[yes]]'><<closepopup>><<goto>></$list>">
+      <<editlist_select_showheading>>
+      <$vars listwidth={{{ [<listwidth>match[100%]then<width>else<listwidth>] }}}>
+      <$wikify name="fg" text=<<colour select-tag-foreground>>><$vars fg={{{ [<fg>!match[]then<fg>else[black;]] }}}>
+      <$wikify name="bg" text=<<colour select-tag-background>>><$vars bg={{{ [<bg>!match[]then<bg>else[white;]] }}}>
+      <$keyboard key="down" actions="<$vars i=1><<gotoitem>>">
+      <button class={{{ [[editlist_select editlist_popup_select_]addsuffix<id>] }}}
+         style={{{ [[border:1px solid gray;padding:0;white-space:nowrap;vertical-align:bottom;color:]addsuffix<fg>addsuffix[;background-color:]addsuffix<bg>] }}}>
+         <$vars curr={{{ [<modal>is[tiddler]else<tid>] }}}><$vars val={{{ [<curr>getindex<index>] ~[<curr>get<field>] }}}>
+         <<editlist_select_showlist>>"""
+   option_mobile="""
+      <$keyboard key="home"      actions="<$vars i=1                                ><<gotoitem>>">
+      <$keyboard key="up"        actions="<$vars i={{{ [<i>subtract[1]]          }}}><<gotoitem>>">
+      <$keyboard key="page_up"   actions="<$vars i={{{ [<i>subtract<listheight>] }}}><<gotoitem>>">
+      <$keyboard key="page_down" actions="<$vars i={{{ [<i>add<listheight>]      }}}><<gotoitem>>">
+      <$keyboard key="down"      actions="<$vars i={{{ [<i>add[1]]               }}}><<gotoitem>>">
+      <$keyboard key="end"       actions="<$vars i=<<count>>                        ><<gotoitem>>">
+      <$vars fg={{{ [enlist<dark>match<item>then[white;]else[black;]] }}}>
+      <$vars colors={{{ [[$colors$]match[yes]then[background-color:]addsuffix<item>addsuffix[;color:]addsuffix<fg>] }}}>
+      <$vars sel={{{ [<multiple>!match[yes]then<val>match<item>] [<multiple>match[yes]then<val>enlist-input[]match<item>] }}}>
+      <$button class={{{ [[editlist_select editlist_popup_select_]addsuffix<id>addsuffix[_]addsuffix<i>] }}}
+         style=<<colors>> tooltip=<<item>> actions="<<toggleitem>><<trackitem>><<gotoselect>>"> <<showitem>>
+      </$button><br>"""
+>
+<!-- IF MOBILE, USE ALTERNATIVE select() AND option() -->
+<$vars mobile_browsers="android ios windowsphone">
+<$vars mobile={{{ [[$mobile$]regexp[yes|no]] ~[enlist<mobile_browsers>addprefix[$:/info/browser/is/]get[text]match[yes]] ~[[no]] }}}>
+<$vars select={{{ [<mobile>!match[yes]then<select>else<select_mobile>] }}}>
+<$vars option={{{ [<mobile>!match[yes]then<option>else<option_mobile>] }}}>
+<!------------------------->
+<!-- STYLES AND CONTROLS -->
+<!------------------------->
+<<editlist_styles>>
+<div class={{{ [[editlist_wrapper editlist_wrapper_]addsuffix<id>] }}}
+     style={{{ [<show>match[no]then[margin-bottom:1em;]] [<filter>match[]then<calendar>!match[yes]then[margin-bottom:1em;]] }}}
+     title=<<tooltip>>>
+   <<editlist_input>>
+   <$list filter="[<calendar>match[]] "> <<editlist_select>>   </$list>
+   <$list filter="[<calendar>!match[]]"> <<editlist_calendar>> </$list>
+</div>
+\end
+
+\define editlist_styles()
+<style>
+   .editlist_wrapper_$(id)$               { position:relative; display:inline-block; width:$(width)$; margin:0; }
+   .editlist_input_$(id)$                 { position:absolute; width:100% !important; height:1.5em; }
+   .editlist_input_buttons_$(id)$         { position:absolute; width:max-content; right:0; }
+   .editlist_modal_buttons_$(id)$         { position:absolute; width:max-content; left:$(width)$; }
+   .editlist_clear                        { height:1.5em; width:1.5em; padding:0 0.25em 0 0.25em; vertical-align:text-bottom; }
+   .editlist_popup                        { height:1.5em; width:1.5em; padding:0 0.25em 0 0.25em; vertical-align:text-bottom; }
+   .editlist_save                         { height:1.5em; width:1.5em; padding:0 0.25em 0 0.25em; vertical-align:text-bottom; }
+   .editlist_cancel                       { height:1.5em; width:1.5em; padding:0 0.25em 0 0.30em; vertical-align:text-bottom; }
+   .editlist_popup_wrapper_$(id)$         { position:absolute; width:fit-content; min-width:$(listwidth)$; z-index:1; top:1.6em; }
+   .editlist_popup_heading_$(id)$         { position:relative; font-size:80%; line-height:1.2em; text-align:center; background:#eee; border:1px solid gray; border-bottom:0; }
+   .editlist_popup_minmax_$(id)$          { position:absolute; top:-1px; right:calc(-1.5em - 3px); padding-left:3px; transition:2s; }
+   .editlist_popup_minmax_$(id)$ button   { display:block; font-size:100%; line-height:1em; padding:0 0.125em; margin-bottom:1px; }
+   .editlist_popup_select_$(id)$          { overflow-y:auto; font-size:$(fontsize)$; line-height:1em; }
+   .editlist_popup_select_$(id)$ option   { overflow:hidden;text-overflow:ellipsis; } 
+   .editlist_popup_select_$(id)$ button   { width:100%; text-align:left; line-height:1.4em; padding:0 2px; border:0; background:none; overflow:hidden; text-overflow:ellipsis; }
+   .editlist_popup_select_$(id)$ input    { width:auto; }
+   .editlist_calendar_wrapper             { position:absolute; z-index:1; top:1.6em; }
+   .editlist_calendar                     { width:18.75em; padding:0.5em; }
+   .editlist_calendar_format              { width:17.5em; }
+   .editlist_calendar.tc-block-dropdown a { padding-top:0; padding-bottom:0; }
+   .editlist_wrapper_$(id)$              .fadeIn { opacity:0; }
+   .editlist_wrapper_$(id)$:hover        .fadeIn { opacity:1; }
+   .editlist_wrapper_$(id)$:focus-within .fadeIn { opacity:1; }
+    /*  FALLBACK IF "FOCUS-WITHIN" NOT AVAILABLE... see https://www.caniuse.com/css-focus-within */
+   .editlist_input_$(id)$:focus + .editlist_input_buttons_$(id)$ .fadeIn { opacity:1; }
+   .editlist_clear:focus                                                 { opacity:1; }
+   .editlist_popup:focus                                                 { opacity:1; }
+   .editlist_clear:focus + editlist_popup                                { opacity:1; }
+</style>
+<$list filter="[<modal>is[tiddler]] [<popup>is[tiddler]] +[limit[1]]">
+   <style> .editlist_wrapper_$(id)$ .fadeIn { opacity:1; } </style>
+</$list>
+<$list filter="[<show>!match[no]]">
+   <style> .editlist_popup_wrapper_$(id)$ { position:static; margin-top:1.6em; } </style>
+</$list>
+<$list filter="[<stretch>!match[no]]">
+   <style> .editlist_wrapper_$(id)$:hover,      .editlist_wrapper_$(id)$:focus-within { min-width:$(width)$; width:$(stretch)$ !important; } </style>
+   <style> .editlist_popup_select_$(id)$:hover, .editlist_popup_select_$(id)$:focus   { min-width:$(width)$; width:$(stretch)$ !important; } </style>
+</$list>
+<$vars   curr={{{ [<modal>is[tiddler]else<tid>] }}}>
+<$vars    val={{{ [<curr>getindex<index>] ~[<curr>get<field>] }}}>
+<$vars bwidth={{{ [<val>!match[]then[1.5]] [<popup>!match[]then[1.50]] +[sum[]] }}}>
+<$list filter="[<width>!match[100%]]"><<editlist_styles_setinputsize>></$list>
+\end
+
+\define editlist_styles_setinputsize()
+<!-- MAKE ROOM FOR CLEAR AND/OR POPUP BUTTONS -->
+<style>
+.editlist_wrapper_$(id)$:hover        .editlist_input_$(id)$ { width:calc(100% - $(bwidth)$em) !important; }
+.editlist_wrapper_$(id)$:focus-within .editlist_input_$(id)$ { width:calc(100% - $(bwidth)$em) !important; }
+</style>
+<$list filter="[<modal>is[tiddler]] [<popup>is[tiddler]] +[limit[1]]">
+   <style> .editlist_input_$(id)$ { width:calc(100% - $(bwidth)$em) !important; } </style>
+</$list>
+\end
+
+\define editlist_styles_setselectsize()
+<!--  WIDTH: MATCH INPUT SIZE, LISTWIDTH PARAM, OR HMAX (AUTO) -->
+<style>.editlist_popup_select_$(id)$ { min-width:$(width)$; width:$(listwidth)$; }</style>
+<$list filter="[<minmax>get[hmax]]" ><style>.editlist_popup_select_$(id)$ { min-width:$(listwidth)$; width:auto; }</style></$list>
+<$list filter="[<mobile>match[yes]]"><style>.editlist_popup_select_$(id)$ { min-width:100%; }</style></$list>
+<!-- HEIGHT: USE SIZE, LISTHEIGHT (CSS UNITS), OR VMAX (COUNT) -->
+<style>.editlist_popup_select_$(id)$ { height:calc($(size)$  * 1.4em + 0.25em); }</style>
+<$list filter="[<listheight>!regexp[^\d+$]]"><style>.editlist_popup_select_$(id)$ { height:$(listheight)$; }</style></$list>
+<$list filter="[<listheight>match[fit]] [<minmax>get[vmax]] +[limit[1]]">
+   <style>.editlist_popup_select_$(id)$ { height:calc($(count)$ * 1.4em + 0.25em); }</style>
+   <$list filter="[<mobile>match[yes]]"><style>.editlist_popup_select_$(id)$ { height:max-content; }</style></$list>
+</$list>
+\end
+
+\define editlist_input()
+\whitespace trim
+<$keyboard key="enter"  actions="<<save>><<goto>><<done>>">
+<$keyboard key="escape" actions="<<done>>">
+<$keyboard key="down"   actions="<<openpopup>><<gotoselect>>">
+<$keyboard key="up"     actions="<<closepopup>><<gotoinput>>">
+<<input>>
+<span class="editlist_input_buttons_$(id)$"><<editlist_clear>><<editlist_popup>></span>
+<span class="editlist_modal_buttons_$(id)$"><<editlist_save>><<editlist_cancel>></span>
+\end
+
+\define editlist_clear()
+\whitespace trim
+<!-- IF INDEX OR FIELD VALUE IS NOT BLANK, SHOW CLEAR BUTTON -->
+<$vars     tid={{{ [<modal>is[tiddler]else<tid>] }}}>
+<$list  filter="[<tid>getindex<index>] ~[<tid>get<field>] +[!match[]]" variable="show_clear">
+<$eventcatcher  $focusin="<$list filter='[<focusPopup>!match[]]'><<openpopup>></$list><<startmodal>>">
+<$button class="tc-button editlist_clear fadeIn" tooltip="clear input" actions=<<reset>>>
+   <div style="transform:translateY(-0.1em);">''x''</div> <<clear>>
+</$button>
+\end
+
+\define editlist_popup()
+\whitespace trim
+<!-- IF LIST OR CALENDAR NOT SHOWN, SHOW POPUP BUTTON -->
+<$list filter="[<popup>!match[]]" variable="show_popup">
+<$vars tip={{{ [<popup>is[missing]then[show ]else[hide ]] [<calendar>match[]then[list]else[calendar]] +[join[]] }}}>
+<$eventcatcher $focusin=<<startmodal>>>
+<$button class="tc-button editlist_popup fadeIn" tooltip=<<tip>> actions=<<gotoinput>>>
+   <$list filter="[<popup>is[missing]]" emptyMessage=<<closepopup>>><<openpopup>></$list>
+   <$list filter="[<calendar>match[]]"> <!-- DOWN OR UP TRIANGLE -->
+      <div style="font-size:80%;transform:translateY(-0.04em);">
+      <$list filter="[<popup>is[missing]]" emptyMessage="&#x25B2;">&#x25BC;</$list>
+      </div>
+   </$list>
+   <$list filter="[<calendar>!match[]]"> <!-- CALENDAR EMOJI --> 
+      <span style="font-size:90%;margin-left:-0.2em;vertical-align:text-top;">&#x1F4C5;</span>
+   </$list>
+</$button>
+\end
+
+\define editlist_save()
+\whitespace trim
+<!-- IF MODAL IS ACTIVE, SHOW SAVE BUTTON -->
+<$list filter="[<modal>is[tiddler]]">
+<$button class="tc-button editlist_save" tooltip="save" actions="<<reset>><<goto>>">
+   <div style="transform:translateY(-0.05em);">{{$:/core/images/done-button}}</div> <<save>><<done>>
+</$button>
+\end
+
+\define editlist_cancel()
+\whitespace trim
+<!-- IF MODAL IS ACTIVE, SHOW CANCEL BUTTON -->
+<$list filter="[<modal>is[tiddler]]">
+<$button class="tc-button editlist_cancel" tooltip="cancel">
+   <div style="transform:translateY(-0.05em);">{{$:/core/images/cancel-button}}</div> <<done>>
+</$button>
+\end
+
+\define editlist_select()
+\whitespace trim
+<!-- IF NOT FILTERING, DON'T SHOW LIST  -->
+<$list  filter="[<filter>!match[]]" variable="show_select">
+<!-- IF FIXED-HEIGHT, OR POPUP IS OPEN, SHOW LIST  -->
+<$list filter="[<show>!match[no]] [<popup>is[tiddler]] +[limit[1]]" variable="show_select">
+<$keyboard key="enter"     actions="<<save>><<goto>><<done>>">
+<$keyboard key="escape"    actions="<<done>>">
+<$keyboard key="right"     actions="<<maximize>>">
+<$keyboard key="left"      actions="<<minimize>>">
+<$keyboard key="backspace" actions="<<closepopup>><<gotoinput>>">
+<div class="editlist_popup_wrapper_$(id)$"><<select>></div>
+\end
+
+\define editlist_select_showheading()
+\whitespace trim
+$(editlist_select_search)$
+<div class="editlist_popup_heading_$(id)$">
+   <$text text={{{ [<total>addsuffix[ items]] }}}/>
+   <$list filter="[<val>!match[]then<find>!match[]]">
+      <$list filter="[<found>match[0]] [<found>!match<selected>] +[limit[1]]"> ,&nbsp;<<found>>&nbsp;matches </$list>
+   </$list>
+   <$text text={{{ [<selected>!match[0]then[, ]addsuffix<selected>addsuffix[ selected]] }}}/>
+   <<editlist_select_minmax_goto>>
+</div>
+\end
+
+\define editlist_select_showlist()
+$(editlist_select_search)$
+<<editlist_styles_setselectsize>>
+<$list filter="[enlist<display>]" variable="item" counter="i"> <<option>> </$list>
+\end
+
+\define editlist_select_search()
+<$set name="curr"     filter="[<modal>is[tiddler]else<tid>]">
+<$set name="exclude"  filter="[<field>match[tags]then<curr>get[tags]enlist-input[]] :filter[tagging[]count[]match[1]]"> 
+<$set name="all"      filter="[subfilter<filter>] -[enlist<exclude>] -[prefix[$:/state/popup/edit-list]]">
+<$set name="total"    filter="[enlist<all>count[]]">
+<$set name="case"     filter="[enlist[OR AND EXACT REGEXP]match<find>]" value="casesensitive" emptyValue="">
+<$set name="find"     filter="[<find>lowercase[]]">
+<$set name="find"     filter="[enlist[or and exact regexp]match<find>]" value=<<find>> emptyValue="">
+<$set name="match"    filter="[<find>match[exact]]"  value="literal" emptyValue="">
+<$set name="regexp"   filter="[<find>match[regexp]]" value="regexp"  emptyValue="">
+<$set name="flags"    filter="[<match>!match[]] [<regexp>!match[]] [<case>!match[]] +[join[,]]">
+<$set name="val"      filter="[<curr>getindex<index>] ~[<curr>get<field>]" select=0>
+<$wikify name="or"      text=<<editlist_select_or>>>
+<$wikify name="and"     text=<<editlist_select_and>>>
+<$vars selected={{{ [<multiple>match[yes]then<match>!match[exact]then<val>enlist-input[]] ~[<val>] :intersection[enlist<all>] +[count[]] }}}>
+<$vars  results={{{ [<find>match[or]then<or>] ~[<find>match[and]then<and>] ~[<find>match[exact]then<and>] ~[<find>match[regexp]then<and>] ~[<all>] +[trim[]] }}}>
+<$vars    found={{{ [enlist<results>count[]] }}}>
+<$vars  display={{{ [<found>match[0]then<all>] ~[<found>match<selected>then<all>] ~[<results>] }}}>
+<$vars    count={{{ [enlist<display>count[]] }}}>
+<$vars     size={{{ [<listheight>match[fit]then<total>] ~[<count>min<listheight>] +[max[1]] }}}>
+\end
+\define editlist_select_or()  <$list filter="[enlist<val>sort[]]" variable="val"> <<editlist_select_and>> </$list>
+\define editlist_select_and() <$list filter="[enlist<all>search:title:$(flags)$<val>]"> `[[`<<currentTiddler>>`]]`<br> </$list>
+
+\define editlist_select_minmax_goto()
+\whitespace trim
+<$list filter="[<listheight>compare:integer:gt[1]] [<listheight>!regexp[^\d+$]] [<listheight>match[fit]]" +[limit[1]]><!-- not a dropdown -->
+<div class="editlist_popup_minmax_$(id)$ fadeIn">
+<$vars hmax={{{ [<minmax>get[hmax]] }}} vmax={{{ [<minmax>get[vmax]] }}}>
+<$list filter="[<hmax>!match[]] ~[<listwidth>!match[auto]]">
+   <$button tooltip={{{ [<hmax>match[]then[fit width]else[restore width]] }}}>
+      <$list filter="[<hmax>match[]]" emptyMessage={{$:/core/images/chevron-left}}>{{$:/core/images/chevron-right}}</$list>
+      <$action-setfield $tiddler=<<minmax>> hmax={{{ [<hmax>match[]then[yes]else[]] }}} />
+      <$list filter="[<hmax>!match[]then<vmax>match[]]"><$action-deletetiddler $filter="[<minmax>]"/></$list>
+      <<gotoselect>>
+   </$button>
+</$list>
+<$list filter="[<vmax>!match[]] ~[<listheight>!regexp[^\d+$]] ~[<count>compare:integer:gt<listheight>] +[then<listheight>!match[fit]]">
+   <$button tooltip={{{ [<vmax>match[]then[fit height]else[restore height]] }}}>
+      <$list filter="[<vmax>match[]]" emptyMessage={{$:/core/images/chevron-up}}>{{$:/core/images/chevron-down}}</$list>
+      <$action-setfield $tiddler=<<minmax>> vmax={{{ [<vmax>match[]then[yes]else[]] }}} />
+      <$list filter="[<hmax>match[]then<vmax>!match[]]"><$action-deletetiddler $filter="[<minmax>]"/></$list>
+      <<gotoselect>>
+   </$button>
+</$list>
+<$vars curr={{{ [<modal>is[tiddler]else<tid>] }}}><$vars val={{{ [<curr>getindex<index>] ~[<curr>get<field>] }}}>
+<$list filter="[<goto_button>match[yes]then<val>!match[]]">
+   <$button tooltip="view selected items"> {{$:/core/images/preview-open}} <<goto>></$button>
+</$list>
+\end
+
+\define editlist_calendar()
+<$importvariables filter="TiddlyTools/Time/Calendar">
+<$vars showday_popup_extras=<<editlist_selectday>>>
+<$vars target={{{ [<modal>is[tiddler]else<tid>] }}}>
+<$vars config="$:/state/popup/calendar/config">
+<$vars format="YYYY/0MM/0DD" month=<<now "[UTC]MM">> year=<<now "[UTC]YYYY">>>
+<$list filter="[<config>]">
+<$vars   width={{{ [<stretch>match[auto]then<width>else<stretch>] }}}>
+<!-- CONVERT WIDTH TO EMWIDTH -->
+<$vars emwidth={{{ [<width>removesuffix[em]] }}}>
+<$vars emwidth={{{ [<width>removesuffix[in]multiply[6.420]else<emwidth>] }}}> <!-- EMs per inch  -->
+<$vars emwidth={{{ [<width>removesuffix[cm]multiply[2.530]else<emwidth>] }}}> <!-- EMs per cm    -->
+<$vars emwidth={{{ [<width>removesuffix[mm]multiply[.2530]else<emwidth>] }}}> <!-- EMs per mm    -->
+<$vars emwidth={{{ [<width>removesuffix[px]multiply[0.066]else<emwidth>] }}}> <!-- EMs per pixel -->
+<$vars emwidth={{{ [<width>removesuffix[pt]multiply[0.089]else<emwidth>] }}}> <!-- EMs per point -->
+<!-- GET HEIGHT FROM DAYS PER MONTH -->
+<$vars    yyyy={{{ [<config>get[year]else<year>] }}} mm={{{ [<config>get[month]else<month>pad[2]] }}}>
+<$vars    date={{{ [<yyyy>addsuffix<mm>addsuffix[01]] }}}>
+<$wikify  name="first" text="""<$view tiddler=<<date>> field="title" format="date" template="[UTC]ddd" />""">
+<$vars   first={{{ [all[shadows]prefix[$:/language/Date/Short/Day/]get[text]allbefore<first>count[]] }}}>
+<$vars     dpm={{{ [<yyyy>remainder[4]match[0]then[31 29 31 30 31 30 31 31 30 31 30 31]else[31 28 31 30 31 30 31 31 30 31 30 31]] }}}>
+<$vars      dm={{{ [<dpm>split[ ]nth<mm>]                            }}}> <!-- days this month -->
+<$vars    rows={{{ [<first>subtract[1]add<dm>divide[7]add[1]trunc[]] }}}> <!-- rows this month -->
+<$vars  height={{{ [<rows>multiply[2.5]add[7.25]addsuffix[em]]       }}}> <!-- rows + heading + format -->
+<!-- SET SCALE AND SPACER -->
+<$vars   scale={{{ [<stretch>match[no]then[1]] ~[<emwidth>addsuffix[/18.75]] }}}> <!-- 18.75 = 7 days + borders + padding -->
+<$vars  spacer={{{ [<height>addsuffix[*]addsuffix<scale>] }}}>
+<!-- SHOW POPUP OR INLINE CALENDAR -->
+<$list filter="[<show>match[no]]" variable="show_popup_calendar">
+   <$reveal state=<<popup>> type="nomatch" text="" class="editlist_calendar_wrapper tc-popup-keep"><<editlist_calendar_show>></$reveal>
+</$list>
+<$list filter="[<show>!match[no]]" variable="show_inline_calendar">
+   <div style="margin-top:1.6em;"><<editlist_calendar_show>></div>
+</$list>
+\end
+
+\define editlist_calendar_show()
+\whitespace trim
+<$eventcatcher events="focusin"  actions-focusin="<$list filter='[<show>match[no]]'><<openpopup>></$list><<startmodal>>">
+<div style="height:calc($(spacer)$);">
+   <div style="transform-origin:top left;transform:scale(calc($(scale)$));">
+      <div class="editlist_calendar tc-block-dropdown" style="margin:0;min-width:auto;">
+         <$macrocall $name="showmonth" yyyy={{{ [<config>get[year]else<year>] }}} mm={{{ [<config>get[month]else<month>] }}} view="edit" />
+         <div>
+            <$list filter="[<config>get[format]]">
+               <$button class="tc-btn-invisible" style="float:right;" tooltip="use default format">{{$:/core/images/close-button}}
+                  <$action-deletefield $tiddler=<<config>> $field="format" />
+               </$button>
+            </$list>
+            format:<br/>
+            <$edit-text tag="input" class="editlist_calendar_format" tiddler=<<config>> field="format" default=<<format>> placeholder=<<format>> />
+         </div>
+      </div>
+   </div>
+</div>
+\end
+
+\define editlist_selectday()
+\whitespace trim
+<!-- ADD CUSTOM CALENDAR SHOWDAY_POPUP_EXTRAS() MACRO WITH SIMPLE "SELECTDAY" BUTTON -->
+<$vars UTC="[UTC]" time=<<now "0hh0mm0ss0XXX">>>
+<$vars template={{{ [<config>get[format]else<format>addprefix<UTC>] }}}>
+<$vars    value={{{ [<date>addsuffix<time>format:date<template>] }}}>
+<$button class="tc-button tt-button" style="text-align:center;width:100%;margin:0.25em 0;"> ''select this date''
+   <$action-setfield $timestamp=<<timestamp>> $tiddler=<<target>> $field=<<field>> $index=<<index>> $value=<<value>> />
+   <$action-deletetiddler $filter="[<calendar_popID>]" />
+   <$list filter='[<confirm>!match[yes]]'><<closepopup>></$list>
+</$button>
+\end
+
+|  author|''[ext[Eric Shulman|mailto:elsdesign@gmail.com]]''|
+|  source|''http://TiddlyTools.com/edit-list.html''|
+| updated|''<$view field="modified" format="date" template="DDD, MMM DDth YYYY at 0hh12:0mm:0ssam"/>''|
+
+<pre style="font-size:80%;line-height:1em;"><$text text={{TiddlyTools/Macros/edit-list}}/></pre>

@@ -1,0 +1,19 @@
+.Levels: 3
+.Levels-Max: 8
+.Levels-Min: 1
+created: 20230208170228555
+creator: Octt
+modified: 20230221210807319
+modifier: Octt
+tags: 
+title: $:/OcttKB/TheBrain/Levels.cfg
+
+<style>
+input[type=number] { width: 1.5em; }
+</style>
+
+Depth: {{!!.Levels}}
+
+<$edit-text type="number" style="width: 10px !important;" field=".Levels-Min" />
+<$range min={{!!.Levels-Min}} max={{!!.Levels-Max}} field=".Levels" /> 
+<$edit-text type="number" field=".Levels-Max" />

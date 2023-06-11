@@ -1,0 +1,11 @@
+created: 20230218174142523
+creator: Octt
+modified: 20230218174227834
+modifier: Octt
+tags: $:/tags/AboveStory
+title: $:/Styles/Statistics.html
+
+<!-- GoatCounter statistics - Doesn't require a GDPR notice, see <https://goatcounter.com/help/gdpr> -->
+<<script>>
+<script data-goatcounter="https://private-analytics-not-for-public-use.octt.eu.org/octtkb/count" async src="https://octospacc.gitlab.io/pastebin/GoatCounterCount.js"></script>
+<<script off>>

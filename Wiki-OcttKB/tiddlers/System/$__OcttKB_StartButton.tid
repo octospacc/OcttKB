@@ -1,0 +1,10 @@
+created: 20230227073225540
+creator: Octt
+modified: 20230227073319615
+modifier: Octt
+tags: 
+title: $:/OcttKB/StartButton
+
+<div>
+<$link to="OcttKB" class="StartHere-Button">[img[$:/ThirdParty/Icons/Windows/9x-Start.png]] <span>here!</span></$link>
+</div>

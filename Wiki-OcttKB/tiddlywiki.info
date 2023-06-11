@@ -1,1 +1,17 @@
-{}
+{
+    "languages": [
+        "it-IT"
+    ],
+    "plugins": [
+        "tiddlywiki/github-fork-ribbon",
+        "tiddlywiki/highlight",
+        "tiddlywiki/internals",
+        "tiddlywiki/markdown",
+        "tiddlywiki/qrcode"
+    ],
+    "themes": [
+        "tiddlywiki/snowwhite",
+        "tiddlywiki/starlight",
+        "tiddlywiki/vanilla"
+    ]
+}

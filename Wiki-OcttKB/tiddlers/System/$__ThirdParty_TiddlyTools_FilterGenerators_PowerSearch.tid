@@ -1,0 +1,419 @@
+caption: PowerSearch
+created: 20191212065707527
+creator: EricShulman
+modified: 20230109220559886
+modifier: EricShulman
+tags: $:/tags/AdvancedSearch TiddlyTools
+title: $:/ThirdParty/TiddlyTools/FilterGenerators/PowerSearch
+
+\define config()  $:/config/TiddlyTools/PowerSearch
+\define saved()   $:/config/TiddlyTools/PowerSearch/SavedFilters/
+\define show()    $:/config/TiddlyTools/PowerSearch!!show
+\define options() $:/state/popup/TiddlyTools/PowerSearch/options
+\define menu()    $:/state/popup/TiddlyTools/PowerSearch/menu/
+
+\define default_width()   15em
+\define default_columns() 1
+\define default_height()  auto
+\define default_wrap()    nowrap
+
+\define styles()
+<style>
+.powersearch_table                  { border:0; padding:0;   margin:0; float:left; margin-right:0.5em; }
+.powersearch_table tr               { border:0; padding:0;   margin:0; }
+.powersearch_table td               { border:0; padding:2px; margin:0; }
+.powersearch_table .editlist_input  { outline:none; }
+.powersearch_savedfilters           { font-size:100%;line-height:1em;max-height:20em;overflow:auto; }
+.powersearch_optionwidth            { width:4em  !important; }
+.powersearch_checkboxwidth input    { width:auto !important; }
+.powersearch_listitem               { overflow:hidden;word-break:break-all;text-overflow:ellipsis; }
+.powersearch_modal .tc-modal-header { padding:0em 1em; }
+.powersearch_modal .tc-modal-body   { padding:1em 1em 0.5em 1em; }
+.powersearch_modal .tc-modal-footer { padding:0.5em 1em; }
+.powersearch_modal .tc-modal-body p { margin:0; }
+</style>
+\end
+
+\define get(index,filter,placeholder,multiple)
+\define filter() $filter$
+<$macrocall $name="edit" tiddler=<<config>> index="$index$" filter=<<filter>> width="$(width)$"
+   confirm=<<confirm>> multiple="$multiple$" find="or" placeholder="$placeholder$"/>
+\end
+
+\define edit(tiddler,index,width,confirm,multiple,filter,find,placeholder)
+\define filter() $filter$
+\define stip() enter/select a value
+\define mtip() enter/select all that apply (use ctrl-click or shift-click)
+<$list filter="[[edit-list]is[variable]]" variable="if_edit_list_installed">
+   <$macrocall $name="edit-list" tiddler="$tiddler$" index="$index$" tooltip={{{ [[$multiple$]match[]then<stip>else<mtip>] }}}
+      width="$width$" listwidth="fit" fontsize="100%" focusPopup={{{ [<filter>!match[]then[yes]] }}}
+      confirm="$confirm$" multiple="$multiple$" filter=<<filter>> find="$find$" placeholder="$placeholder$"/>
+</$list>
+<$list filter="[[edit-list]!is[variable]]" variable="fallback_no_edit_list">
+   <style> .powersearch_inputwidth { width:$width$; } </style>
+   <span title={{{ [[$multiple$]match[]then<stip>else<mtip>search-replace[/select],[]search-replace[use ctrl-click or shift-click],[space separated]] }}}>
+   <$edit-text class="powersearch_inputwidth" tag="input"
+      tiddler="$tiddler$" field="text" index="$index$" default="" placeholder="$placeholder$"/>
+   </span>
+</$list>
+\end
+
+\define shadowList(prefix: "$:/",maxdepth:"4")
+\whitespace trim
+<$list filter="[all[shadows]removeprefix[$prefix$]splitbefore[/]sort[]suffix[/]]" variable="chunk">
+   <$vars path={{{ [title[$prefix$]addsuffix<chunk>removesuffix[/]] }}}>
+   <$text text=<<path>>/>&#10;
+   <$list filter="[<path>split[/]count[]min[$maxdepth$]!match[$maxdepth$]]">
+      <$macrocall $name="shadowList" prefix={{{ [title[$prefix$]addsuffix<chunk>] }}}/>
+   </$list>
+   </$vars>
+</$list>
+\end
+
+\define inputs()
+<$set name="tidList"      filter="tiddlers shadows tiddlers+shadows tags orphans missing">
+<$set name="tagsList"     filter="[tags[]sort[]] [all[shadows]tags[]sort[]]">
+<$set name="sysFields"    filter="title text tags created creator modified modifier">
+<$set name="tidFields"    filter="[all[tiddlers]] -[prefix[$:/state/popup]] +[fields[]!enlist<sysFields>sort[]]">
+<$set name="shadowFields" filter="[all[shadows]fields[]!enlist<sysFields>!enlist<tidFields>sort[]]">
+<$set name="fieldsList"   filter="[enlist<sysFields>] [enlist<tidFields>] [enlist<shadowFields>]">
+<$set name="searchList"   filter="[enlist<sysFields>] [[*]] [enlist<fieldsList>!enlist<searchList>]">
+<$set name="flagsList"    filter="words literal whitespace regexp casesensitive anchored">
+<$wikify name="shadowList"  text=<<shadowList>>>
+
+|powersearch_table|k
+|     search all|<<get "tids"      "[enlist<tidList>]"    "tiddlers">> |
+|   match prefix|<<get "prefix"    "[enlist<shadowList>]" "(none)"  >> |
+| exclude prefix|<<get "notprefix" "[enlist<shadowList>]" "(none)"  >> |
+|   match suffix|<<get "suffix"    "[enlist<shadowList>]" "(none)"  >> |
+| exclude suffix|<<get "notsuffix" "[enlist<shadowList>]" "(none)"  >> |
+|      match tag|<<get "tag"       "[enlist<tagsList>]"   "(none)"  >> |
+|    exclude tag|<<get "nottag"    "[enlist<tagsList>]"   "(none)"  >> |
+|      has field|<<get "has"       "[enlist<fieldsList>]" "(none)"  >> |
+|  search fields|<<get "field"     "[enlist<searchList>]" "title,text,tags" "yes">> |
+|    using flags|<<get "flags"     "[enlist<flagsList>]"  "words" "yes">> |
+|        sort by|<<get "sort"      "[enlist<fieldsList>]" "title"   >> |
+|     match term|<<get "term"      ""                     "(none)"  >> |
+|  custom filter|<<get "custom"    ""                     "(none)"  >> |
+\end
+
+\define savedFilters()
+<$vars lf="
+">
+<$list filter="[prefix<saved>limit[1]]">
+<div style="white-space:nowrap;">
+<$button class="tc-btn-invisible" tooltip="delete all saved filters"> {{$:/core/images/delete-button}}
+   <$action-confirm $message="Are you sure you want to delete all saved filters?">
+      <$action-deletetiddler $filter="[prefix<saved>]" />
+   </$action-confirm>
+</$button>
+''Saved filters:'' (<$count filter="[prefix<saved>]"/>)
+<hr style="margin:1px 0;">
+<div class="powersearch_savedfilters">
+   <$list filter="[prefix<saved>sort[]]" variable="item">
+      <$vars popid={{{ [<item>removeprefix<saved>addprefix<menu>addsuffix<qualify>] }}}>
+      <$vars  desc={{{ [<item>get[description]] }}} filt={{{ [<item>get[filter]] }}} cust={{{ [<config>getindex[custom]addsuffix[ ]] }}}>
+      <$button class="tc-btn-invisible" popup=<<popid>>> {{$:/core/images/menu-button}}</$button>
+      <$reveal type="popup" state=<<popid>> class="tc-drop-down" style="min-width:auto;">
+         <$button class="tc-btn-invisible" style="display:block;padding:0 0.5em;" tooltip="delete this filter"> {{$:/core/images/delete-button}} delete this filter
+            <$action-confirm $message={{{ [<filt>] [<desc>] [[ ]] [[Are you sure you want to delete this filter?]] +[join<lf>] }}}>
+               <$action-deletetiddler $tiddler=<<item>> />
+            </$action-confirm>
+         </$button>
+         <$button class="tc-btn-invisible" style="display:block;padding:0 0.5em;" tooltip="edit this filter"> {{$:/core/images/edit-button}} edit this filter
+            <$action-sendmessage $message="tm-edit-tiddler" $param=<<item>> />
+         </$button>
+         <$button class="tc-btn-invisible" style="display:block;padding:0 0.5em;" tooltip="add to custom filter"> {{$:/core/images/new-button}} add to custom filter
+            <$action-setfield $tiddler=<<config>> $index="custom" $value={{{ [<cust>addsuffix<filt>trim[]] }}}/>
+         </$button>
+         <$button class="tc-btn-invisible" style="display:block;padding:0 0.5em;" tooltip="copy to clipboard"> {{$:/core/images/copy-clipboard}} copy to clipboard
+            <$action-sendmessage $message="tm-copy-to-clipboard" $param=<<filt>>/>
+         </$button>
+      </$reveal>
+      <$button class="tc-btn-invisible" tooltip="use this filter"> <$text text=<<desc>>/>
+         <$action-setfield $tiddler=<<config>> text={{{ [<item>get[text]] }}}/>
+      </$button>
+      </$vars>
+      </$vars>
+      <br>
+   </$list>
+</div>
+\end
+
+\define preFilter()      prefix[$(pre)$]
+\define notpreFilter()   !prefix[$(notpre)$]
+\define suffFilter()     suffix[$(suff)$]
+\define notsuffFilter()  !suffix[$(notsuff)$]
+\define tagFilter()      tag[$(tagval)$]
+\define nottagFilter()   !tag[$(nottag)$]
+\define hasFilter()      has:field[$(has)$]
+\define searchFilter()   search:$(field)$:$(flags)$[$(term)$]
+\define filter()         [all[$(tids)$]$(preFilter)$$(notpreFilter)$$(suffFilter)$$(notsuffFilter)$$(tagFilter)$$(nottagFilter)$$(hasFilter)$$(searchFilter)$sort[$(sort)$]] $(custom)$
+\define filter_exclude() $(filter)$ -[prefix[$:/state/modal]] -[prefix[$:/state/popup]] -[prefix[$:/temp/PowerSearch]] -[prefix[$:/temp/edit-list]]
+
+\define doSearch()
+<$vars      tids={{{ [<config>getindex[tids]]   ~[[tiddlers]] }}}
+             pre={{{ [<config>getindex[prefix]]               }}}
+          notpre={{{ [<config>getindex[notprefix]]            }}}
+            suff={{{ [<config>getindex[suffix]]               }}}
+         notsuff={{{ [<config>getindex[notsuffix]]            }}}
+          tagval={{{ [<config>getindex[tag]]                  }}}
+          nottag={{{ [<config>getindex[nottag]]               }}}
+             has={{{ [<config>getindex[has]]                  }}}
+           field={{{ [<config>getindex[field]enlist-input[]join[,]] ~[[title,text,tags]] }}}
+           flags={{{ [<config>getindex[flags]enlist-input[]join[,]] ~[[words]]           }}}
+            sort={{{ [<config>getindex[sort]]   ~[[title]]    }}}
+          custom={{{ [<config>getindex[custom]]               }}}
+            term={{{ [<config>getindex[term]]                 }}}>
+<$vars preFilter={{{ [<pre>!is[blank]then<preFilter>]         }}}
+    notpreFilter={{{ [<notpre>!is[blank]then<notpreFilter>]   }}}
+      suffFilter={{{ [<suff>!is[blank]then<suffFilter>]       }}}
+   notsuffFilter={{{ [<notsuff>!is[blank]then<notsuffFilter>] }}}
+       tagFilter={{{ [<tagval>!is[blank]then<tagFilter>]      }}}
+    nottagFilter={{{ [<nottag>!is[blank]then<nottagFilter>]   }}}
+       hasFilter={{{ [<has>!is[blank]then<hasFilter>]         }}}
+    searchFilter={{{ [<term>!is[blank]then<searchFilter>]     }}}>
+<<doSearch_showresults>>
+\end
+
+\define doSearch_showresults()
+<$vars count={{{ $(filter_exclude)$ +[count[]] }}}>
+''<<count>> match<$list filter="[<count>!match[1]]">es</$list>'' &nbsp;
+<<toggleList>> <<saveFilter>> <<clearAll>> <<setOptions>> &emsp;
+<$vars height={{{ [<config>get[height]] ~[<default_height>] }}} cols={{{ [<config>get[cols]] ~[<default_columns>] }}} wrap={{{ [<config>get[wrap]] ~[<default_wrap>] }}}>
+<$list filter="[<count>!match[0]]"> <<modal tag>> <<modal clone>> <<modal export>> <<modal delete>> &nbsp;</$list>
+<$reveal state=<<show>> type="match" text="show" style="font-size:90%;line-height:1em;">
+   columns:
+   <$select   tiddler=<<config>> field="cols" default=<<cols>>><option>1</option> <option>2</option> <option>3</option> <option>4</option> <option>5</option></$select>
+   <$checkbox tiddler=<<config>> field="wrap" checked="normal" unchecked="nowrap" default=<<wrap>> class="powersearch_checkboxwidth"> wrap </$checkbox>&nbsp;
+</$reveal>
+<$reveal state=<<show>> type="match" text="show"> <<doSearch_showlist>> </$reveal>
+\end
+
+\define doSearch_showlist()
+<fieldset style="border-radius:0.5em;">
+   <legend>
+      <$button class="tc-btn-invisible" style="font-size:90%;text-align:left;word-break:break-all;"
+         message="tm-copy-to-clipboard" param=<<filter>> tooltip="Copy filter to clipboard">
+         ''<$text text=<<filter>>/>'' {{$:/core/images/copy-clipboard}}
+      </$button>
+   </legend>
+   <div style="max-height:$(height)$;white-space:$(wrap)$;overflow:auto;font-size:80%;line-height:1em;">
+      <ol style="margin:0;column-gap:3em;column-count:$(cols)$;column-width:1em;">
+         <$list filter=<<filter_exclude>>>
+            <li><div class="powersearch_listitem" title=<<currentTiddler>>><$link/></div></li>
+         </$list>
+      </ol>
+   </div>
+</fieldset>
+\end
+
+\define toggleList()
+<$reveal state=<<show>> type="match" text="">
+   <$button tooltip="Show results"> {{$:/core/images/chevron-down}}
+      <$action-setfield $tiddler=<<config>> show="show" />
+   </$button>
+</$reveal>
+<$reveal state=<<show>> type="match" text="show">
+   <$button tooltip="Hide results"> {{$:/core/images/chevron-up}}
+      <$action-setfield $tiddler=<<config>> $field="show" />
+   </$button>
+</$reveal>
+\end
+
+\define saveFilter()
+<$vars  target={{{ [<now YYYY0MM0DD0hh0mm0ss>addprefix<saved>] }}}>
+<$button tooltip="Save current filter"> {{$:/core/images/save-button}}
+   <$action-setfield $tiddler=<<target>> type="application/json" text={{{ [<config>get[text]] }}}
+      filter={{{ [<filter>trim[]] }}} description={{{ [<filter>trim[]] }}} tags="$:/tags/Filter" />
+</$button>
+\end
+
+\define clearAll()
+<$tiddler tiddler=<<config>>>
+<$button tooltip="Clear all inputs"> {{$:/core/images/close-button}}
+   <$list filter="tids prefix notprefix suffix notsuffix tag nottag has field term flags sort custom">
+      <$action-setfield $tiddler=<<config>> $index=<<currentTiddler>> />
+   </$list>
+   <$action-deletetiddler $filter="[prefix[$:/state/popup/edit-list/]]"/>
+</$button>
+\end
+
+\define setOptions()
+<$button popup=<<qualify $(options)$>> tooltip="Set display options">
+   {{$:/core/images/options-button}}
+</$button>
+<$reveal type="popup" state=<<qualify $(options)$>> position="below"
+   class="tc-drop-down tt-drop-down tc-popup-keep" style="min-width:auto;padding:0.5em;">
+   ~PowerSearch options
+   <div class="tt-shadowbox inset" style="text-align:right;">
+      input width: <$edit-text tiddler=<<config>> field="width"   class="powersearch_optionwidth" default="" placeholder=<<default_width>>   /><br>
+       max height: <$edit-text tiddler=<<config>> field="height"  class="powersearch_optionwidth" default="" placeholder=<<default_height>>  /><br>
+       <center>
+       <$checkbox  tiddler=<<config>> field="confirm" checked="yes" unchecked="" default="" class="powersearch_checkboxwidth"> confirm inputs </$checkbox>
+       </center>
+   </div>
+</$reveal>
+\end
+
+\define modal(function)
+\define select() $(filter_exclude)$ +[encodeuricomponent[]]
+<$set name="selected" filter=<<select>>>
+<$button message="tm-modal" param="$:/temp/PowerSearch" tooltip="$function$ tiddlers">
+   <$transclude tiddler="$:/core/images/$function$-button"/>
+   <$action-setfield $tiddler="$:/temp/PowerSearch" class="powersearch_modal tc-popup-handle"
+      subtitle=<<modal_title>> text=<<modal_text>> footer=<<modal_footer>>
+      function="$function$" list=<<selected>> wrap=<<wrap>> cols=<<cols>> nostamp={{$:/config/TimestampDisable}}/>
+</$button>
+\end
+
+\define modal_title()
+\import TiddlyTools/FilterGenerators/PowerSearch
+\define filter() $(filter)$
+<span style="float:right;font-size:80%;line-height:1em;margin-top:0.5em;">
+   columns:
+   <$select   field="cols"><option>1</option> <option>2</option> <option>3</option> <option>4</option> <option>5</option></$select>
+   <$checkbox field="wrap" checked="normal" unchecked="nowrap" class="powersearch_checkboxwidth"> wrap </$checkbox>&emsp;
+   <$vars tv-config-toolbar-icons="yes" tv-config-toolbar-text="no">{{$:/core/ui/Buttons/timestamp}}</$vars>&emsp;
+   <<modal_cancel "{{$:/core/images/close-button}}">>
+   <<modal_ok     "{{$:/core/images/done-button}}" >>
+</span>
+''<$text text={{{ [{!!function}addsuffix[ tiddlers]sentencecase[]] }}}/>:''
+<div style="font-size:70%;line-height:1em;margin-bottom:0.5em;">''<$text text=<<filter>>/>''</div>
+\end
+
+\define modal_text()
+\import TiddlyTools/FilterGenerators/PowerSearch
+\define all() $(filter_exclude)$ +[encodeuricomponent[]]
+<<styles>>
+<div style={{{ [[max-height:calc(60vh - 5em);overflow:auto;font-size:80%;line-height:1em;margin-bottom:0.5em;white-space:]addsuffix{!!wrap}] }}}>
+<ol  style={{{ [[margin:0;column-gap:3em;column-width:1em;column-count:]addsuffix{!!cols}] }}}>
+   <$list filter=<<all>> variable="thisTiddler">
+   <li>
+      <div class="powersearch_listitem" title={{{ [<thisTiddler>decodeuricomponent[]] }}}>
+         <$list filter="[<currentTiddler>contains<thisTiddler>]">
+            <$eventcatcher $click='<$action-listops $subfilter="-[<thisTiddler>]"/>'>
+            <input type="checkbox" checked="checked"> <$text text={{{ [<thisTiddler>decodeuricomponent[]] }}}/>
+            </$eventcatcher>
+         </$list>
+         <$list filter="[<currentTiddler>!contains<thisTiddler>]">
+            <$eventcatcher $click='<$action-listops $subfilter="[<thisTiddler>]"/>'>
+            <input type="checkbox"> <$text text={{{ [<thisTiddler>decodeuricomponent[]] }}}/>
+            </$eventcatcher>
+         </$list>
+      </div>
+   </li>
+   </$list>
+</ol>
+</div>
+<$vars count={{{ [<currentTiddler>get[list]enlist-input[]count[]] }}}>
+<$list filter="[<count>match[0]]"  variable="msg">''Select tiddlers you want to {{!!function}}''</$list>
+<$list filter="[<count>!match[0]]" variable="msg">
+   ''Are you sure you want to {{!!function}} <$list filter="[<count>!match[1]]" emptyMessage="this tiddler?">these <<count>> tiddlers?</$list>''
+</$list>
+\end
+
+\define modal_footer()
+\import TiddlyTools/FilterGenerators/PowerSearch
+\define select() $(filter_exclude)$ +[encodeuricomponent[]]
+<$set name="all" filter=<<select>>>
+<div style="text-align:center;">
+<div style="float:left;text-align:left;">
+   <$button>all  <$action-setfield list=<<all>>/></$button>
+   <$button>none <$action-setfield list=""/></$button>
+</div>
+<div style="float:right;text-align:left;"><<modal_cancel>> <<modal_ok>></div>
+<<modal_options>>
+\end
+
+\define modal_cancel(label:"cancel")
+<$button message="tm-close-tiddler" tooltip="cancel" actions=<<modal_done>>> $label$ </$button>
+\end
+
+\define modal_ok(label:{{!!function}})
+<$vars ok={{{ [{!!function}!match[tag]] [{$:/temp/PowerSearch/add}!is[blank]] [{$:/temp/PowerSearch/remove}!is[blank]] +[then{!!list}!match[]then[yes]] }}}> 
+<$list filter="[<ok>match[yes]]" emptyMessage="<$button> @@color:gray;fill:gray; $label$@@</$button>" variable="is_enabled">
+   <$button message="tm-close-tiddler" tooltip={{!!function}} actions=<<modal_done>>> $label$ <<modal_functions>> </$button>
+</$list>
+\end
+
+\define modal_done()
+<$list filter="[[$:/config/TimestampDisable]is[tiddler]]" variable="reset_timestamp_setting">
+   <$action-setfield $tiddler="$:/config/TimestampDisable" text={{!!nostamp}}/>
+   <$list filter="[{!!nostamp}match[]]"><$action-deletetiddler $tiddler="$:/config/TimestampDisable" /></$list>
+</$list>
+<$action-deletetiddler $filter="[prefix[$:/temp/PowerSearch]]" />
+\end
+
+\define modal_options()
+\define taglist(tid,filter) <<edit tiddler:"$tid$" width:12em multiple:yes filter:"$filter$" placeholder:"enter/select tags">>
+<div style="display:inline-block;">
+<$list filter="[{!!function}match[tag]]" variable="function">
+   <nobr style="text-align:left;">''Add tags:''    <<taglist "$:/temp/PowerSearch/add"    "[tags[]sort[]] [all[shadows]tags[]sort[]]">></nobr>
+   <nobr style="text-align:left;">''Remove tags:'' <<taglist "$:/temp/PowerSearch/remove" "[enlist{$:/temp/PowerSearch!!list}decodeuricomponent[]tags[]sort[]]">></nobr>
+</$list>
+<$list filter="[{!!function}match[clone]]" variable="function">
+   <nobr>''Replace'' <$edit-text tiddler="$:/temp/PowerSearch/from" tag="input" size="20" default="" placeholder=""/></nobr>
+   <nobr>''with''    <$edit-text tiddler="$:/temp/PowerSearch/to"   tag="input" size="20" default="" placeholder=""/></nobr>
+</$list>
+<$list filter="[{!!function}match[export]]" variable="function">
+   ''Filename/format'':
+   <$edit-text tiddler="$:/temp/PowerSearch/filename" tag="input" size="20" default=""
+      placeholder={{{ [{$:/temp/PowerSearch/format}suffix[TidFile]then[-- uses tiddler title --]else[tiddlers]] }}}
+         disabled={{{ [{$:/temp/PowerSearch/format}suffix[TidFile]then[yes]] }}}/>
+   <$select tiddler="$:/temp/PowerSearch/format" default="$:/core/templates/exporters/JsonFile">
+      <option value="$:/core/templates/exporters/CsvFile">     csv </option>
+      <option value="$:/core/templates/exporters/StaticRiver"> html</option>
+      <option value="$:/core/templates/exporters/JsonFile">    json</option>
+      <option value="$:/core/templates/exporters/TidFile">     tid </option>
+   </$select>
+</$list>
+<$list filter="[{!!function}match[delete]]" variable="function">
+   &nbsp; <!-- NO OPTIONS -->
+</$list>
+\end
+
+\define modal_functions()
+<$list filter="[{!!function}match[tag]]" variable="function">
+   <$list filter="[enlist{!!list}decodeuricomponent[]]">
+      <$action-listops $field="tags" $subfilter="+[append{$:/temp/PowerSearch/add}remove{$:/temp/PowerSearch/remove}]"/>
+   </$list>
+</$list>
+<$list filter="[{!!function}match[clone]]" variable="function">
+   <$list filter="[enlist{!!list}decodeuricomponent[]]">
+      <$vars newtitle={{{ [<currentTiddler>search-replace{$:/temp/PowerSearch/from},{$:/temp/PowerSearch/to}]  }}}>
+      <$action-createtiddler $basetitle=<<newtitle>> $template=<<currentTiddler>> />
+      </$vars>
+   </$list>
+</$list>
+<$list filter="[{!!function}match[export]]" variable="function">
+   <$vars format={{{ [[$:/temp/PowerSearch/format]get[text]else[$:/core/templates/exporters/JsonFile]] }}}
+        filename={{{ [[$:/temp/PowerSearch/filename]get[text]else[tiddlers]] }}}>
+   <$vars    ext={{{ [<format>get[extension]]   }}}>
+   <$vars target={{{ [<ext>addprefix<filename>] }}}>
+   <$vars   list="[enlist{$:/temp/PowerSearch!!list}decodeuricomponent[]]">
+   <$list filter="[<format>!suffix[TidFile]]">
+      <$action-sendmessage $message="tm-download-file" $param=<<format>>
+         exportFilter=<<list>> filename=<<target>> />
+   </$list>
+   <$list filter="[<format>suffix[TidFile]]">
+      <$list filter=<<list>>>
+         <$action-sendmessage $message="tm-download-file" $param=<<format>>
+            exportFilter=<<currentTiddler>> filename={{{ [<currentTiddler>addsuffix<ext>] }}} />
+      </$list>
+   </$list>
+   </$vars>
+   </$vars>
+   </$vars>
+   </$vars>
+</$list>
+<$list filter="[{!!function}match[delete]]" variable="function">
+   <$action-deletetiddler $filter="[enlist{!!list}decodeuricomponent[]]" />
+</$list>
+\end
+
+<$vars width={{{ [<config>get[width]] ~[<default_width>] }}} confirm={{{ [<config>get[confirm]] }}}>
+   <<styles>> <<inputs>> <<savedFilters>>
+</$vars>
+<div style="clear:both;padding-top:0.5em;">
+<<doSearch>>

@@ -1,0 +1,53 @@
+created: 20230114124144464
+creator: Octt
+icon: 
+modified: 20230508213321092
+modifier: Octt
+tags: TODO $:/i18n:en
+title: Fediverse
+
+<!-- <<MediaWiki Fediverse en 1 Fediverse_logo_proposal.svg>> -->
+<<^wikipediaframe Fediverse en>>
+
+!! ''List of Platforms''
+
+Tip: these sites list many public instances for many platforms.
+
+* [[Fediverse.Party|https://fediverse.party]] --- <<#[ Git "https://codeberg.org/fediverse/fediparty">>
+* [[Fediverse Observer|https://fediverse.observer]]
+* [[Fediverse Explorer (h4kor)|https://h4kor.github.io/fediverse-explorer/]] --- Graph view of instances
+
+!!! ''Media''
+
+* [[PeerTube|PeerTube:en]] - Video sharing
+* [[Pixelfed|Pixelfed:en]] - Image sharing
+
+!!! ''Microblogging''
+
+* [[GoToSocial|https://gotosocial.org]] - //Fast, fun, ActivityPub server, powered by Go//
+* [[Mastodon|Mastodon:en]] | [[Hometown|https://github.com/hometown-fork/hometown]] | [[glitch-soc|https://github.com/glitch-soc]]
+* [[Misskey|Misskey:en]] | [[Dolphin|https://github.com/syuilo/dolphin]]
+* [[Pleroma|https://pleroma.social]] | [[Akkoma|https://akkoma.social]] | [[Soapbox|https://soapbox.pub]]
+* [[Takahē|https://jointakahe.org]] - //An efficient ActivityPub Server, for small installs with multiple domains//
+
+!!! ''Other''
+
+* [[Epicyon|https://epicyon.net]] [[[Git|https://gitlab.com/bashrc2/epicyon]]] - //Designed for simplicity and accessibility, includes calendar, news and sharing economy features//
+* [[Friendica|Friendica]]
+* [[Lemmy|Lemmy:en]] [[[Git|https://github.com/ernestwisniewski/kbin]], [[Dev Instance|https://dev.karab.in]]] - //🐀 A link aggregator and forum for the fediverse//
+* [[/kbin|https://kbin.pub]] - //Fediverse of content//
+
+!!! ''Coming Soon''
+
+* [[Goldfish Social|https://github.com/Goldfish-Social/Goldfish]]
+
+
+!! ''Posts and Users''
+
+* [[Fediverse Explorer (stefanbohacek)|https://stefanbohacek.com/project/fediverse-explorer/]] --- //Browse most recent public posts across the fediverse by hashtag//
+* [[fediverse.info|https://fediverse.info/]] --- Directory of suggested profiles
+
+
+!! ''Other''
+
+* [[Fediverse Enhancement Proposals|https://codeberg.org/fediverse/fep]]

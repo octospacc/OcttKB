@@ -1,0 +1,15 @@
+created: 20220920144224759
+modified: 20230206111552465
+modifier: Octt
+tags: Snippets $:/i18n:en
+title: X11/Snippets
+
+!! Multi-Screen Fixes
+
+!!! LG Flatron W1943SS (R) + TV Toshiba (L)
+
+```sh
+xrandr --output DVI-D-0 --addmode DVI-D-0 1920x1080
+xrandr --output DVI-D-0 --mode 1920x1080 -r 60.00
+xrandr --output DVI-D-0 --left-of HDMI-A-0
+```

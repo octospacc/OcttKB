@@ -1,0 +1,39 @@
+caption: Titles
+created: 20191126184117322
+modified: 20230109220606965
+tags: TiddlyTools $:/tags/AdvancedSearch
+title: $:/ThirdParty/TiddlyTools/FilterGenerators/Titles
+
+\define config() $:/config/TiddlyTools/FindTitles
+
+<style>
+.tt-findTitles input[type=text]      { min-width:30vw; }
+.tt-findTitles input[type=checkbox]  { width:auto !important; }
+.tt-findTitles .columns3             { display:block; column-count:3; column-gap:1em; }
+.tt-findTitles .small                { font-size:80%; line-height:1.3em; }
+.tt-findTitles .nowrap               { white-space:nowrap; }
+</style>
+
+<span class="tt-findTitles">
+find titles containing:
+<$edit-text tiddler=<<config>> index="text" tag="input" focus="yes"/><br>
+in
+<$checkbox  tiddler=<<config>> index="tiddler" checked="is[tiddler]"  unchecked=""> tiddlers </$checkbox>
+<$checkbox  tiddler=<<config>> index="shadow"  checked="is[shadow]"   unchecked=""> shadows  </$checkbox>
+<$checkbox  tiddler=<<config>> index="system"  checked="is[system]"   unchecked=""> system   </$checkbox>
+<$checkbox  tiddler=<<config>> index="tag"     checked="is[tag]"      unchecked=""> tags     </$checkbox>
+<$checkbox  tiddler=<<config>> index="missing" checked="is[missing]"  unchecked=""> missing  </$checkbox>
+<$checkbox  tiddler=<<config>> index="orphan"  checked="is[orphan]"   unchecked=""> orphans  </$checkbox>
+<$checkbox  tiddler=<<config>> index="image"   checked="is[image]"    unchecked=""> images   </$checkbox>
+<$checkbox  tiddler=<<config>> index="binary"  checked="is[binary]"   unchecked=""> binaries </$checkbox>
+
+<$tiddler tiddler=<<config>>>
+<$wikify name="is"    text="{{##tiddler}}{{##shadow}}{{##system}}{{##tag}}{{##missing}}{{##orphan}}{{##image}}{{##binary}}">
+<$wikify name="filter" text="[<<is>>search:title[{{##text}}]sort[]]">
+<$reveal default=<<is>> type="nomatch" text="">
+   <p/>
+   __There are <$count filter=<<filter>>/> tiddlers matching ''<$text text=<<filter>>/>''__
+   <blockquote class="columns3 small nowrap">
+      <$list filter=<<filter>>><$link/><br></$list>
+   </blockquote>
+</$reveal>

@@ -1,0 +1,55 @@
+.Music 52 days of autumn | GotAny: true
+.Music 52 days of autumn | GotLossless: false
+.Music ADORE ADORE ADORE | GotAny: true
+.Music ADORE ADORE ADORE | GotLossless: false
+.Music Anime Wav Groove Vol. 1&2 | GotAny: true
+.Music Anime Wav Groove Vol. 1&2 | GotLossless: true
+.Music FUTURE GROOVE PRODUCT | GotAny: true
+.Music FUTURE GROOVE PRODUCT | GotLossless: false
+.Music Float Islands | GotAny: true
+.Music Float Islands | GotLossless: false
+.Music I Love You | GotAny: true
+.Music I Love You | GotLossless: false
+.Music TYPE R-510 | GotAny: true
+.Music TYPE R-510 | GotLossless: false
+.Music The B-Sides | GotAny: true
+.Music The B-Sides | GotLossless: false
+.Music ULTRA GROOVE PRODUCT | GotAny: true
+.Music ULTRA GROOVE PRODUCT | GotLossless: false
+.Music android52 presents FILE CORRUPTED | GotAny: true
+.Music android52 presents FILE CORRUPTED | GotLossless: false
+.Music android52 presents WELCOME NEW GALAXY | GotAny: true
+.Music android52 presents WELCOME NEW GALAXY | GotLossless: false
+created: 20220921195911403
+creator: Octt
+modified: 20230508210814990
+modifier: Octt
+tags: Archiving Music
+title: $:/Octt/Music Archiving Status/Android52
+type: text/vnd.tiddlywiki
+
+<$importvariables filter="$:/Macros [[$:/Macros/Music Archiving Status]]">
+
+!!! Android52 || [[Bandcamp|https://android52.bandcamp.com/music]]
+
+<<Table """
+<<r "52 days of autumn">>
+<<r "ADORE ADORE ADORE">>
+<<r "ANDROID52 COLLECT">>
+<<r "android52 presents FILE CORRUPTED">>
+<<r "android52 presents WELCOME NEW GALAXY">>
+<<r "Anime Wav Groove Vol. 1&2">>
+<<r "~~CYGNUS~~" "In album: ADORE ADORE ADORE">>
+<<r Eclipse>>
+<<r "FUTURE GROOVE PRODUCT">>
+<<r "NONPLUSULTRA, Vol. 1">>
+<<r "NONPLUSULTRA, Vol. 2">>
+<<r "NONPLUSULTRA, Vol. 3">>
+<<r "The B-Sides">>
+<<r "TYPE R-510">>
+<<r "ULTRA GROOVE PRODUCT">>
+""">>
+
+!!!! Singles in Albums
+
+* BASSLINE 5000, Float Islands, I Love You : Anime Wav Groove Vol. 1&2

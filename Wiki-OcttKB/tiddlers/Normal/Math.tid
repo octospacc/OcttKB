@@ -1,0 +1,25 @@
+created: 20230428183805649
+creator: Octt
+modified: 20230428190437451
+modifier: Octt
+tags: 
+title: Math
+
+<<^wikipediaframe Math>>
+
+!!! ''Utilities''
+
+* [[Microsoft Math Solver|https://math.microsoft.com/en]] - Search engine for math solutions, guides, examples
+
+!!!! ''Geometry''
+
+* [[GeoGebra|https://www.geogebra.org/]] - //Graphing Calculator Suite// - <<[ "[[Git|https://github.com/geogebra]]">>
+* [[Desmos|https://www.desmos.com/]] - Another calculator suite
+
+!!!! ''Calculus''
+
+* [[Cymath|https://www.cymath.com/]] - Minimal Web CAS, works better than others
+* [[Photomath|https://photomath.com/]] - Mobile offline CAS app (badly programmed, requires Google Play Services on Android)
+* [[Symbolab|https://www.symbolab.com/]] - Web CAS, free version is limited
+* [[Wolfram Alpha|https://www.wolframalpha.com/]] - //Computational intelligence//
+** [[Wolfree Alpha|https://wolfreealpha.gitlab.io/input/]] - Hacked Wolfram Alpha webapp to show all data without Pro - <<[ "[[Mirrors|http://web.archive.org/web/20230315050344/https://wolfreealpha.gitlab.io/mirror/]]">> - <<[ "[[Git|https://git.disroot.org/wolfree/wolfree-dockerfile]]">>

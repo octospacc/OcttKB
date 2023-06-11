@@ -1,0 +1,84 @@
+created: 20230109160537807
+creator: Octt
+modified: 20230219103224267
+modifier: Octt
+tags: $:/tags/Macro
+title: $:/Macros/Directory
+
+\whitespace trim
+
+<!-- Directory Features --->
+
+\define DirTreeList(Prefix)
+<$set name="Prefix" filter=" $Prefix$" value="$Prefix$" emptyValue=<<currentTiddler>>>
+  <$macrocall $name="tree_" prefix={{{[<Prefix>addsuffix[/]]}}}/>
+</$set>
+\end
+\define dirtreelist(Prefix) <<DirTreeList "$Prefix$">>
+
+
+<!-- Below are the old and ugly macros -->
+
+\define CurDirList()
+<$set name="Name" value=<<GetCurrentDirectoryPath>>>
+<ul>
+<$list filter="[prefix<Name>]">
+	<li>
+		<$link>
+			<<currentTiddler>>
+		</$link>
+	</li>
+</$list>
+</ul>
+</$set>
+\end
+
+\define TCurDirList(h:"2")
+<h$h$ class="DirList-Title">Directory Listing</h$h$>
+<<CurDirList>>
+\end
+
+\define DirList(Path)
+<$set name="Name" value=<<GetDirectoryPath $Path$>>>
+<ul>
+<$list filter="[prefix<Name>]">
+	<li>
+		<$link>
+			<<currentTiddler>>
+		</$link>
+	</li>
+</$list>
+</ul>
+</$set>
+\end
+
+\define TDirList(Path h:"2")
+<h$h$ class="DirList-Title">Directory Listing of [[$Path$]]/</h$h$>
+<<DirList $Path$>>
+\end
+
+\define GetCurrentDirectoryPath() $(currentTiddler)$/
+\define GetDirectoryPath(Path) $Path$/
+
+<!--
+\define GetDirectoryPath(Path) $Path$/
+
+\define DirList(Path:<<currentTiddler>>)
+<$set name="Name" value=<$macrocall $name="GetDirectoryPath" Path=$Path$/>>>
+<ul>
+<$list filter="[prefix<Name>]">
+	<li>
+		<$link>
+			<<currentTiddler>>
+		</$link>
+	</li>
+</$list>
+</ul>
+</$set>
+\end
+
+\define TDirList(Path)
+<h2>Directory Listing</h2>
+<<DirList $Path$>>
+\end
+--->

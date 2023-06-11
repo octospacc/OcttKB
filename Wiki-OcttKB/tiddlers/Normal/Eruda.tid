@@ -1,0 +1,21 @@
+created: 20230113095118172
+creator: Octt
+modified: 20230413085714108
+modifier: Octt
+tags: App $:/i18n:en
+title: Eruda
+
+''[[Eruda|https://eruda.liriliri.io]]'' is an open-source JavaScript applet for Web browsers, created to bring developer tools to those that lack them (like mobile ones). It provides the following features (from the project's README):
+
+* Console: Display JavaScript logs and run commands
+* Elements: Check the DOM's state
+* Network: Show requests status
+* Resources: Show localStorage and cookie information
+* Info: Show URL and user agent info
+* Snippets: Include snippets used most often
+* Sources: HTML/CSS/JS, source code viewer
+
+!!! ''More Resources''
+
+* Source Code and Documentation: [[github.com/liriliri/eruda|https://github.com/liriliri/eruda]]
+* <h3>➡️ <a href={{$:/ThirdParty/Eruda-Inject.bkjs}}>Inject Eruda into this page</a></h3>

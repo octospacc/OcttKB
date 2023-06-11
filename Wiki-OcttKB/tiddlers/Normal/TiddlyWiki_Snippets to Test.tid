@@ -1,0 +1,8 @@
+created: 20220922163220116
+modified: 20230111082334125
+tags: Snippets TiddlyWiki
+title: TiddlyWiki/Snippets to Test
+
+<style>
+tr:nth-child(even) {background-color: #f2f2f2;}
+</style>

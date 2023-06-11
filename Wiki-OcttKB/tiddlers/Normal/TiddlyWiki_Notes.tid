@@ -1,0 +1,28 @@
+created: 20230127155833205
+creator: Octt
+modified: 20230228112844290
+modifier: Octt
+tags: TiddlyWiki $:/i18n:en Discussion
+title: TiddlyWiki/Notes
+
+!!! ''Discussions and Solutions''
+
+Discussions that helped or might help me solve problems, some started by me. And also some that are just plain interesing.
+
+* [[How do you edit your wiki with both the web app and external editors?|https://talk.tiddlywiki.org/t/how-do-you-edit-your-wiki-with-both-the-web-app-and-external-editors/6320]]
+* [[Multilanguage Wiki - Found a solution, but need help for improving it|https://talk.tiddlywiki.org/t/multilanguage-wiki-found-a-solution-but-need-help-for-improving-it/4672]]
+
+<div/>
+
+* [[Date time wiki last updated or saved?|https://groups.google.com/g/TiddlyWiki/c/RxJdciY7yZY]]
+* [[Disable CodeMirror when on Mobile|https://github.com/Jermolene/TiddlyWiki5/issues/2730]]
+* [[Footnotes|https://groups.google.com/g/tiddlywiki/c/u5A6qK7CmrY]]
+* [[I want to edit something, oh no that's a transclusion|https://groups.google.com/g/TiddlyWiki/c/tYgM6kh9lNA]] | [[How do I transclude an edit window of a tiddler?|https://groups.google.com/g/tiddlywiki/c/GsMkfxSPkmA/m/cxGdAieIBgAJ]] | [[How to quickly navigate to a transcluded tiddler?|https://talk.tiddlywiki.org/t/how-to-quickly-navigate-to-a-transcluded-tiddler/4535/5]]
+* [[Is there way to make TiddlyWiki system-wide case insensitive?|https://groups.google.com/g/tiddlywiki/c/BcEF4fTzCj8]]
+* [[Macro to Create TOC Like Table with Dot Leader|https://talk.tiddlywiki.org/t/a-macro-to-create-toc-like-table-with-dot-leader/1232]]
+* [[Simple Javascript insertion in tiddlers (text/vnd.tiddlywiki)|https://groups.google.com/g/tiddlywiki/c/NwOI-QER2ig/m/lSLS3XolwDoJ]]
+* [[[TW5] Tag (Text) Cloud for TW5?|https://groups.google.com/g/tiddlywiki/c/_YE1pjZMFkg]] | [[TagCloud plugin|https://groups.google.com/g/tiddlywiki/c/VQPaJC6yyWM]]
+* [[Setting HTML attributes with a macro?|https://groups.google.com/g/tiddlywiki/c/Qp8Fzi0BR5I/m/N65Q6thTEwAJ]]
+* [[[Plugin] Presenting TW5-Uglify! Plugin compression the TiddlyWIki way!|https://groups.google.com/g/tiddlywiki/c/-kIVw00crRQ]]
+* [[TiddlyWiki Tiddler Editor: How to Improve the Usability?|https://talk.tiddlywiki.org/t/tiddlywiki-tiddler-editor-how-to-improve-the-usability/4657]]
+* [[Using conditional assignment mode of SetWidget to check empty strings|https://groups.google.com/g/tiddlywiki/c/Pzv5FDb9oHE/m/mh5Pzm7xAgAJ]]

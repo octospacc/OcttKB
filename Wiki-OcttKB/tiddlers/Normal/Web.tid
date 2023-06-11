@@ -1,0 +1,28 @@
+created: 20230203214532694
+creator: Octt
+icon: 🕸️
+modified: 20230531085524825
+modifier: Octt
+page-cover: https://source.unsplash.com/random?web
+tags: Internet
+title: Web
+
+<<^wikipediaframe World_Wide_Web en>>
+
+!! ''Resources''
+
+* [[Can I use|https://caniuse.com/]]
+* ''[[World Wide Web Consortium|https://www.w3.org/]]'' - //international community that develops open standards to ensure the long-term growth of the Web// - [[[Wikipedia|https://en.wikipedia.org/wiki/World_Wide_Web_Consortium]]]
+
+!!! ''Tools''
+
+* [[Browserling|https://www.browserling.com/]] | [[BrowserStack|https://www.browserstack.com/?ref=caniuse-source&caniuse_source=brand-asset]] | [[LambdaTest|https://www.lambdatest.com/]] - For testing web app and sites on different browsers, straight online
+* [[HTTrack|https://www.httrack.com/]] - //Website copier, offline browser// - <<[ "[[Git|https://github.com/xroche/httrack]]">>
+* ''[[ReplayWeb.page|https://replayweb.page/]]'' - //Serverless Web Archive Replay directly in the browser// - <<[ "[[Git|https://github.com/webrecorder/replayweb.page]]">>
+* [[TabFS|https://omar.website/tabfs/]] - //browser extension that mounts your browser tabs as a filesystem on your computer// - <<[ "[[Git|https://github.com/osnr/TabFS]]">>
+* ''[[W3C Markup Validation Service|https://validator.w3.org/]]'' - //Check the markup (HTML, XHTML, …) of Web documents// - [[[Other similar tools|https://w3c.github.io/developers/tools/]]]
+
+!!! ''Analytics''
+
+* ''[[GoatCounter|https://www.goatcounter.com/]]'' - //Easy analytics. Open-source, self-hostable, GDPR-compliant. No tracking of personal data, and works without JS// - <<[ "[[Git|https://github.com/arp242/goatcounter]]">>
+* //Others: https://github.com/newTendermint/awesome-analytics | https://github.com/pluja/awesome-privacy#analytics //

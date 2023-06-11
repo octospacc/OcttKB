@@ -1,0 +1,17 @@
+created: 20230203214625941
+creator: Octt
+icon: 🌐
+modified: 20230531085603757
+modifier: Octt
+page-cover: https://source.unsplash.com/random?internet
+tags: $:/i18n:en
+title: Internet
+
+<<^wikipediaframe Internet en>>
+
+(Specific Web resources are under [[Web]].)
+
+!!! ''Tools''
+
+* [[Aria2]]
+* [[Wget|https://www.gnu.org/software/wget/]] - Internet downloader utility

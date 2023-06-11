@@ -1,0 +1,15 @@
+description: some macro are not used REMOVE THEM
+tags: $:/tags/Commander/Macro
+title: $:/plugins/kookma/commander/macros/definition
+type: text/vnd.tiddlywiki
+
+\define tempPath()        $:/temp/commander
+
+\define searchboxTid()    $(tempPath)$/search-box
+\define selectiveOpsTid() $(tempPath)$/selective-operation
+
+
+\define workingTag()      $:/tags/Commander/Working
+\define exportTagTid()    $:/temp/commander/exportTag
+\define systemFieldsTid() $:/plugins/kookma/commander/config/systemfields
+\define commonFieldsTid() $:/plugins/kookma/commander/config/commonfields

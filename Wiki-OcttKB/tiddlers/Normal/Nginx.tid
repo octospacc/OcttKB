@@ -1,0 +1,13 @@
+created: 20230207185112276
+creator: Octt
+modified: 20230217223038921
+modifier: Octt
+tags: 
+title: Nginx
+
+<<^wikipediaframe Nginx en >>
+
+!!! ''Resources''
+
+* [[How to set up Nginx as a caching reverse proxy?|https://serverfault.com/questions/30705/how-to-set-up-nginx-as-a-caching-reverse-proxy]]
+* Nginx reverse proxy + URL rewrite: [[most correct way and best practice is usually...|https://serverfault.com/a/870620]]

@@ -1,0 +1,19 @@
+created: 20230207184928180
+creator: Octt
+modified: 20230608140722019
+modifier: Octt
+tags: Internet
+title: ping
+
+<<^wikipediaframe ping_(networking_utility) en>>
+
+* [[Ping "DUP!"|https://askubuntu.com/a/970492]] --- It's something that can happen when seeing data with `ping`: a packet gets corrupted somewhere in the way and a duplicate ping packet is received. Not dangerous unless it happens very frequently. <div>
+
+```
+$ ping example.com
+PING example.com [...]
+64 bytes from [...]: icmp_seq=1 [...]
+64 bytes from [...]: icmp_seq=1 [...] (DUP!)
+64 bytes from [...]: icmp_seq=2 [...]
+```
+</div>

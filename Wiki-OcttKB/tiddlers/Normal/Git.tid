@@ -1,0 +1,29 @@
+created: 20230202231537773
+creator: Octt
+modified: 20230302112950037
+modifier: Octt
+tags: Libre
+title: Git
+
+<<^wikipediaframe Git en>>
+
+* [[Never use git submodules|https://diziet.dreamwidth.org/14666.html]] - //git submodules are always the wrong solution. Yes, even the to the problem they were specifically invented to solve.//
+
+!!! ''Apps''
+* [[GitJournal|https://gitjournal.io/]] - //Mobile first Markdown Notes integrated with Git// - <<[ "[[Git|https://github.com/GitJournal]]">>
+
+!!! ''Servers''
+
+; Self-hostable servers
+: ''Git-SCM'': https://git-scm.com/
+: ''GitLab'': https://about.gitlab.com/install/
+: ''Gitea'': https://gitea.io/
+: ''sr.ht'': https://man.sr.ht/installation.md
+
+; Gratis SaaS servers
+: 🇺🇸 [[GitHub]]
+: 🇺🇸 [[GitLab.com|https://gitlab.com]]
+: 🇪🇺 [[Gitea.it|https://gitea.it]]
+: 🇪🇺 [[Codeberg|https://codeberg.org]] (Gitea)
+: 🇦🇺 [[BitBucket|https://bitbucket.org]]
+: https://NotABug.org

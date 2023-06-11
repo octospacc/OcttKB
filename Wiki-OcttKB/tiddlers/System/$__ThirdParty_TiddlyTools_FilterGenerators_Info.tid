@@ -1,0 +1,67 @@
+created: 20210719102404282
+modified: 20230109220740719
+tags: TiddlyTools
+title: $:/ThirdParty/TiddlyTools/FilterGenerators/Info
+
+\define program() [prefix[$:/ThirdParty/TiddlyTools/FilterGenerators]] [[$:/ThirdParty/TiddlyTools/Macros/edit-list]] +[!sort[modified]]
+
+\define  import(tids)
+Drag this link to
+<$button class="tc-btn-invisible tc-tiddlylink" popup="$:/state/popup/$(currentTiddler)$/$tids$" dragFilter=<<$tids$>>>
+   ''import <$count filter=<<$tids$>>/> $tids$ tiddlers.''
+</$button>
+<$reveal type="popup" state="$:/state/popup/$(currentTiddler)$/$tids$" class="tc-drop-down" style="padding:1em;">
+   <$list filter=<<$tids$>>><$link/></$list>
+</$reveal>
+\end
+
+|  author|''[ext[Eric Shulman|mailto:elsdesign@gmail.com]]''|
+|  source|''http://TiddlyTools.com/filtergenerators.html''|
+| updated|''<$view field="modified" format="date" template="DDD, MMM DDth YYYY at 0hh12:0mm:0ssam"/>''|
+
+<<import program>>
+
+~TiddlyTools' ~FilterGenerators define several $:/AdvancedSearch addon tabs to provide a variety of specialized searches.
+
+!! [[$:/ThirdParty/TiddlyTools/FilterGenerators/Titles]]
+<<<
+''Search for tiddler titles in selected types of tiddlers''
+
+* Finds tiddlers that contain the specified text anywhere in their title
+* Select one or more types of tiddlers to search in:<br>&emsp;tiddlers, shadows, system, tags, missing, orphans, images, binaries
+<<<
+
+!! [[$:/ThirdParty/TiddlyTools/FilterGenerators/Tags]]
+<<<
+''Search for tiddlers using a combination of tags''
+
+* Shows checkboxes for all tags in the file, including shadow tags
+* Select any combination of tags to search for
+* Shows results matching all tags (AND) and one or more tags (OR)
+<<<
+
+!! [[$:/ThirdParty/TiddlyTools/FilterGenerators/TagCloud]]
+<<<
+''Display tags using proportional size based on the number of tiddlers for each tag''
+
+* Select tags to include
+* Shows number of matching tiddlers on each tag "pill"
+* Sort results by tag title or number of matching tiddlers
+* options: min=minimum font size, step=font size increment, max=maximum font size, group=tag count cluster size
+<<<
+
+!! [[$:/ThirdParty/TiddlyTools/FilterGenerators/PowerSearch]]
+<<<
+''Assemble a compound filter to search for matching tiddlers''
+<br>Requires: [[TiddlyTools/Macros/edit-list]]
+
+* select types of tiddlers to search
+* include/exclude prefixes, suffixes or tags
+* find tiddlers that have a specific field (even if blank)
+* search in one or more specified fields
+* use flags to define the search criteria
+* sort results by any tiddler field
+* copy the assembled filter syntax to the clipboard
+* save assembled filters for later re-use
+* add/remove tags, clone/rename, export, or delete matching/selected tiddlers
+<<<
