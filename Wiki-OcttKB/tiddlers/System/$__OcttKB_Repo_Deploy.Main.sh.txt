@@ -1,4 +1,0 @@
-#!/bin/sh
-. ./Src.*.sh || true
-sh ./BuildSPA.sh
-sh ./Main.sh

@@ -1,9 +1,0 @@
-created: 20150126131341956
-creator: Tobias Beer
-modified: 20230110224652721
-modifier: Tobias Beer
-module-type: macro
-revision: 0
-summary: allows simple calculations based on tiddler fields
-title: $:/ThirdParty/tobibeer/calc
-type: application/javascript

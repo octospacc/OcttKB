@@ -1,5 +1,0 @@
-description: {{$:/language/Filters/Orphans}}
-filter: [all[orphans]sort[title]]
-tags: $:/tags/Commander/Filter
-title: $:/plugins/kookma/commander/filters/Orphans
-type: text/vnd.tiddlywiki

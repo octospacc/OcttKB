@@ -1,7 +1,0 @@
-tags: $:/tags/Macro
-title: $:/plugins/kookma/refnotes/macros/footnote
-type: text/vnd.tiddlywiki
-
-\define fnote(note)
-<div class="refnotes-tooltip refnotes-footnote"><div class="refnotes-tooltiptext">$note$</div></div>
-\end

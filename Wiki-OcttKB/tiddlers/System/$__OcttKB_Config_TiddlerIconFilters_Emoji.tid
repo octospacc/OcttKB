@@ -1,9 +1,0 @@
-created: 20230218224840540
-creator: Octt
-list-before: $:/config/TiddlerIconFilters/default
-modified: 20230218230846245
-modifier: Octt
-tags: $:/tags/TiddlerIconFilter
-title: $:/OcttKB/Config/TiddlerIconFilters/Emoji
-
-[has[Emoji]then{!!Emoji}addprefix[$:/Emojis/]]

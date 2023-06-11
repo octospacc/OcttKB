@@ -1,8 +1,0 @@
-created: 20230110205229441
-modified: 20230110213137071
-tags: 
-title: $:/OcttKB/Tweaks/Starlight.cfg
-
-!!! Personal Tweaks
-
-|<$link to="$:/Config/OcttKB/Tweaks/Starlight/.tc-story-river Padding">.tc-story-river Padding</$link><br>//Default 42px.//|<$edit-text tiddler="$:/Config/OcttKB/Tweaks/Starlight/.tc-story-river Padding" default="" tag="input"/>|

@@ -1,7 +1,0 @@
-created: 20230226210106105
-creator: Octt
-modified: 20230226210446048
-modifier: Octt
-title: $:/Macros/Styles
-
-\define NoDisp() display: none;

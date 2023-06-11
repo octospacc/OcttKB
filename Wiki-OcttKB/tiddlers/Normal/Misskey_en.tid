@@ -1,9 +1,0 @@
-created: 20221202225134930
-modified: 20230206111552223
-modifier: Octt
-tags: Fediverse $:/i18n:en
-title: Misskey:en
-
-[[Misskey|https://misskey-hub.net/en]] is an open, semi-decentralized social media platform. Decentralization is founded on the [[ActivityPub|ActivityPub:en]] protocol.
-
-[img[https://raw.githubusercontent.com/misskey-dev/misskey/develop/assets/title_float.svg]]

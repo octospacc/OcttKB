@@ -1,8 +1,0 @@
-created: 20230130080040533
-creator: Octt
-modified: 20230130080526665
-modifier: Octt
-tags: $:/tags/Macro
-title: $:/Macros/.@
-
-\define .@Wikipedia(Article Subdomain) <<WikipediaFrame "$Article$" "$Subdomain$">>

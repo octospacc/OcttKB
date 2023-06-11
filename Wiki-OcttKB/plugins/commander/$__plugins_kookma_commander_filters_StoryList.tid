@@ -1,5 +1,0 @@
-description: {{$:/language/Filters/StoryList}}
-filter: [list[$:/StoryList]] -$:/AdvancedSearch
-tags: $:/tags/Commander/Filter
-title: $:/plugins/kookma/commander/filters/StoryList
-type: text/vnd.tiddlywiki
