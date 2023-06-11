@@ -1,19 +1,25 @@
 #!/bin/sh
+set -e # Exit on any error
+set -x # Echo all commands
+
+# Configuration
+TargetWiki="OcttKB"
 TargetRepo="OcttKB"
-git clone --depth 1 https://gitlab.com/octtspacc/$TargetRepo ./Repo-$TargetRepo
-cd ./Repo-$TargetRepo
-rm -rf ./Wiki-OcttKB
+
+git clone --depth 1 "https://gitlab.com/octtspacc/$TargetRepo" "./Repo-$TargetRepo"
+cd "./Repo-$TargetRepo"
+rm -rf "./Wiki-$TargetWiki" || true
+
 tiddlywiki \
 	--verbose \
-	--load ../public/index.html \
-	--output ./Wiki-OcttKB \
-	--savewikifolder ./Wiki-OcttKB
-cd ./Wiki-OcttKB/tiddlers
+	--load "../$TargetWiki.html" \
+	--output "./Wiki-$TargetWiki" \
+	--savewikifolder "./Wiki-$TargetWiki"
+
+cd "./Wiki-$TargetWiki/tiddlers"
 mkdir -vp ../Normal ../System
-mv \$__* ../System/
-mv * ../Normal/
+mv \$__* ../System/ || true
+mv * ../Normal/ || true
 mv ../System ../Normal ./
 cd ../..
-git add .
-git commit -m "OcttKB Cross-Repo Sync (HTML to Raw)"
-git push
+GitPush "OcttKB Cross-Repo Sync (HTML to Raw)"
