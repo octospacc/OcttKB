@@ -1,6 +1,6 @@
 created: 20230611175832034
 creator: Octt
-modified: 20230611191622421
+modified: 20230611231648257
 modifier: Octt
 tags: [[Virtual Machine]] ToDo
 title: Harden VM from Human Inspection
@@ -33,8 +33,11 @@ We need the VM to autostart and avoid showing the desktop, or VMWare BIOS logo.
 
 # Install this package from APT: `wmctrl`
 # Make sure this line is present in the file `$HOME/.vmware/preferences`: `pref.vmplayer.fullscreen.nobar = "TRUE"`
-
-First, create a new profile in `gnome-terminal`, name it something unique, for example "VmWrapperTerminal".
+# Create a new profile in `gnome-terminal` settings, name it something unique, for example "VmWrapperTerminal". Click it and:
+#* Set to OFF:
+#** Scrolling > Show scrollbar.
+#** Text > Use colors from system theme, Use transparent background, Use transparency from system theme.
+#* Set Text > Default color: `#000000` for both Text and Background.
 
 Finally, go to Startup Applications > Add, and create a new item with whatever name and the following command:
 
@@ -49,7 +52,7 @@ Make sure to set the terminal window title, terminal profile name, terminal wind
 !!! Misc desktop tweaks
 
 * No notifications: Notifications > Do Not Disturb.
-* Never turn off: Power > Screen Blank: Never; Automatic Suspend: Off.
+* Never turn off: Power > Screen Blank: Never; Automatic Suspend: OFF.
 * Ensure you have no running applications that could spawn pop-up windows (e.g: Telegram Desktop, Steam, ...)
 
 !! This is not perfect!

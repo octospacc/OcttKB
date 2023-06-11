@@ -22,5 +22,5 @@ TryCrossRepoSync(){
   [ "$CommitCheck" != "$CommitMsg0 (raw to htm)"  ] && \
   [ "$CommitCheck" != "$CommitMsg0 (web to raw)"  ] && \
   [ "$CommitCheck" != "$CommitMsg0 (raw to web)"  ] && \
-    sh ./GitLab.CrossRepoSync.sh || true
+    . ./GitLab.CrossRepoSync.sh || true
 }

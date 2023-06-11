@@ -1,6 +1,6 @@
-created: 20230611175011888
+created: 20230611230851743
 creator: Octt
-list: 
-modified: 20230611211426118
+list: $:/OcttKB/Repo/GitLab.CrossRepoSync.sh $:/OcttKB/Repo/Src.Git.sh $:/OcttKB/Repo/Deploy.CrossRepoSync.sh
+modified: 20230611232218356
 modifier: Octt
 title: $:/StoryList
