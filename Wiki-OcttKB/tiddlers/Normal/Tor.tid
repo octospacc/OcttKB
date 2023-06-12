@@ -5,7 +5,9 @@ modifier: Octt
 tags: Internet Privacy
 title: Tor
 
-<<MediaWiki Tor_(network) en 1>>
-
 * https://www.torproject.org/
 * https://gitlab.torproject.org/tpo/
+
+<<MediaWiki Tor_(network) en 1>>
+
+* [[mkp224o|https://github.com/cathugger/mkp224o]] --- //vanity address generator for ed25519 onion services//

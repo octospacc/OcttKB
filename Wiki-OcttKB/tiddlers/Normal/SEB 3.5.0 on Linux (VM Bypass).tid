@@ -15,13 +15,15 @@ Having the need of running Safe Exam Browser while I've only got GNU+Linux on my
 
 Turns out only way to work around the issue is to make a relatively stealth VM.
 
-By analyzing the SEB for Windows source code, we can see some important files and methods:
+By analyzing the SEB for Windows source code, we can see some important files and methods, both by searching the files for keywords and by opening files referenced by other ones:
 
-* [[VirtualMachineDetector.cs:IsVirtualMachine()|https://github.com/SafeExamBrowser/seb-win-refactoring/blob/11b10e8e4524c1fe65b6c3db7d12e172facf322c/SafeExamBrowser.SystemComponents/VirtualMachineDetector.cs#L49]]: Clearly the main place where VM detection is happening
+* [[VirtualMachineDetector.cs:IsVirtualMachine()|https://github.com/SafeExamBrowser/seb-win-refactoring/blob/11b10e8e4524c1fe65b6c3db7d12e172facf322c/SafeExamBrowser.SystemComponents/VirtualMachineDetector.cs#L49]]: Clearly the main place where VM detection is happening.
+** [[SystemInfo.cs|https://github.com/SafeExamBrowser/seb-win-refactoring/blob/11b10e8e4524c1fe65b6c3db7d12e172facf322c/SafeExamBrowser.SystemComponents/SystemInfo.cs]]: Contains WMI calls for retrieval of multiple base system and peripheral informations.
 
 Also, by referring to various strings in the source code and [[issue #268|https://github.com/SafeExamBrowser/seb-win-refactoring/issues/268#issuecomment-994586854]], we can see that in VMs a bug occurs where 0 displays are detected. This must be accounted for after succeeding in concealing the VM from the program. A good start is in this class and method, which checks for displays and throws errors if necessary:
 
-* [[DisplayMonitorOperation.cs:CheckDisplayConfiguration()|https://github.com/SafeExamBrowser/seb-win-refactoring/blob/11b10e8e4524c1fe65b6c3db7d12e172facf322c/SafeExamBrowser.Runtime/Operations/DisplayMonitorOperation.cs#L51]]
+* [[DisplayMonitorOperation.cs:CheckDisplayConfiguration()|https://github.com/SafeExamBrowser/seb-win-refactoring/blob/11b10e8e4524c1fe65b6c3db7d12e172facf322c/SafeExamBrowser.Runtime/Operations/DisplayMonitorOperation.cs#L51]]: Main runtime checking for correct display configuration.
+** [[DisplayMonitor.cs:TryLoadDisplays()|https://github.com/SafeExamBrowser/seb-win-refactoring/blob/11b10e8e4524c1fe65b6c3db7d12e172facf322c/SafeExamBrowser.Monitoring/Display/DisplayMonitor.cs#L156]]: Contains WMI calls for checking displays.
 
 [TODO]
 
@@ -29,20 +31,210 @@ Also, by referring to various strings in the source code and [[issue #268|https:
 
 We choose VMWare Workstation 17 (latest version) as it lets a few important options be customized. First I created a VM with close-to-suggested settings (the primary ones don't matter here).
 
-Then I modified the network card settings [TODO]
+Then I modified the network card settings... [TODO]
 
-After this, I installed Windows 10 (a build from 2019 I have on a burned DVD always at hand). No VMWare tools have been installed.
+After this, I installed Windows 10 (a build from 2019 I have on a burned DVD always at hand). No VMWare tools have been installed (see below).
 
 !! Hardening Windows
 
 In this case "hardening" is meant as enhancing the privacy of our Windows against third-party apps, which we need to evade VM detection; we don't mean it as making the system more secure or robust for an exam purpose, which is something neutral to us (we as examinees don't care about it, it does neither benefit nor harm us).
 
-[TODO] (https://pastebin.com/XEn7BykP)
+Create two new text files wherever you want. I will name them as `WMI.mof` and `CIMv2.mof` for convenience.
+
+Copy-paste in `WMI.mof`:
+
+```
+#pragma namespace ("\\\\.\\root\\WMI")
+
+class WmiMonitorBasicDisplayParams
+{
+	boolean Active;
+	uint8 DisplayTransferCharacteristic;
+	[key] string InstanceName;
+	uint8 MaxHorizontalImageSize;
+	uint8 MaxVerticalImageSize;
+	SupportedDisplayFeaturesDescriptor SupportedDisplayFeatures;
+	uint8 VideoInputType;
+};
+
+[DYNPROPS]
+instance of WmiMonitorBasicDisplayParams
+{
+	Active = TRUE;
+	InstanceName = "DISPLAY\\Default_Monitor\\4&427137e&0&UID0_0";
+};
+
+class WmiMonitorConnectionParams
+{
+	boolean Active;
+	[key] string InstanceName;
+	uint32 VideoOutputTechnology;
+};
+
+[DYNPROPS]
+instance of WmiMonitorConnectionParams
+{
+	Active = TRUE;
+	InstanceName = "DISPLAY\\Default_Monitor\\4&427137e&0&UID0_0";
+	VideoOutputTechnology = 2147483648;
+};
+```
+
+Copy-paste in `CIMv2.mof`
+
+```
+#pragma namespace ("\\\\.\\root\\CIMv2")
+
+/* PS C:> get-wmiobject -class Win32_BIOS */
+class Win32_BIOS
+{
+	[key] string SMBIOSBIOSVersion;
+	string Manufacturer;
+	string SerialNumber;
+	string Name;
+	uint16 BiosCharacteristics[];
+	string Version;
+};
+
+[DYNPROPS]
+instance of Win32_BIOS
+{
+	SMBIOSBIOSVersion = "6.0";
+	Manufacturer = "Phoenix Technologies LTD";
+	SerialNumber = "a1 7b 88 e5 6c 44 73 8e-24 16 1d e6 69 59 83 a1";
+	Name = "PhoenixBIOSS 5.0 Release 6.0";
+	BiosCharacteristics = {1,2,3};
+	Version = "INTEL - 6040001";
+};
+
+/* PS C:> get-wmiobject -class Win32_ComputerSystem */
+class Win32_ComputerSystem
+{
+	[key] string Name;
+	string Domain;
+	string Manufacturer;
+	string Model;
+	string OEMStringArray[];
+};
+
+[DYNPROPS]
+instance of Win32_ComputerSystem
+{
+	Name = "WIN10";
+	Domain = "WORKGROUP";
+	Manufacturer = "Acer";
+	Model = "Acer Computer";
+	OEMStringArray = {"Acer Computer"};
+};
+
+class Win32_DiskDrive
+{
+	uint16 Availability;
+	uint32 BytesPerSector;
+	uint16 Capabilities[];
+	string CapabilityDescriptions[];
+	string Caption;
+	string CompressionMethod;
+	uint32 ConfigManagerErrorCode;
+	boolean ConfigManagerUserConfig;
+	string CreationClassName;
+	uint64 DefaultBlockSize;
+	string Description;
+	string DeviceID;
+	boolean ErrorCleared;
+	string ErrorDescription;
+	string ErrorMethodology;
+	string FirmwareRevision;
+	uint32 Index;
+	datetime InstallDate;
+	string InterfaceType;
+	uint32 LastErrorCode;
+	string Manufacturer;
+	uint64 MaxBlockSize;
+	uint64 MaxMediaSize;
+	boolean MediaLoaded;
+	string MediaType;
+	uint64 MinBlockSize;
+	string Model;
+	string Name;
+	boolean NeedsCleaning;
+	uint32 NumberOfMediaSupported;
+	uint32 Partitions;
+	[key] string PNPDeviceID;
+	uint16 PowerManagementCapabilities[];
+	boolean PowerManagementSupported;
+	uint32 SCSIBus;
+	uint16 SCSILogicalUnit;
+	uint16 SCSIPort;
+	uint16 SCSITargetId;
+	uint32 SectorsPerTrack;
+	string SerialNumber;
+	uint32 Signature;
+	uint64 Size;
+	string Status;
+	uint16 StatusInfo;
+	string SystemCreationClassName;
+	string SystemName;
+	uint64 TotalCylinders;
+	uint32 TotalHeads;
+	uint64 TotalSectors;
+	uint64 TotalTracks;
+	uint32 TracksPerCylinder;
+};
+
+[DYNPROPS]
+instance of Win32_DiskDrive
+{
+	SerialNumber = "Crucial SSD";
+	PNPDeviceID = "SCSI\\DISK&VEN_NVME&PROD_CRUCIAL_N\\5&25A13950&0&000000";
+};
+
+class Win32_PnPEntity : CIM_LogicalDevice
+{
+	[Read : ToSubclass,Key : ToInstance ToSubclass DisableOverride,Override("DeviceId") : ToSubclass,MappingStrings{"WMI"} : ToSubclass] string DeviceID;
+	[read : ToSubclass] string HardwareID[];
+	[read : ToSubclass] string CompatibleID[];
+	[read : ToSubclass,MappingStrings{"WMI"} : ToSubclass] string Manufacturer;
+	[read : ToSubclass,MappingStrings{"WMI"} : ToSubclass] string Service;
+	[read : ToSubclass,MappingStrings{"WMI"} : ToSubclass] string PNPClass;
+	[read : ToSubclass,MappingStrings{"WMI"} : ToSubclass] string ClassGuid;
+	[read : ToSubclass,MappingStrings{"WMI"} : ToSubclass] boolean Present;
+	[Implemented] Uint32 Enable([OUT] boolean rebootNeeded);
+	[Implemented] Uint32 Disable([OUT] boolean rebootNeeded);
+	[Implemented] Uint32 GetDeviceProperties([IN,optional] string devicePropertyKeys[],[OUT] Win32_PnPDeviceProperty deviceProperties[]);
+};
+
+[DYNPROPS]
+instance of Win32_PnPEntity
+{
+	DeviceID = "Crucial";
+};
+```
+
+''Note/Credits'': I mostly created these two files by learning from these sources, and then copypasting the examples/defaults values:
+
+* Video: <<YoutubeL vAb00RYFThE "Hide your VM using Registry and WMI tricks">>
+* [[Windows Management Instrumentation - Microsoft Learn|https://learn.microsoft.com/en-us/windows/win32/wmisdk/wmi-start-page]]
+
+''Tip'': In the files, when apparently random product/vendor names are mentioned (in this case Acer, Crucial, Phoenix, ...), they don't actually matter. Whatever matters is that, by doing this, any string containing "VMWare" is overwritten with something else, tricking VM detection. You can set whatever you want except VM programs/vendor. The proprietary names included here are for demonstration purposes only and are not strictly needed for this method, all trademark rights belong to the respective owners and not me.
+
+Finally, in an ''administrator'' CMD/PowerShell, use `mofcomp.exe` to apply these files:
+
+```cmd
+mofcomp .\WMI.mof
+mofcomp .\CIMv2.mof
+```
+
+''Note'': This procedure, as far as I understand, essentially corrupts Windows' WMI database. Internal Windows features should still work, and many applications (including SEB, of course) will still work, but some special software that needs to interface with WMI for useful operations might no longer work. Avoid ever using this procedure on a real machine for whatever purpose, only in a VM.
 
 !! Hardening the computer
 
 While not necessary to get SEB working, it's a good idea to harden the entire computer in case an examinator wants to do a manual inspection. See [[Harden VM from Human Inspection]].
 
+!! VMWare Tools?
+
+Installing VMWare tools before applying these patches should not hinder VM detection bypass, seeing SEB's VM detection code. However, I couldn't verify this, as the VMWare Tools installer executable simply doesn't want to start in my VM. I suspect the program fails to start exactly because of the patches, because I only tried to install the Tools after applying everything else. You could be more lucky.
+
 !! No abuse
 
-Be careful of only using this information if you actually need to run SEB on Linux or have other issues. Do not abuse the guide to create a VM for doing the exam and then getting out of it mid-session to use the host system normally and cheat. The procedure is not intended for cheating and if we start using it to do that, examiners will push for the holes that allow VM detection to be patched. If we only use it for valid reasons of OS compatibility, likely no one will protest and we will not be forced to use an OS we don't like as host on our computers. If you have to cheat at the written exam then you will fail the oral exam anyways, so study and don't use this method for cheating.
+Be careful of only using this information if you actually need to run SEB on Linux or have other issues. Do not abuse the guide to create a VM for doing the exam and then getting out of it mid-session to use the host system normally and cheat. The procedure is not intended for cheating and if we start using it to do that, examiners will push for the holes that allow VM detection bypass to be patched. If we only use it for valid reasons of OS compatibility, likely no one will protest and we will not be forced to use an OS we don't like as host on our computers. If you have to cheat at the written exam then you will fail the oral exam anyways, so study and don't use this method for cheating.

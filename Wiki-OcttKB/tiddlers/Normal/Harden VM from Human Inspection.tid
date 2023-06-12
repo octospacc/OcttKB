@@ -2,7 +2,7 @@ created: 20230611175832034
 creator: Octt
 modified: 20230611231648257
 modifier: Octt
-tags: [[Virtual Machine]] ToDo
+tags: [[Virtual Machine]]
 title: Harden VM from Human Inspection
 
 In some situations in which using a virtual machine to perform certain tasks isn't allowed, or could simply raise suspicion, hardening the VM to avoid manual human inspection could be necessary.
@@ -19,27 +19,38 @@ If this is not possible for some reason:
 # With the VM still booted in Workstation, go to View > Autosize: Stretch Guest.
 # Configure font and UI scaling in the guest OS to satisfactory levels (good size for you and minimal blurring).
 
-!!! Startup measures
+Note: with this guide you will be running the VM using VMWare Player (which is included in VMWare Workstation), as Workstation has some issues with display scaling in case of a non-perfect match.
+
+!!! ''VMWare tweaks''
+
+Useful tweaks can be made by editing the file `$HOME/.vmware/preferences`, adding or editing lines as necessary.
+
+* ''Hide menu bar while in full-screen'': `pref.vmplayer.fullscreen.nobar = "TRUE"`
+* ''Change hotkey combination'' keys from the default ones: set to `"true"` or `"false at will"`:
+** Ctrl: `pref.hotkey.control`
+** Shift: `pref.hotkey.shift`
+** Alt: `pref.hotkey.alt`
+** Meta: `pref.hotkey.gui`
+
+!!! ''Startup measures''
 
 In case the inspector asks you to reboot the machine, it's useful to have it immediately start up in the VM, without other UIs or logos beforehand.
 
-* No bootup logos or logs: this should already be the default on Pop!_OS I think.
-* User autologin: Users > Your user > Automatic Login.
-* Better desktop: Since the desktop could show for a split second on login, set a fully black background to reduce visible screen flashing: Background > Add picture, and select a fully black image file.
+* ''Disable bootup logos or logs'': this should already be the default on Pop!_OS I think.
+* ''User autologin'': Users > Your user > Automatic Login.
+* ''Darker desktop'': Since the desktop could show for a split second on login, set a fully black background to reduce visible screen flashing: Background > Add picture, and select a fully black image file.
 
-!!!! VM autostartup
+!!!! ''VM autostartup''
 
 We need the VM to autostart and avoid showing the desktop, or VMWare BIOS logo.
 
 # Install this package from APT: `wmctrl`
-# Make sure this line is present in the file `$HOME/.vmware/preferences`: `pref.vmplayer.fullscreen.nobar = "TRUE"`
 # Create a new profile in `gnome-terminal` settings, name it something unique, for example "VmWrapperTerminal". Click it and:
 #* Set to OFF:
 #** Scrolling > Show scrollbar.
 #** Text > Use colors from system theme, Use transparent background, Use transparency from system theme.
 #* Set Text > Default color: `#000000` for both Text and Background.
-
-Finally, go to Startup Applications > Add, and create a new item with whatever name and the following command:
+# Finally, go to Startup Applications > Add, and create a new item with whatever name and the following command:
 
 ```sh
 sh -c 'gnome-terminal --full-screen --title=VmWrapperTerminal --profile=VmWrapperTerminal --command "sleep 20" & sleep 5; wmctrl -r VmWrapperTerminal -b add,above; vmplayer --fullscreen "/path/to/your/VM/VM.vmx"'
@@ -49,12 +60,18 @@ This command first creates a full-screen gnome-terminal window, using our prepar
 
 Make sure to set the terminal window title, terminal profile name, terminal window wait, and VM .vmx path according to your needs and system configuration.
 
-!!! Misc desktop tweaks
+!!! ''Misc desktop tweaks''
 
-* No notifications: Notifications > Do Not Disturb.
-* Never turn off: Power > Screen Blank: Never; Automatic Suspend: OFF.
+* ''No notifications'': Notifications > Do Not Disturb.
+* ''Never turn off'': Power > Screen Blank: Never; Automatic Suspend: OFF.
+* (Laptops) Ensure closing the lid doesn't lock the screen.
 * Ensure you have no running applications that could spawn pop-up windows (e.g: Telegram Desktop, Steam, ...)
 
 !! This is not perfect!
 
 In the current explanations, there are a few holes. While even an expert inspector could never know for sure that you are using a VM, they could still see that something strange is going on on the computer and be suspicious. It's your responsibility to never show too much.
+
+* Shutting off the guest OS will reveal your desktop.
+* Rebooting the guest OS will reveal the VMWare logo.
+* Who knows!
+
