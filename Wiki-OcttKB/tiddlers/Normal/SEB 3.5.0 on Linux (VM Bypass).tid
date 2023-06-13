@@ -1,6 +1,6 @@
 created: 20230603231547125
 creator: Octt
-modified: 20230611191637526
+modified: 20230613125937967
 modifier: Octt
 tags: ToDo [[Virtual Machine]]
 title: SEB 3.5.0 on Linux (VM Bypass)
@@ -80,7 +80,7 @@ instance of WmiMonitorConnectionParams
 };
 ```
 
-Copy-paste in `CIMv2.mof`
+Copy-paste in `CIMv2.mof`:
 
 ```
 #pragma namespace ("\\\\.\\root\\CIMv2")

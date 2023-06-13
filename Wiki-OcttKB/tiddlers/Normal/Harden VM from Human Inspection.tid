@@ -1,6 +1,6 @@
 created: 20230611175832034
 creator: Octt
-modified: 20230611231648257
+modified: 20230613185021860
 modifier: Octt
 tags: [[Virtual Machine]]
 title: Harden VM from Human Inspection
@@ -9,7 +9,7 @@ In some situations in which using a virtual machine to perform certain tasks isn
 
 !! Pop!_OS Host + VMWare
 
-!!! Preparations
+!!! ''Preparations''
 
 Ensure the configured guest OS runs at the same screen resolution as the host system, to avoid black borders and/or stretching.
 
@@ -26,7 +26,7 @@ Note: with this guide you will be running the VM using VMWare Player (which is i
 Useful tweaks can be made by editing the file `$HOME/.vmware/preferences`, adding or editing lines as necessary.
 
 * ''Hide menu bar while in full-screen'': `pref.vmplayer.fullscreen.nobar = "TRUE"`
-* ''Change hotkey combination'' keys from the default ones: set to `"true"` or `"false at will"`:
+* ''Change hotkey combination'' keys from the default ones: set to `"true"` or `"false"` at will:
 ** Ctrl: `pref.hotkey.control`
 ** Shift: `pref.hotkey.shift`
 ** Alt: `pref.hotkey.alt`
@@ -56,7 +56,7 @@ We need the VM to autostart and avoid showing the desktop, or VMWare BIOS logo.
 sh -c 'gnome-terminal --full-screen --title=VmWrapperTerminal --profile=VmWrapperTerminal --command "sleep 20" & sleep 5; wmctrl -r VmWrapperTerminal -b add,above; vmplayer --fullscreen "/path/to/your/VM/VM.vmx"'
 ```
 
-This command first creates a full-screen gnome-terminal window, using our prepared profile and, importantly, with an unique name (to avoid confusion, you can set it equal to the special profile name). The window starts as non-blocking and simply runs a `sleep` command of enough seconds to make sure that our VM will start up and will have already gone past the VMWare BIOS logo; it will close itself after the fact. A few second wait is used immediately after this for good measure (making sure the window is spawned), and then our terminal window is made as "Always on top". Finally, the VM begins startup behind the black terminal window.
+This command first creates a full-screen gnome-terminal window, using our prepared profile and, importantly, with an unique name (to avoid confusion, you can set it equal to the special profile name). The window starts as non-blocking and simply runs a `sleep` command of enough seconds to make sure that our VM will start up and will have already gone past the VMWare BIOS logo; it will close itself after the fact. A few second wait is used immediately after this for good measure (making sure the window is spawned), and then our terminal window is made as "Always on top". Finally, the VM begins startup behind the black terminal window. Remember to click its window to set focus quickly, or else your real mouse will show up!
 
 Make sure to set the terminal window title, terminal profile name, terminal window wait, and VM .vmx path according to your needs and system configuration.
 
@@ -69,9 +69,9 @@ Make sure to set the terminal window title, terminal profile name, terminal wind
 
 !! This is not perfect!
 
-In the current explanations, there are a few holes. While even an expert inspector could never know for sure that you are using a VM, they could still see that something strange is going on on the computer and be suspicious. It's your responsibility to never show too much.
+In the current explanations, there are a few holes. While even an expert inspector could never know for sure that you are using a VM, they could still see that something strange is going on on the computer and be suspicious. It's your responsibility to never show too much. For sure, keep in mind:
 
 * Shutting off the guest OS will reveal your desktop.
 * Rebooting the guest OS will reveal the VMWare logo.
-* Who knows!
-
+* While we did the possible to reduce bootup screen flashes, some window transition effects could be somewhat visible (even if they are black-on-black).
+* You tell me!
