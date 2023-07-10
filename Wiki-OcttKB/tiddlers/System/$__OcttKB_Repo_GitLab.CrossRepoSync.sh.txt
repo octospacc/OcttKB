@@ -17,9 +17,35 @@ tiddlywiki \
 	--savewikifolder "./Wiki-$TargetWiki"
 
 cd "./Wiki-$TargetWiki/tiddlers"
-mkdir -vp ../Normal ../System
-mv \$__* ../System/ || true
-mv * ../Normal/ || true
-mv ../System ../Normal ./
-cd ../..
+
+for Dir in Normal System
+do mkdir -vp "../${Dir}" "../${Dir}.tmp"
+done
+
+mv \$__* ../System.tmp/ || true
+mv *     ../Normal.tmp/ || true
+#mv .*    ../Normal.tmp/ || true
+cd ..
+
+for TypeDir in System Normal
+do
+	cd "./${TypeDir}.tmp"
+	for OldFile in *
+	do
+		#WorkDir="$PWD"
+		NewFile="$(echo "${OldFile}" | sed -e 's|_|/|g')"
+		BaseName="$(echo "${NewFile}" | rev | cut -d"/" -f1 | rev)"
+		mkdir -p "../${TypeDir}/${NewFile}"
+		rm -rf "../${TypeDir}/${NewFile}"
+		mv "./${OldFile}" "../${TypeDir}/${NewFile}"
+		#cd "../${TypeDir}"
+		#mv "./$NewPath" "./$BaseName"
+		#cd "$WorkDir"
+	done
+	cd ..
+done
+
+mv ./System ./Normal ./tiddlers
+rm -rf ./System.tmp ./Normal.tmp
+cd ..
 GitPush "OcttKB Cross-Repo Sync (HTML to Raw)"
