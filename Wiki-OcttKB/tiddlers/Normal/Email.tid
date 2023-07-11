@@ -1,0 +1,10 @@
+title: Email
+
+<<^wikipediaframe Email>>
+
+* [[What characters are allowed in an email address?|https://stackoverflow.com/questions/2049502/what-characters-are-allowed-in-an-email-address]] (contains scary examples)
+
+!! ''Hosting''
+
+* [[Adding aliases inboxes using Postfix|https://unix.stackexchange.com/questions/319222/adding-aliases-inboxes-using-postfix]] --- add new lines in /etc/aliases as needed for aliases, with format `desidered_alias: real_username`, then run `newaliases`.
+* [[Quickly test an IMAP server with telnet|https://coderwall.com/p/h-tzia/quickly-test-an-imap-server-with-telnet]]

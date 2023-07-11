@@ -1,0 +1,9 @@
+title: Terminal/multiplexer
+
+<<^wikipediaframe "Terminal multiplexer">>
+
+!! ''GNU Screen''
+
+<<^wikipediaframe "GNU Screen">>
+
+* [[Setting a name for a screen session|https://unix.stackexchange.com/questions/12227/setting-a-name-for-a-screen-session]] --- spawn with `-S <Name>`, attach to with `-xS <Name>`

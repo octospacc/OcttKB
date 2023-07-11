@@ -45,7 +45,10 @@ do
 	cd ..
 done
 
+mv ./System ./System.tmp/System
+mv ./System.tmp/System/\$ ./System
 mv ./System ./Normal ./tiddlers
 rm -rf ./System.tmp ./Normal.tmp
+
 cd ..
 GitPush "OcttKB Cross-Repo Sync (HTML to Raw)"

@@ -7,10 +7,12 @@ title: Git
 
 <<^wikipediaframe Git en>>
 
-* [[Never use git submodules|https://diziet.dreamwidth.org/14666.html]] - //git submodules are always the wrong solution. Yes, even the to the problem they were specifically invented to solve.//
+* [[Never use git submodules|https://diziet.dreamwidth.org/14666.html]] --- //git submodules are always the wrong solution. Yes, even the to the problem they were specifically invented to solve.//
+
+* [[Converting a Git (GitLab) project.bundle export to simple Git repo|https://gist.github.com/paulgregg/181779ad186221aaa35d5a96c8abdea7]]
 
 !!! ''Apps''
-* [[GitJournal|https://gitjournal.io/]] - //Mobile first Markdown Notes integrated with Git// - <<[ "[[Git|https://github.com/GitJournal]]">>
+* [[GitJournal|https://gitjournal.io/]] - //Mobile first Markdown Notes integrated with Git// --- <<[ "[[Git|https://github.com/GitJournal]]">>
 
 !!! ''Servers''
 

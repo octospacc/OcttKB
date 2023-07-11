@@ -25,11 +25,15 @@ title: Linux
 
 * [[SquashFS|https://tldp.org/HOWTO/SquashFS-HOWTO/whatis.html]], [[DwarFS|https://github.com/mhx/dwarfs]]
 
+!!! ''Benchmarks''
+
+* [[Paul Raspberry Pi Benchmarks|https://willy-tech.de/raspberry-pi-benchmarks/]]
+
 !! ''Tools''
 
 * [[Flatpak|https://flatpak.org/]] --- //Linux application sandboxing and distribution framework// --- <<[# Git "https://github.com/flatpak">> <<[# "Dev Docs" "https://docs.flatpak.org/en/latest/">>
 ** [[Flathub|https://flathub.org/]] --- Official build and distribution service for Flatpak applications --- <<[ "[[Git|https://github.com/flathub]]">>
+** <<RedditL r/flatpak/comments/m09ma4/save_flathub_runtime_and_sdk_as_local_flatpak "Save Flathub runtime and SDK as local Flatpak file bundle">>
 
 * [[Wine|https://www.winehq.org/]] --- //Compatibility layer for running Windows applications on POSIX-compliant systems//
 ** [[WineZGUI|https://github.com/fastrizwaan/WineZGUI]] --- //Wine GUI using Zenity - Play and Share!// --- <<#[ Flatpak "https://github.com/fastrizwaan/flatpak-wine">>
-

@@ -19,6 +19,8 @@ title: Android
 
 //Note: some resources that are related to Android but also closely Java may be included under the [[Java]] section.//
 
+* [[All you need to know about LOST.DIR folder on Android devices|http://thesundaycoder.blogspot.com/2014/06/all-you-need-to-know-about-lostdir.html]]
+
 !!! ''Emulation / Containerization''
 
 * ''Anbox'' (discontinued) - //Android in a Box// - [[[Git|https://github.com/anbox]]]
