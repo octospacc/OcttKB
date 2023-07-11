@@ -1,7 +1,9 @@
 created: 20230211172153874
 creator: Octt
-modified: 20230211172340608
+modified: 20230711111416229
 modifier: Octt
 title: Java
 
-<<MediaWiki "Java (programming language)" en 2>>
+<<^wikipediaframe "Java (programming language)" en>>
+
+* [[Java NullPointerException|https://www.digitalocean.com/community/tutorials/java-lang-nullpointerexception]]

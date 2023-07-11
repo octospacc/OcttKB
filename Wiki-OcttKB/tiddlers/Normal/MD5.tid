@@ -1,0 +1,14 @@
+created: 20230711110503152
+creator: Octt
+modified: 20230711111218971
+modifier: Octt
+tags: 
+title: MD5
+
+<<^wikipediaframe MD5>>
+
+MD5 nowadays is known much vulnerable to collisions:
+
+* [[Are there two data blocks causing and MD5 collision?|https://crypto.stackexchange.com/questions/1434/are-there-two-known-strings-which-have-the-same-md5-hash-value]]
+** [[MD5 Collision Demo|https://www.mscs.dal.ca/~selinger/md5collision/]]
+** [[Create your own MD5 collisions|https://natmchugh.blogspot.com/2015/02/create-your-own-md5-collisions.html]]

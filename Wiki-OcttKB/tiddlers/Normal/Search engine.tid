@@ -1,6 +1,6 @@
 created: 20230227222603261
 creator: Octt
-modified: 20230227223832882
+modified: 20230711111633096
 modifier: Octt
 tags: 
 title: Search engine
@@ -8,5 +8,7 @@ title: Search engine
 <<^wikipediaframe "Search engine" en>>
 
 * [[LibreX|https://github.com/hnhx/librex]]
-* [[Searx|https://searx.github.io/searx/]] - //Privacy-respecting hackable metasearch engine// - <<[ "[[Git|https://github.com/searx]]">>
-** [[SearXNG|https://docs.searxng.org/]] - //Better Searx fork in active development// - <<[ "[[Git|https://github.com/searxng]]">>
+* [[Searx|https://searx.github.io/searx/]] --- //Privacy-respecting hackable metasearch engine// --- <<[ "[[Git|https://github.com/searx]]">>
+** [[SearXNG|https://docs.searxng.org/]] - //Better Searx fork in active development// --- <<[ "[[Git|https://github.com/searxng]]">>
+* [[YaCy|https://yacy.net/]] --- //free software for your own search engine//
+** [[Searchlab Web Demo|https://searchlab.eu/en/app/websearch_yaml4/]]
