@@ -27,20 +27,21 @@ mv *     ../Normal.tmp/ || true
 #mv .*    ../Normal.tmp/ || true
 cd ..
 
+# Note: if the hell happens again:
+# find -type f -name .tid -exec sh -c 'OldFile="{}"; Ext="$(echo "${OldFile}" | rev | cut -d"." -f1 | rev)"; NewFile="$(echo "${OldFile}" | sed -e "s|_|/|g" | rev | cut -d"." -f2- | rev)_.${Ext}"; mv "$OldFile" "$NewFile"; ' \;
+
 for TypeDir in System Normal
 do
 	cd "./${TypeDir}.tmp"
 	for OldFile in *
 	do
-		#WorkDir="$PWD"
-		NewFile="$(echo "${OldFile}" | sed -e 's|_|/|g')"
-		BaseName="$(echo "${NewFile}" | rev | cut -d"/" -f1 | rev)"
+		Ext="$(echo "${OldFile}" | rev | cut -d"." -f1 | rev)"
+		NewFile="$(echo "${OldFile}" | sed -e 's|_|/|g' | rev | cut -d"." -f2- | rev)_.${Ext}"
+		#NewFile="$(echo "${OldFile}" | sed -e 's|_|/|g')"
+		#[ "$(basename "${NewFile}") | cut -b1" = . ]
 		mkdir -p "../${TypeDir}/${NewFile}"
 		rm -rf "../${TypeDir}/${NewFile}"
 		mv "./${OldFile}" "../${TypeDir}/${NewFile}"
-		#cd "../${TypeDir}"
-		#mv "./$NewPath" "./$BaseName"
-		#cd "$WorkDir"
 	done
 	cd ..
 done

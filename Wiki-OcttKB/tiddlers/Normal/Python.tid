@@ -9,4 +9,10 @@ title: Python
 
 [[Python|https://www.python.org]] is a high-level, general-purpose, dynamically-typed, and garbage-collected programming language, with an extensive standard library and mandatory-indentation style.
 
+I hate that, while tab-indentation is practically supported by the interpreter, it's against the standard and linters/editors hate you if you use tabs instead of spaces.
+
+<<^wikipediaframe Python>>
+
 * [[PocketPy|https://pocketpy.dev/]] - //C++17 header-only Python interpreter for game engines.// - <<[ "[[Git|https://github.com/blueloveTH/pocketpy]]">>
+
+* [[Hex string to int|https://www.tutorialspoint.com/How-to-convert-hex-string-into-int-in-Python]] --- `int('6f637474', 16)`, `int('0x6f637474', 10)`

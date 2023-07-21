@@ -23,6 +23,10 @@ title: Web
 * [[TabFS|https://omar.website/tabfs/]] - //browser extension that mounts your browser tabs as a filesystem on your computer// - <<[ "[[Git|https://github.com/osnr/TabFS]]">>
 * ''[[W3C Markup Validation Service|https://validator.w3.org/]]'' - //Check the markup (HTML, XHTML, …) of Web documents// - [[[Other similar tools|https://w3c.github.io/developers/tools/]]]
 
+!!! ''Frameworks/Generators/CMS''
+
+* [[werc - A sane web anti-framework|http://werc.cat-v.org/]] --- //Bringing minimalism and sanity to the web// --- Has interesting features with a fixed but style-customizable layout, + support for apps and extensions.
+
 !!! ''Analytics''
 
 * ''[[GoatCounter|https://www.goatcounter.com/]]'' - //Easy analytics. Open-source, self-hostable, GDPR-compliant. No tracking of personal data, and works without JS// - <<[ "[[Git|https://github.com/arp242/goatcounter]]">>

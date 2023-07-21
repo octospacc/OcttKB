@@ -11,6 +11,8 @@ title: Nintendo Switch
 
 The console's introduction was hyped due to it being the first ever Nintendo console to be created with both home and portable use in mind. The name itself comes from the fact that the console can //switch//, from being connected to a TV to being able to be used standalone.
 
-!! ''Homebrew''
+!! ''Homebrew/Hacks''
 
 * Alternative OSes: [[Ubuntu]] and [[LineageOS]] by ''[[switchroot|https://switchroot.org/]]''
+* Custom Firmware: The real best today is [[Atmosphère-NX|https://github.com/Atmosphere-NX]] + related libs.
+* Signature patches (needed to run unsigned NSPs, aka homebrew NSPs or pirated games): <<[ "[[WiiDatabase|https://wiidatabase.de/switch-downloads/hacks/signatur-patches/]]">> <<[ "[[Hackintendo|https://hackintendo.com/download/sigpatches/?PageSpeed=noscript]]">> <<[ "[[ShadowOne333|https://gbatemp.net/threads/sigpatches-for-atmosphere-hekate-fss0-fusee-package3.571543/]]">>. They were provided by various developers who want to remain mostly anonymous, and they are mostly compiled together by ITotalJustice.
