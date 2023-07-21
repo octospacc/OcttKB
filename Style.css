@@ -214,6 +214,16 @@ input.Embed-Fullscreen-Btn:checked ~ iframe
 
 
 
+a[href="#~Welcome~"][class='tc-tiddlylink tc-tiddlylink-resolves']:after { content: ' 👋'; }
+
+
+
+
+
+
+
+
+
 a[href="#%24%3A%2FAdvancedSearch"][class='tc-tiddlylink tc-tiddlylink-resolves']:after { content: ' $:/core/images/advanced-search-button'; }
 
 
