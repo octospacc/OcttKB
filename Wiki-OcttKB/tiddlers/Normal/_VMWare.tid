@@ -1,6 +1,6 @@
 created: 20230613184829137
 creator: Octt
-modified: 20230613184914259
+modified: 20230723224050892
 modifier: Octt
 tags: [[Virtual Machine]]
 title: VMWare
@@ -8,3 +8,4 @@ title: VMWare
 <<^wikipediaframe VMWare>>
 
 * [[Is there any information about why VMware thinks they are not bound by the GPL?|https://news.ycombinator.com/item?id=9152186]]
+* [[VMwareHardenedLoader|https://github.com/hzqst/VmwareHardenedLoader]] --- //Vmware Hardened VM Detection Mitigation Loader (Anti-Anti-VM) for Windows Guests//, live patching program + manual steps information

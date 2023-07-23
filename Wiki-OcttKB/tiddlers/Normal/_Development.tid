@@ -1,8 +1,10 @@
 created: 20230613185754543
 creator: Octt
-modified: 20230613190055291
+modified: 20230723230239440
 modifier: Octt
 tags: 
 title: Development
 
 * [[What package naming convention do you use for personal/hobby projects|https://stackoverflow.com/questions/292169/what-package-naming-convention-do-you-use-for-personal-hobby-projects-in-java]] in Java/Android/Flatpak?
+
+* [[Compilation and Installation using Autoconf|https://opensource.apple.com/source/X11libs/X11libs-60/mesa/Mesa-7.8.2/docs/autoconf.html]]

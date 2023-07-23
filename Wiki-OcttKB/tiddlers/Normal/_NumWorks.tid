@@ -1,0 +1,18 @@
+created: 20230202110151955
+creator: Octt
+modified: 20230723230745197
+modifier: Octt
+tags: $:/i18n:en Calculator
+title: NumWorks
+
+* https://www.numworks.com/
+* https://github.com/numworks
+
+<<^wikipediaframe NumWorks en>>
+
+* [[Numworks Hacks Guide|https://guide.getomega.dev/]]
+* [[Omega|https://getomega.dev/]] Custom Firmware, abandoned --- <<[ "[[Git|https://github.com/Omega-Numworks]]">>
+** [[Upsilon|https://getupsilon.web.app/]] --- CFW forked from Omega and mantained --- <<[ "[[Git|https://github.com/UpsilonNumworks]]">>
+
+* [[Nwagyu|https://www.nwagyu.com/]] --- //Collection of free nwa apps that you can install on your NumWorks calculator//
+* [[Templates to Plot Functions, Parametric Equations, and Sequences|http://edspi31415.blogspot.com/2021/01/numworks-templates-to-plot-functions.html]]

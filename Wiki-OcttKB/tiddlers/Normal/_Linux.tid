@@ -1,7 +1,7 @@
 created: 20230111153758951
 creator: Octt
 icon: 🐧
-modified: 20230611175721274
+modified: 20230723225933475
 modifier: Octt
 page-cover: https://images.unsplash.com/photo-1549605659-32d82da3a059?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 tags: $:/i18n:en Unix
@@ -19,6 +19,8 @@ title: Linux
 * or, simplified: [[tldr pages|https://tldr.sh/]] --- <<#[ Git "https://github.com/tldr-pages">>
 
 !!! ''Misc''
+
+* [[Embedded Linux Wiki|https://elinux.org/Main_Page]]
 
 * LDP (obsolete?)
 ** [[The Network Administrators' Guide|https://tldp.org/LDP/nag/]]
