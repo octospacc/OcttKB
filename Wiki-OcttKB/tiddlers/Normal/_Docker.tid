@@ -1,0 +1,16 @@
+created: 20230722232624533
+creator: Octt
+modified: 20230723132009709
+modifier: Octt
+tags: 
+title: Docker
+
+<<^wikipediaframe "Docker (software)">>
+
+!!! Commands
+
+* `start`, `restart`: On existing containers, respectively ''start'' if it's not running, or ''restart'' at any condition
+
+!!! Flags
+
+* Passing ports: `-p Host:Container`, eg `-p 8080:80`
