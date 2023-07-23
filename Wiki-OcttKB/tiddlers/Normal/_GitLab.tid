@@ -1,0 +1,18 @@
+created: 20230723135323135
+creator: Octt
+modified: 20230723140745011
+modifier: Octt
+tags: Git
+title: GitLab
+
+* [[https://gitlab.com]]
+
+<<^wikipediaframe GitLab>>
+
+* GitLab(.com ?) fucked Access Tokens around spring-summer 2023, and ''I'm steaming rn as all my workflows are borked'':
+** Personal tokens expiration is now limited to 1 year max.
+*** Apparently old tokens with really long expiration (for example, I have some that expire in year 2100) remain working and unmodified.
+** Tokens specific to group repos are totally fucked:
+*** Expiration for existing tokens is apparently dropped to 1 year if it was previously more.
+*** New tokens can't be created: the UI in the repo's `Settings > Access Tokens` says: "//Group access token creation is disabled in this group. You can enable group access token creation in ''__group settings__''.//". Clicking on the link brings you to `Settings > General` of the group the repo is in, but there's no setting about tokens anywhere. Regarding this, the official documentation is useless, and I can't find third-party notes/articles.
+*** At least old tokens, idk about new ones, now cannot start CI workflows, e.g. on push in repo.
