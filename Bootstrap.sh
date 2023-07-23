@@ -1,5 +1,10 @@
 #!/bin/bash
 set -e # Exit on any error
+set -x # Echo all commands
+
+# Configuration
+WikiName="OcttKB"
+WikiLoading="./Wiki-${WikiName}"
 
 # Ensure important directories
 mkdir -vp ./Repo
@@ -7,20 +12,20 @@ rm -rf ./Repo.tmp ./Output.tmp || true
 
 # Export all tiddlers from the specific path of the HTML wiki
 tiddlywiki \
-	./Wiki-OcttKB \
+	${WikiLoading} \
 	--verbose \
 	--output ./Output.tmp \
-	--save "[prefix[$:/OcttKB/Repo/]]"
+	--save "[prefix[\$:/${WikiName}/Repo/]]"
 
 # Move the exported folder to a better location
-mv ./Output.tmp/\$_/OcttKB/Repo ./Repo.tmp
+mv "./Output.tmp/\$_/${WikiName}/Repo" ./Repo.tmp
 
 # Rename all extracted file to have a correct extension (remove forced .txt suffix)
 # Don't filter for just .sh files anymore as we have other kinds of files
 cd ./Repo.tmp
 for File in *.txt
 do
-	mv "$File" "${File/.txt}"
+	mv "${File}" "${File/.txt}"
 done
 cd ..
 

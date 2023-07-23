@@ -35,9 +35,14 @@ do
 	cd "./${TypeDir}.tmp"
 	for OldFile in *
 	do
-		Ext="$(echo "${OldFile}" | rev | cut -d"." -f1 | rev)"
-		NewFile="$(echo "${OldFile}" | sed -e 's|_|/|g' | rev | cut -d"." -f2- | rev)_.${Ext}"
-		#NewFile="$(echo "${OldFile}" | sed -e 's|_|/|g')"
+		#Ext="$(echo "${OldFile}" | rev | cut -d"." -f1 | rev)"
+		#NewFile="$(echo "${OldFile}" | sed -e 's|_|/|g' | rev | cut -d"." -f2- | rev)_.${Ext}"
+		NewPath="$(echo "${OldFile}" | sed -e 's|_|/|g')"
+		NewName="$(basename "${NewPath}")"
+		NewParent="$(echo "${NewPath}" | rev | cut -d"/" -f2- | rev)"
+		{ [ "${NewPath}" = "${NewName}" ] && [ "${NewPath}" = "${NewParent}" ] ;} \
+			&& NewFile="_${NewPath}" \
+			|| NewFile="${NewParent}/_${NewName}"
 		#[ "$(basename "${NewFile}") | cut -b1" = . ]
 		mkdir -p "../${TypeDir}/${NewFile}"
 		rm -rf "../${TypeDir}/${NewFile}"
