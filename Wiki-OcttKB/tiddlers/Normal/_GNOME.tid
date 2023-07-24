@@ -1,0 +1,15 @@
+created: 20230130074305715
+creator: Octt
+modified: 20230724223005041
+modifier: Octt
+tags: $:/i18n:en
+title: GNOME
+
+<<^wikipediaframe GNOME en>>
+
+!! ''GTK''
+
+<<^wikipediaframe GTK>>
+
+* [[Zenity|https://help.gnome.org/users/zenity/stable/index.html.en]]
+** [[Zenity: Command line Dialogs|https://funprojects.blog/2021/01/25/zenity-command-line-dialogs/]]

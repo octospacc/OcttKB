@@ -1,10 +1,12 @@
 created: 20230301080208442
 creator: Octt
-modified: 20230301114414634
+modified: 20230724222447005
 modifier: Octt
 tags: Web Modern
 title: Issues of the Modern Web
 
+* Just in, 2023/July: [[Web Environment Integrity API Proposal|https://github.com/RupertBenWiser/Web-Environment-Integrity]]
+** [[This is scary. It's (strong) SafetyNet for websites [...]|https://mastodon.uno/@lina@vt.social/110755246339815796]]
 * Reign of [[Surveillance Capitalism]].
 ** Full of advertisements, and trackers.
 * Technically problematic:

@@ -1,6 +1,6 @@
 created: 20230605214923345
 creator: Octt
-modified: 20230608141104628
+modified: 20230724222654053
 modifier: Octt
 tags: 
 title: Unix/Shell
@@ -11,3 +11,4 @@ title: Unix/Shell
 * [[Split string with symbol|https://stackoverflow.com/a/10638555]]
 * [[$PWD vs. pwd regarding portability|https://stackoverflow.com/questions/10795014/pwd-vs-pwd-regarding-portability]] --- `$(pwd)` has issues with paths with newline chars, `$PWD` is fine but can be wrongly reset by badly-made programs; all appear to be available on all good shells.
 * [[How to find the last field using 'cut'|https://stackoverflow.com/questions/22727107/how-to-find-the-last-field-using-cut]] --- `echo 'maps.google.com' | rev | cut -d'.' -f 1 | rev`
+* [[Get/use exit code of command|https://www.cyberciti.biz/faq/bash-get-exit-code-of-command/]] --- Variable `$?`

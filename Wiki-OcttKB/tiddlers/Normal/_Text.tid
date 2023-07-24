@@ -1,13 +1,20 @@
 created: 20230225150019278
 creator: Octt
-modified: 20230225214326480
+modified: 20230724220212290
 modifier: Octt
-tags: 
-title: Unicode
+tags: WIP
+title: Text
+
+...
+
+!! ''Unicode''
 
 <<^wikipediaframe Unicode>>
 
 * [[Unicode Search 🔎|http://xahlee.info/comp/unicode_index.html]]
+* [[BabelStone Unicode Tools|https://www.babelstone.co.uk/Unicode/]]
+* [[unicode.style|https://github.com/ekmartin/unicode-style]] --- //Style text by substituting characters with suitable unicode replacements//
+** Similar/additional: [[YayText|https://yaytext.com/]], https://github.com/ssrathi/text_styler, https://github.com/steinerkelvin/unicode-text-style
 
 !! ''Emoticons''
 

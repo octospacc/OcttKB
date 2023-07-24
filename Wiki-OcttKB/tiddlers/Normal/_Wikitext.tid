@@ -1,14 +1,15 @@
 created: 20230112115019993
-modified: 20230206111552455
+creator: Octt
+modified: 20230724220338171
 modifier: Octt
 tags: TiddlyWiki MediaWiki $:/i18n:en
-title: Wikitext:en
+title: Wikitext
 
-<<MediaWiki "Help:Wikitext" en 1>>
+<<^wikipediaframe "Help:Wikitext" en>>
 
 !!! ''MediaWiki's vs TiddlyWiki's Wikitext''
 
-''Documentation'': [[Wikipedia's|https://en.m.wikipedia.org/wiki/Help:Wikitext]] | [[TiddlyWiki's|https://tiddlywiki.com/#WikiText]]
+''Documentation'': [[Wikipedia's|https://en.wikipedia.org/wiki/Help:Wikitext]] | [[TiddlyWiki's|https://tiddlywiki.com/#WikiText]]
 
 !!!! ''Equalities''
 

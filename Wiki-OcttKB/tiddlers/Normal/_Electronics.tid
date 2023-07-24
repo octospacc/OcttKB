@@ -1,6 +1,6 @@
 created: 20230723224321237
 creator: Octt
-modified: 20230723224434280
+modified: 20230724223355093
 modifier: Octt
 tags: 
 title: Electronics
@@ -8,3 +8,9 @@ title: Electronics
 <<^wikipediaframe Electronics>>
 
 * [[Polyfuses explained|https://elinux.org/Polyfuses_explained]]
+
+* [[How to Solder|https://www.talkingelectronics.com/projects/Solder%20-%20How%20to/HowToSolder.html]]
+** <<YoutubeL y0xDR3St5Gg "How to Solder a Wire to a Circuit Board">>
+
+* [[How can I go about making temporary test connections in pcb while prototyping without soldering?|https://electronics.stackexchange.com/questions/331531/how-can-i-go-about-making-temporary-test-connections-in-pcb-while-prototyping-wi]], [[How can I make connection on pcb (circuit board) holes without solder (for prototyping)?|https://electronics.stackexchange.com/questions/249140/how-can-i-make-connection-on-pcb-circuit-board-holes-without-solder-for-proto]]
+** [[Any tricks to attaching a wire or pin to a testpoint?|https://electronics.stackexchange.com/questions/96799/any-tricks-to-attaching-a-wire-or-pin-to-a-testpoint#96807]]
