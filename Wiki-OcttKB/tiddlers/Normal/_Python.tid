@@ -1,7 +1,7 @@
 created: 20221110120605389
 creator: Octt
 icon: 🐍
-modified: 20230307220831705
+modified: 20230725120134964
 modifier: Octt
 page-cover: https://source.unsplash.com/random/?Python
 tags: Development $:/i18n:en
@@ -9,10 +9,17 @@ title: Python
 
 [[Python|https://www.python.org]] is a high-level, general-purpose, dynamically-typed, and garbage-collected programming language, with an extensive standard library and mandatory-indentation style.
 
-I hate that, while tab-indentation is practically supported by the interpreter, it's against the standard and linters/editors hate you if you use tabs instead of spaces.
-
 <<^wikipediaframe Python>>
 
-* [[PocketPy|https://pocketpy.dev/]] - //C++17 header-only Python interpreter for game engines.// - <<[ "[[Git|https://github.com/blueloveTH/pocketpy]]">>
+I hate that, while tab-indentation is practically supported by the interpreter, it's against the standard and linters/editors hate you if you use tabs instead of spaces.
 
+---
+
+* [[PocketPy|https://pocketpy.dev/]] - //C++17 header-only Python interpreter for game engines.// - <<[ "[[Git|https://github.com/blueloveTH/pocketpy]]">>
 * [[Hex string to int|https://www.tutorialspoint.com/How-to-convert-hex-string-into-int-in-Python]] --- `int('6f637474', 16)`, `int('0x6f637474', 10)`
+
+!!! ''HTML things''
+
+* [["html" std library|https://docs.python.org/3/library/html.html]], [[Beautiful Soup|https://www.crummy.com/software/BeautifulSoup/]]
+* Escaping HTML: [[html.escape() in Python|https://www.educative.io/answers/what-is-htmlescape-in-python]], [[easiest way to escape HTML in Python|https://stackoverflow.com/questions/1061697/whats-the-easiest-way-to-escape-html-in-python]]
+* Unescaping HTML: [[Decode HTML entities in Python string|https://stackoverflow.com/questions/2087370/decode-html-entities-in-python-string]]

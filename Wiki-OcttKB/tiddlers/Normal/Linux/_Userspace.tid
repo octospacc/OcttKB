@@ -1,6 +1,6 @@
 created: 20230608141932117
 creator: Octt
-modified: 20230608142245770
+modified: 20230725115220193
 modifier: Octt
 tags: 
 title: Linux/Userspace
@@ -8,3 +8,14 @@ title: Linux/Userspace
 * [[AppStream (Docs)|https://www.freedesktop.org/software/appstream/docs/]]
 ** [[AppStream .Metainfo.xml Creator|https://www.freedesktop.org/software/appstream/metainfocreator/]]
 * [[Open Age Ratings Service (OARS)|https://hughsie.github.io/oars/index.html]]
+
+!!! ''Misc tools''
+
+* [[Flatpak|https://flatpak.org/]] --- //Linux application sandboxing and distribution framework// --- <<[# Git "https://github.com/flatpak">> <<[# "Dev Docs" "https://docs.flatpak.org/en/latest/">>
+** [[Flathub|https://flathub.org/]] --- Official build and distribution service for Flatpak applications --- <<[ "[[Git|https://github.com/flathub]]">>
+** <<RedditL r/flatpak/comments/m09ma4/save_flathub_runtime_and_sdk_as_local_flatpak "Save Flathub runtime and SDK as local Flatpak file bundle">>
+
+* [[Wine|https://www.winehq.org/]] --- //Compatibility layer for running Windows applications on POSIX-compliant systems//
+** [[WineZGUI|https://github.com/fastrizwaan/WineZGUI]] --- //Wine GUI using Zenity - Play and Share!// --- <<#[ Flatpak "https://github.com/fastrizwaan/flatpak-wine">>
+** [[When is a wine-based Linux path used/converted?|https://askubuntu.com/questions/1018400/when-is-a-wine-based-linux-path-used]]
+*** `winepath` allows conversion of paths Unix --> Windows (`-u`), Windows --> Unix (`-w`)

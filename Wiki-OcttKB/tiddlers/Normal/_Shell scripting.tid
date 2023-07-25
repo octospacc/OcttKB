@@ -1,0 +1,13 @@
+created: 20230725113714725
+creator: Octt
+modified: 20230725114401911
+modifier: Octt
+tags: 
+title: Shell scripting
+
+<<^wikipediaframe "Shell scripting">>
+
+* Open URL from shell:
+** Windows: `start <URL>`
+** Linux desktop: `xdg-open <URL>`
+** More: https://stackoverflow.com/questions/38147620/shell-script-to-open-a-url, https://askubuntu.com/questions/515947/how-do-i-open-an-url-from-a-bash-script
