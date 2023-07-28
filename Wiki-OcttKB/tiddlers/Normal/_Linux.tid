@@ -25,7 +25,12 @@ title: Linux
 ** [[The Network Administrators' Guide|https://tldp.org/LDP/nag/]]
 
 * [[SquashFS|https://tldp.org/HOWTO/SquashFS-HOWTO/whatis.html]], [[DwarFS|https://github.com/mhx/dwarfs]]
+* [[systemd-nspawn|https://wiki.archlinux.org/title/Systemd-nspawn]] --- //chroot on steroids// for systemd hosts and guests
 
 !!! ''Benchmarks''
 
 * [[Paul Raspberry Pi Benchmarks|https://willy-tech.de/raspberry-pi-benchmarks/]]
+
+!!! ''Troubleshooting''
+
+* [[cannot mount /dev/loop1 read-only|https://serverfault.com/questions/839898/cannot-mount-block-device-dev-loop-read-only]] --- Filesystem might have a dirty log, using `-o norecovery` can still mount it readonly.

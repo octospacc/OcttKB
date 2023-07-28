@@ -5,4 +5,6 @@ modifier: Octt
 tags: Web PHP CMS
 title: WordPress
 
-<<MediaWiki WordPress en 4>>
+<<^wikipediaframe WordPress en>>
+
+* [[How to Add Code to WordPress Header and Footer|https://kinsta.com/knowledgebase/add-code-wordpress-header-footer/]]

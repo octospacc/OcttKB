@@ -7,5 +7,11 @@ title: BBS
 
 <<^wikipediaframe "Bulletin board system">>
 
+!!! ''BBSes''
+
+* [[Xibalba BBS|https://xibalba.l33t.codes/]] --- BBS from ENiGMA½ developer.
+
+!!! ''Software''
+
 * //[[ENiGMA½|https://nuskooler.github.io/enigma-bbs/]] //is a modern BBS software with a nostalgic flair!// --- <<[ "[[Git|https://github.com/NuSkooler/enigma-bbs]]">>
 ** Warning: with this software, after ~1 month of very little active usage (no one ever logged on it, except me for the few days, so it just ran idle the last weeks...), I saw strangely-high disk I/O usage at kind of random times (node installed on microSD, the BBS on HDD). I disabled it in the meantime because, together with the [[SpaccCraft]] server, it was contributing to the rise of load average and crashing the entire server. I never had time/will to investigate properly after this discovery though.

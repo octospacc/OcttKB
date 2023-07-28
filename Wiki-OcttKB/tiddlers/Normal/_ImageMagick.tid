@@ -7,10 +7,16 @@ title: ImageMagick
 
 <<^wikipediaframe ImageMagick en>>
 
-!! ''Resources''
+!!! ''How to''
 
 * [[Convert pdf to pdf without losing quality|https://stackoverflow.com/questions/49899547/imagemagik-convert-pdf-to-pdf-without-doing-anything#49900085]]
 ** //you have to upsize and put density first, e.g: `convert -density 288 input.pdf -resize 25% output.pdf`//
+
+* [[Cutting and Bordering|https://www.imagemagick.org/Usage/crop/]]
+** [[How to crop an image?|https://superuser.com/questions/1161340/how-to-crop-an-image-using-imagemagick-from-the-command-line#1161341]]
+** The most classic crop command is `-crop <Width>x<Height>+<OffsetX>+<OffsetY>`
+
+!!! ''Troubleshooting''
 
 * [[ImageMagick using too much memory to convert PDF files|https://stackoverflow.com/questions/15384879/imagemagick-using-more-than-2gb-of-memory-to-convert-pdf-files]]
 ** How to limit resources used? [[-limit type value|http://www.imagemagick.org/script/command-line-options.php#limit]]

@@ -8,8 +8,13 @@ title: Unix/Shell
 <<^wikipediaframe "Unix Shell">>
 
 * [[Input Field Separators|https://en.wikipedia.org/wiki/Input_Field_Separators]]
-* [[Split string with symbol|https://stackoverflow.com/a/10638555]]
 * [[$PWD vs. pwd regarding portability|https://stackoverflow.com/questions/10795014/pwd-vs-pwd-regarding-portability]] --- `$(pwd)` has issues with paths with newline chars, `$PWD` is fine but can be wrongly reset by badly-made programs; all appear to be available on all good shells.
-* [[How to find the last field using 'cut'|https://stackoverflow.com/questions/22727107/how-to-find-the-last-field-using-cut]] --- `echo 'maps.google.com' | rev | cut -d'.' -f 1 | rev`
+
 * [[Get/use exit code of command|https://www.cyberciti.biz/faq/bash-get-exit-code-of-command/]] --- Variable `$?`
+
+* [[Split string with symbol|https://stackoverflow.com/a/10638555]]
+* [[How to find the last field using 'cut'|https://stackoverflow.com/questions/22727107/how-to-find-the-last-field-using-cut]] --- `echo 'maps.google.com' | rev | cut -d'.' -f 1 | rev`
 * [[Check if a string begins with some value|https://stackoverflow.com/questions/2172352/in-bash-how-can-i-check-if-a-string-begins-with-some-value#18558871]] --- `beginswith(){ case $2 in "$1"*) true;; *) false;; esac; }`
+* [[How can I remove the extension of a filename in a shell script?|https://stackoverflow.com/questions/12152626/how-can-i-remove-the-extension-of-a-filename-in-a-shell-script]]
+
+* "error: arithmetic expression: expecting primary"... --- happens when calling an arithmetic expression (e.g. `$(( 5 * 7 ))`) with a missing parameter, or with quotes, in `sh`; `bash` accepts quotes and doesn't error instead. Don't use quotes in mathexps in `sh`.

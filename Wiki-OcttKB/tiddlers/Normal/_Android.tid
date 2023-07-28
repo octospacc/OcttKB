@@ -20,6 +20,7 @@ title: Android
 //Note: some resources that are related to Android but also closely Java may be included under the [[Java]] section.//
 
 * [[All you need to know about LOST.DIR folder on Android devices|http://thesundaycoder.blogspot.com/2014/06/all-you-need-to-know-about-lostdir.html]]
+* [[What Is a NOMEDIA File?|https://androidforums.com/threads/whats-a-nomedia-file.307529/]] --- An empty file called `.nomedia` is used to hide the media content of the directory (and subdirectories) it's placed in from gallery apps and such.
 
 !!! ''Emulation / Containerization''
 

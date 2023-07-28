@@ -5,9 +5,31 @@ modifier: Octt
 tags: Art
 title: Tech Art
 
+<<^wikipediaframe "Electronic art">>
+
+Some interesting tech art pieces follow.
+
 !! Web
 
 * [[After Dark Screensavers in CSS|https://www.bryanbraun.com/after-dark-css/]] --- <<[ "[[Git|https://github.com/bryanbraun/after-dark-css]]">>
 * [[Blob Opera|https://g.co/arts/6tBHA7mJESJtirzF9]] --- //Create your own ML-powered opera song!//
 * [[If the Moon Were Only 1 Pixel|https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html]] --- //A tediously accurate map of the solar system//
-* [[Space Elevator|https://neal.fun/space-elevator/]]
+* [[Space Elevator|https://neal.fun/space-elevator]]
+* [[p01 - Tunnex|http://www.p01.org/256b_tunnex]]
+* [[p01 - Starfield|http://www.p01.org/starfield]]
+* [[p01 - Micro Nova|http://www.p01.org/512b_micro_nova]]
+
+!!! [[Js1k|https://js1k.com/]] --- //The JavaScript code golfing competition//
+
+* [[Nyan Cat 2.0 (no audio?)|https://js1k.com/2019-x/details/4001]]
+* [[Across The Multiverse|https://js1k.com/2019-x/details/4142]]
+* [[3D Verlet simulation|https://js1k.com/2019-x/details/4079]]
+* [[Fractal Whirlwind|https://js1k.com/2019-x/details/4276]]
+* [[Pixel Art Editor|https://js1k.com/2019-x/details/4148]]
+
+!!! [[256b.htm Competition|http://wildmag.de/compo/?order=round]]
+
+* [[Poi – Bounce|http://wildmag.de/compo/Poi-Bounce/poi_256b_bounce.htm]]
+* [[Iotic – Mouse Moire|http://wildmag.de/compo/Iotic-Mouse_Moire/iotic-mouse_moire.html]]
+* [[Psikorp – Splinecrap|http://wildmag.de/compo/Psikorp-Splinecrap/psikorp-splinecrap.html]]
+* [[Mados – Divo|http://wildmag.de/compo/Mados-Divo/divo.html]]
