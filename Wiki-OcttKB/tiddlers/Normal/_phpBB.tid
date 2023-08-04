@@ -1,0 +1,9 @@
+title: phpBB
+
+<<^wikipediaframe phpBB>>
+
+* [[How to Install phpBB with Nginx and MariaDB on Ubuntu Linux|https://geekrewind.com/install-phpbb-on-ubuntu-17-04-17-10-with-nginx-mariadb-and-php-support/]] --- Note: the `php-fpm` package might need to be installed by specifying version, and it's better to use [[phpBB's official nginx.sample.conf|https://github.com/phpbb/phpbb/blob/master/phpBB/docs/nginx.sample.conf]].
+
+!!! Extensions
+
+* [[RH Topic Tags updated for phpBB 3.3.9+|https://www.phpbb.com/customise/db/extension/rh_topic_tags/support/topic/241126]]

@@ -25,7 +25,11 @@ title: Linux
 ** [[The Network Administrators' Guide|https://tldp.org/LDP/nag/]]
 
 * [[SquashFS|https://tldp.org/HOWTO/SquashFS-HOWTO/whatis.html]], [[DwarFS|https://github.com/mhx/dwarfs]]
+* cannot access fuse mount as root or other users, [[Why does root get Permission denied when accessing FUSE directory?|https://unix.stackexchange.com/questions/17402/why-does-root-get-permission-denied-when-accessing-fuse-directory#17423]] --- To allow access to other users, add `user_allow_other` in `/etc/fuse.conf`, then mount fs with `-o allow_root` (only root) or `-o allow_other` (any user, including root).
+
 * [[systemd-nspawn|https://wiki.archlinux.org/title/Systemd-nspawn]] --- //chroot on steroids// for systemd hosts and guests
+
+* [[Running a script every time a new kernel is installed|https://unix.stackexchange.com/questions/30320/running-a-script-every-time-a-new-kernel-is-installed]] --- Just place a sh script in `/etc/kernel/postinst.d/`
 
 !!! ''Benchmarks''
 

@@ -1,0 +1,11 @@
+title: File system
+
+<<^wikipediaframe "File system">>
+
+!! ''Btrfs''
+
+<<^wikipediaframe Btrfs>>
+
+Note (2023-08-04): I tried Btrfs more than a year ago on [[Linux Lite]] (with ZSTD compression iirc) but after filling up the entire partition leaving 0 bytes available, even after deleting files, the partition was like corrupted, couldn't write to it anymore.
+
+* [[https://btrfs.readthedocs.io/en/latest/Compression.html]] --- ZSTD is the best-balanced compressor
