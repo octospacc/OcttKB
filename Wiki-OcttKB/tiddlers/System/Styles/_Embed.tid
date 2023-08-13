@@ -1,6 +1,6 @@
 created: 20230112154615238
 creator: Octt
-modified: 20230228225214583
+modified: 20230813105657577
 modifier: Octt
 tags: $:/tags/Stylesheet
 title: $:/Styles/Embed
@@ -38,8 +38,11 @@ title: $:/Styles/Embed
 /* input.Checkbox-Btn:after { content: attr(label); } */
 
 .Embed-Fullscreen-Btn { float: right; font-style: revert; margin-top: -2em; }
-label.Embed-Fullscreen-Btn { margin-right: 2.5em; }
 input.Embed-Fullscreen-Btn { width: 2em; height: 2em; }
+label.Embed-Fullscreen-Btn {
+  margin-right: 2.5em;
+  width: initial;
+}
 
 /* TODO: Different top: positioning based on if mobile or desktop view is active, and if sidebar is open or closed (2em for mobile and sidebar closed, ~0.64em for the rest) */
 input.Embed-Fullscreen-Btn:checked,

@@ -1,10 +1,16 @@
 created: 20230113225224277
 creator: Octt
-modified: 20230417103714997
+modified: 20230813103800740
 modifier: Octt
-tags: ToDo RSS
+tags: RSS
 title: FreshRSS
 
-* https://freshrss.org
-* https://github.com/FreshRSS
-* https://hub.docker.com/r/linuxserver/freshrss
+* Site: https://freshrss.org
+* Docs: https://freshrss.github.io/FreshRSS/
+* Source: https://github.com/FreshRSS
+* Docker: https://hub.docker.com/r/linuxserver/freshrss
+
+---
+
+* How to resolve many feeds not getting updated in time? --- Configuration > Archiving > Do not automatically refresh more often than: [default should be 1 hour, set to a lower time].
+* [[[BUG] Preview images from YouTube feeds no longer working after updating to 1.21|https://github.com/FreshRSS/FreshRSS/issues/5170]] --- Only solution is to ''downgrade to v1.20.2''.

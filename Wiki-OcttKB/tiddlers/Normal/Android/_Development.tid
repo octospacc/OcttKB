@@ -1,11 +1,13 @@
 created: 20230217221957113
 creator: Octt
-modified: 20230608135904091
+modified: 20230813104233873
 modifier: Octt
 tags: 
 title: Android/Development
 
 !!! ''Development''
+
+* [[ADB (Android Debug Bridge)|https://developer.android.com/tools/adb]]
 
 !!!! ''Apps'' and the likes
 

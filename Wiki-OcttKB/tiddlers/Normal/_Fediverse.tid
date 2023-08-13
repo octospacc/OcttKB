@@ -1,7 +1,7 @@
 created: 20230114124144464
 creator: Octt
 icon: 
-modified: 20230508213321092
+modified: 20230813104810049
 modifier: Octt
 tags: TODO $:/i18n:en
 title: Fediverse
@@ -25,7 +25,7 @@ Tip: these sites list many public instances for many platforms.
 !!! ''Microblogging''
 
 * [[GoToSocial|https://gotosocial.org]] - //Fast, fun, ActivityPub server, powered by Go//
-* [[Mastodon|Mastodon:en]] | [[Hometown|https://github.com/hometown-fork/hometown]] | [[glitch-soc|https://github.com/glitch-soc]]
+* [[Mastodon|Mastodon]] | [[Hometown|https://github.com/hometown-fork/hometown]] | [[glitch-soc|https://github.com/glitch-soc]]
 * [[Misskey|Misskey:en]] | [[Dolphin|https://github.com/syuilo/dolphin]]
 * [[Pleroma|https://pleroma.social]] | [[Akkoma|https://akkoma.social]] | [[Soapbox|https://soapbox.pub]]
 * [[Takahē|https://jointakahe.org]] - //An efficient ActivityPub Server, for small installs with multiple domains//
