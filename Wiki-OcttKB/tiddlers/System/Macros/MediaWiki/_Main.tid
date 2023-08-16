@@ -1,6 +1,6 @@
 created: 20230110102736164
 creator: Octt
-modified: 20230305223746772
+modified: 20230816230750796
 modifier: Octt
 tags: $:/tags/Macro
 title: $:/Macros/MediaWiki/Main
@@ -30,7 +30,10 @@ title: $:/Macros/MediaWiki/Main
 \define ExtMediaWikiAnchor(Article, Domain) [[$Domain$/$Article$|https://$Domain$/wiki/$Article$]]
 
 \define WikipediaLink(Article, Subdomain:"en") [[$Article$|https://$Subdomain$.wikipedia.org/wiki/$Article$]]
+
 \define WikipediaLink-(Article, Subdomain:"en") [[$Article$ - Wikipedia|https://$Subdomain$.wikipedia.org/wiki/$Article$]]
+
+\define WikipediaL(Article, Subdomain:"en") <<WikipediaLink "$Article$" "$Subdomain$">>
 
 <!--
 <a href={{{[[$Article$]search-replace:g[ ],[_]prepend[https://$Subdomain$.wikipedia.org/]]}}}>$Article$</a>

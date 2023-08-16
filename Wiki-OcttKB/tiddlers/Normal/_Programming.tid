@@ -1,8 +1,14 @@
+created: 20230816230758244
+creator: Octt
+modified: 20230816230815940
+modifier: Octt
 title: Programming
 
 <<^wikipediaframe "Computer programming">>
 
 * <<WikipediaL "Loop unrolling">>
 ** <<WikipediaL "Duff's device">> --- I can't totally understand how this works but the piece of code is visually a beautiful machine
+
+* <<WikipediaL Header-only>>
 
 * [[How much abstraction is too much?|https://stackoverflow.com/questions/2668355/how-much-abstraction-is-too-much]]

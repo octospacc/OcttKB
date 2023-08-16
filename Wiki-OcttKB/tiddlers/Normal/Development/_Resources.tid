@@ -1,9 +1,11 @@
 created: 20230216222435750
 creator: Octt
-modified: 20230613185931281
+modified: 20230816225208208
 modifier: Octt
 tags: Development
 title: Development/Resources
+
+* [[Rico's cheatsheets (devhint.io)|https://devhints.io/]] --- //TL;DR for developer documentation - a ridiculous collection of cheatsheets// --- <<[# Git "https://github.com/rstacruz/cheatsheets">>
 
 ; Learning
 : [[Baeldung|https://www.baeldung.com/]]

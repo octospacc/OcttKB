@@ -1,6 +1,6 @@
 created: 20230227211756543
 creator: Octt
-modified: 20230227222403889
+modified: 20230816230138897
 modifier: Octt
 tags: 
 title: Cybersecurity
@@ -9,6 +9,13 @@ title: Cybersecurity
 
 * [[Search CVE List|https://cve.mitre.org/cve/search_cve_list.html]] --- Search the Common Vulnerabilities and Exposures
 * [[Phishing sites analysis and reporting|https://phish.report/]]
+
+!!! ''Malware''
+
+!!!! ''Content blockers''
+
+* [[uBlock Origin|https://ublockorigin.com/]] --- //Free, open-source ad content blocker. Easy on CPU and memory.// --- <<[# Git "https://github.com/gorhill/uBlock">>
+* [[﻿﻿Pi-hole﻿|https://pi-hole.net/]] --- //Network-wide ad blocking via your own Linux hardware// --- <<[# Git "https://github.com/pi-hole">>
 
 !!! ''Passwords''
 
