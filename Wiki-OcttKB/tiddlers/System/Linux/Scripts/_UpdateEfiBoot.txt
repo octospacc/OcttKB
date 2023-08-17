@@ -1,0 +1,10 @@
+#!/bin/sh
+# => /etc/kernel/postinst.d/zzz-UpdateEfiBoot
+set -ex
+cd /boot/efi
+
+cp ./vmlinuz.mint ./vmlinuz.mint.old
+cp ./initrd.mint ./initrd.mint.old
+
+cp ../vmlinuz ./vmlinuz.mint
+cp ../initrd.img ./initrd.mint

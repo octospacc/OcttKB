@@ -1,11 +1,11 @@
 created: 20230816223835858
 creator: Octt
-modified: 20230816224928332
+modified: 20230817225824818
 modifier: Octt
 tags: Linux
 title: Kernel postinst issue on Linux Mint
 
-The other day I got my Linux Mint system not booting anymore. I suspected this was due to my custom script I placed in `/etc/kernel/postinst.d/` that is needed to copy the latest kernel in my EFI partition after an APT update, to allow boot via efistub bypassing grub. Maybe an unattended upgrade of my kernel failed.
+The other day I got my Linux Mint system not booting anymore. I suspected this was due to [[my custom script|$:/Linux/Scripts/UpdateEfiBoot]] I placed in `/etc/kernel/postinst.d/` that is needed to copy the latest kernel in my EFI partition after an APT update, to allow boot via efistub bypassing grub. Maybe an unattended upgrade of my kernel failed.
 
 After manually fixing the EFI partition to boot again in the system, I tried manually to run `apt upgrade`, and saw that my postinst script threw an error due to not finding one of the files to copy from `/boot` to `/boot/efi`.
 
@@ -22,4 +22,4 @@ zz-shim
 zz-update-grub
 ```
 
-This was ugly to fix since, as seen in this list, my distro's mantainers are geniuses and decided to get rid of numbers, and instead prefer to just use alphabetical ordered naming, falling back to ugly letter suffixes when that plan failed. I renamed my script from `UpdateEfiBoot` to `zzz-UpdateEfiBoot` and that fixed the issue.
+This was ugly to fix since, as seen in this list, my distro's mantainers are geniuses and decided to get rid of numbers, and instead prefer to just use alphabetical ordered naming, falling back to ugly letter suffixes when that plan failed. I renamed my script from `UpdateEfiBoot` to `zzz-UpdateEfiBoot`, thus making it appear at the end of an alphabetical listing and sure enough that fixed the issue: running `apt upgrade` again completed the update without errors and my script did its job.

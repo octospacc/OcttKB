@@ -1,0 +1,19 @@
+created: 20230817233039500
+creator: Octt
+modified: 20230817234251775
+modifier: Octt
+tags: Markup WIP
+title: BBCode
+
+<<^wikipediaframe BBCode>>
+
+!!! ''Creation''
+
+* Simple tag, without arguments: `[example]{TEXT}[/example]`
+* Medium tag, with a standard argument: `[example={SIMPLETEXT}]{TEXT}[/example]`
+* Complex tag, with (multiple) named arguments: `[example first={SIMPLETEXT} second={NUMBER}]{TEXT}[/example]`
+
+!!!! ''Advanced''
+
+* Specifying multiple fields of the same type is done by prefixing the type with a number (e.g. `{TEXT1}`).
+* Prefixing a field with `?` or `;optional` makes it optional on the user input side.
