@@ -1,6 +1,6 @@
 created: 20230817233039500
 creator: Octt
-modified: 20230817234251775
+modified: 20230818075434697
 modifier: Octt
 tags: Markup WIP
 title: BBCode
@@ -17,3 +17,4 @@ title: BBCode
 
 * Specifying multiple fields of the same type is done by prefixing the type with a number (e.g. `{TEXT1}`).
 * Prefixing a field with `?` or `;optional` makes it optional on the user input side.
+* To make optional fields actually useful, and not jeopardizing safety of functionality of the generated HTML, [[XSLT]] can be used (version 1.0?).

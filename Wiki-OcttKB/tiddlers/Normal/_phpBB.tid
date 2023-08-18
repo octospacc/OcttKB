@@ -1,9 +1,18 @@
+created: 20230818075833750
+creator: Octt
+modified: 20230818080341706
+modifier: Octt
 title: phpBB
 
 <<^wikipediaframe phpBB>>
 
 * [[How to Install phpBB with Nginx and MariaDB on Ubuntu Linux|https://geekrewind.com/install-phpbb-on-ubuntu-17-04-17-10-with-nginx-mariadb-and-php-support/]] --- Note: the `php-fpm` package might need to be installed by specifying version, and it's better to use [[phpBB's official nginx.sample.conf|https://github.com/phpbb/phpbb/blob/master/phpBB/docs/nginx.sample.conf]].
 
-!!! Extensions
+!!! ''Extensions''
 
 * [[RH Topic Tags updated for phpBB 3.3.9+|https://www.phpbb.com/customise/db/extension/rh_topic_tags/support/topic/241126]]
+
+!!! ''Styles''
+
+* [[Milk|https://themeforest.net/item/milk-multipurpose-responsive-phpbb-31-theme/16119149]] --- //Flat, Modern Multipurpose Responsive Theme// --- <<[# Nullsto "https://www.nullsto.com/resources/milk-multipurpose-responsive-phpbb-3-3-theme.1167/">>
+* [[phpBB3 WAP Style|https://www.phpbb.com/customise/db/style/phpbb3_wap_style/]]

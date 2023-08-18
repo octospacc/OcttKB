@@ -1,6 +1,6 @@
 created: 20230223222804008
 creator: Octt
-modified: 20230605212940946
+modified: 20230818074331073
 modifier: Octt
 tags: 
 title: Saved/Sites
@@ -38,6 +38,7 @@ Note: "[property]-leaning" means the majority of the content of the site, or the
 * [[rdpillon|https://rpdillon.net/]] --- //Rick's Home Online//
 * [[TheFrenchGhosty|https://thefrenchghosty.me/]]
 * [[wiki.nikiv.dev|https://wiki.nikiv.dev/]] --- <<[ "[[Git|https://github.com/nikitavoloboev/knowledge]]">>
+** [2023-08-18] Apparently the majority of pages in now paywalled, and the public Git repo isn't receiving any updates. Since the wiki is still static, the paywall can be bypassed by disabing JavaScript (which breaks navigation on mobile and search globally), or use userstyle/userscript managers to inject this code into the same to hide the pay popup: [TODO].
 * [[XXIIVV|https://wiki.xxiivv.com/]] --- <<[ "[[Git|https://github.com/XXIIVV/oscean]]">>
 
 !!! Mess-leaning <small>(often the most creative)</small>
