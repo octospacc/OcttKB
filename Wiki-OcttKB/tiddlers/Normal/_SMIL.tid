@@ -1,0 +1,10 @@
+created: 20230823095502547
+creator: Octt
+modified: 20230823095954050
+modifier: Octt
+tags: SVG
+title: SMIL
+
+Language derived from XML (and partially SVG) to create animated and interactive multimedia experiences without JavaScript, older and less clunky than using CSS3 to do the same things.
+
+<<^wikipediaframe "Synchronized Multimedia Integration Language">>

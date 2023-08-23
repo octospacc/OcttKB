@@ -1,8 +1,10 @@
 created: 20230202225649145
 creator: Octt
-modified: 20230817233159210
+modified: 20230823101857409
 modifier: Octt
 tags: $:/i18n:en Markup WIP
 title: XML
 
 <<^WikipediaFrame XML en>>
+
+* [[The XML FAQ|https://xml.silmaril.ie]] --- //Frequently-Asked Questions about the Extensible Markup Language//
