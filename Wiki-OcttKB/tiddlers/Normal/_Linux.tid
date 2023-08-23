@@ -1,7 +1,7 @@
 created: 20230111153758951
 creator: Octt
 icon: 🐧
-modified: 20230725113527726
+modified: 20230823231133171
 modifier: Octt
 page-cover: https://images.unsplash.com/photo-1549605659-32d82da3a059?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 tags: $:/i18n:en Unix
@@ -27,9 +27,14 @@ title: Linux
 * [[SquashFS|https://tldp.org/HOWTO/SquashFS-HOWTO/whatis.html]], [[DwarFS|https://github.com/mhx/dwarfs]]
 * cannot access fuse mount as root or other users, [[Why does root get Permission denied when accessing FUSE directory?|https://unix.stackexchange.com/questions/17402/why-does-root-get-permission-denied-when-accessing-fuse-directory#17423]] --- To allow access to other users, add `user_allow_other` in `/etc/fuse.conf`, then mount fs with `-o allow_root` (only root) or `-o allow_other` (any user, including root).
 
-* [[systemd-nspawn|https://wiki.archlinux.org/title/Systemd-nspawn]] --- //chroot on steroids// for systemd hosts and guests
+* [[systemd-nspawn|https://wiki.archlinux.org/title/Systemd-nspawn]] --- //chroot on steroids// for systemd hosts and guests.
+** Quick boot a mounted rootfs: `-b -D ${rootfs path}`.
+** Kill booted container from shell: hold Ctrl and quickly press ] for 3 times.
 
-* [[Running a script every time a new kernel is installed|https://unix.stackexchange.com/questions/30320/running-a-script-every-time-a-new-kernel-is-installed]] --- Just place a sh script in `/etc/kernel/postinst.d/`
+* [[Running a script every time a new kernel is installed|https://unix.stackexchange.com/questions/30320/running-a-script-every-time-a-new-kernel-is-installed]] --- Just place a sh script in `/etc/kernel/postinst.d/` (with the correct filename order).
+
+* [[linuxserver/webtop|https://github.com/linuxserver/docker-webtop]] --- //Ubuntu, Alpine, Arch, and Fedora based Webtop Docker images, Linux in a web browser supporting popular desktop environments//
+** Note: apparently the `/websockify` HTTP endpoint doesn't respect the option for installing the container under an HTTP subpath; in practice this could mean that more than one container at the same time cannot be used behind a reverse proxy without some modification, but instead have to be accessed from their dedicated port directly.
 
 !!! ''Benchmarks''
 

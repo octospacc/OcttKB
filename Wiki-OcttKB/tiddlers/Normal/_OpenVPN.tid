@@ -1,12 +1,15 @@
 created: 20230213172417684
 creator: Octt
-modified: 20230213173140940
+modified: 20230823233016191
 modifier: Octt
 tags: VPN Libre
 title: OpenVPN
 
-<<MediaWiki OpenVPN en 5>>
+<<^wikipediaframe OpenVPN en>>
 
 * https://openvpn.net/
 * https://github.com/OpenVPN
 * [[Android]] Client: [<<FDroidLink de.blinkt.openvpn>>] [<<GPlayLink de.blinkt.openvpn>>] [[[Git|https://github.com/schwabe/ics-openvpn]]]
+
+* [[OpenVPN for Docker|https://github.com/lisenet/docker-openvpn]] --- [[lisenet/openvpn|https://hub.docker.com/r/lisenet/openvpn]]
+** [[HowTo on old repo: README.md|https://github.com/kylemanna/docker-openvpn/blob/master/README.md#quick-start]]

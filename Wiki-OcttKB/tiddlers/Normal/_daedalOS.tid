@@ -1,10 +1,11 @@
 created: 20230116204701243
-modified: 20230206111552095
+creator: Octt
+modified: 20230823232233301
 modifier: Octt
 tags: $:/i18n:en
-title: daedalOS:en
+title: daedalOS
 
-''[[daedalOS|https://dustinbrett.com]]'' is an [[open-source]] [[pseudo-OS]] made for the Web browser.
+''[[daedalOS|https://dustinbrett.com]]'' is an [[open-source]] [[pseudo-OS|Pseudo-OS]] made for the Web browser.
 
 * Git: [[github.com/DustinBrett/daedalOS|https://github.com/DustinBrett/daedalOS]]
 

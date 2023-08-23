@@ -1,13 +1,13 @@
 created: 20230117105218211
 creator: Octt
-modified: 20230206111552340
+modified: 20230823232212160
 modifier: Octt
 tags: TODO $:/i18n:en
-title: Pseudo-OS:en
+title: Pseudo-OS
 
 A ''pseudo-operating-system'' is a software that acts (in a limited way) like an operating system, but is usually a normal application that runs on top of real OS.
 
 !!! ''Here are some''
 
-* [[daedalOS|daedalOS:en]]
+* [[daedalOS|daedalOS]]
 * ''OS.js'': [[Website|https://www.os-js.org]] | [[Demo|https://demo.os-js.org]] | [[Git|https://github.com/os-js]]

@@ -1,6 +1,6 @@
 created: 20230223222804008
 creator: Octt
-modified: 20230818074331073
+modified: 20230823233437772
 modifier: Octt
 tags: 
 title: Saved/Sites
@@ -28,6 +28,14 @@ Note: "[property]-leaning" means the majority of the content of the site, or the
 * [[Ledom Software|https://ledomsoft.com]]
 * [[Hundred Rabbits|https://100r.co/]] --- <<[ "[[Git|https://github.com/hundredrabbits/100r.co]]">>
 
+!!! ''[[Note]]-leaning'' (WIP)
+
+These are kind of blogs, but don't contain mainly things written as blogs, but more note-like articles, like tutorials ecc...
+
+* note.nkmk.me: [[en|https://note.nkmk.me/en]], [[jp|https://note.nkmk.me]] (different articles)
+* [[rdpillon|https://rpdillon.net/]] --- //Rick's Home Online//
+* Show Notes from the [[Open Source is Awesome|https://opensourceisawesome.com/]] Youtube Channel
+
 !!! ''[[Wiki]]-leaning''
 * [[WikiHands|https://wikihands.github.io]]
 * [[WikiSpacc]]
@@ -35,12 +43,12 @@ Note: "[property]-leaning" means the majority of the content of the site, or the
 ** [[How (by Okpedia)|https://how.okpedia.org/]] --- //Tutorials and Solutions KB// --- (apparently a separate wiki of the same person above, also multi-language)
 * [[Computer Science Mojo|https://csmojo.com]] --- //David's Notes on coding, software and computer science// --- <<[ "[[Git|https://github.com/zhenyufu/zhenyufu.github.io]]">>
 * [[Maggie Appleton|https://maggieappleton.com/]] --- <<[ "[[Git|https://github.com/MaggieAppleton/maggieappleton.com-V2]]">>
-* [[rdpillon|https://rpdillon.net/]] --- //Rick's Home Online//
 * [[TheFrenchGhosty|https://thefrenchghosty.me/]]
 * [[wiki.nikiv.dev|https://wiki.nikiv.dev/]] --- <<[ "[[Git|https://github.com/nikitavoloboev/knowledge]]">>
-** [2023-08-18] Apparently the majority of pages in now paywalled, and the public Git repo isn't receiving any updates. Since the wiki is still static, the paywall can be bypassed by disabing JavaScript (which breaks navigation on mobile and search globally), or use userstyle/userscript managers to inject this code into the same to hide the pay popup: [TODO].
+** [2023-08-18] Apparently the majority of pages in now paywalled, and the public Git repo isn't receiving any updates. Since the wiki is still static, the paywall can be bypassed by injecting following CSS code: `.modalblur{display:none;}`; otherwise, also disabing JavaScript is an option (but breaks navigation on mobile and search globally).
 * [[XXIIVV|https://wiki.xxiivv.com/]] --- <<[ "[[Git|https://github.com/XXIIVV/oscean]]">>
 
 !!! Mess-leaning <small>(often the most creative)</small>
-* [[samy.pl|https://samy.pl/]] - Website full of easter eggs by the same <<YoutubeL OJ1pEAdFLP8 "person who once hacked MySpace">>.
+* [[samy.pl|https://samy.pl/]] --- Website full of easter eggs by the same <<YoutubeL OJ1pEAdFLP8 "person who once hacked MySpace">>.
 ** One easter egg is the client source code is hidden as a binary-encoded string represented by spaces and tabs; The server providing the data uses something (headers? but also other stuff) to only serve the real HTML to a browser; curl/wget without all the browser headers (and a browser after a reload in `view-source:` ?) get a fake HTML. <<#[ "Older but more in-depth analysis" "https://t.me/ioctt/19280">>
+* [[Tramaci.org|https://tramaci.org/]] --- Progetto a quanto pare abbandonato sulla privacy e il controllo, basato sul paradigma di [[pseudo-OS|Pseudo-OS]] web (anche fin troppo complottista e paranoide nei contenuti, ma tecnicamente è interessante).

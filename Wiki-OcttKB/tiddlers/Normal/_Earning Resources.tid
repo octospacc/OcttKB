@@ -1,6 +1,6 @@
 created: 20230206211907427
 creator: Octt
-modified: 20230207221836882
+modified: 20230823224946891
 modifier: Octt
 tags: 
 title: Earning Resources
@@ -11,11 +11,9 @@ Graphs of my earnings should be available soon.
 
 !!! ''[[Microsoft Rewards|https://rewards.bing.com/]]''
 
-; (At least in Italy, I don't know about other markets) MS Rewards lets you exchange points for [[Amazon]] gift cards:
-: 5€ = 7500 rp
-: 10€ = 15000 rp
+; (At least in Italy, I don't know about other markets) MS Rewards lets you exchange points for [[Amazon]] gift cards: 1€ = 1500 rp (custom price can be chosen)
 
-* https://octospacc.gitlab.io/pastebin/BingSpam.html - Script for completing the daily searches goal in Bing without doing searches by hand; Have been using it for months now, never got banned, it //should// be safe
+* https://octospacc.gitlab.io/pastebin/BingSpam.html --- Script for completing the daily searches goal in Bing without doing searches by hand; Have been using it for months now, never got banned, it //should// be safe; Note: it appears I got softbanned months ago (meaning everything in Rewards worked except for redeems, which would error at the end) in the big July wave, but I can't say if this is due to the script or other "bad patterns".
 
 !! ''Network traffic sharing''
 
@@ -23,7 +21,9 @@ Graphs of my earnings should be available soon.
 
 I haven't been using Earnapp for months now due to first technical issues on my side, then a bit of forgetfulness and also because the service isn't paying like it used to (traffic decreased).
 
-* [[EarnApp-Docker|https://github.com/fazalfarhan01/EarnApp-Docker]] - //Containerized version of BrightData's EarnApp//
+2023 update: Earnapp+ now exists, you get paid a fixed amount for the hours you leave the program on, instead of traffic it's taken (7€/month in Europe). It's Windows-only, and has VM detection but apparently I can bypass it.
+
+* ~~[[EarnApp-Docker|https://github.com/fazalfarhan01/EarnApp-Docker]] - //Containerized version of BrightData's EarnApp//~~ Doesn't seem to really be working, just like the official CLI Linux app installed manually.
 
 !!! ''[[Honeygain|https://r.honeygain.me/OCTO870875]]''
 
@@ -42,5 +42,7 @@ I tried PacketStream for one or two days and saw it does a misery of traffic, no
 !!! ''[[Peer2Profit|https://peer2profit.com/r/164287193361ec3c7d501a9/en]]''
 
 Currently working ok. Has some issues on [[Vodafone]]'s mobile network, due to "Vodafone Digital Privacy and Security" thinking it is a malware and blocking the `api.peer2profit.global` API domain.
+
+August 2023 update: The website is discontinued and now the Telegram bot must be used for everything. The Windows app and Linux CLI app are discontinued, but a new Linux GUI app exists.
 
 * [[Peer2Profit-Docker|https://github.com/fazalfarhan01/Peer2Profit-Docker]] - //Containerized version of Peer2Profit//
