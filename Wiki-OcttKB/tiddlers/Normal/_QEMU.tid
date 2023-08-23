@@ -1,6 +1,6 @@
 created: 20230217150049780
 creator: Octt
-modified: 20230608141353147
+modified: 20230823000733774
 modifier: Octt
 tags: Emulation Libre
 title: QEMU
@@ -15,3 +15,4 @@ A software integrating QEMU as an [[Android]] app is [[Limbo PC Emulator|https:/
 !!! ''How-to''
 
 * [[Really Simple Network Bridging With qemu|https://spad.uk/really-simple-network-bridging-with-qemu/]]
+* [[Expose guest port to host network|https://unix.stackexchange.com/questions/124681/how-to-ssh-from-host-to-guest-using-qemu#124777]] --- eg. `-device e1000,netdev=net0 -netdev user,id=net0`''`,hostfwd={tcp|udp}::{HostPort}-:{GuestPort}`''

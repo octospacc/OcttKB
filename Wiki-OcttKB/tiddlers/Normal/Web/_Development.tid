@@ -1,6 +1,6 @@
 created: 20230221204801305
 creator: Octt
-modified: 20230429215115349
+modified: 20230822235951750
 modifier: Octt
 tags: 
 title: Web/Development
@@ -25,6 +25,12 @@ title: Web/Development
 : [[Insert a childNode to a specific position|https://stackoverflow.com/a/26259544]]
 : [[Prepend/append childNode to beginning/end of element|https://stackoverflow.com/a/45656684]]
 : [[Replace a DOM Element|https://www.javascripttutorial.net/dom/manipulating/replace-a-dom-element/]]
+
+; Embeds
+: [[From object to iframe — other embedding technologies|https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies]]
+: [[Alternative to iFrames with HTML5?|https://stackoverflow.com/questions/8702704/alternative-to-iframes-with-html5#31845361]]
+: [[Why are iframes considered dangerous and a security risk?|https://stackoverflow.com/questions/7289139/why-are-iframes-considered-dangerous-and-a-security-risk]]
+: [[4 IFrame Security Concerns You Should Know|https://blog.bitsrc.io/4-security-concerns-with-iframes-every-web-developer-should-know-24c73e6a33e4?gi=2c961c6663da]]
 
 !!! ''Tools and similar''
 

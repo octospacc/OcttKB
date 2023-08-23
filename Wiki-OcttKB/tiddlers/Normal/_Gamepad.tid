@@ -1,0 +1,12 @@
+created: 20230822234737434
+creator: Octt
+modified: 20230822235250518
+modifier: Octt
+tags: 
+title: Gamepad
+
+<<^wikipediaframe Gamepad>>
+
+* [[The “padhacking” thread|https://archive.supercombo.gg/t/the-padhacking-thread/16708/1]]
+
+* [[Converting a wireless 360 controller to wired|https://gaming.stackexchange.com/questions/155459/converting-a-wireless-360-controller-to-wired]] --- Basically impossible, while the integrated MCU carries data via USB, it has a fake firmware that can't carry HID events... because actually the pad's port (proprietary USB fork really with 3 extra pins) has data pins. Who knows.

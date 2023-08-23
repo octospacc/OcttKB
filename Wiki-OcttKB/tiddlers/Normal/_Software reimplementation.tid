@@ -1,0 +1,8 @@
+created: 20230822234611698
+creator: Octt
+modified: 20230822234708536
+modifier: Octt
+tags: WIP
+title: Software reimplementation
+
+* [[pyjod|https://projects.lilik.it/zolfa/pyjod]] --- //Implementazione open-source del protocollo di Strong Customer Authentication di Poste Italiane, (https://posteid.poste.it), lato client//
