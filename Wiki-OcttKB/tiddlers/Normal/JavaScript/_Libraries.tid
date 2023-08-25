@@ -1,6 +1,6 @@
 created: 20230429182925276
 creator: Octt
-modified: 20230504093532061
+modified: 20230825224335539
 modifier: Octt
 tags: 
 title: JavaScript/Libraries
@@ -17,6 +17,7 @@ Note: some are still in [[Web/Development]]
 ** Has optional libraries for selectors and UI - <<[ "[[Git|https://github.com/jquery]]">>
 * [[Licia|https://licia.liriliri.io/]] - //utility library to get daily works done// - <<[ "[[Git|https://github.com/liriliri/licia]]">>
 * [[Lodash|https://lodash.com/]] - More modern fork of Underscore, useful for working with data objects - <<[ "[[Git|https://github.com/lodash]]">>
+* [[🐚 zx|https://github.com/google/zx]] --- //A tool for writing better scripts//, it's like better sh scripting done via JavaScript.
 
 !!! ''Polyfills''
 

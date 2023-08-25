@@ -1,0 +1,11 @@
+created: 20230825224858990
+creator: Octt
+modified: 20230825230038533
+modifier: Octt
+tags: 
+title: Scripting
+
+<<^wikipediaframe "Scripting language">>
+
+* [[script-server|https://github.com/bugy/script-server]] --- //Web UI for your scripts with execution management//
+* [[n8n|https://n8n.io/]] --- //GUI Workflow automation for technical people// --- <<[# Git "https://github.com/n8n-io">> <<[# Docs "https://docs.n8n.io/">>
