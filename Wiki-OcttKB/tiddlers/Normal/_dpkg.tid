@@ -1,0 +1,10 @@
+created: 20230901234812489
+creator: Octt
+modified: 20230901235302500
+modifier: Octt
+tags: Debian
+title: dpkg
+
+<<^wikipediaframe dpkg>>
+
+* [[Ignore all dependencies for a specific package with apt-get|https://superuser.com/a/815371]] --- First install the package with `--force-depends` (dpkg) or `--nodeps` (apt), then find the offending package in `/var/lib/dpkg/status`, and edit the `Depends:` line to remove/alter the problematic dependency.

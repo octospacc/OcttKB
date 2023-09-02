@@ -1,11 +1,12 @@
 created: 20230825224858990
 creator: Octt
-modified: 20230825230038533
+modified: 20230901233905103
 modifier: Octt
 tags: 
 title: Scripting
 
 <<^wikipediaframe "Scripting language">>
 
-* [[script-server|https://github.com/bugy/script-server]] --- //Web UI for your scripts with execution management//
-* [[n8n|https://n8n.io/]] --- //GUI Workflow automation for technical people// --- <<[# Git "https://github.com/n8n-io">> <<[# Docs "https://docs.n8n.io/">>
+* [[script-server|https://github.com/bugy/script-server]] (+ wiki) --- //Web UI for your scripts with execution management//
+* [[n8n|https://n8n.io/]] --- //GUI Workflow automation for technical people// --- <<[# Git "https://github.com/n8n-io">> <<[# Docs "https://docs.n8n.io/">> <<[# Forum "https://community.n8n.io/">>
+* [[Activepieces|https://www.activepieces.com/]] --- //Automate your work, Open source alternative to Zapier, Tray.io, make// --- Doesn't allow for complex workflows that span in multiple directions, only linear steps one at a time --- <<[# Git "https://github.com/activepieces">>

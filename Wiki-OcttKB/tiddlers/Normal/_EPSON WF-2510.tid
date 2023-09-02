@@ -1,0 +1,12 @@
+created: 20230902000456550
+creator: Octt
+modified: 20230902001139619
+modifier: Octt
+tags: Printer
+title: EPSON WF-2510
+
+Linux driver:
+
+* on [[OpenPrinting|https://openprinting.org/printer/Epson/Epson-WF-2510_Series]]
+** the deb file is apparently outdated and won't work on Debian 12
+* (Debian) apt package: `printer-driver-escpr` (available in stable as of Debian 12)
