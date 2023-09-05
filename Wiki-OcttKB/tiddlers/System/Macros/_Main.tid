@@ -1,6 +1,6 @@
 created: 20220920092322164
 creator: Octt
-modified: 20230605214618218
+modified: 20230905212703375
 modifier: Octt
 tags: $:/tags/Macro
 title: $:/Macros/Main
@@ -88,3 +88,5 @@ Display: Inline;
 
 \define #[(Title, Link) <<[ "[[$Title$|$Link$]]">>
 \define [#(Title, Link) <$macrocall $name="#[" Title="$Title$" Link="$Link$"/>
+
+\define httpL(Domain) [[$Domain$|http://$Domain$]]

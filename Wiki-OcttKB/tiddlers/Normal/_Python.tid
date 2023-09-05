@@ -1,7 +1,7 @@
 created: 20221110120605389
 creator: Octt
 icon: 🐍
-modified: 20230901233057997
+modified: 20230905212727053
 modifier: Octt
 page-cover: https://source.unsplash.com/random/?Python
 tags: Development $:/i18n:en
@@ -11,11 +11,12 @@ title: Python
 
 <<^wikipediaframe Python>>
 
-I hate that, while tab-indentation is practically supported by the interpreter, it's against the standard and linters/editors hate you if you use tabs instead of spaces.
+I hate that, while tab-indentation is practically supported by the interpreter, it's against the standard, and linters/editors hate you if you use tabs instead of spaces. `micro` just won't let you persist the option to keep tabs enabled instead of spaces across sessions...
 
 ---
 
 * [[PocketPy|https://pocketpy.dev/]] - //C++17 header-only Python interpreter for game engines.// - <<[ "[[Git|https://github.com/blueloveTH/pocketpy]]">>
+* <<httpL Python.helpful.codes>>
 
 !! How to and troubleshooting
 

@@ -1,6 +1,11 @@
 created: 20230205144623259
 creator: Octt
-modified: 20230205144712142
+modified: 20230905210020595
 modifier: Octt
-tags: Android TODO
+tags: Android App
 title: Termux
+
+* https://termux.dev/en/
+* https://github.com/termux/
+
+<<^wikipediaframe Termux>>
