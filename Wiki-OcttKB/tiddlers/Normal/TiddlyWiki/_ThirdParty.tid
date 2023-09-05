@@ -1,49 +1,50 @@
 created: 20230206113426599
 creator: Octt
-modified: 20230227210811051
+modified: 20230905231954624
 modifier: Octt
 tags: 
 title: TiddlyWiki/ThirdParty
 
 !!! ''Other Wikis, Plugin Collections''
 
-* [[BrainTest|https://braintest.tiddlyspot.com]] - //tools for a digital brain//
-* [[Calendar|https://tabbed-calendar.tiddlyspot.com]] - //a tabbed picture calendar//
-* [[Joe's Blog|https://joearms.github.io]] - Contains the [[Chandler|https://joearms.github.io/#2018-12-26%20Fun%20with%20the%20TiddlyWiki]] prototype time-management tool
+* [[BrainTest|https://braintest.tiddlyspot.com]] --- //tools for a digital brain//
+* [[Calendar|https://tabbed-calendar.tiddlyspot.com]] --- //a tabbed picture calendar//
+* [[Joe's Blog|https://joearms.github.io]] --- Contains the [[Chandler|https://joearms.github.io/#2018-12-26%20Fun%20with%20the%20TiddlyWiki]] prototype time-management tool
 * [[kookma's codes, macros, and solutions in TW|https://kookma.github.io/TW-Scripts]]
-* Kookma Plugin Library - <span>[</span>[[Drag To Install|$:/config/KookmaPluginLibrary]]]
-* [[NoteSelf|https://noteself.org]] - TiddlyWiki fork/flavor with interesting features built-in - [[[Git|https://github.com/NoteSelf]]]
-* [[Projectify|https://thaddeusjiang.github.io/Projectify]] - //Project management for TiddlyWiki// - [[[Git|https://github.com/ThaddeusJiang/Projectify]]]
-* [[Saq's TW5 Sandbox|https://saqimtiaz.github.io/tw5-plugins-sandbox]] - //Experimental doodads//
-* [[Stroll|https://giffmex.org/stroll/stroll.html]] - //A Roam-like experience in a free, downloadable file//
+* Kookma Plugin Library --- <span>[</span>[[Drag To Install|$:/config/KookmaPluginLibrary]]]
+* [[NoteSelf|https://noteself.org]] --- TiddlyWiki fork/flavor with interesting features built-in - [[[Git|https://github.com/NoteSelf]]]
+* [[Projectify|https://thaddeusjiang.github.io/Projectify]] --- //Project management for TiddlyWiki// - [[[Git|https://github.com/ThaddeusJiang/Projectify]]]
+* [[Saq's TW5 Sandbox|https://saqimtiaz.github.io/tw5-plugins-sandbox]] --- //Experimental doodads//
+* [[Stroll|https://giffmex.org/stroll/stroll.html]] --- //A Roam-like experience in a free, downloadable file//
 * [[The public musings of Soren Bjornstad (Zettelkasten)|https://zettelkasten.sorenbjornstad.com]]
-* [[TiddlyMap|http://tiddlymap.org]] - //Map drawing and topic visualization for your wiki!// - [[[Git|https://github.com/felixhayashi/TW5-TiddlyMap]]]
-* [[TiddlySeq|https://gk0wk.github.io/TiddlySeq/]] - //Logseq-like TiddlyWiki Template// - <<[ "[[Git|https://github.com/Gk0Wk/TiddlySeq]]">>
-* [[TiddlyTools for TW5|https://tiddlytools.com/]] - //Small Tools for Big Ideas!™//
-* [[Tobias Beer's Plugins and Resources|https://tobibeer.github.io]] - [[[Profile|https://tobibeer.github.io/tb5/#Tobias%20Beer]]] [[[Git|https://github.com/tobibeer]]]
-* [[TW5 CPL Wiki|https://tw-cpl.netlify.app]] - //TiddlyWiki5 Plugin Library for TiddlyWiki Chinese Communities//
-* [[TW5 Magick|https://tw5magick.tiddlyspot.com]] - //Some tricks and snippets for TiddlyWiki 5//
-* [[TW5 Plugins, Themes, Hacks by Thomas Elmiger|https://tid.li/tw5/]] - //Build or optimise your own application for notetaking, writing or a ToDo-list system with these tools//
+* [[TiddlyMap|http://tiddlymap.org]] --- //Map drawing and topic visualization for your wiki!// --- [[[Git|https://github.com/felixhayashi/TW5-TiddlyMap]]]
+* [[TiddlySeq|https://gk0wk.github.io/TiddlySeq/]] --- //Logseq-like TiddlyWiki Template// --- <<[ "[[Git|https://github.com/Gk0Wk/TiddlySeq]]">>
+* [[TiddlyTools for TW5|https://tiddlytools.com/]] --- //Small Tools for Big Ideas!™//
+* [[Tobias Beer's Plugins and Resources|https://tobibeer.github.io]] --- [[[Profile|https://tobibeer.github.io/tb5/#Tobias%20Beer]]] [[[Git|https://github.com/tobibeer]]]
+* [[TW5 CPL Wiki|https://tw-cpl.netlify.app]] --- //TiddlyWiki5 Plugin Library for TiddlyWiki Chinese Communities//
+* [[TW5 Magick|https://tw5magick.tiddlyspot.com]] --- //Some tricks and snippets for TiddlyWiki 5//
+* [[TW5 Plugins, Themes, Hacks by Thomas Elmiger|https://tid.li/tw5/]] --- //Build or optimise your own application for notetaking, writing or a ToDo-list system with these tools//
 ** [[Presenting the Details Widget|https://groups.google.com/g/tiddlywiki/c/sRUVnlIaT3E]]
-* [[ZemoxWiki|https://zemox.tiddlyspot.com]] - //a haphazard meandering of notes, thoughts, experiments, links...//
+* [[ZemoxWiki|https://zemox.tiddlyspot.com]] --- //a haphazard meandering of notes, thoughts, experiments, links...//
 
 !!!! ''More personal TiddlyWikis''
 * [[Dave and Blanca Gifford's homepage|https://giffmex.org/Welcome.html]]
-* [[Eberron Tiddlywiki|https://eberron.tiddlyhost.com/]] - //campaign setting for D&D designed for telling fantastical pulp and noir stories// - <<[ "[[Git|https://github.com/wccbuck/eberron_tw/]]">>
+* [[Eberron Tiddlywiki|https://eberron.tiddlyhost.com/]] --- //campaign setting for D&D designed for telling fantastical pulp and noir stories// --- <<[ "[[Git|https://github.com/wccbuck/eberron_tw/]]">>
 
-!!!! ''Individual Plugins''
+!!!! ''Individual Plugins and Themes''
 
-* [[Archipel|https://archipel.tiddlyspot.com/]] - //Data visualization Knowledge map of tiddler's ToC, as zoomable circle packs// - [[[Discussion|https://groups.google.com/g/tiddlywiki/c/wZZ-84FV0-k]]]
-* [[CodeMirrorPlus|https://adithya-badidey.github.io/TW5-codemirror-plus/]] - //A better editor for TW5, based on ~CodeMirror// - [[Demo|https://adithya-badidey.github.io/TW5-codemirror-plus/wiki.html]] | [[Git|https://github.com/adithya-badidey/TW5-codemirror-plus]]
-* [[Context Plugin|https://contextplugin.tiddlyspot.com]] - //search with context//
+* [[Archipel|https://archipel.tiddlyspot.com/]] --- //Data visualization Knowledge map of tiddler's ToC, as zoomable circle packs// --- [[[Discussion|https://groups.google.com/g/tiddlywiki/c/wZZ-84FV0-k]]]
+* [[CodeMirrorPlus|https://adithya-badidey.github.io/TW5-codemirror-plus/]] --- //A better editor for TW5, based on ~CodeMirror// --- [[Demo|https://adithya-badidey.github.io/TW5-codemirror-plus/wiki.html]] | [[Git|https://github.com/adithya-badidey/TW5-codemirror-plus]]
+* [[Context Plugin|https://contextplugin.tiddlyspot.com]] --- //search with context//
 * [[Daily Notes|https://github.com/akhater/Daily-Notes-for-TW5]] - //Interstitial Journaling plugin//
-* [[ECharts|https://tiddly-gittly.github.io/tw-echarts]] [[[Git|https://github.com/tiddly-gittly/tw-echarts]], [[Thread|https://talk.tiddlywiki.org/t/echarts-bringing-amazing-visualization-tools-to-tiddlywiki/1944]]] - //An All-in-one Visualization Framework for TiddlyWiki5 based on ECharts//
-* [[enable-js|http://tobibeer.github.io/tw/enable-js]] - //using inline script tags//
+* [[ECharts|https://tiddly-gittly.github.io/tw-echarts]] [[[Git|https://github.com/tiddly-gittly/tw-echarts]], [[Thread|https://talk.tiddlywiki.org/t/echarts-bringing-amazing-visualization-tools-to-tiddlywiki/1944]]] --- //An All-in-one Visualization Framework for TiddlyWiki5 based on ECharts//
+* [[enable-js|http://tobibeer.github.io/tw/enable-js]] --- //using inline script tags//
 * [[ibox|https://tobibeer.github.io/tw/ibox]] - //pretty-show images in tw5//
-* [[TW5 Locator|https://bimlas.gitlab.io/tw5-locator/]] - //discover and search by context//, with polished field filtering features - <<[ "[[Git|https://gitlab.com/bimlas/tw5-locator]]">>
-* [[Notion-like Icon And PageCover|https://gk0wk.github.io/TiddlySeq/#Notion-like%20Icon%20And%20PageCover]] - <<[ "[[Thread|https://talk.tiddlywiki.org/t/notion-like-icon-and-pagecover/1741]]">>
-* [Kookma] [[Refnotes|https://kookma.github.io/TW-Refnotes/]] - //references, citations, footnotes and abbreviations// - [[[Git|https://github.com/kookma/TW-Refnotes]]]
-* [[Relink|https://flibbles.github.io/tw5-relink]] - //flexibility when relinking renamed tiddlers//
-* [[Section Editor|https://kookma.github.io/TW-Section]] - //create, edit, fold, manage sections// - [[Git|https://github.com/kookma/TW-Section]] | [[Prototype discussion|https://talk.tiddlywiki.org/t/section-editor-prototype/951]]
-* [[Syntax-Highlighting Tiny Editor|https://talk.tiddlywiki.org/t/tw5-ready-to-play-prototype-syntax-highlighting-tiny-editor/4569]] (Ready-to-play prototype) - [[Download|https://talk.tiddlywiki.org/uploads/short-url/853ile3OvoeJ9uowpv0YYXnKhSe.json]]
-* [[TWCrossLinks|https://github.com/akhater/TWCrossLinks]] - //Discover all your intra-tiddlers links//
+* [[TW5 Locator|https://bimlas.gitlab.io/tw5-locator/]] --- //discover and search by context//, with polished field filtering features --- <<[ "[[Git|https://gitlab.com/bimlas/tw5-locator]]">>
+* [[Notion-like Icon And PageCover|https://gk0wk.github.io/TiddlySeq/#Notion-like%20Icon%20And%20PageCover]] --- <<[ "[[Thread|https://talk.tiddlywiki.org/t/notion-like-icon-and-pagecover/1741]]">>
+* [Kookma] [[Refnotes|https://kookma.github.io/TW-Refnotes/]] --- //references, citations, footnotes and abbreviations// --- [[[Git|https://github.com/kookma/TW-Refnotes]]]
+* [[Relink|https://flibbles.github.io/tw5-relink]] --- //flexibility when relinking renamed tiddlers//
+* [[Section Editor|https://kookma.github.io/TW-Section]] --- //create, edit, fold, manage sections// --- [[Git|https://github.com/kookma/TW-Section]] | [[Prototype discussion|https://talk.tiddlywiki.org/t/section-editor-prototype/951]]
+* [[Syntax-Highlighting Tiny Editor|https://talk.tiddlywiki.org/t/tw5-ready-to-play-prototype-syntax-highlighting-tiny-editor/4569]] (Ready-to-play prototype) --- [[Download|https://talk.tiddlywiki.org/uploads/short-url/853ile3OvoeJ9uowpv0YYXnKhSe.json]]
+* [[TWCrossLinks|https://github.com/akhater/TWCrossLinks]] --- //Discover all your intra-tiddlers links//
+* [[👻✨ whitespace theme|http://j.d.whitespace.tiddlyspot.com/]] --- //negative-spacious, webapp-nostalgic theme for TiddlyWiki//

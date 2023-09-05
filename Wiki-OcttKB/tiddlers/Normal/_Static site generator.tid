@@ -1,0 +1,10 @@
+created: 20230905232949767
+creator: Octt
+modified: 20230905233603281
+modifier: Octt
+tags: 
+title: Static site generator
+
+<<^wikipediaframe "Static site generator">>
+
+* [[Retype|https://retype.com/]] --- //ultra-high-performance ✨ static website generator that builds a website based on simple Markdown text files//, seems catered towards docs/notes sites --- <<#[ Git "https://github.com/retypeapp">>

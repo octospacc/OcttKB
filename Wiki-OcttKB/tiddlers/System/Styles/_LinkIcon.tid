@@ -1,6 +1,6 @@
 created: 20230219153505142
 creator: Octt
-modified: 20230219191248808
+modified: 20230905223216334
 modifier: Octt
 tags: $:/tags/Stylesheet
 title: $:/Styles/LinkIcon
@@ -16,14 +16,22 @@ title: $:/Styles/LinkIcon
 <$set name="uri" value=<<makedatauri """$(tid)$""" "text/plain">> >
 <$list variable="urititle" filter="""[<uri>removeprefix[data:text/plain,]]""">
 <style>
-a[href="#<<urititle>>"][class='tc-tiddlylink tc-tiddlylink-resolves']:after { content: ' <<icon>>'; }
+a[href="#<<urititle>>"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="<<urititle>>"] > .tc-tag-label:after {
+  content: ' <<icon>>';
+}
 </style>
 </$list>
 </$set>
 \end
 
+\define linkbody()
+\whitespace trim
 <$list filter="""[has[linkstyle]] [has[linkstyle-before]] [has[linkstyle-after]] [has[icon]]""">
 <$vars tid={{!!title}} icon={{!!icon}}>
 <<linkstyle>>
 </$vars>
 </$list>
+\end
+
+<<linkbody>>
