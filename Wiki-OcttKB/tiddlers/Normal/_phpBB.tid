@@ -1,6 +1,6 @@
 created: 20230818075833750
 creator: Octt
-modified: 20230818080341706
+modified: 20230915002220955
 modifier: Octt
 title: phpBB
 
@@ -10,7 +10,8 @@ title: phpBB
 
 !!! ''Extensions''
 
-* [[RH Topic Tags updated for phpBB 3.3.9+|https://www.phpbb.com/customise/db/extension/rh_topic_tags/support/topic/241126]]
+* RH Topic Tags
+** [[RH Topic Tags updated for phpBB 3.3.9+ (2 fixes)|https://github.com/mi1eurista/phpbb-ext-topictags/tree/patch339]]
 
 !!! ''Styles''
 

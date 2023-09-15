@@ -1,7 +1,9 @@
 created: 20230130075428259
 creator: Octt
-modified: 20230219132528139
+icon: ⛏️
+modified: 20230915001901640
 modifier: Octt
+page-cover: https://source.unsplash.com/random?Minecraft
 tags: $:/i18n:en Game Proprietary Sandbox 3D
 title: Minecraft
 
@@ -16,3 +18,8 @@ title: Minecraft
 ; What I don't like
 : The Java Edition is heavy and unoptimized, but the Bedrock and Legacy Console Edition are very proprietary and hard to extend.
 : With every new version the game gets more and more bloated, confusing, harder to grok, distracting.
+
+!!! Clones
+
+* [[Minetest|https://www.minetest.net/]] --- //open source voxel game engine with easy modding and game creation// --- <<#[ Git "https://github.com/minetest">>
+* [[CavEx|https://github.com/xtreme8000/CavEX]] --- //Project to recreate your favourite block game for the Wii (Beta 1.7.3)//
