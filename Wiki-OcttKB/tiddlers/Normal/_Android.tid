@@ -1,6 +1,6 @@
 created: 20230202230035698
 creator: Octt
-modified: 20230816225649623
+modified: 20230916145910807
 modifier: Octt
 tags: OS Google Linux
 title: Android
@@ -31,6 +31,9 @@ title: Android
 * https://www.bluestacks.com/
 * ''[[WayDroid|https://waydro.id/]]'' - //container-based approach to boot a full Android system on a regular GNU/Linux system// - [[[Git|https://github.com/waydroid]]]
 * [[docker-android|https://github.com/budtmo/docker-android]] --- //Android in docker solution with noVNC supported and video recording// --- Many system options but subpar performance (high latency) and weird UI, don't reccomend.
+
+* [[VirtualXposed|https://vxposed.com/]] --- Secondary app container for Android with virtualized root access (totally broken on Android >= 12) --- <<#[ Git "https://github.com/android-hacker/VirtualXposed">>
+* [[VMOS|https://www.vmos.com/]], VPhoneGaga --- Apps for virtualizing an almost-full Android system with only userspace access (apparently don't work on Android 13+)
 
 <<{^ """Android/Development""">>
 

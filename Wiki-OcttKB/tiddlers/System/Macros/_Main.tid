@@ -1,6 +1,6 @@
 created: 20220920092322164
 creator: Octt
-modified: 20230905212703375
+modified: 20230916143703060
 modifier: Octt
 tags: $:/tags/Macro
 title: $:/Macros/Main
@@ -48,7 +48,7 @@ Display: Inline;
 \whitespace trim
 <details class="tw-details">
   <summary>
-    [[_|$Tiddler$]]&nbsp;
+    [[[#]|$Tiddler$]]&nbsp;
     <h$Heading$ style="display: inline;">
       ''$Tiddler$''
     </h$Heading$>

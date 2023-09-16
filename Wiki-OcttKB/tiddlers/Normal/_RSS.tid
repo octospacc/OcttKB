@@ -1,6 +1,6 @@
 created: 20230417102825671
 creator: Octt
-modified: 20230417103611638
+modified: 20230916151514069
 modifier: Octt
 tags: Web
 title: RSS
@@ -9,4 +9,5 @@ title: RSS
 
 !! ''Resources''
 
-* [[RSSHub|https://docs.rsshub.app/]] - //🍰 Everything is RSSible// - <<[ "[[Git|https://github.com/DIYgod/RSSHub]]">>
+* [[RSSHub|https://docs.rsshub.app/]] --- //🍰 Everything is RSSible// --- <<[ "[[Git|https://github.com/DIYgod/RSSHub]]">>
+* [[RSS 2 HTML|https://rss.bloople.net/]] --- //PHP script to convert RSS feeds into HTML, suitable for embedding in webpages// --- <<#[ Git "https://github.com/bloopletech/rss2html">>
