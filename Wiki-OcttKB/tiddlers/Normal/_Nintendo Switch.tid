@@ -1,6 +1,6 @@
 created: 20220925130302833
 creator: Octt
-modified: 20230206192820604
+modified: 20230918161023579
 modifier: Octt
 tags: Nintendo Gaming NX Console
 title: Nintendo Switch
@@ -11,8 +11,18 @@ title: Nintendo Switch
 
 The console's introduction was hyped due to it being the first ever Nintendo console to be created with both home and portable use in mind. The name itself comes from the fact that the console can //switch//, from being connected to a TV to being able to be used standalone.
 
-!! ''Homebrew/Hacks''
+!!! ''Emulators''
+
+* [[Yuzu|https://yuzu-emu.org/]] --- //experimental open-source Switch emulator from the creators of Citra// --- <<#[ Git "https://github.com/yuzu-emu">>
+* [[Ryujinx|https://ryujinx.org/]] --- //simple, experimental Nintendo Switch emulator// --- <<[# Git "https://github.com/Ryujinx">>
+* [[Skyline|https://skyline-emu.one/]] --- //Run Nintendo Switch homebrew & games on your Android device!// --- <<[# Git "https://github.com/skyline-emu">>
+** Abandoned due to the developers' irrational fear of a Nintendo takedown (in my view they were just tired of mantaining the project and didn't want to take the bad press of a standard resign, this was just an excuse to abandon the project... but at least it's open-source)
+
+!!! ''Homebrew/Hacks''
 
 * Alternative OSes: [[Ubuntu]] and [[LineageOS]] by ''[[switchroot|https://switchroot.org/]]''
 * Custom Firmware: The real best today is [[Atmosphère-NX|https://github.com/Atmosphere-NX]] + related libs.
 * Signature patches (needed to run unsigned NSPs, aka homebrew NSPs or pirated games): <<[ "[[WiiDatabase|https://wiidatabase.de/switch-downloads/hacks/signatur-patches/]]">> <<[ "[[Hackintendo|https://hackintendo.com/download/sigpatches/?PageSpeed=noscript]]">> <<[ "[[ShadowOne333|https://gbatemp.net/threads/sigpatches-for-atmosphere-hekate-fss0-fusee-package3.571543/]]">>. They were provided by various developers who want to remain mostly anonymous, and they are mostly compiled together by ITotalJustice.
+
+* [[Goldleaf|https://gbatemp.net/download/goldleaf-nintendo-switch-title-installer-manager.35430/]] --- //🍂 Multipurpose homebrew tool for Nintendo Switch// --- <<[# Git "https://github.com/XorTroll/Goldleaf">>
+* [[Tinleaf|https://github.com/blawar/tinleaf]] --- //No-Bullshit NSP, NSZ, XCI, and XCZ Installer for Nintendo Switch// (forked from [[Awoo Installer|https://github.com/Huntereb/Awoo-Installer]] without the furry crap) --- <<[# Thread "https://gbatemp.net/threads/tinleaf-installer-a-no-bullshit-no-bullshit-nsp-nsz-xci-xcz-installer.559892/">>
