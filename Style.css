@@ -350,6 +350,15 @@ a[href="#English"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
 
 
 
+a[href="#Forum"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Forum"] > .tc-tag-label:after {
+  content: ' 🏛️';
+}
+
+
+
+
+
 a[href="#Gamepad"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
 .tc-tag-list-item[data-tag-title="Gamepad"] > .tc-tag-label:after {
   content: ' 🎮';
