@@ -1,6 +1,6 @@
 created: 20230111212908327
 creator: Octt
-modified: 20230228224933898
+modified: 20230919174923171
 modifier: Octt
 tags: $:/tags/Macro
 title: $:/Macros/Frames
@@ -67,8 +67,17 @@ data:text/html;utf8,
 <iframe style=<<iFrame100Style>> frameborder="0" src="$Src$" scrolling="no"></iframe>
 \end
 
+\define iFrameUriDirect(Src)
+<iframe frameborder="0" src=$Src$></iframe>
+\end
+
 \define iFrame100UriDirect(Src)
 <iframe style=<<iFrame100Style>> frameborder="0" src=$Src$></iframe>
+\end
+
+\define iFrameTid(Tid)
+<<EmbedFromLine "$Tid$">>
+<<iFrameUriDirect """<<b64TidUriEnc "$Tid$">>""">>
 \end
 
 \define iFrame100Tid(Tid)

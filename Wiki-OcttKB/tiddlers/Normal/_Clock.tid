@@ -1,11 +1,13 @@
 created: 20230216212048745
 creator: Octt
-modified: 20230216214806516
+icon: 🕰️
+modified: 20230919165558817
 modifier: Octt
+page-cover: https://source.unsplash.com/random?clock
 tags: Time
 title: Clock
 
-<<wikipediaframe Clock en>>
+<<^wikipediaframe Clock en>>
 
 ; Some Clocks
 : <<YoutubeL vugulzS0EoU "2 Retro Clocks with an ESP32 (Couldn't be simpler!)">>

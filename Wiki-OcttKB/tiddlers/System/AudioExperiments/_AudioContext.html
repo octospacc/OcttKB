@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+  </head>
+  <body>
+    <button>Create</button>
+    <button>Suspend</button>
+    <button>Stop</button>
+    <script>
+      let audioCtx;
+      const startBtn = document.querySelector("button:nth-of-type(1)");
+      const susresBtn = document.querySelector("button:nth-of-type(2)");
+      const stopBtn = document.querySelector("button:nth-of-type(3)");
+      susresBtn.setAttribute("disabled", "disabled");
+      stopBtn.setAttribute("disabled", "disabled");
+
+      startBtn.onclick = () => {
+        startBtn.setAttribute("disabled", "disabled");
+        susresBtn.removeAttribute("disabled");
+        stopBtn.removeAttribute("disabled");
+        audioCtx = new AudioContext();
+        const oscillator = new OscillatorNode(audioCtx, { frequency: 1000 });
+        const gainNode = new GainNode(audioCtx, { gain: 0.1 });
+        oscillator.connect(gainNode);
+        gainNode.connect(audioCtx.destination);
+        oscillator.start(0);
+      };
+
+      susresBtn.onclick = () => {
+        if (audioCtx.state === "running") {
+          audioCtx.suspend().then(() => {
+            susresBtn.textContent = "Resume";
+          });
+        } else if (audioCtx.state === "suspended") {
+          audioCtx.resume().then(() => {
+            susresBtn.textContent = "Suspend";
+          });
+        }
+      };
+
+      stopBtn.onclick = () => {
+        audioCtx.close().then(() => {
+          startBtn.removeAttribute("disabled");
+          susresBtn.setAttribute("disabled", "disabled");
+          susresBtn.textContent = "Suspend";
+          stopBtn.setAttribute("disabled", "disabled");
+        });
+      };
+    </script>
+  </body>
+</html>
