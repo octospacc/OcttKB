@@ -1,0 +1,15 @@
+created: 20230919202116604
+creator: Octt
+icon: 🏛️
+modified: 20230919203633224
+modifier: Octt
+page-cover: https://source.unsplash.com/random?forum
+tags: WIP
+title: Forum
+
+<<^wikipediaframe "Internet Forum">>
+
+* [[Discoure|https://www.discourse.org]] --- //A platform for community discussion. Free, open, simple.// --- <<#[ Demo "https://try.discourse.org">> <<#[ Git "https://github.com/discourse">>
+** Nice UI and UX, limited plugins are available but they are useful, it all makes good the renewed idea of the forum in the third decade... but the tech stack is bad: installation without Docker is not supported at all (there are really too many complicated components in the system), has [[relatively high requirements|https://github.com/discourse/discourse/blob/435ba4d03dfa3abf844f6421f0da37545a99deb3/docs/INSTALL.md]], and doesn't work properly without client-side JavaScript (making frontend performance and flexibility worse).
+* MyBB
+* Flarum

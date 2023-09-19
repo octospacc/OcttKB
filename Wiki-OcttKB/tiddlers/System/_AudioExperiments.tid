@@ -1,9 +1,10 @@
 created: 20230919165712277
 creator: Octt
-modified: 20230919182444286
+modified: 20230919201731555
 modifier: Octt
+tags: $:/Tools
 title: $:/AudioExperiments
 
-<div>Silent: <audio src=<<datauri "$:/Res/silence.opus">> controls loop></audio></div>
+<div>Silent: <<HtmlAttrWikify audio src '<$macrocall $name=datauri title="$:/Res/silence.opus" $output="text/plain"/>' Attrs:'controls loop'>></div>
 <div>Music: <audio src="//hlb0.octt.eu.org/Res/LoveLab-Ext.webm" controls loop></audio></div>
 <<iFrameTid "$:/AudioExperiments/AudioContext">>

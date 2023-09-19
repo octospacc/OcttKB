@@ -1,6 +1,6 @@
 created: 20220920092322164
 creator: Octt
-modified: 20230916143703060
+modified: 20230919201203599
 modifier: Octt
 tags: $:/tags/Macro
 title: $:/Macros/Main
@@ -90,3 +90,9 @@ Display: Inline;
 \define [#(Title, Link) <$macrocall $name="#[" Title="$Title$" Link="$Link$"/>
 
 \define httpL(Domain) [[$Domain$|http://$Domain$]]
+
+\define HtmlAttrWikify(Tag, AttrName, AttrValue, Body, Attrs)
+<$wikify name=AttrWikified text='$AttrValue$'>
+<$Tag$ $AttrName$=<<AttrWikified>> $Attrs$>$Body$</$Tag$>
+</$wikify>
+\end
