@@ -314,6 +314,15 @@ a[href="#Celeste"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
 
 
 
+a[href="#Clock"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Clock"] > .tc-tag-label:after {
+  content: ' 🕰️';
+}
+
+
+
+
+
 a[href="#CSS"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
 .tc-tag-list-item[data-tag-title="CSS"] > .tc-tag-label:after {
   content: ' 💅';
