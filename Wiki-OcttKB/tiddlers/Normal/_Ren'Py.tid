@@ -1,6 +1,6 @@
 created: 20230404140555044
 creator: Octt
-modified: 20230513223717140
+modified: 20230920155143729
 modifier: Octt
 tags: Python [[Visual novel]]
 title: Ren'Py
@@ -8,7 +8,8 @@ title: Ren'Py
 <<^wikipediaframe "Ren'Py">>
 
 * [[unrpa|https://www.lattyware.co.uk/projects/unrpa/]] --- //Program to extract files from the RPA archive format// --- <<[# Git "https://github.com/Lattyware/unrpa">>
-* [[unrpyc (Fork)|https://github.com/madeddy/unrpyc]] --- //A Ren'Py script decompiler//
+* [[unrpyc|https://github.com/CensoredUsername/unrpyc]] --- //A Ren'Py script decompiler//
+** [[madeddy's fork|https://github.com/madeddy/unrpyc]], to work with newer games, since original seems abandoned since 2022
 
 !!! ''Notes''
 

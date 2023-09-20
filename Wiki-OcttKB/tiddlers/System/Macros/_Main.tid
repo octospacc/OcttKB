@@ -1,6 +1,6 @@
 created: 20220920092322164
 creator: Octt
-modified: 20230920093412463
+modified: 20230920154903731
 modifier: Octt
 tags: $:/tags/Macro
 title: $:/Macros/Main
@@ -101,6 +101,6 @@ Display: Inline;
 
 \define link+desc(Name, Link, Desc, Wrap) <<Link+Desc "$Name$" "$Link$" "$Desc$" "$Wrap$">>
 
-\define Link+Desc+Git(Name, Link, Desc, Git, Wrap) <<Link+Desc "$Name$" "$Link$" "$Desc$" "$Wrap$">> <<[ "[[Git|$Git$]]">>
+\define Link+Desc+Git(Name, Link, Desc, Git, Wrap) <<Link+Desc "$Name$" "$Link$" "$Desc$" "$Wrap$">> --- <<[ "[[Git|$Git$]]">>
 
 \define link+desc+git(Name, Link, Desc, Git, Wrap) <<Link+Desc+Git "$Name$" "$Link$" "$Desc$" "$Git$" "$Wrap$">>

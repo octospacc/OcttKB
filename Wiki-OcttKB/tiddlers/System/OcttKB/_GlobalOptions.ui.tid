@@ -1,27 +1,38 @@
 created: 20230413080548417
 creator: Octt
 list-before: $:/core/ui/SideBarSegments/search
-modified: 20230413124924940
+modified: 20230920152657109
 modifier: Octt
 tags: $:/tags/SideBarSegment
 title: $:/OcttKB/GlobalOptions.ui
 
-<details class=tw-details>
+\define this.styleblock()
+\whitespace trim
+<style>
+  details.OcttKBGlobalOptionsList div.Content label {
+    display: block;
+    width: 100%;
+  }
+  details.OcttKBGlobalOptionsList {
+    padding-bottom: 0 !important;
+  }
+</style>
+\end
+
+<details class="tw-details OcttKBGlobalOptionsList">
 <summary>
   <b>Options</b>
-  (<$set name=NumTotal filter_="[has:field[Enabled]count[]]" filter="[tag[$:/GlobalOption]count[]]">
-    <$set name=NumEnabled filter="[tag[$:/GlobalOption]Enabled[1]count[]]">
+  (<$set name=NumTotal filter="[tag[$:/GlobalOption]!is[draft]count[]]">
+    <$set name=NumEnabled filter="[tag[$:/GlobalOption]!is[draft]Enabled[1]count[]]">
       <<NumEnabled>>/<<NumTotal>>
     </$set>
   </$set>)
 </summary>
-<style>
-  label {
-    display: inline-block;
-    width: 100%;
-  }
-</style>
-{{$:/OcttKB/Config/LargeSidebar.ui}}
-<br/><br/>
-{{$:/OcttKB/Config/AiLinks.ui}}
+<<this.styleblock>>
+<div class="Content">
+  <$list filter="[tag[$:/GlobalOption]!is[draft]]">
+    <$transclude/>
+  </$list>
+  <br/>
+</div>
 </details>

@@ -1,0 +1,22 @@
+created: 20230920151656239
+creator: Octt
+modified: 20230920154325095
+modifier: Octt
+tags: $:/GlobalOption
+title: $:/OcttKB/Config/SaveMismatchWarn
+
+<script>
+try {
+  Array.from(document.querySelectorAll('.OcttKBGlobalOption-SaveMismatchWarn')).forEach(function(el){
+    el.onclick = function(){
+      alert(1)
+    }
+  });
+} catch(e) { $OcttKB.ErrAtLine(e) }
+</script>
+<label>
+  <input disabled
+    type="checkbox"
+    class="OcttKBGlobalOption-SaveMismatchWarn"
+  /> Warn on Save Mismatch
+</label>
