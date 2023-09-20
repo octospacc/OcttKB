@@ -1,6 +1,6 @@
 created: 20230209103557956
 creator: Octt
-modified: 20230228230000660
+modified: 20230920082855436
 modifier: Octt
 tags: Internet
 title: DNS
@@ -12,6 +12,7 @@ title: DNS
 
 ; Misc
 : [[Bizarre and Unusual Uses of DNS [FOSDEM23]|https://fosdem.org/2023/schedule/event/dns_bizarre_and_unusual_uses_of_dns/]] - //Rule 53: If you can think of it, someone's done it in the DNS//
+: [[DNS over Wikipedia|https://github.com/aaronjanse/dns-over-wikipedia]] --- //Redirect `.idk` domains using Wikipedia//
 
 !!! ''List of some DNS servers''
 

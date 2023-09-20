@@ -1,7 +1,7 @@
 created: 20230203214532694
 creator: Octt
 icon: 🕸️
-modified: 20230613185527038
+modified: 20230920083856810
 modifier: Octt
 page-cover: https://source.unsplash.com/random?web
 tags: Internet
@@ -29,5 +29,7 @@ title: Web
 
 !!! ''Analytics''
 
-* ''[[GoatCounter|https://www.goatcounter.com/]]'' - //Easy analytics. Open-source, self-hostable, GDPR-compliant. No tracking of personal data, and works without JS// - <<[ "[[Git|https://github.com/arp242/goatcounter]]">>
+* ''[[GoatCounter|https://www.goatcounter.com/]]'' --- //Easy analytics. Open-source, self-hostable, GDPR-compliant. No tracking of personal data, and works without JS// --- <<[ "[[Git|https://github.com/arp242/goatcounter]]">>
+** Note: GoatCounter tracking endpoints are blocked by the default uBlock Origin configuration, must selfhost or arrange some kind of proxy to bypass it.
+* [[Start Hits|https://hits.seeyoufarm.com]] --- //🚀 Easy way to know how many visitors are viewing your Github, Website, Notion 🎉// --- <<#[ Git "https://github.com/gjbae1212/hit-counter">>
 * //Others: https://github.com/newTendermint/awesome-analytics | https://github.com/pluja/awesome-privacy#analytics //
