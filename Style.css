@@ -573,7 +573,7 @@ a[class="tc-tiddlylink tc-tiddlylink-resolves"]:after {
     padding-right: 0px;
   }
   .tc-story-river {
-    padding: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 32px;
   }
   .tc-tiddler-frame {
     padding: 20px /*24px 32px 24px 32px*/;
