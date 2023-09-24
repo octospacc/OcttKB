@@ -1,6 +1,6 @@
 created: 20230223222804008
 creator: Octt
-modified: 20230901232906449
+modified: 20230924123131867
 modifier: Octt
 tags: 
 title: Saved/Sites
@@ -29,11 +29,19 @@ Note: "[property]-leaning" means the majority of the content of the site, or the
 * [[Ledom Software|https://ledomsoft.com]]
 * [[Hundred Rabbits|https://100r.co/]] --- <<[ "[[Git|https://github.com/hundredrabbits/100r.co]]">>
 
-!!! ''[[Note]]-leaning'' (WIP)
+!!! ''[[Gallery]]-leaning''
+
+These are portfolios, collections of projects, hubs, etc.
+
+* [[OctoSpacc Hub|https://hub.octt.eu.org]]
+* [[Arktis :: Sigve Sebastian Farstad|https://arkt.is/]]
+* <<httpL "Neal.fun">>
+
+!!! ''[[Note]]-leaning''
 
 These are kind of blogs, but don't contain mainly things written as blogs, but more note-like articles, like tutorials ecc...
 
-* [[Attacomsian|https://attacomsian.com/]] --- [[]]
+* [[Attacomsian|https://attacomsian.com/]]
 * [[Naomi's Notes|https://notes.nyaomi.xyz/]]
 * note.nkmk.me: [[en|https://note.nkmk.me/en]], [[jp|https://note.nkmk.me]] (different articles)
 * [[rdpillon|https://rpdillon.net/]] --- //Rick's Home Online//
@@ -48,7 +56,7 @@ These are kind of blogs, but don't contain mainly things written as blogs, but m
 * [[Maggie Appleton|https://maggieappleton.com/]] --- <<[ "[[Git|https://github.com/MaggieAppleton/maggieappleton.com-V2]]">>
 * [[TheFrenchGhosty|https://thefrenchghosty.me/]]
 * [[wiki.nikiv.dev|https://wiki.nikiv.dev/]] --- <<[ "[[Git|https://github.com/nikitavoloboev/knowledge]]">>
-** [2023-08-18] Apparently the majority of pages in now paywalled, and the public Git repo isn't receiving any updates. Since the wiki is still static, the paywall can be bypassed by injecting following CSS code: `.modalblur{display:none !important;}`; otherwise, also disabing JavaScript is an option (but breaks navigation on mobile and search globally).
+** [2023-08-18] Apparently the majority of pages is now paywalled, and the public Git repo isn't receiving any updates. Since the wiki is still static, the paywall can be bypassed by injecting following CSS code: `.modalblur{display:none !important;}`; otherwise, also disabing JavaScript is an option (but breaks navigation on mobile and search globally).
 * [[XXIIVV|https://wiki.xxiivv.com/]] --- <<[ "[[Git|https://github.com/XXIIVV/oscean]]">>
 
 !!! Mess-leaning <small>(often the most creative)</small>

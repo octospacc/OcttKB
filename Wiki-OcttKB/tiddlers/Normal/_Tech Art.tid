@@ -1,6 +1,6 @@
 created: 20230504095843099
 creator: Octt
-modified: 20230816225427155
+modified: 20230924122317448
 modifier: Octt
 tags: Art
 title: Tech Art
@@ -14,11 +14,16 @@ Some interesting tech art pieces follow.
 * [[After Dark Screensavers in CSS|https://www.bryanbraun.com/after-dark-css/]] --- <<[ "[[Git|https://github.com/bryanbraun/after-dark-css]]">>
 * [[Blob Opera|https://g.co/arts/6tBHA7mJESJtirzF9]] --- //Create your own ML-powered opera song!//
 * [[If the Moon Were Only 1 Pixel|https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html]] --- //A tediously accurate map of the solar system//
-* [[Space Elevator|https://neal.fun/space-elevator]]
-* [[p01 - Tunnex|http://www.p01.org/256b_tunnex]]
-* [[p01 - Starfield|http://www.p01.org/starfield]]
-* [[p01 - Micro Nova|http://www.p01.org/512b_micro_nova]]
 * [[Internet Explorer 6 Error|https://mrdoob.com/lab/javascript/effects/ie6/index.html]]
+* [[neal – Space Elevator|https://neal.fun/space-elevator]]
+* [[Arktis – Tweet Demo|https://arkt.is/t/Yy53aWR0aD0yZTM7dCo9Mzt4LnRyYW5zbGF0ZSg5ODAsNDUwKTtmb3IoaT0wO2k8MzIyOyl4LmZpbGxTdHlsZT1SKGkpLHgucm90YXRlKCFpKkModC09LjAzKSshKGkrKyU0KSpTKHQpLzkrMS41NykseC5maWxsUmVjdCg1KmksNSppLDk5LDk5KQ==]] --- <<[# Git "https://github.com/sigvef/arktis-tweet-demo">>
+
+* [[p01 – Impossible Road|http://www.p01.org/JS1K_2015_impossible_road/]]
+* [[p01 – Micro Nova|http://www.p01.org/512b_micro_nova]]
+* [[p01 – Minami District|http://www.p01.org/minami_district/]]
+* [[p01 – Minicraft|http://www.p01.org/minicraft/]]
+* [[p01 – Starfield|http://www.p01.org/starfield]]
+* [[p01 – Tunnex|http://www.p01.org/256b_tunnex]] (Doesn't work in Firefox?)
 
 !!! [[Js1k|https://js1k.com/]] --- //The JavaScript code golfing competition//
 
@@ -34,3 +39,4 @@ Some interesting tech art pieces follow.
 * [[Iotic – Mouse Moire|http://wildmag.de/compo/Iotic-Mouse_Moire/iotic-mouse_moire.html]]
 * [[Psikorp – Splinecrap|http://wildmag.de/compo/Psikorp-Splinecrap/psikorp-splinecrap.html]]
 * [[Mados – Divo|http://wildmag.de/compo/Mados-Divo/divo.html]]
+* [[ScriptGuru – Serpinski|http://wildmag.de/compo/ScriptGuru-Serpinski/entry.html]]

@@ -1,6 +1,6 @@
 created: 20230206113426599
 creator: Octt
-modified: 20230905231954624
+modified: 20230924120030173
 modifier: Octt
 tags: 
 title: TiddlyWiki/ThirdParty
@@ -11,7 +11,7 @@ title: TiddlyWiki/ThirdParty
 * [[Calendar|https://tabbed-calendar.tiddlyspot.com]] --- //a tabbed picture calendar//
 * [[Joe's Blog|https://joearms.github.io]] --- Contains the [[Chandler|https://joearms.github.io/#2018-12-26%20Fun%20with%20the%20TiddlyWiki]] prototype time-management tool
 * [[kookma's codes, macros, and solutions in TW|https://kookma.github.io/TW-Scripts]]
-* Kookma Plugin Library --- <span>[</span>[[Drag To Install|$:/config/KookmaPluginLibrary]]]
+* Kookma Plugin Library --- <<[ "[[Drag To Install|$:/config/KookmaPluginLibrary]]">>
 * [[NoteSelf|https://noteself.org]] --- TiddlyWiki fork/flavor with interesting features built-in - [[[Git|https://github.com/NoteSelf]]]
 * [[Projectify|https://thaddeusjiang.github.io/Projectify]] --- //Project management for TiddlyWiki// - [[[Git|https://github.com/ThaddeusJiang/Projectify]]]
 * [[Saq's TW5 Sandbox|https://saqimtiaz.github.io/tw5-plugins-sandbox]] --- //Experimental doodads//
@@ -21,7 +21,7 @@ title: TiddlyWiki/ThirdParty
 * [[TiddlySeq|https://gk0wk.github.io/TiddlySeq/]] --- //Logseq-like TiddlyWiki Template// --- <<[ "[[Git|https://github.com/Gk0Wk/TiddlySeq]]">>
 * [[TiddlyTools for TW5|https://tiddlytools.com/]] --- //Small Tools for Big Ideas!™//
 * [[Tobias Beer's Plugins and Resources|https://tobibeer.github.io]] --- [[[Profile|https://tobibeer.github.io/tb5/#Tobias%20Beer]]] [[[Git|https://github.com/tobibeer]]]
-* [[TW5 CPL Wiki|https://tw-cpl.netlify.app]] --- //TiddlyWiki5 Plugin Library for TiddlyWiki Chinese Communities//
+* [[TW5 CPL Wiki|https://tw-cpl.netlify.app]] --- //TiddlyWiki5 Plugin Library for TiddlyWiki Chinese Communities// --- <<[ "[[Drag to install|$:/config/TiddlyWiki-CPL/GitHub]]">>
 * [[TW5 Magick|https://tw5magick.tiddlyspot.com]] --- //Some tricks and snippets for TiddlyWiki 5//
 * [[TW5 Plugins, Themes, Hacks by Thomas Elmiger|https://tid.li/tw5/]] --- //Build or optimise your own application for notetaking, writing or a ToDo-list system with these tools//
 ** [[Presenting the Details Widget|https://groups.google.com/g/tiddlywiki/c/sRUVnlIaT3E]]
@@ -45,6 +45,7 @@ title: TiddlyWiki/ThirdParty
 * [Kookma] [[Refnotes|https://kookma.github.io/TW-Refnotes/]] --- //references, citations, footnotes and abbreviations// --- [[[Git|https://github.com/kookma/TW-Refnotes]]]
 * [[Relink|https://flibbles.github.io/tw5-relink]] --- //flexibility when relinking renamed tiddlers//
 * [[Section Editor|https://kookma.github.io/TW-Section]] --- //create, edit, fold, manage sections// --- [[Git|https://github.com/kookma/TW-Section]] | [[Prototype discussion|https://talk.tiddlywiki.org/t/section-editor-prototype/951]]
+* <<link+desc+git Streams "https://saqimtiaz.github.io/streams/" "Streams is a keyboard friendly way to write and easily divide your text into separate tiddlers while writing." "https://github.com/saqimtiaz/streams">> --- Adds a structural-visual hierarchy system to TiddlyWiki like Notion/Logseq.
 * [[Syntax-Highlighting Tiny Editor|https://talk.tiddlywiki.org/t/tw5-ready-to-play-prototype-syntax-highlighting-tiny-editor/4569]] (Ready-to-play prototype) --- [[Download|https://talk.tiddlywiki.org/uploads/short-url/853ile3OvoeJ9uowpv0YYXnKhSe.json]]
 * [[TWCrossLinks|https://github.com/akhater/TWCrossLinks]] --- //Discover all your intra-tiddlers links//
 * [[👻✨ whitespace theme|http://j.d.whitespace.tiddlyspot.com/]] --- //negative-spacious, webapp-nostalgic theme for TiddlyWiki//
