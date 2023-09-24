@@ -1,7 +1,7 @@
 created: 20230203214532694
 creator: Octt
 icon: 🕸️
-modified: 20230920083856810
+modified: 20230924232935827
 modifier: Octt
 page-cover: https://source.unsplash.com/random?web
 tags: Internet
@@ -11,7 +11,7 @@ title: Web
 
 !! ''Resources''
 
-* [[Can I use|https://caniuse.com/]]
+* [[Can I use|https://caniuse.com/]] --- //up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers// --- <<[# "Open Data (Git)" "https://github.com/Fyrd/caniuse">>
 * ''[[World Wide Web Consortium|https://www.w3.org/]]'' - //international community that develops open standards to ensure the long-term growth of the Web// - [[[Wikipedia|https://en.wikipedia.org/wiki/World_Wide_Web_Consortium]]]
 * ''Web Archiving Services'': [[Wayback Machine]] | [[archive.today|https://archive.today/]] | [[Ghostarchive|https://ghostarchive.org/]]
 
@@ -29,7 +29,10 @@ title: Web
 
 !!! ''Analytics''
 
+* <<httpL www.freecounterstat.com>> --- Dy befault, blocked by uBlock Origin on the international domain, but several national domains are not, like <<httpL www.contatoreaccessi.com>> (IT).
+** Multiple `.ovh` subdomains handle the image serving and the access counting, they appear to be functionally equivalent and swappable in case one is blocked, but the already counted accesses are bound to each specific domain, aka you can't swap the domain you embed while keeping the already counted accesses.
 * ''[[GoatCounter|https://www.goatcounter.com/]]'' --- //Easy analytics. Open-source, self-hostable, GDPR-compliant. No tracking of personal data, and works without JS// --- <<[ "[[Git|https://github.com/arp242/goatcounter]]">>
 ** Note: GoatCounter tracking endpoints are blocked by the default uBlock Origin configuration, must selfhost or arrange some kind of proxy to bypass it.
+* [[Moe Counter!|https://moe-counter.glitch.me/]] (`count.getloli.com`)
 * [[Start Hits|https://hits.seeyoufarm.com]] --- //🚀 Easy way to know how many visitors are viewing your Github, Website, Notion 🎉// --- <<#[ Git "https://github.com/gjbae1212/hit-counter">>
 * //Others: https://github.com/newTendermint/awesome-analytics | https://github.com/pluja/awesome-privacy#analytics //

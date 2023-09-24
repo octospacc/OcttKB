@@ -1,12 +1,13 @@
 created: 20230202225920722
 creator: Octt
-modified: 20230920154817365
+modified: 20230924230453499
 modifier: Octt
 tags: $:/i18n:en Markup
 title: Markdown
 
 <<^WikipediaFrame Markdown en>>
 
+* <<link+desc+git "Markdown Guide.org" "https://www.markdownguide.org" " The comprehensive Markdown reference guide" "https://github.com/mattcone/markdown-guide">>
 * <<Link+Desc+Git "Markdown Tutorial.com" "http://www.markdowntutorial.com/" "Lessons to help guide new writers into Markdown!" "https://github.com/gjtorikian/markdowntutorial.com">>
 
 * <<Link+Desc+Git "😇 Monastic Browser" "https://monastic.netlify.app" "Rebuild the innocent web with Monastic Markdown-first web browser" "https://github.com/rognoni/monastic-browser">>

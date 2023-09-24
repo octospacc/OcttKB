@@ -1,6 +1,6 @@
 created: 20230223222804008
 creator: Octt
-modified: 20230924123131867
+modified: 20230924231925705
 modifier: Octt
 tags: 
 title: Saved/Sites
@@ -24,6 +24,7 @@ Note: "[property]-leaning" means the majority of the content of the site, or the
 * [[λ ryan. himmelwright. net|https://ryan.himmelwright.net/]]
 * [[Simon Willison’s Weblog|https://simonwillison.net/]] --- <<[ "[[Git|https://github.com/simonw/simonwillisonblog]]">>
 * [[There oughta be...|https://there.oughta.be/]] --- //A collection of overcomplicated devices nobody needs//
+* [[Val Packett|https://val.packett.cool/]]
 
 !!! ''[[Book]]-leaning''
 * [[Ledom Software|https://ledomsoft.com]]
@@ -60,6 +61,12 @@ These are kind of blogs, but don't contain mainly things written as blogs, but m
 * [[XXIIVV|https://wiki.xxiivv.com/]] --- <<[ "[[Git|https://github.com/XXIIVV/oscean]]">>
 
 !!! Mess-leaning <small>(often the most creative)</small>
+* [[Kicks Condor|https://www.kickscondor.com/]]
 * [[samy.pl|https://samy.pl/]] --- Website full of easter eggs by the same <<YoutubeL OJ1pEAdFLP8 "person who once hacked MySpace">>.
 ** One easter egg is the client source code is hidden as a binary-encoded string represented by spaces and tabs; The server providing the data uses something (headers? but also other stuff) to only serve the real HTML to a browser; curl/wget without all the browser headers (and a browser after a reload in `view-source:` ?) get a fake HTML. <<#[ "Older but more in-depth analysis" "https://t.me/ioctt/19280">>
 * [[Tramaci.org|https://tramaci.org/]] --- Progetto a quanto pare abbandonato sulla privacy e il controllo, basato sul paradigma di [[pseudo-OS|Pseudo-OS]] web (anche fin troppo complottista e paranoide nei contenuti, ma tecnicamente è interessante).
+
+!!! Uncategorized
+
+* [[bigclive.com|https://www.bigclive.com/]]
+* [[AMStereo.org|http://www.amstereo.org/]]
