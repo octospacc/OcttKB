@@ -1,0 +1,684 @@
+/*
+Basic styles used before we boot up the parsing engine
+*/
+
+/*
+Error message and password prompt
+*/
+
+.tc-error-form {
+	font-family: sans-serif;
+	color: #fff;
+	z-index: 20000;
+	position: fixed;
+	background-color: rgb(255, 75, 75);
+	border: 8px solid rgb(255, 0, 0);
+	border-radius: 8px;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 4em;
+	padding: 0 2em 1em 2em;
+}
+
+.tc-error-form h1 {
+	text-align: center;
+}
+
+.tc-error-prompt {
+	text-align: center;
+	color: #000;
+}
+
+.tc-error-message {
+	overflow: auto;
+	max-height: 40em;
+	padding-right: 1em;
+	margin: 1em 0;
+	white-space: pre-line;
+}
+
+.tc-password-wrapper {
+    font-family: sans-serif;
+	z-index: 20000;
+	position: fixed;
+	text-align: center;
+	width: 200px;
+	top: 4em;
+	left: 50%;
+	margin-left: -144px; /* - width/2 - paddingHorz/2 - border */
+	padding: 16px 16px 16px 16px;
+	border-radius: 8px;
+}
+
+.tc-password-wrapper {
+	color: #000;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	background-color: rgb(197, 235, 183);
+	border: 8px solid rgb(164, 197, 152);
+}
+
+.tc-password-wrapper form {
+	text-align: left;
+}
+
+.tc-password-wrapper h1 {
+	font-size: 16px;
+	line-height: 20px;
+	padding-bottom: 16px;
+}
+
+.tc-password-wrapper input {
+	width: 100%;
+}
+/* details and summary colours */details.tw-details {
+   background-color: #ffffff;
+   color: #333353;
+}details.tw-details summary {
+   background-color: #ececec;
+}details.tw-details.notification summary {
+    background-color: #ffffdd;
+    /* TW leaves color undefined/uses foreground */
+}details.tw-details.warning summary {
+    background-color: #ffbbaf;
+    color: #000;
+}details.tw-details.success summary {
+    background-color: #88edc5;
+    color: #000;
+}
+/* details and summary */details.tw-details {
+   transition: height 1s ease;
+   padding: 0 0.5em 0 0.66em;
+   margin-top: 0.66em;
+   margin-bottom: 0.66em;
+}details.tw-details + details.tw-details {
+   margin-top: -0.46em;
+}details.tw-details[open] {
+   padding-bottom: 1em;
+}details.tw-details:not([open]) { 
+   cursor: pointer;
+}details.tw-details > summary {
+   display: list-item;
+   margin: 0 -0.5em 0 -0.66em;
+   padding: 0.2em 0.5em 0.2em 0.66em;
+   padding-left: 1.76em;  /* adjust for indentation */
+   text-indent: -1.1em;
+   cursor: pointer;
+}details.tw-details[open] > summary {
+   margin-bottom: 1em;
+}details.tw-details[open] > *:first-child:not(summary) {
+   margin-top: 1em;
+}
+.tc-story-river > .tc-tiddler-frame .tc-tiddler-title .tc-title { display: none; }.tc-story-river > .tc-tiddler-frame > .View-Breadcrumbs {
+  opacity: 0.80;
+/*
+  font-size: xx-large;
+  margin-top: 0px;
+  margin-bottom: -1.5em;
+  position: sticky;
+  z-index: 512;
+*/
+}
+.tc-story-river > .tc-tiddler-frame:not(.tc-tiddler-missing) > .View-Breadcrumbs > * {
+  /*font-style: normal !important;*/
+  opacity: 0.40;
+}
+.tc-story-river > .tc-tiddler-frame:not(.tc-tiddler-missing) > .View-Breadcrumbs:hover > * { opacity: 0.80; }
+.tc-story-river > .tc-tiddler-frame .View-Breadcrumbs > .Inline-Icon > * {
+  width: 1em;
+  height: 1em;
+  vertical-align: top;
+}/*.View-Breadcrumbs { display: inline-flex; }*//*.View-Breadcrumbs > .Inline-Sep:not(.View-Breadcrumbs > .Inline-Sep:last-of-type):before*/
+.View-Breadcrumbs > .Inline-Sep { padding-left: 0.3em; padding-right: 0.3em; }
+.View-Breadcrumbs > .Inline-Sep:after { content: '>'; font-size: smaller; }
+.View-Breadcrumbs > .Inline-Sep > span { font-size: 0px; }.View-Breadcrumbs > .Path-Elem[data-path-elem="$:"] > a,
+.View-Breadcrumbs > .Path-Elem[data-path-elem="$:"] + .Inline-Sep
+{ color: gray; padding-left: 0em; }.View-Breadcrumbs > .Path-Elem[data-path-elem="$:"] + .Inline-Sep:after { content: ; }
+.View-Breadcrumbs > .Path-Elem[data-path-elem="$:"] + .Inline-Sep > span { font-size: revert; font-size: smaller; }
+
+.View-Breadcrumbs > .Path-Elem:last-of-type { cursor: pointer; }
+.View-Breadcrumbs details { display: inline; vertical-align: top; }
+
+.tc-static-story-river > .tc-tiddler-frame > .tc-tiddler-title details > summary,
+.View-Breadcrumbs details > summary {
+  width: fit-content;
+  list-style: none;
+  cursor: pointer;
+}
+
+tc-table-of-contents
+
+.tc-static-story-river > .tc-tiddler-frame > .tc-tiddler-title details > .tc-tree,
+.tc-static-story-river > .tc-tiddler-frame > .tc-tiddler-title details > .tc-table-of-contents,
+.View-Breadcrumbs details > .tc-tree,
+.View-Breadcrumbs details > .tc-table-of-contents {
+  font-size: initial; line-height: 1rem;
+}
+
+.tc-static-story-river > .tc-tiddler-frame > .tc-tiddler-title details > .tc-tree > span,
+.tc-static-story-river > .tc-tiddler-frame > .tc-tiddler-title details > .tc-table-of-contents > span,
+.View-Breadcrumbs details > .tc-tree > span, 
+.View-Breadcrumbs details > .tc-table-of-contents > span {
+  display: none;
+}
+
+.tc-static-story-river > .tc-tiddler-frame > .tc-tiddler-title .Path-Copy { display: none; }
+
+.View-Breadcrumbs > .Path-Copy {
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+  text-decoration: none;
+  font-size: smaller;
+}
+.iFrameNormal, .iFrame100 {
+  Margin: 0px;
+  Padding: 0px;
+  Background: #eeeeff/*#ddddff*/;
+  Width: 100vw;
+}
+.iFrameNormal { Height: 90vh; }
+.iFrame100 { Height: 100vh; }.iFrameFitX { Width: 100%; }
+.iFrameFullY { Height: 96vh; }.MediaWikiEmbed, .MediaWikiEmbedBlock {
+  Border-Left: 4px Solid #c061cb;;
+  Padding-Left: 1em /*8px*/;
+}.MediaWikiEmbedCover { float: right; }
+.MediaWikiEmbedCover > * { max-height: 35vh /*50vh*/; }.EmbedFrom, .Embed-From,
+.MediaWikiEmbed-From, .MediaWikiEmbedFrom {
+  Font-Size: Smaller;
+  Font-Style: Italic;
+  /* Don't make the link go over the "fullscreen" checkbox+label */
+  max-width: calc(100% - 9em);
+}/* input.Checkbox-Btn:after { content: attr(label); } */.Embed-Fullscreen-Btn { float: right; font-style: revert; margin-top: -2em; }
+input.Embed-Fullscreen-Btn { width: 2em; height: 2em; }
+label.Embed-Fullscreen-Btn {
+  margin-right: 2.5em;
+  width: initial;
+}/* TODO: Different top: positioning based on if mobile or desktop view is active, and if sidebar is open or closed (2em for mobile and sidebar closed, ~0.64em for the rest) */
+input.Embed-Fullscreen-Btn:checked,
+input.Embed-Fullscreen-Btn:checked ~ label,
+input.Embed-Fullscreen-Btn:checked ~ iframe
+{ position: absolute; z-index: 99999; top: 2em/*0.64em*/; right: 0px; }input.Embed-Fullscreen-Btn:checked ~ iframe {
+  height: calc(100vh - 2em);
+  left: 0px;
+  right: unset;
+  min-width: calc(100vw - 40px);
+}
+.NoDisplay { display: none; }
+
+.NoSelect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	User-Select: none;
+}
+
+
+
+a[href="#~Welcome~"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="~Welcome~"] > .tc-tag-label:after {
+  content: ' 👋';
+}
+
+
+
+
+
+a[href="#%24%3A%2FAdvancedSearch"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="%24%3A%2FAdvancedSearch"] > .tc-tag-label:after {
+  content: ' $:/core/images/advanced-search-button';
+}
+
+
+
+
+
+a[href="#%24%3A%2FCommander"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="%24%3A%2FCommander"] > .tc-tag-label:after {
+  content: ' $:/plugins/kookma/commander/images/commander.svg';
+}
+
+
+
+
+
+a[href="#%24%3A%2Fi18n%3Aen"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="%24%3A%2Fi18n%3Aen"] > .tc-tag-label:after {
+  content: ' $:/languages/en-GB/icon';
+}
+
+
+
+
+
+a[href="#%24%3A%2Fi18n%3Ait"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="%24%3A%2Fi18n%3Ait"] > .tc-tag-label:after {
+  content: ' $:/languages/it-IT/icon';
+}
+
+
+
+
+
+a[href="#%24%3A%2FManager"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="%24%3A%2FManager"] > .tc-tag-label:after {
+  content: ' $:/core/images/list';
+}
+
+
+
+
+
+a[href="#%24%3A%2FTagManager"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="%24%3A%2FTagManager"] > .tc-tag-label:after {
+  content: ' $:/core/images/tag-button';
+}
+
+
+
+
+
+a[href="#AI"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="AI"] > .tc-tag-label:after {
+  content: ' 👾';
+}
+
+
+
+
+
+a[href="#Animal%20Crossing"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Animal%20Crossing"] > .tc-tag-label:after {
+  content: ' 🍃';
+}
+
+
+
+
+
+a[href="#Candle"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Candle"] > .tc-tag-label:after {
+  content: ' 🕯️';
+}
+
+
+
+
+
+a[href="#Celeste"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Celeste"] > .tc-tag-label:after {
+  content: ' 🧗‍♀️';
+}
+
+
+
+
+
+a[href="#Clock"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Clock"] > .tc-tag-label:after {
+  content: ' 🕰️';
+}
+
+
+
+
+
+a[href="#CSS"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="CSS"] > .tc-tag-label:after {
+  content: ' 💅';
+}
+
+
+
+
+
+a[href="#Digital%20Garden"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Digital%20Garden"] > .tc-tag-label:after {
+  content: ' 🍀';
+}
+
+
+
+
+
+a[href="#English"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="English"] > .tc-tag-label:after {
+  content: ' $:/languages/en-GB/icon';
+}
+
+
+
+
+
+a[href="#Forum"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Forum"] > .tc-tag-label:after {
+  content: ' 🏛️';
+}
+
+
+
+
+
+a[href="#Gamepad"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Gamepad"] > .tc-tag-label:after {
+  content: ' 🎮';
+}
+
+
+
+
+
+a[href="#HTML"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="HTML"] > .tc-tag-label:after {
+  content: ' 📰';
+}
+
+
+
+
+
+a[href="#Internet"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Internet"] > .tc-tag-label:after {
+  content: ' 🌐';
+}
+
+
+
+
+
+a[href="#Italiano"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Italiano"] > .tc-tag-label:after {
+  content: ' $:/languages/it-IT/icon';
+}
+
+
+
+
+
+a[href="#Linux"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Linux"] > .tc-tag-label:after {
+  content: ' 🐧';
+}
+
+
+
+
+
+a[href="#Minecraft"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Minecraft"] > .tc-tag-label:after {
+  content: ' ⛏️';
+}
+
+
+
+
+
+a[href="#Minesweeper"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Minesweeper"] > .tc-tag-label:after {
+  content: ' 💣';
+}
+
+
+
+
+
+a[href="#Octt"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Octt"] > .tc-tag-label:after {
+  content: ' 😼';
+}
+
+
+
+
+
+a[href="#OcttKB"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="OcttKB"] > .tc-tag-label:after {
+  content: ' 🐙';
+}
+
+
+
+
+
+a[href="#Python"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Python"] > .tc-tag-label:after {
+  content: ' 🐍';
+}
+
+
+
+
+
+a[href="#Shiori"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Shiori"] > .tc-tag-label:after {
+  content: ' 🔖';
+}
+
+
+
+
+
+a[href="#sitoctt"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="sitoctt"] > .tc-tag-label:after {
+  content: ' ✨';
+}
+
+
+
+
+
+a[href="#Sokoban"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Sokoban"] > .tc-tag-label:after {
+  content: ' 📦';
+}
+
+
+
+
+
+a[href="#Spacc"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Spacc"] > .tc-tag-label:after {
+  content: ' ⛏️';
+}
+
+
+
+
+
+a[href="#Tetris"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Tetris"] > .tc-tag-label:after {
+  content: ' 🧩';
+}
+
+
+
+
+
+a[href="#TiddlyWiki"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="TiddlyWiki"] > .tc-tag-label:after {
+  content: ' 🐈';
+}
+
+
+
+
+
+a[href="#Unsplash"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Unsplash"] > .tc-tag-label:after {
+  content: ' 🎆';
+}
+
+
+
+
+
+a[href="#Watch"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Watch"] > .tc-tag-label:after {
+  content: ' ⌚';
+}
+
+
+
+
+
+a[href="#Web"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Web"] > .tc-tag-label:after {
+  content: ' 🕸️';
+}
+
+
+.tc-tiddler-body ul:hover,
+.tc-tiddler-body ol:hover,
+.tc-tiddler-body dd:hover {
+  Box-Shadow: 2px 2px 12px RGBA(128, 128, 128, 0.5);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 4px;
+}
+ul, ol, dd { transition: 0.3s; }.tc-tiddler-body li { padding-top: 4px; }/* Definition lists */
+dd:before { content: '»'; margin-right: 8px; vertical-align: top; }
+dl { margin-left: 8px; }
+dl > dd { margin-left: 24px; }
+dl > dd > p,
+dl > dd > div,
+dl > dd > dt {
+  display: inline-block;
+  max-width: calc(100% - 1.5em);
+}
+/*
+dl > dd > div > ul,
+dl > dd > div > ol {
+  padding-left: 16px;
+}*/
+div:not(.tc-tiddler-body) > dl > dt,
+dd > p,
+dd > div > p,
+dd > div > ul {
+  margin-top: unset;
+  margin-bottom: unset;
+}
+/* Override the font used for icon display by the the <$:/plugins/Gk0Wk/notionpage-covericon> plugin, and then also apply it to the :after of .tc-tiddlylink anchors, for consistency.
+We override adding a "sans-serif" to the start due to a spacing bug (?) */
+.gk0wk-notionpagebg-icon1,
+.gk0wk-notionpagebg-icon2,
+a[class="tc-tiddlylink tc-tiddlylink-resolves"]:after {
+  font-family: sans-serif, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols;
+}/* Mobile */
+@media (max-width: ) {
+  .tc-sidebar-scrollable .tc-sidebar-header { padding-top: 0px; }
+}/* Desktop */
+@media (min-width: ) {
+  .tc-sidebar-scrollable {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .tc-story-river {
+    padding: 20px 20px 20px 32px;
+  }
+  .tc-tiddler-frame {
+    padding: 20px /*24px 32px 24px 32px*/;
+    margin-bottom: 20px;
+  }.tc-story-river {
+     margin-right: 
+280px
+
+
+;
+  }}Div.View-Breadcrumbs
+{ margin: 4px; padding: 4px; }/* Inserting HTML content with tag $:/tags/AboveStory causes excess padding on top of the story river; Setting display none breaks that HTML, so we just tweak position */ 
+.tc-page-container .tc-story-river > .story-backdrop { position: absolute; }/* Reduce top padding of sidebar */
+.tc-sidebar-scrollable { padding-top: 12px; }
+.tc-sidebar-scrollable .tc-sidebar-header .tc-reveal .tc-site-subtitle { padding-right: 4em; }.tc-story-river { padding-bottom: 0px; }
+.tc-story-river ~ p { display: none; }.tc-tiddler-frame,
+.tc-tiddler-body p iframe {
+  Box-Shadow: 2px 2px 12px RGBA(128, 128, 128, 0.5);
+}.tc-tiddler-body p iframe { Border: None; }
+.tc-tiddler-frame { border-radius: 4px; }
+.tc-modal-body { max-height: 75vh /*60vh*/; }.tc-sidebar-scrollable .tc-sidebar-tabs-main .tc-more-sidebar .tc-tab-content { overflow: visible; }.tc-unfold-banner {
+  width: calc(100% - 8px);
+  margin-left: -16px;
+  margin-top: -8px;
+}/* Large tag selection menu, optimized for desktop + nicer tag button */
+.tc-edit-tags .tc-edit-add-tag .tc-block-tags-dropdown {
+  position: revert;
+  white-space: revert;
+}
+.tc-edit-tags .tc-edit-add-tag .tc-block-tags-dropdown a {
+  display: inline-block;
+  border-radius: 1em;
+}.AiLink { opacity: 0.40; }.DirList-Title, .DirList-Title * { Font-Style: Normal !Important; }
+.Separator-Right:last-of-type { Display: None; }.StartHere-Button {
+  font-size: x-large /*smaller*/;
+  text-decoration: none !important;
+  user-select: none;
+}
+.StartHere-Button > img {
+  width: 122px;
+  image-rendering: pixelated;
+}
+.StartHere-Button > span {
+  position: relative;
+  top: -20px /*-10px*/;
+}Img.Img90, .Img90 Img {
+  Max-Width: 90%;
+  Max-Height: 90vh;
+}.tc-sidebar-scrollable .tc-sidebar-header .tc-page-controls .tc-popup .tc-drop-down { min-width: auto; }.tc-story-river > .tc-tiddler-frame .tc-subtitle { margin: 4px; padding: 4px; }/* Customized sidebar button */
+.tc-topbar.tc-topbar-right {
+  bottom: 10px;
+  right: 10px;
+  top: unset;
+}
+.tc-topbar.tc-topbar-right > button {
+  background: RGBA(0,0,0,0.64);
+  border-radius: 4px;
+}
+.tc-topbar.tc-topbar-right > button > svg > g { fill: white; }details.tw-details > summary > * { display: inline; }input[type="range"] { min-width: 8em; }input.Edit-Text-Full { width: 100% !important; }.tc-tiddler-body details:hover {
+  Box-Shadow: 2px 2px 12px RGBA(128, 128, 128, 0.5);
+}
+.tc-tiddler-body details:hover > iframe {
+  Box-Shadow: none;
+}.ibox-btn {
+  max-width: 35%;
+  max-height: 50vh;
+}
+.ibox-btn img {
+  width: 100% !important;
+}.tc-modal {
+  width: 80%;
+  left: calc((100% - 80%) / 2);
+}.tb-inc > .tb-inc-controls.tc-tiddler-controls > button {
+	font-size: 150%;
+}
+/* This has to be redone basically from scratch because there are issues with position:fixed without editing the tiddler frame z-index, which can't be done via CSS only (no parent selector) */
+
+input.PIP-Select, input.PIP-Select+label, div.PIP-Select > input, div.PIP-Select > label, div.PIP-Select > span { width: 1.25em; height: 1.25em; font-size: 1.50em; vertical-align: middle; }
+
+/*
+input[type="radio"].PIP-Select[value="↗️"]:checked ~ div { border: 3px solid red; }
+input[type="radio"].PIP-Select[value="↘️"]:checked ~ div { border: 3px solid blue; }
+*/
+
+/* Set PIP properties common to all position */
+/*
+input[type="radio"].PIP-Select[value]:not(input[type="radio"].PIP-Select[value="❎"]):checked,
+input[type="radio"].PIP-Select[value]:not(input[type="radio"].PIP-Select[value="❎"]):checked ~ input,
+input[type="radio"].PIP-Select[value]:not(input[type="radio"].PIP-Select[value="❎"]):checked ~ label,
+*/
+input[type="radio"].PIP-Select[value]:not(input[type="radio"].PIP-Select[value="❎"]):checked ~ input[type="radio"].PIP-Select[value="❎"],
+input[type="radio"].PIP-Select[value]:not(input[type="radio"].PIP-Select[value="❎"]):checked ~ div {
+  position: fixed;
+  z-index: 99999;
+  top: 0px;
+  right: 0px;
+}
+
+input[type="radio"].PIP-Select[value]:not(input[type="radio"].PIP-Select[value="❎"]):checked ~ input[type="radio"].PIP-Select[value="❎"] { z-index: 100001; }
+
+input[type="radio"].PIP-Select[value]:not(input[type="radio"].PIP-Select[value="❎"]):checked ~ div {
+  /*height: 100vh;*/
+  width: 50vw;
+  background: white;
+}
+.tc-static-story-river > a[name]/*:not(a[name="~Welcome~"])*/ + .tc-tiddler-frame { display: none; }
+.tc-static-story-river > a[name]:target + .tc-tiddler-frame { display: block; }.tc-static-story-river > .tc-tiddler-frame .gk0wk-notionbg-addbuttons,
+.tc-static-story-river > .tc-tiddler-frame .gk0wk-notionpageb-changecover { display: none; }
