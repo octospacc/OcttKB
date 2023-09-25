@@ -1,10 +1,11 @@
 created: 20230920151656239
 creator: Octt
-modified: 20230920154325095
+modified: 20230925173848461
 modifier: Octt
 tags: $:/GlobalOption
 title: $:/OcttKB/Config/SaveMismatchWarn
 
+<<script on>>
 <script>
 try {
   Array.from(document.querySelectorAll('.OcttKBGlobalOption-SaveMismatchWarn')).forEach(function(el){
@@ -14,6 +15,7 @@ try {
   });
 } catch(e) { $OcttKB.ErrAtLine(e) }
 </script>
+<<script off>>
 <label>
   <input disabled
     type="checkbox"

@@ -6,8 +6,16 @@ cd ./public
 tiddlywiki \
   --load ./index.html \
   --output ./ \
-  --rendertiddler $:/core/templates/static.template.css Style.css text/plain \
-  --rendertiddler $:/core/templates/alltiddlers.template.html Static.html text/plain
+  --rendertiddler '$:/core/templates/static.template.css' Style.css text/plain \
+  --rendertiddler '$:/core/templates/alltiddlers.template.html' Static.html text/plain
+
+# Build multi-page static wiki
+# Note: this is temporary, output is partially borked (linked resources and page style), and fixes are not applied (but are possibly unneeded?); it will be fixed once sitocttTW/TiddlyCoso is ready, but possibly before
+tiddlywiki \
+  --load index.html \
+  --output ./Static \
+  --rendertiddler '$:/core/templates/static.template.css' static.css text/plain \
+  --render '[is[tiddler]!is[system]!is[draft]]' '[is[tiddler]addsuffix[.html]]' text/plain '$:/core/templates/static.tiddler.html'
 
 # Apply patches to the static HTML
 python3 ../PatchStatic.py ./Static.html
