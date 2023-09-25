@@ -11,8 +11,6 @@ title: OcttKB/Index
 
 {{$:/OcttKB/ToC}}
 
-<!-- caption: {{$:/language/SideBar/Contents/Caption}} --->
-
 ; Other things
 : [[🖍️ Comments/Issues/PRs (Git)|https://gitlab.com/octtspacc/OcttKB/-/issues]]
 : [[🏳️‍🌈 Translate this site (Google)|https://translate.google.com/translate?sl=en&tl=it&hl=en&u=https://kb.octt.eu.org&client=webapp]]
@@ -20,5 +18,5 @@ title: OcttKB/Index
 {{$:/OcttKB/LicensingButtons}}
 
 <div style="margin-top: 16px">
-''Last edit at'' {{$:/OcttKB/LastEditTime}} <<#[ Activity "https://gitlab.com/octtspacc/OcttKB/activity">>
+''Last edit at'' {{$:/OcttKB/LastEditTime}} <<#[ Activity "https://gitlab.com/octtspacc/OcttKB/-/commits">>
 </div>

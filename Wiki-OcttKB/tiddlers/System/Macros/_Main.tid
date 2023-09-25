@@ -96,11 +96,3 @@ Display: Inline;
 <$Tag$ $AttrName$=<<AttrWikified>> $Attrs$>$Body$</$Tag$>
 </$wikify>
 \end
-
-\define Link+Desc(Name, Link, Desc, Wrap:"//") [[$Name$|$Link$]] --- $Wrap$$Desc$$Wrap$
-
-\define link+desc(Name, Link, Desc, Wrap) <<Link+Desc "$Name$" "$Link$" "$Desc$" "$Wrap$">>
-
-\define Link+Desc+Git(Name, Link, Desc, Git, Wrap) <<Link+Desc "$Name$" "$Link$" "$Desc$" "$Wrap$">> --- <<[ "[[Git|$Git$]]">>
-
-\define link+desc+git(Name, Link, Desc, Git, Wrap) <<Link+Desc+Git "$Name$" "$Link$" "$Desc$" "$Git$" "$Wrap$">>

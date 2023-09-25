@@ -7,4 +7,8 @@ title: Knowledge Management
 
 <<^wikipediaframe "Knowledge Management">>
 
-* <<link+desc+git anytype "https://anytype.io" "the everything app for those who celebrate trust & autonomy" "https://github.com/anyproto">>
+The "Notion paradigm", and alternative apps:
+
+* <<linkdesc Notion "https://www.notion.so" "Your connected workspace for wiki, docs & projects">> --- it's basically online-only (or online-first?), so not recommended since it's also entirely proprietary, and documents are very limited when exported
+* <<linkdescgit anytype "https://anytype.io" "the everything app for those who celebrate trust & autonomy" "https://github.com/anyproto">>
+* <<linkdescgit AppFlowy "https://appflowy.io" "open-source alternative to Notion for project management" "https://github.com/AppFlowy-IO">>
