@@ -1,4 +1,6 @@
 {
+    "created": "20230926093528121",
+    "creator": "Octt",
     "title": "$:/plugins/btheado/BrowserStorage",
     "description": "Opinionated configuration settings for the browser-storage plugin",
     "author": "Brian Theado",
@@ -7,5 +9,7 @@
     "list": "readme backup",
     "version": "0.1.0",
     "plugin-type": "plugin",
-    "dependents": ""
+    "dependents": "",
+    "modified": "20230926093634467",
+    "modifier": "Octt"
 }

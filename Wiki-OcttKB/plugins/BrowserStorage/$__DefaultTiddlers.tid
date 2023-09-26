@@ -1,5 +1,0 @@
-created: 20230319153234115
-modified: 20230319153234115
-title: $:/DefaultTiddlers
-
-[list[$:/StoryList]else[$:/plugins/btheado/BrowserStorage]]

@@ -1,22 +1,24 @@
 created: 20230216222435750
 creator: Octt
-modified: 20230816225208208
+modified: 20230926083742264
 modifier: Octt
 tags: Development
 title: Development/Resources
 
 * [[Rico's cheatsheets (devhint.io)|https://devhints.io/]] --- //TL;DR for developer documentation - a ridiculous collection of cheatsheets// --- <<[# Git "https://github.com/rstacruz/cheatsheets">>
 
-; Learning
+; Learning, Reference
 : [[Baeldung|https://www.baeldung.com/]]
 : [[DigitalOcean Tutorials|https://www.digitalocean.com/community/tutorials]]
 : [[Rollbar Tutorials|https://rollbar.com/blog/category/tutorials/]]
 : [[MDN Web Docs|https://developer.mozilla.org/en-US/]] (Mozilla)
 : [[W3Schools|https://www.w3schools.com/]]
+: <<linkdescgit DevDocs "https://devdocs.io" "API Documentation Browser" "https://github.com/freeCodeCamp/devdocs">>
 
 ; Code search
 : [[grep.app|https://grep.app/]]
 : [[Tabnine|https://www.tabnine.com/code/]]
 
 ; Badges
-: [[For the Badge|https://forthebadge.com/]] - //We don't develop for the money, power, fame, or codebabes. We do it For the Badge.// - <<[ "[[Git|https://github.com/BraveUX/for-the-badge]]
+: <<linkdescgit "For the Badge" "https://forthebadge.com" "We don't develop for the money, power, fame, or codebabes. We do it For the Badge." "https://github.com/BraveUX/for-the-badge">>
+: <<linkdescgit Shields.io "https://shields.io" "badges as a service" "https://github.com/badges">>

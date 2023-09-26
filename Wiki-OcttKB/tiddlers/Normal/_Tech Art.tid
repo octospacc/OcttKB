@@ -1,11 +1,13 @@
 created: 20230504095843099
 creator: Octt
-modified: 20230924122317448
+modified: 20230926084823601
 modifier: Octt
 tags: Art
 title: Tech Art
 
 <<^wikipediaframe "Electronic art">>
+
+<<linkdescgit dwitter "https://www.dwitter.net/" "Social network for short js demos" "https://github.com/lionleaf/dwitter">> --- <<[# "Frontend Git" "https://github.com/dwitter-net/dwitter-frontend">>
 
 Some interesting tech art pieces follow.
 

@@ -1,0 +1,7 @@
+created: 20230926093044291
+creator: Octt
+modified: 20230926093044291
+modifier: Octt
+title: $:/config/BrowserStorage/SaveFilter
+
+[all[]] -[prefix[$:/state/popup/]] -[prefix[$:/temp/]] -[prefix[$:/HistoryList]]
