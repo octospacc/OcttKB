@@ -1,0 +1,11 @@
+{
+    "title": "$:/plugins/btheado/BrowserStorage",
+    "description": "Opinionated configuration settings for the browser-storage plugin",
+    "author": "Brian Theado",
+    "core-version": ">=5.2.3",
+    "plugin-priority": "20",
+    "list": "readme backup",
+    "version": "0.1.0",
+    "plugin-type": "plugin",
+    "dependents": ""
+}

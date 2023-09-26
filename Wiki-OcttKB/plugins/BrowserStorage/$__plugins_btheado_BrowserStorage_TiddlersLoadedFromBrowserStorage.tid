@@ -1,0 +1,20 @@
+caption: Tiddlers loaded from browser storage
+created: 20220730015639992
+modified: 20220731222040644
+tags: 
+title: $:/plugins/btheado/BrowserStorage/TiddlersLoadedFromBrowserStorage
+
+<$importvariables filter="[[$:/plugins/btheado/BrowserStorage/FilteredTreeMacro]]">
+
+<table><tr>
+<th>System tiddlers</th><th>Other tiddlers</th>
+</tr>
+<tr>
+<td><<tree prefix: "$:/" filter: "[enlist{$:/temp/BrowserStorage/Log}]">></td><td>
+
+{{{[enlist{$:/temp/BrowserStorage/Log}!prefix[$:/]]}}}
+
+</td>
+</tr></table>
+
+</$importvariables>
