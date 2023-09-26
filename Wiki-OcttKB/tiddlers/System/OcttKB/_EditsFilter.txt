@@ -1,1 +1,0 @@
-[![$:/StoryList]![$:/HistoryList]!prefix[$:/info/browser/]!prefix[$:/temp/]!prefix[$:/state]get[modified]!prefix[NaN]!sort[]limit[1]]

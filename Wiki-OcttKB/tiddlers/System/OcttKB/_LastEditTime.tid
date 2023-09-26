@@ -1,12 +1,13 @@
+EditsFilter: [![$:/StoryList]![$:/HistoryList]!prefix[$:/info/browser/]!prefix[$:/temp/]!prefix[$:/state]get[modified]!prefix[NaN]!sort[]limit[1]]
 created: 20230117113707614
 creator: Octt
-modified: 20230926073650511
+modified: 20230926140651774
 modifier: Octt
 tags: 
 title: $:/OcttKB/LastEditTime
 
 \whitespace trim
-<$list filter={{$:/OcttKB/EditsFilter}} variable="modified">
+<$list filter={{!!EditsFilter}} variable="modified">
   <$list filter="[modified<modified>limit[1]]">
     <$text text={{{[{!!modified}format:date[YYYY-0MM-0DD, 0hh:0mm]]}}}/>
   </$list>
