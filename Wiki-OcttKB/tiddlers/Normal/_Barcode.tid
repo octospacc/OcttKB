@@ -1,0 +1,12 @@
+created: 20230927061001942
+creator: Octt
+modified: 20230927063845359
+modifier: Octt
+tags: 
+title: Barcode
+
+<<^wikipediaframe Barcode>>
+
+* <<WikipediaLink "High Capacity Color Barcode">> --- Defunct technology by Microsoft, I couldn't find any working encoder and decoder implementation, proprietary or third-party (escluding Microsoft Tag, which I couldn't try).
+* <<linkdescgit "JAB Code" "https://jabcode.org" "Just Another Bar Code" "https://github.com/jabcode/jabcode">>
+* <<linkdesc cimbar "https://github.com/sz3/cimbar" "color-icon-matrix barcodes">> --- <<#[ "libcimbar Git" "https://github.com/sz3/libcimbar">> <<[# "CameraFileCopy" "https://github.com/sz3/cfc">>
