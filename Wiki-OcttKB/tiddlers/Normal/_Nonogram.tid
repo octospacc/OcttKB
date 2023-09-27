@@ -1,6 +1,6 @@
 created: 20230111120518929
 creator: Octt
-modified: 20230711111837697
+modified: 20230927231246694
 modifier: Octt
 tags: Puzzle $:/i18n:en Game Generic Digital Analog $:/Games
 title: Nonogram
@@ -9,11 +9,12 @@ title: Nonogram
 
 Printables:
 
-* [[https://www.nonograms.org/]]
+* <<httpL www.nonograms.org>>
+* [[https://www.printable-puzzles.com/printable-numbergrid-puzzles.php]]
 
 !! ''Gamin' Time''
 
 <<iFrameFixed "https://jokude.github.io/react-nonogram">>
 
 !! ''Software Implementations''
-* https://Nonogram.com
+* <<httpL Nonogram.com>>

@@ -1,9 +1,11 @@
 created: 20230216221308797
 creator: Octt
-modified: 20230216221436177
+modified: 20230927232217489
 modifier: Octt
 tags: 
 title: Linux/Snippets
 
 ; [[How to mount a local directory without root|https://unix.stackexchange.com/a/602503]]
 : `bindfs --no-allow-other /source/directory /mount/point`
+
+* [[xdotool list of key codes|https://gitlab.com/cunidev/gestures/-/wikis/xdotool-list-of-key-codes]]

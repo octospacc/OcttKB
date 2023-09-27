@@ -1,6 +1,6 @@
 created: 20221110145611678
 creator: Octt
-modified: 20230429221017331
+modified: 20230927231802158
 modifier: Octt
 tags: Development Internet $:/i18n:en
 title: JavaScript
@@ -16,6 +16,7 @@ title: JavaScript
 * [[Which equals operator (== vs ===) should be used in JavaScript comparisons?|https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons]] ("Good and bad twins") --- `==` is bad unless explicitly needed, since it does type-coercion.
 ** [[In theory === is faster, no type conversion takes place. Practically there's no performance difference.|https://stackoverflow.com/questions/12332855/which-javascript-equality-operator-or-is-faster]]
 ** [[JavaScript-Equality-Table|https://dorey.github.io/JavaScript-Equality-Table/unified/]] - <<[ "[[Git|https://github.com/dorey/JavaScript-Equality-Table]]">>
+* [[Environment detection: node.js or browser|https://stackoverflow.com/a/57774317]]
 * [[Superpacking JS Demos|https://web.archive.org/web/20120919185414/http://daeken.com/superpacking-js-demos]]
 
 !!! ''Tools''

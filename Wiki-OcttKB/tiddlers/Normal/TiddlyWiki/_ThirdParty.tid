@@ -1,6 +1,6 @@
 created: 20230206113426599
 creator: Octt
-modified: 20230924120030173
+modified: 20230927230448025
 modifier: Octt
 tags: 
 title: TiddlyWiki/ThirdParty
@@ -43,7 +43,7 @@ title: TiddlyWiki/ThirdParty
 * [[TW5 Locator|https://bimlas.gitlab.io/tw5-locator/]] --- //discover and search by context//, with polished field filtering features --- <<[ "[[Git|https://gitlab.com/bimlas/tw5-locator]]">>
 * [[Notion-like Icon And PageCover|https://gk0wk.github.io/TiddlySeq/#Notion-like%20Icon%20And%20PageCover]] --- <<[ "[[Thread|https://talk.tiddlywiki.org/t/notion-like-icon-and-pagecover/1741]]">>
 * [Kookma] [[Refnotes|https://kookma.github.io/TW-Refnotes/]] --- //references, citations, footnotes and abbreviations// --- [[[Git|https://github.com/kookma/TW-Refnotes]]]
-* [[Relink|https://flibbles.github.io/tw5-relink]] --- //flexibility when relinking renamed tiddlers//
+* <<linkdescgit Relink "https://flibbles.github.io/tw5-relink" "flexibility when relinking renamed tiddlers" "https://github.com/flibbles/tw5-relink">>
 * [[Section Editor|https://kookma.github.io/TW-Section]] --- //create, edit, fold, manage sections// --- [[Git|https://github.com/kookma/TW-Section]] | [[Prototype discussion|https://talk.tiddlywiki.org/t/section-editor-prototype/951]]
 * <<link+desc+git Streams "https://saqimtiaz.github.io/streams/" "Streams is a keyboard friendly way to write and easily divide your text into separate tiddlers while writing." "https://github.com/saqimtiaz/streams">> --- Adds a structural-visual hierarchy system to TiddlyWiki like Notion/Logseq.
 * [[Syntax-Highlighting Tiny Editor|https://talk.tiddlywiki.org/t/tw5-ready-to-play-prototype-syntax-highlighting-tiny-editor/4569]] (Ready-to-play prototype) --- [[Download|https://talk.tiddlywiki.org/uploads/short-url/853ile3OvoeJ9uowpv0YYXnKhSe.json]]
