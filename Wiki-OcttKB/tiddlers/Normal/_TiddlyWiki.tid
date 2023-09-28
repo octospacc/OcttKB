@@ -1,7 +1,7 @@
 created: 20220924193842295
 creator: Octt
 icon: 🐈
-modified: 20230530104344609
+modified: 20230928231726104
 modifier: Octt
 page-cover: https://source.unsplash.com/random/?computer-cat
 tags: TiddlyWiki Wiki Zettelkasten Libre
@@ -44,6 +44,11 @@ It is a libre, JavaScript-rich, non-linear notebook, that can well adapt to anyo
 * [[Links Aggregator|https://links.tiddlywiki.org]]
 * [[Grok TiddlyWiki|https://groktiddlywiki.com]] - //Build a deep, lasting understanding of TiddlyWiki//
 * [[TiddlyWiki Toolmap|https://dynalist.io/d/zUP-nIWu2FFoXH-oM7L7d9DM]]
+
+!!! Notes about ''official plugins''
+
+* There exists the useful [[BrowserStorage plugin|https://tiddlywiki.com/static/BrowserStorage%2520Plugin.html]], good when working on browsers that crash or when tabs reload themselves.
+** For optimal extra features like status indicators on tiddlers, or list of in-storage tiddlers, there exists the [[tw-browser-storage|https://btheado.github.io/tw-browser-storage]] plugin to extend the official one <<[# Git "https://github.com/btheado/tw-browser-storage">>. It has some technical issues so I made some edits: [[$:/plugins/btheado/BrowserStorage (drag to install)|$:/plugins/btheado/BrowserStorage]].
 
 <<{< TiddlyWiki/ThirdParty>>
 

@@ -1,6 +1,6 @@
 created: 20221110145611678
 creator: Octt
-modified: 20230927231802158
+modified: 20230928230548758
 modifier: Octt
 tags: Development Internet $:/i18n:en
 title: JavaScript
@@ -24,3 +24,4 @@ title: JavaScript
 * [[jsPerf|https://jsperf.app/]] - //online JavaScript performance benchmark// - <<[ "[[Git|https://github.com/rd13/jsperf.app]]">>
 ** Old source code: [[v2|https://github.com/jsperf]], [[v1|https://github.com/mathiasbynens/jsperf.com]]
 * [[MeasureThat.net|https://www.measurethat.net/]] - //measure performance of JavaScript code// - <<[ "[[Git|https://github.com/thecoderok/MeasureThat.net]]">>
+* <<linkdescgit de4js "https://lelinhtinh.github.io/de4js" "JavaScript Deobfuscator and Unpacker" "https://github.com/lelinhtinh/de4js">>

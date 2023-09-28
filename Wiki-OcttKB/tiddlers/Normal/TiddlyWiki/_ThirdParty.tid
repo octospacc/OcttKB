@@ -1,6 +1,6 @@
 created: 20230206113426599
 creator: Octt
-modified: 20230927230448025
+modified: 20230928230938921
 modifier: Octt
 tags: 
 title: TiddlyWiki/ThirdParty
@@ -31,7 +31,7 @@ title: TiddlyWiki/ThirdParty
 * [[Dave and Blanca Gifford's homepage|https://giffmex.org/Welcome.html]]
 * [[Eberron Tiddlywiki|https://eberron.tiddlyhost.com/]] --- //campaign setting for D&D designed for telling fantastical pulp and noir stories// --- <<[ "[[Git|https://github.com/wccbuck/eberron_tw/]]">>
 
-!!!! ''Individual Plugins and Themes''
+!!!! ''Individual Plugins''
 
 * [[Archipel|https://archipel.tiddlyspot.com/]] --- //Data visualization Knowledge map of tiddler's ToC, as zoomable circle packs// --- [[[Discussion|https://groups.google.com/g/tiddlywiki/c/wZZ-84FV0-k]]]
 * [[CodeMirrorPlus|https://adithya-badidey.github.io/TW5-codemirror-plus/]] --- //A better editor for TW5, based on ~CodeMirror// --- [[Demo|https://adithya-badidey.github.io/TW5-codemirror-plus/wiki.html]] | [[Git|https://github.com/adithya-badidey/TW5-codemirror-plus]]
@@ -48,4 +48,7 @@ title: TiddlyWiki/ThirdParty
 * <<link+desc+git Streams "https://saqimtiaz.github.io/streams/" "Streams is a keyboard friendly way to write and easily divide your text into separate tiddlers while writing." "https://github.com/saqimtiaz/streams">> --- Adds a structural-visual hierarchy system to TiddlyWiki like Notion/Logseq.
 * [[Syntax-Highlighting Tiny Editor|https://talk.tiddlywiki.org/t/tw5-ready-to-play-prototype-syntax-highlighting-tiny-editor/4569]] (Ready-to-play prototype) --- [[Download|https://talk.tiddlywiki.org/uploads/short-url/853ile3OvoeJ9uowpv0YYXnKhSe.json]]
 * [[TWCrossLinks|https://github.com/akhater/TWCrossLinks]] --- //Discover all your intra-tiddlers links//
+
+!!!! ''Individual Themes''
+
 * [[👻✨ whitespace theme|http://j.d.whitespace.tiddlyspot.com/]] --- //negative-spacious, webapp-nostalgic theme for TiddlyWiki//

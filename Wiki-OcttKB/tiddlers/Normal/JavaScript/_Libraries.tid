@@ -1,6 +1,6 @@
 created: 20230429182925276
 creator: Octt
-modified: 20230825224335539
+modified: 20230928223603055
 modifier: Octt
 tags: 
 title: JavaScript/Libraries
@@ -9,12 +9,12 @@ Note: some are still in [[Web/Development]]
 
 !!! ''Single-purpose''
 
-* [[FileSaver.js|https://github.com/eligrey/FileSaver.js]] - //An HTML5 saveAs() FileSaver implementation//
+* [[FileSaver.js|https://github.com/eligrey/FileSaver.js]] --- //An HTML5 saveAs() FileSaver implementation//
+* `jsdom`: //JavaScript implementation of various web standards, for use with Node.js// --- <<[# Git "https://github.com/jsdom/jsdom">>
 
 !!! ''Do-all''
 
-* [[jQuery|https://jquery.com/]] - //write less, do more// for general operations
-** Has optional libraries for selectors and UI - <<[ "[[Git|https://github.com/jquery]]">>
+* [[jQuery|https://jquery.com/]] --- //write less, do more// for general operations (has optional libraries for selectors and UI) --- <<[ "[[Git|https://github.com/jquery]]">>
 * [[Licia|https://licia.liriliri.io/]] - //utility library to get daily works done// - <<[ "[[Git|https://github.com/liriliri/licia]]">>
 * [[Lodash|https://lodash.com/]] - More modern fork of Underscore, useful for working with data objects - <<[ "[[Git|https://github.com/lodash]]">>
 * [[🐚 zx|https://github.com/google/zx]] --- //A tool for writing better scripts//, it's like better sh scripting done via JavaScript.
