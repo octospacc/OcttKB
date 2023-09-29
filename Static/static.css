@@ -680,5 +680,6 @@ input[type="radio"].PIP-Select[value]:not(input[type="radio"].PIP-Select[value="
   background: white;
 }
 .tc-static-story-river > a[name]/*:not(a[name="~Welcome~"])*/ + .tc-tiddler-frame { display: none; }
-.tc-static-story-river > a[name]:target + .tc-tiddler-frame { display: block; }.tc-static-story-river > .tc-tiddler-frame .gk0wk-notionbg-addbuttons,
+.tc-static-story-river > a[name]:target + .tc-tiddler-frame { display: block; }.tc-static-story-river > .tc-tiddler-frame .tc-tiddler-controls,
+.tc-static-story-river > .tc-tiddler-frame .gk0wk-notionbg-addbuttons,
 .tc-static-story-river > .tc-tiddler-frame .gk0wk-notionpageb-changecover { display: none; }
