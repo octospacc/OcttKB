@@ -1,6 +1,6 @@
 created: 20230225150051400
 creator: Octt
-modified: 20230226210519405
+modified: 20230929111702131
 modifier: Octt
 tags: $:/tags/Stylesheet
 title: $:/Styles/Static/Main
@@ -13,5 +13,6 @@ title: $:/Styles/Static/Main
 <<River>> > a[name]/*:not(a[name="~Welcome~"])*/ + <<Frame>> { <<NoDisp>> }
 <<River>> > a[name]:target + <<Frame>> { display: block; }
 
+<<River>> > <<Frame>> .tc-tiddler-controls,
 <<River>> > <<Frame>> .gk0wk-notionbg-addbuttons,
 <<River>> > <<Frame>> .gk0wk-notionpageb-changecover { <<NoDisp>> }

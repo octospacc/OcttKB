@@ -1,6 +1,6 @@
 created: 20221110145611678
 creator: Octt
-modified: 20230928230548758
+modified: 20230929113933463
 modifier: Octt
 tags: Development Internet $:/i18n:en
 title: JavaScript
@@ -18,6 +18,7 @@ title: JavaScript
 ** [[JavaScript-Equality-Table|https://dorey.github.io/JavaScript-Equality-Table/unified/]] - <<[ "[[Git|https://github.com/dorey/JavaScript-Equality-Table]]">>
 * [[Environment detection: node.js or browser|https://stackoverflow.com/a/57774317]]
 * [[Superpacking JS Demos|https://web.archive.org/web/20120919185414/http://daeken.com/superpacking-js-demos]]
+* [["Illegal invocation" errors in JavaScript|https://mtsknn.fi/blog/illegal-invocations-in-js/]] --- //The error is thrown when calling a function whose `this` keyword isn't referring to the object where it originally did (when the context of the function is lost)//
 
 !!! ''Tools''
 
