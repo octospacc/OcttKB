@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from base64 import b64encode
 from bs4 import BeautifulSoup
-from re import sub, DOTALL
+from re import sub
 from sys import argv
 
 File = argv[-1]
@@ -29,7 +29,7 @@ def SafeIframe(m):
 Html = str(BeautifulSoup(open(File, 'r'), 'html5lib'))
 
 Html = sub('<details><a name="(.+)"><summary>(.+)<\/summary>\s*<\/a>', Fix1,       Html)
-Html = sub('<iframe( +)src="(.+)"><\/iframe>',                         SafeIframe, Html, flags=DOTALL)
-Html = sub('<iframe (.+) src="(.+)"><\/iframe>',                       SafeIframe, Html, flags=DOTALL)
+Html = sub('<iframe( +)src="[\S\n\t\v ]+?"><\/iframe>',                SafeIframe, Html)
+Html = sub('<iframe (.+) src="[\S\n\t\v ]+?"><\/iframe>',              SafeIframe, Html)
 
 open(File, 'w').write(Html)

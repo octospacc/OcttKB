@@ -1,6 +1,6 @@
 created: 20230905232949767
 creator: Octt
-modified: 20230905233603281
+modified: 20230930001800458
 modifier: Octt
 tags: 
 title: Static site generator
@@ -10,4 +10,5 @@ title: Static site generator
 * <<linkdescgit Docusaurus "https://docusaurus.io" "Easy to maintain open source documentation websites." "https://github.com/facebook/docusaurus">>
 * <<linkdescgit Hugo "https://gohugo.io" "The world’s fastest framework for building websites" "https://github.com/gohugoio/hugo">>
 * <<linkdescgit Jekyll "https://jekyllrb.com" "🌐 Jekyll is a blog-aware static site generator in Ruby" "https://github.com/jekyll">>
+** <<linkdescgit "So Simple [Theme]" "https://mmistakes.github.io/so-simple-theme" " A simple Jekyll theme for words and pictures." "https://github.com/mmistakes/so-simple-theme">>
 * <<linkdescgit Retype "https://retype.com" "ultra-high-performance ✨ static website generator that builds a website based on simple Markdown text files" "https://github.com/retypeapp">> --- seems catered towards docs/notes sites
