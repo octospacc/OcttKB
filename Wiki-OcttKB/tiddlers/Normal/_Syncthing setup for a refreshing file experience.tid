@@ -1,0 +1,17 @@
+created: 20231001090835764
+creator: Octt
+modified: 20231001094533507
+modifier: Octt
+tags: Syncthing
+title: Syncthing setup for a refreshing file experience
+
+[[Syncthing]] is an incredibly useful piece of software in a simple and (moderately) lightweight package.
+
+Keeping in mind that, due to its [[peer-to-peer]] nature, a Syncthing instance is both a client and a server --- an ideal setup for me is developed around the following hierarchy of instances:
+
+# On my home server
+#* A centralized place where everything (storage permitting) can reside together, and scripts can run on a schedule, for secondary syncing and backup operations (which go far beyond the scopes of Syncthing).
+# On my main smartphone
+#* The smartphone goes everywhere, and as such is at more risk of breaking or losing, and with some of my private files (mainly camera media, screenshots, and [[game saves|Game save]]).
+# On other devices; for example, my main desktop PC, or my tablet.
+#* On those, immediate syncing is nice but not essential, as I often can use other methods comfortably enough (copy from USB, copy to server via SFTP, ...), and honestly I often do it only when doing maintenance .
