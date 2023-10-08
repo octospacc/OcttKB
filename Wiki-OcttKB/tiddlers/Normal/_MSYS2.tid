@@ -1,0 +1,13 @@
+created: 20231008221009879
+creator: Octt
+modified: 20231008222933383
+modifier: Octt
+tags: 
+title: MSYS2
+
+* https://www.msys2.org
+* https://github.com/msys2/msys2.github.io
+
+<<^wikipediaframe MSYS2>>
+
+* The MSYS2 shell automatically tries to convert some paths from Unix to Windows (see [[https://www.msys2.org/docs/filesystem-paths/#automatic-unix-windows-path-conversion]]), but sometimes this is problematic; to disable it, one can export/call the environment variables `MSYS2_ARG_CONV_EXCL` and `MSYS2_ENV_CONV_EXCL`, for cmdline arguments and variable assignments respectively, to `*` to match all or to specific `;`-separated argument prefixes / variable names.

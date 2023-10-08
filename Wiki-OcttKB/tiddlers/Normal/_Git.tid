@@ -1,6 +1,6 @@
 created: 20230202231537773
 creator: Octt
-modified: 20230302112950037
+modified: 20231008224457619
 modifier: Octt
 tags: Libre
 title: Git
@@ -8,8 +8,8 @@ title: Git
 <<^wikipediaframe Git en>>
 
 * [[Never use git submodules|https://diziet.dreamwidth.org/14666.html]] --- //git submodules are always the wrong solution. Yes, even the to the problem they were specifically invented to solve.//
-
 * [[Converting a Git (GitLab) project.bundle export to simple Git repo|https://gist.github.com/paulgregg/181779ad186221aaa35d5a96c8abdea7]]
+* [[When I do "git push", what do the statistics mean? (Total, delta, etc.)|https://stackoverflow.com/questions/21476167/when-i-do-git-push-what-do-the-statistics-mean-total-delta-etc]]
 
 !!! ''Apps''
 * [[GitJournal|https://gitjournal.io/]] - //Mobile first Markdown Notes integrated with Git// --- <<[ "[[Git|https://github.com/GitJournal]]">>

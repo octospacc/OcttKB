@@ -1,12 +1,15 @@
 created: 20231001094322383
 creator: Octt
-modified: 20231001164811990
+modified: 20231008223934995
 modifier: Octt
-tags: WIP
+tags: 
 title: Agile article covers, from stock photos to AI
 
 Sometimes, when writing a blog or KB article, it's easy to struggle finding a decent cover image for that piece. Why that's something you need to do, is explained by [[The importance of cover images on articles]].
 
 Oftentimes, however, we don't have a picture that fits these requirements good --- or maybe we don't have any image at all even marginally regarding the article, and really can't find a way to make one, unless with too much effort or money. Exactly in this scenario, stock photos and AI-generated imagery fit perfectly.
 
-...
+Some good tools for the job:
+
+* [[Craiyon|https://www.craiyon.com/]] --- Free to use without and account, with no ratelimits or the like; gives 9 images in 60 seconds, but they are low-quality, getting the wanted image requires much trial and error; images are given 256x256 but can be upscaled to 1024x1024, and they have a watermark but it's easy to remove it with free online tools.
+* (New) [[Bing Image Creator|https://www.bing.com/images/create]] --- Powered by DALL-E 3, mostly free to use but requires an account and generation is slow without credits (which can be bought with Rewards points, or 25 for free weekly) 

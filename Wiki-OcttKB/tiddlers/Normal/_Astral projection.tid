@@ -1,6 +1,6 @@
 created: 20230530103432469
 creator: Octt
-modified: 20230530105241310
+modified: 20231008230419413
 modifier: Octt
 tags: 
 title: Astral projection
@@ -11,4 +11,8 @@ Aka ''Remote Desktop''
 
 * [[Moonlight|https://moonlight-stream.org/]] - //Open-source [[NVIDIA]] GameStream client// --- <<#[ Git "https://github.com/moonlight-stream">>
 ** [[Sunshine|https://docs.lizardbyte.dev/projects/sunshine/en/latest/]] --- //Self-hosted multi-platform game stream host for Moonlight// --- <<#[ Git "https://github.com/LizardByte/Sunshine">>
-* [[RustDesk|https://rustdesk.com/]] --- <<#[ Git "https://github.com/rustdesk">>
+* [[RustDesk|https://rustdesk.com/]] --- //Making affordable remote desktop service for everyone// <<#[ Git "https://github.com/rustdesk">> --- Promises good but it's extremely laggy (more than x11vnc/xrdp), and the Android client as a few UX issues
+
+* <<linkdescgit "FreeRDP" "https://www.freerdp.com" "free implementation of the Remote Desktop Protocol" "https://github.com/FreeRDP">>
+** Quick connect with common options: `/v:${ServerAddress} /u:{Username} /p:{Password} /rfx /f /audio-mode:`
+* [[iiordanov/remote-desktop-clients|https://github.com/iiordanov/remote-desktop-clients]] --- //VNC, RDP, SPICE, and oVirt/RHEV/Proxmox Clients for Android and Blackberry 10//

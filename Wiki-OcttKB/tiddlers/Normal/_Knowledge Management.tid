@@ -1,6 +1,6 @@
 created: 20230924123738131
 creator: Octt
-modified: 20230928233050639
+modified: 20231008214320226
 modifier: Octt
 tags: Knowledge
 title: Knowledge Management
@@ -9,12 +9,13 @@ title: Knowledge Management
 
 Paradigms similar to this wiki:
 
+* <<linkdescgit Dendron "https://www.dendron.so" "The personal knowledge management (PKM) tool that grows as you do!" "https://github.com/dendronhq">>
 * [[Obsidian|https://obsidian.md]]
 ** <<linkdescgit "🏡 Obsidian Digital Garden" "https://dg-docs.ole.dev" "Publish your notes to the web, for free. In your own personal garden." "https://github.com/oleeskild/obsidian-digital-garden">> --- Nice thing but it's sad that navigation is really borked without JavaScript.
 
 The "Notion paradigm", and alternative apps:
 
-* <<linkdesc Notion "https://www.notion.so" "Your connected workspace for wiki, docs & projects">> --- it's basically online-only (or online-first?), so not recommended since it's also entirely proprietary, and documents are very limited when exported
+* <<linkdesc Notion "https://www.notion.so" "Your connected workspace for wiki, docs & projects">> --- it's basically online-only (or online-first?), so not recommended since it's also entirely proprietary, and documents are very limited when exported... plus it's really slow with much data because of the network requirements
 * <<linkdescgit anytype "https://anytype.io" "the everything app for those who celebrate trust & autonomy" "https://github.com/anyproto">>
 * <<linkdescgit AppFlowy "https://appflowy.io" "open-source alternative to Notion for project management" "https://github.com/AppFlowy-IO">>
 

@@ -1,6 +1,6 @@
 created: 20230217100639349
 creator: Octt
-modified: 20230228113128982
+modified: 20231008222337107
 modifier: Octt
 tags: Web
 title: Web Browser
@@ -15,7 +15,8 @@ title: Web Browser
 
 !!! [[Firefox|https://firefox.com]]
 
-* https://www.maketecheasier.com/install-addon-firefox-android/
+* [[How to Install Any Add-on in Firefox for Android|https://www.maketecheasier.com/install-addon-firefox-android]] (Firefox Beta is needed)
+* [[Why Extensions can't modify Mozilla sites (like AMO)|https://ninetailed.ninja/extensions-modify-mozilla-sites.html]]
 
 ; Forks
 : [[LibreWolf|https://librewolf.net]] (Desktop)

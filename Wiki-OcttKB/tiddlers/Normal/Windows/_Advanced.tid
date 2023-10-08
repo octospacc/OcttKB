@@ -1,6 +1,6 @@
 created: 20230608141508649
 creator: Octt
-modified: 20230919065758863
+modified: 20231008203911671
 modifier: Octt
 tags: 
 title: Windows/Advanced
@@ -8,3 +8,4 @@ title: Windows/Advanced
 * <<YoutubeL vAb00RYFThE "Hide your VM using Registry and WMI tricks">>
 * [[Get Windows System Information via WMI Command-line (WMIC)|https://www.lisenet.com/2014/get-windows-system-information-via-wmi-command-line-wmic/]]
 * [[Using PowerShell to View and Change BIOS Settings (WMI)|https://woshub.com/powershell-view-change-bios-settings/]]
+* [[Get Screen resolution using WMI/PowerShell|https://stackoverflow.com/questions/7967699/get-screen-resolution-using-wmi-powershell-in-windows-7]] --- For single-monitor setups, `Get-WmiObject -Class Win32_DesktopMonitor | Select-Object ScreenWidth,ScreenHeight`

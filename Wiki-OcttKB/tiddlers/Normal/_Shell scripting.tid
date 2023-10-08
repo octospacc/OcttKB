@@ -1,6 +1,6 @@
 created: 20230725113714725
 creator: Octt
-modified: 20230825224941842
+modified: 20231008202243333
 modifier: Octt
 tags: Scripting
 title: Shell scripting
@@ -11,3 +11,6 @@ title: Shell scripting
 ** Windows: `start <URL>`
 ** Linux desktop: `xdg-open <URL>`
 ** More: https://stackoverflow.com/questions/38147620/shell-script-to-open-a-url, https://askubuntu.com/questions/515947/how-do-i-open-an-url-from-a-bash-script
+
+* [[bash/fish command to print absolute path to a file|https://stackoverflow.com/questions/3915040/how-to-obtain-the-absolute-path-of-a-file-via-shell-bash-zsh-sh#3915075]]
+** `realpath example.txt # => /home/me/example.txt`
