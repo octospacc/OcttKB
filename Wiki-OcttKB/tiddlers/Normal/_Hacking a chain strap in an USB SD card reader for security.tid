@@ -1,0 +1,12 @@
+created: 20231020230322555
+creator: Octt
+modified: 20231020231705531
+modifier: Octt
+tags: WIP
+title: Hacking a chain strap in an USB SD card reader for security
+
+On the spot, I had a good idea to put into practice when I reflected on how my generic USB SD card reader is kind of unsafe, especially when using it on the go, as either the memory card could be ejected and be lost from the adapter, or the adapter itself could fall out of the USB port and be lost.
+
+Compare the generic reader to a normal average pendrive, and one difference is obvious: there is no hole to attach a strap or similar accessory. So, one solution is to hack one into the casing, as there is often plenty of free space for that.
+
+...
