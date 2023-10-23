@@ -1,6 +1,6 @@
 created: 20220925130302833
 creator: Octt
-modified: 20230926085857310
+modified: 20231022235542587
 modifier: Octt
 tags: Nintendo Gaming NX Console
 title: Nintendo Switch
@@ -17,6 +17,7 @@ The console's introduction was hyped due to it being the first ever Nintendo con
 * [[Ryujinx|https://ryujinx.org/]] --- //simple, experimental Nintendo Switch emulator// --- <<[# Git "https://github.com/Ryujinx">>
 * [[Skyline|https://skyline-emu.one/]] --- //Run Nintendo Switch homebrew & games on your Android device!// --- <<[# Git "https://github.com/skyline-emu">>
 ** Abandoned due to the developers' irrational fear of a Nintendo takedown (in my view they were just tired of mantaining the project and didn't want to take the bad press of a standard resign, this was just an excuse to abandon the project... but at least it's open-source)
+** A slow-going fork has apparently started: [[Strato|https://github.com/strato-emu/strato]]
 
 !!! ''Homebrew, Tools, Hacks''
 
@@ -28,3 +29,7 @@ The console's introduction was hyped due to it being the first ever Nintendo con
 
 * [[Goldleaf|https://gbatemp.net/download/goldleaf-nintendo-switch-title-installer-manager.35430/]] --- //🍂 Multipurpose homebrew tool for Nintendo Switch// --- <<[# Git "https://github.com/XorTroll/Goldleaf">>
 * [[Tinleaf|https://github.com/blawar/tinleaf]] --- //No-Bullshit NSP, NSZ, XCI, and XCZ Installer for Nintendo Switch// (forked from [[Awoo Installer|https://github.com/Huntereb/Awoo-Installer]] without the furry crap) --- <<[# Thread "https://gbatemp.net/threads/tinleaf-installer-a-no-bullshit-no-bullshit-nsp-nsz-xci-xcz-installer.559892/">>
+
+!!! Development
+
+* [[SwitchBrew Wiki|https://switchbrew.org/wiki/Main_Page]]

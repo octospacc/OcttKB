@@ -1,0 +1,10 @@
+created: 20230116221513491
+creator: Octt
+modified: 20231022224751753
+modifier: Octt
+tags: $:/i18n:en
+title: Libretro
+
+<<^wikipediaframe Libretro>>
+
+* [[Developing Libretro Cores|https://docs.libretro.com/development/cores/developing-cores/]]
