@@ -1,6 +1,6 @@
 created: 20230127155833205
 creator: Octt
-modified: 20230228112844290
+modified: 20231024225857811
 modifier: Octt
 tags: TiddlyWiki $:/i18n:en Discussion
 title: TiddlyWiki/Notes
@@ -26,3 +26,5 @@ Discussions that helped or might help me solve problems, some started by me. And
 * [[[Plugin] Presenting TW5-Uglify! Plugin compression the TiddlyWIki way!|https://groups.google.com/g/tiddlywiki/c/-kIVw00crRQ]]
 * [[TiddlyWiki Tiddler Editor: How to Improve the Usability?|https://talk.tiddlywiki.org/t/tiddlywiki-tiddler-editor-how-to-improve-the-usability/4657]]
 * [[Using conditional assignment mode of SetWidget to check empty strings|https://groups.google.com/g/tiddlywiki/c/Pzv5FDb9oHE/m/mh5Pzm7xAgAJ]]
+* [[Notes on handling variables in TiddlyWiki|https://www.chrisnicoll.net/2020/02/notes-on-handling-variables-in-tiddlywiki/]]
+* [[Wikification (Grok TiddlyWiki)|https://groktiddlywiki.com/static/Wikification.html]]

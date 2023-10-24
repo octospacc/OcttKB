@@ -1,12 +1,16 @@
 created: 20230202104823127
 creator: Octt
-modified: 20230216210101873
+modified: 20231024225142212
 modifier: Octt
 tags: Nintendo Gaming $:/i18n:en Console
 title: NES
 
-<<wikipediaframe "Nintendo Entertainment System" en 3>>
+<<^wikipediaframe "Nintendo Entertainment System" en>>
 
 !! ''Resources''
 
 * <<YoutubeL bfJzJOQqsDk "Pushing The Limits of the NES: Amazing Hacks That Made NES Games Possible">>
+
+* [[nessemble|https://github.com/kevinselwyn/nessemble]] --- //6502 assembler/disassembler/simulator targeting the Nintendo Entertainment System//
+* [[Nerdy Nights (mirror)|https://nerdy-nights.nes.science/]] --- //tutorial series to help people write games for the NES//
+* [[Retro Puzzle Maker|https://puzzle.nes.science]] --- //new tool meant to help you create new puzzle games you can play on an NES//
