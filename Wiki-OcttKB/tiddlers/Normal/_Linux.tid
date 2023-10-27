@@ -1,7 +1,7 @@
 created: 20230111153758951
 creator: Octt
 icon: 🐧
-modified: 20230823231133171
+modified: 20231027110415527
 modifier: Octt
 page-cover: https://images.unsplash.com/photo-1549605659-32d82da3a059?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 tags: $:/i18n:en Unix
@@ -13,10 +13,11 @@ title: Linux
 
 * [[The Linux Kernel documentation|https://docs.kernel.org/]]
 * [[Embedded Linux Wiki|https://elinux.org/Main_Page]]
+* [[die.net Linux Documentation|https://linux.die.net]]
 
 !!! ''Manpages''
 
-* on [[linux die|https://linux.die.net/]]
+* on [[linux die|https://linux.die.net/man]]
 * or, simplified: [[tldr pages|https://tldr.sh/]] --- <<#[ Git "https://github.com/tldr-pages">>
 
 !!! ''Misc''

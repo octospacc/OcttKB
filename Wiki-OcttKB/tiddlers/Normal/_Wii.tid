@@ -1,6 +1,6 @@
 created: 20231024225405083
 creator: Octt
-modified: 20231024225713145
+modified: 20231027093941495
 modifier: Octt
 tags: Nintendo
 title: Wii
@@ -9,3 +9,5 @@ title: Wii
 
 * <<linkdescgit "Wii Hacks Guide""https://wii.hacks.guide" "The complete guide to modding your Wii" "https://github.com/hacks-guide/Guide_Wii">>
 * [[Complete Softmod Guide|https://sites.google.com/site/completesg/home]] --- //step by step the basics on how to softmod/enable hombrew on your Wii// --- it contains some minor useful information not present on wii.hacks.guide
+
+* <<linkdescgit "Open Shop Channel""https://oscwii.org" "Homebrew apps library for the Nintendo Wii." "https://github.com/OpenShopChannel">>

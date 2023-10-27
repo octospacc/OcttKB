@@ -1,0 +1,10 @@
+created: 20231027105227448
+creator: Octt
+modified: 20231027105633633
+modifier: Octt
+tags: 
+title: x86_64
+
+<<^wikipediaframe x86_64>>
+
+* <<linkdesc "x86-64 Simplified""https://treeniks.github.io/x86-64-simplified" "opinionated alternative Instruction Set Reference for the x86-64 Architecture to prioritize readability and simplicity over accuracy or completeness">>
