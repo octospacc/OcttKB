@@ -1,6 +1,6 @@
 created: 20221110145611678
 creator: Octt
-modified: 20231008211601960
+modified: 20231029001426443
 modifier: Octt
 tags: Development Internet $:/i18n:en
 title: JavaScript
@@ -20,6 +20,7 @@ title: JavaScript
 * [[Superpacking JS Demos|https://web.archive.org/web/20120919185414/http://daeken.com/superpacking-js-demos]]
 * [["Illegal invocation" errors in JavaScript|https://mtsknn.fi/blog/illegal-invocations-in-js/]] --- //The error is thrown when calling a function whose `this` keyword isn't referring to the object where it originally did (when the context of the function is lost)//
 * [[Does JavaScript have a method like "range()" to generate a range within the supplied bounds?|https://stackoverflow.com/questions/3895478/does-javascript-have-a-method-like-range-to-generate-a-range-within-the-supp]] --- `[...Array(5).keys()]`
+* [[Array.prototype.splice()|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice]] --- //changes the contents of an array by removing or replacing existing elements and/or adding new elements in place//
 
 !!! ''Tools''
 

@@ -1,6 +1,6 @@
 created: 20230207213320932
 creator: Octt
-modified: 20230919070225879
+modified: 20231029002404048
 modifier: Octt
 tags: Microsoft Proprietary OS
 title: Windows
@@ -29,6 +29,7 @@ title: Windows
 * [[Chris Titus Tech's Windows Utility|https://github.com/ChrisTitusTech/winutil]] --- //Install Programs, do Debloats, Tweaks, Fixes, Updates//
 * [[NTLite|https://www.ntlite.com/]] --- //Local control for editing Windows images and deployments, for IT professionals/enthusiasts//
 * [[Microsoft PowerToys|https://learn.microsoft.com/en-us/windows/powertoys/]] --- //Utilities for power users to tune Windows for greater productivity// --- [[[Git|https://github.com/microsoft/PowerToys]]]
+* [[NirSoft|https://www.nirsoft.net/]] --- Freeware utilities by Nir Sofer
 * [[Policy Plus|https://github.com/Fleex255/PolicyPlus]] --- //Local Group Policy Editor plus more, for all Windows editions//
 * [[Sandboxie|https://sandboxie-plus.com/sandboxie/]] --- //Open Source sandbox-based isolation software// --- <<[ "[[Git|https://github.com/sandboxie-plus]]">> <<[ "[[Old Git|https://github.com/sandboxie]]">>
 * [[Sysinternals|https://learn.microsoft.com/en-us/sysinternals/]] --- //Utilities to help manage, troubleshoot and diagnose Windows systems and applications (+ many useful resources)//

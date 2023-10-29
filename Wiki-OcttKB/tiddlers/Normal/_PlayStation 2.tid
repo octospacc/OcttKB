@@ -1,6 +1,6 @@
 created: 20230215232019778
 creator: Octt
-modified: 20231022234522259
+modified: 20231029002226194
 modifier: Octt
 tags: Console Gaming Sony
 title: PlayStation 2
@@ -12,7 +12,7 @@ title: PlayStation 2
 !!! Emulators
 
 * <<linkdescgit PCSX2 "https://pcsx2.net" "free and open-source PlayStation 2 (PS2) emulator" "https://github.com/PCSX2/pcsx2">>
-* <<linkdescgit "Play!/Purei" "https://purei.org" "PlayStation2 emulator for Windows, macOS, UNIX, Android, iOS & web browser platforms" "https://github.com/jpd002/Play-">> --- promising open-source emulator but still really slow on mobile, and slow development because only 1 person does it, it would be good to donate to them.
+* <<linkdescgit "Play!/Purei" "https://purei.org" "PlayStation2 emulator for Windows, macOS, UNIX, Android, iOS & web browser platforms" "https://github.com/jpd002/Play-">> <<[# Compatibility "https://github.com/jpd002/Play-Compatibility/issues">> --- promising open-source emulator but still really slow on mobile, and slow development because only 1 person does it, it would be good to donate to them.
 * [[AetherSX2|https://aethersx2.com]] abandoned //emulator of the PS Two console for the Android platform, desktop, UWP//, miles better than DamonPS2 despite the problems.
 ** Latest Android version (Google Play and website) is sabotaged, contains adware and reportedly runs worse, apparently latest good is [[v1.4-3060|https://www.apkmirror.com/apk/aethersx2/aethersx2/aethersx2-v1-4-3060-release/]].
 

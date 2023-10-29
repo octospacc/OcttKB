@@ -1,6 +1,6 @@
 created: 20230202104823127
 creator: Octt
-modified: 20231027142143929
+modified: 20231029003704926
 modifier: Octt
 tags: Nintendo Gaming $:/i18n:en Console
 title: NES
@@ -9,7 +9,8 @@ title: NES
 
 !! ''Resources''
 
-* <<YoutubeL bfJzJOQqsDk "Pushing The Limits of the NES: Amazing Hacks That Made NES Games Possible">>
+* <<YoutubeL bfJzJOQqsDk "Pushing The Limits of the NES: Amazing Hacks That Made NES Games Possible [Sharopolis]">>
+* [[NES (Famicom) Development Kit Hardware [Retro Reversing]|https://www.retroreversing.com/famicom-nes-development-kit/]]
 
 * [[NesDev.org|https://www.nesdev.org/]] --- //Info, programs, and more//
 * [[Nintendo Entertainment System Documentation|https://www.nesdev.org/NESDoc.pdf]]
