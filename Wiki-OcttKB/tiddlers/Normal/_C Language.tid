@@ -1,0 +1,11 @@
+created: 20231029134919585
+creator: Octt
+modified: 20231029135726399
+modifier: Octt
+tags: 
+title: C Language
+
+<<^wikipediaframe C_Language>>
+
+* [[Why do many functions that return structures in C, actually return pointers to structures?|https://softwareengineering.stackexchange.com/questions/359408/why-do-many-functions-that-return-structures-in-c-actually-return-pointers-to-s]]
+* [[Passing by reference in C|https://stackoverflow.com/questions/2229498/passing-by-reference-in-c]] --- "C does not support passing a variable by reference"... //Passing a pointer ''is'' passing-by-reference. This seems to be one of those facts that "savvy" C programmers pride themselves on. Like they get a kick out of it. "Oh you might THINK C has pass-by-reference but no it's actually just the value of a memory address being passed harharhar". Passing by reference literally just means passing the memory address of where a variable is stored rather than the variable's value itself [...]//
