@@ -1,6 +1,6 @@
 created: 20230202104823127
 creator: Octt
-modified: 20231029003704926
+modified: 20231101224128364
 modifier: Octt
 tags: Nintendo Gaming $:/i18n:en Console
 title: NES
@@ -16,6 +16,8 @@ title: NES
 * [[Nintendo Entertainment System Documentation|https://www.nesdev.org/NESDoc.pdf]]
 * [[Nerdy Nights (mirror)|https://nerdy-nights.nes.science/]] --- //tutorial series to help people write games for the NES//
 * [[everynes/no$nes technical documentation|https://problemkaputt.de/everynes.htm]]
+
+* [[Useful tools for NES development|https://www.nesdev.org/wiki/Tools]]
 
 * [[Retro Puzzle Maker|https://puzzle.nes.science]] --- //new tool meant to help you create new puzzle games you can play on an NES//
 * <<linkdescgit "NES Starter Kit""https://cppchriscpp.github.io/nes-starter-kit/" "Simplified starter kit for making NES games using C and graphical tools." "https://github.com/cppchriscpp/nes-starter-kit">>

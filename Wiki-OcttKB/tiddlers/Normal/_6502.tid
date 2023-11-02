@@ -1,6 +1,6 @@
 created: 20231029001701704
 creator: Octt
-modified: 20231029140602120
+modified: 20231101233922437
 modifier: Octt
 tags: 
 title: 6502
@@ -12,3 +12,6 @@ title: 6502
 
 * [[6502 Assembly Crash Course [NesHacker]|https://www.youtube.com/playlist?list=PLgvDB6LWam2WvoFvh8tlUqbqw92qWM0aP]]
 * [[https://100r.co/site/6502_assembly.html]] --- Extremely reduced introduction to 6502 assembly basic concepts
+
+* <<linkdescgit cc65"https://cc65.github.io" "complete cross development package for 65(C)02 systems" "https://github.com/cc65">>
+** [[cc65 coding hints|https://cc65.github.io/doc/coding.html]] --- //How to generate the most efficient code with cc65//
