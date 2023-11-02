@@ -1,11 +1,11 @@
 created: 20220923110724649
 creator: Octt
-modified: 20231029225136809
+modified: 20231102105034497
 modifier: Octt
-tags: Gaming Nintendo NDS Console $:/i18n:en
+tags: Gaming Nintendo NDS Console $:/i18n:en Handheld
 title: Nintendo DS
 
-''Nintendo DS'' is a family of portable game consoles created by [[Nintendo|Nintendo:en]], succeding and preceding the GBA and 3DS families respectively.
+''Nintendo DS'' is a family of portable game consoles created by [[Nintendo|Nintendo]], succeding and preceding the GBA and 3DS families respectively.
 
 <<LImg "https://web.archive.org/web/20220923111238/http://pbs.twimg.com/media/E5An_LGVkAQv9ol?format=jpg&name=large" "https://twitter.com/HugeNintendoDS/status/1409670660402466819?cxt=HHwWhsCiueb_k5AnAAAA">>
 
@@ -18,3 +18,8 @@ title: Nintendo DS
 * DeSmuMe
 ** * https://github.com/44670/desmume-wasm
 * [[NooDS|https://github.com/Hydr8gon/NooDS]] --- //A (hopefully!) speedy DS emulator.//
+
+!!! Development
+
+* (WIP) [[NDS-Homebrew-Development|https://github.com/jdriselvato/NDS-Homebrew-Development]] --- //research for developing on the Nintendo DS//
+* [[Nitro SDK in a Box|https://gbatemp.net/threads/nitro-sdk-in-a-box.622578/]] --- the idea for a VM setup with all kinds of useful software from official NITRO SDK (download not released, we might want to ask OP in private)

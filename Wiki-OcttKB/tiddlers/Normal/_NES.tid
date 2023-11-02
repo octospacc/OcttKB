@@ -1,6 +1,6 @@
 created: 20230202104823127
 creator: Octt
-modified: 20231101224128364
+modified: 20231102103637880
 modifier: Octt
 tags: Nintendo Gaming $:/i18n:en Console
 title: NES
@@ -15,12 +15,15 @@ title: NES
 * [[NesDev.org|https://www.nesdev.org/]] --- //Info, programs, and more//
 * [[Nintendo Entertainment System Documentation|https://www.nesdev.org/NESDoc.pdf]]
 * [[Nerdy Nights (mirror)|https://nerdy-nights.nes.science/]] --- //tutorial series to help people write games for the NES//
+* <<httpL nesdoug.com>> --- NES Programming tutorial in C
+** [[GitBook re-adaptation by dag7dev|https://dag7.gitbook.io/nesdoug-nes-guide]] //for a comfy read// --- <<#[ Git"https://github.com/dag7dev/nesdoug-nes-guide">>
 * [[everynes/no$nes technical documentation|https://problemkaputt.de/everynes.htm]]
 
-* [[Useful tools for NES development|https://www.nesdev.org/wiki/Tools]]
+* General [[Useful tools for NES development|https://www.nesdev.org/wiki/Tools]]
 
 * [[Retro Puzzle Maker|https://puzzle.nes.science]] --- //new tool meant to help you create new puzzle games you can play on an NES//
-* <<linkdescgit "NES Starter Kit""https://cppchriscpp.github.io/nes-starter-kit/" "Simplified starter kit for making NES games using C and graphical tools." "https://github.com/cppchriscpp/nes-starter-kit">>
+* <<linkdescgit "C NES Starter Kit""https://cppchriscpp.github.io/nes-starter-kit/" "Simplified starter kit for making NES games using C and graphical tools." "https://github.com/cppchriscpp/nes-starter-kit">>
+* [[ASM NES Starter Kit|https://github.com/battlelinegames/nes-starter-kit]] --- //starter kit for developing Nintendo Entertainment System games using 6502 Assembly language// with specific useful information
 
 * [[nessemble|https://github.com/kevinselwyn/nessemble]] --- //6502 assembler/disassembler/simulator targeting the Nintendo Entertainment System//
 * [[BZK 6502 Disassembler|https://github.com/cyneprepou4uk/BZK-6502-Disassembler]] --- //Create a disassembly of a NES game// --- <<[# Manual "https://cyneprepou4uk.github.io/iromhacker/nes/en/bzk6502/1/index.html">> <<[# Thread "https://www.romhacking.net/forum/index.php?topic=31875.0">>

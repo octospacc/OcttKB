@@ -1,9 +1,13 @@
 created: 20230613185754543
 creator: Octt
-modified: 20230816225320897
+modified: 20231102102508440
 modifier: Octt
 tags: 
 title: Development
+
+<<^wikipediaframe "Software development">>
+
+* <<WikipediaL "Dependency hell">>
 
 * <<RedditL r/webdev/comments/spr2db/confused_about_web_app_architecture_and/ "Confused about web app architecture and separation of frontend and backend">>
 * [[What package naming convention do you use for personal/hobby projects|https://stackoverflow.com/questions/292169/what-package-naming-convention-do-you-use-for-personal-hobby-projects-in-java]] in Java/Android/Flatpak?
