@@ -1,10 +1,15 @@
 created: 20230116202756249
 creator: Octt
-modified: 20230723133113828
+modified: 20231102235613628
 modifier: Octt
 tags: $:/i18n:en
 title: Gaming
 
 <<^wikipediaframe Video_game en>>
 
-* All games I mentioned on this KB: <$macrocall $name="tag" tag="Game"/>
+* All games I mentioned on this KB: <<tag Game>>
+
+...
+
+* [[Free Game Planet|https://www.freegameplanet.com/]] --- //All The Best Free Video Games With New Additions Every Day//
+** [[Alpha Beta Gamer|https://www.alphabetagamer.com/]] --- //Free Video Game Alpha & Beta Tests. The Worlds Biggest Beta Testing Site//

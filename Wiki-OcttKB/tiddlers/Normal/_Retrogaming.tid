@@ -1,6 +1,6 @@
 created: 20221102121324531
 creator: Octt
-modified: 20231029003716356
+modified: 20231102233149154
 modifier: Octt
 tags: Emulation Retro $:/i18n:en
 title: Retrogaming
@@ -20,3 +20,4 @@ title: Retrogaming
 !!! ''Misc''
 
 * [[Decompiled Retail Console Games [Retro Reversing]|https://www.retroreversing.com/source-code/decompiled-retail-console-games]]
+* [[retrobrews|https://retrobrews.github.io]] --- //Free game collections for easy installing/playing on RetroPie// (abandoned?)

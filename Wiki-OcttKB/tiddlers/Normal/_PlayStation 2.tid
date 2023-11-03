@@ -1,6 +1,6 @@
 created: 20230215232019778
 creator: Octt
-modified: 20231029002226194
+modified: 20231102232229939
 modifier: Octt
 tags: Console Gaming Sony
 title: PlayStation 2
@@ -15,6 +15,7 @@ title: PlayStation 2
 * <<linkdescgit "Play!/Purei" "https://purei.org" "PlayStation2 emulator for Windows, macOS, UNIX, Android, iOS & web browser platforms" "https://github.com/jpd002/Play-">> <<[# Compatibility "https://github.com/jpd002/Play-Compatibility/issues">> --- promising open-source emulator but still really slow on mobile, and slow development because only 1 person does it, it would be good to donate to them.
 * [[AetherSX2|https://aethersx2.com]] abandoned //emulator of the PS Two console for the Android platform, desktop, UWP//, miles better than DamonPS2 despite the problems.
 ** Latest Android version (Google Play and website) is sabotaged, contains adware and reportedly runs worse, apparently latest good is [[v1.4-3060|https://www.apkmirror.com/apk/aethersx2/aethersx2/aethersx2-v1-4-3060-release/]].
+** Source code? Apparently the tarballs distributed on the official site are totally out of date, some are better and some worse, smells like an LGPL violation and it's also a practical problem...
 
 * [[DamonPS2|http://www.damonemu.com/]] --- The shadiest PS2 emulator in global, the only illegal PS2 emulator on Android, proven malware (adware for sure and spyware for all the permissions it requires, and potentially a backdoor).
 ** [[Stole PCSX2 code without at all respecting the license|https://pcsx2.net/blog/2018/the-pcsx2-teams-statement-regarding-the-damonps2-emulator/]], and also [[steals trademarks like the PPSSPP name|http://web.archive.org/web/20230501085937/https://play.google.com/store/apps/details?id=com.damonplay.damonps2.free]]. Don't give them any money, find a cracked pro APK without ads if you really want to use it, and (as a random user on Reddit said) [[pirate the shit out of it and don't feel bad about it|https://old.reddit.com/r/EmulationOnAndroid/comments/bhdxow/question_is_damon_stolen_code/els800b/]], really you won't be doing anything more wrong than buying, because ''official DamonPS2 is in itself an illegal pirated version of PCSX2''. They also consistently deny the evidence of stolen code and use an <<RedditL "r/EmulationOnAndroid/comments/qs4nye/for_all_those_people_who_hate_damon_ps2/" "excuse of having a 'copyright certificate of the Chinese government'">> as if that would mean anything when talking international copyright.
