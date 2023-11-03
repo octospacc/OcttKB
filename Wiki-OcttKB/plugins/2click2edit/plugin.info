@@ -1,0 +1,13 @@
+{
+    "bag": "default",
+    "revision": "0",
+    "version": "0.1",
+    "title": "$:/plugins/danielo515/2click2edit",
+    "source": "https://github.com/danielo515/TW5-2click2edit",
+    "plugin-type": "plugin",
+    "list": "readme",
+    "description": "double click to edit tiddlers",
+    "dependents": "",
+    "core-version": ">=5.1.0",
+    "author": "Danielo Rodriguez"
+}

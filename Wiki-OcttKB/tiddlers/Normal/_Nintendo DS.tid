@@ -1,6 +1,6 @@
 created: 20220923110724649
 creator: Octt
-modified: 20231102105034497
+modified: 20231103220933272
 modifier: Octt
 tags: Gaming Nintendo NDS Console $:/i18n:en Handheld
 title: Nintendo DS
@@ -15,9 +15,13 @@ title: Nintendo DS
 
 ...WIP
 
-* DeSmuMe
-** * https://github.com/44670/desmume-wasm
+* [[DeSmuMe|https://desmume.org/]] --- for some uses, still the most accurate and flexible NDS emulator, with better x86 support (but poor ARM performance) --- <<[# Git"https://github.com/TASEmulators/desmume">>
+** https://github.com/44670/desmume-wasm
 * [[NooDS|https://github.com/Hydr8gon/NooDS]] --- //A (hopefully!) speedy DS emulator.//
+
+!!! Tools
+
+* [[dlditool|https://github.com/devkitPro/dstools/tree/master/src/dlditool]] --- //Dynamically Linked Disk Interface patch tool// for NDS homebrew ROMs
 
 !!! Development
 

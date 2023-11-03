@@ -1,8 +1,8 @@
 created: 20221110145611678
 creator: Octt
-modified: 20231029001426443
+modified: 20231103214720248
 modifier: Octt
-tags: Development Internet $:/i18n:en
+tags: Development $:/i18n:en Web
 title: JavaScript
 
 ''JavaScript'', or "JS", is an high-level programming language. It constitutes a core technology of the Web, sitting optionally alongside HTML and CSS. In recent years, it has gotten more and more popular even for desktop app and backend development.
@@ -21,6 +21,7 @@ title: JavaScript
 * [["Illegal invocation" errors in JavaScript|https://mtsknn.fi/blog/illegal-invocations-in-js/]] --- //The error is thrown when calling a function whose `this` keyword isn't referring to the object where it originally did (when the context of the function is lost)//
 * [[Does JavaScript have a method like "range()" to generate a range within the supplied bounds?|https://stackoverflow.com/questions/3895478/does-javascript-have-a-method-like-range-to-generate-a-range-within-the-supp]] --- `[...Array(5).keys()]`
 * [[Array.prototype.splice()|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice]] --- //changes the contents of an array by removing or replacing existing elements and/or adding new elements in place//
+* [[Listen for triple clicks in JavaScript|https://stackoverflow.com/questions/6480060/how-do-i-listen-for-triple-clicks-in-javascript#6480113]]
 
 !!! ''Tools''
 

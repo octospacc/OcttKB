@@ -1,6 +1,6 @@
 created: 20230124112022156
 creator: Octt
-modified: 20230429202157475
+modified: 20231103220122034
 modifier: Octt
 tags: $:/tags/ViewTemplate
 title: $:/Styles/View/9-99-Hacks
@@ -32,3 +32,7 @@ if ('$(Enabled)$' == 1) {
 <$set name=Enabled value={{$:/OcttKB/Config/AiLinks.ui!!Enabled}}>
 <<AiLinks>>
 </$set>
+
+<$list filter="[{$:/OcttKB/Config/TripleClickEdit!!Enabled}compare:number:eq[1]]">
+<$tripleclickedit/>
+</$list>

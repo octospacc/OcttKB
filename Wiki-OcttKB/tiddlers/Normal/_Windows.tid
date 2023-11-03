@@ -1,6 +1,6 @@
 created: 20230207213320932
 creator: Octt
-modified: 20231102235121958
+modified: 20231103212334824
 modifier: Octt
 tags: Microsoft Proprietary OS
 title: Windows
@@ -39,3 +39,4 @@ title: Windows
 ** [[TweakUIX|https://www.builtbybel.com/apps/tweak-uix]] --- //Tweak UI Replica// --- [[[Git|https://github.com/builtbybel/TweakUIX]]]
 * [[Wallpaper Engine|https://wallpaperengine.io/]] --- //Use stunning live wallpapers on your Windows desktop// --- [[[Steampowered|https://store.steampowered.com/app/431960/Wallpaper_Engine/]]]
 * [[Winaero Tweaker|https://winaerotweaker.com/]] --- //Tweaking normally inaccessible UI features on modern Windows//
+* [[Windows Terminal|https://github.com/microsoft/terminal]] --- //The new Windows Terminal and the original Windows console host, all in the same place!//

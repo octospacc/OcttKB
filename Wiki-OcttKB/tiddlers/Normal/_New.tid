@@ -1,0 +1,10 @@
+created: 20231103211923238
+creator: Octt
+modified: 20231103212152136
+modifier: Octt
+tags: 
+title: New
+
+<<^wikipediaframe Compiler>>
+
+* <<linkdescgit Emscripten"https://github.com/emscripten-core/emscripten" "An LLVM-to-WebAssembly Compiler" "https://github.com/emscripten-core/emscripten">>

@@ -1,0 +1,15 @@
+Enabled: 0
+created: 20231103212710757
+creator: Octt
+modified: 20231103220127382
+modifier: Octt
+tags: $:/GlobalOption
+title: $:/OcttKB/Config/TripleClickEdit
+
+<$checkbox
+  field="Enabled"
+  checked="1"
+  unchecked="0"
+>
+  Triple-Click to Edit
+</$checkbox>
