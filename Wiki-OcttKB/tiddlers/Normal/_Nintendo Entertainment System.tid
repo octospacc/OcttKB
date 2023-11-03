@@ -1,9 +1,9 @@
 created: 20230202104823127
 creator: Octt
-modified: 20231102232215227
+modified: 20231103224247904
 modifier: Octt
 tags: Nintendo Gaming $:/i18n:en Console
-title: NES
+title: Nintendo Entertainment System
 
 <<^wikipediaframe "Nintendo Entertainment System" en>>
 
@@ -14,6 +14,7 @@ title: NES
 
 * [[NesDev.org|https://www.nesdev.org/]] --- //Info, programs, and more//
 * [[Nintendo Entertainment System Documentation|https://www.nesdev.org/NESDoc.pdf]]
+* <<httpL nes.science>> --- //home to a bunch of random NES stuff// and useful archives
 * [[Nerdy Nights (mirror)|https://nerdy-nights.nes.science/]] --- //tutorial series to help people write games for the NES//
 * <<httpL nesdoug.com>> --- NES Programming tutorial in C
 ** [[GitBook re-adaptation by dag7dev|https://dag7.gitbook.io/nesdoug-nes-guide]] //for a comfy read// --- <<#[ Git"https://github.com/dag7dev/nesdoug-nes-guide">>

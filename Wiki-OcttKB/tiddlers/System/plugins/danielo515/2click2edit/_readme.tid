@@ -1,0 +1,15 @@
+created: 20231103222340488
+creator: Octt
+modified: 20231103222502294
+modifier: Octt
+title: $:/plugins/danielo515/2click2edit/readme
+
+Edited for the [[OcttKB]], to work with 3 clicks instead of 2.
+
+Original readme below:
+
+This plugin adds the ability to edit tiddlers by double clicking on its body.
+Just try to edit any tiddler shown here by double clicking on it.
+
+This can be considered a fast solution. It is only to fill the gap until TiddlyWiki adds support 
+for it officially.

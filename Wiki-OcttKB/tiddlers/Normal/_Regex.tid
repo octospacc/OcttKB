@@ -1,0 +1,12 @@
+created: 20231103222629549
+creator: Octt
+modified: 20231103223257478
+modifier: Octt
+tags: 
+title: Regex
+
+<<^wikipediaframe Regex>>
+
+* [[regex101|https://regex101.com]] --- webapp to //build, test, and debug regex//
+
+* [[You can't parse [X]HTML with regex|https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454]]

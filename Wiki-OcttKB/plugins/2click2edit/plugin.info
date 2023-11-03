@@ -1,4 +1,6 @@
 {
+    "created": "20231103222442649",
+    "creator": "Octt",
     "bag": "default",
     "revision": "0",
     "version": "0.1",
@@ -9,5 +11,7 @@
     "description": "double click to edit tiddlers",
     "dependents": "",
     "core-version": ">=5.1.0",
-    "author": "Danielo Rodriguez"
+    "author": "Danielo Rodriguez",
+    "modified": "20231103222519958",
+    "modifier": "Octt"
 }
