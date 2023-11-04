@@ -1,6 +1,6 @@
 created: 20231029134919585
 creator: Octt
-modified: 20231102232811333
+modified: 20231103234130540
 modifier: Octt
 tags: 
 title: C Language
@@ -11,3 +11,5 @@ title: C Language
 * [[Passing by reference in C|https://stackoverflow.com/questions/2229498/passing-by-reference-in-c]] --- "C does not support passing a variable by reference"... //Passing a pointer ''is'' passing-by-reference. This seems to be one of those facts that "savvy" C programmers pride themselves on. Like they get a kick out of it. "Oh you might THINK C has pass-by-reference but no it's actually just the value of a memory address being passed harharhar". Passing by reference literally just means passing the memory address of where a variable is stored rather than the variable's value itself [...]//
 * [[strcpy vs. memcpy|https://stackoverflow.com/questions/2898364/strcpy-vs-memcpy]] --- //strcpy stops when it encounters a NUL ('\0') character, memcpy does not//, aka as the names suggest often strcpy is perfect for strings while for generic data memcpy could be needed.
 * [[ISO C90 forbids mixed declarations and code in C|https://stackoverflow.com/questions/13291353/iso-c90-forbids-mixed-declarations-and-code-in-c]] --- old C standards required that new variables can be declared only before any other actual instruction in a scoped block, e.g. only at the top of a function
+* [[Creating empty function macros|https://stackoverflow.com/questions/9187628/empty-function-macros]] --- only safe way is `#define SomeFunction(arg) ((void)0)`
+** [[C macros, what's the meaning of ((void)0)?|https://stackoverflow.com/questions/61157541/c-macros-whats-the-meaning-of-void0]]

@@ -1,15 +1,16 @@
 created: 20230429190335486
 creator: Octt
-modified: 20231029134807371
+modified: 20231104005103010
 modifier: Octt
 tags: 
 title: Saved/Sites/Development
 
-Saved sites that are mainly about development (mainly devlogs or tips+tricks).
+Saved sites that are mainly about development (mainly devlogs, project showcases, or tips+tricks).
 
-Note: some are in [[Development/Resources]].
+Note: the most technically useful ones might be listed under [[Development/Resources]].
 
 * [[cpprograms|https://cpprograms.net/]]
 * [[Dustin John Pfister|https://dustinpfister.github.io/]]
 * [[Jack's AutoHotkey Blog|https://jacks-autohotkey-blog.com/]] --- //Feed Your Brain While Adding Power to Your Windows Computers//
+* <<linkdescgit SkyLyrac"https://www.skylyrac.net" "Hacking, software projects and my thoughts" "https://github.com/AntonioND/antoniond.github.io">>
 * [[ZetCode|https://zetcode.com/]] - //accessible tutorials for various languages//

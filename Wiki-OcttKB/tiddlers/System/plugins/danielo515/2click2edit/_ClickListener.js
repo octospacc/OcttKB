@@ -35,7 +35,7 @@ ClickListener.prototype.render = function(parent,nextSibling) {
     wrong object, we should call our edit function with our widget object set as the this property.*/
 
     /* OcttKB: edit this to work with 3 clicks instead of 2 */
-    window.addEventListener('click', function(ev){
+    parent.addEventListener('click', function(ev){
       if (ev.detail === 3) {
         self.editTiddler.call(self, event);
       }
