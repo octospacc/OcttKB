@@ -1,11 +1,11 @@
 created: 20230124112022156
 creator: Octt
-modified: 20231103220122034
+modified: 20231105185849353
 modifier: Octt
 tags: $:/tags/ViewTemplate
 title: $:/Styles/View/9-99-Hacks
 
-\define AiLinks(Enabled:1)
+\define AiLinks()
 \whitespace trim
 <<script script="
 try {
@@ -26,7 +26,7 @@ if ('$(Enabled)$' == 1) {
 };
 
 } catch(e) { ErrAtLine(e); };
-">>
+">><<script off>>
 \end
 
 <$set name=Enabled value={{$:/OcttKB/Config/AiLinks.ui!!Enabled}}>

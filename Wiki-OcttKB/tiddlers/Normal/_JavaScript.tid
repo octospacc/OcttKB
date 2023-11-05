@@ -1,6 +1,6 @@
 created: 20221110145611678
 creator: Octt
-modified: 20231103214720248
+modified: 20231105221457293
 modifier: Octt
 tags: Development $:/i18n:en Web
 title: JavaScript
@@ -22,6 +22,9 @@ title: JavaScript
 * [[Does JavaScript have a method like "range()" to generate a range within the supplied bounds?|https://stackoverflow.com/questions/3895478/does-javascript-have-a-method-like-range-to-generate-a-range-within-the-supp]] --- `[...Array(5).keys()]`
 * [[Array.prototype.splice()|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice]] --- //changes the contents of an array by removing or replacing existing elements and/or adding new elements in place//
 * [[Listen for triple clicks in JavaScript|https://stackoverflow.com/questions/6480060/how-do-i-listen-for-triple-clicks-in-javascript#6480113]]
+* [[XMLHttpRequest|https://www.w3schools.com/xml/xml_http.asp]]
+** <<MDNLink Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests "Synchronous and asynchronous requests">>
+* [[Fastest method to escape HTML tags as HTML entities?|https://stackoverflow.com/questions/5499078/fastest-method-to-escape-html-tags-as-html-entities]] --- in the browser, `(html) => { var escape = document.createElement('textarea'); escape.textContent = html; return escape.innerHTML; }`
 
 !!! ''Tools''
 

@@ -1,6 +1,6 @@
 created: 20230216193546517
 creator: Octt
-modified: 20230217094958892
+modified: 20231105202624812
 modifier: Octt
 tags: 
 title: Language
@@ -20,4 +20,5 @@ title: Language
 * [[Il gender e la traduzione di videogiochi — Outcast|https://www.outcast.it/home/il-gender-e-la-traduzione-di-videogiochi]] - <<mywarc 423>>
 
 ; Tools
-: Machine translation: [ext[//DeepL.com]] | [ext[//Translate.Google.com]]
+: Machine translation: <<httpsL DeepL.com>> | <<httpsL Translate.Google.com>>
+:* <<linkdescgit "Lingva Translate" "https://lingva.ml" "Self-hostable alternative front-end and API for Google Translate" "https://github.com/TheDavidDelta/lingva-translate">> <<[# "Scraper Git" "https://github.com/thedaviddelta/lingva-scraper">>
