@@ -1,6 +1,6 @@
 created: 20231024225405083
 creator: Octt
-modified: 20231027093941495
+modified: 20231105002646839
 modifier: Octt
 tags: Nintendo
 title: Wii
@@ -11,3 +11,5 @@ title: Wii
 * [[Complete Softmod Guide|https://sites.google.com/site/completesg/home]] --- //step by step the basics on how to softmod/enable hombrew on your Wii// --- it contains some minor useful information not present on wii.hacks.guide
 
 * <<linkdescgit "Open Shop Channel""https://oscwii.org" "Homebrew apps library for the Nintendo Wii." "https://github.com/OpenShopChannel">>
+
+* <<linkdesc "USB Loader GX" "https://github.com/wiidev/usbloadergx" "allows you to play Wii and GameCube games from a USB storage device or an SD card, launch other homebrew apps, create backups, use cheats in games...">>

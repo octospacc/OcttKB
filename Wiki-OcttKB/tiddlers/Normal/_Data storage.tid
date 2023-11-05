@@ -1,0 +1,10 @@
+created: 20231104231609952
+creator: Octt
+modified: 20231104231812092
+modifier: Octt
+tags: 
+title: Data storage
+
+<<^wikipediaframe "Data storage">>
+
+* <<linkdescgit "f3 - Fight Flash Fraud" "https://fight-flash-fraud.readthedocs.io/en/stable/" "simple tool that tests flash cards capacity and performance to see if they live up to claimed specifications" "https://github.com/AltraMayor/f3">>

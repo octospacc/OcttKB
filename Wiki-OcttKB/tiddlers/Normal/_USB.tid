@@ -1,6 +1,11 @@
 created: 20230205142939788
 creator: Octt
-modified: 20230205142946545
+modified: 20231105001706951
 modifier: Octt
-tags: TODO
+tags: 
 title: USB
+
+<<^wikipediaframe USB>>
+
+* (even low-power) [[USB storage devices disconnecting without apparent reason|https://askubuntu.com/questions/1266583/usb-storage-devices-disconnecting-without-apparent-reason]] --- short answer: probably the master controller not supplying enough power in bursts and so making the slave crash, some PC motherboards are shit enough to make this happen even with pendrives (which work normally until they draw a lot of current in an instant)
+** <<RedditL r/MSI_Gaming/comments/uqlzk5/b450_gaming_plus_max_usb_ports_not_working "B450 Gaming Plus Max USB ports not working properly">>: personal issue of mine

@@ -1,11 +1,13 @@
 created: 20230206204937437
 creator: Octt
-modified: 20230513221303926
+modified: 20231105000534499
 modifier: Octt
 tags: ToDo
 title: Telegram
 
 <<^wikipediaframe Telegram_(software) en>>
+
+* <<linkdescgit "Telegram X" "https://t.me/tgx_log" "official alternative Telegram client for Android" "https://github.com/TGX-Android">>
 
 * [[Teledrive|https://github.com/mgilangjanuar/teledrive]] --- //The cloud drive alternative using Telegram API//
 * [[Telegram Index (Fork)|https://github.com/octospacc/TelegramIndex-Fork]] - //Python web app to index telegram chats and serve its files for download over HTTP//

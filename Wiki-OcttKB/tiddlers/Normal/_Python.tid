@@ -1,10 +1,10 @@
 created: 20221110120605389
 creator: Octt
 icon: 🐍
-modified: 20230905212727053
+modified: 20231104233611819
 modifier: Octt
 page-cover: https://source.unsplash.com/random/?Python
-tags: Development $:/i18n:en
+tags: Development
 title: Python
 
 [[Python|https://www.python.org]] is a high-level, general-purpose, dynamically-typed, and garbage-collected programming language, with an extensive standard library and mandatory-indentation style.
@@ -16,7 +16,9 @@ I hate that, while tab-indentation is practically supported by the interpreter, 
 ---
 
 * [[PocketPy|https://pocketpy.dev/]] - //C++17 header-only Python interpreter for game engines.// - <<[ "[[Git|https://github.com/blueloveTH/pocketpy]]">>
+
 * <<httpL Python.helpful.codes>>
+* <<linkdescgit "Python Tips / Intermediate Python Book" "https://book.pythontips.com/en/latest/" "topics which are discussed in this book open up your mind towards some nice corners of Python language" "https://github.com/yasoob/intermediatePython">>
 
 !! How to and troubleshooting
 
