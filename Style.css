@@ -395,6 +395,15 @@ a[href="#Italiano"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
 
 
 
+a[href="#Keyboard"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Keyboard"] > .tc-tag-label:after {
+  content: ' ⌨️';
+}
+
+
+
+
+
 a[href="#Linux"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
 .tc-tag-list-item[data-tag-title="Linux"] > .tc-tag-label:after {
   content: ' 🐧';
