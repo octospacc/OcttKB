@@ -1,7 +1,7 @@
 created: 20220920160811383
 creator: Octt
 icon: 🐙
-modified: 20230531084944123
+modified: 20231105104126959
 modifier: Octt
 tags: $:/ToC $:/i18n:en Octt
 title: OcttKB
@@ -21,6 +21,7 @@ Apart from the usual [[TiddlyWiki]] ones, there are many methods of navigation o
 
 !!! ''Table of Contents''
 {{$:/OcttKB/ToC}}
+{{$:/OcttKB/WikiThings}}
 
 !!! ''External Links''
 

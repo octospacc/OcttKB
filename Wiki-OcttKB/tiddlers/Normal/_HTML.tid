@@ -1,13 +1,16 @@
 created: 20230202224901337
 creator: Octt
 icon: 📰
-modified: 20230823000245126
+modified: 20231105112259414
 modifier: Octt
 page-cover: https://images.unsplash.com/photo-1517134062979-e1234be8a085
 tags: Web Markup
 title: HTML
 
 <<^WikipediaFrame HTML en>>
+
+* [[Security risks of user generated HTML?|https://security.stackexchange.com/questions/220447/security-risks-of-user-generated-html]]
+** <<WikipediaL HTML_sanitization>> ; [[Sanitizing untrusted HTML5|https://stackoverflow.com/questions/17691758/sanitizing-untrusted-html5]]
 
 !!! ''References''
 

@@ -1,6 +1,6 @@
 created: 20230217150049780
 creator: Octt
-modified: 20230823000733774
+modified: 20231105113011389
 modifier: Octt
 tags: Emulation Libre
 title: QEMU
@@ -10,7 +10,9 @@ title: QEMU
 
 <<^wikipediaframe QEMU>>
 
-A software integrating QEMU as an [[Android]] app is [[Limbo PC Emulator|https://virtualmachinery.weebly.com/]] ([[Git|https://github.com/limboemu/limbo]]).
+* A software integrating QEMU as an [[Android]] app is [[Limbo PC Emulator|https://virtualmachinery.weebly.com/]] ([[Git|https://github.com/limboemu/limbo]]).
+
+* [[Qemu Anti Detection|https://github.com/zhaodice/qemu-anti-detection]] --- //A patch to hide qemu itself, bypass vm detection//
 
 !!! ''How-to''
 

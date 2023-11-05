@@ -1,11 +1,13 @@
 created: 20230817233039500
 creator: Octt
-modified: 20230818075434697
+modified: 20231105111737387
 modifier: Octt
 tags: Markup WIP
 title: BBCode
 
 <<^wikipediaframe BBCode>>
+
+* [[BBCode tags reference|https://www.bbcode.org/reference.php]]
 
 !!! ''Creation''
 

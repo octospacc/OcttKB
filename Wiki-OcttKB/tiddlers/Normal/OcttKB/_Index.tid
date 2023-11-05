@@ -2,7 +2,7 @@ caption: Index
 created: 20230109112202970
 creator: Octt
 list-before: $:/core/ui/SideBar/Open
-modified: 20231020231816148
+modified: 20231105104112366
 modifier: Octt
 tags: $:/tags/SideBar
 title: OcttKB/Index
@@ -11,10 +11,7 @@ title: OcttKB/Index
 
 {{$:/OcttKB/ToC}}
 
-; Other things
-: [ext[📜️ No-JS Single-Page KB|./Static.html]]
-: [[🖍️ Comments/Issues/PRs (Git)|https://gitlab.com/octtspacc/OcttKB/-/issues]]
-: [[🏳️‍🌈 Translate this Site (Google)|https://translate.google.com/translate?sl=en&tl=it&hl=en&u=https://kb.octt.eu.org&client=webapp]]
+{{$:/OcttKB/WikiThings}}
 
 {{$:/OcttKB/LicensingButtons}}
 

@@ -1,9 +1,11 @@
 created: 20230211172153874
 creator: Octt
-modified: 20230711111416229
+modified: 20231105112642209
 modifier: Octt
 title: Java
 
 <<^wikipediaframe "Java (programming language)" en>>
 
 * [[Java NullPointerException|https://www.digitalocean.com/community/tutorials/java-lang-nullpointerexception]]
+
+* [[Oracle Java Downloads Archive|https://www.oracle.com/java/technologies/downloads/archive/]] --- requires shitty account to download basically anything
