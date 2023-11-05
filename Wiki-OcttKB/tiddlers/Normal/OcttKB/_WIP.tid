@@ -1,11 +1,13 @@
 created: 20230126105640952
 creator: Octt
-modified: 20230225151155605
+modified: 20231105154317265
 modifier: Octt
-tags: OcttKB $:/i18n:en
+tags: OcttKB WIP
 title: OcttKB/WIP
 
 !!! ''WIP/TODO''
+
+//Note: this section is by itself in an heavy WIP state... I will never escape from this 😱️//
 
 * Better footnotes (should be clickable)
 * Fix StaticRiver template, broken after introducing breadcrumbs ~~(showing duplicate title, and also broken elements)~~
@@ -88,4 +90,3 @@ What are the ways that are most easily reusable, with the best UI possible, and 
 * CLI commands and flags, with snippets - how to view them in an interactive and visually compact form, to show only what each possible option does only when needed?
 * Simple links that correlate to many different topics - I'm not making a dedicated tiddler for every single one, that's crazy
 ** ..or just any kind of data, Wikidata-style
-* 

@@ -1,7 +1,7 @@
 created: 20230112091241450
 creator: Octt
 icon: 🧩
-modified: 20230225183832412
+modified: 20231105142732129
 modifier: Octt
 page-cover: https://source.unsplash.com/random/?Tetris
 tags: TODO Puzzle $:/i18n:en Game Generic $:/Games
@@ -9,6 +9,11 @@ title: Tetris
 
 <<^wikipediaframe Tetris>>
 
-!! ''Gamin' Time''
+* [[Tetrisconcept|https://tetrisconcept.net/]] --- technical Tetris forum
+** [[Tetrisconcept Tetris Fundamentals|https://www.tetrisconcept.com/p/start.html]] --- some fundamentals on advanced Tetris techniques
+
+* [[Josh's NES Tetris Hacks and Mods|https://tetrisconcept.net/threads/joshs-nes-tetris-hacks-and-mods.2762/]]
+
+!!! ''Gamin' Time''
 
 <<iFrameFixed "https://reactgular.github.io/tetromino">>

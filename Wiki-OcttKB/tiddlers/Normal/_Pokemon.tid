@@ -1,0 +1,15 @@
+created: 20230130082217716
+creator: Octt
+modified: 20231105154017773
+modifier: Octt
+tags: 
+title: Pokémon
+
+<<^wikipediaframe Pokémon en>>
+
+* [[Bulbapedia|https://bulbapedia.bulbagarden.net/wiki/Main_Page]] --- //community-driven Pokémon encyclopedia//
+** [[Pokémon Central Wiki|https://wiki.pokemoncentral.it/]] --- //enciclopedia Pokémon in italiano//
+
+* [[Smogon University|https://www.smogon.com/]] --- //Pokémon website and community specializing in the art of competitive battling//
+** <<linkdescgit "Pokémon Showdown" "https://pokemonshowdown.com/" "online Pokémon battle simulator
+" "https://github.com/smogon/pokemon-showdown">>

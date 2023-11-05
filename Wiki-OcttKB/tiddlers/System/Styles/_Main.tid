@@ -1,6 +1,6 @@
 created: 20230108190740128
 creator: Octt
-modified: 20230605214117998
+modified: 20231105151520512
 modifier: Octt
 tags: $:/tags/Stylesheet
 title: $:/Styles/Main
@@ -97,6 +97,10 @@ Div.View-Breadcrumbs
 .tc-edit-tags .tc-edit-add-tag .tc-block-tags-dropdown a {
   display: inline-block;
   border-radius: 1em;
+}
+
+.tc-sidebar-search .tc-search .tc-popup-handle[type="search"]:focus {
+  border: 2px dashed <<--HeadingColor0>>;
 }
 
 .AiLink { opacity: 0.40; }

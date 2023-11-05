@@ -1,6 +1,6 @@
 created: 20230223222804008
 creator: Octt
-modified: 20231105002336350
+modified: 20231105144457250
 modifier: Octt
 tags: 
 title: Saved/Sites
@@ -41,6 +41,7 @@ These are portfolios, collections of projects, hubs, landing pages, etc.
 * [[OctoSpacc Hub|https://hub.octt.eu.org]]
 * [[abe's projects - abe.today|https://abe.today/]] --- //Hi, I'm abe. I enjoy making things!//
 * [[Arktis :: Sigve Sebastian Farstad|https://arkt.is/]]
+* [[libdb.so (diamondburned)|https://libdb.so/]] / <<httpsL diamondx.pet>> --- cool site, the thing is just a terminal shell but with working links, images, and small tools --- <<[# Git "https://github.com/diamondburned/libdb.so">>
 * <<httpL "Neal.fun">>
 * [[Novasquirrel's site|https://novasquirrel.com/]]
 * [[The Hacker's Choice|https://www.thc.org]] --- group of international hackers, founded in 1995 --- <<[# "Knowledge Base" "https://iq.thc.org">>
@@ -66,6 +67,7 @@ These are kind of blogs, but don't contain mainly things written as blogs, but m
 ** [[How (by Okpedia)|https://how.okpedia.org/]] --- //Tutorials and Solutions KB// --- (apparently a separate wiki of the same person above, also multi-language)
 * [[Computer Science Mojo|https://csmojo.com]] --- //David's Notes on coding, software and computer science// --- <<[ "[[Git|https://github.com/zhenyufu/zhenyufu.github.io]]">>
 * [[Maggie Appleton|https://maggieappleton.com/]] --- <<[ "[[Git|https://github.com/MaggieAppleton/maggieappleton.com-V2]]">>
+* [[RetroRGB|https://www.retrorgb.com/]] --- //site dedicated to keeping everyone up-to-date with everything the retro-gaming world has to offer//
 * [[TheFrenchGhosty|https://thefrenchghosty.me/]]
 * [[wiki.nikiv.dev|https://wiki.nikiv.dev/]] --- <<[ "[[Git|https://github.com/nikitavoloboev/knowledge]]">>
 ** [2023-08-18] Apparently the majority of pages is now paywalled, and the public Git repo isn't receiving any updates. Since the wiki is still static, the paywall can be bypassed by injecting following CSS code: `.modalblur{display:none !important;}`; otherwise, also disabing JavaScript is an option (but breaks navigation on mobile and search globally).

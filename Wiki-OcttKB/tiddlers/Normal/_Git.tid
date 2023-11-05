@@ -1,6 +1,6 @@
 created: 20230202231537773
 creator: Octt
-modified: 20231008224457619
+modified: 20231105145743424
 modifier: Octt
 tags: Libre
 title: Git
@@ -10,6 +10,10 @@ title: Git
 * [[Never use git submodules|https://diziet.dreamwidth.org/14666.html]] --- //git submodules are always the wrong solution. Yes, even the to the problem they were specifically invented to solve.//
 * [[Converting a Git (GitLab) project.bundle export to simple Git repo|https://gist.github.com/paulgregg/181779ad186221aaa35d5a96c8abdea7]]
 * [[When I do "git push", what do the statistics mean? (Total, delta, etc.)|https://stackoverflow.com/questions/21476167/when-i-do-git-push-what-do-the-statistics-mean-total-delta-etc]]
+* [[git - remote add origin vs remote set-url origin|https://stackoverflow.com/questions/42830557/git-remote-add-origin-vs-remote-set-url-origin#42830632]]
+** to ''add a push remote'' to a local repo, it's simple: `git remote add origin https://site.tld/user/repo.git`
+* [[How to modify existing, unpushed commit messages?|https://stackoverflow.com/questions/179123/how-to-modify-existing-unpushed-commit-messages#179147]]
+** Amending the ''most recent commit message'': `git commit --amend` (with optionally `-m "commit message"`)
 
 !!! ''Apps''
 * [[GitJournal|https://gitjournal.io/]] - //Mobile first Markdown Notes integrated with Git// --- <<[ "[[Git|https://github.com/GitJournal]]">>
