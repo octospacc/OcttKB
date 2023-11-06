@@ -1,6 +1,6 @@
 created: 20230613185754543
 creator: Octt
-modified: 20231102102508440
+modified: 20231106003605886
 modifier: Octt
 tags: 
 title: Development
@@ -13,3 +13,5 @@ title: Development
 * [[What package naming convention do you use for personal/hobby projects|https://stackoverflow.com/questions/292169/what-package-naming-convention-do-you-use-for-personal-hobby-projects-in-java]] in Java/Android/Flatpak?
 
 * [[Compilation and Installation using Autoconf|https://opensource.apple.com/source/X11libs/X11libs-60/mesa/Mesa-7.8.2/docs/autoconf.html]]
+* [[What is the purpose of .PHONY in a Makefile?|https://stackoverflow.com/questions/2145590/what-is-the-purpose-of-phony-in-a-makefile]] --- TLDR: it's to declare "fake" targets that must build independently from actual files on disk (that make would otherwise use as targets), it doesn't mean "sound" or "pronunciation" or otherwise the full list of only allowed build targets, as I initially thought because of associating phony => telephony => ...
+* <<linkdescgit "Modern CMake" "https://cliutils.gitlab.io/modern-cmake/" "A book about using CMake for your projects" "https://gitlab.com/CLIUtils/modern-cmake">>

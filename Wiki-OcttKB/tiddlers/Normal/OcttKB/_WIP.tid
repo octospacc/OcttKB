@@ -1,13 +1,13 @@
 created: 20230126105640952
 creator: Octt
-modified: 20231105214741288
+modified: 20231105154317265
 modifier: Octt
 tags: OcttKB WIP
 title: OcttKB/WIP
 
 !!! ''WIP/TODO''
 
-//Note: this section is by itself in an heavy WIP state..., and currently it's really outdated... I will never escape from this 😱️//
+//Note: this section is by itself in an heavy WIP state... I will never escape from this 😱️//
 
 * Better footnotes (should be clickable)
 * Fix StaticRiver template, broken after introducing breadcrumbs ~~(showing duplicate title, and also broken elements)~~
