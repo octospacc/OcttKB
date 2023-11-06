@@ -1,7 +1,7 @@
 created: 20230111153758951
 creator: Octt
 icon: 🐧
-modified: 20231027110415527
+modified: 20231106235715753
 modifier: Octt
 page-cover: https://images.unsplash.com/photo-1549605659-32d82da3a059?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 tags: $:/i18n:en Unix
@@ -41,6 +41,7 @@ title: Linux
 
 * [[Paul Raspberry Pi Benchmarks|https://willy-tech.de/raspberry-pi-benchmarks/]]
 
-!!! ''Troubleshooting''
+!!! ''Troubleshooting, practical guides''
 
 * [[cannot mount /dev/loop1 read-only|https://serverfault.com/questions/839898/cannot-mount-block-device-dev-loop-read-only]] --- Filesystem might have a dirty log, using `-o norecovery` can still mount it readonly.
+* [[How to take back control of /etc/resolv.conf on Linux|https://www.ctrl.blog/entry/resolvconf-tutorial.html]] --- //Several DNS-related programs want to automatically manage the DNS name server and resolution configuration file at `/etc/resolv.conf`. In some situations, you may want to manage this file yourself.//

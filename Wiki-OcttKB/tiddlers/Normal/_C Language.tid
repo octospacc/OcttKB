@@ -1,11 +1,13 @@
 created: 20231029134919585
 creator: Octt
-modified: 20231105222349930
+modified: 20231106232930161
 modifier: Octt
 tags: 
 title: C Language
 
 <<^wikipediaframe C_Language>>
+
+* [[reassign struct in C|https://stackoverflow.com/questions/10298070/reassign-struct-in-c]] (meaning reassigning all fields at a time); the feature is part of compound literals, sadly only supported in C99+, won't work before that and it's not easy to guess why without knowing this
 
 * [[Why do many functions that return structures in C, actually return pointers to structures?|https://softwareengineering.stackexchange.com/questions/359408/why-do-many-functions-that-return-structures-in-c-actually-return-pointers-to-s]]
 * [[Passing by reference in C|https://stackoverflow.com/questions/2229498/passing-by-reference-in-c]] --- "C does not support passing a variable by reference"... //Passing a pointer ''is'' passing-by-reference. This seems to be one of those facts that "savvy" C programmers pride themselves on. Like they get a kick out of it. "Oh you might THINK C has pass-by-reference but no it's actually just the value of a memory address being passed harharhar". Passing by reference literally just means passing the memory address of where a variable is stored rather than the variable's value itself [...]//
@@ -18,3 +20,5 @@ title: C Language
 * [[Creating empty function macros|https://stackoverflow.com/questions/9187628/empty-function-macros]] --- only safe way is `#define SomeFunction(arg) ((void)0)`
 ** [[C macros, what's the meaning of ((void)0)?|https://stackoverflow.com/questions/61157541/c-macros-whats-the-meaning-of-void0]]
 * [[How to use "else if" with the preprocessor #ifdef?|https://stackoverflow.com/questions/68696585/how-to-use-else-if-with-the-preprocessor-ifdef]] --- the only widely-supported way is: `#if defined(X)`...`#elif defined(Y)`...`#else`...`#endif`
+
+* [[How to enforce C89-style variable declarations in gcc?|https://stackoverflow.com/questions/3099813/how-to-enforce-c89-style-variable-declarations-in-gcc#3099874]] --- for some things of this goal, just the flags `-Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wdeclaration-after-statement` are needed, I would guess.

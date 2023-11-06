@@ -1,0 +1,12 @@
+created: 20231106230244142
+creator: Octt
+modified: 20231106231120012
+modifier: Octt
+tags: 
+title: Virtual reality
+
+<<^wikipediaframe "Virtual reality">>
+
+* <<linkdescgit A-Frame"https://aframe.io/" "🅰️ Web framework for building virtual reality experiences." "https://github.com/aframevr">>
+** [[Web2VR|https://github.com/kikoano/web2vr]] --- //Dynamically translate HTML and CSS to A-Frame 3D world for virtual reality.//
+** <<linkdescgit "Mozilla Hubs" "https://hubs.mozilla.com" "Duck-themed multi-user virtual spaces in WebVR. Built with A-Frame." "https://github.com/mozilla/hubs">>
