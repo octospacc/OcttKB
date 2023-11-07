@@ -1,6 +1,6 @@
 created: 20231103223458206
 creator: Octt
-modified: 20231104235913660
+modified: 20231107203537038
 modifier: Octt
 title: Simple DirectMedia Layer
 
@@ -8,7 +8,10 @@ title: Simple DirectMedia Layer
 
 * [[Lazy Foo' Productions - SDL 1.2 tutorial |https://lazyfoo.net/SDL_tutorials/]] --- Beginning Game Programming in C++
 * [[Getting Started With SDL 1.2|http://gamedevgeek.com/tutorials/getting-started-with-sdl/]] ; [[Moving Sprites With SDL 1.2|http://gamedevgeek.com/tutorials/moving-sprites-with-sdl/]] ; [[Animating Sprites With SDL|http://gamedevgeek.com/tutorials/animating-sprites-with-sdl/]]
+* [[Exploring SDL (Wikibooks)|https://en.wikibooks.org/wiki/SDL_(Simple_DirectMedia_Layer)]] --- introduction to SDL with the most important basic information, + some WIP examples
+
 * Minimal examples of using the HTML5 canvas via SDL, through WebAssembly and [[C|https://github.com/shlomnissan/sdl-wasm]] or [[C++|https://github.com/timhutton/sdl-canvas-wasm]]
+
 * [[LuaSDL 1.2|https://github.com/soulik/LuaSDL]] --- //Lua binding to libSDL 1.2// --- should find the time to try this properly and if it actually works on embedded Linux consoles etc.
 
 * [[Why SDL doesn't allow `int main(void)`|https://copyrat90.github.io/2021/08/08/why-sdl-does-not-allow-int-main-void.html]]

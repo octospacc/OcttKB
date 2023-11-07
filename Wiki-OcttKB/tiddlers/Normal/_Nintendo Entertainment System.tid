@@ -1,6 +1,6 @@
 created: 20230202104823127
 creator: Octt
-modified: 20231103224247904
+modified: 20231107222903801
 modifier: Octt
 tags: Nintendo Gaming $:/i18n:en Console
 title: Nintendo Entertainment System
@@ -19,6 +19,7 @@ title: Nintendo Entertainment System
 * <<httpL nesdoug.com>> --- NES Programming tutorial in C
 ** [[GitBook re-adaptation by dag7dev|https://dag7.gitbook.io/nesdoug-nes-guide]] //for a comfy read// --- <<#[ Git"https://github.com/dag7dev/nesdoug-nes-guide">>
 * [[everynes/no$nes technical documentation|https://problemkaputt.de/everynes.htm]]
+* [[NES Programming [Wikibooks]|https://en.wikibooks.org/wiki/NES_Programming]] --- an extremely WIP resource on the matter as of 2023/11, but it's worth for it being just a concise list of specs and memory layout
 
 * General [[Useful tools for NES development|https://www.nesdev.org/wiki/Tools]]
 ** [[nixel|https://alexpate.net/nixel/]] --- web editor for CHRs inside NES ROMs with a good UX

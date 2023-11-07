@@ -1,8 +1,8 @@
 created: 20231029001701704
 creator: Octt
-modified: 20231102095720706
+modified: 20231107225433388
 modifier: Octt
-tags: 
+tags: CPU Microprocessor Retro
 title: 6502
 
 <<^wikipediaframe 6502>>
@@ -14,5 +14,6 @@ title: 6502
 * [[https://100r.co/site/6502_assembly.html]] --- Extremely reduced introduction to 6502 assembly basic concepts
 * [[Programming the NES: The 6502 in detail|https://www.middle-engine.com/blog/posts/2020/06/23/programming-the-nes-the-6502-in-detail]]
 
+* [[Benchmark: C compilers for the 6502 CPU|https://sgadrat.itch.io/super-tilt-bro/devlog/219534/benchmark-c-compilers-for-the-6502-cpu]] --- <<[# "Code on Git" "https://github.com/sgadrat/6502-compilers-bench">>
 * <<linkdescgit cc65"https://cc65.github.io" "complete cross development package for 65(C)02 systems" "https://github.com/cc65">>
-** [[cc65 coding hints|https://cc65.github.io/doc/coding.html]] --- //How to generate the most efficient code with cc65//
+** [[cc65 coding hints|https://cc65.github.io/doc/coding.html]] ; [[Advanced optimizations in CC65|https://github.com/ilmenit/CC65-Advanced-Optimizations]] --- //How to generate the most efficient code with cc65//

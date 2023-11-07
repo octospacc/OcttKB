@@ -1,6 +1,6 @@
 created: 20221110145611678
 creator: Octt
-modified: 20231105221457293
+modified: 20231107213800379
 modifier: Octt
 tags: Development $:/i18n:en Web
 title: JavaScript
@@ -20,11 +20,15 @@ title: JavaScript
 * [[Superpacking JS Demos|https://web.archive.org/web/20120919185414/http://daeken.com/superpacking-js-demos]]
 * [["Illegal invocation" errors in JavaScript|https://mtsknn.fi/blog/illegal-invocations-in-js/]] --- //The error is thrown when calling a function whose `this` keyword isn't referring to the object where it originally did (when the context of the function is lost)//
 * [[Does JavaScript have a method like "range()" to generate a range within the supplied bounds?|https://stackoverflow.com/questions/3895478/does-javascript-have-a-method-like-range-to-generate-a-range-within-the-supp]] --- `[...Array(5).keys()]`
-* [[Array.prototype.splice()|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice]] --- //changes the contents of an array by removing or replacing existing elements and/or adding new elements in place//
 * [[Listen for triple clicks in JavaScript|https://stackoverflow.com/questions/6480060/how-do-i-listen-for-triple-clicks-in-javascript#6480113]]
+* [[Fastest method to escape HTML tags as HTML entities?|https://stackoverflow.com/questions/5499078/fastest-method-to-escape-html-tags-as-html-entities]] --- in the browser, `(html) => { var escape = document.createElement('textarea'); escape.textContent = html; return escape.innerHTML; }`
+* [[Get a random item from a JavaScript array|https://stackoverflow.com/questions/5915096/get-a-random-item-from-a-javascript-array#5915122]] --- `item = items[Math.floor(Math.random() * items.length)];`
+* [[How to get text from all descendents of an element (disregarding scripts)?|https://stackoverflow.com/questions/2532043/how-to-get-text-from-all-descendents-of-an-element-disregarding-scripts]]
+
+* [[Array.prototype.splice()|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice]], [[JavaScript Array splice() (W3S)|https://www.w3schools.com/jsref/jsref_splice.asp]] --- //changes the contents of an array by removing or replacing existing elements and/or adding new elements in place//
+* <<MDNLink Web/JavaScript/Reference/Global_Objects/Array/concat "Array.prototype.concat()">> --- //used to merge two or more arrays, does not change the existing arrays but instead returns a new one//
 * [[XMLHttpRequest|https://www.w3schools.com/xml/xml_http.asp]]
 ** <<MDNLink Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests "Synchronous and asynchronous requests">>
-* [[Fastest method to escape HTML tags as HTML entities?|https://stackoverflow.com/questions/5499078/fastest-method-to-escape-html-tags-as-html-entities]] --- in the browser, `(html) => { var escape = document.createElement('textarea'); escape.textContent = html; return escape.innerHTML; }`
 
 !!! ''Tools''
 

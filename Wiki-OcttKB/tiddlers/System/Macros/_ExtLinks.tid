@@ -1,6 +1,6 @@
 created: 20230215192523775
 creator: Octt
-modified: 20231105152256618
+modified: 20231107213433687
 modifier: Octt
 tags: $:/tags/Macro
 title: $:/Macros/ExtLinks
@@ -24,7 +24,7 @@ title: $:/Macros/ExtLinks
 
 \define MatrixLink(ID, Title:"Matrix") [[$Title$|https://matrix.to/#/$ID$]]
 
-\define MDNLink(loc, title) [[$title$ [MDN Web Docs]|https://developer.mozilla.org/en-US/docs/$loc$]]
+\define MDNLink(loc, title) [[$title$ [MDN Docs]|https://developer.mozilla.org/en-US/docs/$loc$]]
 
 \define FDroidLink(Package, Title:"F-Droid") [[$Title$|https://f-droid.org/en/packages/$Package$]]
 

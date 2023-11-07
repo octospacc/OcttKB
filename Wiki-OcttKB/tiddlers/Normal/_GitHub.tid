@@ -1,16 +1,18 @@
 created: 20230206190107127
 creator: Octt
-modified: 20230221223445734
+modified: 20231107231057889
 modifier: Octt
 tags: Git Proprietary
 title: GitHub
 
-* https://GitHub.com
+* <<httpsL GitHub.com>>
 
 <<^wikipediaframe GitHub en>>
 
 !!! ''Tools''
 
-* [[nightly.link|https://nightly.link]] - //Downloads the latest "nightly" build/artifact from a continuous testing workflow without logging in// - [[[Git|https://github.com/oprypin/nightly.link]]]
+* [[nightly.link|https://nightly.link]] - //Downloads the latest "nightly" build/artifact from a continuous testing workflow without logging in// - <<#[ Git "https://github.com/oprypin/nightly.link">>
+* <<linkdescgit "GitHub Wiki SEE" "https://github-wiki-see.page/" "🔎 400,000+ GitHub Wikis, now indexable by your favorite search engine." "https://github.com/nelsonjchen/github-wiki-see-rs">>
+
 * [[utterances 🔮|https://utteranc.es/]] - //lightweight comments widget built on GitHub ''Issues''// - <<[ "[[Git|https://github.com/utterance]]">>
 * [[giscus 💎|https://giscus.app/]] - //lightweight comments widget built on GitHub ''Discussions''// - <<[ "[[Git|https://github.com/giscus]]">>
