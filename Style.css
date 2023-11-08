@@ -287,6 +287,15 @@ a[href="#AI"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
 
 
 
+a[href="#Android"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Android"] > .tc-tag-label:after {
+  content: ' 🤖';
+}
+
+
+
+
+
 a[href="#Animal%20Crossing"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
 .tc-tag-list-item[data-tag-title="Animal%20Crossing"] > .tc-tag-label:after {
   content: ' 🍃';
