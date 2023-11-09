@@ -58,6 +58,8 @@ color:#333353;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fww
 fill:#333353;
 color:#333353;">Snippets</span><span class="tc-drop-down tc-reveal" hidden="true"></span></span></div></div><div class="OcttKB-i18n" style="font-size: initial;">
   
+
+
 </div><div class="tc-tiddler-body tc-reveal"><p>From <a class="tc-tiddlylink-external" href="https://unix.stackexchange.com/a/345628" rel="noopener noreferrer" target="_blank">https://unix.stackexchange.com/a/345628</a>:</p><p>Run on host to spawn a network-attached shell (requires bash due to coproc):</p><pre><code>coproc netcat -l -p $PORT
 exec bash &lt;&amp;${COPROC[0]} &gt;&amp;${COPROC[1]} 2&gt;&amp;1</code></pre><p>Run on client to connect to host:</p><pre><code>nc $ADDRESS $PORT</code></pre></div>
 

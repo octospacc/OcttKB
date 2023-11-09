@@ -56,6 +56,8 @@ Octt Knowledge Base || Powered by <a class="tc-tiddlylink tc-tiddlylink-resolves
 fill:#333353;
 color:#333353;">Linux</span><span class="tc-drop-down tc-reveal" hidden="true"></span></span></div></div><div class="OcttKB-i18n" style="font-size: initial;">
   
+
+
 </div><div class="tc-tiddler-body tc-reveal"><p>The other day I got my Linux Mint system not booting anymore. I suspected this was due to <a class="tc-tiddlylink tc-tiddlylink-resolves" href="%2524%253A%252FLinux%252FScripts%252FUpdateEfiBoot.html">my custom script</a> I placed in <code>/etc/kernel/postinst.d/</code> that is needed to copy the latest kernel in my EFI partition after an APT update, to allow boot via efistub bypassing grub. Maybe an unattended upgrade of my kernel failed.</p><p>After manually fixing the EFI partition to boot again in the system, I tried manually to run <code>apt upgrade</code>, and saw that my postinst script threw an error due to not finding one of the files to copy from <code>/boot</code> to <code>/boot/efi</code>.</p><p>After a quick web search, I saw that files in <code>/etc/kernel/postinst.d</code> should be numbered as they get run in the proper order by run-parts. I did <code>ls</code> on the directory where I've put my script to be certain that it was the very last, and actually it wasn't.</p><pre><code>$ ls
 dkms
 initramfs-tools
