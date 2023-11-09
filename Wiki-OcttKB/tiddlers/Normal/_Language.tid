@@ -1,6 +1,6 @@
 created: 20230216193546517
 creator: Octt
-modified: 20231105202624812
+modified: 20231108232502096
 modifier: Octt
 tags: 
 title: Language
@@ -21,4 +21,5 @@ title: Language
 
 ; Tools
 : Machine translation: <<httpsL DeepL.com>> | <<httpsL Translate.Google.com>>
-:* <<linkdescgit "Lingva Translate" "https://lingva.ml" "Self-hostable alternative front-end and API for Google Translate" "https://github.com/TheDavidDelta/lingva-translate">> <<[# "Scraper Git" "https://github.com/thedaviddelta/lingva-scraper">>
+:* <<linkdescgit "Lingva Translate" "https://lingva.ml" "Self-hostable alternative front-end and API for Google Translate" "https://github.com/TheDavidDelta/lingva-translate">> <<[# "Scraper Git" "https://github.com/thedaviddelta/lingva-scraper">> --- note: the official instance appears broken, returning error for translations with specific characters, and also less metadata from the API, problems that some other public instances don't have (official may be running an older version?)
+:* <<linkdesc Mozhi"https://codeberg.org/aryak/mozhi" "alternative-frontend for many translation engines">> <<[# "Scraper Git" "https://codeberg.org/aryak/libmozhi">> (Google support broken as of 2023/11)

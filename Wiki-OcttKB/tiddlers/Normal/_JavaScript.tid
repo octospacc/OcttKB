@@ -1,6 +1,6 @@
 created: 20221110145611678
 creator: Octt
-modified: 20231107213800379
+modified: 20231109000419620
 modifier: Octt
 tags: Development $:/i18n:en Web
 title: JavaScript
@@ -24,6 +24,7 @@ title: JavaScript
 * [[Fastest method to escape HTML tags as HTML entities?|https://stackoverflow.com/questions/5499078/fastest-method-to-escape-html-tags-as-html-entities]] --- in the browser, `(html) => { var escape = document.createElement('textarea'); escape.textContent = html; return escape.innerHTML; }`
 * [[Get a random item from a JavaScript array|https://stackoverflow.com/questions/5915096/get-a-random-item-from-a-javascript-array#5915122]] --- `item = items[Math.floor(Math.random() * items.length)];`
 * [[How to get text from all descendents of an element (disregarding scripts)?|https://stackoverflow.com/questions/2532043/how-to-get-text-from-all-descendents-of-an-element-disregarding-scripts]]
+* [[Simplest code for array intersection in javascript|https://stackoverflow.com/questions/1885557/simplest-code-for-array-intersection-in-javascript#1885569]] --- `arrayNew = array1.filter(value => array2.includes(value));`
 
 * [[Array.prototype.splice()|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice]], [[JavaScript Array splice() (W3S)|https://www.w3schools.com/jsref/jsref_splice.asp]] --- //changes the contents of an array by removing or replacing existing elements and/or adding new elements in place//
 * <<MDNLink Web/JavaScript/Reference/Global_Objects/Array/concat "Array.prototype.concat()">> --- //used to merge two or more arrays, does not change the existing arrays but instead returns a new one//
@@ -35,4 +36,7 @@ title: JavaScript
 * [[jsPerf|https://jsperf.app/]] - //online JavaScript performance benchmark// - <<[ "[[Git|https://github.com/rd13/jsperf.app]]">>
 ** Old source code: [[v2|https://github.com/jsperf]], [[v1|https://github.com/mathiasbynens/jsperf.com]]
 * [[MeasureThat.net|https://www.measurethat.net/]] - //measure performance of JavaScript code// - <<[ "[[Git|https://github.com/thecoderok/MeasureThat.net]]">>
+
+* [[UglifyJS|https://lisperator.net/uglifyjs/]] - //JavaScript parser / mangler / compressor / beautifier// - <<[ "[[Git|https://github.com/mishoo/UglifyJS]]">>
+** <<linkdescgit "UglifyJS 3: Online JavaScript minifier" "https://skalman.github.io/UglifyJS-online/" "JavaScript minifier in the browser" "https://github.com/Skalman/UglifyJS-online">>
 * <<linkdescgit de4js "https://lelinhtinh.github.io/de4js" "JavaScript Deobfuscator and Unpacker" "https://github.com/lelinhtinh/de4js">>

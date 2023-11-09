@@ -1,6 +1,6 @@
 created: 20230221204801305
 creator: Octt
-modified: 20230901234757906
+modified: 20231109000404934
 modifier: Octt
 tags: 
 title: Web/Development
@@ -40,7 +40,6 @@ title: Web/Development
 
 !!!! Minification
 * ~~[[node-minify|https://github.com/srod/node-minify]] - //Light Node.js module and CLI app that compress javascript, css and html files//~~
-* [[UglifyJS|https://lisperator.net/uglifyjs/]] - //JavaScript parser / mangler / compressor / beautifier// - <<[ "[[Git|https://github.com/mishoo/UglifyJS]]">>
 
 !!! ''Misc''
 

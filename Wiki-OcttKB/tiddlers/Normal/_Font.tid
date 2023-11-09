@@ -1,11 +1,13 @@
 created: 20230724220345827
 creator: Octt
-modified: 20230926085423503
+modified: 20231109000746810
 modifier: Octt
 tags: Text
 title: Font
 
 <<^wikipediaframe Font>>
+
+* [[Good bitmap fonts with big sizes and unicode support?|https://superuser.com/questions/401831/good-bitmap-fonts-with-big-sizes-and-unicode-support#473798]]
 
 Interesting fonts, for specific uses:
 
@@ -15,3 +17,4 @@ Interesting fonts, for specific uses:
 Good fonts, for multiple uses:
 
 * <<linkdesc epto-fonts "https://github.com/epto/epto-fonts" "Free bitmap (8x8, 8x16, 8xY) fonts by EPTO">>
+* <<linkdesc "UW ttyp0" "https://people.mpi-inf.mpg.de/~uwe/misc/uw-ttyp0/" "Monospace Bitmap Screen Fonts for X11">> <!-- "https://people.mpi-inf.mpg.de/~uwe/misc/uw-ttyp0/ttyp0-8x16.png" -->
