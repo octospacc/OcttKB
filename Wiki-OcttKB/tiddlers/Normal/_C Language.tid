@@ -1,6 +1,6 @@
 created: 20231029134919585
 creator: Octt
-modified: 20231109001417793
+modified: 20231109235401310
 modifier: Octt
 tags: 
 title: C Language
@@ -25,5 +25,6 @@ title: C Language
 * [[Creating empty function macros|https://stackoverflow.com/questions/9187628/empty-function-macros]] --- only safe way is `#define SomeFunction(arg) ((void)0)`
 ** [[C macros, what's the meaning of ((void)0)?|https://stackoverflow.com/questions/61157541/c-macros-whats-the-meaning-of-void0]]
 * [[How to use "else if" with the preprocessor #ifdef?|https://stackoverflow.com/questions/68696585/how-to-use-else-if-with-the-preprocessor-ifdef]] --- the only widely-supported way is: `#if defined(X)`...`#elif defined(Y)`...`#else`...`#endif`
+** "compound conditionals" are supported, eg. `#if defined(X) || (defined(Y) && defined(Z))`...
 
 * [[How to enforce C89-style variable declarations in gcc?|https://stackoverflow.com/questions/3099813/how-to-enforce-c89-style-variable-declarations-in-gcc#3099874]] --- for some things of this goal, just the flags `-Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wdeclaration-after-statement` are needed, I would guess.

@@ -1,6 +1,6 @@
 created: 20230202104823127
 creator: Octt
-modified: 20231107222903801
+modified: 20231110001404551
 modifier: Octt
 tags: Nintendo Gaming $:/i18n:en Console
 title: Nintendo Entertainment System
@@ -23,6 +23,7 @@ title: Nintendo Entertainment System
 
 * General [[Useful tools for NES development|https://www.nesdev.org/wiki/Tools]]
 ** [[nixel|https://alexpate.net/nixel/]] --- web editor for CHRs inside NES ROMs with a good UX
+** [[NEXXT|https://frankengraphics.itch.io/nexxt]] --- //Featureful NES assets studio based off the classic "NES Screen Tool". It's the "famitracker" of NES graphics.// (sources included)
 
 * [[Retro Puzzle Maker|https://puzzle.nes.science]] --- //new tool meant to help you create new puzzle games you can play on an NES//
 * <<linkdescgit "C NES Starter Kit""https://cppchriscpp.github.io/nes-starter-kit/" "Simplified starter kit for making NES games using C and graphical tools." "https://github.com/cppchriscpp/nes-starter-kit">>

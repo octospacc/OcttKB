@@ -1,0 +1,10 @@
+created: 20231110002617761
+creator: Octt
+modified: 20231110002825217
+modifier: Octt
+tags: 
+title: Game cheating
+
+<<^wikipediaframe "Cheating in video games">>
+
+* [[emuWorks Game Genie Encoder/Decoder Program|https://games.technoplaza.net/ggencoder/]] --- //simple program which can decode and encode game genie codes for Nintendo, Super Nintendo, Genesis, Game Boy, and Game Gear game genies//, for Qt C++, Java, and JavaScript (Web)

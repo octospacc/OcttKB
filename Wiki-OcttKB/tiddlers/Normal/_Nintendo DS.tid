@@ -1,6 +1,6 @@
 created: 20220923110724649
 creator: Octt
-modified: 20231104225611704
+modified: 20231110000355159
 modifier: Octt
 tags: Gaming Nintendo NDS Console $:/i18n:en Handheld
 title: Nintendo DS
@@ -30,3 +30,10 @@ title: Nintendo DS
 
 * (WIP) [[NDS-Homebrew-Development|https://github.com/jdriselvato/NDS-Homebrew-Development]] --- //research for developing on the Nintendo DS//
 * [[Nitro SDK in a Box|https://gbatemp.net/threads/nitro-sdk-in-a-box.622578/]] --- the idea for a VM setup with all kinds of useful software from official NITRO SDK (download not released, we might want to ask OP in private)
+
+!! PictoChat
+
+<<^wikipediaframe PictoChat>>
+
+* <<linkdescgit Paperchat "https://paperchat.net/" "An online Pictochat spiritual successor - Draw and chat in real time!" "https://github.com/lietsaki/paperchat">>
+* <<linkdescgit pict.chat "https://pict.chat/" "PictoChat web app with a server written in Java!" "https://github.com/ayunami2000/ayunpictojava">>

@@ -1,11 +1,13 @@
 created: 20220923110724649
 creator: Octt
-modified: 20230305225330144
+modified: 20231110000102274
 modifier: Octt
 tags: 
 title: Nintendo
 
 <<^wikipediaframe Nintendo>>
+
+* <<linkdescgit "NSMB-MarioVsLuigi" "https://ipodtouch0218.itch.io/nsmb-mariovsluigi" "A standalone 2-10 player remake of the Mario vs Luigi gamemode from New Super Mario Bros DS." "https://github.com/ipodtouch0218/NSMB-MarioVsLuigi">>
 
 ; Tools
 : [[mkey generator|https://mkey.salthax.org/]] - //3DS / Wii U / Switch parental controls master key generator// - <<[ "[[Git|https://github.com/dazjo/mkey]]">>
