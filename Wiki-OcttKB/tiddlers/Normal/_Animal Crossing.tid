@@ -1,7 +1,7 @@
 created: 20230110225425199
 creator: Octt
 icon: 🍃
-modified: 20230916153412702
+modified: 20231111000325649
 modifier: Octt
 page-cover: https://source.unsplash.com/random?Animal_Crossing
 tags: Nintendo $:/i18n:en Game Proprietary
@@ -29,6 +29,7 @@ I can't for example really play Japan festivities because only the Japan ROM inc
 
 !!! ''Resources''
 
+* [[Decompilation of Animal Forest (zeldaret)|https://github.com/zeldaret/af]]
 * [[ac-decomp|https://github.com/Prakxo/ac-decomp]] --- //Decompilation in progress of Animal Crossing for the Nintendo GameCube//
 * [[marcrobledo acnl-editor|https://www.marcrobledo.com/acnl-editor/]] --- //An Animal Crossing: New Leaf savegame editor made in HTML5// --- <<#[ Git "https://github.com/marcrobledo/acnl-editor">>
 

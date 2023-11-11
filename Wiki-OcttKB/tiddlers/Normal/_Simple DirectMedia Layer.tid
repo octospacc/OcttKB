@@ -1,10 +1,12 @@
 created: 20231103223458206
 creator: Octt
-modified: 20231110000947340
+modified: 20231110234805798
 modifier: Octt
 title: Simple DirectMedia Layer
 
 <<^wikipediaframe "Simple DirectMedia Layer">>
+
+* [[SDL_Keycode|https://wiki.libsdl.org/SDL2/SDL_Keycode]] --- list of macros representing keyboard scancodes and keycodes, for use with `SDL_GetKeyState()`(1.2)/`SDL_GetKeyboardState()`(2.0) and `SDL_PollEvent(&event)`...`event.key.keysym.sym == ...` respectively
 
 * [[Lazy Foo' Productions - SDL 1.2 tutorial |https://lazyfoo.net/SDL_tutorials/]] --- Beginning Game Programming in C++
 * [[Getting Started With SDL 1.2|http://gamedevgeek.com/tutorials/getting-started-with-sdl/]] ; [[Moving Sprites With SDL 1.2|http://gamedevgeek.com/tutorials/moving-sprites-with-sdl/]] ; [[Animating Sprites With SDL|http://gamedevgeek.com/tutorials/animating-sprites-with-sdl/]]

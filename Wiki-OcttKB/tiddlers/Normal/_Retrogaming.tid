@@ -1,6 +1,6 @@
 created: 20221102121324531
 creator: Octt
-modified: 20231107225357280
+modified: 20231110235957848
 modifier: Octt
 tags: Emulation Retro $:/i18n:en Gaming
 title: Retrogaming
@@ -19,5 +19,6 @@ title: Retrogaming
 
 !!! ''Misc''
 
+* <<linkdescgit "RetroReversing" "https://www.retroreversing.com/" "Awesome website for reverse engineering retro games" "https://github.com/RetroReversing">>
 * [[Decompiled Retail Console Games [Retro Reversing]|https://www.retroreversing.com/source-code/decompiled-retail-console-games]]
 * [[retrobrews|https://retrobrews.github.io]] --- //Free game collections for easy installing/playing on RetroPie// (abandoned?)

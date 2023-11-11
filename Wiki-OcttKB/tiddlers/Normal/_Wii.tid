@@ -1,6 +1,6 @@
 created: 20231024225405083
 creator: Octt
-modified: 20231105002646839
+modified: 20231110235801068
 modifier: Octt
 tags: Nintendo
 title: Wii
@@ -12,4 +12,6 @@ title: Wii
 
 * <<linkdescgit "Open Shop Channel""https://oscwii.org" "Homebrew apps library for the Nintendo Wii." "https://github.com/OpenShopChannel">>
 
+* [[The Homebrew Channel - open source edition|https://github.com/fail0verflow/hbc]]
+** "[[The (Open) Homebrew Channel|https://hackmii.com/2016/11/the-open-homebrew-channel/]]" (article)
 * <<linkdesc "USB Loader GX" "https://github.com/wiidev/usbloadergx" "allows you to play Wii and GameCube games from a USB storage device or an SD card, launch other homebrew apps, create backups, use cheats in games...">>

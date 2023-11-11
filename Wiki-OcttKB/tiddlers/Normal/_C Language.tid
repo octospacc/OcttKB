@@ -1,6 +1,6 @@
 created: 20231029134919585
 creator: Octt
-modified: 20231109235401310
+modified: 20231110234423621
 modifier: Octt
 tags: 
 title: C Language
@@ -14,6 +14,7 @@ title: C Language
 * [[Pointers in C: when to use the ampersand and the asterisk?|https://stackoverflow.com/questions/2094666/pointers-in-c-when-to-use-the-ampersand-and-the-asterisk#2094715]]
 ** Related: [[error: invalid type argument of ‘unary *’ (have ‘int’)|https://stackoverflow.com/questions/5455866/error-invalid-type-argument-of-unary-have-int#5455962]], this happens when using `*` against a value instead of a pointer, since you can't dereference a value from a value.
 * [[What is a "callback" in C and how are they implemented?|https://stackoverflow.com/questions/142789/what-is-a-callback-in-c-and-how-are-they-implemented/142809#142809]] (function pointers)
+** [['declared as a function' in C|https://stackoverflow.com/questions/23329261/declared-as-a-function-in-c#23329274]] --- function pointers in structs must be declared with the syntax `type (functionName*)( type arg1, ... )`
 
 * [[Where should I prefer pass-by-reference or pass-by-value?|https://stackoverflow.com/questions/4986341/where-should-i-prefer-pass-by-reference-or-pass-by-value]] --- (performance-wise) //"here's the simple rule: pass by reference when the value is large."//
 ** [[When should I pass or return a struct by value?|https://stackoverflow.com/questions/30980759/when-should-i-pass-or-return-a-struct-by-value]]
