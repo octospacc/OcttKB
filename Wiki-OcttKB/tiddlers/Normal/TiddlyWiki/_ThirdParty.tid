@@ -1,6 +1,6 @@
 created: 20230206113426599
 creator: Octt
-modified: 20231105003234957
+modified: 20231112001352635
 modifier: Octt
 tags: 
 title: TiddlyWiki/ThirdParty
@@ -52,4 +52,5 @@ title: TiddlyWiki/ThirdParty
 
 !!!! ''Individual Themes''
 
+* [[Notebook theme|https://nicolas.petton.fr/tw/notebook.html]] --- //clean, uncluttered theme for TiddlyWiki// --- <<[# Git"https://github.com/NicolasPetton/notebook">>
 * [[👻✨ whitespace theme|http://j.d.whitespace.tiddlyspot.com/]] --- //negative-spacious, webapp-nostalgic theme for TiddlyWiki//

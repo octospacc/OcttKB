@@ -1,7 +1,7 @@
 created: 20221110120605389
 creator: Octt
 icon: 🐍
-modified: 20231104233611819
+modified: 20231111224955703
 modifier: Octt
 page-cover: https://source.unsplash.com/random/?Python
 tags: Development
@@ -15,7 +15,8 @@ I hate that, while tab-indentation is practically supported by the interpreter, 
 
 ---
 
-* [[PocketPy|https://pocketpy.dev/]] - //C++17 header-only Python interpreter for game engines.// - <<[ "[[Git|https://github.com/blueloveTH/pocketpy]]">>
+* [[Thonny|https://thonny.org/]] --- //Python IDE for beginners//, especially useful and comfy for integrating full MicroPython support, meaning one can edit the scripts residing on the MP device directly --- <<#[ Git"https://github.com/thonny/thonny">>
+* [[PocketPy|https://pocketpy.dev/]] - //C++17 header-only Python interpreter for game engines.// --- <<[ "[[Git|https://github.com/blueloveTH/pocketpy]]">>
 
 * <<httpL Python.helpful.codes>>
 * <<linkdescgit "Python Tips / Intermediate Python Book" "https://book.pythontips.com/en/latest/" "topics which are discussed in this book open up your mind towards some nice corners of Python language" "https://github.com/yasoob/intermediatePython">>

@@ -1,0 +1,10 @@
+created: 20230108192258947
+creator: Octt
+modified: 20231111233122335
+modifier: Octt
+tags: 
+title: ActivityPub
+
+<<^wikipediaframe ActivityPub en>>
+
+* <<httpsL ActivityPub.Academy>> --- //fork of Mastodon that has been adapted to visualize the ActivityPub protocol exchanges between different Mastodon instances// --- <<[# Git"https://github.com/sgrj/mastodon">>

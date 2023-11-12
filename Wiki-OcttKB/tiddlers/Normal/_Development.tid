@@ -1,6 +1,6 @@
 created: 20230613185754543
 creator: Octt
-modified: 20231109001107345
+modified: 20231111232150358
 modifier: Octt
 tags: 
 title: Development
@@ -17,3 +17,7 @@ title: Development
 * [[Compilation and Installation using Autoconf|https://opensource.apple.com/source/X11libs/X11libs-60/mesa/Mesa-7.8.2/docs/autoconf.html]]
 * [[What is the purpose of .PHONY in a Makefile?|https://stackoverflow.com/questions/2145590/what-is-the-purpose-of-phony-in-a-makefile]] --- TLDR: it's to declare "fake" targets that must build independently from actual files on disk (that make would otherwise use as targets), it doesn't mean "sound" or "pronunciation" or otherwise the full list of only allowed build targets, as I initially thought because of associating phony => telephony => ...
 * <<linkdescgit "Modern CMake" "https://cliutils.gitlab.io/modern-cmake/" "A book about using CMake for your projects" "https://gitlab.com/CLIUtils/modern-cmake">>
+
+* [[Replit: The software creation platform. IDE, AI, and Deployments|https://replit.com/]]
+**  [[Repl.it Offline|https://web.archive.org/web/20230330151345/https://offline.repl.it/]] (joke) --- //Repl.it's most requested feature has finally come: an offline, local-first IDE.//
+*** [[We still get mailed code and we still mail back outputs in case you thought we stopped https://offline.repl.it|https://web.archive.org/web/20230129101236/https://twitter.com/amasad/status/1442672024397045761]]
