@@ -1,10 +1,13 @@
 created: 20231111224636577
 creator: Octt
-modified: 20231111232534820
+modified: 20231112233509196
 modifier: Octt
 tags: 
 title: Code editor
 
 <<^wikipediaframe "Code editor">>
 
+* <<linkdescgit Geany"https://www.geany.org/" "The Flyweight IDE" "https://github.com/geany">>
 * <<linkdescgit ICEcoder"https://icecoder.net/" "Code editor awesomeness ...in your browser" "https://github.com/icecoder">> --- seems it's not at all optimized for mobile, kind of a waste
+* [[Notepad++|https://notepad-plus-plus.org/]] --- <<[# Git"https://github.com/notepad-plus-plus">>
+** [[notepadqq|https://notepadqq.com/]] --- //simple, general-purpose editor for Linux//, heavily inspired from Notepad++ (apparently not actively maintained anymore) --- <<[# Git"https://github.com/notepadqq">>

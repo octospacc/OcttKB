@@ -1,0 +1,16 @@
+created: 20221006205957260
+creator: Octt
+modified: 20231112235129459
+modifier: Octt
+tags: Development Gaming $:/i18n:en
+title: Game development
+
+<<^wikipediaframe "Video game development">>
+
+* <<linkdescgit "Godot Engine" "https://godotengine.org" "feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface" "https://github.com/godotengine">>
+* [[raylib|https://www.raylib.com/]] --- //simple and easy-to-use library to enjoy videogames programming// --- [[[Git|https://github.com/raysan5/raylib]]]
+
+* [[[PICO-8] Advanced Micro Platformer - Starter Kit|https://www.lexaloffle.com/bbs/?tid=28793]]
+
+* <<YoutubeL rWtfClpWSb8 "Understanding framerate independence and deltatime">>
+* [[Fix Your Timestep|https://gafferongames.com/post/fix_your_timestep/]] --- aka futile exercises in making games that run properly at a variable framerate, the only way that works is separating the game loop in 2 contexts, like [[in Unity|https://docs.unity3d.com/Manual/TimeFrameManagement.html]] (`FixedUpdate` and `Update`) or Godot (`_process` and `_physics_process`) --- <<HackernewsL 23649406>>

@@ -1,5 +1,6 @@
 created: 20221008141221923
-modified: 20230206111552123
+creator: Octt
+modified: 20231112232329809
 modifier: Octt
 tags: Snippets $:/i18n:en
 title: FFmpeg/Snippets
@@ -7,7 +8,7 @@ title: FFmpeg/Snippets
 !! Flags
 
 * Specify an input file: `-i ${File}`
-* Framerate: `-r ${r}`, `-framerate ${r}` (//use both because one sometimes doesn't work//)
+* Framerate: `-r ${r}`, `-framerate ${r}` (//use both because one sometimes doesn't work//) ([[other ways|https://stackoverflow.com/questions/45462731/using-ffmpeg-to-change-framerate#45465730]])
 
 
 !!! Filter Flags
