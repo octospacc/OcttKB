@@ -1,0 +1,12 @@
+created: 20231115233135878
+creator: Octt
+modified: 20231115233436963
+modifier: Octt
+tags: 
+title: C++
+
+<<^wikipediaframe C++>>
+
+* [[ISO C++ Standard Foundation|https://isocpp.org/]]
+* [[mixing c and cpp|https://isocpp.org/wiki/faq/mixing-c-and-cpp]]
+** [[What is the effect of extern "C" in C++?|https://stackoverflow.com/questions/1041866/what-is-the-effect-of-extern-c-in-c]], and how to use it in practice to effectively mix C and C++

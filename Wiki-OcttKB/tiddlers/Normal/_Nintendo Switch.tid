@@ -1,13 +1,13 @@
 created: 20220925130302833
 creator: Octt
-modified: 20231022235542587
+modified: 20231115232831533
 modifier: Octt
 tags: Nintendo Gaming NX Console
 title: Nintendo Switch
 
 ''Nintendo Switch'' is a family of portable game consoles created by [[Nintendo|Nintendo]]. It is notorius for being made of [[papier-mâché|Papier-mâché]], essentially suffering from a variety of structural problems.
 
-<<LImg "https://i.ytimg.com/vi_webp/Cb-srOfRqNc/maxresdefault.webp" "https://youtu.be/Cb-srOfRqNc">>
+<<ibox "https://i.ytimg.com/vi_webp/Cb-srOfRqNc/maxresdefault.webp" "https://youtu.be/Cb-srOfRqNc">>
 
 The console's introduction was hyped due to it being the first ever Nintendo console to be created with both home and portable use in mind. The name itself comes from the fact that the console can //switch//, from being connected to a TV to being able to be used standalone.
 
@@ -33,3 +33,4 @@ The console's introduction was hyped due to it being the first ever Nintendo con
 !!! Development
 
 * [[SwitchBrew Wiki|https://switchbrew.org/wiki/Main_Page]]
+** [[switchbrew/switch-examples|https://github.com/switchbrew/switch-examples]] --- //Switch examples for devkitA64 and libnx//

@@ -1,6 +1,6 @@
 created: 20220923110724649
 creator: Octt
-modified: 20230206111552230
+modified: 20231115232741597
 modifier: Octt
 tags: Gaming Nintendo Console
 title: Nintendo 3DS
@@ -8,3 +8,4 @@ title: Nintendo 3DS
 <<^wikipediaframe "Nintendo 3DS">>
 
 * [[Install FBI on CTRNAND|https://gbatemp.net/threads/install-fbi-on-ctrnand.616119/]] (or any title, manual procedure)
+* [[devkitpro/3ds-examples|https://github.com/devkitPro/3ds-examples]] --- //Examples for 3DS using devkitARM, libctru, citro3d and citro2d//
