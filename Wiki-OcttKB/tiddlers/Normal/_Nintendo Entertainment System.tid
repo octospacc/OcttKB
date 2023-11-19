@@ -1,6 +1,6 @@
 created: 20230202104823127
 creator: Octt
-modified: 20231110001404551
+modified: 20231119011705431
 modifier: Octt
 tags: Nintendo Gaming $:/i18n:en Console
 title: Nintendo Entertainment System
@@ -12,6 +12,8 @@ title: Nintendo Entertainment System
 * <<YoutubeL bfJzJOQqsDk "Pushing The Limits of the NES: Amazing Hacks That Made NES Games Possible [Sharopolis]">>
 * [[NES (Famicom) Development Kit Hardware [Retro Reversing]|https://www.retroreversing.com/famicom-nes-development-kit/]]
 
+* (Playlists of) [[Some NES Multicarts Music|https://www.youtube.com/playlist?list=PLP3KtH7oe6jVGoqvVgKldhrYn8q9pxx44]] ; [[NES/Famicom Multicarts Music Remake Video|https://www.youtube.com/playlist?list=PLP3KtH7oe6jUNno7Y2xjeTVIvTy9ig9Hp]]
+
 * [[NesDev.org|https://www.nesdev.org/]] --- //Info, programs, and more//
 * [[Nintendo Entertainment System Documentation|https://www.nesdev.org/NESDoc.pdf]]
 * <<httpL nes.science>> --- //home to a bunch of random NES stuff// and useful archives
@@ -22,6 +24,9 @@ title: Nintendo Entertainment System
 * [[NES Programming [Wikibooks]|https://en.wikibooks.org/wiki/NES_Programming]] --- an extremely WIP resource on the matter as of 2023/11, but it's worth for it being just a concise list of specs and memory layout
 
 * General [[Useful tools for NES development|https://www.nesdev.org/wiki/Tools]]
+** [[FamiStudio|https://famistudio.org/]] --- //very simple music editor for NES/Famicom targeted at both chiptune artists and NES homebrewers// --- <<[# Git"https://github.com/BleuBleu/FamiStudio">>
+** FamiTracker: after official development ceased and website died, see <<RedditL r/famitracker/comments/n97ve9/where_do_i_download_famitracker/ "Where do I download famitracker?">>
+*** apparently, current best fork is [[Dn-Famitracker|https://github.com/Dn-Programming-Core-Management/Dn-FamiTracker]]
 ** [[nixel|https://alexpate.net/nixel/]] --- web editor for CHRs inside NES ROMs with a good UX
 ** [[NEXXT|https://frankengraphics.itch.io/nexxt]] --- //Featureful NES assets studio based off the classic "NES Screen Tool". It's the "famitracker" of NES graphics.// (sources included)
 

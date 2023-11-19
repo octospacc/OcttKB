@@ -1,6 +1,6 @@
 created: 20230207213320932
 creator: Octt
-modified: 20231105004301241
+modified: 20231118203412795
 modifier: Octt
 tags: Microsoft Proprietary OS
 title: Windows
@@ -19,6 +19,7 @@ title: Windows
 ** [[One-Core-API|https://github.com/Skulltrail192/One-Core-Api]] --- //complete layer to get compatibility on XP/2003 for newer applications// --- <<#[ Binaries "https://github.com/Skulltrail192/One-Core-API-Binaries">>
 * some [[Windows 98SE Utilities|http://dk.toastednet.org/vogons/win98/]]
 * [[Windows 2000 Modernization Guide|https://w2k.phreaknet.org/guide/]]
+* Visual Studio 6: [[Download VS6|https://winworldpc.com/product/microsoft-visual-stu/60]] ; [[Download MSDN VS6|https://winworldpc.com/product/msdn/vs-60]]; [[Installer wizard 5.0 for installing on Windows 10|http://nuke.vbcorner.net/Articles/VB60/VisualStudio6Installer/tabid/93/language/en-US/Default.aspx]]
 
 !!! ''Distros''
 
