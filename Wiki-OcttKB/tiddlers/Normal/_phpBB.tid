@@ -1,6 +1,6 @@
 created: 20230818075833750
 creator: Octt
-modified: 20230919202644915
+modified: 20231119152821235
 modifier: Octt
 tags: Forum
 title: phpBB
@@ -11,6 +11,8 @@ title: phpBB
 <<^wikipediaframe phpBB>>
 
 * [[How to Install phpBB with Nginx and MariaDB on Ubuntu Linux|https://geekrewind.com/install-phpbb-on-ubuntu-17-04-17-10-with-nginx-mariadb-and-php-support/]] --- Note: the `php-fpm` package might need to be installed by specifying version, and it's better to use [[phpBB's official nginx.sample.conf|https://github.com/phpbb/phpbb/blob/master/phpBB/docs/nginx.sample.conf]].
+
+* [[phpBB Studio|https://phpbbstudio.com]] --- //Extension developers for phpBB//
 
 !!! ''Extensions''
 

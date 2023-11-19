@@ -1,0 +1,14 @@
+created: 20231119143345968
+creator: Octt
+modified: 20231119150037031
+modifier: Octt
+tags: Gaming Console
+title: PlayStation 1
+
+<<^wikipediaframe "PlayStation 1">>
+
+* [[PlayStation Bare Metal Mips Assembly Programming Code Examples by krom|https://github.com/PeterLemon/PSX]]
+
+!!! Emulators, Debuggers
+
+* [[no$psx|https://problemkaputt.de/psx.htm]] --- //nocash Playstation PSone emulator and debugger by martin korth//, + resources

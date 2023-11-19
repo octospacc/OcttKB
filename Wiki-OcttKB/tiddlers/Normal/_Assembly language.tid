@@ -1,0 +1,10 @@
+created: 20231119143717311
+creator: Octt
+modified: 20231119143843428
+modifier: Octt
+tags: 
+title: Assembly language
+
+<<^wikipediaframe "Assembly language">>
+
+* [[armips assembler|https://github.com/Kingcom/armips]] --- //assembler for various ARM and MIPS platforms//

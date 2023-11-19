@@ -1,6 +1,6 @@
 created: 20230605214923345
 creator: Octt
-modified: 20230725114604938
+modified: 20231119150258479
 modifier: Octt
 tags: 
 title: Unix/Shell
@@ -15,6 +15,7 @@ title: Unix/Shell
 * [[Split string with symbol|https://stackoverflow.com/a/10638555]]
 * [[How to find the last field using 'cut'|https://stackoverflow.com/questions/22727107/how-to-find-the-last-field-using-cut]] --- `echo 'maps.google.com' | rev | cut -d'.' -f 1 | rev`
 * [[Check if a string begins with some value|https://stackoverflow.com/questions/2172352/in-bash-how-can-i-check-if-a-string-begins-with-some-value#18558871]] --- `beginswith(){ case $2 in "$1"*) true;; *) false;; esac; }`
-* [[How can I remove the extension of a filename in a shell script?|https://stackoverflow.com/questions/12152626/how-can-i-remove-the-extension-of-a-filename-in-a-shell-script]]
+* [[Remove the extension of a filename, get filename path, ... using POSIX's built-in script only|https://gist.github.com/nimula/385938957bb96234aa62abc6ed8f950e]]
+** [[How can I remove the extension of a filename in a shell script?|https://stackoverflow.com/questions/12152626/how-can-i-remove-the-extension-of-a-filename-in-a-shell-script]]
 
 * "error: arithmetic expression: expecting primary"... --- happens when calling an arithmetic expression (e.g. `$(( 5 * 7 ))`) with a missing parameter, or with quotes, in `sh`; `bash` accepts quotes and doesn't error instead. Don't use quotes in mathexps in `sh`.
