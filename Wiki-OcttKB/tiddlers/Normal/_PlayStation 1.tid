@@ -1,6 +1,6 @@
 created: 20231119143345968
 creator: Octt
-modified: 20231119150037031
+modified: 20231120000452299
 modifier: Octt
 tags: Gaming Console
 title: PlayStation 1
@@ -8,6 +8,8 @@ title: PlayStation 1
 <<^wikipediaframe "PlayStation 1">>
 
 * [[PlayStation Bare Metal Mips Assembly Programming Code Examples by krom|https://github.com/PeterLemon/PSX]]
+* [[Let's do NYO: ~Introduction to PlayStation research presented by Dokuda Jigokusai~|https://drhell.web.fc2.com/ps1/index.html]]
+* <<httpL netyaroze.com>>
 
 !!! Emulators, Debuggers
 
