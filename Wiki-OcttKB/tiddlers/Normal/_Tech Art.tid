@@ -1,13 +1,13 @@
 created: 20230504095843099
 creator: Octt
-modified: 20230926084823601
+modified: 20231122001633046
 modifier: Octt
 tags: Art
 title: Tech Art
 
 <<^wikipediaframe "Electronic art">>
 
-<<linkdescgit dwitter "https://www.dwitter.net/" "Social network for short js demos" "https://github.com/lionleaf/dwitter">> --- <<[# "Frontend Git" "https://github.com/dwitter-net/dwitter-frontend">>
+* <<linkdescgit dwitter "https://www.dwitter.net/" "Social network for short js demos" "https://github.com/lionleaf/dwitter">> --- <<[# "Frontend Git" "https://github.com/dwitter-net/dwitter-frontend">>
 
 Some interesting tech art pieces follow.
 
@@ -19,6 +19,7 @@ Some interesting tech art pieces follow.
 * [[Internet Explorer 6 Error|https://mrdoob.com/lab/javascript/effects/ie6/index.html]]
 * [[neal – Space Elevator|https://neal.fun/space-elevator]]
 * [[Arktis – Tweet Demo|https://arkt.is/t/Yy53aWR0aD0yZTM7dCo9Mzt4LnRyYW5zbGF0ZSg5ODAsNDUwKTtmb3IoaT0wO2k8MzIyOyl4LmZpbGxTdHlsZT1SKGkpLHgucm90YXRlKCFpKkModC09LjAzKSshKGkrKyU0KSpTKHQpLzkrMS41NykseC5maWxsUmVjdCg1KmksNSppLDk5LDk5KQ==]] --- <<[# Git "https://github.com/sigvef/arktis-tweet-demo">>
+* [[http error CSS cube|https://web.archive.org/web/20231121232217/https://xyz.is/]] (info unknown)
 
 * [[p01 – Impossible Road|http://www.p01.org/JS1K_2015_impossible_road/]]
 * [[p01 – Micro Nova|http://www.p01.org/512b_micro_nova]]

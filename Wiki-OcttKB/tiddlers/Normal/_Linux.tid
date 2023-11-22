@@ -1,7 +1,7 @@
 created: 20230111153758951
 creator: Octt
 icon: 🐧
-modified: 20231109000427097
+modified: 20231121235617368
 modifier: Octt
 page-cover: https://images.unsplash.com/photo-1549605659-32d82da3a059?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 tags: $:/i18n:en Unix
@@ -24,6 +24,7 @@ title: Linux
 
 * LDP (obsolete?)
 ** [[The Network Administrators' Guide|https://tldp.org/LDP/nag/]]
+** [[Linux-MIPS for PS1?|https://www.linux-mips.org/wiki/PS1]]
 
 * [[SquashFS|https://tldp.org/HOWTO/SquashFS-HOWTO/whatis.html]], [[DwarFS|https://github.com/mhx/dwarfs]]
 * cannot access fuse mount as root or other users, [[Why does root get Permission denied when accessing FUSE directory?|https://unix.stackexchange.com/questions/17402/why-does-root-get-permission-denied-when-accessing-fuse-directory#17423]] --- To allow access to other users, add `user_allow_other` in `/etc/fuse.conf`, then mount fs with `-o allow_root` (only root) or `-o allow_other` (any user, including root).
