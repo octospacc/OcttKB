@@ -1,7 +1,7 @@
 created: 20230130075428259
 creator: Octt
 icon: ⛏️
-modified: 20230916153550306
+modified: 20231123232805006
 modifier: Octt
 page-cover: https://source.unsplash.com/random?Minecraft
 tags: $:/i18n:en Game Proprietary Sandbox 3D
@@ -24,3 +24,7 @@ title: Minecraft
 * [[Minetest|https://www.minetest.net/]] --- //open source voxel game engine with easy modding and game creation// --- <<#[ Git "https://github.com/minetest">>
 * [[CavEx|https://github.com/xtreme8000/CavEX]] --- //Project to recreate your favourite block game for the Wii (Beta 1.7.3)//
 * [[Blocks TI-84|https://github.com/TheScienceElf/Blocks-TI-84]] --- //Minecraft-esque game for the TI 84 CE calculator//
+
+!!! Misc
+
+* [[Legacy-Docs|https://modifiedcommand.github.io/Legacy-Docs/]] --- //Documentation about Minecraft: Legacy Console Edition with Vue Press// --- <<[# Git"https://github.com/ModifiedCommand/Legacy-Docs">>

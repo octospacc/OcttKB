@@ -1,6 +1,6 @@
 created: 20231119143717311
 creator: Octt
-modified: 20231119143843428
+modified: 20231123234234466
 modifier: Octt
 tags: 
 title: Assembly language
@@ -8,3 +8,9 @@ title: Assembly language
 <<^wikipediaframe "Assembly language">>
 
 * [[armips assembler|https://github.com/Kingcom/armips]] --- //assembler for various ARM and MIPS platforms//
+* [[ABC: A C compiler for printable x86|http://tom7.org/abc/]] --- includes a paper encoded as an executable with this setup, and a full YT video
+* [[AA86 - Symbolic assembler demo|https://utf-8.jp/public/sas/index.html]] --- generates 8086 executables made of only cute printable characters, from ASM
+
+* [[Programming in assembly language tutorial|https://github.com/mschwartz/assembly-tutorial]]
+
+* [[Referencing operands/parameters in GNU assembler macros?|https://stackoverflow.com/questions/19764952/referencing-operands-parameters-in-gnu-assembler-macros]] --- just prepend backslash to the name, e.g. `\operand`

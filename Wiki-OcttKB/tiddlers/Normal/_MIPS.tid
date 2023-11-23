@@ -1,0 +1,17 @@
+created: 20231123184226189
+creator: Octt
+modified: 20231123221454361
+modifier: Octt
+tags: 
+title: MIPS
+
+<<^wikipediaframe "MIPS architecture">>
+
+* [[MIPS Assembly (Wikibooks)|https://en.wikibooks.org/wiki/MIPS_Assembly]]
+* [[MIPS Reference Sheet|https://uweb.engr.arizona.edu/~ece369/Resources/spim/MIPSReference.pdf]]
+* [[Jarrett Billingsley's Computer Organization & Assembly Materials|https://jarrettbillingsley.github.io/teaching/classes/cs0447/materials]] including MIPS pages
+* [[Abdelrahman Nasr's MIPS cheatsheet|https://t1m3m.github.io/posts/MIPS-cheatsheet/]]
+
+* [[represent a struct in mips32|https://stackoverflow.com/questions/60112137/represent-a-struct-in-mips32]] --- after analyzing the C struct declaration to understand how many bytes it requires, //a good idea here would be to allocate some `.space`//, e.g. `theStruct:
+  .align 2  # MIPS needs word alignment
+  .space 16 # Size of struct`, then use with `la $register,theStruct`

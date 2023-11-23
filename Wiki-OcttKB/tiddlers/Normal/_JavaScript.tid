@@ -1,6 +1,6 @@
 created: 20221110145611678
 creator: Octt
-modified: 20231111000917482
+modified: 20231123233247713
 modifier: Octt
 tags: Development $:/i18n:en Web
 title: JavaScript
@@ -41,3 +41,6 @@ title: JavaScript
 * [[UglifyJS|https://lisperator.net/uglifyjs/]] - //JavaScript parser / mangler / compressor / beautifier// - <<[ "[[Git|https://github.com/mishoo/UglifyJS]]">>
 ** <<linkdescgit "UglifyJS 3: Online JavaScript minifier" "https://skalman.github.io/UglifyJS-online/" "JavaScript minifier in the browser" "https://github.com/Skalman/UglifyJS-online">>
 * <<linkdescgit de4js "https://lelinhtinh.github.io/de4js" "JavaScript Deobfuscator and Unpacker" "https://github.com/lelinhtinh/de4js">>
+
+* [[aaencode demo|https://utf-8.jp/public/aaencode.html]] --- //Encode any JavaScript program to Japanese style emoticons (^_^)//
+* [[jjencode demo|https://utf-8.jp/public/jjencode.html]] --- encode JS using limited symbols
