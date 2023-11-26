@@ -1,6 +1,6 @@
 created: 20230216222435750
 creator: Octt
-modified: 20231027110212490
+modified: 20231126230016941
 modifier: Octt
 tags: Development
 title: Development/Resources
@@ -13,6 +13,7 @@ title: Development/Resources
 : [[Rollbar Tutorials|https://rollbar.com/blog/category/tutorials/]]
 : [[MDN Web Docs|https://developer.mozilla.org/en-US/]] (Mozilla)
 : [[Programiz|https://www.programiz.com/]]
+: [[Programming Simplified|https://www.programmingsimplified.com/]] --- //C C++ and Java programming tutorials and programs//
 : [[W3Schools|https://www.w3schools.com/]]
 : <<linkdescgit DevDocs "https://devdocs.io" "API Documentation Browser" "https://github.com/freeCodeCamp/devdocs">>
 

@@ -1,6 +1,6 @@
 created: 20231029134919585
 creator: Octt
-modified: 20231123214941199
+modified: 20231126230129282
 modifier: Octt
 tags: 
 title: C Language
@@ -30,3 +30,6 @@ title: C Language
 ** "compound conditionals" are supported, eg. `#if defined(X) || (defined(Y) && defined(Z))`...
 
 * [[How to enforce C89-style variable declarations in gcc?|https://stackoverflow.com/questions/3099813/how-to-enforce-c89-style-variable-declarations-in-gcc#3099874]] --- for some things of this goal, just the flags `-Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wdeclaration-after-statement` are needed, I would guess.
+
+* [[How to get the current directory in a C program?|https://stackoverflow.com/questions/298510/how-to-get-the-current-directory-in-a-c-program]] --- (`getcwd(...)`)
+* [[C Program to list all files and sub-directories in a directory|https://www.geeksforgeeks.org/c-program-list-files-sub-directories-directory/]]

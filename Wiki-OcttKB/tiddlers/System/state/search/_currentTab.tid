@@ -1,7 +1,7 @@
 created: 20230501095944427
 creator: Octt
-modified: 20231125201431066
+modified: 20231126225929119
 modifier: Octt
 title: $:/state/search/currentTab
 
-$:/plugins/danielo515/ContextPlugin/visualizer
+$:/core/ui/DefaultSearchResultList
