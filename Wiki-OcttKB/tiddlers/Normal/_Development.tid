@@ -1,6 +1,6 @@
 created: 20230613185754543
 creator: Octt
-modified: 20231123222822706
+modified: 20231204002753646
 modifier: Octt
 tags: 
 title: Development
@@ -11,6 +11,8 @@ title: Development
 
 * <<RedditL r/webdev/comments/spr2db/confused_about_web_app_architecture_and/ "Confused about web app architecture and separation of frontend and backend">>
 * [[What package naming convention do you use for personal/hobby projects|https://stackoverflow.com/questions/292169/what-package-naming-convention-do-you-use-for-personal-hobby-projects-in-java]] in Java/Android/Flatpak?
+* [[Should images be stored in a git repository?|https://softwareengineering.stackexchange.com/questions/80962/should-images-be-stored-in-a-git-repository]] [or any SCM]
+
 * [[Why would a game developer write their own engine instead of using existing ones?|https://gamedev.stackexchange.com/questions/74388/why-would-a-game-developer-write-their-own-engine-instead-of-using-existing-ones]]
 ** <<RedditL r/gamedev/comments/91u7ia/is_it_worth_my_time_in_2018_to_make_a_game_using "Is it worth my time in 2018 to make a game using only C and SDL?">>
 * [[How to Mix C and Assembly|https://www.devdungeon.com/content/how-mix-c-and-assembly]]

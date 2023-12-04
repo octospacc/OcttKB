@@ -1,6 +1,6 @@
 created: 20221110145611678
 creator: Octt
-modified: 20231126233747991
+modified: 20231204004554051
 modifier: Octt
 tags: Development $:/i18n:en Web
 title: JavaScript
@@ -12,6 +12,9 @@ title: JavaScript
 * [[Ecma International TC39|https://tc39.es/]] - Committee maintaining JS specifications
 
 !!! ''Resources''
+
+* [[The Modern JavaScript Tutorial (javascript.info)|https://javascript.info/]] --- //How it's done now. From the basics to advanced topics with simple, but detailed explanations.//
+* <<httpsL JavaScriptTutorial.net>> --- //helps you learn JavaScript programming from scratch quickly and effectively//
 
 * [[Which equals operator (== vs ===) should be used in JavaScript comparisons?|https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons]] ("Good and bad twins") --- `==` is bad unless explicitly needed, since it does type-coercion.
 ** [[In theory === is faster, no type conversion takes place. Practically there's no performance difference.|https://stackoverflow.com/questions/12332855/which-javascript-equality-operator-or-is-faster]]
@@ -28,11 +31,13 @@ title: JavaScript
 * [[How to get text from all descendents of an element (disregarding scripts)?|https://stackoverflow.com/questions/2532043/how-to-get-text-from-all-descendents-of-an-element-disregarding-scripts]]
 * [[Converting HTML string into DOM elements?|https://stackoverflow.com/questions/3103962/converting-html-string-into-dom-elements#3104237]] --- `doc = new DOMParser().parseFromString(htmlString, 'text/html')`
 * [[set doctype using javascript|https://stackoverflow.com/questions/21523487/set-doctype-using-javascript]]
+* [[JavaScript Regex Replace Tutorial|https://www.javascripttutorial.net/javascript-regex/replace/]]
 
 * [[Array.prototype.splice()|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice]], [[JavaScript Array splice() (W3S)|https://www.w3schools.com/jsref/jsref_splice.asp]] --- //changes the contents of an array by removing or replacing existing elements and/or adding new elements in place//
 * <<MDNLink Web/JavaScript/Reference/Global_Objects/Array/concat "Array.prototype.concat()">> --- //used to merge two or more arrays, does not change the existing arrays but instead returns a new one//
 * [[XMLHttpRequest|https://www.w3schools.com/xml/xml_http.asp]]
 ** <<MDNLink Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests "Synchronous and asynchronous requests">>
+* [[HTML DOM Events|https://www.w3schools.com/jsref/dom_obj_event.asp]]
 
 !!! ''Tools''
 

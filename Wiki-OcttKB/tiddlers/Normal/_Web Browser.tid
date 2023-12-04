@@ -1,6 +1,6 @@
 created: 20230217100639349
 creator: Octt
-modified: 20231008222337107
+modified: 20231203234841192
 modifier: Octt
 tags: Web
 title: Web Browser
@@ -9,9 +9,11 @@ title: Web Browser
 
 !!! [[Chromium|https://chromium.org]]
 
+* [[Website by woolyss|https://chromium.woolyss.com/]] --- //created in 2013 because there was no easy way to download good and stable releases of Chromium, on Windows// ... also indexes other Chromium downloads
+
 ; Forks
 : [[Ungoogled Chromium|https://github.com/ungoogled-software]]
-: [[Bromite|https://bromite.org]] (Android)
+: [[Bromite|https://bromite.org]] (Android) --- <<[# Git"https://github.com/bromite">>
 
 !!! [[Firefox|https://firefox.com]]
 

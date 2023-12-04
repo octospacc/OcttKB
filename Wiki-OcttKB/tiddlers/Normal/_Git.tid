@@ -1,6 +1,6 @@
 created: 20230202231537773
 creator: Octt
-modified: 20231105145743424
+modified: 20231204000848267
 modifier: Octt
 tags: Libre
 title: Git
@@ -14,6 +14,7 @@ title: Git
 ** to ''add a push remote'' to a local repo, it's simple: `git remote add origin https://site.tld/user/repo.git`
 * [[How to modify existing, unpushed commit messages?|https://stackoverflow.com/questions/179123/how-to-modify-existing-unpushed-commit-messages#179147]]
 ** Amending the ''most recent commit message'': `git commit --amend` (with optionally `-m "commit message"`)
+* [[How to delete all commits in a Git repository and replace it with a single “initial commit”|https://lanedirt.tech/2022/05/how-to-delete-all-commits-in-a-git-repository-and-replace-it-with-a-single-initial-commit/]]
 
 !!! ''Apps''
 * [[GitJournal|https://gitjournal.io/]] - //Mobile first Markdown Notes integrated with Git// --- <<[ "[[Git|https://github.com/GitJournal]]">>

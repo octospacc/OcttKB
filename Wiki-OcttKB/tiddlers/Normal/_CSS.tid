@@ -1,7 +1,7 @@
 created: 20230209150101862
 creator: Octt
 icon: 💅
-modified: 20231107215025095
+modified: 20231204002341236
 modifier: Octt
 page-cover: https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19
 tags: Web
@@ -12,7 +12,8 @@ title: CSS
 !!! ''References''
 
 * [[CSS Attribute Selectors|https://www.w3schools.com/css/css_attribute_selectors.asp]]
-* <<MDNLink Web/CSS/border-style border-style>> --- all ways to style a border, not only colors
+* [[CSS Borders [w3s]|https://www.w3schools.com/css/css_border.asp]]
+** <<MDNLink Web/CSS/border-style border-style>> --- all ways to style a border, not only colors
 
 !!! ''Amazing''
 

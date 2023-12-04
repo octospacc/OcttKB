@@ -1,0 +1,11 @@
+created: 20231203235203040
+creator: Octt
+modified: 20231203235818224
+modifier: Octt
+tags: 
+title: New
+
+<<^wikipediaframe "Templating language">>
+
+* [[Liquid|https://shopify.github.io/liquid/]] (docs) --- //Safe, customer-facing template language for flexible web apps.//, as well as many static site generators --- <<[# Git"https://github.com/Shopify/liquid">>
+** [[How to concatenate / append a string to another one in Jekyll / Liquid?|https://stackoverflow.com/questions/23688939/how-to-concatenate-append-a-string-to-another-one-in-jekyll-liquid]] --- best way is `{% capture varfull %}{{ var1 }} and also {{ var2 }}{% endcapture %}`

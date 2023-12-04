@@ -1,6 +1,6 @@
 created: 20230116211647194
 creator: Octt
-modified: 20231126234302571
+modified: 20231204003658669
 modifier: Octt
 tags: $:/i18n:en
 title: Emulation
@@ -16,6 +16,7 @@ title: Emulation
 
 !!! ''Web Sites''
 * [[Emulation General Wiki|https://emulation.gametechwiki.com]]
+* [[Zophar's Domain|https://www.zophar.net/]]
 
 !!! ''Game Console Emulators''
 * https://github.com/EmulatorJS
