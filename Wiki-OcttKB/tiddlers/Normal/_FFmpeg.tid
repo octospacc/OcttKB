@@ -1,0 +1,10 @@
+created: 20231210222318699
+creator: Octt
+modified: 20231210222659341
+modifier: Octt
+title: FFmpeg
+
+<<^wikipediaframe FFmpeg>>
+
+* [[ffmpeg.wasm|https://ffmpegwasm.netlify.app/]] --- //FFmpeg for browser, powered by WebAssembly// --- <<[# Git"https://github.com/ffmpegwasm">>
+** [[ffmpeg-web|https://ffmpeg-web.netlify.app/]] --- //Web UI for ffmpeg-wasm: convert video, audio and images using the power of ffmpeg, directly from your browser// --- <<[# Git"https://github.com/dinoosauro/ffmpeg-web">>

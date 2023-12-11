@@ -1,6 +1,6 @@
 created: 20220925130302833
 creator: Octt
-modified: 20231115232831533
+modified: 20231210220557478
 modifier: Octt
 tags: Nintendo Gaming NX Console
 title: Nintendo Switch
@@ -10,6 +10,11 @@ title: Nintendo Switch
 <<ibox "https://i.ytimg.com/vi_webp/Cb-srOfRqNc/maxresdefault.webp" "https://youtu.be/Cb-srOfRqNc">>
 
 The console's introduction was hyped due to it being the first ever Nintendo console to be created with both home and portable use in mind. The name itself comes from the fact that the console can //switch//, from being connected to a TV to being able to be used standalone.
+
+!!! Misc
+
+* [[Internet Browser [Switchbrew]|https://switchbrew.org/wiki/Internet_Browser]]
+** Apparently from FW 10.0, Nintendo being corporate shitlords added a [[Browser Timeout: "This Screen will be closed."|https://browsedns.net/topic/25/browser-timeout-this-screen-will-be-closed]]
 
 !!! ''Emulators''
 

@@ -1,6 +1,6 @@
 created: 20230608141932117
 creator: Octt
-modified: 20230919065249533
+modified: 20231210222142632
 modifier: Octt
 tags: 
 title: Linux/Userspace
@@ -19,4 +19,4 @@ title: Linux/Userspace
 ** [[WineZGUI|https://github.com/fastrizwaan/WineZGUI]] --- //Wine GUI using Zenity - Play and Share!// --- <<#[ Flatpak "https://github.com/fastrizwaan/flatpak-wine">>
 ** [[When is a wine-based Linux path used/converted?|https://askubuntu.com/questions/1018400/when-is-a-wine-based-linux-path-used]]
 *** `winepath` allows conversion of paths Unix --> Windows (`-u`), Windows --> Unix (`-w`)
-* [[Boxedwine|https://github.com/danoon2/Boxedwine]] --- //Multiplatform Linux Emulator that runs WINE// --- <<#[ Git "https://github.com/danoon2/Boxedwine">>
+* [[Boxedwine|https://www.boxedwine.org/]] --- //Multiplatform Linux Emulator that runs WINE// --- <<#[ Git "https://github.com/danoon2/Boxedwine">>

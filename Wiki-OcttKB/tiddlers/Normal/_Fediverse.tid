@@ -1,7 +1,7 @@
 created: 20230114124144464
 creator: Octt
 icon: 
-modified: 20231112001642488
+modified: 20231211003244753
 modifier: Octt
 tags: TODO $:/i18n:en
 title: Fediverse
@@ -51,3 +51,4 @@ Tip: these sites list many public instances for many platforms.
 !! ''Other''
 
 * [[Fediverse Enhancement Proposals|https://codeberg.org/fediverse/fep]]
+* [[MaPlefeed|https://maplefeed.bihlink.com/]] --- //Mastodon & Pleroma Feed generator// --- <<[# Git"https://github.com/bihlink/maplefeed">>

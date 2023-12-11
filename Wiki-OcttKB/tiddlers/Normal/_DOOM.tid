@@ -1,0 +1,25 @@
+created: 20230116202834289
+creator: Octt
+modified: 20231210222145919
+modifier: Octt
+tags: TODO FPS Retro $:/i18n:en Game
+title: DOOM
+
+<<^wikipediaframe Doom_(videogame) en>>
+
+* [[Chocolate Doom|https://www.chocolate-doom.org]] --- //Doom source port that accurately reproduces the experience of Doom as it was played in the 1990s// with limited mod support but high cross-platform support --- <<[# Git"https://github.com/chocolate-doom/chocolate-doom">>
+* [[ZDoom Team|https://zdoom.org/]] --- //team of developers and contributors [...] primarily develop and maintain the GZDoom and Raze source ports, and also some of the tools that can be used to fascilitate editing of game modifications which are supported by them//
+** [[GZDoom|https://github.com/ZDoom/gzdoom]] --- //GZDoom is a feature centric port for all Doom engine games, based on ZDoom, adding an OpenGL renderer and powerful scripting capabilities//
+
+* [[WAD Commander|https://wadcmd.com/]] --- //WAD Commander is a tool running in modern browsers to load and play WAD files of DOOM® and DOOM II®.//
+* [[Wasm Doom by Cloudflare|https://silentspacemarine.com/]] --- //Chocolate Doom WebAssembly port with WebSockets support// --- <<[# Git"https://github.com/cloudflare/doom-wasm">>
+
+* //[[Mi dicono dalla regia che esattamente 30 anni fa, #DOOM viene ufficialmente rilasciato. Che dire…|https://octospacc.altervista.org/2023/12/10/416/]]//
+
+* [[Eviternity II|https://eviternity.dfdoom.com/]] --- //full 36-map megawad sequel to Eviternity//, with apparently nice-looking levels
+
+<!--
+!! ''Gamin' Time''
+
+<<iFrameFixed "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/custom/dos/doom.jsdos&exit=1">>
+--->

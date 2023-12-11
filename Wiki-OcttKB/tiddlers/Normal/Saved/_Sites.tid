@@ -1,6 +1,6 @@
 created: 20230223222804008
 creator: Octt
-modified: 20231204004030116
+modified: 20231211004049370
 modifier: Octt
 tags: 
 title: Saved/Sites
@@ -12,6 +12,7 @@ Some personal ones could be defined as "[[digital gardens|Digital Garden]]" and 
 Note: "[property]-leaning" means the majority of the content of the site, or the site's style, leans towards that property (in majority, but not necessarily in totality).
 
 !!! ''[[Blog]]-leaning''
+
 * [[sitoctt]]
 * [[Arcisito|https://arci.me]] --- <<[# Git "https://github.com/AuroraViola/arcisito">>
 * [[Akalanka Ekanayake Blog|https://blog.akalanka.uk/]] --- It's a curious blog, mainly deals with IT subject but the theme/style looks like a fashion blog lmao
@@ -33,8 +34,10 @@ Note: "[property]-leaning" means the majority of the content of the site, or the
 * [[Sebastian Jambor's blog|https://seb.jambor.dev/]] --- software engineering, efficiency and other things
 * [[Simon Willison’s Weblog|https://simonwillison.net/]] --- <<[ "[[Git|https://github.com/simonw/simonwillisonblog]]">>
 * [[Stephan Wagner|https://stephanwagner.me/]]
+* [[TechLifeWeb|https://techlifeweb.com/]] --- //Exploring the digital life// --- interesting organization of normal blog posts with microblog-style notes
 * [[There oughta be...|https://there.oughta.be/]] --- //A collection of overcomplicated devices nobody needs//
 * [[Thiago Rossener - Desenvolvedor Front-End|https://rossener.com/]]
+* [[TiTiNoNero dice cose|https://www.77nn.it/]]
 * [[things i play|https://thingsiplay.game.blog/]] --- //My take on Gaming, Emulation and Steam related stuff on Linux//
 * [[Val Packett|https://val.packett.cool/]]
 
@@ -74,6 +77,7 @@ These are kind of blogs, but don't contain mainly things written as blogs, but m
 * [[Vincent Young Notes (missuo.me)|https://missuo.me/]] --- <<#[ Git "https://github.com/missuo/missuo.github.io">>
 
 !!! ''[[Wiki]]-leaning''
+
 * [[WikiHands|https://wikihands.github.io]]
 * [[WikiSpacc]]
 * Andrea Minini PKB: [[.com|https://www.andreaminini.com]], [[.org|https://www.andreaminini.org]]
@@ -81,6 +85,7 @@ These are kind of blogs, but don't contain mainly things written as blogs, but m
 * [[Computer Science Mojo|https://csmojo.com]] --- //David's Notes on coding, software and computer science// --- <<[ "[[Git|https://github.com/zhenyufu/zhenyufu.github.io]]">>
 * [[Maggie Appleton|https://maggieappleton.com/]] --- <<[ "[[Git|https://github.com/MaggieAppleton/maggieappleton.com-V2]]">>
 * [[RetroRGB|https://www.retrorgb.com/]] --- //site dedicated to keeping everyone up-to-date with everything the retro-gaming world has to offer//
+* [[RaspiBO|https://www.raspibo.org/]] --- //gruppo informale di appassionati di elettronica ed informatica libera della zona di Bologna (ma non solo)//
 * [[TheFrenchGhosty|https://thefrenchghosty.me/]]
 * [[The Refined Mind|https://refinedmind.co/]] --- //This is my tiny plot on the internet where I share ideas in progress. It’s my public workspace and an experiment in what’s known as digital gardening.//
 * [[wiki.nikiv.dev|https://wiki.nikiv.dev/]] --- <<[ "[[Git|https://github.com/nikitavoloboev/knowledge]]">>
@@ -88,6 +93,7 @@ These are kind of blogs, but don't contain mainly things written as blogs, but m
 * [[XXIIVV|https://wiki.xxiivv.com/]] --- <<[ "[[Git|https://github.com/XXIIVV/oscean]]">>
 
 !!! Mess-leaning <small>(often the most creative)</small>
+
 * [[Kicks Condor|https://www.kickscondor.com/]]
 * [[samy.pl|https://samy.pl/]] --- Website full of easter eggs by the same <<YoutubeL OJ1pEAdFLP8 "person who once hacked MySpace">>.
 ** One easter egg is the client source code is hidden as a binary-encoded string represented by spaces and tabs; The server providing the data uses something (headers? but also other stuff) to only serve the real HTML to a browser; curl/wget without all the browser headers (and a browser after a reload in `view-source:` ?) get a fake HTML. <<#[ "Older but more in-depth analysis" "https://t.me/ioctt/19280">>
