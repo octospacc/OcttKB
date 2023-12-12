@@ -1,6 +1,6 @@
 created: 20230116211647194
 creator: Octt
-modified: 20231204003658669
+modified: 20231211234059688
 modifier: Octt
 tags: $:/i18n:en
 title: Emulation
@@ -11,6 +11,8 @@ title: Emulation
 
 * a big list of [[Emulators written in JavaScript|https://github.com/fcambus/jsemu]]
 * a <<RedditL r/iosgaming/comments/tcdpr4/list_of_browser_based_emulators/ "list of browser based emulators">>
+* [[EmulatorJS|https://emulatorjs.org/]] --- //tool to embed an emulator into your website// --- <<[# Git"https://github.com/EmulatorJS/EmulatorJS">>
+
 * [[Is it possible to make a ROM converter?|https://retrocomputing.stackexchange.com/questions/8121/is-it-possible-to-make-a-rom-converter]] --- Spoiler: yes, but not often and not without high costs
 ** [[jamulator: Statically Recompiling NES Games into Native Executables with LLVM and Go|https://andrewkelley.me/post/jamulator.html]]
 
@@ -19,7 +21,6 @@ title: Emulation
 * [[Zophar's Domain|https://www.zophar.net/]]
 
 !!! ''Game Console Emulators''
-* https://github.com/EmulatorJS
 * https://github.com/js-emulators/desmond
 * https://github.com/44670/44vba
 * https://github.com/skylersaleh/SkyEmu

@@ -1,6 +1,6 @@
 created: 20230206204937437
 creator: Octt
-modified: 20231105000534499
+modified: 20231211233754729
 modifier: Octt
 tags: ToDo
 title: Telegram
@@ -11,3 +11,4 @@ title: Telegram
 
 * [[Teledrive|https://github.com/mgilangjanuar/teledrive]] --- //The cloud drive alternative using Telegram API//
 * [[Telegram Index (Fork)|https://github.com/octospacc/TelegramIndex-Fork]] - //Python web app to index telegram chats and serve its files for download over HTTP//
+* [[RSS to Telegram Bot|https://t.me/RSStT_Bot]] (`@`) --- //A Telegram RSS bot that cares about your reading experience// --- <<[# Git"https://github.com/Rongronggg9/RSS-to-Telegram-Bot">>

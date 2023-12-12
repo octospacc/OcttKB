@@ -1,6 +1,6 @@
 created: 20230206192842398
 creator: Octt
-modified: 20230206192952907
+modified: 20231212001554129
 modifier: Octt
 tags: Web PHP CMS
 title: WordPress
@@ -8,3 +8,13 @@ title: WordPress
 <<^wikipediaframe WordPress en>>
 
 * [[How to Add Code to WordPress Header and Footer|https://kinsta.com/knowledgebase/add-code-wordpress-header-footer/]]
+
+!!! Plugins
+
+* [[URL Params|https://wordpress.org/plugins/url-params/]] --- allows you to access URL parameters in the Query String of the URL via shortcodes
+
+!!! Themes
+
+* [[BSoJ|https://wordpress.org/themes/bsoj/]] //(Blue Screen of Joy) is a blog theme inspired by the infamous Blue Screen of Death//
+* [[Stewart|https://wordpress.org/themes/stewart/]] is a modern blogging theme with a left sidebar. Its default color scheme is a striking combination of orange and light gray, to give your blog a sophisticated appearance from day one.
+* [[Tomoni|https://wordpress.org/themes/tomoni/]] is a //theme that displays a use case of multilingual content with Japanese//, with many color palettes

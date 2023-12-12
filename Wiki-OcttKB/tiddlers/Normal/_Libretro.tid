@@ -1,6 +1,6 @@
 created: 20230116221513491
 creator: Octt
-modified: 20231022224751753
+modified: 20231212001927791
 modifier: Octt
 tags: $:/i18n:en
 title: Libretro
@@ -8,3 +8,9 @@ title: Libretro
 <<^wikipediaframe Libretro>>
 
 * [[Developing Libretro Cores|https://docs.libretro.com/development/cores/developing-cores/]]
+
+!! RetroArch
+
+<<^wikipediaframe RetroArch>>
+
+* [[RetroArchLeaks|https://retroarchleaks.wordpress.com/]] --- //Small collection of IRC logs, mostly from #retroarch. Mostly mudslinging and drama.//

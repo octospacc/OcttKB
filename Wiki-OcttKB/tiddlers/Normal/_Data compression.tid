@@ -1,0 +1,14 @@
+created: 20231211235110484
+creator: Octt
+modified: 20231212000033499
+modifier: Octt
+tags: 
+title: Data compression
+
+<<^wikipediaframe "Data compression">>
+
+* [[PeaZip|https://peazip.github.io/]] --- //Free Zip / Unzip software and Rar file extractor. Cross-platform file and archive manager. Features volume spanning, compression, authenticated encryption.// --- <<[# Git"https://github.com/peazip">>
+
+* [[chdman standalone|https://github.com/charlesthobe/chdman]] --- //CHD Manager program for "Compressed Hunks of Data2. It is a compression file format which most modern emulators use these days and can save you a lot of space on your SSD/HD/SD storage.//
+** [[namDHC|https://github.com/umageddon/namDHC]] --- //Windows frontend for CHDMAN - written in Autohotkey// --- releases include standalone Win32 builds of chdman
+* [[maxcso|https://github.com/unknownbrackets/maxcso]] --- //fast ISO to CSO compression program for use with PSP and PS2 emulators, which uses multiple algorithms for best compression ratio//

@@ -1,0 +1,11 @@
+created: 20231211232616716
+creator: Octt
+modified: 20231211233315386
+modifier: Octt
+tags: 
+title: File sharing
+
+<<^wikipediaframe "File sharing">>
+
+* [[Filebin|https://filebin.net/]] --- //Filebin is a web application that facilitates convenient file sharing over the web.// --- <<[# Git"https://github.com/espebra/filebin2/">>
+* [[THE NULL POINTER (0x0.st)|https://0x0.st/]] --- //No-bullshit file hosting and URL shortening service// --- <<[# Git"https://git.0x0.st/mia/0x0">>

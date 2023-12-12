@@ -1,7 +1,7 @@
 created: 20230203214532694
 creator: Octt
 icon: 🕸️
-modified: 20231024225355581
+modified: 20231212000504829
 modifier: Octt
 page-cover: https://source.unsplash.com/random?web
 tags: Internet
@@ -13,6 +13,7 @@ title: Web
 
 * [[Can I use|https://caniuse.com/]] --- //up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers// --- <<[# "Open Data (Git)" "https://github.com/Fyrd/caniuse">>
 * ''[[World Wide Web Consortium|https://www.w3.org/]]'' - //international community that develops open standards to ensure the long-term growth of the Web// - [[[Wikipedia|https://en.wikipedia.org/wiki/World_Wide_Web_Consortium]]]
+* The ''[[IndieWeb|https://indieweb.org/]]'' is a people-focused alternative to the “corporate web”.
 * ''Web Archiving Services'': [[Wayback Machine]] | [[archive.today|https://archive.today/]] | [[Ghostarchive|https://ghostarchive.org/]]
 
 !!! ''Tools''
