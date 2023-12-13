@@ -1,7 +1,7 @@
 created: 20230203214532694
 creator: Octt
 icon: 🕸️
-modified: 20231212000504829
+modified: 20231213000349752
 modifier: Octt
 page-cover: https://source.unsplash.com/random?web
 tags: Internet
@@ -28,6 +28,7 @@ title: Web
 !!! ''Frameworks/Generators/CMS''
 
 * [[werc - A sane web anti-framework|http://werc.cat-v.org/]] --- //Bringing minimalism and sanity to the web// --- Has interesting features with a fixed but style-customizable layout, + support for apps and extensions.
+* [[H5P|https://h5p.org/]] --- //Create, share and reuse interactive HTML5 content in your browser//
 
 !!! ''Analytics''
 

@@ -1,6 +1,6 @@
 created: 20231029134919585
 creator: Octt
-modified: 20231126230129282
+modified: 20231213001056574
 modifier: Octt
 tags: 
 title: C Language
@@ -9,6 +9,7 @@ title: C Language
 
 * [[reassign struct in C|https://stackoverflow.com/questions/10298070/reassign-struct-in-c]] (meaning reassigning all fields at a time); the feature is part of compound literals, sadly only supported in C99+, won't work before that and it's not easy to guess why without knowing this
 * [[How to copy arrray to array using memcpy() in C|https://stackoverflow.com/a/15685912]] --- //you should allocate memory for tmp with size = sizeof(a). And then memcpy with size = sizeof(a)//
+* [[Reading command line parameters|https://stackoverflow.com/questions/5157337/reading-command-line-parameters]]
 
 * [[Why do many functions that return structures in C, actually return pointers to structures?|https://softwareengineering.stackexchange.com/questions/359408/why-do-many-functions-that-return-structures-in-c-actually-return-pointers-to-s]]
 * [[Passing by reference in C|https://stackoverflow.com/questions/2229498/passing-by-reference-in-c]] --- "C does not support passing a variable by reference"... //Passing a pointer ''is'' passing-by-reference. This seems to be one of those facts that "savvy" C programmers pride themselves on. Like they get a kick out of it. "Oh you might THINK C has pass-by-reference but no it's actually just the value of a memory address being passed harharhar". Passing by reference literally just means passing the memory address of where a variable is stored rather than the variable's value itself [...]//
@@ -33,3 +34,4 @@ title: C Language
 
 * [[How to get the current directory in a C program?|https://stackoverflow.com/questions/298510/how-to-get-the-current-directory-in-a-c-program]] --- (`getcwd(...)`)
 * [[C Program to list all files and sub-directories in a directory|https://www.geeksforgeeks.org/c-program-list-files-sub-directories-directory/]]
+* [[How to read the content of a file to a string in C?|https://stackoverflow.com/a/174552]]

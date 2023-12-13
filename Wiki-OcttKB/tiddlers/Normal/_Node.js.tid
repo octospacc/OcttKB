@@ -1,6 +1,6 @@
 created: 20230207185346822
 creator: Octt
-modified: 20231212002117038
+modified: 20231213001702461
 modifier: Octt
 tags: JavaScript
 title: Node.js
@@ -9,7 +9,8 @@ title: Node.js
 
 !!! ''Resources''
 
-* [[How to copy files and folders in Node.js?|https://javascript.plainenglish.io/how-to-copy-files-and-folders-in-node-js-e37394fdf4c0#:~:text=src%20to%20dest.-,fs.,a%20directory%20copy%20is%20required.]] --- //Multiple ways to copy files in Node.js//
+* [[Node.js check if path is file or directory|https://stackoverflow.com/a/43701801]]
+* [[How to copy files and folders in Node.js?|https://javascript.plainenglish.io/how-to-copy-files-and-folders-in-node-js-e37394fdf4c0]] --- //Multiple ways to copy files in Node.js//
 
 ; Docs
 : [[Node.js HTTP Module|https://www.w3schools.com/nodejs/nodejs_http.asp]]

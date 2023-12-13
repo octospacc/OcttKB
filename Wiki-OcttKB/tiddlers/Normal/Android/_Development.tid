@@ -1,6 +1,6 @@
 created: 20230217221957113
 creator: Octt
-modified: 20230813104233873
+modified: 20231213003220382
 modifier: Octt
 tags: 
 title: Android/Development
@@ -50,6 +50,7 @@ title: Android/Development
 
 * [[why setCanceledOnTouchOutside(false) doesn't work in Alert builder?|https://stackoverflow.com/questions/13526690/why-setcanceledontouchoutsidefalse-doesnt-work-in-alert-builder]]
 * [[How to prevent a dialog from closing when a button is clicked|https://stackoverflow.com/questions/2620444/how-to-prevent-a-dialog-from-closing-when-a-button-is-clicked]]
+* [[Best way to secure Android app sensitive Data?|https://stackoverflow.com/questions/8184492/best-way-to-secure-android-app-sensitive-data/8184699#8184699]]
 </div>
 
 !!!! ''Hacking / Modding''

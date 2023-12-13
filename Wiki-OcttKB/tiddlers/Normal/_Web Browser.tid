@@ -1,6 +1,6 @@
 created: 20230217100639349
 creator: Octt
-modified: 20231211233603018
+modified: 20231213002459791
 modifier: Octt
 tags: Web
 title: Web Browser
@@ -20,7 +20,9 @@ title: Web Browser
 !!! [[Firefox|https://firefox.com]]
 
 * [[How to Install Any Add-on in Firefox for Android|https://www.maketecheasier.com/install-addon-firefox-android]] (Firefox Beta is needed)
+** [[https://mastodon.uno/@octo/111064836718607256]]
 * [[Why Extensions can't modify Mozilla sites (like AMO)|https://ninetailed.ninja/extensions-modify-mozilla-sites.html]]
+* [[How to increase Firefox scrollbar width?]]
 
 ; Forks
 : [[LibreWolf|https://librewolf.net]] (Desktop)

@@ -1,6 +1,6 @@
 created: 20230207213320932
 creator: Octt
-modified: 20231118203412795
+modified: 20231213002131171
 modifier: Octt
 tags: Microsoft Proprietary OS
 title: Windows
@@ -15,6 +15,7 @@ title: Windows
 
 !! ''Resources'' for the platform
 
+* [[Retro Windows Wiki|https://retrowindows.miraheze.org/wiki/Main_Page]]//, a community support wiki for older versions of Windows.//
 * [[Shorthorn Project|http://shorthornproject.com/]] --- //project to transform Windows XP/2003 in a moderns systems, with beatiful interface, compatible and very fast, based in One-Core-API tecnology//
 ** [[One-Core-API|https://github.com/Skulltrail192/One-Core-Api]] --- //complete layer to get compatibility on XP/2003 for newer applications// --- <<#[ Binaries "https://github.com/Skulltrail192/One-Core-API-Binaries">>
 * some [[Windows 98SE Utilities|http://dk.toastednet.org/vogons/win98/]]
