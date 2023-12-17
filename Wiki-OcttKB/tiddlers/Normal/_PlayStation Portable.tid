@@ -1,10 +1,12 @@
 created: 20230202110726082
 creator: Octt
-modified: 20231029224711694
+modified: 20231217011950900
 modifier: Octt
 tags: Gaming Sony Console $:/i18n:en WIP
 title: PlayStation Portable
 
 <<^wikipediaframe PlayStation_Portable en>>
 
-* [[PPSSPP|https://www.ppsspp.org]] --- <<[# Git "https://github.com/hrydgard/ppsspp">>
+* [[How to connect your PSP on Linux|https://gist.github.com/mhitza/81651f49b3a43e6f4554]] --- if it doesn't work automatically, do `sudo modprobe usb-storage`
+
+* [[PPSSPP|https://www.ppsspp.org]] --- //PSP emulator for Android, Windows, Mac and Linux, written in C++.// --- <<[# Git "https://github.com/hrydgard/ppsspp">>

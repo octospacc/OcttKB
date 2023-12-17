@@ -1,6 +1,6 @@
 created: 20230905232949767
 creator: Octt
-modified: 20231204003128501
+modified: 20231217014000892
 modifier: Octt
 tags: 
 title: Static site generator
@@ -9,6 +9,9 @@ title: Static site generator
 
 * <<linkdescgit Docusaurus "https://docusaurus.io" "Easy to maintain open source documentation websites." "https://github.com/facebook/docusaurus">>
 * <<linkdescgit Hugo "https://gohugo.io" "The world’s fastest framework for building websites" "https://github.com/gohugoio/hugo">>
+
+* [[Hexo|https://hexo.io/]] --- //A fast, simple & powerful blog framework//
+** //[[NexT|https://theme-next.js.org/]] is a high quality elegant theme for Hexo. It is crafted from scratch, with love.// --- <<[# Git "https://github.com/next-theme">>
 
 * [[Jekyll|https://jekyllrb.com]] (+ docs) --- //🌐 Jekyll is a blog-aware static site generator in Ruby// --- <<#[ Git"https://github.com/jekyll">>
 ** [[Jekyll Themes|http://jekyllthemes.org/]] --- //A directory of the best-looking themes for Jekyll blogs// --- <<#[ Git"https://github.com/mattvh/jekyllthemes">>

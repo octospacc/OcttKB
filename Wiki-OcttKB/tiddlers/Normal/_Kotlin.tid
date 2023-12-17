@@ -1,0 +1,13 @@
+created: 20231217005152232
+creator: Octt
+modified: 20231217005816030
+modifier: Octt
+tags: 
+title: Kotlin
+
+<<^wikipediaframe Kotlin>>
+
+* [[What's the difference between !! and ? in Kotlin?|https://stackoverflow.com/questions/44536114/whats-the-difference-between-and-in-kotlin]] --- when `obj` is null, `obj!!` throws `NullPointerException`, `obj?` returns `null`
+
+* [[How to do url encoding for query parameters in Kotlin|https://stackoverflow.com/questions/56942341/how-to-do-url-encoding-for-query-parameters-in-kotlin#56942734]] --- `URLEncoder.encode(text, "utf-8")`
+* [[How to create a JSONObject from String in Kotlin?|https://stackoverflow.com/questions/44295665/how-to-create-a-jsonobject-from-string-in-kotlin]] --- `JSONObject("""{ "name": "test" }""")`

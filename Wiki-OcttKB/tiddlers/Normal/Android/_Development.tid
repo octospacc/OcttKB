@@ -1,6 +1,6 @@
 created: 20230217221957113
 creator: Octt
-modified: 20231213003220382
+modified: 20231217011235987
 modifier: Octt
 tags: 
 title: Android/Development
@@ -44,13 +44,18 @@ title: Android/Development
 * [[Intercept and override HTTP requests from WebView|https://stackoverflow.com/questions/4780899/intercept-and-override-http-requests-from-webview]]
 ** [[Intercept all requests in WebView on Android|https://medium.com/@madmuc/intercept-all-network-traffic-in-webkit-on-android-9c56c9262c85]]
 ** [[Intercepting and Blocking Requests|https://joshuatz.com/posts/2021/webview-intercepting-and-blocking-requests/]]
+* [[Android Webview - Completely Clear the Cache|https://stackoverflow.com/questions/2465432/android-webview-completely-clear-the-cache]] --- `webview.clearCache(true);` (note, this doesn't automatically reload the page)
+* [[How to implement @JavascriptInterface for android webview in Kotlin|https://stackoverflow.com/questions/62937014/how-to-implement-javascriptinterface-for-android-webview]]
+* [[Android Calling JavaScript functions in WebView|https://stackoverflow.com/questions/4325639/android-calling-javascript-functions-in-webview/31291128#31291128]] --- `webview.evaluateJavascript("obj()", null)` on >= 4.4, otherwise `webview.loadUrl("javascript:obj()")`
 </div>
 : [[Android Icon Size guide for Android 6 Marshmallow|https://www.creativefreedom.co.uk/icon-designers-blog/android-icon-size-guide/]]
+: [[How to rename an Android Studio Project|https://www.delasign.com/blog/android-studio-rename-project/]] --- //A step by step guide on renaming an Android Studio project. Open Source Kotlin Android project included.//
 : <div>
 
 * [[why setCanceledOnTouchOutside(false) doesn't work in Alert builder?|https://stackoverflow.com/questions/13526690/why-setcanceledontouchoutsidefalse-doesnt-work-in-alert-builder]]
 * [[How to prevent a dialog from closing when a button is clicked|https://stackoverflow.com/questions/2620444/how-to-prevent-a-dialog-from-closing-when-a-button-is-clicked]]
 * [[Best way to secure Android app sensitive Data?|https://stackoverflow.com/questions/8184492/best-way-to-secure-android-app-sensitive-data/8184699#8184699]]
+* [[New Android Project named after Main Activity instead of app name|https://stackoverflow.com/questions/12084299/new-android-project-named-after-main-activity-instead-of-app-name]] --- //In the manifest file, you are able to set one label for the launcher icon, and another for the activity. The app name is set in the intent filter, like this: `<activity ... > <intent-filter android:label="@string/app_name"> ...`//
 </div>
 
 !!!! ''Hacking / Modding''
