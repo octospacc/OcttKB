@@ -1,6 +1,6 @@
 created: 20221110145611678
 creator: Octt
-modified: 20231204004554051
+modified: 20231219000006737
 modifier: Octt
 tags: Development $:/i18n:en Web
 title: JavaScript
@@ -32,6 +32,9 @@ title: JavaScript
 * [[Converting HTML string into DOM elements?|https://stackoverflow.com/questions/3103962/converting-html-string-into-dom-elements#3104237]] --- `doc = new DOMParser().parseFromString(htmlString, 'text/html')`
 * [[set doctype using javascript|https://stackoverflow.com/questions/21523487/set-doctype-using-javascript]]
 * [[JavaScript Regex Replace Tutorial|https://www.javascripttutorial.net/javascript-regex/replace/]]
+
+* [[Send POST data using XMLHttpRequest|https://stackoverflow.com/questions/9713058/send-post-data-using-xmlhttprequest]]
+* [[fetch API [and comparison with XMLHttpRequest]|https://davidwalsh.name/fetch]]
 
 * [[Array.prototype.splice()|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice]], [[JavaScript Array splice() (W3S)|https://www.w3schools.com/jsref/jsref_splice.asp]] --- //changes the contents of an array by removing or replacing existing elements and/or adding new elements in place//
 * <<MDNLink Web/JavaScript/Reference/Global_Objects/Array/concat "Array.prototype.concat()">> --- //used to merge two or more arrays, does not change the existing arrays but instead returns a new one//

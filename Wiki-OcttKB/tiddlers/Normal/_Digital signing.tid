@@ -1,0 +1,10 @@
+created: 20231219000332676
+creator: Octt
+modified: 20231219000432315
+modifier: Octt
+tags: 
+title: Digital signing
+
+<<^wikipediaframe "Digital signing">>
+
+* [[Create Your Own Certificate Authority With OpenSSL and NGINX On Ubuntu 20.04|https://www.questioncomputer.com/create-your-own-certificate-authority-with-openssl-and-nginx-on-ubuntu-20-04/]]

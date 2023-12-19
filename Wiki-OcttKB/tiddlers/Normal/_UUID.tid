@@ -1,0 +1,11 @@
+created: 20231219000436282
+creator: Octt
+modified: 20231219000744846
+modifier: Octt
+tags: 
+title: UUID
+
+<<^wikipediaframe UUID>>
+
+* [[RFC4122 - A Universally Unique IDentifier (UUID) URN Namespace|https://www.rfc-editor.org/rfc/rfc4122]]
+* [[Online UUID Generator|https://www.uuidgenerator.net/]] (works without JS) + help pages for implementing in code
