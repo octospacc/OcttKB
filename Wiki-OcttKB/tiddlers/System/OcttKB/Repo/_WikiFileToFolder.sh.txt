@@ -1,0 +1,48 @@
+#!/bin/sh
+set -e # Exit on any error
+set -x # Echo all commands
+TargetWiki="$1"
+
+tiddlywiki \
+	--verbose \
+	--load "../${TargetWiki}.html" \
+	--output "./Wiki-${TargetWiki}" \
+	--savewikifolder "./Wiki-${TargetWiki}"
+
+cd "./Wiki-${TargetWiki}/tiddlers"
+
+for Dir in Normal System
+do mkdir -vp "../${Dir}" "../${Dir}.tmp"
+done
+
+mv \$__* ../System.tmp/ || true
+mv *     ../Normal.tmp/ || true
+cd ..
+
+# Note: if the hell happens again, run:
+# find -type f -name .tid -exec sh -c 'OldFile="{}"; Ext="$(echo "${OldFile}" | rev | cut -d"." -f1 | rev)"; NewFile="$(echo "${OldFile}" | sed -e "s|_|/|g" | rev | cut -d"." -f2- | rev)_.${Ext}"; mv "${OldFile}" "${NewFile}"; ' \;
+
+for TypeDir in System Normal
+do
+	cd "./${TypeDir}.tmp"
+	for OldFile in *
+	do
+		NewPath="$(echo "${OldFile}" | sed -e 's|_|/|g')"
+		NewName="$(basename "${NewPath}")"
+		NewParent="$(echo "${NewPath}" | rev | cut -d"/" -f2- | rev)"
+		{ [ "${NewPath}" = "${NewName}" ] && [ "${NewPath}" = "${NewParent}" ] ;} \
+			&& NewFile="_${NewPath}" \
+			|| NewFile="${NewParent}/_${NewName}"
+		mkdir -p "../${TypeDir}/${NewFile}"
+		rm -rf "../${TypeDir}/${NewFile}"
+		mv "./${OldFile}" "../${TypeDir}/${NewFile}"
+	done
+	cd ..
+done
+
+mv ./System ./System.tmp/System
+mv ./System.tmp/System/\$ ./System
+mv ./System ./Normal ./tiddlers
+rm -rf ./System.tmp ./Normal.tmp
+
+cd ..

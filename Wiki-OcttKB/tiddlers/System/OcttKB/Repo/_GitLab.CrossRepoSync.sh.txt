@@ -6,55 +6,10 @@ set -x # Echo all commands
 TargetWiki="OcttKB"
 TargetRepo="OcttKB"
 
-git clone --depth 1 "https://gitlab.com/octtspacc/$TargetRepo" "./Repo-$TargetRepo"
-cd "./Repo-$TargetRepo"
-rm -rf "./Wiki-$TargetWiki" || true
+git clone --depth 1 "https://gitlab.com/octtspacc/${TargetRepo}" "./Repo-${TargetRepo}"
+cd "./Repo-${TargetRepo}"
+rm -rf "./Wiki-${TargetWiki}" || true
 
-tiddlywiki \
-	--verbose \
-	--load "../$TargetWiki.html" \
-	--output "./Wiki-$TargetWiki" \
-	--savewikifolder "./Wiki-$TargetWiki"
+sh ../WikiFileToFolder.sh "${TargetWiki}"
 
-cd "./Wiki-$TargetWiki/tiddlers"
-
-for Dir in Normal System
-do mkdir -vp "../${Dir}" "../${Dir}.tmp"
-done
-
-mv \$__* ../System.tmp/ || true
-mv *     ../Normal.tmp/ || true
-#mv .*    ../Normal.tmp/ || true
-cd ..
-
-# Note: if the hell happens again:
-# find -type f -name .tid -exec sh -c 'OldFile="{}"; Ext="$(echo "${OldFile}" | rev | cut -d"." -f1 | rev)"; NewFile="$(echo "${OldFile}" | sed -e "s|_|/|g" | rev | cut -d"." -f2- | rev)_.${Ext}"; mv "$OldFile" "$NewFile"; ' \;
-
-for TypeDir in System Normal
-do
-	cd "./${TypeDir}.tmp"
-	for OldFile in *
-	do
-		#Ext="$(echo "${OldFile}" | rev | cut -d"." -f1 | rev)"
-		#NewFile="$(echo "${OldFile}" | sed -e 's|_|/|g' | rev | cut -d"." -f2- | rev)_.${Ext}"
-		NewPath="$(echo "${OldFile}" | sed -e 's|_|/|g')"
-		NewName="$(basename "${NewPath}")"
-		NewParent="$(echo "${NewPath}" | rev | cut -d"/" -f2- | rev)"
-		{ [ "${NewPath}" = "${NewName}" ] && [ "${NewPath}" = "${NewParent}" ] ;} \
-			&& NewFile="_${NewPath}" \
-			|| NewFile="${NewParent}/_${NewName}"
-		#[ "$(basename "${NewFile}") | cut -b1" = . ]
-		mkdir -p "../${TypeDir}/${NewFile}"
-		rm -rf "../${TypeDir}/${NewFile}"
-		mv "./${OldFile}" "../${TypeDir}/${NewFile}"
-	done
-	cd ..
-done
-
-mv ./System ./System.tmp/System
-mv ./System.tmp/System/\$ ./System
-mv ./System ./Normal ./tiddlers
-rm -rf ./System.tmp ./Normal.tmp
-
-cd ..
 GitPush "OcttKB Cross-Repo Sync (HTML to Raw)"
