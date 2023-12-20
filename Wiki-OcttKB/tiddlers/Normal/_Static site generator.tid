@@ -1,6 +1,6 @@
 created: 20230905232949767
 creator: Octt
-modified: 20231217014000892
+modified: 20231220003710564
 modifier: Octt
 tags: 
 title: Static site generator
@@ -18,5 +18,8 @@ title: Static site generator
 *** <<linkdescgit "So Simple [Theme]" "https://mmistakes.github.io/so-simple-theme" " A simple Jekyll theme for words and pictures." "https://github.com/mmistakes/so-simple-theme">>
 *** <<linkdescgit "Jekflix Template" "https://jekflix.rossener.com/" "A Jekyll theme inspired by Netflix. 🎬" "https://github.com/thiagorossener/jekflix-template">>
 ** [[Working with upcoming posts in Jekyll|https://www.fizerkhan.com/blog/posts/working-with-upcoming-posts-in-jekyll]]
+
+* [[Pelican|https://getpelican.com/]]
+** [[Eevee|https://kura.gg/eevee/]] --- //A Material Design theme for Pelican//
 
 * <<linkdescgit Retype "https://retype.com" "ultra-high-performance ✨ static website generator that builds a website based on simple Markdown text files" "https://github.com/retypeapp">> --- seems catered towards docs/notes sites

@@ -1,11 +1,15 @@
 created: 20230711110503152
 creator: Octt
-modified: 20230711111218971
+modified: 20231220005057044
 modifier: Octt
 tags: 
-title: MD5
+title: Hashing
+
+<<^wikipediaframe "Hash function">>
 
 <<^wikipediaframe MD5>>
+
+* [[Generate md5 checksum for all files in a directory|https://askubuntu.com/questions/318530/generate-md5-checksum-for-all-files-in-a-directory]] --- `find -type f -exec md5sum "{}" + > checklist.chk`
 
 MD5 nowadays is known much vulnerable to collisions:
 

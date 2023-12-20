@@ -1,6 +1,6 @@
 created: 20220923110724649
 creator: Octt
-modified: 20231110000102274
+modified: 20231220004841392
 modifier: Octt
 tags: 
 title: Nintendo
@@ -8,9 +8,11 @@ title: Nintendo
 <<^wikipediaframe Nintendo>>
 
 * <<linkdescgit "NSMB-MarioVsLuigi" "https://ipodtouch0218.itch.io/nsmb-mariovsluigi" "A standalone 2-10 player remake of the Mario vs Luigi gamemode from New Super Mario Bros DS." "https://github.com/ipodtouch0218/NSMB-MarioVsLuigi">>
+* [[Froxot Browser Games for Nintendo DSi/3DS/2DS|http://www.froxot.de/index.php]]
 
 ; Tools
 : [[mkey generator|https://mkey.salthax.org/]] - //3DS / Wii U / Switch parental controls master key generator// - <<[ "[[Git|https://github.com/dazjo/mkey]]">>
+: [[NDSTokyoTrim|https://eden.fm/ndstoykotrim/]] - batch trimmer with wifi detection --- <<[# Thread"https://gbatemp.net/threads/ndstokyotrim-batch-trimmer-with-wifi-detection.55162/">>
 
 !!! ''News''
 

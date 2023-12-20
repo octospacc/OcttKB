@@ -1,0 +1,15 @@
+created: 20231219235731033
+creator: Octt
+modified: 20231220003912895
+modifier: Octt
+tags: 
+title: Binary data
+
+<<^wikipediaframe "Binary data">>
+
+!!! Hex editing
+
+* `hexdump`, `xxd`
+* GHex
+* [[HxD|]]
+* //''[[wxMEdit|https://wxmedit.github.io/]]'', a Cross-platform Text/Hex Editor, an improved version of MadEdit// --- <<[# Git "https://github.com/wxMEdit">>
