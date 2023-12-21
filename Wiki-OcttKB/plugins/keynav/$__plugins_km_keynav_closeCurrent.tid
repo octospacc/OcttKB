@@ -1,0 +1,12 @@
+created: 20211229150246081
+key: ((CloseCurrent))
+modified: 20211230152623815
+tags: $:/tags/KeyboardShortcut $:/km/keynav
+title: $:/plugins/km/keynav/closeCurrent
+
+<$set name="current" filter="[{$:/HistoryList!!current-tiddler}]" select=0>
+  <$navigator story="$:/StoryList" history="$:/HistoryList">
+    <$action-sendmessage $message="tm-close-tiddler" $param=<<current>>/>
+  </$navigator>
+</$set>
+

@@ -1,0 +1,12 @@
+created: 20211229145450407
+key: ((EditCurrent))
+modified: 20211230150822130
+tags: $:/tags/KeyboardShortcut $:/km/keynav
+title: $:/plugins/km/keynav/editCurrent
+
+<$set name="current" filter="[{$:/HistoryList!!current-tiddler}]" select=0>
+  <$navigator story="$:/StoryList" history="$:/HistoryList">
+    <$action-sendmessage $message="tm-edit-tiddler" $param=<<current>>/>
+  </$navigator>
+</$set>
+

@@ -1,6 +1,6 @@
 created: 20230217100639349
 creator: Octt
-modified: 20231217012343146
+modified: 20231221000838294
 modifier: Octt
 tags: Web
 title: Web Browser
@@ -22,7 +22,7 @@ title: Web Browser
 * [[How to Install Any Add-on in Firefox for Android|https://www.maketecheasier.com/install-addon-firefox-android]] (Firefox Beta is needed)
 ** [[https://mastodon.uno/@octo/111064836718607256]]
 * [[Why Extensions can't modify Mozilla sites (like AMO)|https://ninetailed.ninja/extensions-modify-mozilla-sites.html]]
-* [[How to increase Firefox scrollbar width?]]
+* [[How to increase Firefox scrollbar width?|https://unix.stackexchange.com/questions/304711/how-to-increase-firefox-scrollbar-width]] --- set `widget.non-native-theme.scrollbar.size.override` to number in `about:config`
 
 ; Forks
 : [[LibreWolf|https://librewolf.net]] (Desktop)

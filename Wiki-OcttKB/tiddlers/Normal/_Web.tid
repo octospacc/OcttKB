@@ -1,13 +1,19 @@
 created: 20230203214532694
 creator: Octt
 icon: 🕸️
-modified: 20231213000349752
+modified: 20231220220727732
 modifier: Octt
 page-cover: https://source.unsplash.com/random?web
 tags: Internet
 title: Web
 
 <<^wikipediaframe World_Wide_Web en>>
+
+!! User-Agent
+
+<<^wikipediaframe User-Agent>>
+
+* [[User Agents Database|https://user-agents.net/]] --- website collecting many up-to-date user agents, classified and downloadable
 
 !! ''Resources''
 

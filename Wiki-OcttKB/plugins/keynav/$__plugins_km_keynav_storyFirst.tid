@@ -1,0 +1,12 @@
+created: 20211229031533358
+key: ((StoryFirst))
+modified: 20211230151041569
+tags: $:/tags/KeyboardShortcut $:/km/keynav
+title: $:/plugins/km/keynav/storyFirst
+
+<$set name="story" filter="[list[$:/StoryList]join[,]]" select=0>
+  <$set name="current" filter="[{$:/HistoryList!!current-tiddler}]" select=0>
+    <!-- This macro call add a navigator widget that will be configured to navigate to the tiddler in the desired position in the story river -->
+        <$macrocall $name="storynav" storylist=<<story>> current=<<current>> position="first" /> 
+  </$set>
+</$set>

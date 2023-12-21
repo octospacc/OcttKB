@@ -1,6 +1,6 @@
 created: 20230206113426599
 creator: Octt
-modified: 20231112001352635
+modified: 20231220220541649
 modifier: Octt
 tags: 
 title: TiddlyWiki/ThirdParty
@@ -31,6 +31,7 @@ title: TiddlyWiki/ThirdParty
 * [[Dave and Blanca Gifford's homepage|https://giffmex.org/Welcome.html]]
 * [[Eberron Tiddlywiki|https://eberron.tiddlyhost.com/]] --- //campaign setting for D&D designed for telling fantastical pulp and noir stories// --- <<[ "[[Git|https://github.com/wccbuck/eberron_tw/]]">>
 * [[ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱: h0p3|https://h0p3.neocities.org/]] (old domain: [[philosopher.life|https://web.archive.org/web/20221227170107/https://philosopher.life/]])
+* [[makiaea|https://makiaea.org/00045/20230414makiaea.html]] --- contains a cool/strange choose-your-own-adventure thing
 
 !!!! ''Individual Plugins''
 
@@ -48,6 +49,10 @@ title: TiddlyWiki/ThirdParty
 * [[Section Editor|https://kookma.github.io/TW-Section]] --- //create, edit, fold, manage sections// --- [[Git|https://github.com/kookma/TW-Section]] | [[Prototype discussion|https://talk.tiddlywiki.org/t/section-editor-prototype/951]]
 * <<link+desc+git Streams "https://saqimtiaz.github.io/streams/" "Streams is a keyboard friendly way to write and easily divide your text into separate tiddlers while writing." "https://github.com/saqimtiaz/streams">> --- Adds a structural-visual hierarchy system to TiddlyWiki like Notion/Logseq.
 * [[Syntax-Highlighting Tiny Editor|https://talk.tiddlywiki.org/t/tw5-ready-to-play-prototype-syntax-highlighting-tiny-editor/4569]] (Ready-to-play prototype) --- [[Download|https://talk.tiddlywiki.org/uploads/short-url/853ile3OvoeJ9uowpv0YYXnKhSe.json]]
+
+* [[Keyboard Navigation|https://keynav.tiddlyhost.com/]] --- //A plugin to add keyboard navigation of TiddlyWiki's Story River.//
+* [[tw5-keyboard-navigation|https://maximilian-schillinger.de/tw5-keyboard-navigation-plugin.html]] --- //Navigate through your TiddlyWiki5 with your keyboard: jump to next/previous tiddler, edit or close tiddler// --- <<[# Git"https://github.com/MaxGyver83/tw5-keyboard-navigation">>
+
 * [[TWCrossLinks|https://github.com/akhater/TWCrossLinks]] --- //Discover all your intra-tiddlers links//
 
 !!!! ''Individual Themes''

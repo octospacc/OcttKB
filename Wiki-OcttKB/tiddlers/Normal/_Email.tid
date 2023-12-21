@@ -1,3 +1,7 @@
+created: 20231221000014083
+creator: Octt
+modified: 20231221000539428
+modifier: Octt
 title: Email
 
 <<^wikipediaframe Email>>
@@ -6,5 +10,8 @@ title: Email
 
 !! ''Hosting''
 
+* [[Documentation for docker-mailserver!|https://docker-mailserver.github.io/docker-mailserver/latest/]] --- <<[# Git"https://github.com/docker-mailserver">>
+
 * [[Adding aliases inboxes using Postfix|https://unix.stackexchange.com/questions/319222/adding-aliases-inboxes-using-postfix]] --- add new lines in /etc/aliases as needed for aliases, with format `desidered_alias: real_username`, then run `newaliases`.
 * [[Quickly test an IMAP server with telnet|https://coderwall.com/p/h-tzia/quickly-test-an-imap-server-with-telnet]]
+* [[Postfix : SASL auth with PAM and passwd file|https://seenthis.net/messages/522996]]

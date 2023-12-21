@@ -1,0 +1,18 @@
+created: 20211229155304402
+key: ((ShowHistory))
+maxToShow: 20
+modified: 20211230155909304
+tags: $:/tags/KeyboardShortcut $:/km/keynav
+title: $:/plugins/km/keynav/ShowHistory
+
+<$navigator story="$:/StoryList" history="$:/HistoryList">
+  <$action-navigate $to="$:/plugins/km/keynav/ShowHistory"/>
+</$navigator>
+
+<$set name="history" filter="[{$:/HistoryList}]" select=0>
+
+!!Recent History 
+Limit: <$edit-text tiddler=<<currentTiddler>> field="maxToShow" tag="input" size=2 default="20" />
+ <$macrocall $name="cleanHistoryList" history=<<history>> maxShow={{!!maxToShow}} />
+
+</$set>

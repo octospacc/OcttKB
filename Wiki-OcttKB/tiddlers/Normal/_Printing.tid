@@ -1,8 +1,16 @@
-created: 20230902000338749
+created: 20230902000702833
 creator: Octt
-modified: 20230902000422879
+modified: 20231221002107428
 modifier: Octt
-tags: 
+tags: Printing
 title: Printing
 
 <<^wikipediaframe Printing>>
+
+* [[SystemPrinting (Debian)|https://wiki.debian.org/SystemPrinting]] --- //A basic view of the CUPS Printing system. Aimed at Debian 11 (bullseye) but it should fit most...//
+
+!! Printer
+
+<<^wikipediaframe "Printer (computing)">>
+
+* <<YoutubeL x5PuI2flZJI "10 Ways to Use Your Mini Thermal Printer">>

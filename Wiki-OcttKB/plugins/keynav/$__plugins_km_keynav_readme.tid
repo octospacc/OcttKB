@@ -1,0 +1,20 @@
+caption: readme
+created: 20220102193630923
+modified: 20220102202241769
+revision: 4
+tags: $:/km/keynav
+title: $:/plugins/km/keynav/readme
+type: text/vnd.tiddlywiki
+
+The ~KeyNav plugin implements a set of shortcuts using the built-in keyboard shortcut mechanism in ~TiddlyWiki. It has the following keyboard functions:
+
+* ''~StoryFirst:'' Navigate to the top of the Story River (Shift+Alt+Up)
+* ''~StoryLast:'' Navigate to the bottom of the Story River (Shift+Alt+Down)
+* ''~StoryPrev:'' Navigate to the previous tiddler in the Story River (Shift+Alt+Left)
+* ''~StoryNext:'' Navigate to the next tiddler in the Story River (Shift+Alt+Right)
+* ''~StoryCurrent:'' Navigate to the current tiddler in the Story River (ie. if you scrolled away, this shortcut will bring you back) (Shift+Alt+Space)
+* ''~EditCurrent:'' Edit the current tiddler, aka the most recent one in the history list (Shift+Alt+E)
+* ''~CloseCurrent:'' Close the current tiddler (Shift+Alt+C)
+* ''~ShowHistory:'' View the recent history, including system tiddlers (Shift+Alt+H)
+
+The key combinations can be changed using the "Keyboard Shortcuts" tab in the Control Panel. 
