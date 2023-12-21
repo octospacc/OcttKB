@@ -1,7 +1,7 @@
 created: 20230111153758951
 creator: Octt
 icon: 🐧
-modified: 20231221001033808
+modified: 20231221165610981
 modifier: Octt
 page-cover: https://images.unsplash.com/photo-1549605659-32d82da3a059?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 tags: $:/i18n:en Unix
@@ -49,7 +49,9 @@ title: Linux
 
 * [[How to Zip Files and Directories in Linux|https://linuxize.com/post/how-to-zip-files-and-directories-in-linux/]] --- //the `zip` util and all important options//
 
+* [[Create a Linux Swap File|https://linuxize.com/post/create-a-linux-swap-file/]]
 * [[cannot mount /dev/loop1 read-only|https://serverfault.com/questions/839898/cannot-mount-block-device-dev-loop-read-only]] --- Filesystem might have a dirty log, using `-o norecovery` can still mount it readonly.
+
 * [[How to take back control of /etc/resolv.conf on Linux|https://www.ctrl.blog/entry/resolvconf-tutorial.html]] --- //Several DNS-related programs want to automatically manage the DNS name server and resolution configuration file at `/etc/resolv.conf`. In some situations, you may want to manage this file yourself.//
 
 * [[How do I start a process with a nice value of -20 and not give it root privilege?|https://unix.stackexchange.com/questions/72934/how-do-i-start-a-process-with-a-nice-value-of-20-and-not-give-it-root-privilege]] --- quick hack: `sudo nice -n -20 su -c ${cmd} ${user}`

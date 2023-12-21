@@ -1,12 +1,15 @@
-created: 20231220192251148
+created: 20231221170555191
 creator: Octt
-modified: 20231221002612717
+modified: 20231221170742861
 modifier: Octt
 tags: 
-title: Saved/Sites/Sysadmin
+title: Sysadmin
+
+<<^wikipediaframe Sysadmin>>
+
+!!! Saved Sites
 
 Saved sites that are mainly about miscellaneous system administration (mainly devlogs, project showcases, or tips+tricks, and online tools). (Some are in other Saved pages and should be moved here.)
 
+* [[Jimmy's weblog|https://web.archive.org/web/20210211061312/http://www.jimmy.co.at/weblog/]]
 * [[Major Hayden|https://major.io/]] --- //A social nerd writing about everything 🤓//
-
-...

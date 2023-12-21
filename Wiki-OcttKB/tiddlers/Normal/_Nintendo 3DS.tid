@@ -1,11 +1,15 @@
 created: 20220923110724649
 creator: Octt
-modified: 20231115232741597
+modified: 20231221155246624
 modifier: Octt
-tags: Gaming Nintendo Console
+tags: Gaming Nintendo Console Handheld
 title: Nintendo 3DS
 
+\define l3db(item) [[$item$ [3dbrew]|https://www.3dbrew.org/wiki/$item$]]
+
 <<^wikipediaframe "Nintendo 3DS">>
+
+* <<l3db Gamecards>>
 
 * [[Install FBI on CTRNAND|https://gbatemp.net/threads/install-fbi-on-ctrnand.616119/]] (or any title, manual procedure)
 * [[devkitpro/3ds-examples|https://github.com/devkitPro/3ds-examples]] --- //Examples for 3DS using devkitARM, libctru, citro3d and citro2d//

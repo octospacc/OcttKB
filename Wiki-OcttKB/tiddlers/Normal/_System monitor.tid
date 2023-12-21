@@ -1,0 +1,14 @@
+created: 20231221165624254
+creator: Octt
+modified: 20231221170006766
+modifier: Octt
+tags: 
+title: System monitor
+
+<<^wikipediaframe "System monitor">>
+
+!! Htop
+
+<<^wikipediaframe Htop>>
+
+* [[How can I set customise settings for htop?|https://unix.stackexchange.com/questions/147885/how-can-i-set-customise-settings-for-htop]] --- basically, first press `F2` to open settings, and after configuration close the app by pressing `Q`/`F10`, instead of other ways aka killing it badly

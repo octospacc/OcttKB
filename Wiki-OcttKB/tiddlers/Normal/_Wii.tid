@@ -1,8 +1,8 @@
 created: 20231024225405083
 creator: Octt
-modified: 20231110235801068
+modified: 20231221153109610
 modifier: Octt
-tags: Nintendo
+tags: Nintendo Console Gaming
 title: Wii
 
 <<^wikipediaframe Wii>>
@@ -15,3 +15,5 @@ title: Wii
 * [[The Homebrew Channel - open source edition|https://github.com/fail0verflow/hbc]]
 ** "[[The (Open) Homebrew Channel|https://hackmii.com/2016/11/the-open-homebrew-channel/]]" (article)
 * <<linkdesc "USB Loader GX" "https://github.com/wiidev/usbloadergx" "allows you to play Wii and GameCube games from a USB storage device or an SD card, launch other homebrew apps, create backups, use cheats in games...">>
+
+* [[sneek|https://code.google.com/archive/p/sneek/]] --- //This projects redirects all NAND access on a Nintendo Wii to an SD card or USB device.

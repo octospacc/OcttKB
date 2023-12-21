@@ -1,8 +1,9 @@
 created: 20231221001035380
 creator: Octt
-modified: 20231221001203387
+modified: 20231221164123943
 modifier: Octt
 tags: 
 title: Linux/Advanced
 
-* [[How to create a Linux system that runs a single application?|https://superuser.com/questions/320529/how-to-create-a-linux-system-that-runs-a-single-application]]
+* [[What is the smallest possible Linux implementation?|https://unix.stackexchange.com/questions/2692/what-is-the-smallest-possible-linux-implementation/203902#203902]]
+** [[How to create a Linux system that runs a single application?|https://superuser.com/questions/320529/how-to-create-a-linux-system-that-runs-a-single-application]]

@@ -1,12 +1,12 @@
 created: 20231111233128372
 creator: Octt
-modified: 20231111235055495
+modified: 20231221163333560
 modifier: Octt
-tags: 
+tags: Geography
 title: Cartography
 
 <<^wikipediaframe Cartography>>
 
 * <<linkdescgit OpenStreetMap"https://www.openstreetmap.org/" "largest community-created geospatial project of all time" "https://github.com/openstreetmap">>
-** <<linkdescgit OsmAnd"https://osmand.net/" "Offline Maps and Navigation" "https://github.com/osmandapp">>
+** <<linkdescgit OsmAnd"https://osmand.net/" "Offline Maps and Navigation" "https://github.com/osmandapp">>, primarily for Android but a webapp is WIP
 * <<linkdescgit Leaflet"https://leafletjs.com/" "🍃 JavaScript library for mobile-friendly interactive maps" "https://github.com/Leaflet">>

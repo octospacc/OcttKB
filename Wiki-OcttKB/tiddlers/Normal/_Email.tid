@@ -1,6 +1,6 @@
 created: 20231221000014083
 creator: Octt
-modified: 20231221000539428
+modified: 20231221170938128
 modifier: Octt
 title: Email
 
@@ -8,10 +8,18 @@ title: Email
 
 * [[What characters are allowed in an email address?|https://stackoverflow.com/questions/2049502/what-characters-are-allowed-in-an-email-address]] (contains scary examples)
 
-!! ''Hosting''
+* [[MxToolbox|https://mxtoolbox.com/]] --- misc tools for email server administration and testing
+
+!! ''Hosting and software''
+
+* [[Best Open Source Email Servers|https://itsfoss.com/open-source-email-servers/]]
 
 * [[Documentation for docker-mailserver!|https://docker-mailserver.github.io/docker-mailserver/latest/]] --- <<[# Git"https://github.com/docker-mailserver">>
 
+!!! Postfix
+
+<<^wikipediaframe "Postfix (software)">>
+
 * [[Adding aliases inboxes using Postfix|https://unix.stackexchange.com/questions/319222/adding-aliases-inboxes-using-postfix]] --- add new lines in /etc/aliases as needed for aliases, with format `desidered_alias: real_username`, then run `newaliases`.
 * [[Quickly test an IMAP server with telnet|https://coderwall.com/p/h-tzia/quickly-test-an-imap-server-with-telnet]]
-* [[Postfix : SASL auth with PAM and passwd file|https://seenthis.net/messages/522996]]
+* [[Postfix: SASL auth with PAM and passwd file|https://seenthis.net/messages/522996]] || [[Postfix and SASL (Debian)|http://web.archive.org/web/20210211014625/http://www.jimmy.co.at/weblog/2005/12/05/postfix-and-sasl-debian/]]
