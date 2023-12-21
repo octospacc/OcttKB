@@ -1,6 +1,6 @@
 created: 20231210221351785
 creator: Octt
-modified: 20231210221909855
+modified: 20231221194813527
 modifier: Octt
 tags: 
 title: GUI
@@ -8,3 +8,10 @@ title: GUI
 <<^wikipediaframe GUI>>
 
 * [[B00MERANG Project|https://b00merang-project.github.io/]] --- //Team of developers creating themes for Linux// --- <<[# "Other Website" "https://b00merang.weebly.com/">> <<[# Git"https://github.com/B00merang-Project">>
+
+!! Window manager
+
+<<^wikipediaframe "Window manager">>
+
+* [[twin|https://github.com/cosmos72/twin]] --- //Text mode window environment. A "retro" program for embedded or remote systems, that doubles as X11 terminal and text-mode equivalent of VNC server//
+* [[vtm|https://github.com/directvt/vtm]] --- //virtual terminal multiplexer//

@@ -1,6 +1,6 @@
 created: 20230207185112276
 creator: Octt
-modified: 20231221171157103
+modified: 20231221190746217
 modifier: Octt
 tags: Server
 title: Nginx
@@ -12,7 +12,8 @@ title: Nginx
 * [[agentzh's Nginx Tutorials (version 2020.03.19)|https://openresty.org/download/agentzh-nginx-tutorials-en.html]]
 * [[How to set up Nginx as a caching reverse proxy?|https://serverfault.com/questions/30705/how-to-set-up-nginx-as-a-caching-reverse-proxy]]
 * Nginx reverse proxy + URL rewrite: [[most correct way and best practice is usually...|https://serverfault.com/a/870620]]
-* [[If is Evil… when used in location context|https://www.nginx.com/resources/wiki/start/topics/depth/ifisevil/]] --- (always dangerous in locations, except when doing `return ...;` or `rewrite ... last;`)
+* [[How nginx "location if" works|https://agentzh.blogspot.com/2011/03/how-nginx-location-if-works.html]]
+** [[If is Evil… when used in location context|https://www.nginx.com/resources/wiki/start/topics/depth/ifisevil/]] --- (always dangerous in locations, except when doing `return ...;` or `rewrite ... last;`)
 * [[How to reply with 200+content from Nginx, without serving a file?|https://serverfault.com/questions/196929/how-to-reply-with-200-from-nginx-without-serving-a-file]]
 * [[nginx redirect based on domain name|https://serverfault.com/questions/832456/nginx-redirect-based-on-domain-name/832474#832474]]
 * [[Using variables in Nginx location rules|https://stackoverflow.com/questions/15416957/using-variables-in-nginx-location-rules/61513351#61513351]] --- nginx doesn't have proper variables, but the map module is often usable

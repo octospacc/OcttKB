@@ -1,6 +1,6 @@
 created: 20230725113714725
 creator: Octt
-modified: 20231008202243333
+modified: 20231221194135897
 modifier: Octt
 tags: Scripting
 title: Shell scripting
@@ -14,3 +14,5 @@ title: Shell scripting
 
 * [[bash/fish command to print absolute path to a file|https://stackoverflow.com/questions/3915040/how-to-obtain-the-absolute-path-of-a-file-via-shell-bash-zsh-sh#3915075]]
 ** `realpath example.txt # => /home/me/example.txt`
+
+* [[How do I trim leading and trailing whitespace from each line of some output?|https://unix.stackexchange.com/questions/102008/how-do-i-trim-leading-and-trailing-whitespace-from-each-line-of-some-output]] --- `awk '{$1=$1};1'`

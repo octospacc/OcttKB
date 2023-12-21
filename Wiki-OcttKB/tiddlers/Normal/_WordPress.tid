@@ -1,9 +1,11 @@
 created: 20230206192842398
 creator: Octt
-modified: 20231212001554129
+modified: 20231221193127848
 modifier: Octt
 tags: Web PHP CMS
 title: WordPress
+
+\define lwplug(slug, title) [[$title$|https://wordpress.org/plugins/$slug$]]
 
 <<^wikipediaframe WordPress en>>
 
@@ -11,7 +13,11 @@ title: WordPress
 
 !!! Plugins
 
-* [[URL Params|https://wordpress.org/plugins/url-params/]] --- allows you to access URL parameters in the Query String of the URL via shortcodes
+* <<lwplug activitypub ActivityPub>> --- //Enter the fediverse with ActivityPub, broadcasting your blog to a wider audience!// --- <<[# Git"https://github.com/automattic/wordpress-activitypub">>
+* <<lwplug press-this "Press This">> (once part of WP, now an official plugin) --- //Posting images, links, and cat gifs will never be the same.// --- <<[# Support"https://wordpress.com/support/press-this/">> <<[# Codex"https://codex.wordpress.org/Press_This">>
+** [[Creating Quick Blog Posts with Press This|https://make.wordpress.org/support/user-manual/posts/creating-quick-blog-posts-with-press-this/]]
+* <<lwplug writing-on-github "Writing On GitHub">> --- //A WordPress plugin to allow you writing on GitHub (or Jekyll site)//, and vice-versa --- <<[# Git"https://github.com/litefeel/writing-on-github">>
+* <<lwplug url-params "URL Params">> --- allows you to access URL parameters in the Query String of the URL via shortcodes
 
 !!! Themes
 

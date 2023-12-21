@@ -1,11 +1,13 @@
 created: 20230905210118727
 creator: Octt
-modified: 20230905211208885
+modified: 20231221190217558
 modifier: Octt
 tags: Linux Virtualization
 title: LXC
 
 <<^wikipediaframe LXC>>
+
+* [[Exploring simple Linux containers with lxc|https://www.redhat.com/sysadmin/exploring-containers-lxc]] --- //Get started with simple containers using the tools available in the lxc project.//
 
 * [[LXC and mount point. Permission denied|https://forum.proxmox.com/threads/lxc-and-mount-point-permission-denied.111693/]]
 ** Unprivileges LXCs use user/group remapping. So UID/GID 0-65535 inside the LXC will be UID/GID 100000-165535 on the host. To access the bind-mount from inside the LXC with (example) UID 1000 and GID 1000 that folder would need to be owned by UID 101000 and GID 101000 on the host. So to fix (example): `chown -R 101000:101000 ${Folder}`.
