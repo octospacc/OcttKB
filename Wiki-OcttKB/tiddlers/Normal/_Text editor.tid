@@ -1,9 +1,16 @@
 created: 20231111224636577
 creator: Octt
-modified: 20231112233509196
+modified: 20231221234551233
 modifier: Octt
 tags: 
-title: Code editor
+title: Text editor
+
+<<^wikipediaframe "Text editor">>
+
+* [[xed|https://community.linuxmint.com/software/view/xed]] --- //X-Apps [Text] Editor (Cross-DE, backward-compatible, GTK3, traditional UI)// --- <<[# Git"https://github.com/linuxmint/xed">>
+** [[Xed Text Editor - [How to install] Custom Syntax Highlighting?|https://forums.linuxmint.com/viewtopic.php?t=358433]] --- just put the `.lang` file in `/usr/share/gtksourceview-4/language-specs/`
+
+!! Code editor
 
 <<^wikipediaframe "Code editor">>
 

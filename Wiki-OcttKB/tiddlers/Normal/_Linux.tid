@@ -1,7 +1,7 @@
 created: 20230111153758951
 creator: Octt
 icon: 🐧
-modified: 20231221165610981
+modified: 20231221235827928
 modifier: Octt
 page-cover: https://images.unsplash.com/photo-1549605659-32d82da3a059?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 tags: $:/i18n:en Unix
@@ -46,6 +46,7 @@ title: Linux
 !!! ''Troubleshooting, practical guides''
 
 * [[Linuxize|https://linuxize.com/]] --- //Linux Tips, Tricks and Tutorials//
+* [[Ubuntu Geek|https://www.ubuntugeek.com/]] --- //Ubuntu Linux Tutorials,Howtos,Tips & News//
 
 * [[How to Zip Files and Directories in Linux|https://linuxize.com/post/how-to-zip-files-and-directories-in-linux/]] --- //the `zip` util and all important options//
 

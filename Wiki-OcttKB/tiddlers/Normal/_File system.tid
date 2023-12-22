@@ -1,6 +1,6 @@
 created: 20230813102403596
 creator: Octt
-modified: 20231105111033268
+modified: 20231222001700310
 modifier: Octt
 title: File system
 
@@ -11,6 +11,10 @@ title: File system
 <<^wikipediaframe "Disk partitioning">>
 
 * [[GParted stop after next operation?|https://superuser.com/questions/312149/gparted-stop-after-next-operation]] --- TLDR: libparted doesn't keep copies of disk data, so the operation can be stopped without data loss only with luck and/or stopping at the least bad time.
+
+!! ''Fat32''
+
+* [[formatting a drive to FAT32 with mkdosfs, need some info|https://askubuntu.com/questions/190030/formatting-a-drive-to-fat32-with-mkdosfs-need-some-info]] (with cluster size and everything)
 
 !! ''Btrfs''
 

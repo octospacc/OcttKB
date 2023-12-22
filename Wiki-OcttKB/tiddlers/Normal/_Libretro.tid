@@ -1,6 +1,6 @@
 created: 20230116221513491
 creator: Octt
-modified: 20231212001927791
+modified: 20231221233243348
 modifier: Octt
 tags: $:/i18n:en
 title: Libretro
@@ -8,6 +8,8 @@ title: Libretro
 <<^wikipediaframe Libretro>>
 
 * [[Developing Libretro Cores|https://docs.libretro.com/development/cores/developing-cores/]]
+
+* [[Building RetroArch [GTW]|https://emulation.gametechwiki.com/index.php/Building_RetroArch]]
 
 !! RetroArch
 
