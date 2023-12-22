@@ -1,11 +1,11 @@
 created: 20231222001710765
 creator: Octt
-modified: 20231222001908458
+modified: 20231222112404418
 modifier: Octt
 tags: 
 title: Dart
 
-
+<<^wikipediaframe "Dart (programming language)">>
 
 * [[How to check a string null in Dart?|https://stackoverflow.com/questions/62212456/how-to-check-a-string-null-in-dart]] (with various properties)
 ** [[Dart null / false / empty checking: How to write this shorter?|https://stackoverflow.com/questions/42446566/dart-null-false-empty-checking-how-to-write-this-shorter#52948927]]

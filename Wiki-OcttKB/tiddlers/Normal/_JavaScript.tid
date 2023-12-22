@@ -1,6 +1,6 @@
 created: 20221110145611678
 creator: Octt
-modified: 20231219000006737
+modified: 20231222115353008
 modifier: Octt
 tags: Development $:/i18n:en Web
 title: JavaScript
@@ -11,10 +11,14 @@ title: JavaScript
 
 * [[Ecma International TC39|https://tc39.es/]] - Committee maintaining JS specifications
 
+* [[aem1k|https://aem1k.com/]] --- //JavaScript Hacks and Creative Coding Created by Martin Kleppe aka @aemkei.// --- <<[# Git"https://github.com/aemkei/aemkei.github.io">>
+
 !!! ''Resources''
 
 * [[The Modern JavaScript Tutorial (javascript.info)|https://javascript.info/]] --- //How it's done now. From the basics to advanced topics with simple, but detailed explanations.//
 * <<httpsL JavaScriptTutorial.net>> --- //helps you learn JavaScript programming from scratch quickly and effectively//
+
+* //''[[JSFuck|https://jsfuck.com/]]'' is an esoteric and educational programming style based on the atomic parts of JavaScript. It uses only six different characters to write and execute code.// --- <<[# Git+Guide "https://github.com/aemkei/jsfuck">>
 
 * [[Which equals operator (== vs ===) should be used in JavaScript comparisons?|https://stackoverflow.com/questions/359494/which-equals-operator-vs-should-be-used-in-javascript-comparisons]] ("Good and bad twins") --- `==` is bad unless explicitly needed, since it does type-coercion.
 ** [[In theory === is faster, no type conversion takes place. Practically there's no performance difference.|https://stackoverflow.com/questions/12332855/which-javascript-equality-operator-or-is-faster]]
@@ -41,6 +45,8 @@ title: JavaScript
 * [[XMLHttpRequest|https://www.w3schools.com/xml/xml_http.asp]]
 ** <<MDNLink Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests "Synchronous and asynchronous requests">>
 * [[HTML DOM Events|https://www.w3schools.com/jsref/dom_obj_event.asp]]
+
+* <<httpsL tixy.land>> --- //(t,i,x,y) => "creative code golfing"// --- <<[# Git"https://github.com/aemkei/tixy">>
 
 !!! ''Tools''
 

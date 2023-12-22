@@ -1,6 +1,6 @@
 created: 20230211172153874
 creator: Octt
-modified: 20231105112642209
+modified: 20231222121254624
 modifier: Octt
 title: Java
 
@@ -8,4 +8,5 @@ title: Java
 
 * [[Java NullPointerException|https://www.digitalocean.com/community/tutorials/java-lang-nullpointerexception]]
 
-* [[Oracle Java Downloads Archive|https://www.oracle.com/java/technologies/downloads/archive/]] --- requires shitty account to download basically anything
+* [[Oracle Java Downloads Archive|https://www.oracle.com/java/technologies/downloads/archive/]] --- requires shitty account to download basically anything, but has everything
+* [[Install openjdk-6-jdk on Ubuntu/Xubuntu 16.04 |https://gist.github.com/bmaupin/ff99b0cc84dd3ad8c4600374f2473184]]

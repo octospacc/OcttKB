@@ -1,6 +1,6 @@
 created: 20231221001636851
 creator: Octt
-modified: 20231221001949847
+modified: 20231222115805983
 modifier: Octt
 tags: 
 title: Linux/Distros
@@ -10,3 +10,8 @@ title: Linux/Distros
 * [[tomsrtbt (Tom's floppy which has a root filesystem and is also bootable.)|http://www.toms.net/rb/]] --- //"The most GNU/Linux on 1 floppy disk."//
 
 * [[distro Linux vs generi, trova le differenze|https://octospacc.altervista.org/2023/12/20/690/]]
+
+!! Void
+
+* [[The Void (Linux) distribution|https://voidlinux.org/]] --- <<[# Git"https://github.com/void-linux">>
+* [[Services and Daemons - runit|https://docs.voidlinux.org/config/services/index.html]]
