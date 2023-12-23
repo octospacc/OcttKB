@@ -1,6 +1,6 @@
 created: 20230216221308797
 creator: Octt
-modified: 20230927232217489
+modified: 20231223162822644
 modifier: Octt
 tags: 
 title: Linux/Snippets
@@ -8,4 +8,11 @@ title: Linux/Snippets
 ; [[How to mount a local directory without root|https://unix.stackexchange.com/a/602503]]
 : `bindfs --no-allow-other /source/directory /mount/point`
 
-* [[xdotool list of key codes|https://gitlab.com/cunidev/gestures/-/wikis/xdotool-list-of-key-codes]]
+; [[Create a File of a Certain Size in Linux|https://www.baeldung.com/linux/create-file-of-given-size]]
+: `fallocate -l 100M ${File}`
+
+; [[How to cut a file to a given size under Linux?|https://superuser.com/questions/629521/how-to-cut-a-file-to-a-given-size-under-linux]]
+: `truncate --size=1G ${File}`
+
+; Misc
+: [[xdotool list of key codes|https://gitlab.com/cunidev/gestures/-/wikis/xdotool-list-of-key-codes]]

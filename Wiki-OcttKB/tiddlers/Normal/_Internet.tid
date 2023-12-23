@@ -1,7 +1,7 @@
 created: 20230203214625941
 creator: Octt
 icon: 🌐
-modified: 20231008211922449
+modified: 20231223103134835
 modifier: Octt
 page-cover: https://source.unsplash.com/random?internet
 tags: $:/i18n:en
@@ -10,6 +10,8 @@ title: Internet
 <<^wikipediaframe Internet en>>
 
 (Specific Web resources are under [[Web]].)
+
+* [[Kiwix|https://kiwix.org]] --- //Internet Content Without Internet Access// --- <<[# Git"https://github.com/kiwix">>
 
 * <<RedditL r/pihole/comments/dmyypc/what_is_this_ip6arpa_that_keeps_showing_up "What is this ip6.arpa that keeps showing up?">> (`0.0.0.0.[...].ip6.arpa`) --- //ip6.arpa is a special domain name used to achieve reverse delegation for IPv6 addresses.//
 

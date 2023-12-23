@@ -1,0 +1,19 @@
+caption: ^WikipediaFrame
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+condition-disabled: [[$:/temp/bold/disabled]get[state-disabled]else[no]]
+created: 20231223101422552
+creator: Octt
+description: &lt;&lt;^WikipediaFrame Article&gt;&gt;
+icon: $:/core/images/spiral
+modified: 20231223130720723
+modifier: Octt
+shortcuts: ((EditorToolbar/WikipediaFrame))
+tags: $:/tags/EditorToolbar
+title: $:/OcttKB/EditorToolbar/WikipediaFrame
+
+<$action-sendmessage
+  $message="tm-edit-text-operation"
+  $param="wrap-selection"
+  prefix='<<^WikipediaFrame "'
+  suffix='">>'
+/>

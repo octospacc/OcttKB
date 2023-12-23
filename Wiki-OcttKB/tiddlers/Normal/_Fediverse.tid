@@ -1,9 +1,9 @@
 created: 20230114124144464
 creator: Octt
 icon: 
-modified: 20231211003244753
+modified: 20231223123321502
 modifier: Octt
-tags: TODO $:/i18n:en
+tags: [[Social network]]
 title: Fediverse
 
 <!-- <<MediaWiki Fediverse en 1 Fediverse_logo_proposal.svg>> -->
@@ -50,5 +50,9 @@ Tip: these sites list many public instances for many platforms.
 
 !! ''Other''
 
+* [[Soapbox|https://soapbox.pub/]] --- //A social media frontend with a focus on custom branding and ease of use.// (+ other things) --- <<[# Git"https://gitlab.com/soapbox-pub">>
+* [[Mangan App|https://manganapp.vercel.app]] --- //Fork of Mangane, fork Soapbox, fork of Mastodon UI//, with support for login into any instance --- <<[# Git"https://github.com/sjbat/mangan">>
+
 * [[Fediverse Enhancement Proposals|https://codeberg.org/fediverse/fep]]
 * [[MaPlefeed|https://maplefeed.bihlink.com/]] --- //Mastodon & Pleroma Feed generator// --- <<[# Git"https://github.com/bihlink/maplefeed">>
+

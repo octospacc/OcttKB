@@ -1,0 +1,10 @@
+created: 20231223123123764
+creator: Octt
+modified: 20231223123258009
+modifier: Octt
+tags: 
+title: Social network
+
+<<^WikipediaFrame "Social network">>
+
+* [[Nostr|https://nostr.com]] --- //A decentralized social network with a chance of working// --- <<[# "Git (Protocol)" "https://github.com/nostr-protocol">>

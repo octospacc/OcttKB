@@ -1,7 +1,7 @@
 created: 20220924193842295
 creator: Octt
 icon: 🐈
-modified: 20231210223906968
+modified: 20231223140546807
 modifier: Octt
 page-cover: https://source.unsplash.com/random/?computer-cat
 tags: TiddlyWiki Wiki Zettelkasten Libre
@@ -65,6 +65,7 @@ It is a libre, JavaScript-rich, non-linear notebook, that can well adapt to anyo
 * <<TwL " MacroCallWidget SetWidget VarsWidget">>
 * <<TwL " EditTextWidget RangeWidget CheckboxWidget">>
 * <<TwL " [[Table-of-Contents Macros (Examples)]] ">>
+* <<TwL " [[How to create dynamic editor toolbar buttons]] [[How to create keyboard shortcuts]] ">>
 * [[How to Use Unicode Character (emoji) as Icon of Tags|https://dmitryrck.com/unicode-character-icon-of-tags-tiddlywiki/]] <<TwL " [[How to create a custom tiddler icon rule]] ">>
 * [[How To Use Tiddlywiki as a Static Site Generator|https://rpdillon.net/how-to-use-tiddlywiki-as-a-static-site-generator.html]]
 

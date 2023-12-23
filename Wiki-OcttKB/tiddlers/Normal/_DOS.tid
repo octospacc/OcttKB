@@ -1,6 +1,6 @@
 created: 20231102223250475
 creator: Octt
-modified: 20231221195418497
+modified: 20231223111404767
 modifier: Octt
 tags: 
 title: DOS
@@ -8,5 +8,8 @@ title: DOS
 <<^wikipediaframe DOS>>
 
 * //''[[FreeDOS|https://freedos.org/]]'' --- is a free software operating system for IBM PC compatible computers.//
+
+* [[js-dos v7|https://js-dos.com/]] --- //The simplest API to run DOS games in browser// --- <<[# Git"https://github.com/js-dos">>
+** [[DOS Zone|https://dos.zone/]] --- //Ultimate collection of online dos games//
 
 * [[DOS haven|http://www.doshaven.eu/]] --- //21st century DOS games//, and related resources like homebrews, tools, and codes

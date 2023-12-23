@@ -1,12 +1,13 @@
 created: 20231217005152232
 creator: Octt
-modified: 20231217005816030
+modified: 20231223160619490
 modifier: Octt
 tags: 
 title: Kotlin
 
 <<^wikipediaframe Kotlin>>
 
+* [[Get type of a variable in Kotlin|https://stackoverflow.com/questions/45165143/get-type-of-a-variable-in-kotlin]] --- `if (var is Class) ...`
 * [[What's the difference between !! and ? in Kotlin?|https://stackoverflow.com/questions/44536114/whats-the-difference-between-and-in-kotlin]] --- when `obj` is null, `obj!!` throws `NullPointerException`, `obj?` returns `null`
 
 * [[How to do url encoding for query parameters in Kotlin|https://stackoverflow.com/questions/56942341/how-to-do-url-encoding-for-query-parameters-in-kotlin#56942734]] --- `URLEncoder.encode(text, "utf-8")`

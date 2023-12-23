@@ -1,0 +1,19 @@
+caption: SquaredLink
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+condition-disabled: [[$:/temp/bold/disabled]get[state-disabled]else[no]]
+created: 20231223102449513
+creator: Octt
+description: SquaredLink: &lt;&lt;[# Name Target&gt;&gt;
+icon: $:/core/images/spiral
+modified: 20231223130723771
+modifier: Octt
+shortcuts: ((EditorToolbar/SquaredLink))
+tags: $:/tags/EditorToolbar
+title: $:/OcttKB/EditorToolbar/SquaredLink
+
+<$action-sendmessage
+  $message="tm-edit-text-operation"
+  $param="wrap-selection"
+  prefix='<<[# '
+  suffix='>>'
+/>

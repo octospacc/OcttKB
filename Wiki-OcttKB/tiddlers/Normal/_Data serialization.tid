@@ -1,0 +1,25 @@
+created: 20231223143928533
+creator: Octt
+modified: 20231223144025192
+modifier: Octt
+tags: 
+title: Data serialization
+
+<<^WikipediaFrame "Data serialization">>
+
+* [[JSON is valid YAML|https://til.codeinthehole.com/posts/json-is-valid-yaml/]]
+
+!! YAML
+
+<<^WikipediaFrame "YAML">>
+
+* [[YAML Lint Online|https://www.yamllint.com/]]
+* [[YAML to JSON Converter Online|https://yml2json.com/]]
+
+!! INI
+
+<<^WikipediaFrame "INI file">>
+
+!!! TOML
+
+<<^WikipediaFrame "TOML">>
