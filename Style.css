@@ -269,6 +269,24 @@ a[href="#%24%3A%2FManager"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
 
 
 
+a[href="#%24%3A%2FOcttKB%2FEditorToolbar%2FSquaredLink"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="%24%3A%2FOcttKB%2FEditorToolbar%2FSquaredLink"] > .tc-tag-label:after {
+  content: ' $:/core/images/spiral';
+}
+
+
+
+
+
+a[href="#%24%3A%2FOcttKB%2FEditorToolbar%2FWikipediaFrame"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="%24%3A%2FOcttKB%2FEditorToolbar%2FWikipediaFrame"] > .tc-tag-label:after {
+  content: ' $:/core/images/spiral';
+}
+
+
+
+
+
 a[href="#%24%3A%2FTagManager"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
 .tc-tag-list-item[data-tag-title="%24%3A%2FTagManager"] > .tc-tag-label:after {
   content: ' $:/core/images/tag-button';
