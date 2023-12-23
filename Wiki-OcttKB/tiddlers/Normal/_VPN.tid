@@ -1,6 +1,6 @@
 created: 20231221160637475
 creator: Octt
-modified: 20231221163217540
+modified: 20231222215118776
 modifier: Octt
 tags: 
 title: VPN
@@ -8,3 +8,4 @@ title: VPN
 <<^wikipediaframe VPN>>
 
 * [[Psiphon|https://psiphon.ca]] --- //Access the entire internet.// --- <<[# Git"https://github.com/Psiphon-Inc">>
+* [[VpnHood!|https://www.vpnhood.com/]] --- //Undetectable VPN for ordinary users and experts. VpnHood is a solution to bypass Advanced Firewalls and can circumvent deep packet inspection.// --- <<[# Git"https://github.com/vpnhood">>

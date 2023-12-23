@@ -1,6 +1,6 @@
 created: 20230206192842398
 creator: Octt
-modified: 20231221232653528
+modified: 20231222233656761
 modifier: Octt
 tags: Web PHP CMS
 title: WordPress
@@ -9,6 +9,7 @@ title: WordPress
 
 <<^wikipediaframe WordPress en>>
 
+* [[Stupid WordPress Tricks|https://perishablepress.com/stupid-wordpress-tricks]] (with PHP)
 * [[How to Add Code to WordPress Header and Footer|https://kinsta.com/knowledgebase/add-code-wordpress-header-footer/]]
 
 * [[WordPress Plugins SVN Mirror|http://web.archive.org/web/20200805015358/http://www.pluginmirror.com/]] (apparently website is dead?) --- //Say hello to fully automated GitHub mirrors of every plugin in the WordPress.org plugin repository.// --- <<[# Git"https://github.com/wp-plugins">>

@@ -1,6 +1,6 @@
 created: 20221102121324531
 creator: Octt
-modified: 20231222000332271
+modified: 20231222225931242
 modifier: Octt
 tags: Emulation Retro $:/i18n:en Gaming
 title: Retrogaming
@@ -8,6 +8,10 @@ title: Retrogaming
 <<^wikipediaframe Retrogaming en>>
 
 !! ''Resources''
+
+!!! Play online
+
+* [[Let's Play GBA|https://www.letsplaygba.com/]] --- //Play All Game Boy Advance Games Online// --- shitty JS emulation but offers a Flash emulator, curious
 
 !!! ''ROMs and various archives''
 * [[r/Roms Megathread|https://r-roms.github.io]]
