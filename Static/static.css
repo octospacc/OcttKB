@@ -278,15 +278,6 @@ a[href="#%24%3A%2FTagManager"][class='tc-tiddlylink tc-tiddlylink-resolves']:aft
 
 
 
-a[href="#AI"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
-.tc-tag-list-item[data-tag-title="AI"] > .tc-tag-label:after {
-  content: ' 👾';
-}
-
-
-
-
-
 a[href="#Android"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
 .tc-tag-list-item[data-tag-title="Android"] > .tc-tag-label:after {
   content: ' 🤖';
@@ -299,6 +290,15 @@ a[href="#Android"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
 a[href="#Animal%20Crossing"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
 .tc-tag-list-item[data-tag-title="Animal%20Crossing"] > .tc-tag-label:after {
   content: ' 🍃';
+}
+
+
+
+
+
+a[href="#Artificial%20intelligence"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Artificial%20intelligence"] > .tc-tag-label:after {
+  content: ' 👾';
 }
 
 
