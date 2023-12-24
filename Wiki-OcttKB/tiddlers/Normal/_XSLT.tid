@@ -1,8 +1,11 @@
 created: 20230818075444257
 creator: Octt
-modified: 20230818075520008
+modified: 20231224001236299
 modifier: Octt
 tags: XSL
 title: XSLT
 
 <<^wikipediaframe XSLT>>
+
+* [[XSL if test with multiple test conditions|https://stackoverflow.com/questions/21381055/xsl-if-test-with-multiple-test-conditions]] --- `<xsl:choose> <xsl:when test="expression"> ...`
+* [[how to check with 2 conditions for test in xsl if\when|https://stackoverflow.com/questions/1654082/how-to-check-with-2-conditions-for-test-in-xslwhen#1654104]] --- `<xsl:when test="$test1 = 'Yes' or $test1 = 'yes'">`

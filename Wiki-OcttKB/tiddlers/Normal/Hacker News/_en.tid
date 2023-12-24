@@ -1,10 +1,11 @@
 created: 20230113095521581
-modified: 20230206111552153
+creator: Octt
+modified: 20231223232945005
 modifier: Octt
 tags: TODO $:/i18n:en
 title: Hacker News:en
 
-<<MediaWiki Hacker_News en 2>>
+<<^wikipediaframe "Hacker News">>
 
 !! ''The Latest News''
 

@@ -1,6 +1,6 @@
 created: 20231221000014083
 creator: Octt
-modified: 20231221170938128
+modified: 20231223223915590
 modifier: Octt
 title: Email
 
@@ -9,6 +9,7 @@ title: Email
 * [[What characters are allowed in an email address?|https://stackoverflow.com/questions/2049502/what-characters-are-allowed-in-an-email-address]] (contains scary examples)
 
 * [[MxToolbox|https://mxtoolbox.com/]] --- misc tools for email server administration and testing
+* [[SPF/DKIM/DMARC/DomainKey/RBL Test Online|https://appmaildev.com/]]
 
 !! ''Hosting and software''
 

@@ -1,6 +1,6 @@
 created: 20230202104823127
 creator: Octt
-modified: 20231119011705431
+modified: 20231223212338912
 modifier: Octt
 tags: Nintendo Gaming $:/i18n:en Console
 title: Nintendo Entertainment System
@@ -39,3 +39,9 @@ title: Nintendo Entertainment System
 * [[BZK 6502 Disassembler|https://github.com/cyneprepou4uk/BZK-6502-Disassembler]] --- //Create a disassembly of a NES game// --- <<[# Manual "https://cyneprepou4uk.github.io/iromhacker/nes/en/bzk6502/1/index.html">> <<[# Thread "https://www.romhacking.net/forum/index.php?topic=31875.0">>
 
 * [[NES Games Disassembly|https://github.com/cyneprepou4uk/NES-Games-Disassembly]] --- //Source code of some NES games// --- <<[# Thread "https://www.romhacking.net/forum/index.php?topic=32220.0">>
+
+!!! Emulators
+
+* [[FCEUX|https://fceux.com]] --- //The all in one NES/Famicom/Dendy Emulator// --- <<[# "https://github.com/TASEmulators/fceux">>
+* [[Nestopia|]]
+* [[NesDs|]]

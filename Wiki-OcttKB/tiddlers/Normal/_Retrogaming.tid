@@ -1,6 +1,6 @@
 created: 20221102121324531
 creator: Octt
-modified: 20231222225931242
+modified: 20231223211424877
 modifier: Octt
 tags: Emulation Retro $:/i18n:en Gaming
 title: Retrogaming
@@ -13,7 +13,12 @@ title: Retrogaming
 
 * [[Let's Play GBA|https://www.letsplaygba.com/]] --- //Play All Game Boy Advance Games Online// --- shitty JS emulation but offers a Flash emulator, curious
 
+!!! Emulators
+
+* [[Mesen|https://www.mesen.ca/]] --- //Mesen is a multi-system emulator for Windows and Linux. It supports NES, SNES, Game Boy (Color) and PC Engine games. It also includes an extensive set of debugging tools for homebrew development and romhacking.// --- <<[# Git"https://github.com/SourMesen">>
+
 !!! ''ROMs and various archives''
+
 * [[r/Roms Megathread|https://r-roms.github.io]]
 * [[No-Intro Romsets|https://archive.org/details/no-intro_romsets]]
 * [[Redump Romsets|https://archive.org/details/redump]]

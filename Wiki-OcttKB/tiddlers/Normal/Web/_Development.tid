@@ -1,6 +1,6 @@
 created: 20230221204801305
 creator: Octt
-modified: 20231109000404934
+modified: 20231223213738061
 modifier: Octt
 tags: 
 title: Web/Development
@@ -46,6 +46,8 @@ title: Web/Development
 * [[Convert any website into a PWA in just 3 simple steps|https://dev.to/developertharun/convert-any-website-into-a-pwa-in-just-3-simple-steps-35pp]]
 * [[SPA source code recovery by un-Webpacking source maps|https://medium.com/@rarecoil/spa-source-code-recovery-by-un-webpacking-source-maps-ef830fc2351d]] - ''[[unwebpack-sourcemap|https://github.com/rarecoil/unwebpack-sourcemap]]''
 * [[How to inject service-worker.js to a webpage via Chrome Extension? I want to add offline functionality to the existing page|https://stackoverflow.com/questions/72356003/how-to-inject-service-worker-js-to-a-webpage-via-chrome-extension-i-want-to-add]]
+* [[Convert HTML5 Canvas Sequence to a Video File|https://stackoverflow.com/questions/19235286/convert-html5-canvas-sequence-to-a-video-file/62065826#62065826]]
+** customize video quality by changing codec: <<MDNLink Web/API/MediaRecorder/mimeType#examples MediaRecorder/mimeType>>
 
 * [[Hail, Babel! The Transpiling Overlord|https://www.telerik.com/blogs/hail-babel-the-transpiling-overlord]]
 ** [[Using babel to transpile to es3 (safari compliant)|https://stackoverflow.com/questions/40205547/using-babel-to-transpile-to-es3-safari-compliant]]

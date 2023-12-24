@@ -1,6 +1,6 @@
 created: 20230217100639349
 creator: Octt
-modified: 20231221000838294
+modified: 20231223213314857
 modifier: Octt
 tags: Web
 title: Web Browser
@@ -20,14 +20,14 @@ title: Web Browser
 !!! [[Firefox|https://firefox.com]]
 
 * [[How to Install Any Add-on in Firefox for Android|https://www.maketecheasier.com/install-addon-firefox-android]] (Firefox Beta is needed)
-** [[https://mastodon.uno/@octo/111064836718607256]]
+** [[Usando Firefox Beta, è possibile aggiungere una lista custom di #addons...|https://mastodon.uno/@octo/111064836718607256]]
 * [[Why Extensions can't modify Mozilla sites (like AMO)|https://ninetailed.ninja/extensions-modify-mozilla-sites.html]]
 * [[How to increase Firefox scrollbar width?|https://unix.stackexchange.com/questions/304711/how-to-increase-firefox-scrollbar-width]] --- set `widget.non-native-theme.scrollbar.size.override` to number in `about:config`
 
 ; Forks
 : [[LibreWolf|https://librewolf.net]] (Desktop)
 : <<FDroidLink org.mozilla.fennec_fdroid "Fennec F-Droid">> (Android)
-: [[CENO Browser|https://censorship.no/en/index.html]] (Android) - //Short for censorship.no!, is the world’s first mobile browser that side-steps current Internet censorship methods. Its peer-to-peer backbone allows people to access and share web information in and across regions where connectivity has been interrupted or compromised.// - <<[ "[[Git|https://gitlab.com/censorship-no]]">>
+: [[CENO Browser|https://censorship.no/en/index.html]] (Android) --- //Short for censorship.no!, is the world’s first mobile browser that side-steps current Internet censorship methods. Its peer-to-peer backbone allows people to access and share web information in and across regions where connectivity has been interrupted or compromised.// --- <<[ "[[Git|https://gitlab.com/censorship-no]]">>
 
 !!! <<FlathubLink org.gnome.Epiphany "Epiphany">>
 
@@ -35,4 +35,5 @@ title: Web Browser
 
 !! Extensions / Add-ons
 
+* [[octollection|https://addons.mozilla.org/en-US/firefox/collections/18049170/octollection]] --- my add-ons collection for Firefox
 * [[Redirector|https://einaregilsson.com/redirector/]]

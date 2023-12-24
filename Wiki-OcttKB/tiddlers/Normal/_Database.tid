@@ -1,3 +1,19 @@
+created: 20231223234312578
+creator: Octt
+modified: 20231223234827077
+modifier: Octt
 title: Database
 
 <<^wikipediaframe Database>>
+
+!! SQL
+
+<<^wikipediaframe SQL>>
+
+!!! MySQL \ MariaDB
+
+<<^wikipediaframe MySQL>>
+<<^wikipediaframe MariaDB>>
+
+* [[How to install MySQL (MariaDB) on Android with Termux|https://parzibyte.me/blog/en/2019/04/16/install-mysql-mariadb-android-termux/]]
+* [[--skip-grant-tables option cannot execute statement|https://stackoverflow.com/questions/54751024/skip-grant-tables-option-cannot-execute-statement]] --- in `mysql>` execute `flush privileges`

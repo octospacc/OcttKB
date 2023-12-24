@@ -1,7 +1,7 @@
 created: 20230203214532694
 creator: Octt
 icon: 🕸️
-modified: 20231221190902388
+modified: 20231224001341503
 modifier: Octt
 page-cover: https://source.unsplash.com/random?web
 tags: Internet
@@ -35,6 +35,8 @@ title: Web
 
 (Note: some are in [[Static site generator]].)
 
+* [[Blogger|https://blogger.com]] (Google) --- //Create a unique and beautiful blog easily.//
+** [[Dynamic Views: seven new ways to share your blog with the world|https://blogger.googleblog.com/2011/09/dynamic-views-seven-new-ways-to-share.html]] 
 * [[WordPress]]
 * [[werc - A sane web anti-framework|http://werc.cat-v.org/]] --- //Bringing minimalism and sanity to the web// --- Has interesting features with a fixed but style-customizable layout, + support for apps and extensions.
 * [[H5P|https://h5p.org/]] --- //Create, share and reuse interactive HTML5 content in your browser//
@@ -48,3 +50,7 @@ title: Web
 * [[Moe Counter!|https://moe-counter.glitch.me/]] (`count.getloli.com`)
 * [[Start Hits|https://hits.seeyoufarm.com]] --- //🚀 Easy way to know how many visitors are viewing your Github, Website, Notion 🎉// --- <<#[ Git "https://github.com/gjbae1212/hit-counter">>
 * //Others: https://github.com/newTendermint/awesome-analytics | https://github.com/pluja/awesome-privacy#analytics //
+
+!!! Misc libraries
+
+* [[Typo|https://neatnik.net/typo/]] --- //Typo types the way a real person types. There are subtle variations in speed, occasional errors that are corrected, and a general feeling of humanity.// --- <<[# Git"https://github.com/neatnik/typo">>

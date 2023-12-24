@@ -1,6 +1,6 @@
 created: 20230202110151955
 creator: Octt
-modified: 20230723230745197
+modified: 20231223223656445
 modifier: Octt
 tags: $:/i18n:en Calculator
 title: NumWorks
@@ -12,7 +12,9 @@ title: NumWorks
 
 * [[Numworks Hacks Guide|https://guide.getomega.dev/]]
 * [[Omega|https://getomega.dev/]] Custom Firmware, abandoned --- <<[ "[[Git|https://github.com/Omega-Numworks]]">>
+** ... including [[Phi|https://phi.getomega.dev/]], //jailbreak for the Numworks calculator with Epsilon 16 and higher. It brings back custom firmwares.//
 ** [[Upsilon|https://getupsilon.web.app/]] --- CFW forked from Omega and mantained --- <<[ "[[Git|https://github.com/UpsilonNumworks]]">>
 
 * [[Nwagyu|https://www.nwagyu.com/]] --- //Collection of free nwa apps that you can install on your NumWorks calculator//
-* [[Templates to Plot Functions, Parametric Equations, and Sequences|http://edspi31415.blogspot.com/2021/01/numworks-templates-to-plot-functions.html]]
+* [[Templates to Plot Functions, Parametric Equations, and Sequences|https://edspi31415.blogspot.com/2021/01/numworks-templates-to-plot-functions.html]]
+* [[Version 16 bêta : verrouillage NumWorks anti Omega / KhiCAS|https://tiplanet.org/forum/viewtopic.php?t=24968&p=261770&lang=en#p261770]]
