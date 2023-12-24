@@ -1,16 +1,11 @@
 created: 20230221204801305
 creator: Octt
-modified: 20231223213738061
+modified: 20231224152937255
 modifier: Octt
 tags: 
 title: Web/Development
 
-!!! ''Misc''
-
-* [[web.dev|https://web.dev/]] - //Guidance to build modern web experiences that work on any browser// (?)
-* [[Go Make Things|https://gomakethings.com/]] - //how to build a simpler, more resilient web//
-** [[The Vanilla JS Toolkit|https://vanillajstoolkit.com/]] - //tools and snippets for working with JavaScript// (libraries, functions, polyfills, learning)
-* [[Web Accessibility Developer Guide|https://www.accessibility-developer-guide.com/]]
+<<^WikipediaFrame "Web development">>
 
 !!! ''References''
 
@@ -39,9 +34,16 @@ title: Web/Development
 * [[CORS Anywhere|https://github.com/Rob--W/cors-anywhere]] - //Server proxy which adds CORS headers to the request//
 
 !!!! Minification
+
 * ~~[[node-minify|https://github.com/srod/node-minify]] - //Light Node.js module and CLI app that compress javascript, css and html files//~~
 
 !!! ''Misc''
+
+* [[web.dev|https://web.dev/]] - //Guidance to build modern web experiences that work on any browser// (?)
+* [[Go Make Things|https://gomakethings.com/]] - //how to build a simpler, more resilient web//
+** [[The Vanilla JS Toolkit|https://vanillajstoolkit.com/]] - //tools and snippets for working with JavaScript// (libraries, functions, polyfills, learning)
+* [[Web Accessibility Developer Guide|https://www.accessibility-developer-guide.com/]]
+* [[Using <style> tags in the <body> with other HTML|https://stackoverflow.com/questions/2830296/using-style-tags-in-the-body-with-other-html]] --- there once was a `scoped` attribute for `<style>` blocks, but it's nowadays deprecated and styles apply to all document elements despite their own position in the tree
 
 * [[Convert any website into a PWA in just 3 simple steps|https://dev.to/developertharun/convert-any-website-into-a-pwa-in-just-3-simple-steps-35pp]]
 * [[SPA source code recovery by un-Webpacking source maps|https://medium.com/@rarecoil/spa-source-code-recovery-by-un-webpacking-source-maps-ef830fc2351d]] - ''[[unwebpack-sourcemap|https://github.com/rarecoil/unwebpack-sourcemap]]''

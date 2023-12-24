@@ -1,7 +1,7 @@
 created: 20221110120605389
 creator: Octt
 icon: 🐍
-modified: 20231111224955703
+modified: 20231224173748386
 modifier: Octt
 page-cover: https://source.unsplash.com/random/?Python
 tags: Development
@@ -23,7 +23,13 @@ I hate that, while tab-indentation is practically supported by the interpreter, 
 
 !! How to and troubleshooting
 
+Text:
+
 * [[Hex string to int|https://www.tutorialspoint.com/How-to-convert-hex-string-into-int-in-Python]] --- `int('6f637474', 16)`, `int('0x6f637474', 10)`
+* [[Python 3 string to hex|https://stackoverflow.com/questions/2340319/python-3-string-to-hex]] --- `'string'.encode().hex()`
+
+Files:
+
 * [[How to copy files in Python?|https://stackoverflow.com/questions/123198/how-to-copy-files]] (with shutil)
 
 !!! ''HTML things''

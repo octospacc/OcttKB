@@ -1,7 +1,7 @@
 created: 20230203214532694
 creator: Octt
 icon: 🕸️
-modified: 20231224001341503
+modified: 20231224173252107
 modifier: Octt
 page-cover: https://source.unsplash.com/random?web
 tags: Internet
@@ -17,10 +17,12 @@ title: Web
 
 !! ''Resources''
 
-* [[Can I use|https://caniuse.com/]] --- //up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers// --- <<[# "Open Data (Git)" "https://github.com/Fyrd/caniuse">>
 * ''[[World Wide Web Consortium|https://www.w3.org/]]'' - //international community that develops open standards to ensure the long-term growth of the Web// - [[[Wikipedia|https://en.wikipedia.org/wiki/World_Wide_Web_Consortium]]]
+* [[Web Hypertext Application Technology Working Group (WHATWG)|https://whatwg.org/]] --- //Maintaining and evolving HTML [Living Standard] since 2004//
 * The ''[[IndieWeb|https://indieweb.org/]]'' is a people-focused alternative to the “corporate web”.
+
 * ''Web Archiving Services'': [[Wayback Machine]] | [[archive.today|https://archive.today/]] | [[Ghostarchive|https://ghostarchive.org/]]
+* [[Can I use|https://caniuse.com/]] --- //up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers// --- <<[# "Open Data (Git)" "https://github.com/Fyrd/caniuse">>
 
 !!! ''Tools''
 
@@ -36,7 +38,8 @@ title: Web
 (Note: some are in [[Static site generator]].)
 
 * [[Blogger|https://blogger.com]] (Google) --- //Create a unique and beautiful blog easily.//
-** [[Dynamic Views: seven new ways to share your blog with the world|https://blogger.googleblog.com/2011/09/dynamic-views-seven-new-ways-to-share.html]] 
+** [[Dynamic Views: seven new ways to share your blog with the world|https://blogger.googleblog.com/2011/09/dynamic-views-seven-new-ways-to-share.html]]
+*** [[How to customize Blogger's Dynamic Views templates|https://blog.mridey.com/2015/08/how-to-customize-bloggers-dynamic-views.html]] --- //Dynamic Views uses a token based template format...//
 * [[WordPress]]
 * [[werc - A sane web anti-framework|http://werc.cat-v.org/]] --- //Bringing minimalism and sanity to the web// --- Has interesting features with a fixed but style-customizable layout, + support for apps and extensions.
 * [[H5P|https://h5p.org/]] --- //Create, share and reuse interactive HTML5 content in your browser//
@@ -51,6 +54,6 @@ title: Web
 * [[Start Hits|https://hits.seeyoufarm.com]] --- //🚀 Easy way to know how many visitors are viewing your Github, Website, Notion 🎉// --- <<#[ Git "https://github.com/gjbae1212/hit-counter">>
 * //Others: https://github.com/newTendermint/awesome-analytics | https://github.com/pluja/awesome-privacy#analytics //
 
-!!! Misc libraries
+!!! Other Things
 
-* [[Typo|https://neatnik.net/typo/]] --- //Typo types the way a real person types. There are subtle variations in speed, occasional errors that are corrected, and a general feeling of humanity.// --- <<[# Git"https://github.com/neatnik/typo">>
+* <<MDNLink Glossary/speculative_parsing "Speculative parsing">>

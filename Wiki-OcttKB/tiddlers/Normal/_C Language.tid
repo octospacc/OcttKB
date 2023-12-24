@@ -1,6 +1,6 @@
 created: 20231029134919585
 creator: Octt
-modified: 20231217010837009
+modified: 20231224151327804
 modifier: Octt
 tags: 
 title: C Language
@@ -17,9 +17,9 @@ title: C Language
 ** Related: [[error: invalid type argument of ‘unary *’ (have ‘int’)|https://stackoverflow.com/questions/5455866/error-invalid-type-argument-of-unary-have-int#5455962]], this happens when using `*` against a value instead of a pointer, since you can't dereference a value from a value.
 * [[What is a "callback" in C and how are they implemented?|https://stackoverflow.com/questions/142789/what-is-a-callback-in-c-and-how-are-they-implemented/142809#142809]] (function pointers)
 ** [['declared as a function' in C|https://stackoverflow.com/questions/23329261/declared-as-a-function-in-c#23329274]] --- function pointers in structs must be declared with the syntax `type (functionName*)( type arg1, ... )`
-
 * [[Where should I prefer pass-by-reference or pass-by-value?|https://stackoverflow.com/questions/4986341/where-should-i-prefer-pass-by-reference-or-pass-by-value]] --- (performance-wise) //"here's the simple rule: pass by reference when the value is large."//
 ** [[When should I pass or return a struct by value?|https://stackoverflow.com/questions/30980759/when-should-i-pass-or-return-a-struct-by-value]]
+* [[Directly assigning values to C Pointers|https://stackoverflow.com/questions/17665793/directly-assigning-values-to-c-pointers]]
 
 * [[strcpy vs. memcpy|https://stackoverflow.com/questions/2898364/strcpy-vs-memcpy]] --- //strcpy stops when it encounters a NUL ('\0') character, memcpy does not//, aka as the names suggest often strcpy is perfect for strings while for generic data memcpy could be needed.
 * [[ISO C90 forbids mixed declarations and code in C|https://stackoverflow.com/questions/13291353/iso-c90-forbids-mixed-declarations-and-code-in-c]] --- old C standards required that new variables can be declared only before any other actual instruction in a scoped block, e.g. only at the top of a function

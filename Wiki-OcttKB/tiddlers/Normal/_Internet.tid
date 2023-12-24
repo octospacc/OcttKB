@@ -1,7 +1,7 @@
 created: 20230203214625941
 creator: Octt
 icon: 🌐
-modified: 20231223103134835
+modified: 20231224173336933
 modifier: Octt
 page-cover: https://source.unsplash.com/random?internet
 tags: $:/i18n:en
@@ -10,6 +10,8 @@ title: Internet
 <<^wikipediaframe Internet en>>
 
 (Specific Web resources are under [[Web]].)
+
+* <<httpsL Newgrounds.com>> --- //Everything, By Everyone//
 
 * [[Kiwix|https://kiwix.org]] --- //Internet Content Without Internet Access// --- <<[# Git"https://github.com/kiwix">>
 

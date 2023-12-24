@@ -1,16 +1,19 @@
 created: 20230813102403596
 creator: Octt
-modified: 20231223160419818
+modified: 20231224173923486
 modifier: Octt
 title: File system
 
 <<^wikipediaframe "File system">>
 
-!!! ''Disk partitioning''
+!!! ''Disk partitioning and related''
 
 <<^wikipediaframe "Disk partitioning">>
 
 * [[GParted stop after next operation?|https://superuser.com/questions/312149/gparted-stop-after-next-operation]] --- TLDR: libparted doesn't keep copies of disk data, so the operation can be stopped without data loss only with luck and/or stopping at the least bad time.
+* [[How to recover resize2fs failure|https://serverfault.com/questions/501593/how-to-recover-resize2fs-failure]] (not really possible)
+
+* [[How to Create a Virtual HardDisk Volume Using a File in Linux|https://www.tecmint.com/create-virtual-harddisk-volume-in-linux/]] --- using `mkfs` on a preallocated file
 
 !! ''Fat32''
 

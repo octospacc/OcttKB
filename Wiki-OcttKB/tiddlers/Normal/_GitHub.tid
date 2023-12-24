@@ -1,6 +1,6 @@
 created: 20230206190107127
 creator: Octt
-modified: 20231107231057889
+modified: 20231224154048155
 modifier: Octt
 tags: Git Proprietary
 title: GitHub
@@ -8,6 +8,8 @@ title: GitHub
 * <<httpsL GitHub.com>>
 
 <<^wikipediaframe GitHub en>>
+
+* [[how fetch a GitHub user's stars (API)|https://gist.github.com/derhuerst/19e0844796fa3b62e1e9567a1dc0b5a3]] --- GET `https://api.github.com/users/${user}/starred?&page=${pageNum}`
 
 !!! ''Tools''
 

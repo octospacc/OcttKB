@@ -1,7 +1,7 @@
 created: 20230202224901337
 creator: Octt
 icon: 📰
-modified: 20231105112259414
+modified: 20231224171735659
 modifier: Octt
 page-cover: https://images.unsplash.com/photo-1517134062979-e1234be8a085
 tags: Web Markup
@@ -15,5 +15,7 @@ title: HTML
 !!! ''References''
 
 * [[HTML5 `<link rel="shortcut icon" />`|https://stackoverflow.com/questions/13211206/html5-link-rel-shortcut-icon]]
-** [[Web Components|https://caniuse.com/?search=web%20components]] --- Partially implemented half-obscure set of features
-*** [[HTML Imports|https://caniuse.com/imports]] --- //Deprecated method of including and reusing HTML documents in other HTML documents// --- The idea was nice: `<link rel="import" href="/path/to/file.html">`
+* [[HTML Character Entity References|https://symbl.cc/en/html-entities/]] --- //The following table is completed with special characters and their HTML Entities from W3C.//
+
+* [[Web Components|https://caniuse.com/?search=web%20components]] --- Partially implemented half-obscure set of features
+** [[HTML Imports|https://caniuse.com/imports]] --- //Deprecated method of including and reusing HTML documents in other HTML documents// --- The idea was nice: `<link rel="import" href="/path/to/file.html">`

@@ -1,0 +1,15 @@
+created: 20231224172607192
+creator: Octt
+modified: 20231224172753668
+modifier: Octt
+tags: 
+title: Web/Design
+
+<<^WikipediaFrame "Web design">>
+
+* [[Codrops|https://tympanus.net/codrops/]] --- //Keeping web professionals inspired &amp; up-to-date since 2009// --- <<[# Git"https://github.com/codrops">>
+** [[Text Input Effects|https://tympanus.net/Development/TextInputEffects/]] --- //Simple styles and effects for enhancing text input interactions.// --- <<[# Git"https://github.com/codrops/TextInputEffects">>
+
+!!! Other misc libraries and designs
+
+* [[Typo|https://neatnik.net/typo/]] --- //Typo types the way a real person types. There are subtle variations in speed, occasional errors that are corrected, and a general feeling of humanity.// --- <<[# Git"https://github.com/neatnik/typo">>

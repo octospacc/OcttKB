@@ -1,6 +1,6 @@
 created: 20231123184226189
 creator: Octt
-modified: 20231221200206737
+modified: 20231224154946990
 modifier: Octt
 tags: 
 title: MIPS
@@ -17,3 +17,5 @@ title: MIPS
 * [[represent a struct in mips32|https://stackoverflow.com/questions/60112137/represent-a-struct-in-mips32]] --- after analyzing the C struct declaration to understand how many bytes it requires, //a good idea here would be to allocate some `.space`//, e.g. `theStruct:
   .align 2  # MIPS needs word alignment
   .space 16 # Size of struct`, then use with `la $register,theStruct`
+* [[MIPS - Call C function in Assembly code|https://stackoverflow.com/questions/36980971/mips-call-c-function-in-assembly-code]] --- write values to stack if necessary, declare `.extern CFunctionName` in the ASM, use `jal CFunctionName` to call
+* [[MIPS function call with more than four arguments|https://stackoverflow.com/questions/2298838/mips-function-call-with-more-than-four-arguments]] --- first allocate stack memory (subtract 4*numberOfArguments to `sp`), then load the first 4 arguments normally in `$a#` registers, and store the others in `4*argumentNumber($sp)`

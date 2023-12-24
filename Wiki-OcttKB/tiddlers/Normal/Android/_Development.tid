@@ -1,6 +1,6 @@
 created: 20230217221957113
 creator: Octt
-modified: 20231223141324212
+modified: 20231224164734893
 modifier: Octt
 tags: 
 title: Android/Development
@@ -58,6 +58,7 @@ title: Android/Development
 * [[New Android Project named after Main Activity instead of app name|https://stackoverflow.com/questions/12084299/new-android-project-named-after-main-activity-instead-of-app-name]] --- //In the manifest file, you are able to set one label for the launcher icon, and another for the activity. The app name is set in the intent filter, like this: `<activity ... > <intent-filter android:label="@string/app_name"> ...`//
 * [[Proper way to create and access BroadcastReceiver inside MainActivity? (Kotlin)|https://stackoverflow.com/questions/69565210/proper-way-to-create-and-access-broadcastreceiver-inside-mainactivity-kotlin/69600790#69600790]]
 * [[Android check SharedPreferences for value type|https://stackoverflow.com/questions/29615920/android-check-sharedpreferences-for-value-type]] --- contains a solution for directly getting any item regardless of type, via `sharedPrefs?.all`
+* [[Detecting & sending SMS on Android 📮|http://web.archive.org/web/20220120020100/https://joaquimley.com/blog/detect-send-sms-android]] <<[# "On Medium" "https://medium.com/android-news/detecting-sending-sms-on-android-8a154562597f">>
 </div>
 
 !!!! ''Hacking / Modding''
