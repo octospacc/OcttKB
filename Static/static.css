@@ -440,6 +440,15 @@ a[href="#Linux"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
 
 
 
+a[href="#MediaWiki"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="MediaWiki"] > .tc-tag-label:after {
+  content: ' 🌻';
+}
+
+
+
+
+
 a[href="#Minecraft"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
 .tc-tag-list-item[data-tag-title="Minecraft"] > .tc-tag-label:after {
   content: ' ⛏️';
@@ -452,6 +461,15 @@ a[href="#Minecraft"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
 a[href="#Minesweeper"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
 .tc-tag-list-item[data-tag-title="Minesweeper"] > .tc-tag-label:after {
   content: ' 💣';
+}
+
+
+
+
+
+a[href="#Note"][class='tc-tiddlylink tc-tiddlylink-resolves']:after,
+.tc-tag-list-item[data-tag-title="Note"] > .tc-tag-label:after {
+  content: ' 🗒️';
 }
 
 
