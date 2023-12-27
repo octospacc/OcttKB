@@ -1,8 +1,16 @@
 created: 20230824093445874
 creator: Octt
-modified: 20230824093649263
+icon: 🗒️
+modified: 20231227011627181
 modifier: Octt
+page-cover: https://source.unsplash.com/random?Note
 tags: WIP
 title: Note
 
 <<^wikipediaframe Note-taking>>
+
+* [[Memos|https://www.usememos.com/]] --- //A privacy-first, lightweight note-taking service
+Easily capture and share your great thoughts.// --- interesting app, reminds me of a text-based social network but it's a private note app --- <<[# Git"https://github.com/usememos">>
+** Seen in: <<YoutubeL w7aH23Jyg58 "Memos is a BEAUTIFUL Free and Open Source note-taking app [TechHut]">>
+* [[Simplenote|https://simplenote.com/]] --- //The simplest way to keep notes// --- <<[# Git"https://github.com/orgs/Automattic/repositories?q=simplenote&type=all&language=&sort=">>
+* [[Standard Notes]]

@@ -1,8 +1,12 @@
 created: 20230203223711243
 creator: Octt
-modified: 20230217225226443
+modified: 20231227012206962
 modifier: Octt
 tags: $:/i18n:en Information Knowledge
 title: Wiki
 
 <<^wikipediaframe Wiki en>>
+
+* //''[[BookStack|https://www.bookstackapp.com/]]'' is a simple, self-hosted, easy-to-use platform for organising and storing information.// --- <<[# Git"https://github.com/BookStackApp">>
+* [[MediaWiki]]
+* [[TiddlyWiki]]

@@ -1,28 +1,38 @@
 created: 20230114154554721
 creator: Octt
-modified: 20230305194218495
+modified: 20231227012857511
 modifier: Octt
+page-cover: https://source.unsplash.com/random?Matrix
 tags: Internet TODO $:/i18n:en
 title: Matrix
 
-\define ElementGit(Repo:"") [[Git|https://github.com/vector-im/$Repo$]]
+\define MatrixGit(Repo:"") <<[ "[[Git|https://github.com/matrix-org/$Repo$]]">>
+\define ElementGit(Repo:"") <<[ "[[Git|https://github.com/element-hq/$Repo$]]">>
 
 <<^wikipediaframe "Matrix (protocol)" en>>
 
 * https://matrix.org/
 * https://github.com/matrix-org
+* [[Matrix Specification|https://spec.matrix.org]] --- //The Matrix protocol specification// --- <<[# Git"https://github.com/matrix-org/matrix-spec">>
 
 ; Clients
-: [[Element|https://element.io/]] - Flagship client; Web-Desktop and Mobile are different codebases - [<<ElementGit>>]
-: [[Hydrogen|https://hydrogen.element.io/]] - (WIP by Element team) //Lightweight matrix client with legacy and mobile browser support// - [<<ElementGit hydrogen-web>>]
-: [[FluffyChat|https://fluffychat.im/]] - //open source, nonprofit and cute matrix messenger app// <<[ "[[Git|https://gitlab.com/famedly/fluffychat]]">>
+: [[Element|https://element.io/]] --- //glossy Matrix collaboration clients// --- Flagship client; Web-Desktop and Mobile are different codebases --- <<ElementGit>> <<[# "Element Matrix Services SaaS Docs" "https://ems-docs.element.io/">>
+:* [[Spaccamient|https://spacc-inc.github.io/Spaccamient/]] --- mobile-first Element Web fork --- <<[# Git"https://github.com/Spacc-Inc/Spaccamient">>
+:* //''[[SchildiChat|https://schildi.chat/]]'' is a feature-rich messenger for Matrix based on Element with some extras and tweaks.// --- <<[# Git"https://github.com/SchildiChat">>
+: [[Hydrogen|https://hydrogen.element.io/]] --- (WIP by Element team) //Lightweight matrix client with legacy and mobile browser support// --- <<ElementGit hydrogen-web>>
+: [[FluffyChat|https://fluffychat.im/]] --- //open source, nonprofit and cute matrix messenger app// --- <<[ "[[Git|https://gitlab.com/famedly/fluffychat]]">>
 
 ; Servers
-: [[Synapse|https://matrix.org/docs/projects/server/synapse]] - //Matrix.org’s reference server// - <<[ "[[Git|https://github.com/matrix-org/synapse]]">>
+: [[Synapse|https://matrix.org/docs/projects/server/synapse]] --- //Matrix.org’s reference server// --- <<[ "[[Git|https://github.com/matrix-org/synapse]]">>
 
 ; Bots
-: ''[[maubot|https://maubot.xyz/]]'' - //A plugin-based Matrix bot system// - <<[ "[[GitHub|https://github.com/maubot]]">> <<[ "[[GitLab (CI)|https://mau.dev/maubot]]">> [<<MatrixLink "#maubot:maunium.net">>] <<[ "[[Docs|https://docs.mau.fi/]]">>
+: ''[[maubot|https://maubot.xyz/]]'' - //A plugin-based Matrix bot system// --- <<[ "[[GitHub|https://github.com/maubot]]">> <<[ "[[GitLab (CI)|https://mau.dev/maubot]]">> [<<MatrixLink "#maubot:maunium.net">>] <<[ "[[Docs|https://docs.mau.fi/]]">>
 
 ; Bridges
-: All by ''mautrix'': https://github.com/mautrix - <<[ "[[Docs|https://docs.mau.fi/]]">>
+: All by ''mautrix'': https://github.com/mautrix --- <<[ "[[Docs|https://docs.mau.fi/]]">>
 : All by ''mx-puppet'': https://gitlab.com/mx-puppet
+
+!!! Misc
+
+* [[Maunium sticker picker|https://github.com/maunium/stickerpicker]] --- //fast and simple Matrix sticker picker widget. Tested on Element Web, Android & iOS//
+* [[Third Room|https://thirdroom.io/]] (w/WebSG) --- //Open, decentralized, immersive worlds built on Matrix// --- <<MatrixGit thirdroom>>

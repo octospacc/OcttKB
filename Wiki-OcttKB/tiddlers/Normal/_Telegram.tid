@@ -1,6 +1,6 @@
 created: 20230206204937437
 creator: Octt
-modified: 20231222222822130
+modified: 20231227011519132
 modifier: Octt
 tags: 
 title: Telegram
@@ -14,3 +14,7 @@ title: Telegram
 * [[Teledrive|https://github.com/mgilangjanuar/teledrive]] --- //The cloud drive alternative using Telegram API//
 * [[Telegram Index (Fork)|https://github.com/octospacc/TelegramIndex-Fork]] - //Python web app to index telegram chats and serve its files for download over HTTP//
 * [[RSS to Telegram Bot|https://t.me/RSStT_Bot]] (`@`) --- //A Telegram RSS bot that cares about your reading experience// --- <<[# Git"https://github.com/Rongronggg9/RSS-to-Telegram-Bot">>
+
+!!! Misc
+
+* How Telegram banned me, I lost everything: [[https://bbs.spacc.eu.org/viewtopic.php?t=160]]

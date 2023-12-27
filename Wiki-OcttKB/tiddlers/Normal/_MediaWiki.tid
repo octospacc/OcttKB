@@ -1,12 +1,14 @@
 created: 20230112112905496
 creator: Octt
-modified: 20230216115703349
+icon: 🌻
+modified: 20231227012335262
 modifier: Octt
+page-cover: https://source.unsplash.com/random?MediaWiki-Wiki-Wikipedia
 tags: $:/i18n:en Wiki
 title: MediaWiki
 type: 
 
-<<MediaWiki MediaWiki en 4>>
+<<^wikipediaframe MediaWiki en>>
 
 !! ''Resources''
 

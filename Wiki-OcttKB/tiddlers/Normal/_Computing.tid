@@ -1,6 +1,6 @@
 created: 20231224171029994
 creator: Octt
-modified: 20231224171143636
+modified: 20231227005340172
 modifier: Octt
 tags: 
 title: Computing
@@ -8,3 +8,5 @@ title: Computing
 <<^WikipediaFrame "Computing">>
 
 * [[Computernewb|https://computernewb.com/]] --- //personal domain where I host various projects, probably the most famous one being CollabVM//
+
+* <<WikipediaL "pushd and popd">>
