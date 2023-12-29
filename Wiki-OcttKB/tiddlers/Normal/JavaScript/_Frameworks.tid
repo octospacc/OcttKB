@@ -1,6 +1,6 @@
 created: 20230429190756464
 creator: Octt
-modified: 20230429190812234
+modified: 20231229012758540
 modifier: Octt
 tags: 
 title: JavaScript/Frameworks
@@ -10,4 +10,5 @@ title: JavaScript/Frameworks
 * ''[[Electron|https://www.electronjs.org/]]'' - //Build cross-platform desktop apps with JavaScript, HTML, and CSS// - [[[Git|https://github.com/electron]]]
 * ''[[React|https://reactjs.org/]]'' - //Building UI-oriented apps with [[JSX|https://en.wikipedia.org/wiki/JSX_(JavaScript)]]// - [[[Git|https://github.com/facebook/react]]]
 ** ''[[React Native|https://reactnative.dev/]]'' - //Compiling ReactJS apps to native ones// - [[[Git|https://github.com/facebook/react-native]]]
+* [[Preact|https://preactjs.com/]] --- //⚛️ Fast 3kB React alternative with the same modern API. Components & Virtual DOM.// --- <<[# Git"https://github.com/preactjs">>
 * ''[[Tauri|https://tauri.app/]]'' - //Use Rust to build desktop and mobile apps with a web frontend// - [[[Git|https://github.com/tauri-apps/]]]

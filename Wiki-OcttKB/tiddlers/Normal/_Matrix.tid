@@ -1,6 +1,6 @@
 created: 20230114154554721
 creator: Octt
-modified: 20231227012857511
+modified: 20231229012541510
 modifier: Octt
 page-cover: https://source.unsplash.com/random?Matrix
 tags: Internet TODO $:/i18n:en
@@ -27,6 +27,7 @@ title: Matrix
 
 ; Bots
 : ''[[maubot|https://maubot.xyz/]]'' - //A plugin-based Matrix bot system// --- <<[ "[[GitHub|https://github.com/maubot]]">> <<[ "[[GitLab (CI)|https://mau.dev/maubot]]">> [<<MatrixLink "#maubot:maunium.net">>] <<[ "[[Docs|https://docs.mau.fi/]]">>
+: [[Matrix Hookshot|https://matrix-org.github.io/matrix-hookshot/latest/index.html]] --- //A bridge between Matrix and multiple project management services, such as GitHub, GitLab and JIRA.// --- <<[# Git"https://github.com/matrix-org/matrix-hookshot">>
 
 ; Bridges
 : All by ''mautrix'': https://github.com/mautrix --- <<[ "[[Docs|https://docs.mau.fi/]]">>
