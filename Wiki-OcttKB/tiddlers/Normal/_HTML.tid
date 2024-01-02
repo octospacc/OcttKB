@@ -1,7 +1,7 @@
 created: 20230202224901337
 creator: Octt
 icon: 📰
-modified: 20231224171735659
+modified: 20240101231058564
 modifier: Octt
 page-cover: https://images.unsplash.com/photo-1517134062979-e1234be8a085
 tags: Web Markup
@@ -17,5 +17,9 @@ title: HTML
 * [[HTML5 `<link rel="shortcut icon" />`|https://stackoverflow.com/questions/13211206/html5-link-rel-shortcut-icon]]
 * [[HTML Character Entity References|https://symbl.cc/en/html-entities/]] --- //The following table is completed with special characters and their HTML Entities from W3C.//
 
-* [[Web Components|https://caniuse.com/?search=web%20components]] --- Partially implemented half-obscure set of features
-** [[HTML Imports|https://caniuse.com/imports]] --- //Deprecated method of including and reusing HTML documents in other HTML documents// --- The idea was nice: `<link rel="import" href="/path/to/file.html">`
+* //''<<MDNLink Web/API/Web_Components "Web Components">>'' is a suite of different technologies allowing you to create reusable custom elements//
+** [[Can I use Web Components|https://caniuse.com/?search=web%20components]], there are some partially implemented half-obscure features
+*** [[HTML Imports|https://caniuse.com/imports]] --- //Deprecated method of including and reusing HTML documents in other HTML documents// --- The idea was nice: `<link rel="import" href="/path/to/file.html">`
+
+* <<MDNLink Web/HTML/Element/dialog "<dialog>: The Dialog element">> --- //modal or non-modal dialog box or other interactive component, such as a dismissible alert, inspector, or subwindow//
+** [[dialog-polyfill|https://github.com/GoogleChrome/dialog-polyfill]] --- //Polyfill for the HTML dialog element// --- <<[# Demo"https://googlechrome.github.io/dialog-polyfill/">>

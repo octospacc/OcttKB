@@ -1,11 +1,10 @@
 created: 20231229013447885
 creator: Octt
-modified: 20231229013604506
+modified: 20240102003406854
 modifier: Octt
 tags: 
 title: Content delivery network
 
 <<^WikipediaFrame "Content delivery network">>
 
-* [[ESM>CDN - Fast Smart Global|https://esm.sh/]] --- //Create modern(es2015+) web apps easily with NPM packages in browser/deno.
-No build tools needed!//
+* //''[[ESM>CDN (esm.sh)|https://esm.sh/]]'' esm.sh is a modern CDN that allows you to import es6 modules from a URL// --- <<[# Git"https://github.com/esm-dev">>

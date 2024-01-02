@@ -1,6 +1,6 @@
 created: 20230429182925276
 creator: Octt
-modified: 20231213000758570
+modified: 20240102003748569
 modifier: Octt
 tags: 
 title: JavaScript/Libraries
@@ -11,6 +11,7 @@ Note: some are still in [[Web/Development]]
 
 * [[FileSaver.js|https://github.com/eligrey/FileSaver.js]] --- //An HTML5 saveAs() FileSaver implementation//
 * `jsdom`: //JavaScript implementation of various web standards, for use with Node.js// --- <<[# Git "https://github.com/jsdom/jsdom">>
+* [[Axios|https://axios-http.com/]] --- //Promise based HTTP client for the browser and node.js// --- <<[# Git"https://github.com/axios">>
 
 !!! ''Do-all''
 

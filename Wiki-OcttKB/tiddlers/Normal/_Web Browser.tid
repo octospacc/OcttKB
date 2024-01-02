@@ -1,11 +1,14 @@
 created: 20230217100639349
 creator: Octt
-modified: 20231223213314857
+modified: 20240102004302708
 modifier: Octt
 tags: Web
 title: Web Browser
 
 <<^wikipediaframe "Web Browser">>
+
+* [[Fulguris|https://slions.net/resources/fulguris.10/]] --- webview-based //Sparkling Android Web Browser// --- <<[# Git"https://github.com/Slion/Fulguris">>
+* [[Via Browser|https://viayoo.com/en/]] --- //lite browser with powerful functions. Designed on geek thinking.//
 
 !!! [[Chromium|https://chromium.org]]
 

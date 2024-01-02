@@ -1,13 +1,15 @@
 created: 20230203214532694
 creator: Octt
 icon: 🕸️
-modified: 20231224173252107
+modified: 20240101230659334
 modifier: Octt
 page-cover: https://source.unsplash.com/random?web
 tags: Internet
 title: Web
 
 <<^wikipediaframe World_Wide_Web en>>
+
+* [[PyScript|https://pyscript.net/]] --- //Run Python in Your HTML// --- <<[# Git"https://github.com/pyscript">>
 
 !! User-Agent
 
