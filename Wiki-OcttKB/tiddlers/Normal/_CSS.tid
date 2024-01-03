@@ -1,10 +1,10 @@
 created: 20230209150101862
 creator: Octt
 icon: 💅
-modified: 20231212001120451
+modified: 20240103005529115
 modifier: Octt
 page-cover: https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19
-tags: Web
+tags: Web Frontend
 title: CSS
 
 <<^wikipediaframe CSS en>>
@@ -15,9 +15,15 @@ title: CSS
 * [[CSS Borders [w3s]|https://www.w3schools.com/css/css_border.asp]]
 ** <<MDNLink Web/CSS/border-style border-style>> --- all ways to style a border, not only colors
 
+!!! ''Frameworks''
+
+* [[Bulma|https://bulma.io/]] --- //modern CSS framework that just works//
+* [[PaperCSS|https://www.getpapercss.com/]] --- //the less formal CSS framework//
+
 !!! ''Amazing''
 
 * [[CSS Zen Garden|https://csszengarden.com/]] --- //The Beauty of CSS Design//
 * [[Pure CSS Minesweeper|https://codepen.io/bali_balo/pen/BLJONZ?editors=1100]]
 * [[Spinning Diagrams with CSS|https://x.st/spinning-diagrams-with-css]]
 * [[Bubble Sort...in PURE CSS? [No JS] 😱|https://dev.to/grahamthedev/bubble-sortin-pure-css-no-js-3bb1]]
+* [[25 CSS Paper Effects|https://freefrontend.com/css-paper-effects/]]

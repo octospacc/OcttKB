@@ -1,6 +1,6 @@
 created: 20221110145611678
 creator: Octt
-modified: 20231223224154890
+modified: 20240103005618220
 modifier: Octt
 tags: Development $:/i18n:en Web
 title: JavaScript
@@ -37,9 +37,13 @@ title: JavaScript
 * [[Converting HTML string into DOM elements?|https://stackoverflow.com/questions/3103962/converting-html-string-into-dom-elements#3104237]] --- `doc = new DOMParser().parseFromString(htmlString, 'text/html')`
 * [[set doctype using javascript|https://stackoverflow.com/questions/21523487/set-doctype-using-javascript]]
 * [[JavaScript Regex Replace Tutorial|https://www.javascripttutorial.net/javascript-regex/replace/]]
+* [[Insert an element after another DOM element with JavaScript|https://attacomsian.com/blog/javascript-insert-element-after]] --- //`target.parentNode.insertBefore(elem, target.nextSibling)
+`//
 
 * [[Send POST data using XMLHttpRequest|https://stackoverflow.com/questions/9713058/send-post-data-using-xmlhttprequest]]
 * [[fetch API [and comparison with XMLHttpRequest]|https://davidwalsh.name/fetch]]
+* [[How do I upload a file with the JS fetch API?|https://stackoverflow.com/questions/36067767/how-do-i-upload-a-file-with-the-js-fetch-api#comment98412965_36082038]] --- pass the `file` object to the body, do NOT set Content-Type header
+* [[How to Use Fetch with async/await|https://dmitripavlutin.com/javascript-fetch-async-await/]]
 
 * [[Array.prototype.splice()|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice]], [[JavaScript Array splice() (W3S)|https://www.w3schools.com/jsref/jsref_splice.asp]] --- //changes the contents of an array by removing or replacing existing elements and/or adding new elements in place//
 * <<MDNLink Web/JavaScript/Reference/Global_Objects/Array/concat "Array.prototype.concat()">> --- //used to merge two or more arrays, does not change the existing arrays but instead returns a new one//

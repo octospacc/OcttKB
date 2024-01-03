@@ -1,7 +1,7 @@
 created: 20230202230035698
 creator: Octt
 icon: 🤖
-modified: 20231227005302837
+modified: 20240103001057678
 modifier: Octt
 page-cover: https://source.unsplash.com/random?android
 tags: OS Google Linux
@@ -32,6 +32,8 @@ title: Android
 * [[What Is a NOMEDIA File?|https://androidforums.com/threads/whats-a-nomedia-file.307529/]] --- An empty file called `.nomedia` is used to hide the media content of the directory (and subdirectories) it's placed in from gallery apps and such.
 * [[I found a hidden folder called ".face" on my phone. It is full of faces cropped from pictures I've taken or downloaded.|https://xdaforums.com/t/face-folder-is-choking-with-thousands-of-files.1929380/]] --- it's apparently a Samsung thing (can't understand if it also happens on other ROMs), a cache for the built-in gallery face recognition system... only question is, why is this just on `/sdcard` and not in a proper cache directory? other people say it's used by the Android system in general, don't know if they have a Samsung ROM or not --- also see on <<RedditL r/Android/comments/2jm9j7/i_found_a_hidden_folder_called_face_on_my_phone/>>
 * [[How to Downgrade an Android App Using ADB Without Losing Data|https://www.makeuseof.com/downgrade-android-app-with-adb/]]
+
+* [[SDK Platform release notes|https://developer.android.com/tools/releases/platforms]] --- //release information about the SDK packages available//
 
 !!! ''Emulation / Containerization''
 
