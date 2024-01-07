@@ -1,0 +1,10 @@
+created: 20240107013040620
+creator: Octt
+modified: 20240107013413537
+modifier: Octt
+tags: Image
+title: GIF
+
+<<^WikipediaFrame "GIF">>
+
+* [[Gifski|https://gif.ski/]] -- //Highest-quality GIF encoder. GIF encoder based on libimagequant (pngquant). Squeezes maximum possible quality from the awful GIF format.// --- <<[# Git"https://github.com/ImageOptim/gifski/">>

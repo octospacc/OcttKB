@@ -1,13 +1,18 @@
 created: 20230206204937437
 creator: Octt
-modified: 20231227011519132
+modified: 20240107005514984
 modifier: Octt
 tags: 
 title: Telegram
 
 <<^wikipediaframe Telegram_(software) en>>
 
-* <<httpsL Telegram.org>>
+* <<httpsL Telegram.org>> (official site domain) --- there are actually a lot of other domains:
+** <<httpsL t.me>>, <<httpsL telegram.me>>: totally equivalent, used for linking to in-app resources, redirect to main domain otherwise
+*** another one which I remember exists along the lines of `tlgrm.me` but either I'm wrong or it's dead
+** <<httpsL telegram.dog>>: was created as equivalent to the .me domain(s), but it also shows the normal website without redirecting
+** <<httpsL a-telegram.stel.com>>: [[the android client (used to?) give the user an email address with that second-level domain on things like login problems|https://translations.telegram.org/en/android/login/NoMailInstalled]] (+ `login@`, not listed there), which doesn't actually respond, but that third-level one does
+
 * [[Organization to have all the official clients on a single organization|https://github.com/TelegramOrg]] --- //(non official organization, i will transfer it to Durov) I am not related to telegram at all//
 * <<linkdescgit "Telegram X" "https://t.me/tgx_log" "official alternative Telegram client for Android" "https://github.com/TGX-Android">>
 
@@ -18,3 +23,17 @@ title: Telegram
 !!! Misc
 
 * How Telegram banned me, I lost everything: [[https://bbs.spacc.eu.org/viewtopic.php?t=160]]
+
+!! Telegraph
+
+* <<httpsL telegra.ph>> (main domain, having problems on some italian ISPs since summer 2023, idk if it's solved)
+* <<httpsL graph.org>> (alternative domain)
+* <<GPlayLink com.telex "Telegraph X: publishing tool">> --- //Telegraph X is Android client for Telegra.ph minimalist publishing tool (made by Telegram team) that allows you to create and manage publications// --- <<[# Git"https://github.com/sergpetrov/telegraph-android">>
+
+A publishing platform, optionally usable anonymously, for publishing article-like pages that are optimized for view on Telegram. It's not really a blogging platform. See [[https://telegram.org/blog/telegraph]]. Note that there's no way to edit/delete anonymous posts after losing browser cookies, while posts created with Telegram logins can be well managed.
+
+!! Telescope
+
+* <<httpsL telesco.pe>>
+
+A failed method through which Telegram tried pushing people to publish round videos in a social media fashion. The site publicly indexes round videos sent in public channels, see [[https://telegram.org/blog/video-messages-and-telescope]]. Pretty useless but it's technical base was reused to make the modern preview features for profiles and channels on t.me, as can be seen by the CDN domain still being named after Telescope.

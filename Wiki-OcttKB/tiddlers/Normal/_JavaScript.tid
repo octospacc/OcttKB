@@ -1,6 +1,6 @@
 created: 20221110145611678
 creator: Octt
-modified: 20240103005618220
+modified: 20240107012957516
 modifier: Octt
 tags: Development $:/i18n:en Web
 title: JavaScript
@@ -29,9 +29,13 @@ title: JavaScript
 * [[Does JavaScript have a method like "range()" to generate a range within the supplied bounds?|https://stackoverflow.com/questions/3895478/does-javascript-have-a-method-like-range-to-generate-a-range-within-the-supp]] --- `[...Array(5).keys()]`
 * [[Listen for triple clicks in JavaScript|https://stackoverflow.com/questions/6480060/how-do-i-listen-for-triple-clicks-in-javascript#6480113]]
 * [[Fastest method to escape HTML tags as HTML entities?|https://stackoverflow.com/questions/5499078/fastest-method-to-escape-html-tags-as-html-entities]] --- in the browser, `(html) => { var escape = document.createElement('textarea'); escape.textContent = html; return escape.innerHTML; }`
-* [[Get a random item from a JavaScript array|https://stackoverflow.com/questions/5915096/get-a-random-item-from-a-javascript-array#5915122]] --- `item = items[Math.floor(Math.random() * items.length)];`
+* [[Get a random item from a JavaScript array|https://stackoverflow.com/questions/5915096/get-a-random-item-from-a-javascript-array#5915122]] : [[Getting a random value from a JavaScript array|https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array]] --- `item = items[Math.floor(Math.random() * items.length)];`
 * [[Simplest code for array intersection in javascript|https://stackoverflow.com/questions/1885557/simplest-code-for-array-intersection-in-javascript#1885569]] --- `arrayNew = array1.filter(value => array2.includes(value));`
-* [[Why is 'for (... in ...)' with arrays considered bad practice in JavaScript?|https://stackoverflow.com/questions/2265167/why-is-forvar-item-in-list-with-arrays-considered-bad-practice-in-javascript]] --- use `for (... of ...)` instead
+* [[Why is 'for (... in ...)' with arrays considered bad practice in JavaScript?|https://stackoverflow.com/questions/2265167/why-is-forvar-item-in-list-with-arrays-considered-bad-practice-in-javascript]] --- use `for (... of ...)` to iterate for values, the `in` form should only be used to iterate over indices
+* [[Why is extending native objects a bad practice?|https://stackoverflow.com/questions/14034180/why-is-extending-native-objects-a-bad-practice]] --- it breaks everything for some objects.
+** see [[https://eslint.org/docs/latest/rules/no-extend-native]]
+* [[What does ~~ ("double tilde") do in Javascript?|https://stackoverflow.com/questions/4055633/what-does-double-tilde-do-in-javascript]] ; [[What is the "double tilde" (~~) operator in JavaScript? [duplicate]|https://stackoverflow.com/questions/5971645/what-is-the-double-tilde-operator-in-javascript]] --- double NOT logical operator, useful shorter and faster alternative to `Math.floor` for small numbers
+* [[How to convert uint8 Array to base64 Encoded String?|https://stackoverflow.com/questions/12710001/how-to-convert-uint8-array-to-base64-encoded-string/66046176#66046176]]
 
 * [[How to get text from all descendents of an element (disregarding scripts)?|https://stackoverflow.com/questions/2532043/how-to-get-text-from-all-descendents-of-an-element-disregarding-scripts]]
 * [[Converting HTML string into DOM elements?|https://stackoverflow.com/questions/3103962/converting-html-string-into-dom-elements#3104237]] --- `doc = new DOMParser().parseFromString(htmlString, 'text/html')`
@@ -45,7 +49,7 @@ title: JavaScript
 * [[How do I upload a file with the JS fetch API?|https://stackoverflow.com/questions/36067767/how-do-i-upload-a-file-with-the-js-fetch-api#comment98412965_36082038]] --- pass the `file` object to the body, do NOT set Content-Type header
 * [[How to Use Fetch with async/await|https://dmitripavlutin.com/javascript-fetch-async-await/]]
 
-* [[Array.prototype.splice()|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice]], [[JavaScript Array splice() (W3S)|https://www.w3schools.com/jsref/jsref_splice.asp]] --- //changes the contents of an array by removing or replacing existing elements and/or adding new elements in place//
+* [[Array.prototype.splice()|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice]], [[JavaScript Array splice() (W3S)|https://www.w3schools.com/jsref/jsref_splice.asp]] --- //changes the contents of an array by removing or replacing existing elements and/or adding new elements in place//, useful alternative for a nonexistant remove function, with `.splice(index, amountToRemove)`
 * <<MDNLink Web/JavaScript/Reference/Global_Objects/Array/concat "Array.prototype.concat()">> --- //used to merge two or more arrays, does not change the existing arrays but instead returns a new one//
 * [[XMLHttpRequest|https://www.w3schools.com/xml/xml_http.asp]]
 ** <<MDNLink Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests "Synchronous and asynchronous requests">>
