@@ -1,6 +1,6 @@
 created: 20220923110724649
 creator: Octt
-modified: 20231221155246624
+modified: 20240107114401734
 modifier: Octt
 tags: Gaming Nintendo Console Handheld
 title: Nintendo 3DS
@@ -8,6 +8,8 @@ title: Nintendo 3DS
 \define l3db(item) [[$item$ [3dbrew]|https://www.3dbrew.org/wiki/$item$]]
 
 <<^wikipediaframe "Nintendo 3DS">>
+
+* [[Universal-Updater|https://universal-team.net/projects/universal-updater.html]] --- //An easy to use app for installing and updating 3DS homebrew// --- <<[# Git"https://github.com/Universal-Team/Universal-Updater">>
 
 * <<l3db Gamecards>>
 

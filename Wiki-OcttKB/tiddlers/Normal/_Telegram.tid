@@ -1,6 +1,6 @@
 created: 20230206204937437
 creator: Octt
-modified: 20240107005514984
+modified: 20240107151948737
 modifier: Octt
 tags: 
 title: Telegram
@@ -17,8 +17,13 @@ title: Telegram
 * <<linkdescgit "Telegram X" "https://t.me/tgx_log" "official alternative Telegram client for Android" "https://github.com/TGX-Android">>
 
 * [[Teledrive|https://github.com/mgilangjanuar/teledrive]] --- //The cloud drive alternative using Telegram API//
-* [[Telegram Index (Fork)|https://github.com/octospacc/TelegramIndex-Fork]] - //Python web app to index telegram chats and serve its files for download over HTTP//
+* [[tg-index|https://github.com/odysseusmax/tg-index]] --- //Python web app to index telegram chats and serve its files for download over HTTP//
+** My (kind of) updated fork: [[Telegram Index Fork|https://github.com/octospacc/TelegramIndex-Fork]]
 * [[RSS to Telegram Bot|https://t.me/RSStT_Bot]] (`@`) --- //A Telegram RSS bot that cares about your reading experience// --- <<[# Git"https://github.com/Rongronggg9/RSS-to-Telegram-Bot">>
+
+* [[GramJS|https://gram.js.org/]] --- //NodeJS/Browser MTProto API Telegram client library// --- <<[# Git"https://github.com/gram-js">> <<[# GitBook"https://painor.gitbook.io/gramjs/">>
+* [[Pyrogram|https://pyrogram.org/]] --- //Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots// --- <<[# Git"https://github.com/pyrogram">>
+* [[Telethon|https://docs.telethon.dev/]] --- //Pure Python 3 MTProto API Telegram client library, for bots too!// --- <<[# Git"https://github.com/LonamiWebs/Telethon">>
 
 !!! Misc
 

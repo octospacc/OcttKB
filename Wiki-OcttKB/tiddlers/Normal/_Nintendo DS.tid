@@ -1,6 +1,6 @@
 created: 20220923110724649
 creator: Octt
-modified: 20231221160337356
+modified: 20240107152614906
 modifier: Octt
 tags: Gaming Nintendo NDS Console $:/i18n:en Handheld
 title: Nintendo DS
@@ -15,6 +15,10 @@ title: Nintendo DS
 * <<TwitterLink HugeNintendoDS "Huge Nintendo DS">>
 * [[Some NDS ROM File Format Discoveries|https://gbatemp.net/threads/some-nds-rom-file-format-discoveries.624725/]]
 * [[DS Game Card [HwB]|http://www.hardwarebook.info/DS_Game_Card]]
+
+* [[DS-Homebrew|https://ds-homebrew.com/]] (+ wiki) --- <<[# Git"https://github.com/DS-Homebrew">>
+** //''[[nds-bootstrap|https://github.com/DS-Homebrew/nds-bootstrap]]'' is an open-source application that allows Nintendo DS/DSi ROMs and homebrew to be natively utilised rather than using an emulator.//
+*** //''[[TWiLight Menu++|https://github.com/DS-Homebrew/TWiLightMenu]]'' is an open-source DSi Menu upgrade/replacement for the Nintendo DSi, the Nintendo 3DS, and Nintendo DS flashcards.//
 
 !!! Emulators
 

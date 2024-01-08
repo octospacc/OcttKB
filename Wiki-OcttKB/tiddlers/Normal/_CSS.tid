@@ -1,7 +1,7 @@
 created: 20230209150101862
 creator: Octt
 icon: 💅
-modified: 20240103005529115
+modified: 20240107152919931
 modifier: Octt
 page-cover: https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19
 tags: Web Frontend
@@ -19,6 +19,7 @@ title: CSS
 
 * [[Bulma|https://bulma.io/]] --- //modern CSS framework that just works//
 * [[PaperCSS|https://www.getpapercss.com/]] --- //the less formal CSS framework//
+* [[W3.CSS|https://www.w3schools.com/w3css/default.asp]] --- //A Quality Alternative to Bootstrap, is Smaller, Faster and Easier to Use.//
 
 !!! ''Amazing''
 
@@ -27,3 +28,4 @@ title: CSS
 * [[Spinning Diagrams with CSS|https://x.st/spinning-diagrams-with-css]]
 * [[Bubble Sort...in PURE CSS? [No JS] 😱|https://dev.to/grahamthedev/bubble-sortin-pure-css-no-js-3bb1]]
 * [[25 CSS Paper Effects|https://freefrontend.com/css-paper-effects/]]
+* [[Reusable CSS "Sticker" Effect|https://dev.to/5t3ph/reusable-css-sticker-effect-44lc]]

@@ -1,7 +1,7 @@
 created: 20230202230035698
 creator: Octt
 icon: 🤖
-modified: 20240103001057678
+modified: 20240108001321956
 modifier: Octt
 page-cover: https://source.unsplash.com/random?android
 tags: OS Google Linux
@@ -27,6 +27,9 @@ title: Android
 * //''<<FDroidLink com.github.tmo1.sms_ie "SMS Import / Export">>'' is a simple Android app that imports and exports SMS and MMS messages, call logs, and contacts from and to JSON / NDJSON files.// --- <<[# Git"https://github.com/tmo1/sms-ie">>
 * <<FDroidLink org.sufficientlysecure.ical "Calendar Import-Export">> --- //Import/export your Android calendars as ics files without using the Google cloud// --- <<[# Git"https://github.com/SufficientlySecure/calendar-import-export">>
 ** This seems to work better, but UX is worse: [[iCal Import/Export CalDAV|https://apkpure.com/ical-import-export-caldav/tk.drlue.icalimportexport]]
+* <<FDroidLink ryey.easer Easer>> --- //User-defined explicit automation for Android// --- <<[# Git"https://github.com/renyuneyun/Easer">>
+* [[Automate|https://llamalab.com/automate/]] (freemium) --- //Make your phone or tablet smarter with automation// --- [<<GPlayLink com.llamalab.automate>>]
+* [[MacroDroid|https://www.macrodroid.com/]] --- //Make your phone truly smart with the number one automation app on Android// --- <<GPlayLink com.arlosoft.macrodroid>>
 
 * [[All you need to know about LOST.DIR folder on Android devices|http://thesundaycoder.blogspot.com/2014/06/all-you-need-to-know-about-lostdir.html]]
 * [[What Is a NOMEDIA File?|https://androidforums.com/threads/whats-a-nomedia-file.307529/]] --- An empty file called `.nomedia` is used to hide the media content of the directory (and subdirectories) it's placed in from gallery apps and such.

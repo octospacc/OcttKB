@@ -1,11 +1,15 @@
 created: 20230206192842398
 creator: Octt
-modified: 20231222233656761
+modified: 20240107140354621
 modifier: Octt
 tags: Web PHP CMS
 title: WordPress
 
 \define lwplug(slug, title) [[$title$|https://wordpress.org/plugins/$slug$]]
+
+* <<httpsL WordPress.com>> --- Corporate site and home page of the SaaS service
+* <<httpsL WordPress.org>> --- Home page of the open source project
+** <<httpsL developer.wordpress.org>> --- Development resources, guides, references
 
 <<^wikipediaframe WordPress en>>
 

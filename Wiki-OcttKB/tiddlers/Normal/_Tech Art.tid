@@ -1,6 +1,6 @@
 created: 20230504095843099
 creator: Octt
-modified: 20231122001633046
+modified: 20240107223045631
 modifier: Octt
 tags: Art
 title: Tech Art
@@ -8,6 +8,12 @@ title: Tech Art
 <<^wikipediaframe "Electronic art">>
 
 * <<linkdescgit dwitter "https://www.dwitter.net/" "Social network for short js demos" "https://github.com/lionleaf/dwitter">> --- <<[# "Frontend Git" "https://github.com/dwitter-net/dwitter-frontend">>
+
+!!! Fractal
+
+<<^WikipediaFrame "Fractal">>
+
+* [[Fractus|https://fractus.whiskers.dev/]] --- //Fractal Explorer//
 
 Some interesting tech art pieces follow.
 

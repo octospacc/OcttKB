@@ -1,6 +1,6 @@
 created: 20230217100639349
 creator: Octt
-modified: 20240107013758531
+modified: 20240107125655740
 modifier: Octt
 tags: Web
 title: Web Browser
@@ -33,12 +33,19 @@ title: Web Browser
 : [[CENO Browser|https://censorship.no/en/index.html]] (Android) --- //Short for censorship.no!, is the world’s first mobile browser that side-steps current Internet censorship methods. Its peer-to-peer backbone allows people to access and share web information in and across regions where connectivity has been interrupted or compromised.// --- <<[ "[[Git|https://gitlab.com/censorship-no]]">>
 
 ; Forks of the old codebase, Mozilla Suite
+: [[Mypal|https://www.mypal-browser.org/]] --- //Mypal is a current and maintained browser for Windows XP. Turn that old PC into something useful!// --- <<[# "Old Sources" "https://github.com/Feodor2/Mypal/tags">>
 : [[Pale Moon|https://www.palemoon.org/]]
 : //''[[SeaMonkey project|https://www.seamonkey-project.org/]]'' is a community effort to develop the SeaMonkey Internet Application Suite//
 
 !!! <<FlathubLink org.gnome.Epiphany "Epiphany">>
 
 * https://gitlab.gnome.org/GNOME/epiphany
+
+!!! Misc
+
+*  //''[[Falkon|https://www.falkon.org/]]'' is a KDE web browser using QtWebEngine rendering engine// (same as Chromium, but the overall base is different)
+* //''[[K-Meleon|http://kmeleonbrowser.org/]]'' is a lightweight, customizable, open-source web browser designed for Microsoft Windows (Win32) operating systems. Support for legacy operating systems, low RAM usage, a macro language to customize the browser, and privacy-respecting defaults are among K-Meleon's unique features.//
+* [[Konqueror|https://apps.kde.org/konqueror/]] --- //Konqueror is KDE's Webbrowser and swiss-army-knife for any kind of file-management and file previewing.// --- basically the Internet Explorer 4 of Linux, a file manager with built-in browser and advanced features... seems to be maintained currently, but all my distros ship an ancient version with HTML 4  (no 5) support
 
 !! Extensions / Add-ons
 
