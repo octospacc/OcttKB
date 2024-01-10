@@ -1,8 +1,8 @@
 created: 20230816230758244
 creator: Octt
-modified: 20231107223445327
+modified: 20240110004245125
 modifier: Octt
-title: Programming
+title: Coding
 
 <<^wikipediaframe "Computer programming">>
 
@@ -14,3 +14,5 @@ title: Programming
 * <<WikipediaL "Program optimization">>
 
 * [[How much abstraction is too much?|https://stackoverflow.com/questions/2668355/how-much-abstraction-is-too-much]] ; [[Can too much abstraction be bad?|https://softwareengineering.stackexchange.com/questions/202477/can-too-much-abstraction-be-bad]]
+
+* [[Wandbox|https://wandbox.org/]] --- //Social Compilation Service//, online multi-language code editing and sharing --- <<[# Git"https://github.com/melpon/wandbox">>

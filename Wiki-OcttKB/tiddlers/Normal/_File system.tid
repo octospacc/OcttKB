@@ -1,6 +1,6 @@
 created: 20230813102403596
 creator: Octt
-modified: 20231224173923486
+modified: 20240110005216239
 modifier: Octt
 title: File system
 
@@ -17,7 +17,9 @@ title: File system
 
 !! ''Fat32''
 
-* [[formatting a drive to FAT32 with mkdosfs, need some info|https://askubuntu.com/questions/190030/formatting-a-drive-to-fat32-with-mkdosfs-need-some-info]] (with cluster size and everything)
+* [[formatting a drive to FAT32 with mkdosfs, need some info|https://askubuntu.com/questions/190030/formatting-a-drive-to-fat32-with-mkdosfs-need-some-info]] (with cluster size and everything) --- for example, FAT32 partition with 32KB clusters: `mkdosfs ${File} -F32 -s64` (512b*64=32kb)
+* [[Formatting SD Cards for Speed and Lifetime|http://3gfp.com/wp/2014/07/formatting-sd-cards-for-speed-and-lifetime/]] (with formatting script for SDs < 32 GB)
+* [[fdisk created fat32 partition, which type 0b or 0c?|https://www.linuxquestions.org/questions/linux-general-1/fdisk-created-fat32-partition-which-type-0b-or-0c-643261/]] (and how to do the opposite)
 
 !! ''Btrfs''
 
@@ -32,3 +34,4 @@ Note (2023-08-04): I tried Btrfs more than a year ago on [[Linux Lite]] (with ZS
 !! ''ext#'' (Linux)
 
 * Resizing: `resize2fs -f {Partition file} {Size}`
+* [[mount(2) system call failed: Structure needs cleaning. - cannot mount partition|https://askubuntu.com/questions/910078/structure-needs-cleaning-error-cannot-mount-partition#967996]] --- #`e2fsck ${Partition}`

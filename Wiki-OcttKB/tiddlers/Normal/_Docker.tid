@@ -1,6 +1,6 @@
 created: 20230722232624533
 creator: Octt
-modified: 20230823230503260
+modified: 20240110005619440
 modifier: Octt
 tags: Server
 title: Docker
@@ -14,3 +14,7 @@ title: Docker
 !!! Flags
 
 * Passing ports: `-p Host:Container`, eg `-p 8080:80`
+
+!!! Resources
+
+* [[ERROR: Pool overlaps with other one on this address space 'bridge'|https://stackoverflow.com/questions/56515128/error-pool-overlaps-with-other-one-on-this-address-space-when-starting-my-proje#60506716]] --- to destroy other networks and quickly fix, `docker network prune`

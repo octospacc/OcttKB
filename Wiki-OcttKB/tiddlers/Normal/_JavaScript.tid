@@ -1,6 +1,6 @@
 created: 20221110145611678
 creator: Octt
-modified: 20240107152759369
+modified: 20240110011936700
 modifier: Octt
 tags: Development $:/i18n:en Web
 title: JavaScript
@@ -38,6 +38,7 @@ title: JavaScript
 * [[What does ~~ ("double tilde") do in Javascript?|https://stackoverflow.com/questions/4055633/what-does-double-tilde-do-in-javascript]] ; [[What is the "double tilde" (~~) operator in JavaScript? [duplicate]|https://stackoverflow.com/questions/5971645/what-is-the-double-tilde-operator-in-javascript]] --- double NOT logical operator, useful shorter and faster alternative to `Math.floor` for small numbers
 * [[How to convert uint8 Array to base64 Encoded String?|https://stackoverflow.com/questions/12710001/how-to-convert-uint8-array-to-base64-encoded-string/66046176#66046176]]
 * [[What is the JavaScript version of sleep()?|https://stackoverflow.com/questions/951021/what-is-the-javascript-version-of-sleep#39914235]] --- `await new Promise(r => setTimeout(r, milliseconds));`
+* [[Convert letter to number in JavaScript|https://stackoverflow.com/questions/27877197/convert-letter-to-number-in-javascript]] (or parse a String that contains a number and happens to contain letters as a Number) --- <<MDNLink Web/JavaScript/Reference/Global_Objects/parseInt parseInt()>>
 
 * [[How to get text from all descendents of an element (disregarding scripts)?|https://stackoverflow.com/questions/2532043/how-to-get-text-from-all-descendents-of-an-element-disregarding-scripts]]
 * [[Converting HTML string into DOM elements?|https://stackoverflow.com/questions/3103962/converting-html-string-into-dom-elements#3104237]] --- `doc = new DOMParser().parseFromString(htmlString, 'text/html')`
