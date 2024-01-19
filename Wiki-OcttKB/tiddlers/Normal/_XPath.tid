@@ -1,8 +1,10 @@
 created: 20230817233205916
 creator: Octt
-modified: 20230817233235394
+modified: 20240118233818349
 modifier: Octt
 tags: XML WIP
 title: XPath
 
 <<^wikipediaframe XPath>>
+
+* [[XPather|http://xpather.com/]] --- //XPath online real-time tester, evaluator and generator for XML & HTML//

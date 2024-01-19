@@ -1,6 +1,6 @@
 created: 20221110145611678
 creator: Octt
-modified: 20240110011936700
+modified: 20240119004231712
 modifier: Octt
 tags: Development $:/i18n:en Web
 title: JavaScript
@@ -52,6 +52,7 @@ title: JavaScript
 * [[How do I upload a file with the JS fetch API?|https://stackoverflow.com/questions/36067767/how-do-i-upload-a-file-with-the-js-fetch-api#comment98412965_36082038]] --- pass the `file` object to the body, do NOT set Content-Type header
 * [[How to Use Fetch with async/await|https://dmitripavlutin.com/javascript-fetch-async-await/]]
 
+* [[String indexOf()|https://www.w3schools.com/jsref/jsref_indexof.asp]]
 * [[Array.prototype.splice()|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice]], [[JavaScript Array splice() (W3S)|https://www.w3schools.com/jsref/jsref_splice.asp]] --- //changes the contents of an array by removing or replacing existing elements and/or adding new elements in place//, useful alternative for a nonexistant remove function, with `.splice(index, amountToRemove)`
 * <<MDNLink Web/JavaScript/Reference/Global_Objects/Array/concat "Array.prototype.concat()">> --- //used to merge two or more arrays, does not change the existing arrays but instead returns a new one//
 * [[XMLHttpRequest|https://www.w3schools.com/xml/xml_http.asp]]

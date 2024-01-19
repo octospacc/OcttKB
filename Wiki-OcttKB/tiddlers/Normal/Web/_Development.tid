@@ -1,6 +1,6 @@
 created: 20230221204801305
 creator: Octt
-modified: 20231224152937255
+modified: 20240119001119592
 modifier: Octt
 tags: 
 title: Web/Development
@@ -32,6 +32,7 @@ title: Web/Development
 
 * https://github.com/csstools/oldie - //tranforms CSS to be compatible with old Internet Explorer//
 * [[CORS Anywhere|https://github.com/Rob--W/cors-anywhere]] - //Server proxy which adds CORS headers to the request//
+* [[Web developer tools (mothereff.in)|https://mothereff.in/]] --- <<[# Git"https://github.com/mathiasbynens/mothereff.in">>
 
 !!!! Minification
 

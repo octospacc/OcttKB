@@ -1,6 +1,6 @@
 created: 20230202104823127
 creator: Octt
-modified: 20240107005726632
+modified: 20240119012237016
 modifier: Octt
 tags: Nintendo Gaming $:/i18n:en Console
 title: Nintendo Entertainment System
@@ -14,6 +14,8 @@ title: Nintendo Entertainment System
 * [[NES (Famicom) Development Kit Hardware [Retro Reversing]|https://www.retroreversing.com/famicom-nes-development-kit/]]
 
 * (Playlists of) [[Some NES Multicarts Music|https://www.youtube.com/playlist?list=PLP3KtH7oe6jVGoqvVgKldhrYn8q9pxx44]] ; [[NES/Famicom Multicarts Music Remake Video|https://www.youtube.com/playlist?list=PLP3KtH7oe6jUNno7Y2xjeTVIvTy9ig9Hp]]
+
+* [[ArtisaNES|http://0ldsk00l.ca/artisanes/]] --- //Artisanal NES consoles aesthetic mods// (paints)
 
 * [[NesDev.org|https://www.nesdev.org/]] --- //Info, programs, and more//
 * [[Nintendo Entertainment System Documentation|https://www.nesdev.org/NESDoc.pdf]]
@@ -36,13 +38,19 @@ title: Nintendo Entertainment System
 * [[ASM NES Starter Kit|https://github.com/battlelinegames/nes-starter-kit]] --- //starter kit for developing Nintendo Entertainment System games using 6502 Assembly language// with specific useful information
 * [[little-things-nes|https://github.com/pinobatch/little-things-nes]] --- //One-off tech demos and test ROMs for NES//
 
-* [[nessemble|https://github.com/kevinselwyn/nessemble]] --- //6502 assembler/disassembler/simulator targeting the Nintendo Entertainment System//
+* [[nessemble|https://github.com/kevinselwyn/nessemble]] --- //6502 assembler/disassembler/simulator targeting the Nintendo Entertainment System// --- <<[# Thread"https://forums.nesdev.org/viewtopic.php?t=16387">>
 * [[BZK 6502 Disassembler|https://github.com/cyneprepou4uk/BZK-6502-Disassembler]] --- //Create a disassembly of a NES game// --- <<[# Manual "https://cyneprepou4uk.github.io/iromhacker/nes/en/bzk6502/1/index.html">> <<[# Thread "https://www.romhacking.net/forum/index.php?topic=31875.0">>
 
+* [[Disassembling NES ROM, What Disassembler to Use?|https://forums.nesdev.org/viewtopic.php?t=14221]]
 * [[NES Games Disassembly|https://github.com/cyneprepou4uk/NES-Games-Disassembly]] --- //Source code of some NES games// --- <<[# Thread "https://www.romhacking.net/forum/index.php?topic=32220.0">>
+* [[How to Hack NES Games [JohnRiggs]|https://www.youtube.com/playlist?list=PLsOTz-tlvayLmYmgreE4q1w0E6rN29T4p]]
+* [[$8000 and $C000 on the NES|https://forums.nesdev.org/viewtopic.php?t=5494]] --- mapper 0 maps the PRG ROM to both addresses
+
+* [[Looking For MIDI to NES/NSF Converter|https://forums.nesdev.org/viewtopic.php?t=8007]]
 
 !!! Emulators
 
 * [[FCEUX|https://fceux.com]] --- //The all in one NES/Famicom/Dendy Emulator// --- <<[# "https://github.com/TASEmulators/fceux">>
-* [[Nestopia|]]
+* [[Nestopia|https://nestopia.sourceforge.net/]]
+** [[Nestopia UE|http://0ldsk00l.ca/nestopia/]] (the successor) --- // Cross-platform Nestopia emulator core with a GUI// --- <<[# Git"https://github.com/0ldsk00l/nestopia">>
 * [[NesDs|]]

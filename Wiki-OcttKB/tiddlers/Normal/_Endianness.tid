@@ -1,9 +1,11 @@
 created: 20230404134313374
 creator: Octt
-modified: 20230404134900364
+modified: 20240119003724455
 modifier: Octt
-tags: 
+tags: Computing
 title: Endianness
+
+<<^wikipediaframe Endianness>>
 
 * [[Was Little Endian made to confuse programmers|https://www.quora.com/Was-Little-Endian-made-to-confuse-programmers]]
 * <<RedditL /r/csELI5/comments/1qkadu/big_and_little_endians/ "Big and Little Endians - r/csELI5">>

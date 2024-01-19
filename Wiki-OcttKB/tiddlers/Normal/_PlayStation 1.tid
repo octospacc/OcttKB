@@ -1,6 +1,6 @@
 created: 20231119143345968
 creator: Octt
-modified: 20231123221852893
+modified: 20240119011653678
 modifier: Octt
 tags: Gaming Console
 title: PlayStation 1
@@ -11,16 +11,17 @@ title: PlayStation 1
 
 * [[PSXDEV Network|https://www.psxdev.net/index.html]]
 * <<httpL netyaroze.com>>
+* [[PSX.Dev|https://www.psx.dev/]] --- //Welcome to our community dedicated to PlayStation1 homebrew.//
 * [[ps1-links|https://ps1.consoledev.net/]] --- //the PSX development links center, where all the links related to development on the first Playstation meet!// --- <<#[ Git"https://github.com/ps1-links/ps1-links.github.io">>
 * [[Let's do NYO: ~Introduction to PlayStation research presented by Dokuda Jigokusai~|https://drhell.web.fc2.com/ps1/index.html]]
 * [[PlayStation Specifications - psx-spx|https://psx-spx.consoledev.net/]] --- <<[# Git"https://github.com/psx-spx/psx-spx.github.io">>
 
-* <<httpsL psx.arthus.net>> --- //Lots of psx dev stuff here.//
+* <<httpsL psx.arthus.net>>, <<httpsL psx.schnappy.xyz>> --- //Lots of psx dev stuff here.//
 * [[PlayStation Bare Metal MIPS Assembly Programming Code Examples by krom|https://github.com/PeterLemon/PSX]]
 * [[psx-asm-cargo|https://github.com/hornc/psx-asm-cargo]] --- //PlayStation 1 (PSX) MIPS assembly programming ... with Cargo builds//
 * [[Homebrew Source Code - Rendering 3D Graphics with PsyQ|https://mbdesigns.itch.io/ps1-homebrew-source-code-rendering-3d-graphics-with-psyq]] (with [[Blender]]) --- [<<RedditL /r/psxdev/comments/mzcmvc/i_got_3d_graphics_working_full_source_code_in_the/>>]
 * [[Hitmen collection PSX sources|https://hitmen.c02.at/html/psx_sources.html]]
-* [[Nolibgs Hello Worlds !|https://github.com/ABelliqueux/nolibgs_hello_worlds]] --- //Collection of PsyQ basic examples NOT using libgs//
+* [[Nolibgs Hello Worlds / demo disc!|https://abelliqueux.itch.io/nolibgs-demo-disc]] --- //Collection of PsyQ basic examples NOT using libgs// --- <<#[ Git "https://github.com/ABelliqueux/nolibgs_hello_worlds">>
 
 !!! Emulators, Debuggers
 

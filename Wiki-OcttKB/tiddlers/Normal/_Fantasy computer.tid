@@ -1,0 +1,15 @@
+created: 20240119005148701
+creator: Octt
+modified: 20240119010619538
+modifier: Octt
+tags: 
+title: Fantasy computer
+
+* //''[[Uxn/Varvara ecosystem|https://100r.co/site/uxn.html]]'' is a personal computing stack based on a small virtual machine that lies at the heart of our software, and that allows us to run the same application on a variety of systems.//
+** //''[[Uxn|https://wiki.xxiivv.com/site/uxn.html]]'' is a virtual stack-machine designed to host the Hundred Rabbits projects.//
+** [[Awesome Uxn Awesome|https://github.com/hundredrabbits/awesome-uxn#emulators]] --- //Curated list of awesome Uxn projects from the community.//
+** [[learn-uxn|https://metasyn.srht.site/learn-uxn/]] by trying and editing code in the browser
+
+!! Fantasy console
+
+<<^wikipediaframe "Fantasy console">>

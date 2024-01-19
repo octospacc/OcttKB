@@ -1,6 +1,6 @@
 created: 20231103223458206
 creator: Octt
-modified: 20231125201508469
+modified: 20240119003644181
 modifier: Octt
 title: Simple DirectMedia Layer
 
@@ -20,3 +20,5 @@ title: Simple DirectMedia Layer
 
 * [[Why SDL doesn't allow `int main(void)`|https://copyrat90.github.io/2021/08/08/why-sdl-does-not-allow-int-main-void.html]]
 * [[What is the best way to read input from keyboard using SDL?|https://stackoverflow.com/questions/11699183/what-is-the-best-way-to-read-input-from-keyboard-using-sdl]]
+
+* [[Rendering 8-bit palettized surfaces in SDL 2.0 applications|https://sandervanderburg.blogspot.com/2014/05/rendering-8-bit-palettized-surfaces-in.html]]

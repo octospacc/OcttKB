@@ -1,13 +1,15 @@
 created: 20230112091241450
 creator: Octt
 icon: 🧩
-modified: 20231105142732129
+modified: 20240119000406763
 modifier: Octt
 page-cover: https://source.unsplash.com/random/?Tetris
 tags: TODO Puzzle $:/i18n:en Game Generic $:/Games
 title: Tetris
 
 <<^wikipediaframe Tetris>>
+
+* <<YoutubeL GuJ5UuknsHU "After 34 Years, Someone Finally Beat Tetris [aGameScout]">>
 
 * [[Tetrisconcept|https://tetrisconcept.net/]] --- technical Tetris forum
 ** [[Tetrisconcept Tetris Fundamentals|https://www.tetrisconcept.com/p/start.html]] --- some fundamentals on advanced Tetris techniques
