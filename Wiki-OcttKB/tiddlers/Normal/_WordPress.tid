@@ -1,6 +1,6 @@
 created: 20230206192842398
 creator: Octt
-modified: 20240107140354621
+modified: 20240119172421330
 modifier: Octt
 tags: Web PHP CMS
 title: WordPress
@@ -9,12 +9,17 @@ title: WordPress
 
 * <<httpsL WordPress.com>> --- Corporate site and home page of the SaaS service
 * <<httpsL WordPress.org>> --- Home page of the open source project
-** <<httpsL developer.wordpress.org>> --- Development resources, guides, references
+** [[WordPress Developer Resources|https://developer.wordpress.org]] --- Development resources, guides, references
+** //''[[WordPress Codex|https://codex.wordpress.org/]]'', the online manual for WordPress and a living repository for WordPress information and documentation.//
 
 <<^wikipediaframe WordPress en>>
 
 * [[Stupid WordPress Tricks|https://perishablepress.com/stupid-wordpress-tricks]] (with PHP)
 * [[How to Add Code to WordPress Header and Footer|https://kinsta.com/knowledgebase/add-code-wordpress-header-footer/]]
+
+* [[Wordpress API json, how to get prev and next posts in single post?|https://stackoverflow.com/questions/42546957/wordpress-api-json-how-to-get-prev-and-next-posts-in-single-post/70410781#70410781]] --- not explicitly possible, but achievable for ordering by date, by using exclude of a pivot post id, order asc/desc, and using query after/before a certain date edge
+
+* [[WP Database Description|https://codex.wordpress.org/Database_Description]] --- //outline and description of the database tables created during the standard installation//
 
 * [[WordPress Plugins SVN Mirror|http://web.archive.org/web/20200805015358/http://www.pluginmirror.com/]] (apparently website is dead?) --- //Say hello to fully automated GitHub mirrors of every plugin in the WordPress.org plugin repository.// --- <<[# Git"https://github.com/wp-plugins">>
 

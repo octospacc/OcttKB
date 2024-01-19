@@ -1,6 +1,6 @@
 created: 20230202104823127
 creator: Octt
-modified: 20240119012237016
+modified: 20240119121912787
 modifier: Octt
 tags: Nintendo Gaming $:/i18n:en Console
 title: Nintendo Entertainment System
@@ -14,6 +14,8 @@ title: Nintendo Entertainment System
 * [[NES (Famicom) Development Kit Hardware [Retro Reversing]|https://www.retroreversing.com/famicom-nes-development-kit/]]
 
 * (Playlists of) [[Some NES Multicarts Music|https://www.youtube.com/playlist?list=PLP3KtH7oe6jVGoqvVgKldhrYn8q9pxx44]] ; [[NES/Famicom Multicarts Music Remake Video|https://www.youtube.com/playlist?list=PLP3KtH7oe6jUNno7Y2xjeTVIvTy9ig9Hp]]
+* [[Unchained Nostalgia v1.4.0 [2018/11/15] (a NES/Famicom/Dendy demo)|https://veg.by/en/projects/unchained/]] --- //based on the pirate multicart with a romantic storyline and the Unchained Melody in the menu.// --- <<[# Thread"https://forums.nesdev.org/viewtopic.php?t=10672">>
+** Original source appeared to be lost to the author forgetting to reupload it after BitBucked fucked up and deleted the hg repo, I was able to find [[some parts on Web Archive|http://web.archive.org/web/20171004041520/https://bitbucket.org/veg/unchained/src]] and copied them: [[https://hlb0.octt.eu.org/Drive/Misc/Unchained%20Nostalgia/Source.7z]] (binary assets are missing but they could be extracted from the compiled ROM, what matters is having the ASM now)
 
 * [[ArtisaNES|http://0ldsk00l.ca/artisanes/]] --- //Artisanal NES consoles aesthetic mods// (paints)
 
@@ -45,6 +47,7 @@ title: Nintendo Entertainment System
 * [[NES Games Disassembly|https://github.com/cyneprepou4uk/NES-Games-Disassembly]] --- //Source code of some NES games// --- <<[# Thread "https://www.romhacking.net/forum/index.php?topic=32220.0">>
 * [[How to Hack NES Games [JohnRiggs]|https://www.youtube.com/playlist?list=PLsOTz-tlvayLmYmgreE4q1w0E6rN29T4p]]
 * [[$8000 and $C000 on the NES|https://forums.nesdev.org/viewtopic.php?t=5494]] --- mapper 0 maps the PRG ROM to both addresses
+* [[How to extract CHR & PRG from a NES/UNiF file|https://forums.nesdev.org/viewtopic.php?t=5661]] --- depends on the mapper, usually PRG is at the start (after the iHeader) and CHR at the end
 
 * [[Looking For MIDI to NES/NSF Converter|https://forums.nesdev.org/viewtopic.php?t=8007]]
 

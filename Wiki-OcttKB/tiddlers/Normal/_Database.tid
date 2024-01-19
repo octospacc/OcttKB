@@ -1,14 +1,21 @@
 created: 20231223234312578
 creator: Octt
-modified: 20231223234827077
+modified: 20240119162211752
 modifier: Octt
 title: Database
 
 <<^wikipediaframe Database>>
 
-!! SQL
+!! SQL (Structured Query Language)
 
 <<^wikipediaframe SQL>>
+
+* [[SQL Tutorial - Essential SQL For The Beginners|https://www.sqltutorial.org/]], //helps you get started with SQL quickly and effectively through many practical examples.//
+
+* [[SQL Server reverse order after using desc|https://stackoverflow.com/questions/12534248/sql-server-reverse-order-after-using-desc]] --- just use a subselect subquery, `SELECT * FROM (... ORDER BY x DESC) _ ORDER BY x ASC`
+* [[How to count instances of character in SQL Column|https://stackoverflow.com/questions/1860457/how-to-count-instances-of-character-in-sql-column#1860478]] --- `SELECT LEN(col) - LEN(REPLACE(col, 'x', ''))`
+** [[SQL String: Counting Words inside a String|https://stackoverflow.com/questions/41952250/sql-string-counting-words-inside-a-string]] --- various methods more specially catered for counting words, than the naive space counting
+** Note: for counting in many rows together, the `SUM()` function must be used, [[or else you will go mad like me|https://chat.openai.com/share/5883b4c6-37cf-40e3-b735-9cd52b26020c]]
 
 !!! MySQL \ MariaDB
 
@@ -17,3 +24,5 @@ title: Database
 
 * [[How to install MySQL (MariaDB) on Android with Termux|https://parzibyte.me/blog/en/2019/04/16/install-mysql-mariadb-android-termux/]]
 * [[--skip-grant-tables option cannot execute statement|https://stackoverflow.com/questions/54751024/skip-grant-tables-option-cannot-execute-statement]] --- in `mysql>` execute `flush privileges`
+
+* [[MySQL LENGTH() Function|https://www.w3schools.com/sql/func_mysql_length.asp]] (not LEN on MySQL!)

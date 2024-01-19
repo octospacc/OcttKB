@@ -1,6 +1,6 @@
 created: 20231212222847342
 creator: Octt
-modified: 20231212223439290
+modified: 20240119124309074
 modifier: Octt
 tags: 
 title: Super Nintendo Entertainment System
@@ -8,6 +8,8 @@ title: Super Nintendo Entertainment System
 <<^wikipediaframe "SNES">>
 
 * [[SNES Central|https://snescentral.com/index.php]]
+
+* [[DiztinGUIsh ("Diz")|https://github.com/IsoFrieze/DiztinGUIsh]] --- //A Super NES ROM Disassembler and tracelog capture/analysis tool with a focus on collaborative workflow UX. Exports .asm files ready to be compiled back into the original binary. Written in Winforms/C#.//
 
 !! Star Fox
 

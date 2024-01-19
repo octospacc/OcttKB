@@ -1,11 +1,13 @@
 created: 20230217221957113
 creator: Octt
-modified: 20231224164734893
+modified: 20240119145813252
 modifier: Octt
 tags: 
 title: Android/Development
 
 !!! ''Development''
+
+* <<RedditL r/androiddev/comments/18ysf26/why_is_the_android_documentation_so_poor/ "Why is the android documentation so poor?">>
 
 * [[ADB (Android Debug Bridge)|https://developer.android.com/tools/adb]]
 

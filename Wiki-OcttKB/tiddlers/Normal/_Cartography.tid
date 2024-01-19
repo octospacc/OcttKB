@@ -1,6 +1,6 @@
 created: 20231111233128372
 creator: Octt
-modified: 20231221163333560
+modified: 20240119164516295
 modifier: Octt
 tags: Geography
 title: Cartography
@@ -9,4 +9,5 @@ title: Cartography
 
 * <<linkdescgit OpenStreetMap"https://www.openstreetmap.org/" "largest community-created geospatial project of all time" "https://github.com/openstreetmap">>
 ** <<linkdescgit OsmAnd"https://osmand.net/" "Offline Maps and Navigation" "https://github.com/osmandapp">>, primarily for Android but a webapp is WIP
+** [[Organic Maps|https://organicmaps.app/]] --- //Organic Maps is a free Android & iOS offline maps app for travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data.// --- <<[# Git"https://github.com/organicmaps/organicmaps">>
 * <<linkdescgit Leaflet"https://leafletjs.com/" "🍃 JavaScript library for mobile-friendly interactive maps" "https://github.com/Leaflet">>

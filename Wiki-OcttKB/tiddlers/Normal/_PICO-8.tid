@@ -1,6 +1,6 @@
 created: 20230215192110036
 creator: Octt
-modified: 20230215213713689
+modified: 20240119145635621
 modifier: Octt
 tags: Proprietary Gaming Fantasy Console
 title: PICO-8
@@ -10,7 +10,7 @@ title: PICO-8
 * [[PICO-8 Community Git|https://github.com/pico-8]]
 * [[Awesome PICO-8|https://pico-8.github.io/awesome-PICO-8/]] - [[[Git|https://github.com/pico-8/awesome-PICO-8]]]
 
-<<WikipediaFrame PICO-8 en>>
+<<^WikipediaFrame PICO-8 en>>
 
 ; Get Games
 : <div>
@@ -20,6 +20,7 @@ title: PICO-8
 * <<RedditL "/r/Roms/comments/yj2irf/picowesome_v14_oct312022/" "PICOwesome v1.4 (oct-31-2022)">> - Pico8 Awesome ROM Set - [[[ZIP Gdrive|https://drive.google.com/file/d/1KsK_cm3dp2yCcMdimZInIAU_PkPEfBQf/view?usp=sharing]]] [[[ZIP 1fichier|https://1fichier.com/?jwit1cvqcefytsy9xu24]]] - [<<RedditL "/r/Roms/comments/mw1k3r/pico8_awesome_set_v10/" v1.0>>] [<<RedditL "/r/Roms/comments/t41u6w/picowesome_v13_feb282022/" v1.3>>]
 ** Other (unorganized?) collections mentioned in the thread: https://archive.org/details/pico8 | https://archive.org/details/p8carts
 ** Others (for real): https://archive.org/details/pico-8_cart_collection
+* [[Pico-8 gallery|https://pico8.retroactive.me/]] --- //A small static site with its own generator containing a few of my Pico-8 sketches// --- <<[# Git"https://github.com/Eiyeron/pico8-gallery">>
 </div>
 
 ; Reimplementations
