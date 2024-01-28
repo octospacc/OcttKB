@@ -611,7 +611,9 @@ dd > div > ul {
   margin-top: unset;
   margin-bottom: unset;
 }
-/* Override the font used for icon display by the the <$:/plugins/Gk0Wk/notionpage-covericon> plugin, and then also apply it to the :after of .tc-tiddlylink anchors, for consistency.
+/* — */html, body {
+  overflow-x: hidden;
+}/* Override the font used for icon display by the the <$:/plugins/Gk0Wk/notionpage-covericon> plugin, and then also apply it to the :after of .tc-tiddlylink anchors, for consistency.
 We override adding a "sans-serif" to the start due to a spacing bug (?) */
 .gk0wk-notionpagebg-icon1,
 .gk0wk-notionpagebg-icon2,
