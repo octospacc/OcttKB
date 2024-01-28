@@ -1,6 +1,6 @@
 created: 20230429182925276
 creator: Octt
-modified: 20240107164336993
+modified: 20240128184623406
 modifier: Octt
 tags: 
 title: JavaScript/Libraries
@@ -13,6 +13,7 @@ Note: some are still in [[Web/Development]]
 * `jsdom`: //JavaScript implementation of various web standards, for use with Node.js// --- <<[# Git "https://github.com/jsdom/jsdom">>
 * [[Axios|https://axios-http.com/]] --- //Promise based HTTP client for the browser and node.js// --- <<[# Git"https://github.com/axios">>
 ** [[How to display response error message with axios|https://stackoverflow.com/questions/44385872/how-to-display-response-error-message-with-axios]] --- `try { ... } catch(err) { console.log(err.response.data.message) }`
+* [[cheerio|https://cheerio.js.org/]] --- //The fast, flexible & elegant library for parsing and manipulating HTML and XML.//
 
 !!! ''Do-all''
 

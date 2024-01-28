@@ -1,6 +1,6 @@
 created: 20230905232949767
 creator: Octt
-modified: 20231222001704153
+modified: 20240128180642888
 modifier: Octt
 tags: 
 title: Static site generator
@@ -8,6 +8,10 @@ title: Static site generator
 <<^wikipediaframe "Static site generator">>
 
 * <<linkdescgit Docusaurus "https://docusaurus.io" "Easy to maintain open source documentation websites." "https://github.com/facebook/docusaurus">>
+** [[Support Relative Path|https://github.com/facebook/docusaurus/issues/448#issuecomment-908777029]]
+** [[Option to generate offline static HTML files usable without server|https://github.com/facebook/docusaurus/issues/3825]]
+*** [[Docusaurus-Static|https://octospacc.gitlab.io/editocttrialTools/docusaurus-static/]] --- my hack for solving the problem
+** [[@easyops-cn/docusaurus-search-local|https://github.com/easyops-cn/docusaurus-search-local]] --- //Offline/local search for Docusaurus v2/v3// --- <<[# Demo"https://easyops-cn.github.io/docusaurus-search-local/">>
 * <<linkdescgit Hugo "https://gohugo.io" "The world’s fastest framework for building websites" "https://github.com/gohugoio/hugo">>
 
 * [[Hexo|https://hexo.io/]] --- //A fast, simple & powerful blog framework//

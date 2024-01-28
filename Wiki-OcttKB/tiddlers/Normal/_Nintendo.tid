@@ -1,11 +1,14 @@
 created: 20220923110724649
 creator: Octt
-modified: 20231220004841392
+modified: 20240128093820379
 modifier: Octt
 tags: 
 title: Nintendo
 
 <<^wikipediaframe Nintendo>>
+
+* [[Pikmin Finder|https://pikmin-finder.nintendo.net/]] --- //AR experience in which you can
+find Pikmin around you using a smart device camera.// --- <<[# Announcement"https://www.nintendo.com/us/whatsnew/pikmin-finder/">>
 
 * <<linkdescgit "NSMB-MarioVsLuigi" "https://ipodtouch0218.itch.io/nsmb-mariovsluigi" "A standalone 2-10 player remake of the Mario vs Luigi gamemode from New Super Mario Bros DS." "https://github.com/ipodtouch0218/NSMB-MarioVsLuigi">>
 * [[Froxot Browser Games for Nintendo DSi/3DS/2DS|http://www.froxot.de/index.php]]

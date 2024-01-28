@@ -1,6 +1,6 @@
 created: 20230206113426599
 creator: Octt
-modified: 20231220220541649
+modified: 20240128193339710
 modifier: Octt
 tags: 
 title: TiddlyWiki/ThirdParty
@@ -14,6 +14,7 @@ title: TiddlyWiki/ThirdParty
 * Kookma Plugin Library --- <<[ "[[Drag To Install|$:/config/KookmaPluginLibrary]]">>
 * [[NoteSelf|https://noteself.org]] --- TiddlyWiki fork/flavor with interesting features built-in - [[[Git|https://github.com/NoteSelf]]]
 * [[Projectify|https://thaddeusjiang.github.io/Projectify]] --- //Project management for TiddlyWiki// - [[[Git|https://github.com/ThaddeusJiang/Projectify]]]
+* [[RR-TW5|https://rr-tw5.github.io/]] --- //A Roam Research Styled TiddlyWiki//
 * [[Saq's TW5 Sandbox|https://saqimtiaz.github.io/tw5-plugins-sandbox]] --- //Experimental doodads//
 * [[Stroll|https://giffmex.org/stroll/stroll.html]] --- //A Roam-like experience in a free, downloadable file//
 * [[The public musings of Soren Bjornstad (Zettelkasten)|https://zettelkasten.sorenbjornstad.com]]
@@ -41,6 +42,7 @@ title: TiddlyWiki/ThirdParty
 * [[Daily Notes|https://github.com/akhater/Daily-Notes-for-TW5]] - //Interstitial Journaling plugin//
 * [[ECharts|https://tiddly-gittly.github.io/tw-echarts]] [[[Git|https://github.com/tiddly-gittly/tw-echarts]], [[Thread|https://talk.tiddlywiki.org/t/echarts-bringing-amazing-visualization-tools-to-tiddlywiki/1944]]] --- //An All-in-one Visualization Framework for TiddlyWiki5 based on ECharts//
 * [[enable-js|http://tobibeer.github.io/tw/enable-js]] --- //using inline script tags//
+* [[find-in-page-plugin|https://tiddlywiki-find-in-page-plugin.tiddlyhost.com/]] --- //finds text in tiddlers currently view//, basically replicates the browser CTRL+F feature but integrates it with the wiki search box
 * [[ibox|https://tobibeer.github.io/tw/ibox]] - //pretty-show images in tw5//
 * [[TW5 Locator|https://bimlas.gitlab.io/tw5-locator/]] --- //discover and search by context//, with polished field filtering features --- <<[ "[[Git|https://gitlab.com/bimlas/tw5-locator]]">>
 * [[Notion-like Icon And PageCover|https://gk0wk.github.io/TiddlySeq/#Notion-like%20Icon%20And%20PageCover]] --- <<[ "[[Thread|https://talk.tiddlywiki.org/t/notion-like-icon-and-pagecover/1741]]">>
