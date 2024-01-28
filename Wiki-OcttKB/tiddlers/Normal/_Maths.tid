@@ -1,0 +1,10 @@
+created: 20240128004237537
+creator: Octt
+modified: 20240128004515420
+modifier: Octt
+tags: 
+title: Maths
+
+<<^WikipediaFrame "Maths">>
+
+* [[Is there an arithmetic way to determine the greater of 2 numbers?|https://math.stackexchange.com/questions/1975483/is-there-an-arithmetic-way-to-determine-the-greater-of-2-numbers#1975484]] --- `((a+b)/2) + (abs(a-b)/2)`

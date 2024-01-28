@@ -1,8 +1,9 @@
 created: 20220920160811383
 creator: Octt
 icon: 🐙
-modified: 20231105104126959
+modified: 20240128002941990
 modifier: Octt
+page-cover: https://source.unsplash.com/random?inkling,octopus
 tags: $:/ToC $:/i18n:en Octt
 title: OcttKB
 
@@ -26,7 +27,7 @@ Apart from the usual [[TiddlyWiki]] ones, there are many methods of navigation o
 !!! ''External Links''
 
 ; ''My Hub'', Global Home Page: [[Hub.Octt.EU.org|https://hub.octt.eu.org]]
-: Links to my blog, webapps, and social profiles
+: Links to my blogs, webapps, and social profiles or places
 
 * ''KB Git Repo'' (deploy scripts, + limited commit history): [[GitLab.com/octtspacc/OcttKB|https://gitlab.com/octtspacc/OcttKB]]
 ** Mirrors (''don't send issues/PRs'' there): [[GitHub.com|https://github.com/octospacc/OcttKB]] | [[Gitea.it|https://gitea.it/octospacc/OcttKB]]
@@ -35,37 +36,14 @@ Apart from the usual [[TiddlyWiki]] ones, there are many methods of navigation o
 
 //<small>Note: The KB is also served in plain, unencrypted HTTP at the `http` 5th-level subdomain: `http://http.kb.octt.eu.org`.</small>//
 
-!!! ''Tags''
-{{$:/OcttKB/TagCloud}}
-<!--
-<span style="Line-Height:2em;">
-<$list filter="[tags[]!is[system]]">
-<span style="Padding:2px;">
-<$macrocall $name="tag" tag={{!!caption}}/>
-</span>
-</$list>
-</span>
--->
-<!--
-<<list-links filter:"[!is[system]tags[]]">>
--->
+!!! ''Other Wiki Things''
 
-<!--
-<br>
--->
-<details class="tw-details">
-  <summary>
-    <h3 style="display: inline; font-style: bold;">
-      All Tiddlers
-    </h3>
-  </summary>
-  {{$:/OcttKB/AllTiddlers}}
-</details>
-<!--
-<br>
--->
+I have made the following into links as they were making this tiddler very laggy, to the point of causing hanging issues on my mobile. Hold thight when opening them (if you're using the JavaScript-rich app, otherwise you're golden).
 
-<hr><br>
+* [[All Tiddlers|$:/OcttKB/AllTiddlers]]
+* [[Tag Cloud|$:/OcttKB/TagCloud]]
+
+<hr>
 
 (Partial) [[Copyright © 2022, OctoSpacc|OcttKB/Licensing]] || OcttKB is powered by [[TiddlyWiki|TiddlyWiki]].
 

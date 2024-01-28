@@ -1,6 +1,6 @@
 created: 20230108190740128
 creator: Octt
-modified: 20231105151520512
+modified: 20240127214256070
 modifier: Octt
 tags: $:/tags/Stylesheet
 title: $:/Styles/Main
@@ -19,6 +19,12 @@ $hiddenSidebarText$
 </$reveal>
 </$reveal>
 \end
+
+/* --- */
+
+html, body {
+  overflow-x: hidden;
+}
 
 /* Override the font used for icon display by the the <$:/plugins/Gk0Wk/notionpage-covericon> plugin, and then also apply it to the :after of .tc-tiddlylink anchors, for consistency.
 We override adding a "sans-serif" to the start due to a spacing bug (?) */

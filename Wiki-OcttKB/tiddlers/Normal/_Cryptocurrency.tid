@@ -1,17 +1,15 @@
 created: 20230218181942782
 creator: Octt
-modified: 20230218191138256
+modified: 20240127233538211
 modifier: Octt
 tags: 
 title: Cryptocurrency
 
-[[]]<<^wikipediaframe Cryptocurrency>>
+<<^wikipediaframe Cryptocurrency>>
 
 * Cryptocurrencies are usually decentralized; in such cases, they are based on a [[Blockchain]].
-*
 
 !! Some cryptocurrencies (+ tokens)
-
 
 !!! ''[[Bitcoin|https://bitcoin.org/]]'' (BTC)
 
@@ -20,6 +18,20 @@ title: Cryptocurrency
 ; Self-custocial Wallets
 : [[Mycelium|https://wallet.mycelium.com/]] (Android) - <<[ "[[Git|https://github.com/mycelium-com]]">>
 
+
+!!! [[Dash|https://www.dash.org/]]
+
+//Dash is an experimental digital currency that enables instant, private payments to anyone, anywhere in the world.//
+
+It's a fork of Bitcoin. There are some advantages, some technical and some situational, but a strange disadvantage I have seen appears to be that wallet syncs take a lot of time.
+
+* https://github.com/dashpay
+
+!!! [[Duino-Coin|https://github.com/revoxhere/duino-coin]]
+
+//Simple, eco-friendly, centralized coin that can be mined with microcontrollers.//
+
+* https://github.com/revoxhere/duino-coin
 
 !!! ''[[Ethereum|https://ethereum.org/]]'' (ETH)
 

@@ -1,7 +1,7 @@
 created: 20220924193842295
 creator: Octt
 icon: 🐈
-modified: 20231223140546807
+modified: 20240127225041667
 modifier: Octt
 page-cover: https://source.unsplash.com/random/?computer-cat
 tags: TiddlyWiki Wiki Zettelkasten Libre
@@ -56,6 +56,8 @@ It is a libre, JavaScript-rich, non-linear notebook, that can well adapt to anyo
 
 * [[Has anyone generated an RSS feed from TiddlyWiki?|https://talk.tiddlywiki.org/t/has-anyone-generated-an-rss-feed-from-tiddlywiki/966/25]]
 ** [[RSS and Atom Feeds for your TiddlyWiki|https://techlifeweb.com/tiddlywiki/tw5tribalknowledge/static/RSS%2520and%2520Atom%2520Feeds%2520for%2520your%2520TiddlyWiki.html]]
+
+* [[Sttot Stack|https://gk0wk.github.io/]] --- gk0wk wiki displayed with a particular tiddler reader web-app, not based on the real TW app
 
 <<{< TiddlyWiki/ThirdParty>>
 

@@ -1,6 +1,6 @@
 created: 20230722232624533
 creator: Octt
-modified: 20240110005619440
+modified: 20240121193357828
 modifier: Octt
 tags: Server
 title: Docker
@@ -10,6 +10,7 @@ title: Docker
 !!! Commands
 
 * `start`, `restart`: On existing containers, respectively ''start'' if it's not running, or ''restart'' at any condition
+* `volume ls`: List internal volumes
 
 !!! Flags
 

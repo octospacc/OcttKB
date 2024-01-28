@@ -1,12 +1,14 @@
 created: 20230816230347077
 creator: Octt
-modified: 20230920092125731
+modified: 20240128002305848
 modifier: Octt
 tags: 
 title: Document
 
 <<^wikipediaframe Document>>
 
+* <<httpsL Crypt.ee>> --- //Cryptee is a privacy focused, encrypted and secure documents, notes, files and photos service// --- seems nifty but apparently it's not truly open-source, just the web client code is. --- <<#[ Git"https://github.com/cryptee">>
+* [[CryptPad|https://cryptpad.org/]] --- //Collaborative office suite that is end-to-end encrypted and open-source// --- <<[# Git"https://github.com/cryptpad">>
 * <<link+desc+git ONLYOFFICE "https://www.onlyoffice.com" "An office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit local documents" "https://github.com/ONLYOFFICE">> <<#[ "Android Git and APKs" "https://github.com/ONLYOFFICE/documents-app-android">>
 
 * <<RedditL r/humblebundles/comments/7z37lo/pdf_or_cbz_for_absolute_best_image_quality "PDF or CBZ for absolute best image quality?">>

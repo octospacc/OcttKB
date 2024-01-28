@@ -1,10 +1,13 @@
 created: 20230823100404453
 creator: Octt
-modified: 20230823101738480
+modified: 20240127213352039
 modifier: Octt
 tags: 
 title: URL shortening
 
 <<^wikipediaframe "URL shortening">>
 
-* [[t.ly|https://t.ly]] --- Apparently the //World's Shortest Link Shortener//
+* <<httpsL bit.ly>> --- Classic shortener, but got shitty in recent years and demands and account be made for creating more than 1 link (unless you clear browser site storage)
+* <<httpsL goo.gl>> --- Shortener which has been #KilledBy[[Google]]
+* <<httpsL t.ly>> --- Apparently the //World's Shortest Link Shortener//
+* <<httpsL tinyurl.com>> --- A shortener that I think is standing the test of time, but recently the retro site was replaced with a full-blown webapp

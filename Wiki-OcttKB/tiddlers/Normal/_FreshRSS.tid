@@ -1,14 +1,16 @@
 created: 20230113225224277
 creator: Octt
-modified: 20230813103800740
+modified: 20240128000924533
 modifier: Octt
+page-cover: https://source.unsplash.com/random?fresh,rss
 tags: RSS
 title: FreshRSS
 
 * Site: https://freshrss.org
 * Docs: https://freshrss.github.io/FreshRSS/
 * Source: https://github.com/FreshRSS
-* Docker: https://hub.docker.com/r/linuxserver/freshrss
+* Docker: https://hub.docker.com/r/linuxserver/freshrss (wouldn't use it anymore, it was a pain to migrate from that to a manual config, more of a pain than it is to do the manual setup again, assuming you already have a web server ready)
+* My instance: https://feeds.octt.eu.org; if I keep it like this (don't privatize it) you can use it as a demo, it shows the feeds of some of my things
 
 ---
 

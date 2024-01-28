@@ -1,0 +1,11 @@
+created: 20240128003004602
+creator: Octt
+modified: 20240128003714010
+modifier: Octt
+tags: 
+title: Comics
+
+<<^WikipediaFrame "Comics">>
+
+* [[Tachiyomi|https://tachiyomi.org/]] --- epic open-source reader for Android, but which recently ceased development due to shitty hypercapitalist manwha company issuing a C&D... we are waiting for a spiritual successor
+** Main repo w/sources disappeared from GitHub, and the entire app too from F-Droid; they are probably still on [[Internet Archive]], and I found this mirror here (idk if trustworthy): https://git.mihon.dev/tachiyomi

@@ -1,6 +1,6 @@
 created: 20230216222435750
 creator: Octt
-modified: 20240119165525443
+modified: 20240127215554237
 modifier: Octt
 tags: Development
 title: Development/Resources
@@ -16,7 +16,10 @@ title: Development/Resources
 : [[Programming Simplified|https://www.programmingsimplified.com/]] --- //C C++ and Java programming tutorials and programs//
 : [[W3Schools|https://www.w3schools.com/]]
 : [[W3docs|https://www.w3docs.com/]] --- //Tutorials, Quizzes, Certificates, Frameworks, Solutions//
+
+; Collections and aggregates
 : <<linkdescgit DevDocs "https://devdocs.io" "API Documentation Browser" "https://github.com/freeCodeCamp/devdocs">>
+: [[Developer's Documentation Collections|https://devdoc.net/]] --- //(aka API docs: devdoc)//
 : [[DevTut|https://devtut.github.io/]] --- //Tutorials compiled from StackOverflow Documentation// --- <<[# "Source Git" "https://github.com/devtut/generate">> <<[# "Deploy Git" "https://github.com/devtut/devtut.github.io">>
 
 ; Code search
