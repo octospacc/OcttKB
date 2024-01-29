@@ -1,12 +1,12 @@
 created: 20230331055313846
 creator: Mohammad
-modified: 20230331073020353
-modifier: Mohammad
+modified: 20240129163630576
+modifier: Octt
 tags: $:/tags/Macro
-title: kk-notes-box/macros/note
+title: $:/kk-notes-box/macros/note
 
 \define note(type:"info", src:"", title:"Note" )
-\import kk-notes-box/macros/svg-icons
+\import [[$:/kk-notes-box/macros/svg-icons]]
 <div class="kk-notes">
 <$let icon={{{ [<__type__>match[warning]then[warning-svg]else[info-svg]] }}}
       header-class={{{"kk-notes-header" [<__type__>match[warning]then[warning]else[info]addprefix[kk-notes-]] :and[join[ ]]}}} >

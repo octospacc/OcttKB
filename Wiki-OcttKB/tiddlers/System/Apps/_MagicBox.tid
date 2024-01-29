@@ -1,72 +1,87 @@
 .context: 1
 .type: masonry
-.width: 24
+.width: 33
 created: 20240129095948486
 creator: Octt
-modified: 20240129135204381
+modified: 20240129171354932
 modifier: Octt
 tags: $:/Apps
 title: $:/Apps/MagicBox
 
 \define SearchResults(fields)
 <$list filter="[!is[system]search:$fields${$:/temp/MagicBox!!.input}sort[title]limit[150]]">
-	<div class=`MagicBoxResult ${[{$:/Apps/MagicBox!!.type}]}$` style=`background-image: url("${[{!!page-cover}]}$");`>
-		<$link to={{!!title}}>
-			<h3>
-				<$link to={{!!title}}/>
-			</h3>
-			<$if value={{$:/Apps/MagicBox!!.context}}>
-				<$context term={{$:/temp/MagicBox!!.input}}/>
-			</$if>
-		</$link>
+	<div class=`MagicBoxApplet result ${[{$:/Apps/MagicBox!!.type}]}$` style=`background-image: url("${[{!!page-cover}]}$");`>
+		<$button class="tc-btn-invisible">
+			<$action-sendmessage $message="tm-close-tiddler" $param=<<closeOnChoose>>/>
+			<$action-navigate $to={{!!title}}/>
+			<!--<$link to={{!!title}}>-->
+				<h3>
+					<$link to={{!!title}} tabindex="-1"/>
+				</h3>
+				<$if value={{$:/Apps/MagicBox!!.context}}>
+					<$context term={{$:/temp/MagicBox!!.input}} $tabindex="-1"/>
+				</$if>
+			<!--</$link>-->
+		</$button>
 	</div>
 </$list>
 \end
 
-<div>
-	<$edit-text tiddler="$:/temp/MagicBox" field=".input" placeholder="Search..."/>
+<div class="MagicBoxApplet options">
+	<$edit-text tiddler="$:/temp/MagicBox" field=".input" class="_input" placeholder="Search..." tabindex="0"/>
 	<$checkbox field=".context" checked="1">Context</$checkbox>
 	<!--<$edit-text field=".type" placeholder="Display Type"/>-->
 	<$checkbox field=".type" checked="grid" unchecked="masonry">Fixed Grid</$checkbox>
 	<$range field=".width" min="24" max="49"/>{{!!.width}}%
 </div>
 
+<$action-sendmessage $message="tm-focus-selector" $param=".MagicBoxApplet.options > ._input"/>
+<<script script='try {
+	document.querySelector(".MagicBoxApplet.options > ._input")?.focus();
+	document.querySelector("div.tc-tiddler-frame.tc-tiddler-view-frame[data-tiddler-title=\"$:/Apps/MagicBox/Overlay\"] .MagicBoxApplet.options > ._input")?.focus();
+} catch(e) { $OcttKB.ErrAtLine(e) }'>><<script off>>
+
 <style>
-	.MagicBoxResult {
+	.MagicBoxApplet.result {
 		margin: 8px;
 		display: inline-block;
 		background-color: lightgray;
 		background-size: cover;
 		background-position: center;
 	}
-	.MagicBoxResult.grid {
+	.MagicBoxApplet.result.grid {
 		width: calc({{!!.width}}% - 16px);
 		aspect-ratio: 16/9;
 		vertical-align: top;
 	}
-	.MagicBoxResult.masonry {
+	.MagicBoxApplet.result.masonry {
 		max-width: calc({{!!.width}}% - 16px);
 	}
-	.MagicBoxResult h3 {
+	.MagicBoxApplet.result h3 {
 		margin-top: 25%;
 		padding: 8px;
 		background-color: rgba(255, 255, 255, 0.75);
 		text-align: center;
 	}
-	.MagicBoxResult pre {
+	.MagicBoxApplet.result pre {
 		color: initial;
 		max-height: 7em;
 		overflow-y: auto;
 		margin: 0;
 		top: 1em;
 		position: relative;
+		text-align: initial;
 	}
-	.MagicBoxResult > a {
+	.MagicBoxApplet.result h3 > a {
+		pointer-events: none;
+	}
+	.MagicBoxApplet.result > a,
+	.MagicBoxApplet.result > button {
 		display: inline-block;
 		width: 100%;
 		height: 100%;
 	}
-	.MagicBoxResult > a:after {
+	.MagicBoxApplet.result > a:after {
 		content: "" !important;
 	}
 </style>

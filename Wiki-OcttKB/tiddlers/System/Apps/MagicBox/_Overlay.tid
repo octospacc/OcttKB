@@ -1,0 +1,41 @@
+created: 20240129145705629
+creator: Octt
+modified: 20240129161333542
+modifier: Octt
+tags: 
+title: $:/Apps/MagicBox/Overlay
+
+\define @thisOverlay() section.tc-story-river > div.tc-tiddler-frame.tc-tiddler-view-frame[data-tiddler-title="<$text text=<<currentTiddler>>/>"]
+<style>
+	<<@thisOverlay>> {
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 9999;
+		width: 100vw;
+		height: 100vh;
+		overflow-y: auto;
+	}
+	<<@thisOverlay>> div.tc-tiddler-title,
+	<<@thisOverlay>> div.tc-titlebar {
+		background: none;
+		height: 0;
+	}
+	<<@thisOverlay>> .tc-tiddler-controls button {
+		display: none;
+	}
+	<<@thisOverlay>> .tc-tiddler-controls button[class*="tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose"] {
+		display: revert;
+		position: fixed;
+		top: 0px;
+	  right: 8px;
+	}
+	<<@thisOverlay>> .View-Breadcrumbs,
+	<<@thisOverlay>> div.OcttKB-i18n,
+	<<@thisOverlay>> div.tc-subtitle {
+		display: none;
+	}
+</style>
+<$set name=closeOnChoose value=<<currentTiddler>>>
+	{{$:/Apps/MagicBox}}
+</$set>

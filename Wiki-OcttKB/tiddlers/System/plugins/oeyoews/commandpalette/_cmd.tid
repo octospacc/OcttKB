@@ -1,6 +1,10 @@
 caption: CMD
+created: 20240129142324371
+creator: Octt
 description: Cmd
 list-before: $:/core/ui/Buttons/more-page-actions
+modified: 20240129142334360
+modifier: Octt
 tags: $:/tags/PageControls
 title: $:/plugins/oeyoews/commandpalette/cmd
 
@@ -11,7 +15,7 @@ title: $:/plugins/oeyoews/commandpalette/cmd
 </$list>
 <$list filter="[<tv-config-toolbar-text>match[yes]]">
 <span class="tc-btn-text">
-<$text text="CMd"/>
+<$text text="Command Palette"/>
 </span>
 </$list>
 </$button>
