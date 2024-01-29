@@ -741,3 +741,23 @@ input[type="radio"].PIP-Select[value]:not(input[type="radio"].PIP-Select[value="
 .tc-static-story-river > a[name]:target + .tc-tiddler-frame { display: block; }.tc-static-story-river > .tc-tiddler-frame .tc-tiddler-controls,
 .tc-static-story-river > .tc-tiddler-frame .gk0wk-notionbg-addbuttons,
 .tc-static-story-river > .tc-tiddler-frame .gk0wk-notionpageb-changecover { display: none; }
+/* structure */
+.kk-notes{
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;padding:1em;
+	border-radius:10px;
+}
+.kk-notes-header{
+	display:flex;
+	align-items: center;
+}.kk-notes-title{
+	margin-left:0.5em;
+	font-weight:bold;
+}/* skin */
+
+
+.kk-notes{background-color: rgb(255 249 243);}
+.kk-notes-info{	color:rgb(0 128 0 / 0.8);}
+.kk-notes-warning{color:rgb(255 0 0 /0.8);}
+.kk-notes-content{color: rgb(0 0 0 /0.8);}
