@@ -1,0 +1,4 @@
+description: tag pie on tiddlywiki
+module-type: echarts-component
+title: $:/addon/tagpie.js
+type: application/javascript

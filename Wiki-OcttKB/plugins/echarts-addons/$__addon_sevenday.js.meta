@@ -1,0 +1,4 @@
+description: 折线图
+module-type: echarts-component
+title: $:/addon/sevenday.js
+type: application/javascript

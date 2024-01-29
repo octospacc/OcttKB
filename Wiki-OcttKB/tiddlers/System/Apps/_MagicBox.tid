@@ -1,0 +1,75 @@
+created: 20240129095948486
+creator: Octt
+modified: 20240129125736163
+modifier: Octt
+tags: $:/Apps
+title: $:/Apps/MagicBox
+
+\define SearchResults(fields)
+<$list filter="[!is[system]search:$fields${$:/temp/MagicBox!!.input}sort[title]limit[150]]">
+	<div class=`MagicBoxResult ${[{$:/temp/MagicBox!!.type}]}$` style=`background-image: url("${[{!!page-cover}]}$");`>
+		<$link to={{!!title}}>
+			<h3>
+				<$link to={{!!title}}/>
+			</h3>
+			<$if value={{$:/temp/MagicBox!!.context}}>
+				<$context term={{$:/temp/MagicBox!!.input}}/>
+			</$if>
+		</$link>
+	</div>
+</$list>
+\end
+
+<div>
+	<$edit-text tiddler="$:/temp/MagicBox" field=".input" placeholder="Search..."/>
+	<$checkbox tiddler="$:/temp/MagicBox" field=".context" checked="1">Context</$checkbox>
+	<!--<$edit-text tiddler="$:/temp/MagicBox" field=".type" placeholder="Display Type"/>-->
+	<$checkbox tiddler="$:/temp/MagicBox" field=".type" checked="grid">Fixed Grid</$checkbox>
+	<$range tiddler="$:/temp/MagicBox" field=".width" min="33" max="49"/>
+</div>
+
+<style>
+	.MagicBoxResult {
+		margin: 8px;
+		display: inline-block;
+		background-color: lightgray;
+		background-size: cover;
+		aspect-ratio: 16/9;
+		max-width: calc({{$:/temp/MagicBox!!.width}}% - 16px);
+	}
+	.MagicBoxResult.grid {
+		width: calc(33% - 16px);
+	}
+	.MagicBoxResult h3 {
+		margin-top: 25%;
+		padding: 8px;
+		background-color: rgba(255, 255, 255, 0.75);
+		text-align: center;
+	}
+	.MagicBoxResult pre {
+		color: initial;
+		max-height: 10em;
+		overflow-y: auto;
+		margin: 0;
+		top: 1em;
+		position: relative;
+	}
+	.MagicBoxResult > a {
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+	}
+	.MagicBoxResult > a:after {
+		content: "" !important;
+	}
+</style>
+
+<$if value={{{ [{$:/temp/MagicBox!!.input}split[]count[]compare:integer:gteq[3]then[1]] }}}>
+	Title or Caption matches:
+	<br/><<SearchResults "title,caption">>
+
+	<div><br/><hr/><br/></div>
+
+	Tags or Text matches:
+	<br/><<SearchResults "tags,text">>
+</$if>

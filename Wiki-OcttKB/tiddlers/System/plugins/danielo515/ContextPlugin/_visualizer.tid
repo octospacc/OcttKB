@@ -1,0 +1,12 @@
+caption: Context
+created: 20240129101557058
+creator: Octt
+modified: 20240129101627850
+modifier: Octt
+tags: $:/tags/SearchResults
+title: $:/plugins/danielo515/ContextPlugin/visualizer
+
+<$list filter="[!is[system]search{$:/temp/search}sort[title]limit[150]]"><!-- Brought down to 150 from the original 250 to attempt to reduce lag on mobile -->
+  {{!!title||$:/core/ui/ListItemTemplate}}
+  <$context term={{$:/temp/search}} />
+</$list>

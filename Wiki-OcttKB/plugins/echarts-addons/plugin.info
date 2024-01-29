@@ -1,0 +1,18 @@
+{
+    "created": "20240129095432732",
+    "creator": "Octt",
+    "version": "0.0.2",
+    "title": "$:/plugins/oeyoews/echarts-addons",
+    "plugin-type": "plugin",
+    "name": "Echarts Addons",
+    "description": "Addons",
+    "author": "oeyoews",
+    "meta#disabled": "yes",
+    "parent-plugin": "$:/plugins/Gk0Wk/echarts",
+    "list": "readme",
+    "dependents": "",
+    "revision": "0",
+    "bag": "default",
+    "modified": "20240129095443682",
+    "modifier": "Octt"
+}

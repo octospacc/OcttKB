@@ -1,6 +1,6 @@
 created: 20230109220804304
 creator: Octt
-modified: 20230208171053772
+modified: 20240129095852920
 modifier: Octt
 tags: OcttKB $:/i18n:en
 title: OcttKB/Data
@@ -17,7 +17,15 @@ Are these useless? ''Yes!'' But they are so pretty...
 <$echarts $tiddler="$:/plugins/Gk0Wk/echarts/addons/GitHubHeatMap.js" $width="100%" $height="100%" />
 </div>
 
-<br /><hr /><br />
+<br/><hr/><br/>
+
+<div class="my-8">
+<div class="dark:hidden">
+<$echarts $tiddler="$:/addon/sevenday.js" $theme='light' days=60 title="最近文章数量"/>
+</div>
+</div>
+
+<br/><hr/><br/>
 
 <div class="NoSelect PIP-Select">
   <!--
@@ -35,10 +43,10 @@ Are these useless? ''Yes!'' But they are so pretty...
   <!-- </div> -->
 </div>
 
-<br /><hr /><br />
+<br/><hr/><br/>
 
 <$echarts $tiddler="$:/plugins/Gk0Wk/echarts/addons/TagCloud.js" />
 
-<br /><hr /><br />
+<br/><hr/><br/>
 
 I still have to put a lot of stuff here... see [[OcttKB/WIP]]

@@ -1,0 +1,4 @@
+description: clock with echarts
+module-type: echarts-component
+title: $:/addon/clock.js
+type: application/javascript

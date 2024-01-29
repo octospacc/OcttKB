@@ -1,0 +1,12 @@
+{
+    "bag": "default",
+    "revision": "0",
+    "version": "0.1.2",
+    "title": "$:/plugins/ebalster/condition",
+    "tags": "",
+    "plugin-type": "plugin",
+    "modified": "20171230165413285",
+    "list": "readme license changelog",
+    "dependents": "",
+    "created": "20171230044033218"
+}
