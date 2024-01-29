@@ -1,7 +1,7 @@
 created: 20230203214532694
 creator: Octt
 icon: 🕸️
-modified: 20240101230659334
+modified: 20240129004148763
 modifier: Octt
 page-cover: https://source.unsplash.com/random?web
 tags: Internet
@@ -59,3 +59,4 @@ title: Web
 !!! Other Things
 
 * <<MDNLink Glossary/speculative_parsing "Speculative parsing">>
+* [[Why local links are disabled by default in modern browsers?|https://security.stackexchange.com/questions/153706/why-local-links-are-disabled-by-default-in-modern-browsers]] (not even `<a>` works, and not even to `127.xxx.xxx.xxx`, `192.168.xxx.xxx`, or any local domains that are mapped to that localhost...)

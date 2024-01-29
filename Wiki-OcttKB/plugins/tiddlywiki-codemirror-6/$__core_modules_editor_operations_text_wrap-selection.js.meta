@@ -1,0 +1,3 @@
+module-type: texteditoroperation
+title: $:/core/modules/editor/operations/text/wrap-selection.js
+type: application/javascript

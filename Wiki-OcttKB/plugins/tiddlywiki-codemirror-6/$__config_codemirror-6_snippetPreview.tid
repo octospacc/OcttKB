@@ -1,0 +1,8 @@
+caption: {{$:/language/codemirror6/snippetPreview/caption}}
+caption-zh: {{$:/language/codemirror6/zh/snippetPreview/caption}}
+description: {{$:/language/codemirror6/snippetPreview/description}}
+description-zh: {{$:/language/codemirror6/zh/snippetPreview/description}}
+settings-template: $:/plugins/oeyoews/tiddlywiki-codemirror-6/ui/templates/settings/input-switch
+title: $:/config/codemirror-6/snippetPreview
+
+no

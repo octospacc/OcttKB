@@ -1,6 +1,6 @@
 created: 20230206113426599
 creator: Octt
-modified: 20240128193339710
+modified: 20240129005527741
 modifier: Octt
 tags: 
 title: TiddlyWiki/ThirdParty
@@ -11,7 +11,8 @@ title: TiddlyWiki/ThirdParty
 * [[Calendar|https://tabbed-calendar.tiddlyspot.com]] --- //a tabbed picture calendar//
 * [[Joe's Blog|https://joearms.github.io]] --- Contains the [[Chandler|https://joearms.github.io/#2018-12-26%20Fun%20with%20the%20TiddlyWiki]] prototype time-management tool
 * [[kookma's codes, macros, and solutions in TW|https://kookma.github.io/TW-Scripts]]
-* Kookma Plugin Library --- <<[ "[[Drag To Install|$:/config/KookmaPluginLibrary]]">>
+** Kookma Plugin Library --- <<[ "[[Drag To Install|$:/config/KookmaPluginLibrary]]">>
+** [[Shiraz|https://kookma.github.io/TW-Shiraz/]] --- //small framework of stylesheets, templates and macros to create stylish contents in Tiddlywiki//
 * [[NoteSelf|https://noteself.org]] --- TiddlyWiki fork/flavor with interesting features built-in - [[[Git|https://github.com/NoteSelf]]]
 * [[Projectify|https://thaddeusjiang.github.io/Projectify]] --- //Project management for TiddlyWiki// - [[[Git|https://github.com/ThaddeusJiang/Projectify]]]
 * [[RR-TW5|https://rr-tw5.github.io/]] --- //A Roam Research Styled TiddlyWiki//
@@ -28,6 +29,10 @@ title: TiddlyWiki/ThirdParty
 ** [[Presenting the Details Widget|https://groups.google.com/g/tiddlywiki/c/sRUVnlIaT3E]]
 * [[ZemoxWiki|https://zemox.tiddlyspot.com]] --- //a haphazard meandering of notes, thoughts, experiments, links...//
 
+!!!! Starter Kits, themed wikis for use
+
+* [[TiddlyWiki Starter Kit 📦|https://tiddlywiki-starter-kit.oeyoews.top/]]
+
 !!!! ''More personal TiddlyWikis''
 * [[Dave and Blanca Gifford's homepage|https://giffmex.org/Welcome.html]]
 * [[Eberron Tiddlywiki|https://eberron.tiddlyhost.com/]] --- //campaign setting for D&D designed for telling fantastical pulp and noir stories// --- <<[ "[[Git|https://github.com/wccbuck/eberron_tw/]]">>
@@ -38,6 +43,7 @@ title: TiddlyWiki/ThirdParty
 
 * [[Archipel|https://archipel.tiddlyspot.com/]] --- //Data visualization Knowledge map of tiddler's ToC, as zoomable circle packs// --- [[[Discussion|https://groups.google.com/g/tiddlywiki/c/wZZ-84FV0-k]]]
 * [[CodeMirrorPlus|https://adithya-badidey.github.io/TW5-codemirror-plus/]] --- //A better editor for TW5, based on ~CodeMirror// --- [[Demo|https://adithya-badidey.github.io/TW5-codemirror-plus/wiki.html]] | [[Git|https://github.com/adithya-badidey/TW5-codemirror-plus]]
+* [[[Release] Codemirror6 Plugin|https://talk.tiddlywiki.org/t/release-codemirror6-plugin/8843]] <<[# Git "https://github.com/oeyoews/tiddlywiki-codemirror6">> <<[# Demo "https://oeyoews.github.io/tiddlywiki-codemirror6/#%24%3A%2Fplugins%2Foeyoews%2Ftiddlywiki-codemirror-6">>
 * [[Context Plugin|https://contextplugin.tiddlyspot.com]] --- //search with context//
 * [[Daily Notes|https://github.com/akhater/Daily-Notes-for-TW5]] - //Interstitial Journaling plugin//
 * [[ECharts|https://tiddly-gittly.github.io/tw-echarts]] [[[Git|https://github.com/tiddly-gittly/tw-echarts]], [[Thread|https://talk.tiddlywiki.org/t/echarts-bringing-amazing-visualization-tools-to-tiddlywiki/1944]]] --- //An All-in-one Visualization Framework for TiddlyWiki5 based on ECharts//

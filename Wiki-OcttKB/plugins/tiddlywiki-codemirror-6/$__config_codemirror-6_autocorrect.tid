@@ -1,0 +1,8 @@
+caption: {{$:/language/codemirror6/autocorrect/caption}}
+caption-zh: {{$:/language/codemirror6/zh/autocorrect/caption}}
+description: {{$:/language/codemirror6/autocorrect/description}}
+description-zh: {{$:/language/codemirror6/zh/autocorrect/description}}
+settings-template: $:/plugins/oeyoews/tiddlywiki-codemirror-6/ui/templates/settings/input-switch
+title: $:/config/codemirror-6/autocorrect
+
+no

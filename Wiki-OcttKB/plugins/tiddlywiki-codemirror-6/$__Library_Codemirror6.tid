@@ -1,0 +1,8 @@
+caption: [img width=16 [$:/plugins/oeyoews/tiddlywiki-codemirror-6/icon]] Codemirror 6
+description: Codemirror Library
+tags: $:/tags/PluginLibrary
+title: $:/Library/Codemirror6
+url: https://oeyoews.github.io/tiddlywiki-codemirror6/library/index.html
+
+<!-- NOTE: vercel not allow get json file -->
+{{!!caption}}

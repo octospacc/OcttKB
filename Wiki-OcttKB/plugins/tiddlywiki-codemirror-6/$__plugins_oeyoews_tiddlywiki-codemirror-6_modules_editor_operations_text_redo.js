@@ -1,0 +1,1 @@
+!function(){"use strict";exports.redo=function(e,t){t instanceof Array&&(t.splice(0,t.length),t.type="redo")}}();

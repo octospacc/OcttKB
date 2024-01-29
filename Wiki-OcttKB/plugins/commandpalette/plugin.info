@@ -1,0 +1,10 @@
+{
+    "version": "0.0.7",
+    "title": "$:/plugins/souk21/commandpalette",
+    "source": "https://github.com/souk21/TW-commandpalette",
+    "plugin-type": "plugin",
+    "description": "Command palette",
+    "dependents": "",
+    "core-version": ">=5.0.8",
+    "author": "Souk21"
+}

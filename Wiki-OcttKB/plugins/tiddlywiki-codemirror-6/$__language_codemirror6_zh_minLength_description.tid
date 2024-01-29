@@ -1,0 +1,3 @@
+title: $:/language/codemirror6/zh/minLength/description
+
+设置自动补全最小长度。1 为立刻触发

@@ -1,0 +1,75 @@
+title: $:/plugins/oeyoews/tiddlywiki-codemirror-6/readme
+
+
+<img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Foeyoews%2Ftiddlywiki-codemirror6%2Fmain%2Fpackage.json&query=version&style=flat-square&logo=Codemirror&logoColor=white&label=codemirror&labelColor=black&color=black">
+
+
+<center>
+<video width="300" controls style="border-radius:8px;">
+  <source src="https://user-images.githubusercontent.com/72405338/294956491-948b791f-04e1-4447-a5d3-81ebb13619de.mp4" type="video/mp4">
+</video>
+</center>
+
+[[Demo|https://oeyoews.github.io/tiddlywiki-codemirror6/#%24%3A%2Fplugins%2Foeyoews%2Ftiddlywiki-codemirror-6]]
+
+
+!! Features
+
+* Autocomplete preview(include image)
+* Support load snippet module
+* Minmap, vimmode, word count, rainbow brackets, codeblock highlight
+* Custom placeholder, tabsize, mincompletion length
+
+!! Completions
+
+* `/` to get snippets
+* `[[` or `{{` to get tiddlers
+* `:` to get emojis
+* `[img[` to get images
+* `<$` to get widgets
+* `//` to change tiddler type
+* `#` to insert tags
+* `@#` to setup codemirror6
+
+!! Tips
+
+* Emoji complete need install [[$:/plugins/oeyoews/tiddlywiki-cmp-emoji]] plugin
+* If you hope add your custom snippets, your can write a simple plugin module(module-type: snippets).
+* Presss tab to accept current completion
+* Prese `ctrl + /` to comment line(non vimmode)
+* vimmode: `"+y`(copy to system clipboard)
+* vimmode: `"+p`(paste system clipboard to editor)
+
+!! Can be removed plugins
+
+* Cm5 series plugins
+* Autolist plugin
+* Autocomplete plugin
+* Insert current time plugin
+* Emoji button plugin
+* Chars button plugin
+* ...
+
+!! Proposal
+
+> Zero Js, Pure Wikitext.
+
+Incorporating code snippets into plugins for widgets, macros, and templates can significantly enhance user convenience. For instance, the kookma plugin showcases numerous example codes, encompassing macros, styles, and frequently used snippets that can be transformed into code snippets.
+
+The codemirror6 plugin, in particular, could seamlessly load these code snippets while also accommodating placeholders. Additionally, users could share their frequently used code snippets, fostering a collaborative and supportive community. These snippets could even be packaged separately as plugins, such as zero-js or pure wikitext. This approach would undoubtedly streamline the coding process and contribute to a more efficient and user-friendly experience.
+
+[[example|https://github.com/oeyoews/tiddlywiki-codemirror6/blob/main/src/tiddlywiki-snippets/tiddlers/general/toc01.tid]]
+
+!! Motivation
+
+* Hope to unify codemirror plugins, without having to install more than a dozen codemirror plug-ins, or interface errors caused by the lack of certain plug-ins.
+* The completion of the codemirror enhancement plug-in sometimes causes the interface to freeze.
+* Better support for code snippets
+* Better markdown editing experience
+
+If you like the plugin, feel free to leave me a star on [ext[GitHub|https://github.com/oeyoews/tiddlywiki-codemirror6]]
+
+
+!! Credits
+
+> BurningTreeC's tiddlywiki codemirror-6 plugin

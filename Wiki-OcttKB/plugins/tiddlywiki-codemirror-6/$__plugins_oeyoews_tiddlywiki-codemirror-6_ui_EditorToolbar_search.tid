@@ -1,0 +1,11 @@
+caption: Search
+condition: [<targetTiddler>!has[type]] [<targetTiddler>get[type]!prefix[image/]] [<targetTiddler>get[type]match[image/svg+xml]]
+description: toggle the visibility of the search panel
+icon: $:/core/images/advanced-search-button
+tags: $:/tags/EditorToolbar
+title: $:/plugins/oeyoews/tiddlywiki-codemirror-6/ui/EditorToolbar/search
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="search"
+/>

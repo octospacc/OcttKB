@@ -1,0 +1,19 @@
+caption: Toggle Editor
+condition: [<targetTiddler>!has[type]] [<targetTiddler>get[type]!prefix[image/]] [<targetTiddler>get[type]match[image/svg+xml]]
+custom-icon: yes
+description: toggle editor
+icon: $:/plugins/oeyoews/tiddlywiki-codemirror-6/icon
+tags: $:/tags/EditorToolbar
+title: $:/plugins/oeyoews/tiddlywiki-codemirror-6/ui/EditorToolbar/toggleEditor
+
+\whitespace trim
+
+[img width=18 [$:/plugins/oeyoews/tiddlywiki-codemirror-6/icon]]
+
+<$let
+	type={{{ [<targetTiddler>get[type]else[text/vnd.tiddlywiki]] }}}
+	configTitle=`$:/config/EditorTypeMappings/$(type)$`
+	currentEditor={{{ [<configTitle>get[text]] }}}
+>
+	<$action-setfield $tiddler=<<configTitle>> text={{{ [<currentEditor>match[codemirror-6]] :then[[text]] :else[[codemirror-6]] }}} />
+</$let>

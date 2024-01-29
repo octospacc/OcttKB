@@ -1,0 +1,535 @@
+tags: $:/tags/Stylesheet
+title: $:/plugins/oeyoews/tiddlywiki-codemirror-6/styles
+
+\define make-editor-fullscreen()
+
+body {
+	overflow: hidden;
+}
+
+.tc-tiddler-edit-frame[data-tiddler-title="$(cssEscapedTitle)$"] {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	<!-- z-index: 1000; prevent autocomplete not visible -->
+	z-index: 1;
+}
+
+.tc-tiddler-edit-frame[data-tiddler-title="$(cssEscapedTitle)$"] .tc-dropzone-editor {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	z-index: 1000;
+	background-color: <<colour tiddler-background>>;
+}
+
+.tc-tiddler-edit-frame[data-tiddler-title="$(cssEscapedTitle)$"] .tc-dropzone-editor > div > div:not(.tc-tiddler-preview) > .tc-edit-texteditor {
+	overflow-y: auto;
+}
+
+.tc-tiddler-edit-frame[data-tiddler-title="$(cssEscapedTitle)$"] .tc-dropzone-editor > div > div.tc-tiddler-preview > .tc-edit-texteditor {
+	overflow-y: auto;
+}
+
+.tc-tiddler-edit-frame .tc-dropzone-editor > div > div.tc-tiddler-preview > .tc-tiddler-preview-preview {
+	overflow-y: auto;
+}
+
+.tc-tiddler-edit-frame[data-tiddler-title="$(cssEscapedTitle)$"] .tc-dropzone-editor > div, .tc-tiddler-edit-frame[data-tiddler-title="$(cssEscapedTitle)$"] .tc-dropzone-editor > div > div.tc-tiddler-preview,
+.tc-tiddler-edit-frame[data-tiddler-title="$(cssEscapedTitle)$"] .tc-dropzone-editor > div > div:not(.tc-tiddler-preview), .tc-tiddler-edit-frame[data-tiddler-title="$(cssEscapedTitle)$"] .tc-dropzone-editor > div > div > div .cm-editor {
+	height: 100%;
+}
+
+\end
+
+.cm-editor {
+	<!-- font-size: {{$:/config/codemirror-6/fontsize}}; -->
+	color-scheme: {{{ [[$:/palette]get[text]!is[blank]] ~[[$:/palettes/vanilla]] +[get[color-scheme]] ~light }}};
+}
+
+<!-- <$list filter="[{$:/config/codemirror-6/enableOneDarkTheme}match[no]]" variable="ignore">
+.cm-editor {
+	color-scheme: {{{ [[$:/palette]get[text]!is[blank]] ~[[$:/palettes/vanilla]] +[get[color-scheme]] ~light }}};
+	background-color: <<colour tiddler-background>> ;
+	color: <<colour foreground>>;
+}
+</$list> -->
+
+.cm-content {
+	caret-color: <<colour cm-caret-colour>> !important;
+}
+
+.cm-scroller {
+	font-family: {{$:/themes/tiddlywiki/vanilla/settings/editorfontfamily}} !important;
+}
+
+.cm-editor ::selection, .cm-editor.cm-focused .cm-selectionBackground, .cm-selectionBackground, .cm-content ::selection {
+	<!-- background: initial !important; -->
+	<!-- background-color: <<colour-extend cm-selection-background>> !important; -->
+	color: <<colour-extend cm-selection-foreground>> !important;
+}
+
+.cm-cursor, .cm-dropCursor {
+	border-left-color: <<colour cm-caret-colour>> !important;
+}
+
+.cm-cursor, .cm-dropCursor {
+	border-left: {{$:/config/codemirror-6/cursor-thickness}} solid !important;
+}
+
+.cm-activeLine, .cm-activeLineGutter {
+	background-color: <<colour-extend cm-active-line>> !important;
+	color: <<colour foreground>>;
+}
+
+.cm-gutters {
+	<!-- bug -->
+	background-color: <<colour-extend cm-gutter-background>> !important;
+	background-color: transparent !important;
+	color: <<colour-extend cm-gutter-foreground>> !important;
+	border: none !important;
+}
+
+.cm-panels {
+	background-color: <<colour tiddler-background>> !important;
+	color: <<colour foreground>> !important;
+}
+
+.cm-panels button[name="close"] {
+	font-size: 25px !important;
+	cursor: pointer !important;
+}
+
+.cm-panels.cm-panels-top: {
+	border-bottom: 2px solid <<colour foreground>>;
+}
+
+.cm-panels.cm-panels-bottom {
+	border-top: 0px solid <<colour foreground>> !important;
+}
+
+.cm-searchMatch {
+	background-color: <<colour-extend cm-search-match>> !important;
+	outline: 1px solid <<colour-extend cm-search-match-border>> !important;
+}
+
+.cm-searchMatch.cm-searchMatch-selected {
+	<!-- background-color: <<colour-extend cm-search-match-selected>> !important; -->
+}
+
+.cm-selectionMatch {
+	<!-- background-color: <<colour-extend cm-selection-match>> !important; -->
+}
+
+.cm-editor.cm-focused .cm-matchingBracket, .cm-editor.cm-focused .cm-nonmatchingBracket {
+	outline: 1px solid <<colour-extend cm-matching-bracket-outline>> !important;
+}
+
+<!-- .cm-tooltip {
+	border: none !important;
+	background-color: <<colour-extend cm-tooltip-background>> !important;
+	color: <<colour-extend cm-tooltip-foreground>> !important;
+	font-size: {{$:/config/codemirror-6/fontsize}};
+	z-index: 9999 !important;
+} -->
+
+.cm-tooltip-autocomplete > ul > li {
+	font-family: {{$:/themes/tiddlywiki/vanilla/settings/editorfontfamily}} !important;
+	overflow: hidden;
+}
+
+.cm-tooltip-autocomplete > ul > li[aria-selected], .cm-tooltip-autocomplete > ul > li:hover {
+	background-color: <<colour-extend cm-tooltip-selected-background>> !important;
+	color: <<colour-extend cm-tooltip-selected-foreground>> !important;
+}
+
+<!-- .cm-tooltip .cm-tooltip-arrow:before {
+	border-top-color: transparent !important;
+	border-bottom-color: transparent !important;
+} -->
+
+<!-- .cm-tooltip .cm-tooltip-arrow:after {
+	border-top-color: <<colour-extend cm-tooltip-background>> !important;
+	border-bottom-color: <<colour-extend cm-tooltip-background>> !important;
+} -->
+
+.cm-foldPlaceholder {
+	background-color: transparent !important;
+	border: none !important;
+	color: <<colour cm-fold-placeholder-foreground>> !important;
+}
+
+<$list filter="[{$:/config/TextEditor/EditorHeight/Mode}match[fixed]]" variable="ignore">
+
+.cm-editor {
+	height: {{$:/config/TextEditor/EditorHeight/Height}};
+}
+
+</$list>
+
+<$list filter="[{$:/config/codemirror-6/rtl}match[yes]]" variable="ignore">
+
+.cm-editor {
+	direction: rtl;
+}
+
+</$list>
+
+@media(max-width:800px) {
+	.tc-editor-toolbar button.tc-btn-invisible:not(.tc-text-editor-toolbar-item-adjunct) {
+		border-radius: 0px;
+		padding: 6px;
+	}
+}
+
+<$list filter="[all[tiddlers]prefix[$:/state/codemirror-6/fullscreen]] :filter[get[text]match[yes]] +[limit[1]]" variable="fullscreenStateTiddler">
+
+<$let fullscreenTiddler={{{ [<fullscreenStateTiddler>removeprefix[$:/state/codemirror-6/fullscreen/]] }}} cssEscapedTitle={{{ [<fullscreenTiddler>escapecss[]] }}}>
+
+<!-- <%list filter="[<fullscreenTiddler>!is[missing]{$:/state/notebook-sidebar}!match[yes]]" >
+ <<make-editor-fullscreen>>
+ </$list>
+ -->
+
+<% if [<fullscreenTiddler>!is[missing]] %>
+	<<make-editor-fullscreen>>
+<% endif %>
+
+</$let>
+
+</$list>
+
+.tc-tiddler-editor {
+	display: grid;
+}
+
+.tc-tiddler-frame .tc-tiddler-editor.tc-tiddler-preview {
+	grid-template-areas:
+		"toolbar toolbar"
+		"editor preview";
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto 1fr;
+}
+
+.tc-tiddler-frame .tc-tiddler-editor.tc-tiddler-preview-hidden {
+	grid-template-areas:
+		"toolbar"
+		"editor";
+	grid-template-columns: 1fr;
+	grid-template-rows: auto 1fr;
+}
+
+.tc-tiddler-frame .tc-tiddler-editor.tc-tiddler-preview .tc-tiddler-preview-preview {
+	grid-area: preview;
+	width: calc(100% - 3px);
+	overflow-wrap: anywhere;
+	word-break: normal;
+	border: 1px solid <<colour tiddler-editor-border>>;
+	margin: 4px 0 3px 3px;
+	padding: 3px 3px 3px 3px;
+}
+
+.tc-tiddler-frame .tc-tiddler-editor.tc-tiddler-preview .tc-edit-texteditor,
+.tc-tiddler-frame .tc-tiddler-editor.tc-tiddler-preview-hidden .tc-edit-texteditor {
+	grid-area: editor;
+	width: 100%;
+}
+
+.tc-tiddler-frame .tc-tiddler-editor.tc-tiddler-preview canvas.tc-edit-bitmapeditor,
+.tc-tiddler-frame .tc-tiddler-editor.tc-tiddler-preview-hidden canvas.tc-edit-bitmapeditor {
+	grid-area: editor;
+	max-width: 100%;
+}
+
+.tc-tiddler-frame .tc-tiddler-editor.tc-tiddler-preview .tc-editor-toolbar,
+.tc-tiddler-frame .tc-tiddler-editor.tc-tiddler-preview-hidden .tc-editor-toolbar {
+	grid-area: toolbar;
+}
+
+/** checkbox switches start **/
+/** https://www.w3schools.com/howto/howto_css_switch.asp **/
+/* The switch - the box around the slider */
+label.btcui-form-switch {
+	position: relative;
+	display: inline-block;
+	width: 36px;
+	height: 12px;
+}
+
+/* Hide default HTML checkbox */
+label.btcui-form-switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+/* The slider */
+label.btcui-form-switch span {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: <<color tiddler-controls-foreground>>;
+	-webkit-transition: .2s;
+	transition: .2s;
+}
+
+label.btcui-form-switch span:before {
+	position: absolute;
+	content: "";
+	height: 20px;
+	width: 20px;
+	left: -1px;
+	top: -4px;
+	bottom: 4px;
+	background-color: <<color background>>;
+	-webkit-transition: .2s;
+	transition: .2s;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.7);
+}
+
+label.btcui-form-switch input:checked + span {
+	background-color: rgba(26,115,232,0.5);
+}
+
+label.btcui-form-switch input:checked + span:before {
+	background-color: rgb(26,115,232);
+	opacity: 1;
+}
+
+label.btcui-form-switch input:focus + span {
+	box-shadow: 0 0 1px #2196F3;
+}
+
+label.btcui-form-switch input:checked + span:before {
+	-webkit-transform: translateX(17px);
+	-ms-transform: translateX(17px);
+	transform: translateX(17px);
+}
+
+label.btcui-form-switch span {
+	border-radius: 12px;
+}
+
+label.btcui-form-switch span:before {
+	border-radius: 50%;
+}
+
+div.btcui-form-label {
+
+}
+
+/*** checkbox switches end ***/
+
+/** form select elements **/
+.btcui-form-select {
+	appearance: none;
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='12' fill='%235F6368'%3E%3Cpath d='M0 0h24L12 12z'/%3E%3C/svg%3E") calc(100% - 8px) center no-repeat;
+	background-color: rgb(241,243,244);
+	background-size: 10px;
+	border: none;
+	border-radius: 4px;
+	color: rgb(32,33,36);
+	cursor: pointer;
+	max-width: 100%;
+	outline: none;
+	padding: 6px 21px 6px 8px;
+/*	width: 200px;*/
+}
+
+input.btcui-form-input {
+	border: 1px solid <<color tiddler-controls-foreground>>;
+	border-radius: 3px;
+	background-color: <<colour background>>;
+	padding: 6px;
+	color: <<colour foreground>>;
+}
+
+input.btcui-form-input:focus {
+	outline-color: #ccc;
+}
+
+
+.btc-list-group {
+	display: flex;
+	flex-direction: column;
+	padding-left: 0;
+	margin-bottom: 0;
+	box-sizing: border-box;
+}
+
+.btc-list-group-box-shadow {
+	box-shadow:1px 1px 5px rgba(0, 0, 0, 0.3);
+	border-bottom-left-radius: .25rem;
+	border-bottom-right-radius: .25rem;
+	border-top-left-radius: .25rem;
+	border-top-right-radius: .25rem;
+}
+
+.btc-list-group-item {
+	position: relative;
+	display: block;
+	padding: 0.75rem 1.25rem;
+	background-color:  <<color background>>;
+	border: 1px solid rgba(0,0,0,.125);
+	width: 100%;
+	color: #495057;
+	text-align:	inherit;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between!important;
+	align-items: center!important;
+	word-spacing: 0.1em;
+}
+
+
+.btc-list-group-item+.btc-list-group-item {
+	border-top-width: 0;
+}
+
+.btc-list-group-item:first-child {
+	border-top-left-radius: .25rem;
+	border-top-right-radius: .25rem;
+}
+
+.btc-list-group-item:last-child {
+	border-bottom-left-radius: .25rem;
+	border-bottom-right-radius: .25rem;
+}
+
+.btc-list-stream-settings {
+	font-size: 90%;
+}
+
+input.btc-search-input {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color:  <<color background>>;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 0.75em;
+}
+
+input.btc-search-input:focus {
+color: #495057;
+    background-color:  <<color background>>;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.cm-button {
+	background-image: none !important;
+	border-radius: 2px;
+	border: none !important;
+	user-select: none;
+	cursor: pointer;
+}
+
+.cm-completionIcon-cm-snippet:after {
+	<!-- content: '𝒔'; -->
+	content: url('data:image/svg+xml,%3Csvg%20stroke%3D%22currentColor%22%20fill%3D%22currentColor%22%20stroke-width%3D%220%22%20viewBox%3D%220%200%2016%2016%22%20height%3D%2216%22%20width%3D%2216%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M14.45%204.5l-5-2.5h-.9l-7%203.5-.55.89v4.5l.55.9%205%202.5h.9l7-3.5.55-.9v-4.5l-.55-.89zm-8%208.64l-4.5-2.25V7.17l4.5%202v3.97zm.5-4.8L2.29%206.23l6.66-3.34%204.67%202.34-6.67%203.11zm7%201.55l-6.5%203.25V9.21l6.5-3v3.68z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+	vertical-align: middle;
+}
+
+.cm-completionIcon-cm-word:after {
+	vertical-align: middle;
+	content: url("data:image/svg+xml,%3Csvg%20stroke%3D%22currentColor%22%20fill%3D%22currentColor%22%20stroke-width%3D%220%22%20viewBox%3D%220%200%2016%2016%22%20height%3D%2216%22%20width%3D%2216%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M11%206h-1v-.5a.5.5%200%200%200-.5-.5H8.479v5.5a.5.5%200%200%200%20.5.5h.5v1h-3v-1h.5a.5.5%200%200%200%20.5-.5V5H6.5a.5.5%200%200%200-.5.5V6H5V4h6v2zm2.914%202.048l-1.462-1.462.707-.707%201.816%201.816v.707l-1.768%201.767-.707-.707%201.414-1.414zM3.548%209.462L2.086%208%203.5%206.586l-.707-.707-1.768%201.767v.708l1.816%201.815.707-.707z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E")
+	<!-- content: '𝓌'; -->
+}
+
+
+.cm-completionIcon-cm-widget:after {
+	content: '𝓌';
+}
+
+.cm-completionIcon-cm-image:after {
+	content: '𝒊️ ';
+}
+
+.cm-completionIcon-cm-tiddler:after {
+	<!-- content: '𝒕'; -->
+	vertical-align: middle;
+	content: url('data:image/svg+xml,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20class%3D%22tc-image-home-button%20tc-image-button%22%20viewBox%3D%220%200%20128%20128%22%20version%3D%221.1%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cg%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%200L128%200L128%20128L0%20128L0%200Z%22%20id%3D%22Background%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20stroke%3D%22none%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20clip-path%3D%22url(%23mask_1)%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M114.476%2039.6C118.316%2026.8%20116.396%2011.44%20100.716%208.56001C89.196%206.32001%2080.876%2012.72%2073.516%2021.04C64.876%2030.96%2057.196%2042.8%2045.676%2049.52C34.476%2056.24%206.63596%2057.84%205.35596%2039.92C4.71596%2028.72%2012.716%2016.24%2019.436%207.92C21.676%205.04%2017.516%200.880004%2015.276%203.76C3.75596%2018.16%20-11.604%2047.92%2013.676%2057.2C27.116%2062.32%2042.476%2059.76%2053.676%2050.8C64.236%2042.8%2071.276%2031.28%2080.556%2022C85.356%2016.88%2090.476%2012.72%2097.836%2013.68C110.956%2015.28%20111.916%2026.8%20108.716%2037.68C108.396%2037.68%20108.396%2038%20108.076%2038C94.316%2048.56%20128.876%2050.8%20114.476%2039.6Z%22%20id%3D%22fishthread%22%20style%3D%22fill%3Ared%22%20fill-rule%3D%22evenodd%22%20stroke%3D%22none%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22fish%22%20transform%3D%22translate(17.119965%2032.21466)%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M108.32%2051.6253C108.32%2051.3053%20108%2051.3053%20108%2050.9853C113.44%2034.9853%20111.84%2017.3853%2097.44%206.18534C97.6322%205.54471%2094.7198%20-6.07014%2091.68%204.26533C91.68%204.26533%2091.68%204.26533%2091.68%204.26533C91.36%204.26533%2091.36%204.58533%2091.04%204.58533C77.28%2015.1453%2066.4%2027.6253%2061.6%2043.6253C61.28%2043.6253%2060.64%2043.9453%2060.32%2043.9453C52.96%2048.1053%2046.56%2054.8253%2045.92%2063.4653C45.6%2066.0253%2048.48%2066.6653%2050.4%2066.0253C52.96%2064.7453%2055.52%2064.1053%2058.08%2063.4653C56.48%2072.7453%2052.96%2081.7053%2043.68%2075.3053C38.24%2071.7853%2035.36%2063.7853%2034.4%2058.0253C34.08%2055.4653%2030.24%2053.5453%2028.96%2056.4253C27.04%2061.2253%2025.76%2066.3453%2025.44%2071.1453C18.4%2071.4653%209.76%2065.0653%204.32%2061.5453C2.72%2060.5853%201.12%2061.2253%200.479998%2062.8253C-0.16%2063.7853%20-0.16%2064.7453%200.479998%2065.7053C7.52%2076.2653%2017.44%2086.5053%2029.28%2090.9853C46.56%2098.0253%2068.32%2091.9453%2083.36%2082.0253C85.6%2080.4253%2087.84%2078.8253%2089.76%2076.9053C93.6%2076.5853%2097.44%2078.8253%2099.68%2082.0253C100.64%2083.3053%20102.24%2083.9453%20103.52%2082.9853L104.48%2082.0253C110.56%2073.3853%20113.44%2061.5453%20108.32%2051.6253L108.32%2051.6253Z%22%20id%3D%22Shape%22%20stroke%3D%22none%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M53.28%2058.6653C54.88%2055.7853%2057.12%2053.2253%2059.68%2051.3053C59.36%2052.9053%2059.04%2055.1453%2059.04%2057.3853L58.4%2057.3853C56.8%2057.7053%2055.2%2058.0253%2053.28%2058.6653L53.28%2058.6653ZM102.24%2075.9454C100.32%2074.3454%2098.08%2073.0654%2095.52%2072.4254C99.04%2068.2654%20102.24%2063.7854%20104.48%2058.9854C106.08%2064.4254%20104.48%2070.5053%20102.24%2075.9454L102.24%2075.9454Z%22%20id%3D%22Shape%22%20fill-rule%3D%22evenodd%22%20stroke%3D%22none%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E');
+ }
+
+.cm-completionIcon-cm-emoji:after {
+	content: '𝓮';
+}
+
+.cm-completionIcon-cm-tag:after {
+	vertical-align: middle;
+	content: url('data:image/svg+xml,%3Csvg%20stroke%3D%22currentColor%22%20fill%3D%22currentColor%22%20stroke-width%3D%220%22%20viewBox%3D%220%200%20448%20512%22%20height%3D%2216%22%20width%3D%2216%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M440.667%20182.109l7.143-40c1.313-7.355-4.342-14.109-11.813-14.109h-74.81l14.623-81.891C377.123%2038.754%20371.468%2032%20363.997%2032h-40.632a12%2012%200%200%200-11.813%209.891L296.175%20128H197.54l14.623-81.891C213.477%2038.754%20207.822%2032%20200.35%2032h-40.632a12%2012%200%200%200-11.813%209.891L132.528%20128H53.432a12%2012%200%200%200-11.813%209.891l-7.143%2040C33.163%20185.246%2038.818%20192%2046.289%20192h74.81L98.242%20320H19.146a12%2012%200%200%200-11.813%209.891l-7.143%2040C-1.123%20377.246%204.532%20384%2012.003%20384h74.81L72.19%20465.891C70.877%20473.246%2076.532%20480%2084.003%20480h40.632a12%2012%200%200%200%2011.813-9.891L151.826%20384h98.634l-14.623%2081.891C234.523%20473.246%20240.178%20480%20247.65%20480h40.632a12%2012%200%200%200%2011.813-9.891L315.472%20384h79.096a12%2012%200%200%200%2011.813-9.891l7.143-40c1.313-7.355-4.342-14.109-11.813-14.109h-74.81l22.857-128h79.096a12%2012%200%200%200%2011.813-9.891zM261.889%20320h-98.634l22.857-128h98.634l-22.857%20128z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+}
+
+.cm-completionIcon-cm-macro:after {
+	content: '𝓂';
+}
+
+.cm-completionDetail {
+	font-style: normal !important;
+}
+
+.cm-autocomplete-tooltip {
+	border-radius: 4px;
+	border: none !important;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+	padding-top: 4px;
+	z-index: 10001 !important;
+	<!-- margin: 4px; -->
+}
+
+.cm-autocomplete-option {
+	border-radius: 2px !important;
+	margin: 2px 4px;
+	z-index: 10001 !important;
+}
+
+<!-- .cm-autocomplete-option:hover { } -->
+
+.cm-completionInfo {
+	border: none !important;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+	border-radius: 4px;
+	margin-left: 2px;
+	z-index: 10001 !important;
+}
+
+<!-- 有个max-width 400.xxxpx -->
+.cm-image-preview {
+	overflow: auto;
+	width: 400px;
+	max-height: 300px;
+	border-radius: 4px !important;
+	padding-right: 8px;
+	z-index: 10001;
+}
+
+<!-- https://github.com/Jermolene/TiddlyWiki5/pull/7787 -->
+.tc-tiddler-preview {
+	grid-template-columns: repeat(2, minmax(0px, 1fr)) !important;
+}
+
+<!-- NOTE: if include emoji, emoji will broken use font-bold, emoji was split two chars because of dymamic matchedtext -->
+<!-- .cm-completionMatchedText {
+	font-weight: bold;
+	text-decoration: none !important;
+} -->
+
+.cm-completionIcon-cm-settings:after {
+	content: '𝒔';
+}

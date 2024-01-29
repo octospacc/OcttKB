@@ -1,0 +1,20 @@
+created: 20230331055313846
+creator: Mohammad
+modified: 20230331073020353
+modifier: Mohammad
+tags: $:/tags/Macro
+title: kk-notes-box/macros/note
+
+\define note(type:"info", src:"", title:"Note" )
+\import kk-notes-box/macros/svg-icons
+<div class="kk-notes">
+<$let icon={{{ [<__type__>match[warning]then[warning-svg]else[info-svg]] }}}
+      header-class={{{"kk-notes-header" [<__type__>match[warning]then[warning]else[info]addprefix[kk-notes-]] :and[join[ ]]}}} >
+<div class=<<header-class>> >
+<$macrocall $name=<<icon>> />
+<div class="kk-notes-title"><<__title__>></div>
+</div>
+</$let>
+<div class="kk-notes-content"><$transclude tiddler=<<__src__>> field=title mode=block/></div>
+</div>
+\end

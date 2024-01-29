@@ -1,0 +1,14 @@
+created: 20240128224928644
+creator: Octt
+modified: 20240129005505907
+modifier: Octt
+tags: 
+title: TiddlyWiki/TipsAndTricks
+
+* [[A Beautiful Searchbox in Tiddlywiki|https://talk.tiddlywiki.org/t/a-beautiful-searchbox-in-tiddlywiki-5-2-0/1476]]
+* [[A Notebox Example ii: A Little More WikText and CSS|https://talk.tiddlywiki.org/t/a-notebox-example-ii-a-little-more-wiktext-and-css/6640]]
+* [[Create a Searchable FAQ Page|https://talk.tiddlywiki.org/t/create-a-searchable-faq-page/6406]]
+* [[Ribbon Title Using Modern CSS|https://talk.tiddlywiki.org/t/ribbon-title-using-modern-css/6957]]
+* [[Search your nodejs wiki in Google (and other engines)|https://talk.tiddlywiki.org/t/search-your-nodejs-wiki-in-google/8195]] --- <<[# Userscript "https://openuserjs.org/scripts/linonetwo/TiddlyWiki5_Combine_TW5_and_search_engine_results">>
+** it's broken on many engines other than Google, I will probably upload a patch for some when I have time
+* [[Tiddler Ribbon Using Pure CSS and Simple Macro|https://talk.tiddlywiki.org/t/tiddler-ribbon-using-pure-css-and-simple-macro/6999]]

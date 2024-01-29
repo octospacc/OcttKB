@@ -1,0 +1,13 @@
+{
+    "core-version": ">=5.3.3",
+    "dependents": "",
+    "description": "CodeMirror 6 editor",
+    "list": "readme usage",
+    "name": "CodeMirror6",
+    "plugin-type": "plugin",
+    "title": "$:/plugins/oeyoews/tiddlywiki-codemirror-6",
+    "version": "1.4.8",
+    "Modern.TiddlyDev#SHA256-Hashed": "2a17a2a0e70fa6385bf5ad471dfc1ad882edc0bd4dd27197aaceba0772ee189c",
+    "revision": "0",
+    "bag": "default"
+}

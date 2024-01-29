@@ -1,0 +1,3 @@
+title: $:/language/codemirror6/cursorBlinkRate/description
+
+Set the rate at which the cursor blinks (in milliseconds).

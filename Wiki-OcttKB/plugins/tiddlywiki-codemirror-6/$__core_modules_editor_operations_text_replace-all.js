@@ -1,0 +1,1 @@
+!function(){"use strict";exports["replace-all"]=function(e,t){if(t instanceof Array)for(var n=0;n<t.length;n++){var a=t[n];a.cutStart=0,a.cutEnd=a.text.length,a.replacement=e.paramObject.text,a.newSelStart=0,a.newSelEnd=a.replacement.length}else t.cutStart=0,t.cutEnd=t.text.length,t.replacement=e.paramObject.text,t.newSelStart=0,t.newSelEnd=t.replacement.length}}();

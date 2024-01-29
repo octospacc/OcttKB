@@ -1,0 +1,3 @@
+title: $:/language/codemirror6/zh/activateOnTyping/description
+
+启用打字激活弹出补全框，关闭后，可以 ctrl+space 手动触发

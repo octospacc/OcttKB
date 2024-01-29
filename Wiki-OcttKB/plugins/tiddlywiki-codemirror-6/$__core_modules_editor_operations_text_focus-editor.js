@@ -1,0 +1,1 @@
+!function(){"use strict";exports["focus-editor"]=function(t,e){e instanceof Array&&(e.splice(0,e.length),e.type="focus-editor")}}();

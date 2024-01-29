@@ -1,0 +1,41 @@
+created: 20230331064526443
+creator: Mohammad
+modified: 20230331083727181
+modifier: Mohammad
+tags: $:/tags/Stylesheet
+title: kk-notes-box/styles
+
+\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline html
+
+/* structure */
+.kk-notes{
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+
+	padding:1em;
+	border-radius:10px;
+}
+.kk-notes-header{
+	display:flex;
+	align-items: center;
+}
+
+.kk-notes-title{
+	margin-left:0.5em;
+	font-weight:bold;
+}
+
+/* skin */
+<$list filter="[{$:/palette}get[color-scheme]match[dark]]" variable=ignore>
+.kk-notes{background-color: <<colour page-background>>; /*rgb(255 249 243);*/}
+.kk-notes-info{	color:rgb(0 128 0);}
+.kk-notes-warning{color:rgb(255 0 0);}
+.kk-notes-content{color: <<colour foreground>>;}
+</$list>
+<$list filter="[{$:/palette}get[color-scheme]!match[dark]]" variable=ignore>
+.kk-notes{background-color: rgb(255 249 243);}
+.kk-notes-info{	color:rgb(0 128 0 / 0.8);}
+.kk-notes-warning{color:rgb(255 0 0 /0.8);}
+.kk-notes-content{color: rgb(0 0 0 /0.8);}
+</$list>

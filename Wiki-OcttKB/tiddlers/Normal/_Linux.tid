@@ -1,7 +1,7 @@
 created: 20230111153758951
 creator: Octt
 icon: 🐧
-modified: 20231224171918426
+modified: 20240128233843561
 modifier: Octt
 page-cover: https://images.unsplash.com/photo-1549605659-32d82da3a059?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 tags: $:/i18n:en Unix
@@ -38,6 +38,8 @@ title: Linux
 
 * [[linuxserver/webtop|https://github.com/linuxserver/docker-webtop]] --- //Ubuntu, Alpine, Arch, and Fedora based Webtop Docker images, Linux in a web browser supporting popular desktop environments//
 ** Note: apparently the `/websockify` HTTP endpoint doesn't respect the option for installing the container under an HTTP subpath; in practice this could mean that more than one container at the same time cannot be used behind a reverse proxy without some modification, but instead have to be accessed from their dedicated port directly.
+
+* [[screenkey|https://www.thregr.org/wavexx/software/screenkey/index.html]] --- //A screencast tool to display your keys// --- <<[# Git "https://gitlab.com/screenkey/screenkey">>
 
 !!! ''Benchmarks''
 

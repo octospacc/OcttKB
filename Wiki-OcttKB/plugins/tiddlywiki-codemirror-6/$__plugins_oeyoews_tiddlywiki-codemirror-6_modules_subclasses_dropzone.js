@@ -1,0 +1,1 @@
+!function(){"use strict";exports.baseClass="dropzone",exports.constructor=function(t,e){this.initialise(t,e)},exports.prototype={},exports.prototype.handleDragEnterEvent=function(t){return!$tw.dragInProgress&&(t.preventDefault(),t.stopPropagation(),!(this.filesOnly&&!$tw.utils.dragEventContainsFiles(t)))&&void this.enterDrag(t)}}();

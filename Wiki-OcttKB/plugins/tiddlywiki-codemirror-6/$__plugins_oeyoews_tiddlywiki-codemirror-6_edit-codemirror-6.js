@@ -1,0 +1,1 @@
+!function(){"use strict";var e=require("$:/core/modules/editor/factory.js")["editTextWidgetFactory"],r=require("$:/plugins/oeyoews/tiddlywiki-codemirror-6/engine.js")["CodeMirrorEngine"];exports["edit-codemirror-6"]=e(r,r)}();

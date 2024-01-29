@@ -1,0 +1,11 @@
+caption: Undo
+condition: [<targetTiddler>!has[type]] [<targetTiddler>get[type]!prefix[image/]] [<targetTiddler>get[type]match[image/svg+xml]]
+description: undo the last edit / text operation
+icon: $:/plugins/oeyoews/tiddlywiki-codemirror-6/icons/undo
+tags: $:/tags/EditorToolbar
+title: $:/plugins/oeyoews/tiddlywiki-codemirror-6/ui/EditorToolbar/undo
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="undo"
+/>

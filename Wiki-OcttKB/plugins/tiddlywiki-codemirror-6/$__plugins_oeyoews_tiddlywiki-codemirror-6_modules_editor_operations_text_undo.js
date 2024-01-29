@@ -1,0 +1,1 @@
+!function(){"use strict";exports.undo=function(n,t){t instanceof Array&&(t.splice(0,t.length),t.type="undo")}}();

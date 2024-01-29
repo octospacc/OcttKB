@@ -1,0 +1,6 @@
+tags: $:/tags/Global
+title: $:/plugins/oeyoews/tiddlywiki-codemirror-6/macros/colour-extend
+
+\procedure colour-extend(name,tiddler:"")
+<$transclude tiddler={{{ [<tiddler>!is[blank]] ~[{$:/palette}addsuffix[/extend]] }}} index=<<name>>/>
+\end

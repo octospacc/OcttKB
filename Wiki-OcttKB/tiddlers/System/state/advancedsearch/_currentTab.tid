@@ -1,7 +1,7 @@
 created: 20230109143853256
 creator: Octt
-modified: 20231220212823794
+modified: 20240129010520349
 modifier: Octt
 title: $:/state/advancedsearch/currentTab
 
-$:/ThirdParty/TiddlyTools/FilterGenerators/Tags
+$:/core/ui/AdvancedSearch/Shadows

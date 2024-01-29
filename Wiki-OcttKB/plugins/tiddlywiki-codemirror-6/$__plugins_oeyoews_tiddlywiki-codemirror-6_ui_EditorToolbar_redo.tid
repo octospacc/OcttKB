@@ -1,0 +1,11 @@
+caption: Redo
+condition: [<targetTiddler>!has[type]] [<targetTiddler>get[type]!prefix[image/]] [<targetTiddler>get[type]match[image/svg+xml]]
+description: redo the last edit / text operation
+icon: $:/plugins/oeyoews/tiddlywiki-codemirror-6/icons/redo
+tags: $:/tags/EditorToolbar
+title: $:/plugins/oeyoews/tiddlywiki-codemirror-6/ui/EditorToolbar/redo
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="redo"
+/>

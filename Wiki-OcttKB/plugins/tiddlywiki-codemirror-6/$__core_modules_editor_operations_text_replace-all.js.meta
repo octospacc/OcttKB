@@ -1,0 +1,3 @@
+module-type: texteditoroperation
+title: $:/core/modules/editor/operations/text/replace-all.js
+type: application/javascript
