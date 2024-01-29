@@ -1,6 +1,6 @@
 created: 20230206113426599
 creator: Octt
-modified: 20240129005527741
+modified: 20240129140045004
 modifier: Octt
 tags: 
 title: TiddlyWiki/ThirdParty
@@ -9,6 +9,7 @@ title: TiddlyWiki/ThirdParty
 
 * [[BrainTest|https://braintest.tiddlyspot.com]] --- //tools for a digital brain//
 * [[Calendar|https://tabbed-calendar.tiddlyspot.com]] --- //a tabbed picture calendar//
+* [[Formulas for TiddlyWiki|https://chronicles.wiki/TiddlyWikiFormula/]] --- //spreadsheet-inspired number crunching//
 * [[Joe's Blog|https://joearms.github.io]] --- Contains the [[Chandler|https://joearms.github.io/#2018-12-26%20Fun%20with%20the%20TiddlyWiki]] prototype time-management tool
 * [[kookma's codes, macros, and solutions in TW|https://kookma.github.io/TW-Scripts]]
 ** Kookma Plugin Library --- <<[ "[[Drag To Install|$:/config/KookmaPluginLibrary]]">>
@@ -44,6 +45,7 @@ title: TiddlyWiki/ThirdParty
 * [[Archipel|https://archipel.tiddlyspot.com/]] --- //Data visualization Knowledge map of tiddler's ToC, as zoomable circle packs// --- [[[Discussion|https://groups.google.com/g/tiddlywiki/c/wZZ-84FV0-k]]]
 * [[CodeMirrorPlus|https://adithya-badidey.github.io/TW5-codemirror-plus/]] --- //A better editor for TW5, based on ~CodeMirror// --- [[Demo|https://adithya-badidey.github.io/TW5-codemirror-plus/wiki.html]] | [[Git|https://github.com/adithya-badidey/TW5-codemirror-plus]]
 * [[[Release] Codemirror6 Plugin|https://talk.tiddlywiki.org/t/release-codemirror6-plugin/8843]] <<[# Git "https://github.com/oeyoews/tiddlywiki-codemirror6">> <<[# Demo "https://oeyoews.github.io/tiddlywiki-codemirror6/#%24%3A%2Fplugins%2Foeyoews%2Ftiddlywiki-codemirror-6">>
+* [[Command Palette|https://souk21.github.io/TW-commandpalette/]] --- <<[# Git "https://github.com/Souk21/TW-commandpalette">>
 * [[Context Plugin|https://contextplugin.tiddlyspot.com]] --- //search with context//
 * [[Daily Notes|https://github.com/akhater/Daily-Notes-for-TW5]] - //Interstitial Journaling plugin//
 * [[ECharts|https://tiddly-gittly.github.io/tw-echarts]] [[[Git|https://github.com/tiddly-gittly/tw-echarts]], [[Thread|https://talk.tiddlywiki.org/t/echarts-bringing-amazing-visualization-tools-to-tiddlywiki/1944]]] --- //An All-in-one Visualization Framework for TiddlyWiki5 based on ECharts//

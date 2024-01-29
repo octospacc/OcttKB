@@ -1,7 +1,7 @@
 created: 20220924193842295
 creator: Octt
 icon: 🐈
-modified: 20240127225041667
+modified: 20240129135830800
 modifier: Octt
 page-cover: https://source.unsplash.com/random/?computer-cat
 tags: TiddlyWiki Wiki Zettelkasten Libre
@@ -64,6 +64,7 @@ It is a libre, JavaScript-rich, non-linear notebook, that can well adapt to anyo
 !!! ''Useful Documentation or Articles''
 * <<TwL " DateFormat ">>
 * <<TwL " [[Filter Operators]] ">>
+** <<TwLL "search Operator">>: uses the inbuilt search engine to retrieve data
 * <<TwL " MacroCallWidget SetWidget VarsWidget">>
 * <<TwL " EditTextWidget RangeWidget CheckboxWidget">>
 * <<TwL " [[Table-of-Contents Macros (Examples)]] ">>
