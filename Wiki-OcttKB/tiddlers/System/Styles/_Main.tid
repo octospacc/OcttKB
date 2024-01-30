@@ -1,6 +1,6 @@
 created: 20230108190740128
 creator: Octt
-modified: 20240129121756874
+modified: 20240130144331870
 modifier: Octt
 tags: $:/tags/Stylesheet
 title: $:/Styles/Main
@@ -110,6 +110,7 @@ Div.View-Breadcrumbs
   border-radius: 1em;
 }
 
+.OcttKB-BorderFocus:focus,
 .tc-sidebar-search .tc-search .tc-popup-handle[type="search"]:focus {
   border: 2px dashed <<--HeadingColor0>>;
 }

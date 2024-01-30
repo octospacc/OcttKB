@@ -1,7 +1,7 @@
 created: 20230114161806791
 creator: Octt
 icon: 🎆
-modified: 20230221195107270
+modified: 20240130121733694
 modifier: Octt
 page-cover: https://source.unsplash.com/random?web-design
 tags: Internet $:/i18n:en $:/Apps
@@ -43,7 +43,9 @@ https://source.unsplash.com/{From}/[Size]/?[Keywords]
 
 !!! ''Random Picture from the Gallery''
 
-<a href="https://unsplash.com" rel="noopener noreferrer" target="_blank"><img class="Img90" src="https://source.unsplash.com/random"></a>
+<a href="https://unsplash.com" rel="noopener noreferrer" target="_blank">
+	<img class="Img90" src="https://source.unsplash.com/random">
+</a>
 
 <!--
 <a href="https://source.unsplash.com/random?{{{[<now hh.mm.ss.XXX>]}}}">a</a>

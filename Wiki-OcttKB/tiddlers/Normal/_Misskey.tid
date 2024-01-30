@@ -1,7 +1,8 @@
 created: 20221202225134930
 creator: Octt
-modified: 20231112001653635
+modified: 20240130152333354
 modifier: Octt
+page-cover: https://raw.githubusercontent.com/misskey-dev/misskey/develop/assets/title_float.svg
 tags: Fediverse
 title: Misskey
 
@@ -10,5 +11,4 @@ title: Misskey
 [[Misskey|https://misskey-hub.net/en]] is an open, semi-decentralized social media platform. Decentralization is founded on the [[ActivityPub|ActivityPub]] protocol.
 
 * [[https://github.com/misskey-dev]]
-
-[img[https://raw.githubusercontent.com/misskey-dev/misskey/develop/assets/title_float.svg]]
+* [[藍: Misskey Artworks (Miss Ai)|https://xn--931a.moe/]]

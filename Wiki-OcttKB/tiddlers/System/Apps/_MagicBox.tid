@@ -3,7 +3,7 @@
 .width: 33
 created: 20240129095948486
 creator: Octt
-modified: 20240129234018781
+modified: 20240130144632702
 modifier: Octt
 tags: $:/Apps
 title: $:/Apps/MagicBox
@@ -11,7 +11,7 @@ title: $:/Apps/MagicBox
 \define SearchResults(fields)
 <$list filter="[!is[system]search:$fields${$:/temp/MagicBox!!.input}sort[title]limit[100]]">
 	<div class=`MagicBoxApplet result ${[{$:/Apps/MagicBox!!.type}]}$` style=`background-image: url("${[{!!page-cover}]}$");`>
-		<$button class="tc-btn-invisible">
+		<$button class="OcttKB-BorderFocus tc-btn-invisible">
 			<$action-sendmessage $message="tm-close-tiddler" $param=<<closeOnChoose>>/>
 			<$action-navigate $to={{!!title}}/>
 			<!--<$link to={{!!title}}>-->
@@ -35,13 +35,14 @@ title: $:/Apps/MagicBox
 	&nbsp;
 	<$range field=".width" min="19" max="49"/>{{!!.width}}
 	&nbsp;
-	<$edit-text tiddler="$:/temp/MagicBox" field=".input" class="_input" placeholder="Search..." tabindex="0"/>
+	<$edit-text tiddler="$:/temp/MagicBox" field=".input" class="OcttKB-BorderFocus _input" placeholder="Search..." tabindex="0"/>
 </div>
 
 <$action-sendmessage $message="tm-focus-selector" $param=".MagicBoxApplet.options > ._input"/>
 <<script script='try {
-	document.querySelector(".MagicBoxApplet.options > ._input")?.focus();
-	document.querySelector("div.tc-tiddler-frame.tc-tiddler-view-frame[data-tiddler-title=\"$:/Apps/MagicBox/Overlay\"] .MagicBoxApplet.options > ._input")?.focus();
+	var inputElem = document.querySelector("div.tc-tiddler-frame.tc-tiddler-view-frame[data-tiddler-title=\"$:/Apps/MagicBox/Overlay\"] .MagicBoxApplet.options > ._input, .MagicBoxApplet.options > ._input");
+	inputElem?.focus();
+	inputElem?.select();
 } catch(e) { $OcttKB.ErrAtLine(e) }'>><<script off>>
 
 <style>
@@ -74,12 +75,13 @@ title: $:/Apps/MagicBox
 	}
 	.MagicBoxApplet.result pre {
 		color: initial;
-		max-height: 7em;
+		max-height: 10em;
 		overflow-y: auto;
 		margin: 0;
-		top: 1em;
+		top: 0.5em;
 		position: relative;
 		text-align: initial;
+		font-size: small;
 	}
 	.MagicBoxApplet.result h3 > a {
 		pointer-events: none;
@@ -96,7 +98,7 @@ title: $:/Apps/MagicBox
 </style>
 
 <$if value={{{ [{$:/temp/MagicBox!!.input}split[]count[]compare:integer:gteq[3]then[1]] }}}>
-	<$if value={{{ [!is[system]search:title{$:/temp/MagicBox!!.input}then[]else[1]] }}}>
+	<$if value={{{ [search:title{$:/temp/MagicBox!!.input}then[0]else[1]] }}}>
 		<$button>
 			<$action-sendmessage $message="tm-close-tiddler" $param=<<closeOnChoose>>/>
 			<$action-sendmessage $message="tm-new-tiddler" title={{$:/temp/MagicBox!!.input}} />

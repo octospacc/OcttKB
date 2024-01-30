@@ -1,6 +1,6 @@
 created: 20230112154615238
 creator: Octt
-modified: 20230813105657577
+modified: 20240130140457967
 modifier: Octt
 tags: $:/tags/Stylesheet
 title: $:/Styles/Embed
@@ -48,7 +48,12 @@ label.Embed-Fullscreen-Btn {
 input.Embed-Fullscreen-Btn:checked,
 input.Embed-Fullscreen-Btn:checked ~ label,
 input.Embed-Fullscreen-Btn:checked ~ iframe
-{ position: absolute; z-index: 99999; top: 2em/*0.64em*/; right: 0px; }
+{
+	position: absolute;/*fixed;*/
+	z-index: 99999;
+	top: 2em/*0.64em*/;
+	right: 0px;
+}
 
 input.Embed-Fullscreen-Btn:checked ~ iframe {
   height: calc(100vh - 2em);

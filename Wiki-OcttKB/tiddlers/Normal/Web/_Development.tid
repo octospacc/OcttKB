@@ -1,11 +1,13 @@
 created: 20230221204801305
 creator: Octt
-modified: 20240119001119592
+modified: 20240130151210109
 modifier: Octt
 tags: 
 title: Web/Development
 
 <<^WikipediaFrame "Web development">>
+
+* [[Ravelrumba - Blogging design and front end development|https://www.ravelrumba.com/]]
 
 !!! ''References''
 
@@ -52,6 +54,9 @@ title: Web/Development
 * [[Convert HTML5 Canvas Sequence to a Video File|https://stackoverflow.com/questions/19235286/convert-html5-canvas-sequence-to-a-video-file/62065826#62065826]]
 ** customize video quality by changing codec: <<MDNLink Web/API/MediaRecorder/mimeType#examples MediaRecorder/mimeType>>
 
+* [[Convert Images to Data URIs for Faster Page Loads|https://jeffreyeverhart.com/2016/04/30/images-data-uris-faster-page-loads/]]
+** [[Data URIs for CSS Images: More Tests, More Questions|https://www.ravelrumba.com/blog/data-uris-for-css-images-more-tests-more-questions/]]
+
 * [[Hail, Babel! The Transpiling Overlord|https://www.telerik.com/blogs/hail-babel-the-transpiling-overlord]]
 ** [[Using babel to transpile to es3 (safari compliant)|https://stackoverflow.com/questions/40205547/using-babel-to-transpile-to-es3-safari-compliant]]
 ** [[How to Convert ES6 into ES5 using Babel|https://medium.com/@SunnyB/how-to-convert-es6-into-es5-using-babel-1b533d31a169]]
@@ -59,7 +64,10 @@ title: Web/Development
 * [[How to add full text search to your website|https://medium.com/dev-channel/how-to-add-full-text-search-to-your-website-4e9c80ce2bf4]]
 ** [[BlogSearch|https://github.com/kbumsik/blogsearch]]
 ** [[MiniSearch, a client-side full-text search engine|https://lucaongaro.eu/blog/2019/01/30/minisearch-client-side-fulltext-search-engine.html]]
-** [[Client-side full-text search in CSS|https://www.redotheweb.com/2013/05/15/client-side-full-text-search-in-css.html?]] (+ a bit of JS :c)
+** [[Client-side full-text search in CSS|https://www.redotheweb.com/2013/05/15/client-side-full-text-search-in-css.html?]] (+ a bit of JS :c) --- <<[# Gist "https://gist.github.com/alisonailea/6527599">>
 ** [[Lunr.js|https://github.com/olivernn/lunr.js/]]
 *** [[Add Search to Your Static Site with Lunr.js (Hugo, Vanilla JS)|https://aaronluna.dev/blog/add-search-to-static-site-lunrjs-hugo-vanillajs/]]
 *** [[Adding Super Fast Frontend Search in Rails with Lunr|https://blog.cloud66.com/adding-super-fast-frontend-search-in-rails-with-lunr]]
+
+* [[PDFObject|https://pdfobject.com/]] --- //An open-source standards-friendly JavaScript utility for embedding PDF files into HTML documents.//
+** the site also contains general tips and alternatives, such as "[[Embedding PDFs without using JavaScript|https://pdfobject.com/static/]]"

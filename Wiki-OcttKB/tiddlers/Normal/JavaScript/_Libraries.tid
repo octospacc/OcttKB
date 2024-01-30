@@ -1,6 +1,6 @@
 created: 20230429182925276
 creator: Octt
-modified: 20240128184623406
+modified: 20240130163041628
 modifier: Octt
 tags: 
 title: JavaScript/Libraries
@@ -13,13 +13,14 @@ Note: some are still in [[Web/Development]]
 * `jsdom`: //JavaScript implementation of various web standards, for use with Node.js// --- <<[# Git "https://github.com/jsdom/jsdom">>
 * [[Axios|https://axios-http.com/]] --- //Promise based HTTP client for the browser and node.js// --- <<[# Git"https://github.com/axios">>
 ** [[How to display response error message with axios|https://stackoverflow.com/questions/44385872/how-to-display-response-error-message-with-axios]] --- `try { ... } catch(err) { console.log(err.response.data.message) }`
-* [[cheerio|https://cheerio.js.org/]] --- //The fast, flexible & elegant library for parsing and manipulating HTML and XML.//
+* [[DefiantJS|https://www.defiantjs.com/]] --- //provides the ability for you to build smart templates applicable on JSON structures, based upon proven & standardized technologies such as XSLT and XPath// (currently has some bugs, they can be accounted for in own code) --- <<[# Git "https://github.com/hbi99/defiant.js">>
 
 !!! ''Do-all''
 
 * [[jQuery|https://jquery.com/]] --- //write less, do more// for general operations (has optional libraries for selectors and UI) --- <<[ "[[Git|https://github.com/jquery]]">>
-* [[Licia|https://licia.liriliri.io/]] - //utility library to get daily works done// - <<[ "[[Git|https://github.com/liriliri/licia]]">>
-* [[Lodash|https://lodash.com/]] - More modern fork of Underscore, useful for working with data objects - <<[ "[[Git|https://github.com/lodash]]">>
+** [[cheerio|https://cheerio.js.org/]] --- //The fast, flexible & elegant library for parsing and manipulating HTML and XML//, slimmer substitute for jQuery, works on Node
+* [[Licia|https://licia.liriliri.io/]] --- //utility library to get daily works done// --- <<[ "[[Git|https://github.com/liriliri/licia]]">>
+* [[Lodash|https://lodash.com/]] --- More modern fork of Underscore, useful for working with data objects ...supports "[[Custom Builds|https://lodash.com/custom-builds]]" that include only the functions you want --- <<[ "[[Git|https://github.com/lodash]]">>
 * [[🐚 zx|https://google.github.io/zx/]] --- //A tool for writing better scripts//, it's like better sh scripting done via JavaScript. --- <<[# Git"https://github.com/google/zx">>
 
 !!! ''Polyfills''

@@ -1,13 +1,16 @@
 created: 20230209150101862
 creator: Octt
 icon: 💅
-modified: 20240130004423944
+modified: 20240130154503348
 modifier: Octt
 page-cover: https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19
 tags: Web Frontend
 title: CSS
 
 <<^wikipediaframe CSS en>>
+
+* [[Temani Afif|https://dev.to/afif]] --- //Your favorite CSS Hacker// --- <<[# "GitHub Profile" "https://github.com/Afif13">>
+** [[CSS Tip|https://css-tip.com/]] --- // A micro blog to share CSS Tips & Tricks// --- <<[# Git "https://github.com/Afif13/CSS-Tip">>
 
 !!! ''References''
 
@@ -28,8 +31,11 @@ title: CSS
 !!! ''Amazing''
 
 * [[CSS Zen Garden|https://csszengarden.com/]] --- //The Beauty of CSS Design//
+* [[25 CSS Paper Effects|https://freefrontend.com/css-paper-effects/]]
+* [[Reusable CSS "Sticker" Effect|https://dev.to/5t3ph/reusable-css-sticker-effect-44lc]]
+* [[26 Impressive web projects built with CSS only.|https://medium.mybridge.co/26-impressive-web-projects-built-with-css-only-4a4c2f773a21?gi=c96d73b5b5d2]]
+
 * [[Pure CSS Minesweeper|https://codepen.io/bali_balo/pen/BLJONZ?editors=1100]]
 * [[Spinning Diagrams with CSS|https://x.st/spinning-diagrams-with-css]]
 * [[Bubble Sort...in PURE CSS? [No JS] 😱|https://dev.to/grahamthedev/bubble-sortin-pure-css-no-js-3bb1]]
-* [[25 CSS Paper Effects|https://freefrontend.com/css-paper-effects/]]
-* [[Reusable CSS "Sticker" Effect|https://dev.to/5t3ph/reusable-css-sticker-effect-44lc]]
+* [[CSS-only Calendar App Concept|https://codepen.io/davidkpiano/pen/wBGjMr]]

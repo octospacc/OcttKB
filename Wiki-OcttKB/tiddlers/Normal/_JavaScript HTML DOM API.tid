@@ -1,0 +1,19 @@
+created: 20240130123607678
+creator: Octt
+modified: 20240130135809151
+modifier: Octt
+tags: JavaScript Web HTML
+title: JavaScript HTML DOM API
+
+Note that some of the following resources are still not copied from other pages.
+
+* [[HTML DOM Events|https://www.w3schools.com/jsref/dom_obj_event.asp]]
+* <$let parentUrl="https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement"><a href=<<parentUrl>>>HTMLInputElement</a>...<div>
+
+* <a href=`$(parentUrl)$/select`>select()</a> --- //selects all the text in a `<textarea>` element or in an `<input>` element that includes a text field.//
+</div></$let>
+
+* [[How to get text from all descendents of an element (disregarding scripts)?|https://stackoverflow.com/questions/2532043/how-to-get-text-from-all-descendents-of-an-element-disregarding-scripts]]
+* [[Converting HTML string into DOM elements?|https://stackoverflow.com/questions/3103962/converting-html-string-into-dom-elements#3104237]] --- `doc = new DOMParser().parseFromString(htmlString, 'text/html')`
+* [[set doctype using javascript|https://stackoverflow.com/questions/21523487/set-doctype-using-javascript]]
+* [[Insert an element after another DOM element with JavaScript|https://attacomsian.com/blog/javascript-insert-element-after]] --- //`target.parentNode.insertBefore(elem, target.nextSibling)`//

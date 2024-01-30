@@ -1,8 +1,8 @@
 created: 20211229143921111
 creator: Octt
-modified: 20231221142743532
+modified: 20240130144821891
 modifier: Octt
 tags: $:/km/keynav
 title: $:/config/shortcuts/StoryPrev
 
-shift-alt-Right
+shift-alt-Right shift-alt-Down

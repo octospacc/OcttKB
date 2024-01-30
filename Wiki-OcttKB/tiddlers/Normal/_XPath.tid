@@ -1,6 +1,6 @@
 created: 20230817233205916
 creator: Octt
-modified: 20240118233818349
+modified: 20240130162351619
 modifier: Octt
 tags: XML WIP
 title: XPath
@@ -8,3 +8,5 @@ title: XPath
 <<^wikipediaframe XPath>>
 
 * [[XPather|http://xpather.com/]] --- //XPath online real-time tester, evaluator and generator for XML & HTML//
+
+* [[Getting attribute using XPath|https://stackoverflow.com/questions/4531995/getting-attribute-using-xpath#4532084]] --- `query/to/element/`''`@attribute`''

@@ -1,17 +1,23 @@
 created: 20230905232949767
 creator: Octt
-modified: 20240128180642888
+modified: 20240130161941155
 modifier: Octt
 tags: 
 title: Static site generator
 
 <<^wikipediaframe "Static site generator">>
 
-* <<linkdescgit Docusaurus "https://docusaurus.io" "Easy to maintain open source documentation websites." "https://github.com/facebook/docusaurus">>
+* <<linkdescgit Docusaurus "https://docusaurus.io" "Easy to maintain open source documentation websites." "https://github.com/facebook/docusaurus">> (website contains a Showcase section with many sites)
 ** [[Support Relative Path|https://github.com/facebook/docusaurus/issues/448#issuecomment-908777029]]
 ** [[Option to generate offline static HTML files usable without server|https://github.com/facebook/docusaurus/issues/3825]]
 *** [[Docusaurus-Static|https://octospacc.gitlab.io/editocttrialTools/docusaurus-static/]] --- my hack for solving the problem
 ** [[@easyops-cn/docusaurus-search-local|https://github.com/easyops-cn/docusaurus-search-local]] --- //Offline/local search for Docusaurus v2/v3// --- <<[# Demo"https://easyops-cn.github.io/docusaurus-search-local/">>
+** [[How to use math equations in Docusaurus|https://aloci.me/mathjax-katex/]] --- a KaTeX integration is officially aknowledged, unfortunately for my experience alignment and spacing of some symbols is broken; better to just inject MathJax
+
+* [[mdBook|https://rust-lang.github.io/mdBook/]] --- //command line tool to create books with Markdown. It is ideal for creating product or API documentation, tutorials, course materials or anything that requires a clean, easily navigable and customizable presentation.// --- <<[# Git "https://github.com/rust-lang/mdBook">>
+
+* <<linkdescgit Retype "https://retype.com" "ultra-high-performance ✨ static website generator that builds a website based on simple Markdown text files" "https://github.com/retypeapp">> --- seems catered towards docs/notes sites
+
 * <<linkdescgit Hugo "https://gohugo.io" "The world’s fastest framework for building websites" "https://github.com/gohugoio/hugo">>
 
 * [[Hexo|https://hexo.io/]] --- //A fast, simple & powerful blog framework//
@@ -26,5 +32,3 @@ title: Static site generator
 
 * [[Pelican|https://getpelican.com/]]
 ** [[Eevee|https://kura.gg/eevee/]] --- //A Material Design theme for Pelican//
-
-* <<linkdescgit Retype "https://retype.com" "ultra-high-performance ✨ static website generator that builds a website based on simple Markdown text files" "https://github.com/retypeapp">> --- seems catered towards docs/notes sites

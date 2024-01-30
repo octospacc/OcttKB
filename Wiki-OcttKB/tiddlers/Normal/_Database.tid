@@ -1,7 +1,8 @@
 created: 20231223234312578
 creator: Octt
-modified: 20240119162211752
+modified: 20240130143749965
 modifier: Octt
+page-cover: https://source.unsplash.com/random?database
 title: Database
 
 <<^wikipediaframe Database>>
@@ -26,3 +27,9 @@ title: Database
 * [[--skip-grant-tables option cannot execute statement|https://stackoverflow.com/questions/54751024/skip-grant-tables-option-cannot-execute-statement]] --- in `mysql>` execute `flush privileges`
 
 * [[MySQL LENGTH() Function|https://www.w3schools.com/sql/func_mysql_length.asp]] (not LEN on MySQL!)
+
+!!! SQLite
+
+<<^wikipediaframe SQLite>>
+
+* [[Copying data from one SQLite database to another|https://stackoverflow.com/questions/2359205/copying-data-from-one-sqlite-database-to-another/40353567#40353567]] --- best way is probably `sqlite3 old.sqlite ".dump { names of tables }" | sqlite3 new.sqlite`

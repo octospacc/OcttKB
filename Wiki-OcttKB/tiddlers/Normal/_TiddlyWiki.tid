@@ -1,7 +1,7 @@
 created: 20220924193842295
 creator: Octt
 icon: 🐈
-modified: 20240130003932997
+modified: 20240130141118491
 modifier: Octt
 page-cover: https://source.unsplash.com/random/?computer-cat
 tags: TiddlyWiki Wiki Zettelkasten Libre
@@ -51,6 +51,8 @@ It is a libre, JavaScript-rich, non-linear notebook, that can well adapt to anyo
 ** For optimal extra features like status indicators on tiddlers, or list of in-storage tiddlers, there exists the [[tw-browser-storage|https://btheado.github.io/tw-browser-storage]] plugin to extend the official one <<[# Git "https://github.com/btheado/tw-browser-storage">>. It has some technical issues so I made some edits: [[$:/plugins/btheado/BrowserStorage (drag to install)|$:/plugins/btheado/BrowserStorage]].
 
 !!! Misc
+
+* [[TiddlyWiki Sharing Edition|https://tiddlywiki.com/share]] --- //allows users to create links to wikis with the special capability of containing embedded tiddlers that are loaded into the target wiki at startup//, all content encoded in the URL hash, by using the experimental Share plugin
 
 * [[Fun with Feeds (a proof of concept RSS reader)|https://talk.tiddlywiki.org/t/fun-with-feeds-a-proof-of-concept-rss-reader/6490]] --- <<[# TiddlyWiki"https://saqimtiaz.github.io/sq-tw/temp/feedreader.html">> (use CTRL+Shift+L to switch to normal UI)
 
