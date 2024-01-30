@@ -1,7 +1,7 @@
 created: 20230109143853256
 creator: Octt
-modified: 20240129010520349
+modified: 20240129215548626
 modifier: Octt
 title: $:/state/advancedsearch/currentTab
 
-$:/core/ui/AdvancedSearch/Shadows
+$:/core/ui/AdvancedSearch/Filter

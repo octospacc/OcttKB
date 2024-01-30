@@ -1,0 +1,24 @@
+created: 20240129220613684
+creator: Octt
+modified: 20240129225200513
+modifier: Octt
+tags: 
+title: $:/Apps/MagicBox/readme
+
+This currently work-in-progress, experimental applet provides a "magic box", allowing for wiki content to be searched in a visually effective way: a full-screen interface complete with previews and covers.
+
+* Thread: [[https://talk.tiddlywiki.org/t/wiki-search-grid-with-covers-and-content-preview-prototype/9003]]
+
+Install in other wiki by drag-and-drop:
+
+# <$draggable tag="button" filter="[[$:/Apps/MagicBox]] [prefix[$:/Apps/MagicBox/]] [tag[$:/Apps/MagicBox]] [tag[$:/Apps/MagicBox/Attached]]">
+	All applet files
+</$draggable>
+
+# (Required dependency) <$draggable tag="button" filter="[[$:/plugins/ebalster/condition]]">
+	`ebalster/condition` plugin
+</$draggable>
+
+# (Optional dependency, required to show content) <$draggable tag="button" filter="[[$:/plugins/danielo515/ContextPlugin/Stylesheet/results]] [[$:/plugins/danielo515/ContextPlugin/widgets/context.js]]">
+	Core files of `danielo515/ContextPlugin` plugin, modified to allow `tabindex=-1`
+</$draggable>

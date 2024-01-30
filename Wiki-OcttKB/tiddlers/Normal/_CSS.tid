@@ -1,7 +1,7 @@
 created: 20230209150101862
 creator: Octt
 icon: 💅
-modified: 20240107152919931
+modified: 20240130004423944
 modifier: Octt
 page-cover: https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19
 tags: Web Frontend
@@ -14,6 +14,10 @@ title: CSS
 * [[CSS Attribute Selectors|https://www.w3schools.com/css/css_attribute_selectors.asp]]
 * [[CSS Borders [w3s]|https://www.w3schools.com/css/css_border.asp]]
 ** <<MDNLink Web/CSS/border-style border-style>> --- all ways to style a border, not only colors
+
+!!! ''Tips''
+
+* [[How to disable a link using only CSS|https://stackoverflow.com/questions/2091168/how-to-disable-a-link-using-only-css]] --- essentially, `pointer-events: none;` for the functional side, + other rules for styling
 
 !!! ''Frameworks''
 

@@ -3,13 +3,13 @@
 .width: 33
 created: 20240129095948486
 creator: Octt
-modified: 20240129171354932
+modified: 20240129234018781
 modifier: Octt
 tags: $:/Apps
 title: $:/Apps/MagicBox
 
 \define SearchResults(fields)
-<$list filter="[!is[system]search:$fields${$:/temp/MagicBox!!.input}sort[title]limit[150]]">
+<$list filter="[!is[system]search:$fields${$:/temp/MagicBox!!.input}sort[title]limit[100]]">
 	<div class=`MagicBoxApplet result ${[{$:/Apps/MagicBox!!.type}]}$` style=`background-image: url("${[{!!page-cover}]}$");`>
 		<$button class="tc-btn-invisible">
 			<$action-sendmessage $message="tm-close-tiddler" $param=<<closeOnChoose>>/>
@@ -19,7 +19,7 @@ title: $:/Apps/MagicBox
 					<$link to={{!!title}} tabindex="-1"/>
 				</h3>
 				<$if value={{$:/Apps/MagicBox!!.context}}>
-					<$context term={{$:/temp/MagicBox!!.input}} $tabindex="-1"/>
+					<$context term={{$:/temp/MagicBox!!.input}} tabindex="-1"/>
 				</$if>
 			<!--</$link>-->
 		</$button>
@@ -28,11 +28,14 @@ title: $:/Apps/MagicBox
 \end
 
 <div class="MagicBoxApplet options">
-	<$edit-text tiddler="$:/temp/MagicBox" field=".input" class="_input" placeholder="Search..." tabindex="0"/>
 	<$checkbox field=".context" checked="1">Context</$checkbox>
+	&nbsp;
 	<!--<$edit-text field=".type" placeholder="Display Type"/>-->
 	<$checkbox field=".type" checked="grid" unchecked="masonry">Fixed Grid</$checkbox>
-	<$range field=".width" min="24" max="49"/>{{!!.width}}%
+	&nbsp;
+	<$range field=".width" min="19" max="49"/>{{!!.width}}
+	&nbsp;
+	<$edit-text tiddler="$:/temp/MagicBox" field=".input" class="_input" placeholder="Search..." tabindex="0"/>
 </div>
 
 <$action-sendmessage $message="tm-focus-selector" $param=".MagicBoxApplet.options > ._input"/>
@@ -42,6 +45,12 @@ title: $:/Apps/MagicBox
 } catch(e) { $OcttKB.ErrAtLine(e) }'>><<script off>>
 
 <style>
+	@media (max-width: 500px) {
+		.MagicBoxApplet.result {
+			min-width: calc(({{!!.width}}% * 2) - 16px) !important;
+			max-width: calc(({{!!.width}}% * 3) - 16px) !important;
+		}
+	}
 	.MagicBoxApplet.result {
 		margin: 8px;
 		display: inline-block;
@@ -87,6 +96,16 @@ title: $:/Apps/MagicBox
 </style>
 
 <$if value={{{ [{$:/temp/MagicBox!!.input}split[]count[]compare:integer:gteq[3]then[1]] }}}>
+	<$if value={{{ [!is[system]search:title{$:/temp/MagicBox!!.input}then[]else[1]] }}}>
+		<$button>
+			<$action-sendmessage $message="tm-close-tiddler" $param=<<closeOnChoose>>/>
+			<$action-sendmessage $message="tm-new-tiddler" title={{$:/temp/MagicBox!!.input}} />
+			Create as New Tiddler
+		</$button>
+	</$if>
+
+	<div><br/><hr/><br/></div>
+
 	Title or Caption matches:
 	<br/><<SearchResults "title,caption">>
 

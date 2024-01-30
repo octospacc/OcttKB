@@ -1,0 +1,21 @@
+created: 20240129160009781
+creator: Octt
+list-before: $:/core/ui/Buttons/more-page-actions
+modified: 20240129223619782
+modifier: Octt
+tags: $:/tags/PageControls
+title: $:/Apps/MagicBox/Buttons/Toggle-MagicBox
+
+\define label() Toggle MagicBox
+\whitespace trim
+<$button tooltip=<<label>> class=<<tv-config-toolbar-class>>>
+	<$if value=<<tv-config-toolbar-icons>> match="yes">
+		🪟️
+	</$if>
+	<$if value=<<tv-config-toolbar-text>> match="yes">
+		<span class="tc-btn-text">
+			<$text text=<<label>>/>
+		</span>
+	</$if>
+	{{$:/Apps/MagicBox/Shortcuts/Toggle-MagicBox}}
+</$button>

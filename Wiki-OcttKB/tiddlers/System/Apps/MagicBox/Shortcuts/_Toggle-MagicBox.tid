@@ -1,0 +1,18 @@
+created: 20240129163942191
+creator: Octt
+key: ((Toggle-MagicBox))
+modified: 20240129232038489
+modifier: Octt
+tags: $:/tags/KeyboardShortcut
+title: $:/Apps/MagicBox/Shortcuts/Toggle-MagicBox
+
+\define appTiddler() $:/Apps/MagicBox/Overlay
+\whitespace trim
+<$navigator story="$:/StoryList" history="$:/HistoryList">
+	<$if not value={{{[[$:/StoryList]contains<appTiddler>]}}}>
+		<$action-navigate $to=<<appTiddler>> $scroll="yes"/>
+	</$if><$else>
+		<$action-sendmessage $message="tm-close-tiddler" $param=<<appTiddler>>/>
+	</$else>
+  <!--<$action-sendmessage $message="tm-focus-selector" $param="""[data-tiddler-title="$:/Apps/MagicBox/Overlay"] ._input""" preventScroll="true"/>-->
+</$navigator>

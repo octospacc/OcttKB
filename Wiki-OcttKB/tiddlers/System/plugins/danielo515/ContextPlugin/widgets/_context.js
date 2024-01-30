@@ -2,6 +2,7 @@
 title: $:/core/modules/widgets/danielo/context-widget.js
 type: application/javascript
 module-type: widget
+OcttKB-Note: added tabindex attribute.
 
 Edit-text widget
 
@@ -39,13 +40,13 @@ contextWidget.prototype.render = function(parent,nextSibling) {
       var matches = this.executeRegexp();
 	  if(matches.length > 0){ 
         this.domNode = this.document.createElement(this.element);
-				this.domNode.tabindex = this.tabindex;
+				this.domNode.setAttribute("tabindex", this.tabindex);
         this.domNode.className="tw-context";
         this.composeResults( matches ); //this appends to domNode        
       	// Insert element
       	parent.insertBefore(this.domNode,nextSibling);
       	this.renderChildren(this.domNode,null);
-	  	this.domNodes.push(this.domNode);
+	  	  this.domNodes.push(this.domNode);
       }
   }
 	
@@ -64,7 +65,7 @@ contextWidget.prototype.execute = function() {
     this.after = this.getAttribute("after",this.contextLength);
     this.maxMatches = this.getAttribute("maxMatches",10);
     this.element = this.getAttribute("element","pre");
-		this.tabindex = this.getAttribute("tabindex");
+    this.tabindex = this.getAttribute("tabindex");
     this.makeChildWidgets();
 };
 
