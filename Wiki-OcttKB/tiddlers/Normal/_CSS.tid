@@ -1,7 +1,7 @@
 created: 20230209150101862
 creator: Octt
 icon: 💅
-modified: 20240130154503348
+modified: 20240202000036873
 modifier: Octt
 page-cover: https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19
 tags: Web Frontend
@@ -17,6 +17,7 @@ title: CSS
 * [[CSS Attribute Selectors|https://www.w3schools.com/css/css_attribute_selectors.asp]]
 * [[CSS Borders [w3s]|https://www.w3schools.com/css/css_border.asp]]
 ** <<MDNLink Web/CSS/border-style border-style>> --- all ways to style a border, not only colors
+* [[CSS @import Rule|https://www.w3schools.com/cssref/pr_import_rule.php]] --- `@import "style.css";` or `@import url("style.css");`
 
 !!! ''Tips''
 

@@ -1,0 +1,10 @@
+created: 20240131235647198
+creator: Octt
+modified: 20240201201110267
+modifier: Octt
+tags: 
+title: Interoperability
+
+<<^WikipediaFrame "Interoperability">>
+
+* [[matterbridge|https://github.com/42wim/matterbridge]] --- // chat bridges between a growing number of protocols.//

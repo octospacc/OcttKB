@@ -1,6 +1,6 @@
 created: 20230207185112276
 creator: Octt
-modified: 20231221190746217
+modified: 20240201233107504
 modifier: Octt
 tags: Server
 title: Nginx
@@ -17,6 +17,7 @@ title: Nginx
 * [[How to reply with 200+content from Nginx, without serving a file?|https://serverfault.com/questions/196929/how-to-reply-with-200-from-nginx-without-serving-a-file]]
 * [[nginx redirect based on domain name|https://serverfault.com/questions/832456/nginx-redirect-based-on-domain-name/832474#832474]]
 * [[Using variables in Nginx location rules|https://stackoverflow.com/questions/15416957/using-variables-in-nginx-location-rules/61513351#61513351]] --- nginx doesn't have proper variables, but the map module is often usable
+* [[How do I add Access-Control-Allow-Origin in NGINX?|https://serverfault.com/questions/162429/how-do-i-add-access-control-allow-origin-in-nginx]] --- `location ... { add_header Access-Control-Allow-Origin *; }`
 
 * [[Install more_set_headers in nginx for Debian-based distro|https://serverfault.com/questions/954708/install-more-set-headers-in-nginx-1-15-8]] --- `apt install nginx-extras`, keeping in mind that it will rewrite the nginx core package, so any active nginx daemon will crash and need to be restarted.
 ** Apparently all extra modules get enabled by default after this installation, and some might crash on some systems: if so, delete their symlinks from `/etc/nginx/modules-enabled`.

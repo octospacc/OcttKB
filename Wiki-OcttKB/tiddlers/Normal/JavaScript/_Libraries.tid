@@ -1,6 +1,6 @@
 created: 20230429182925276
 creator: Octt
-modified: 20240130163041628
+modified: 20240202000719084
 modifier: Octt
 tags: 
 title: JavaScript/Libraries
@@ -14,6 +14,7 @@ Note: some are still in [[Web/Development]]
 * [[Axios|https://axios-http.com/]] --- //Promise based HTTP client for the browser and node.js// --- <<[# Git"https://github.com/axios">>
 ** [[How to display response error message with axios|https://stackoverflow.com/questions/44385872/how-to-display-response-error-message-with-axios]] --- `try { ... } catch(err) { console.log(err.response.data.message) }`
 * [[DefiantJS|https://www.defiantjs.com/]] --- //provides the ability for you to build smart templates applicable on JSON structures, based upon proven & standardized technologies such as XSLT and XPath// (currently has some bugs, they can be accounted for in own code) --- <<[# Git "https://github.com/hbi99/defiant.js">>
+* [[javascript-quiz-library|https://www.zimmi.cz/javascript-quiz-library/]] --- //Very simple JS library for quiz creation// --- <<[# Git "https://github.com/zimmicz/javascript-quiz-library">>
 
 !!! ''Do-all''
 

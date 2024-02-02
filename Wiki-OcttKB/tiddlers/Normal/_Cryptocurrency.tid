@@ -1,7 +1,8 @@
 created: 20230218181942782
 creator: Octt
-modified: 20240127233538211
+modified: 20240201232125324
 modifier: Octt
+page-cover: https://source.unsplash.com/random?cryptocurrency
 tags: 
 title: Cryptocurrency
 
@@ -36,6 +37,9 @@ It's a fork of Bitcoin. There are some advantages, some technical and some situa
 !!! ''[[Ethereum|https://ethereum.org/]]'' (ETH)
 
 * https://github.com/ethereum
+* [[go-ethereum|https://geth.ethereum.org/]] --- //Official Go implementation of the Ethereum protocol// (Execution Client)
+* [[Curated Ethereum Lists|http://lists.eth/]] --- <<[# Git "https://github.com/ethereum-lists">>
+* [[ChainList|https://chainlist.org]] --- //Helping users connect to EVM powered networks// --- <<[# Git "https://github.com/DefiLlama/chainlist">>
 
 ; Self-custodial Wallets
 : [[AlphaWallet|https://alphawallet.com/]] (Android) - <<[ "[[Git|https://github.com/AlphaWallet]]">>

@@ -1,6 +1,6 @@
 created: 20230227073605348
 creator: Octt
-modified: 20240130121821679
+modified: 20240201201511790
 modifier: Octt
 page-cover: https://source.unsplash.com/random?palette
 tags: Color
@@ -8,4 +8,5 @@ title: Palette
 
 <<^wikipediaframe "Color scheme" en>>
 
-* [[Solarized|https://ethanschoonover.com/solarized/]] - //Precision colors for machines and people// - <<[ "[[Git|https://github.com/altercation/solarized]]">>
+* [[What's a color palette for blue, green, yellow, and red that is legible on both light and dark backgrounds?|https://graphicdesign.stackexchange.com/questions/54755/whats-a-color-palette-for-blue-green-yellow-and-red-that-is-legible-on-both]]
+** [[Solarized|https://ethanschoonover.com/solarized/]] - //Precision colors for machines and people// - <<[ "[[Git|https://github.com/altercation/solarized]]">>

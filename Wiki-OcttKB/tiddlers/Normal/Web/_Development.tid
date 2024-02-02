@@ -1,6 +1,6 @@
 created: 20230221204801305
 creator: Octt
-modified: 20240130151210109
+modified: 20240202000534255
 modifier: Octt
 tags: 
 title: Web/Development
@@ -12,7 +12,7 @@ title: Web/Development
 !!! ''References''
 
 ; Misc
-: [[Window: postMessage()|https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage]]
+: <<MDNLink Web/API/Channel_Messaging_API "Channel Messaging API">>, [[Window: postMessage()|https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage]]
 : [[Proxy Auto-Configuration (PAC) file|https://developer.mozilla.org/en-US/docs/Web/HTTP/Proxy_servers_and_tunneling/Proxy_Auto-Configuration_PAC_file]]
 
 ; DOM querying
@@ -47,6 +47,8 @@ title: Web/Development
 ** [[The Vanilla JS Toolkit|https://vanillajstoolkit.com/]] - //tools and snippets for working with JavaScript// (libraries, functions, polyfills, learning)
 * [[Web Accessibility Developer Guide|https://www.accessibility-developer-guide.com/]]
 * [[Using <style> tags in the <body> with other HTML|https://stackoverflow.com/questions/2830296/using-style-tags-in-the-body-with-other-html]] --- there once was a `scoped` attribute for `<style>` blocks, but it's nowadays deprecated and styles apply to all document elements despite their own position in the tree
+
+* [[MDX|https://mdxjs.com/]] --- //Markdown for the component era//
 
 * [[Convert any website into a PWA in just 3 simple steps|https://dev.to/developertharun/convert-any-website-into-a-pwa-in-just-3-simple-steps-35pp]]
 * [[SPA source code recovery by un-Webpacking source maps|https://medium.com/@rarecoil/spa-source-code-recovery-by-un-webpacking-source-maps-ef830fc2351d]] - ''[[unwebpack-sourcemap|https://github.com/rarecoil/unwebpack-sourcemap]]''

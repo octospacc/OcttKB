@@ -1,7 +1,8 @@
 created: 20230531085848781
 creator: Octt
-modified: 20231224151741749
+modified: 20240201235924359
 modifier: Octt
+page-cover: https://source.unsplash.com/random?typography
 tags: 
 title: Typography
 
@@ -11,7 +12,10 @@ title: Typography
 
 <<^wikipediaframe Font>>
 
+* [[Fontesk|https://fontesk.com/]] --- //A curated font library of the best high quality free fonts to download for commercial and personal use.//
+
 * [[Dotsies|https://dotsies.org/]] --- // Dotsies is a font that uses dots instead of letters. The latin alphabet (abc...) was created thousands of years ago, and is optimized for writing, not reading. About time for an update, no?//
+* [[Single Day|https://fonts.google.com/specimen/Single+Day]]
 
 * [[ArrowType|https://www.arrowtype.com/]] --- //Timeless fonts for modern typography. Type design & development. Arrow Type is the one-person type foundry and studio of Stephen Nixon.// --- <<[# Git"https://github.com/arrowtype">>
 ** [[The ArrowType Blog|https://blog.arrowtype.com/]] --- //Notes on type design & development//
@@ -24,6 +28,7 @@ Interesting fonts, for specific uses or fun:
 * <<WikipediaLink "Blackboard bold">>
 * <<WikipediaLink "Small caps">>
 * [[Times New Bastard|https://github.com/weiweihuanghuang/Times-New-Bastard]] - //It's Times New Roman but every seventh letter is jarringly sans-serif.//
+* [[Honk|https://github.com/EkType/Honk]] --- // Honk is a COLRv1, variable, modular, display typeface by Ek Type. It is a digital interpretation of the bold and vibrant lettering seen on Indian trucks.//
 
 Good fonts, for multiple uses:
 
