@@ -1,0 +1,21 @@
+created: 20240203164756269
+creator: Octt
+modified: 20240203182833422
+modifier: Octt
+tags: 
+title: Fediverse Frontends Comparison
+
+<div style="overflow-x: auto;">
+
+||Mastodon|Misskey|Elk|Pinafore/Semaphore|Soapbox|
+|Mastodon API|✅️|❌️|✅️|✅️|✅️|
+|Misskey API|❌️|✅️|❔️|❔️|❔️|
+|Performance|⚠️|⚠️|❔️|✅️|❔️|
+|Stability|✅️|✅️|❌️|✅️|❔️|
+|Nested replies|❌️|✅️|❌️|❌️|❌️|
+|Wellbeing / reduced distractions|✅️|❔️|✅️ Advanced|✅️ Advanced|✅️ Mid|
+|User theming|❌️|✅️ CSS supported|✅️|✅️|❌️|
+|Multi-column|✅️|✅️|❌️|❌️|❌️|
+|Multi-account|❌️|✅️ Frontend is instance-hosted|✅️ Full|⚠️ For different instances only|⚠️ For same instance only|
+
+</div>

@@ -1,6 +1,6 @@
 created: 20230531085848781
 creator: Octt
-modified: 20240201235924359
+modified: 20240203183100958
 modifier: Octt
 page-cover: https://source.unsplash.com/random?typography
 tags: 
@@ -13,9 +13,7 @@ title: Typography
 <<^wikipediaframe Font>>
 
 * [[Fontesk|https://fontesk.com/]] --- //A curated font library of the best high quality free fonts to download for commercial and personal use.//
-
-* [[Dotsies|https://dotsies.org/]] --- // Dotsies is a font that uses dots instead of letters. The latin alphabet (abc...) was created thousands of years ago, and is optimized for writing, not reading. About time for an update, no?//
-* [[Single Day|https://fonts.google.com/specimen/Single+Day]]
+* [[FontPainter|https://fontpainter.com/]] --- //Create Your Own Font from your handwriting//
 
 * [[ArrowType|https://www.arrowtype.com/]] --- //Timeless fonts for modern typography. Type design & development. Arrow Type is the one-person type foundry and studio of Stephen Nixon.// --- <<[# Git"https://github.com/arrowtype">>
 ** [[The ArrowType Blog|https://blog.arrowtype.com/]] --- //Notes on type design & development//
@@ -34,3 +32,9 @@ Good fonts, for multiple uses:
 
 * <<linkdesc epto-fonts "https://github.com/epto/epto-fonts" "Free bitmap (8x8, 8x16, 8xY) fonts by EPTO">>
 * <<linkdesc "UW ttyp0" "https://people.mpi-inf.mpg.de/~uwe/misc/uw-ttyp0/" "Monospace Bitmap Screen Fonts for X11">> <!-- "https://people.mpi-inf.mpg.de/~uwe/misc/uw-ttyp0/ttyp0-8x16.png" -->
+
+Other fonts still:
+
+* [[Dotsies|https://dotsies.org/]] --- //font that uses dots instead of letters. The latin alphabet (abc...) was created thousands of years ago, and is optimized for writing, not reading. About time for an update, no?//
+* [[Single Day|https://fonts.google.com/specimen/Single+Day]]
+* [[はゆフォント (Hayu Font) 2.0|https://dae.booth.pm/items/5189648]] --- //handwritten font inspired by the round handwriting of "a girl who loves decorating everything with hearts"//

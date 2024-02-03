@@ -1,6 +1,6 @@
 created: 20230202110726082
 creator: Octt
-modified: 20240110004702177
+modified: 20240203183626569
 modifier: Octt
 tags: Gaming Sony Console $:/i18n:en WIP
 title: PlayStation Portable
@@ -8,11 +8,20 @@ title: PlayStation Portable
 <<^wikipediaframe PlayStation_Portable en>>
 
 * [[pspunk - PSP Guides & Resources|https://www.pspunk.com/]]
+* [[PSP Archive|https://psp-archive.github.io/]] --- //Repository for the preservation and safekeeping of open-source projects created for the Sony handheld.//
+** [[Homebrew Library Archive|https://archive.org/details/psp-homebrew-library]]
 
 * [[How to connect your PSP on Linux|https://gist.github.com/mhitza/81651f49b3a43e6f4554]] --- if it doesn't work automatically, do `sudo modprobe usb-storage`
 ** <<RedditL r/PSP/comments/54tuxr/guide_remotejoy_on_linux_with_6xx_fw "[GUIDE] Remotejoy on linux with 6.xx fw">> --- //The Guide to displaying your PSP screen on your PC over usb on linux// (... apparently not working for me but I'll save)
 
+* [[Key[s]Tester by Yoti|https://wololo.net/talk/viewtopic.php?f=2&t=11333]] --- //test your PSP buttons & stick!//
+
 * [[joysens|https://github.com/albe/joysens]] --- //Infamous PSP Plugin for fixing broken Joysticks on the Playstation Portable//
 ** <<RedditL r/PSP/comments/gtid7b/how_do_you_disable_the_analog_stick_entirely "How do you disable the analog stick entirely?">>
+
+* MacroFire
+** <<RedditL r/PSP/comments/zuxljx/anyway_to_permanently_remap_keys_via_macrofire/ "Anyway to permanently remap keys via macrofire?">>
+
+* <<RedditL r/gamecollecting/comments/jh7v7q/video_out_is_the_most_underrated_feature_of_the/ "Video out is the most underrated feature of the PSP.">>
 
 * [[PPSSPP|https://www.ppsspp.org]] --- //PSP emulator for Android, Windows, Mac and Linux, written in C++.// --- <<[# Git "https://github.com/hrydgard/ppsspp">>
