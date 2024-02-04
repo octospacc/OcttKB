@@ -1,7 +1,7 @@
 created: 20230202224901337
 creator: Octt
 icon: 📰
-modified: 20240128235735551
+modified: 20240204122208181
 modifier: Octt
 page-cover: https://images.unsplash.com/photo-1517134062979-e1234be8a085
 tags: Web Markup
@@ -23,6 +23,10 @@ title: HTML
 
 * <<MDNLink Web/HTML/Element/dialog "<dialog>: The Dialog element">> --- //modal or non-modal dialog box or other interactive component, such as a dismissible alert, inspector, or subwindow//
 ** [[dialog-polyfill|https://github.com/GoogleChrome/dialog-polyfill]] --- //Polyfill for the HTML dialog element// --- <<[# Demo"https://googlechrome.github.io/dialog-polyfill/">>
+
+!!! Tools
+
+* [[HTML Tables Generator|https://www.htmltables.io/]] --- //Build and Style Tables The cool, modern way//
 
 !! XHTML
 

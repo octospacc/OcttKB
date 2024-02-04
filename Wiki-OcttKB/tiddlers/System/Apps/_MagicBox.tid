@@ -1,12 +1,12 @@
 created: 20240129095948486
 creator: Octt
-modified: 20240201203754580
+modified: 20240204123532842
 modifier: Octt
 tags: $:/Apps
 title: $:/Apps/MagicBox
 
-\define SearchResults(fields)
-<$list filter="[!is[system]search:$fields${$:/temp/Apps/MagicBox!!.input}sort[title]limit[100]]">
+\define SearchResults(fields, filterDel:"[[]]")
+<$list filter="[!is[system]search:$fields${$:/temp/Apps/MagicBox!!.input}sort[title]limit[100]] -$filterDel$">
 	<div class=`MagicBoxApplet result ${[{$:/state/Apps/MagicBox!!.type}]}$` style=`background-image: url("${[{!!page-cover}]}$");`>
 		<$button class="OcttKB-BorderFocus tc-btn-invisible">
 			<$action-sendmessage $message="tm-close-tiddler" $param=<<closeOnChoose>>/>
@@ -111,5 +111,5 @@ title: $:/Apps/MagicBox
 	<div><br/><hr/><br/></div>
 
 	Tags or Text matches:
-	<br/><<SearchResults "tags,text">>
+	<br/><<SearchResults "tags,text" "[!is[system]search:title,caption{$:/temp/Apps/MagicBox!!.input}]">>
 </$if>

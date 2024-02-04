@@ -1,0 +1,8 @@
+created: 20240204143427407
+creator: Octt
+modified: 20240204143503230
+modifier: Octt
+tags: 
+title: HTML & CSS
+
+* [[How to line-break from css, without using <br />?|https://stackoverflow.com/questions/2703601/how-to-line-break-from-css-without-using-br]] --- `white-space: pre-line;`

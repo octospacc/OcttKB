@@ -1,6 +1,6 @@
 created: 20230221204801305
 creator: Octt
-modified: 20240202000534255
+modified: 20240204155347184
 modifier: Octt
 tags: 
 title: Web/Development
@@ -47,6 +47,7 @@ title: Web/Development
 ** [[The Vanilla JS Toolkit|https://vanillajstoolkit.com/]] - //tools and snippets for working with JavaScript// (libraries, functions, polyfills, learning)
 * [[Web Accessibility Developer Guide|https://www.accessibility-developer-guide.com/]]
 * [[Using <style> tags in the <body> with other HTML|https://stackoverflow.com/questions/2830296/using-style-tags-in-the-body-with-other-html]] --- there once was a `scoped` attribute for `<style>` blocks, but it's nowadays deprecated and styles apply to all document elements despite their own position in the tree
+* [[How do I disable the resizable property of a textarea?|https://stackoverflow.com/questions/5235142/how-do-i-disable-the-resizable-property-of-a-textarea]] --- CSS `resize: none;`
 
 * [[MDX|https://mdxjs.com/]] --- //Markdown for the component era//
 

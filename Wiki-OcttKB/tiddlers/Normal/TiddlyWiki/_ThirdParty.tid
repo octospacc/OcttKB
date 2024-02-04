@@ -1,6 +1,6 @@
 created: 20230206113426599
 creator: Octt
-modified: 20240129233143233
+modified: 20240204160124125
 modifier: Octt
 tags: 
 title: TiddlyWiki/ThirdParty
@@ -22,6 +22,8 @@ title: TiddlyWiki/ThirdParty
 * [[The public musings of Soren Bjornstad (Zettelkasten)|https://zettelkasten.sorenbjornstad.com]]
 * [[TiddlyMap|http://tiddlymap.org]] --- //Map drawing and topic visualization for your wiki!// --- [[[Git|https://github.com/felixhayashi/TW5-TiddlyMap]]]
 * [[TiddlySeq|https://gk0wk.github.io/TiddlySeq/]] --- //Logseq-like TiddlyWiki Template// --- <<[ "[[Git|https://github.com/Gk0Wk/TiddlySeq]]">>
+* [[TiddlyTables|https://tiddlytables.tiddlyspot.com/]] --- //plugin for building advanced sortable tables//, with built-in specific //Task-Manager//
+** [[[TW5] Introducing TiddlyTables a plugin for creating sortable tables|https://groups.google.com/g/tiddlywiki/c/VFf0ZJW_Noo]]
 * [[TiddlyTools for TW5|https://tiddlytools.com/]] --- //Small Tools for Big Ideas!™//
 * [[Tobias Beer's Plugins and Resources|https://tobibeer.github.io]] --- [[[Profile|https://tobibeer.github.io/tb5/#Tobias%20Beer]]] [[[Git|https://github.com/tobibeer]]]
 * [[TW5 CPL Wiki|https://tw-cpl.netlify.app]] --- //TiddlyWiki5 Plugin Library for TiddlyWiki Chinese Communities// --- <<[ "[[Drag to install|$:/config/TiddlyWiki-CPL/GitHub]]">>
