@@ -1,21 +1,113 @@
 created: 20240203164756269
 creator: Octt
-modified: 20240203182833422
+modified: 20240204112212512
 modifier: Octt
 tags: 
 title: Fediverse Frontends Comparison
 
-<div style="overflow-x: auto;">
+\define FilterRangeIndirect() [range[$(filterRangeStart)$,$(filterRangeEnd)$]]
 
-||Mastodon|Misskey|Elk|Pinafore/Semaphore|Soapbox|
-|Mastodon API|✅️|❌️|✅️|✅️|✅️|
-|Misskey API|❌️|✅️|❔️|❔️|❔️|
-|Performance|⚠️|⚠️|❔️|✅️|❔️|
-|Stability|✅️|✅️|❌️|✅️|❔️|
-|Nested replies|❌️|✅️|❌️|❌️|❌️|
-|Wellbeing / reduced distractions|✅️|❔️|✅️ Advanced|✅️ Advanced|✅️ Mid|
-|User theming|❌️|✅️ CSS supported|✅️|✅️|❌️|
-|Multi-column|✅️|✅️|❌️|❌️|❌️|
-|Multi-account|❌️|✅️ Frontend is instance-hosted|✅️ Full|⚠️ For different instances only|⚠️ For same instance only|
+\define TableEditable()
+<$let
+	callerTiddler=<<currentTiddler>>
+	dataTiddler={{{[<callerTiddler>addprefix[$:/Data/TableEditable/]]}}}
+	tempTiddler={{{[<callerTiddler>addprefix[$:/temp/TableEditable/]]}}}
+	rowsNumber={{{[<dataTiddler>getindex[rowsNumber]]}}}
+	colsNumber={{{[<dataTiddler>getindex[colsNumber]]}}}
+	selectIndex1={{{[<tempTiddler>get[.select1]]}}}
+>
+<!-- TODO:
+* update row/col selector when insert/delete some row/col
+* implement all mentioned editing options
+* move macro to dedicated tiddler
+* row and col number headings?
+-->
+	<$link to=<<dataTiddler>>>#</$link>
+	<label>
+		Rows:
+		<$edit-text tag="input" type="number" tiddler=<<dataTiddler>> index="rowsNumber"/>
+	</label>
+	<label>
+		Columns:
+		<$edit-text tag="input" type="number" tiddler=<<dataTiddler>> index="colsNumber"/>
+	</label>
+	<label style="display: block;">
+		Edit...
+		<$edit-text tag="input" type="number" tiddler=<<tempTiddler>> field=".select1"/>
+		<$button>
+			...Row Insert
+			<$let filterRangeStart=<<rowsNumber>> filterRangeEnd=<<selectIndex1>>>
+				<$list filter=<<FilterRangeIndirect>>>
+					<$let rowIndexOld=<<currentTiddler>> filterRangeStart="1" filterRangeEnd=<<rowsNumber>>>
+						<$list filter=<<FilterRangeIndirect>>>
+							<$let colIndex=<<currentTiddler>> rowIndexNew={{{[<rowIndexOld>add[1]]}}}
+								cellIndexOld={{{[[/r]addsuffix<rowIndexOld>addsuffix[/c]addsuffix<colIndex>addsuffix[/]]}}}
+								cellIndexNew={{{[[/r]addsuffix<rowIndexNew>addsuffix[/c]addsuffix<colIndex>addsuffix[/]]}}}
+							>
+								<$action-setfield $tiddler=<<dataTiddler>> $index=<<cellIndexNew>> $value={{{[<dataTiddler>getindex<cellIndexOld>]}}}/>
+								<$action-setfield $tiddler=<<dataTiddler>> $index=<<cellIndexOld>> $value=""/>
+							</$let>
+						</$list>
+					</$let>
+				</$list>
+			</$let>
+		</$button>
+		<$button>
+			...Column Insert
+			<$let filterRangeStart=<<colsNumber>> filterRangeEnd=<<selectIndex1>>>
+				<$list filter=<<FilterRangeIndirect>>>
+					<$let colIndexOld=<<currentTiddler>> filterRangeStart="1" filterRangeEnd=<<rowsNumber>>>
+						<$list filter=<<FilterRangeIndirect>>>
+							<$let rowIndex=<<currentTiddler>> colIndexNew={{{[<colIndexOld>add[1]]}}}
+								cellIndexOld={{{[[/r]addsuffix<rowIndex>addsuffix[/c]addsuffix<colIndexOld>addsuffix[/]]}}}
+								cellIndexNew={{{[[/r]addsuffix<rowIndex>addsuffix[/c]addsuffix<colIndexNew>addsuffix[/]]}}}
+							>
+								<$action-setfield $tiddler=<<dataTiddler>> $index=<<cellIndexNew>> $value={{{[<dataTiddler>getindex<cellIndexOld>]}}}/>
+								<$action-setfield $tiddler=<<dataTiddler>> $index=<<cellIndexOld>> $value=""/>
+							</$let>
+						</$list>
+					</$let>
+				</$list>
+			</$let>
+		</$button>
+		<!--
+		<$button>
+			...Row Delete
+		</$button>
+		<$button>
+			...Column Delete
+		</$button>
+		-->
+	</label>
+	<div class="TableEditable"><table><tbody>
+		<$let filterRangeStart="1" filterRangeEnd=<<rowsNumber>>>
+			<$list filter=<<FilterRangeIndirect>>>
+				<$let row=<<currentTiddler>>>
+					<tr>
+						<$let filterRangeStart="1" filterRangeEnd=<<colsNumber>>>
+							<$list filter=<<FilterRangeIndirect>>>
+								<$let col=<<currentTiddler>> cellIndex={{{[[/r]addsuffix<row>addsuffix[/c]addsuffix<col>addsuffix[/]]}}}>
+									<td title=<<cellIndex>>>
+										<$edit-text minHeight="1em" tiddler=<<dataTiddler>> index=<<cellIndex>>/>
+									</td>
+								</$let>
+							</$list>
+						</$let>
+					</tr>
+				</$let>
+			</$list>
+		</$let>
+	</tbody></table></div>
+	<style>
+		div.TableEditable {
+			overflow-x: auto;
+		}
+		div.TableEditable textarea {
+			border: 0;
+			resize: none;
+		}
+	</style>
+</$let>
+\end
 
-</div>
+<<TableEditable>>
