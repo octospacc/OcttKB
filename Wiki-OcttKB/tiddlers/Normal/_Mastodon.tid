@@ -1,6 +1,6 @@
 created: 20230110220005274
 creator: Octt
-modified: 20231223123334155
+modified: 20240208004529538
 modifier: Octt
 tags: Fediverse
 title: Mastodon
@@ -9,6 +9,7 @@ title: Mastodon
 
 !!! ''Clients''
 
+* [[Brutaldon|https://brutaldon.org/]] --- //A brutalist web interface for Mastodon// --- <<[# Git "https://git.carcosa.net/jmcbray/brutaldon">>
 * [[tooot|https://tooot.app/]] --- Simple and open source mobile (iOS/Android) client of Mastodon, started with a focus for Chinese community. --- <<[# Git "https://github.com/tooot-app">>
 * [[Pinafore|https://pinafore.social/]] --- Alternative web client for Mastodon (UNMAINTAINED) --- <<[# Git "https://github.com/nolanlawson/pinafore">>
 * [[Elk (alpha)|https://elk.zone/]] --- A nimble Mastodon web client --- <<#[ Git "https://github.com/elk-zone">>

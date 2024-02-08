@@ -1,6 +1,6 @@
 created: 20231211232616716
 creator: Octt
-modified: 20240110011350515
+modified: 20240208004319838
 modifier: Octt
 tags: 
 title: File sharing
@@ -16,3 +16,4 @@ title: File sharing
 <<^WikipediaFrame "Image sharing">>
 
 * [[ImgBB|https://imgbb.com/]] --- //Free Image Hosting// for bulletin boards
+* [[ImageShare|https://theimageshare.com/]] --- //lightweight web app for uploading images, created for the Nintendo 3DS and other legacy web browsers// <<[# Git "https://github.com/corbindavenport/imageshare">>
