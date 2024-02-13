@@ -1,7 +1,8 @@
 created: 20230109104559438
 creator: Octt
-modified: 20231223000105506
+modified: 20240213155341889
 modifier: Octt
+page-cover: https://source.unsplash.com/random?YouTube
 tags: Internet TODO $:/i18n:en
 title: YouTube
 
@@ -9,3 +10,13 @@ title: YouTube
 
 * [[/watch?v=|https://www.youtube.com/watch?v=]] --- as of December 2023, this URL loads the video <<YoutubeL 9xp1XWmJ_Wo "YouTube is not currently available on this device.">> (directly, without redirects)
 * [[Infinite-Storage-Glitch|https://github.com/DvorakDwarf/Infinite-Storage-Glitch]] - //Use YouTube as cloud storage for any files// - <<[ "[[Mirror|https://gitea.it/octo/Infinite-Storage-Glitch]]">>
+
+!!! Frontends
+
+* [[FreeTube|https://freetubeapp.io/]] --- //open source desktop YouTube player built with privacy in mind// --- <<[# Git "https://github.com/FreeTubeApp/">>
+* [[Invidious|https://invidious.io/]] --- //open source alternative front-end to YouTube// --- <<[# Git "https://github.com/iv-org">>
+** the new YT CEO waged a war against Invidious specifically, it has many ratelimiting problems now afaik
+* [[LibreTube|https://libretube.dev/]] --- //alternative frontend for YouTube, for Android// --- <<[# Git "https://github.com/libre-tube">>
+* [[NewPipe|https://newpipe.net/]] --- //libre lightweight streaming front-end for Android// --- <<[# Git "https://github.com/TeamNewPipe">>
+* [[Piped|https://docs.piped.video/]] --- //alternative privacy-friendly YouTube frontend which is efficient by design// --- <<[# Git "https://github.com/TeamPiped">>
+* [[youtube-local|https://github.com/user234683/youtube-local]] --- // browser-based client for watching Youtube anonymously and with greater page performance//

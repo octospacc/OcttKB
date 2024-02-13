@@ -1,7 +1,8 @@
 created: 20230217100639349
 creator: Octt
-modified: 20240128004734394
+modified: 20240213170748537
 modifier: Octt
+page-cover: https://source.unsplash.com/random?browser
 tags: Web
 title: Web Browser
 
@@ -9,6 +10,8 @@ title: Web Browser
 
 * [[Fulguris|https://slions.net/resources/fulguris.10/]] --- webview-based //Sparkling Android Web Browser// --- <<[# Git"https://github.com/Slion/Fulguris">>
 * [[Via Browser|https://viayoo.com/en/]] --- //lite browser with powerful functions. Designed on geek thinking.//
+
+* [[why is default audio volume always at 100% (and how to change it in Firefox and Chromium)|https://superuser.com/questions/991432/why-is-default-audio-volume-always-at-100]]
 
 !!! [[Chromium|https://chromium.org]]
 
@@ -52,3 +55,4 @@ title: Web Browser
 
 * [[octollection|https://addons.mozilla.org/en-US/firefox/collections/18049170/octollection]] --- my add-ons collection for Firefox
 * [[Redirector|https://einaregilsson.com/redirector/]]
+* [[Tree Style Tab|https://piro.sakura.ne.jp/xul/_treestyletab.html.en]] (for Firefox) --- //Tree Style Tab, Show tabs like a tree// --- <<[# Git "https://github.com/piroor/treestyletab">>

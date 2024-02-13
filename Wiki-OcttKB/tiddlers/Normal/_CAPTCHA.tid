@@ -1,0 +1,13 @@
+created: 20240213190801878
+creator: Octt
+modified: 20240213192937474
+modifier: Octt
+page-cover: https://source.unsplash.com/random?CAPTCHA
+tags: 
+title: CAPTCHA
+
+<<^wikipediaframe CAPTCHA>>
+
+* [[(Google) reCAPTCHA|https://developers.google.com/recaptcha/]]
+* [[hCaptcha|https://www.hcaptcha.com/]] --- emerged as a reCAPTCHA alternative a few years ago, now solidified and started experimenting with very strange verification pictures
+* [[Cloudflare Turnstile|https://www.cloudflare.com/products/turnstile/]] --- another alternative that popped up few months ago, strangely with no visual puzzle ever

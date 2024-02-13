@@ -1,6 +1,6 @@
 created: 20230417102825671
 creator: Octt
-modified: 20231221221113254
+modified: 20240213185512847
 modifier: Octt
 tags: Web
 title: RSS
@@ -12,6 +12,9 @@ title: RSS
 * [[RSSHub|https://docs.rsshub.app/]] --- //🍰 Everything is RSSible// --- <<[ "[[Git|https://github.com/DIYgod/RSSHub]]">>
 * [[RSS-Bridge|https://rss-bridge.github.io/rss-bridge]] <<[# "Main Instance" "https://rss-bridge.org/bridge01/">> --- //The RSS feed for websites missing it// --- <<[# Git"https://github.com/RSS-Bridge">>
 * [[RSS 2 HTML|https://rss.bloople.net/]] --- //PHP script to convert RSS feeds into HTML, suitable for embedding in webpages// --- <<#[ Git "https://github.com/bloopletech/rss2html">>
+
+* [[Get RSS Feed|https://www.rsslookup.com/]] --- //Helps you discover and extract RSS feeds from Apple Podcasts, Google Podcasts, SoundCloud, and blog / websites.//
+* [[RSS Lookup|https://getrssfeed.com/]] --- //A free tool to find the RSS feed for any website// --- <<[# Git "https://github.com/mratmeyer/rsslookup">>
 
 * [[Are there any constantly updating RSS feed services to use for testing, or just very active RSS feeds?|https://stackoverflow.com/questions/18202048/are-there-any-constantly-updating-rss-feed-services-to-use-for-testing-or-just]]
 ** [[Lorem RSS|https://lorem-rss.herokuapp.com/]] //Generates RSS feeds with content updated at regular intervals// --- <<[# Git"https://github.com/mbertolacci/lorem-rss">>

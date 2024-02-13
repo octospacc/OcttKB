@@ -1,6 +1,6 @@
 created: 20220923190200484
 creator: Octt
-modified: 20230221224256764
+modified: 20240213152033890
 modifier: Octt
 tags: Internet BitTorrent P2P $:/i18n:en
 title: BitTorrent
@@ -17,3 +17,10 @@ This kind of information would be usually expensive to share using a traditional
 * ''[[Transmission|https://transmissionbt.com/]]'' (Desktop, CLI) - <<[ "[[Git|https://github.com/transmission]]">>
 * ''[[qBittorrent|https://www.qbittorrent.org]]'' (Desktop, CLI) - <<[ "[[Git|https://github.com/qbittorrent]]">>
 * ''LibreTorrent'' (Android) - <<[ "[[Git|https://github.com/proninyaroslav/libretorrent]]">> [<<FDroidLink org.proninyaroslav.libretorrent>>] [<<GPlayLink org.proninyaroslav.libretorrent>>]
+
+!!! Search Engines, Aggregators, Collections
+
+* <<WikipediaL "The Pirate Bay">>
+** [[1337x]]
+* [[BTDigg|https://btdig.com/]] --- //DHT search engine// --- <<[# Tor "http://btdigggink2pdqzqrik3blmqemsbntpzwxottujilcdjfz56jumzfsyd.onion/">> <<[# Git "https://github.com/btdig">>
+** [[SolidTorrents|https://solidtorrent.to/]]

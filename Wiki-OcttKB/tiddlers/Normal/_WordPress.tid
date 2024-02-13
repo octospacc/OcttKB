@@ -1,6 +1,6 @@
 created: 20230206192842398
 creator: Octt
-modified: 20240212200822738
+modified: 20240213143244498
 modifier: Octt
 page-cover: https://source.unsplash.com/random?wordpress
 tags: Web PHP CMS
@@ -9,6 +9,7 @@ title: WordPress
 \define lwplug(slug, title) [[$title$|https://wordpress.org/plugins/$slug$]]
 
 * <<httpsL WordPress.com>> --- Corporate site and home page of the SaaS service
+** <<httpsL developer.wordpress.com>>
 * <<httpsL WordPress.org>> --- Home page of the open source project
 ** [[WordPress Developer Resources|https://developer.wordpress.org]] --- Development resources, guides, references
 ** //''[[WordPress Codex|https://codex.wordpress.org/]]'', the online manual for WordPress and a living repository for WordPress information and documentation.//

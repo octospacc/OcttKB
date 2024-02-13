@@ -1,7 +1,7 @@
 created: 20230203214532694
 creator: Octt
 icon: 🕸️
-modified: 20240129004148763
+modified: 20240213184412394
 modifier: Octt
 page-cover: https://source.unsplash.com/random?web
 tags: Internet
@@ -10,6 +10,8 @@ title: Web
 <<^wikipediaframe World_Wide_Web en>>
 
 * [[PyScript|https://pyscript.net/]] --- //Run Python in Your HTML// --- <<[# Git"https://github.com/pyscript">>
+
+* [[no-js-fixer|https://github.com/user234683/no-js-fixer]] --- //userscript fixing webpages which unnecessarily break when javascript is disabled//
 
 !! User-Agent
 
