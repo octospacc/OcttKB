@@ -1,7 +1,8 @@
 created: 20230205142456532
 creator: Octt
-modified: 20230417203556283
+modified: 20240212191508525
 modifier: Octt
+page-cover: https://source.unsplash.com/random?http
 tags: Protocol Web
 title: HTTP
 
@@ -12,6 +13,8 @@ title: HTTP
 * HTTP on... [[MDN|https://developer.mozilla.org/en-US/docs/Web/HTTP]]
 * HTTP response status codes: [[Wikipedia|https://en.wikipedia.org/wiki/List_of_HTTP_status_codes]]
 ** [[HTTP Cats|https://http.cat/]]
+** [[HTTP Status Codes Decision Diagram – Infographic|https://www.loggly.com/blog/http-status-code-diagram/]]
+* <<httpsL httpbin.org>> --- //A simple HTTP Request & Response Service//, responding with multiple things, good for testing --- <<[# Git "https://github.com/postmanlabs/httpbin">>
 
 !!! ''Features''
 

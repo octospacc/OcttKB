@@ -1,6 +1,6 @@
 created: 20231221000014083
 creator: Octt
-modified: 20231223223915590
+modified: 20240212172624550
 modifier: Octt
 title: Email
 
@@ -10,6 +10,8 @@ title: Email
 
 * [[MxToolbox|https://mxtoolbox.com/]] --- misc tools for email server administration and testing
 * [[SPF/DKIM/DMARC/DomainKey/RBL Test Online|https://appmaildev.com/]]
+
+* [[FreeLists|https://www.freelists.org/]] --- //provides the internet community with Free, no-hassle, high-quality mailing lists//
 
 !! ''Hosting and software''
 

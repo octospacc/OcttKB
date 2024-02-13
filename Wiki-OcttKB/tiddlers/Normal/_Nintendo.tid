@@ -1,6 +1,6 @@
 created: 20220923110724649
 creator: Octt
-modified: 20240128093820379
+modified: 20240212174142767
 modifier: Octt
 tags: 
 title: Nintendo
@@ -9,6 +9,9 @@ title: Nintendo
 
 * [[Pikmin Finder|https://pikmin-finder.nintendo.net/]] --- //AR experience in which you can
 find Pikmin around you using a smart device camera.// --- <<[# Announcement"https://www.nintendo.com/us/whatsnew/pikmin-finder/">>
+
+* Flipnote Studio
+** [[Sudomemo: Flipnote Hatena is back!|https://www.sudomemo.net/]] --- //Sudomemo is the place to share flipbook animations - called Flipnotes - created and posted from Flipnote Studio on the Nintendo DSi and 3DS// --- somehow I can't find the actual server source code on their Git, only other tools and minor things
 
 * <<linkdescgit "NSMB-MarioVsLuigi" "https://ipodtouch0218.itch.io/nsmb-mariovsluigi" "A standalone 2-10 player remake of the Mario vs Luigi gamemode from New Super Mario Bros DS." "https://github.com/ipodtouch0218/NSMB-MarioVsLuigi">>
 * [[Froxot Browser Games for Nintendo DSi/3DS/2DS|http://www.froxot.de/index.php]]

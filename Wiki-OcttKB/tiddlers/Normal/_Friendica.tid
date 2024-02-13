@@ -1,6 +1,6 @@
 created: 20230113105935789
 creator: Octt
-modified: 20230417200917567
+modified: 20240212172618330
 modifier: Octt
 tags: Fediverse $:/i18n:en
 title: Friendica
@@ -8,6 +8,8 @@ title: Friendica
 <<^wikipediaframe Friendica en>>
 
 * https://friendi.ca/ - <<[ "[[Git|https://github.com/friendica/friendica]]">> <<[ "[[Dev Wiki|https://github.com/friendica/friendica/wiki]]">> <<[ "[[User/Admin Wiki|https://wiki.friendi.ca/]]">> 
+
+* [[ Installation does not start, "too many redirects" error (#9649)|https://github.com/friendica/friendica/issues/9649]]
 
 !! ''API''
 

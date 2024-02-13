@@ -1,6 +1,6 @@
 created: 20230206192842398
 creator: Octt
-modified: 20240130121341180
+modified: 20240212200822738
 modifier: Octt
 page-cover: https://source.unsplash.com/random?wordpress
 tags: Web PHP CMS
@@ -19,6 +19,7 @@ title: WordPress
 * [[How to Add Code to WordPress Header and Footer|https://kinsta.com/knowledgebase/add-code-wordpress-header-footer/]]
 
 * [[Wordpress API json, how to get prev and next posts in single post?|https://stackoverflow.com/questions/42546957/wordpress-api-json-how-to-get-prev-and-next-posts-in-single-post/70410781#70410781]] --- not explicitly possible, but achievable for ordering by date, by using exclude of a pivot post id, order asc/desc, and using query after/before a certain date edge
+* [[How to Have Infinite Replies with WordPress Threaded Comments|https://www.wp-tweaks.com/how-to-have-infinite-replies-with-wordpress-threaded-comments/]] --- //WordPress doesn’t allow to have infinite replies beyond the maximum nested comment depth.// --- This PHP plugin code fixes the issue
 
 * [[WP Database Description|https://codex.wordpress.org/Database_Description]] --- //outline and description of the database tables created during the standard installation//
 
@@ -31,6 +32,7 @@ title: WordPress
 ** [[Creating Quick Blog Posts with Press This|https://make.wordpress.org/support/user-manual/posts/creating-quick-blog-posts-with-press-this/]]
 * <<lwplug writing-on-github "Writing On GitHub">> --- //A WordPress plugin to allow you writing on GitHub (or Jekyll site)//, and vice-versa --- <<[# Git"https://github.com/litefeel/writing-on-github">>
 * <<lwplug url-params "URL Params">> --- allows you to access URL parameters in the Query String of the URL via shortcodes
+* [[Friends WordPress Plugin|https://wpfriends.at/]] --- //A social network between WordPresses. Privacy focused, by itself a self-hosted RSS++ reader with notifications// --- <<[# Git "https://github.com/akirk/friends">>
 
 !!! Themes
 

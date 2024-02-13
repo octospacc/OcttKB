@@ -1,7 +1,7 @@
 created: 20230919202116604
 creator: Octt
 icon: 🏛️
-modified: 20231105113634908
+modified: 20240212171340137
 modifier: Octt
 page-cover: https://source.unsplash.com/random?forum
 tags: WIP
@@ -14,3 +14,5 @@ title: Forum
 * <<linkdescgit Flarum"https://flarum.org" "Simple forum software for building great communities." "https://github.com/flarum">>
 * [[MyBB|https://mybb.com/]] --- <<[# Git "https://github.com/mybb">>
 * [[phpBB]]
+
+* [["How do I create a GET request?" ... And here, ladies and gentlemen, you can observe a prime example of how not to create a thread.|https://gbatemp.net/threads/how-do-i-create-a-get-request.510250/]]
