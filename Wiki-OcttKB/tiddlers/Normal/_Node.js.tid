@@ -1,6 +1,6 @@
 created: 20230207185346822
 creator: Octt
-modified: 20240130143901325
+modified: 20240214234727963
 modifier: Octt
 tags: JavaScript
 title: Node.js
@@ -12,6 +12,7 @@ title: Node.js
 * [[Node.js check if path is file or directory|https://stackoverflow.com/a/43701801]]
 * [[How to copy files and folders in Node.js?|https://javascript.plainenglish.io/how-to-copy-files-and-folders-in-node-js-e37394fdf4c0]] --- //Multiple ways to copy files in Node.js//
 * [[How To Get the MIME Type of a File in Node.js|https://dev.to/victrexx2002/how-to-get-the-mime-type-of-a-file-in-nodejs-p6c]]
+* [[How to install an npm package from GitHub directly|https://stackoverflow.com/questions/17509669/how-to-install-an-npm-package-from-github-directly]] --- `npm install`... `git+https://example.com/example/repo.git` for generic Git, `example/repo#branch` for GitHub
 
 ; Docs
 : [[Node.js HTTP Module|https://www.w3schools.com/nodejs/nodejs_http.asp]]
