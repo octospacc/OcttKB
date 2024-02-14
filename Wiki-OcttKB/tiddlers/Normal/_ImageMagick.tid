@@ -1,6 +1,6 @@
 created: 20230117104437158
 creator: Octt
-modified: 20230724222006518
+modified: 20240213224615601
 modifier: Octt
 tags: $:/i18n:en
 title: ImageMagick
@@ -9,12 +9,19 @@ title: ImageMagick
 
 !!! ''How to''
 
+* [[Color Modifications|https://www.imagemagick.org/Usage/color_mods/]] --- includes [[Modulation of Brightness, Saturation, and Hue|https://www.imagemagick.org/Usage/color_mods/#modulate]]
+* [[Compositing Images|https://www.imagemagick.org/Usage/compose/]]
+
 * [[Convert pdf to pdf without losing quality|https://stackoverflow.com/questions/49899547/imagemagik-convert-pdf-to-pdf-without-doing-anything#49900085]]
 ** //you have to upsize and put density first, e.g: `convert -density 288 input.pdf -resize 25% output.pdf`//
 
 * [[Cutting and Bordering|https://www.imagemagick.org/Usage/crop/]]
 ** [[How to crop an image?|https://superuser.com/questions/1161340/how-to-crop-an-image-using-imagemagick-from-the-command-line#1161341]]
 ** The most classic crop command is `-crop <Width>x<Height>+<OffsetX>+<OffsetY>`
+
+* [[Vertically stack multiple images|https://superuser.com/questions/290656/vertically-stack-multiple-images-using-imagemagick]] --- //`convert -append in-*.jpg out.jpg`//
+
+* [[create a .png file which is just a solid rectangle|https://stackoverflow.com/questions/7771975/imagemagick-create-a-png-file-which-is-just-a-solid-rectangle#7772288]] --- //`convert -size 100x100 xc:#990000 whatever.png`//
 
 !!! ''Troubleshooting''
 

@@ -1,6 +1,6 @@
 created: 20231203235203040
 creator: Octt
-modified: 20231210224130939
+modified: 20240214002923618
 modifier: Octt
 tags: 
 title: Templating language
@@ -8,4 +8,5 @@ title: Templating language
 <<^wikipediaframe "Templating language">>
 
 * [[Liquid|https://shopify.github.io/liquid/]] (docs) --- //Safe, customer-facing template language for flexible web apps.//, as well as many static site generators --- <<[# Git"https://github.com/Shopify/liquid">>
+** [[LiquidJS|https://liquidjs.com/]] --- //A simple, expressive, safe and Shopify compatible template engine in pure JavaScript// --- <<[# Git "https://github.com/harttle/liquidjs">>
 ** [[How to concatenate / append a string to another one in Jekyll / Liquid?|https://stackoverflow.com/questions/23688939/how-to-concatenate-append-a-string-to-another-one-in-jekyll-liquid]] --- best way is `{% capture varfull %}{{ var1 }} and also {{ var2 }}{% endcapture %}`

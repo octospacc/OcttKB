@@ -1,6 +1,6 @@
 created: 20240213190801878
 creator: Octt
-modified: 20240213192937474
+modified: 20240213205744993
 modifier: Octt
 page-cover: https://source.unsplash.com/random?CAPTCHA
 tags: 
@@ -9,5 +9,6 @@ title: CAPTCHA
 <<^wikipediaframe CAPTCHA>>
 
 * [[(Google) reCAPTCHA|https://developers.google.com/recaptcha/]]
+** according to [[this support page, "Not seeing the checkbox and want an easier challenge?"|https://support.google.com/recaptcha#6262736]], while not explicitly said, I would think that there is a fallback version of reCAPTCHA for browsers without JavaScript... however, I don't think I've ever see it in practice
 * [[hCaptcha|https://www.hcaptcha.com/]] --- emerged as a reCAPTCHA alternative a few years ago, now solidified and started experimenting with very strange verification pictures
 * [[Cloudflare Turnstile|https://www.cloudflare.com/products/turnstile/]] --- another alternative that popped up few months ago, strangely with no visual puzzle ever

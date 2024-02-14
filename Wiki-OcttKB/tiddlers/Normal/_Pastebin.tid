@@ -1,10 +1,12 @@
 created: 20231211234531423
 creator: Octt
-modified: 20231211234717114
+modified: 20240213221741858
 modifier: Octt
 tags: 
 title: Pastebin
 
 <<^wikipediaframe Pastebin>>
 
+* <<httpsL Pastebin.com>>
+* [[Rocket Powered Pastebin|https://paste.rs/]] --- //Simple API. CLI. Web form. Renders Markdown. Highlights code.//
 * <<httpsL termbin.com>> --- //Netcat-based command line pastebin// --- <<[# Git"https://github.com/solusipse/fiche">>

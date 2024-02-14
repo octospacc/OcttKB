@@ -1,7 +1,7 @@
 created: 20230216214811117
 creator: Octt
 icon: ⌚
-modified: 20230223225609515
+modified: 20240213203901455
 modifier: Octt
 page-cover: https://source.unsplash.com/random/?watch
 tags: Clock
@@ -38,3 +38,5 @@ title: Watch
 
 * [[Open-SmartWatch|https://open-smartwatch.github.io/]]
 * [[PineTime|https://www.pine64.org/pinetime/]]
+
+* <<RedditL r/esp32/comments/klzru7/eink_watch_based_on_the_esp32/ "E-Ink Watch based on the ESP32">>

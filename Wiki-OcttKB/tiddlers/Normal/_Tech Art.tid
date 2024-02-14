@@ -1,6 +1,6 @@
 created: 20230504095843099
 creator: Octt
-modified: 20240107223045631
+modified: 20240213235917017
 modifier: Octt
 tags: Art
 title: Tech Art
@@ -8,6 +8,7 @@ title: Tech Art
 <<^wikipediaframe "Electronic art">>
 
 * <<linkdescgit dwitter "https://www.dwitter.net/" "Social network for short js demos" "https://github.com/lionleaf/dwitter">> --- <<[# "Frontend Git" "https://github.com/dwitter-net/dwitter-frontend">>
+* [[WAB.com Web Demo Archive|https://wab.com/]] --- mainly old-style Amiga-style demos recreated for Web
 
 !!! Fractal
 
@@ -23,6 +24,7 @@ Some interesting tech art pieces follow.
 * [[Blob Opera|https://g.co/arts/6tBHA7mJESJtirzF9]] --- //Create your own ML-powered opera song!//
 * [[If the Moon Were Only 1 Pixel|https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html]] --- //A tediously accurate map of the solar system//
 * [[Internet Explorer 6 Error|https://mrdoob.com/lab/javascript/effects/ie6/index.html]]
+* [[Introlux (Genesis Project)|https://gubbdata.se/downloads/gubbdata2015/introlux/index2.html]] --- //A HTML5/CSS3 web browser intro by Genesis Project for Gubbdata 2015 in Lund, Sweden//
 * [[neal – Space Elevator|https://neal.fun/space-elevator]]
 * [[Arktis – Tweet Demo|https://arkt.is/t/Yy53aWR0aD0yZTM7dCo9Mzt4LnRyYW5zbGF0ZSg5ODAsNDUwKTtmb3IoaT0wO2k8MzIyOyl4LmZpbGxTdHlsZT1SKGkpLHgucm90YXRlKCFpKkModC09LjAzKSshKGkrKyU0KSpTKHQpLzkrMS41NykseC5maWxsUmVjdCg1KmksNSppLDk5LDk5KQ==]] --- <<[# Git "https://github.com/sigvef/arktis-tweet-demo">>
 * [[http error CSS cube|https://web.archive.org/web/20231121232217/https://xyz.is/]] (info unknown)

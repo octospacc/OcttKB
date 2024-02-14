@@ -1,6 +1,6 @@
 created: 20230216193546517
 creator: Octt
-modified: 20231221185526833
+modified: 20240213225758349
 modifier: Octt
 tags: 
 title: Language
@@ -21,10 +21,10 @@ title: Language
 
 * //''[[Glosbe|https://glosbe.com/]]'' is the biggest community-built dictionary.//
 * //''[[Tatoeba|https://tatoeba.org/]]'' is a collection of sentences and translations. It's collaborative, open, free and even addictive.// --- <<[# Git"https://github.com/Tatoeba">>
-
 * [[Il gender e la traduzione di videogiochi — Outcast|https://www.outcast.it/home/il-gender-e-la-traduzione-di-videogiochi]] - <<mywarc 423>>
 
 ; Tools
-: Machine translation: <<httpsL DeepL.com>> | <<httpsL Translate.Google.com>>
+: Machine translation: <<httpsL DeepL.com>> | <<httpsL Translate.Google.com>> | ...
 :* <<linkdescgit "Lingva Translate" "https://lingva.ml" "Self-hostable alternative front-end and API for Google Translate" "https://github.com/TheDavidDelta/lingva-translate">> <<[# "Scraper Git" "https://github.com/thedaviddelta/lingva-scraper">> --- note: the official instance appears broken, returning error for translations with specific characters, and also less metadata from the API, problems that some other public instances don't have (official may be running an older version?)
 :* <<linkdesc Mozhi"https://codeberg.org/aryak/mozhi" "alternative-frontend for many translation engines">> <<[# "Scraper Git" "https://codeberg.org/aryak/libmozhi">> (Google support broken as of 2023/11)
+:* [[Yandex Translate|https://translate.yandex.com/]] --- had OCR on web before Google

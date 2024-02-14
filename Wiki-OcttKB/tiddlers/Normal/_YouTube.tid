@@ -1,6 +1,6 @@
 created: 20230109104559438
 creator: Octt
-modified: 20240213155341889
+modified: 20240213220045570
 modifier: Octt
 page-cover: https://source.unsplash.com/random?YouTube
 tags: Internet TODO $:/i18n:en
@@ -9,7 +9,11 @@ title: YouTube
 <<^wikipediaframe YouTube>>
 
 * [[/watch?v=|https://www.youtube.com/watch?v=]] --- as of December 2023, this URL loads the video <<YoutubeL 9xp1XWmJ_Wo "YouTube is not currently available on this device.">> (directly, without redirects)
+** there was also `/watc` (see "[[What could ever happen? It's just YouTube without a video ID. Right?|https://feddit.it/post/32536]]", "<<YoutubeL KTsS0fPfNRk "YouTube's Satanic Link Glitch (666)">>") which used to redirect to a 666 video, now apparently it got patched and just does a 404
 * [[Infinite-Storage-Glitch|https://github.com/DvorakDwarf/Infinite-Storage-Glitch]] - //Use YouTube as cloud storage for any files// - <<[ "[[Mirror|https://gitea.it/octo/Infinite-Storage-Glitch]]">>
+* [[Tammy AI|https://tammy.ai/]] --- //Too Long; Didn't Watch?
+Save Time on
+YouTube with AI summaries//
 
 !!! Frontends
 

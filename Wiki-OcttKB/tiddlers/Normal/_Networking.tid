@@ -1,6 +1,6 @@
 created: 20231222123820453
 creator: Octt
-modified: 20240127231310608
+modified: 20240213213308537
 modifier: Octt
 tags: 
 title: Networking
@@ -8,6 +8,8 @@ title: Networking
 <<^wikipediaframe "Telecommunications network">>
 
 !!! Resources
+
+* <<WikipediaL RONJA>> (Reasonable Optical Near Joint Access) --- free-space optical communication system originating in the Czech Republic, developed by Karel Kulhavý of Twibright Labs and released in 2001. It transmits data wirelessly using beams of light
 
 * [[Port Forwarding without delay and high fps in a real time live stream using socat|https://unix.stackexchange.com/questions/454157/port-forwarding-without-delay-and-high-fps-in-a-real-time-live-stream-using-soca]]
 ** socat is not good for this, better to use iptables (if only it was working...), or firewalld: eg. `firewall-cmd --add-forward-port=port=80:proto=tcp:toport=8080`
