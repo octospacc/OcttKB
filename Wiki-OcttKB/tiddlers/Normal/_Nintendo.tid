@@ -1,6 +1,6 @@
 created: 20220923110724649
 creator: Octt
-modified: 20240213220756502
+modified: 20240219104114718
 modifier: Octt
 tags: 
 title: Nintendo
@@ -12,6 +12,7 @@ find Pikmin around you using a smart device camera.// --- <<[# Announcement"http
 
 * Flipnote Studio
 ** [[Sudomemo: Flipnote Hatena is back!|https://www.sudomemo.net/]] --- //Sudomemo is the place to share flipbook animations - called Flipnotes - created and posted from Flipnote Studio on the Nintendo DSi and 3DS// --- somehow I can't find the actual server source code on their Git, only other tools and minor things
+** [[Playnote Studio|https://playnote.studio/]] --- //An unofficial Flipnote animation player for the Panic Playdate// --- <<[# Git "https://github.com/jaames/playnote-studio">>
 
 * [[Links-Awakening-DX-HD|https://github.com/ihm-tswow/Links-Awakening-DX-HD]] --- open source fan-made Zelda game of the same title, taken down but preserved
 
