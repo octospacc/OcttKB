@@ -1,0 +1,10 @@
+created: 20240220125211093
+creator: Octt
+modified: 20240220125426830
+modifier: Octt
+tags: 
+title: LaTeX
+
+* [[LaTeXDoc|https://latexdoc.com/]] --- //Get your latex solution for your document//
+
+* [[Logic operators (And, Or, Not, and Xor) in LaTeX|https://latexdoc.com/logic-operators-in-latex/]] --- `\l<operator>`

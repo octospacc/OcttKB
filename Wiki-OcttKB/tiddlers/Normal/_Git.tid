@@ -1,6 +1,6 @@
 created: 20230202231537773
 creator: Octt
-modified: 20231213000353049
+modified: 20240220124909800
 modifier: Octt
 tags: Libre
 title: Git
@@ -15,6 +15,7 @@ title: Git
 * [[How to modify existing, unpushed commit messages?|https://stackoverflow.com/questions/179123/how-to-modify-existing-unpushed-commit-messages#179147]]
 ** Amending the ''most recent commit message'': `git commit --amend` (with optionally `-m "commit message"`)
 * [[How to delete all commits in a Git repository and replace it with a single “initial commit”|https://lanedirt.tech/2022/05/how-to-delete-all-commits-in-a-git-repository-and-replace-it-with-a-single-initial-commit/]]
+* [[Managing remote repositories with CLI (by GitHub)|https://github.com/github/docs/blob/main/content/get-started/getting-started-with-git/managing-remote-repositories.md]]
 
 * <<httpsL raw.githack.com>> --- //CDN for your source code, serves files directly from your source code hosting with proper Content-Type headers// --- <<[# Git"https://github.com/neoascetic/rawgithack">>
 

@@ -1,6 +1,6 @@
 created: 20230203223711243
 creator: Octt
-modified: 20240212172304596
+modified: 20240222122909742
 modifier: Octt
 tags: $:/i18n:en Information Knowledge
 title: Wiki
@@ -12,6 +12,8 @@ title: Wiki
 * //''[[BookStack|https://www.bookstackapp.com/]]'' is a simple, self-hosted, easy-to-use platform for organising and storing information.// --- <<[# Git"https://github.com/BookStackApp">>
 * [[DokuWiki|https://www.dokuwiki.org/]] --- //simple to use and highly versatile Open Source wiki software that doesn't require a database// --- <<[# Git "https://github.com/dokuwiki/">>
 ** <<dkwkorgL "config:useslash">> --- option allowing to use `/` slashes as directory separators in URLs, additionally to the standard `:` column
+** <<dkwkorgL "plugin:mathjax">> --- //Enables MathJax parsing of TeX math expressions in wiki pages//
+** <<dkwkorgL "plugin:widearea">> --- //Adds a very small icon in the top right of the edit box. Click on the icon to expand into the fullpage view.//
 * [[MediaWiki]]
 * [[TiddlyWiki]]
 * [[WikiDocs|https://www.wikidocs.it/]] --- //📗 Just a databaseless markdown flat-file wiki engine// --- <<[# Git "https://github.com/Zavy86/WikiDocs">>

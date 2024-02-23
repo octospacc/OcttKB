@@ -1,6 +1,6 @@
 created: 20231221001636851
 creator: Octt
-modified: 20231222115805983
+modified: 20240222123632488
 modifier: Octt
 tags: 
 title: Linux/Distros
@@ -8,6 +8,9 @@ title: Linux/Distros
 <<^wikipediaframe "Linux distro">>
 
 * [[tomsrtbt (Tom's floppy which has a root filesystem and is also bootable.)|http://www.toms.net/rb/]] --- //"The most GNU/Linux on 1 floppy disk."//
+
+* [[Linuxfx|https://www.linuxfx.org/]] --- sussy Ubuntu-based distro with KDE desktop, seems partially closed source in nature or something, copies some Windows features, including DRM
+** [[Wubuntu|https://www.wubuntu.org/]] --- //The Windows Ubuntu Operating System// --- I have no words for this, it's the above but copying Windows look
 
 * [[distro Linux vs generi, trova le differenze|https://octospacc.altervista.org/2023/12/20/690/]]
 
