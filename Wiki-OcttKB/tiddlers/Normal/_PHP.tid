@@ -1,10 +1,11 @@
 created: 20231220005125463
 creator: Octt
-modified: 20231220005200282
+modified: 20240226135619720
 modifier: Octt
 tags: 
 title: PHP
 
 <<^wikipediaframe PHP>>
 
-* [[PHP: Find all images in a HTML string|https://thisinterestsme.com/php-get-images-from-html/]]
+* [[How to get innerHTML of DOMNode?|https://stackoverflow.com/questions/2087103/how-to-get-innerhtml-of-domnode]]
+* [[Find all images in a HTML string|https://thisinterestsme.com/php-get-images-from-html/]]

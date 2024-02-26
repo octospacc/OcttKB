@@ -1,6 +1,6 @@
 created: 20220921110925268
 creator: Octt
-modified: 20231219000236306
+modified: 20240226134713931
 modifier: Octt
 title: Music
 
@@ -8,6 +8,9 @@ title: Music
 
 * [[Sonic Pi|https://sonic-pi.net/]] --- //Experience the sound of code// ... //your free code-based music creation and performance tool// --- <<[# Git "https://github.com/sonic-pi-net">>
 ** [[mehackit Creative programming workshop with Sonic Pi|https://sonic-pi.mehackit.org/]]
+
+* [[Chip Player JS|https://chiptune.app/]]
+* [[signal|https://signal.vercel.app/]] --- //Fully Open-sourced Online MIDI Editor// --- <<[# Git "https://github.com/ryohey/signal/">>
 
 The section immediately below doubles as a collection of my ''Favorite Artists + their Works''
 

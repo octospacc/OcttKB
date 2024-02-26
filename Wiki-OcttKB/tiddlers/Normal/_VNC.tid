@@ -1,6 +1,6 @@
 created: 20230205142158067
 creator: Octt
-modified: 20230531090610531
+modified: 20240226132037874
 modifier: Octt
 tags: TODO Protocol [[Astral projection]]
 title: VNC
@@ -9,3 +9,4 @@ title: VNC
 
 * AVNC: [[Git|https://github.com/gujjwal00/avnc]] | <<FDroidLink com.gaurav.avnc>> | <<GPlayLink com.gaurav.avnc>>
 * [[noVNC|https://github.com/novnc/]] --- //VNC client web application//
+* [[TightVNC|https://www.tightvnc.com/]] --- //VNC-Compatible Free Remote Desktop Software//

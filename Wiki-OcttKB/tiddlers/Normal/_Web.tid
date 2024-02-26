@@ -1,7 +1,7 @@
 created: 20230203214532694
 creator: Octt
 icon: 🕸️
-modified: 20240213204912403
+modified: 20240226131432920
 modifier: Octt
 page-cover: https://source.unsplash.com/random?web
 tags: Internet
@@ -44,6 +44,7 @@ title: Web
 * [[Blogger|https://blogger.com]] (Google) --- //Create a unique and beautiful blog easily.//
 ** [[Dynamic Views: seven new ways to share your blog with the world|https://blogger.googleblog.com/2011/09/dynamic-views-seven-new-ways-to-share.html]]
 *** [[How to customize Blogger's Dynamic Views templates|https://blog.mridey.com/2015/08/how-to-customize-bloggers-dynamic-views.html]] --- //Dynamic Views uses a token based template format...//
+* [[Pico|https://picocms.org/]] --- //stupidly simple, blazing fast, flat file CMS// --- <<[# Git "https://github.com/picocms/Pico">>
 * [[WordPress]]
 * [[werc - A sane web anti-framework|http://werc.cat-v.org/]] --- //Bringing minimalism and sanity to the web// --- Has interesting features with a fixed but style-customizable layout, + support for apps and extensions.
 * [[H5P|https://h5p.org/]] --- //Create, share and reuse interactive HTML5 content in your browser//

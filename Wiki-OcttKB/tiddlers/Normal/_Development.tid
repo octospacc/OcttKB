@@ -1,6 +1,6 @@
 created: 20230613185754543
 creator: Octt
-modified: 20240201231333586
+modified: 20240226134113834
 modifier: Octt
 tags: 
 title: Development
@@ -41,3 +41,5 @@ title: Development
 * [[GPL and Linking Exceptions|https://opensource.stackexchange.com/questions/14122/gpl-and-linking-exceptions]]
 ** //You can use LGPLv3 with the [[LGPL-3.0-linking-exception|https://spdx.org/licenses/LGPL-3.0-linking-exception.html]]//
 * [[What does "GPL with classpath exception" mean in practice?|https://softwareengineering.stackexchange.com/questions/119436/what-does-gpl-with-classpath-exception-mean-in-practice]]
+
+* [[Mixed C and Assembly Programming|https://en.wikibooks.org/wiki/Embedded_Systems/Mixed_C_and_Assembly_Programming]]

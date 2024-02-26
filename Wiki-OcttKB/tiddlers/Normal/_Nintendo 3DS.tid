@@ -1,6 +1,6 @@
 created: 20220923110724649
 creator: Octt
-modified: 20240107114401734
+modified: 20240226140010084
 modifier: Octt
 tags: Gaming Nintendo Console Handheld
 title: Nintendo 3DS
@@ -10,6 +10,7 @@ title: Nintendo 3DS
 <<^wikipediaframe "Nintendo 3DS">>
 
 * [[Universal-Updater|https://universal-team.net/projects/universal-updater.html]] --- //An easy to use app for installing and updating 3DS homebrew// --- <<[# Git"https://github.com/Universal-Team/Universal-Updater">>
+* [[3DSlink|https://davejmurphy.com/3dslink/]] --- LAN homebrew loader
 
 * <<l3db Gamecards>>
 

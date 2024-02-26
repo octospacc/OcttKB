@@ -1,6 +1,6 @@
 created: 20230207213320932
 creator: Octt
-modified: 20231213002131171
+modified: 20240226143018737
 modifier: Octt
 tags: Microsoft Proprietary OS
 title: Windows
@@ -11,7 +11,9 @@ title: Windows
 * [[Convert an existing Windows 10 Installation from Legacy BIOS to UEFI|https://answers.microsoft.com/en-us/windows/forum/all/convert-an-existing-windows-10-installation-from/aa8c2de3-460b-4a8c-b30b-641405f800d7]]
 * <<RedditL r/windowsxp/comments/wwjy5j/windows_xp_web_activation_is_finally_dead/ilmr5s3/ "Windows XP web activation is finally dead…">> thanks to a program generating phone activation keys: [[xp_activate32.exe.zip|https://archive.org/download/xp_activate32_202305/xp_activate32.zip]]
 ** should be investigated if the program is based at least in part on this available [[open source code|https://github.com/TheMCHK/WindowsXPKg]] ([[Endermanch fixed and extended fork here|https://github.com/Endermanch/XPKeygen]]) and [[paper|https://www.licenturion.com/xp/fully-licensed-wpa.txt]]
-* [[How To Extend Windows Server Evaluation|https://petri.com/how-to-extend-windows-server-evaluation/]] --- TLDR: a bit before the 180-day trial ends, run `slmgr -rearm` (it can be used a max of 6 times, so only to get a maximum of 3 extra trial years)
+* [[How To Extend Windows Server Evaluation|https://petri.com/how-to-extend-windows-server-evaluation/]] --- TLDR: a when the 180-day trial ends (apparently it works even after), run `slmgr -rearm` (it can be used a max of 6 times, so only to get a maximum of 3 extra trial years)
+** [[Windows Server 2019 Datacenter what happen after 180 days trial?|https://learn.microsoft.com/en-us/answers/questions/133461/windows-server-2019-datacenter-what-happen-after-1]]
+* [[How to disable CompatTelRunner.exe (Microsoft Compatibility Telemetry)?|https://superuser.com/questions/1613932/how-to-disable-compattelrunner-exe-microsoft-compatibility-telemetry]]
 
 !! ''Resources'' for the platform
 
