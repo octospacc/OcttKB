@@ -1,0 +1,12 @@
+created: 20240329115719951
+creator: Octt
+modified: 20240329120035169
+modifier: Octt
+tags: 
+title: Diagrams
+
+<<^WikipediaFrame "Diagrams">>
+
+!!! <<^WikipediaFrame "Sankey diagram" en Sankey>>
+
+* [[SankeyMATIC|https://www.sankeymatic.com/]] --- //Make beautiful flow diagrams//
