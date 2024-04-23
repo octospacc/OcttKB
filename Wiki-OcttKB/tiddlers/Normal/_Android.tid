@@ -1,7 +1,7 @@
 created: 20230202230035698
 creator: Octt
 icon: 🤖
-modified: 20240128202016631
+modified: 20240423222710949
 modifier: Octt
 page-cover: https://source.unsplash.com/random?android
 tags: OS Google Linux
@@ -48,6 +48,7 @@ title: Android
 * https://www.bluestacks.com/
 * ''[[WayDroid|https://waydro.id/]]'' - //container-based approach to boot a full Android system on a regular GNU/Linux system// - [[[Git|https://github.com/waydroid]]]
 * [[docker-android|https://github.com/budtmo/docker-android]] --- //Android in docker solution with noVNC supported and video recording// --- Many system options but subpar performance (high latency) and weird UI, don't reccomend.
+* [[Trinity Emulator: High-Performance Mobile Emulation through Graphics Projection|https://trinityemulator.github.io/]] --- //Android emulator designed to simultaneously meet the goals of good compatibility, security and efficiency with the novel notion of graphics projection space.// --- <<[# Git "https://github.com/TrinityEmulator">>
 
 * [[VirtualXposed|https://vxposed.com/]] --- Secondary app container for Android with virtualized root access (totally broken on Android >= 12) --- <<#[ Git "https://github.com/android-hacker/VirtualXposed">>
 * [[VMOS|https://www.vmos.com/]], VPhoneGaga --- Apps for virtualizing an almost-full Android system with only userspace access (apparently don't work on Android 13+)

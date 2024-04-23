@@ -1,7 +1,7 @@
 created: 20230111153758951
 creator: Octt
 icon: 🐧
-modified: 20240213224741044
+modified: 20240423222917329
 modifier: Octt
 page-cover: https://images.unsplash.com/photo-1549605659-32d82da3a059?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 tags: $:/i18n:en Unix
@@ -33,6 +33,7 @@ title: Linux
 * [[systemd-nspawn|https://wiki.archlinux.org/title/Systemd-nspawn]] --- //chroot on steroids// for systemd hosts and guests.
 ** Quick boot a mounted rootfs: `-b -D ${rootfs path}`.
 ** Kill booted container from shell: hold Ctrl and quickly press ] for 3 times.
+* [[JSLinux Mobile – Linux for iOS|https://jm.iq.pl/jslinux-mobile-linux-for-ios/]] --- //a mobile version of a PC emulator written in Javascript, with a running, fully functional Linux system// --- <<[# Git "https://github.com/jaromaz/jslinux-mobile">>
 
 * [[Running a script every time a new kernel is installed|https://unix.stackexchange.com/questions/30320/running-a-script-every-time-a-new-kernel-is-installed]] --- Just place a sh script in `/etc/kernel/postinst.d/` (with the correct filename order).
 

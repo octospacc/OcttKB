@@ -1,6 +1,6 @@
 created: 20230117105218211
 creator: Octt
-modified: 20230823232212160
+modified: 20240423224106558
 modifier: Octt
 tags: TODO $:/i18n:en
 title: Pseudo-OS
@@ -9,5 +9,13 @@ A ''pseudo-operating-system'' is a software that acts (in a limited way) like an
 
 !!! ''Here are some''
 
+* [[CloudDesk/Altaica|https://altaica.altervista.org/]] --- //online desktop made for multi-tasking, with multiple useful tools// --- 
 * [[daedalOS|daedalOS]]
+* [[MainOS (Maingron OS)|https://maingron.com/about_mainos]] --- //web-based Operating System// --- <<[# Git "https://github.com/Maingron/MainOS">>
 * ''OS.js'': [[Website|https://www.os-js.org]] | [[Demo|https://demo.os-js.org]] | [[Git|https://github.com/os-js]]
+* [[Puter|https://github.com/HeyPuter]] --- //The Open-Source Internet OS!//
+* [[RebornXP|https://rebornxp.js.org/]] --- // The nostalgic Windows XPerience right in your browser!// --- <<[# Git "https://github.com/shoaib-jamal/rebornxp">>
+* [[web3os|https://web3os.sh]] --- //The OS for the next web// --- <<[# Git "https://github.com/web3os-org">>
+* [[WebSystem OS|https://websystem.natelev.in/]] --- //A web-based operating system taking advantage of bleeding edge web technologies.// --- <<[# Git "https://github.com/NateLevin1/websystem">>
+* [[WINDOWS93|https://www.windows93.net/]]
+* //[[Compare different web-os: node-os, OS13k, web3os, meeseOS etc... for os-js #822|https://github.com/os-js/OS.js/discussions/822]]//
